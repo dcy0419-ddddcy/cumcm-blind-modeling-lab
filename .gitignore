@@ -1,0 +1,26 @@
+# Local blind-ID mapping must never be pushed.
+tools/blind_mapping.local.json
+管理员区/
+
+# Download and render intermediates.
+tmp/
+
+# Original year-first source archive is retained locally; GitHub uses 题库/ instead.
+/2021/
+/2022/
+/2023/
+/2024/
+/2025/
+
+# Local execution outputs and caches.
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Office temporary files.
+~$*
+
+# Local blind-run workspaces.
+盲解运行区/
