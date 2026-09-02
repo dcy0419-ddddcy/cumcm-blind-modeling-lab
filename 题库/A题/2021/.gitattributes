@@ -1,0 +1,8 @@
+# Preserve the byte-exact frozen blind-solution artifacts across checkouts.
+解题过程/*.md -text whitespace=trailing-space,space-before-tab,cr-at-eol
+实验配置.md -text
+src/* -text
+outputs/* -text whitespace=trailing-space,space-before-tab,cr-at-eol
+冻结清单.sha256 -text
+figures/* binary
+result.xlsx binary
