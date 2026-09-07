@@ -1,0 +1,14 @@
+{
+  "created": "2026-09-05T11:30:05.910284+08:00",
+  "runner": "工作记录/诊断代码/q02_prototype_run_v003.py",
+  "runner_sha256": "b7bd1c40e7008e3f94dc4d28bbf5bca061dbc2a592d8cf76edb6bc2a1889011d",
+  "config_sha256": "aecb12edf0e3ac5eba9f3d3079f0fca84601a9f230cd8e5131230c915c7d8f26",
+  "previous_runner": "q02_prototype_run_v002.py",
+  "revision_reason": "PermissionError WinError5 replacing budget checkpoint; bounded 8-attempt retry with 0.05-0.8s waits; pending-budget guard added",
+  "physical_numerical_layout_configs_changed": false,
+  "validated_core_changed": false,
+  "old_failed_attempt": "运行-diagnostics-attempt1.json",
+  "existing_complete_combination_files": 5,
+  "recovery": "keep all complete combination files matching original config+design hashes, skip them; no nested samples added twice",
+  "unknown_cause": "file replacement temporarily denied; locking/sync cause not independently established"
+}

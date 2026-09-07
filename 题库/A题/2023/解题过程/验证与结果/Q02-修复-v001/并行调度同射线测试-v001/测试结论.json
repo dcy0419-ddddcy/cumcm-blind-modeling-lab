@@ -1,0 +1,534 @@
+{
+  "version": "q02-repair-parallel-v001",
+  "all_pass": true,
+  "checks": [
+    {
+      "time": 0,
+      "item": "key_sets",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_sums",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_cross",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_counts",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_unknown_weights",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_known_capture_weights",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_cosine",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_tau",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_dni",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_areas",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_candidate_counts",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_source_0_o",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_source_0_s",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_source_0_g",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_0_S",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_0_B",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_0_R",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_0_unknown",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_0_incoming_object",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_0_blocking_object",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_0_receiver_kind",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_source_1476_o",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_source_1476_s",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_source_1476_g",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_1476_S",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_1476_B",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_1476_R",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_1476_unknown",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_1476_incoming_object",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_1476_blocking_object",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_1476_receiver_kind",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_source_2951_o",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_source_2951_s",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_source_2951_g",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_2951_S",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_2951_B",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_2951_R",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_2951_unknown",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_2951_incoming_object",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_2951_blocking_object",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "serial_parallel_event_2951_receiver_kind",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "existing_fine_sums",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "existing_fine_cross",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "existing_fine_counts",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "existing_fine_unknown_weights",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "existing_fine_known_capture_weights",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "existing_fine_cosine",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "existing_fine_tau",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "existing_fine_areas",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "existing_fine_candidate_counts",
+      "pass": true
+    },
+    {
+      "time": 0,
+      "item": "selected_mirror_pooled_power",
+      "pass": true,
+      "serial_kw": 42.6616009850484,
+      "parallel_kw": 42.6616009850484,
+      "scope": "three selected mirrors only, not whole-field power"
+    },
+    {
+      "time": 59,
+      "item": "key_sets",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_sums",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_cross",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_counts",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_unknown_weights",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_known_capture_weights",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_cosine",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_tau",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_dni",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_areas",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_candidate_counts",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_source_0_o",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_source_0_s",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_source_0_g",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_0_S",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_0_B",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_0_R",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_0_unknown",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_0_incoming_object",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_0_blocking_object",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_0_receiver_kind",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_source_1476_o",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_source_1476_s",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_source_1476_g",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_1476_S",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_1476_B",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_1476_R",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_1476_unknown",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_1476_incoming_object",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_1476_blocking_object",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_1476_receiver_kind",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_source_2951_o",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_source_2951_s",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_source_2951_g",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_2951_S",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_2951_B",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_2951_R",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_2951_unknown",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_2951_incoming_object",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_2951_blocking_object",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "serial_parallel_event_2951_receiver_kind",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "existing_fine_sums",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "existing_fine_cross",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "existing_fine_counts",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "existing_fine_unknown_weights",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "existing_fine_known_capture_weights",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "existing_fine_cosine",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "existing_fine_tau",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "existing_fine_areas",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "existing_fine_candidate_counts",
+      "pass": true
+    },
+    {
+      "time": 59,
+      "item": "selected_mirror_pooled_power",
+      "pass": true,
+      "serial_kw": 45.11473700042649,
+      "parallel_kw": 45.11473700042649,
+      "scope": "three selected mirrors only, not whole-field power"
+    }
+  ],
+  "serial_seconds": 0.8740957999834791,
+  "parallel_seconds_including_four_process_start_and_join": 7.727701800002251,
+  "scheduler_sha": "bc0d145de0c9485165160a037566ac823c33d2ad828d7cd086ab4f58628f03f8",
+  "engine_sha": "5a17a2a77f9cd6f4cdc0f35fa7cef194262ee9d96f1d6ee2fb3e9991dc19ee09",
+  "fast_sha": "84195cbd2395e8bf6d09c7189a5b158acd1373db2836903f648bdce9aca98e09",
+  "budget_phase": "confirmation",
+  "performance_scope": "tiny correctness test; startup-dominated, not a full-confirmation speed guarantee",
+  "frozen_preflight_binding": {
+    "frozen_candidate_sha256": "0150486522d63548b31e12de00bfac867bfae4b50e1de4f64cfcffbcb54fa7ca",
+    "frozen_name": "R027",
+    "scope": "post-freeze scheduling validation; replay R023 search streams only; no new candidate scoring or selection"
+  }
+}

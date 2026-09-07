@@ -1,0 +1,9 @@
+{
+  "exact_old_source_restored": true,
+  "changes": [
+    "output directory/budget binding",
+    "budget guards before chunk reconstruction and stacking"
+  ],
+  "physics_statistics_unchanged": true,
+  "no_new_numeric_kernel": true
+}

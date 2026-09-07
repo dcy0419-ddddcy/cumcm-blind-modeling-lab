@@ -1,0 +1,142 @@
+{
+  "source": "工作记录/论文/第2问-模型建立与求解-v002.md",
+  "source_sha256": "eb30650b30f15035e8d8e486a5df53b76022c37dcd411a5b34fa9931500cbd56",
+  "tex": "工作记录/论文/LaTeX/第2问-模型建立与求解-v002.tex",
+  "tex_sha256": "6a666b85f94f2ca114a071a8198fbb90763094ac1a819362aa1804bbb48eef25",
+  "pdf": "工作记录/论文/LaTeX/第2问-模型建立与求解-v002.pdf",
+  "pdf_sha256": "664e7e4e03ac65637a548dc95271ae32779295ec8b3ea4774c4841002e390c5b",
+  "log_sha256": "d7b39b2853f0637f6b09537b5fc46c28ab3f4a170085dd5f194de32ed240d401",
+  "pages": 18,
+  "rendered_pages": 18,
+  "page_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "render_directory": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003",
+  "contact_sheets": [
+    "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/contact-01.png",
+    "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/contact-05.png",
+    "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/contact-09.png",
+    "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/contact-13.png",
+    "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/contact-17.png"
+  ],
+  "page_files": [
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-01.png",
+      "sha256": "ce8e10228a969760d30eb6a0f48f7a6d0a82b3155b729f7271ec893cf0bd10c8"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-02.png",
+      "sha256": "8f0dbfb147113e24b0414bd8a8ca6131d635e56e035980e7afd5703f3a46644c"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-03.png",
+      "sha256": "2ac2856842643848d6b416dd683370ae5a9cdbf0a6eff220e74cd767a521aa52"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-04.png",
+      "sha256": "8475c6031181ab0c22bf3d27dd67072a4a5fa5406610b28e67a819af3e8234f5"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-05.png",
+      "sha256": "b3dbcf2bc3fece9c56ee1a7d6a9df30a9d1335e33b82f723e1b6f4164d70acc0"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-06.png",
+      "sha256": "c8de6da4aea03bac60d90826a9cfa6b30392e8390f69db1999f92062a9633f9d"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-07.png",
+      "sha256": "1576c21a61c4587c28d1c5891f3f21f923eae91b42c8898644c3d1fa9ea4920b"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-08.png",
+      "sha256": "47e52386b5d412be0d97ae59c6fd6b9499b0ea82d4b9372cff0927cd3b1fc418"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-09.png",
+      "sha256": "c2e21448c4ae48c98643196f53cde2849760d5282b647a1a003a2fda2d4a9982"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-10.png",
+      "sha256": "9dd4afc1ff84a0caba6143b644051606c2667fd3d852ba747ce262bec807a3d5"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-11.png",
+      "sha256": "4f2f0a6a9cce10cfdd489b766a7ef57c99b89e04226d754451a84da5f0886ad0"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-12.png",
+      "sha256": "4bc7a08419a97845e3c0ef0e4a3c0701b28bcfc7d513393277c569243dc7897c"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-13.png",
+      "sha256": "d6073cb92e59ed822ea815e2e5f66c9e21431d414fd990dfdd2ff6801fbe1a58"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-14.png",
+      "sha256": "fac4550796d6914302fbcf1da75a094e74a140a3997f73a866ecdef863210227"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-15.png",
+      "sha256": "b3719bd8b0e43c38d636582b90e59bfe7bbfbe5e63d3afff838ce9ad2ae878a8"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-16.png",
+      "sha256": "f8e9decf1227375e1848bcde1c0623473b10ca64d7be378553071a7cdbf2d86f"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-17.png",
+      "sha256": "386e4604f1af2224f59ccadb767c6aed0e27f08a26fd6a81b24db43307af1a38"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第2问-修复稿-v002-页面核验/attempt-003/page-18.png",
+      "sha256": "9bd887b47be7b269e242c30f2f9c36645e18efcffa2f760c79de2e9e960e0bd9"
+    }
+  ],
+  "tex_log_flags": [
+    "LaTeX Warning"
+  ],
+  "render_stderr_bytes": 0,
+  "text_stderr_bytes": 0,
+  "commands": [
+    [
+      "pdftoppm",
+      "-r",
+      "90",
+      "-png",
+      "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\论文\\LaTeX\\第2问-模型建立与求解-v002.pdf",
+      "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\论文\\LaTeX\\第2问-修复稿-v002-页面核验\\attempt-003\\page"
+    ],
+    [
+      "pdftotext",
+      "-layout",
+      "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\论文\\LaTeX\\第2问-模型建立与求解-v002.pdf",
+      "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\论文\\LaTeX\\第2问-修复稿-v002-页面核验\\attempt-003\\PDF文本.txt"
+    ]
+  ],
+  "markdown_counts": {
+    "math_display_blocks": 31,
+    "tables": 10,
+    "figures": 2
+  },
+  "visual_inspection": "pending human/model inspection; page counting is not visual QA",
+  "old_renderings_overwritten": false,
+  "new_optical_rays": 0
+}

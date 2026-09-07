@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-09-06T00:19:19.124740+08:00",
+  "all_pass": true,
+  "final_control_hashes_match": true,
+  "stage_hash_match": true,
+  "new_stage_and_status_links": 19,
+  "missing_links": [],
+  "accepted_baseline_files_unchanged": 16,
+  "full_paper_and_candidate_accepted_by_user": false,
+  "formal_freeze": false,
+  "reference_original_read_pages": 0,
+  "reference_original_learning_status": "待材料",
+  "package_readonly_check": "572 files all hashes pass; no changes after formation"
+}

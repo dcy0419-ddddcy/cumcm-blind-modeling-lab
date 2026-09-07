@@ -1,0 +1,2393 @@
+{
+  "all_pass": false,
+  "checks": [
+    {
+      "name": "numeric_gates_are_separate_and_passed",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_source_q02_repair_engine_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_source_q02_repair_common_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_source_q02_fast_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_source_q02_compact_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_source_q02_search_summary_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_source_q02_hex_bands_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_source_q02_repair_run_v003.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_source_q02_repair_parallel_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_source_q02_repair_confirm_parallel_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "actual_excel_exact_frozen",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "all_pages_rendered",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "pdf_matches_render",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "visual_evidence_matches_pdf",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "paper_and_tex_bound",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "document_exists_Q02-可行性修复与独立确认-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-可行性修复与独立确认-v001.md:table_header_21",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-可行性修复与独立确认-v001.md:link:../诊断结果/Q02-修复-v001/实际候选比较.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-可行性修复与独立确认-v001.md:link:../诊断结果/Q02-修复-v001/独立确认结论.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-可行性修复与独立确认-v001.md:link:../诊断结果/Q02-修复-v001/独立重建核验.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-可行性修复与独立确认-v001.md:link:../诊断结果/Q02-修复-v001/独立工作指标重建.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-可行性修复与独立确认-v001.md:link:../诊断结果/Q02-修复-v001/实际Excel同源重放核验.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-可行性修复与独立确认-v001.md:link:../诊断结果/Q02-修复-v001/result2.xlsx",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-可行性修复与独立确认-v001.md:link:../诊断结果/Q02-修复-v001/结果数据.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-可行性修复与独立确认-v001.md:link:Q02-第2问结果初稿-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-可行性修复与独立确认-v001.md:link:../论文/第2问-模型建立与求解-v002.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-可行性修复与独立确认-v001.md:link:../论文/第2问-正文证据映射-v002.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-可行性修复与独立确认-v001.md:link:../论文/第2问-修订与排版记录-v002.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-可行性修复与独立确认-v001.md:link:../诊断结果/Q02-修复-v001/累计计算预算.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "document_exists_Q02-第2问结果初稿-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-第2问结果初稿-v001.md:table_header_7",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-第2问结果初稿-v001.md:table_header_24",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-第2问结果初稿-v001.md:table_header_30",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-第2问结果初稿-v001.md:link:../诊断结果/Q02-修复-v001/result2.xlsx",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "Q02-第2问结果初稿-v001.md:link:../诊断结果/Q02-修复-v001/结果数据.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "document_exists_第2问-模型建立与求解-v002.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-模型建立与求解-v002.md:table_header_45",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-模型建立与求解-v002.md:table_header_345",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-模型建立与求解-v002.md:table_header_357",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-模型建立与求解-v002.md:table_header_479",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-模型建立与求解-v002.md:table_header_493",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-模型建立与求解-v002.md:table_header_524",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-模型建立与求解-v002.md:table_header_541",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-模型建立与求解-v002.md:table_header_547",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-模型建立与求解-v002.md:table_header_581",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-模型建立与求解-v002.md:table_header_590",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-模型建立与求解-v002.md:link:图表/Q02-v002/Q02-确认镜场布局-v002.png",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-模型建立与求解-v002.md:link:图表/Q02-v002/Q02-月度单位面积功率-v002.png",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "document_exists_第2问-正文证据映射-v002.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:table_header_7",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:table_header_30",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断代码/q02_fast_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断代码/q02_eval_v003.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断代码/q02_compact_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断代码/q02_hex_bands_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/frozen/design.bundle.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../阶段记录/Q02-可行性修复与独立确认-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/搜索与确认冻结配置-v004.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/实际候选比较.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/搜索轨迹.jsonl",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断代码/q02_repair_engine_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断代码/q02_repair_common_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断代码/q02_search_summary_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/最终拟提交候选冻结.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/frozen/交付精度读回.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/frozen/身份映射.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/并行调度同射线测试-v001/测试结论.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/frozen/confirmation/summary.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/独立确认结论.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/独立工作指标重建.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/实际候选比较.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/实际候选比较.csv",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/结果数据.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/table1.csv",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/table2.csv",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/table3.csv",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/result2.xlsx",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/图表生成记录.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/独立重建核验.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/独立工作指标重建.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/实际Excel同源重放核验.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-搜索-v001/独立确认结论.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-搜索-v001/收尾数据与工作指标独立重建-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/独立确认结论.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/frozen/confirmation/summary.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/独立重建核验.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/独立工作指标重建.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/结果数据.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/实际Excel同源重放核验.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断代码/Q02-修复运行与复现说明-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:LaTeX/第2问-模型建立与求解-v002.pdf",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:LaTeX/第2问-模型建立与求解-v002.tex",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/Q02-修复稿Markdown与TeX对应-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/Q02-修复稿PDF自动核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/PDF实际页面检查-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:LaTeX/第2问-修复稿-v002-页面核验/attempt-003/",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断结果/Q02-修复-v001/论文模型核查-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-正文证据映射-v002.md:link:../诊断代码/Q02-修复运行与复现说明-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "document_exists_第2问-修订与排版记录-v002.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-修订与排版记录-v002.md:link:LaTeX/第2问-修复稿-v002-页面核验/attempt-001/",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-修订与排版记录-v002.md:link:../诊断结果/Q02-修复-v001/Q02-修复稿PDF自动核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "第2问-修订与排版记录-v002.md:link:../诊断结果/Q02-修复-v001/PDF实际页面检查-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "document_exists_00-任务状态.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "00-任务状态.md:link:阶段记录/Q02-可行性修复与独立确认-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "00-任务状态.md:link:阶段记录/Q02-第2问结果初稿-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "00-任务状态.md:link:论文/第2问-模型建立与求解-v002.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "00-任务状态.md:link:论文/LaTeX/第2问-模型建立与求解-v002.pdf",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "00-任务状态.md:link:诊断结果/Q02-修复-v001/result2.xlsx",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "00-任务状态.md:link:论文/第2问-正文证据映射-v002.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "00-任务状态.md:link:诊断结果/Q02-修复-v001/交付文件核验-v001.json",
+      "pass": false,
+      "evidence": null
+    },
+    {
+      "name": "00-任务状态.md:link:诊断结果/Q02-修复-v001/累计计算预算.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "document_exists_记录索引.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:table_header_7",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:table_header_26",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:table_header_104",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:table_header_124",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:table_header_153",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:table_header_167",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:table_header_192",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:table_header_203",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:table_header_233",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:00-任务状态.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/S00-材料审计-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/S01-题目理解-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/S01-补充澄清-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/S02-方法学习与第1问知识准备-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q01-方案构造-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q01-建模与原型验证-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q01-全场初算与数值精度验证-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q01-第1问结果初稿-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q01-验收收尾与论文写作-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:方法库查阅记录.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:决策记录.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:06-更新记录.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:归档清单.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/原始材料清单-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/环境-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/audit_materials_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/运行说明-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/诊断运行日志-v001.txt",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/题目结构-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/题目逐页提取-v001.txt",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/题目页面/page-1.png",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/题目页面/page-2.png",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/题目页面/page-3.png",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/题目页面/page-4.png",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/PDF渲染日志-v001.txt",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/题面公式与表格核对-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/工作簿结构-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/附件数据诊断-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/坐标诊断明细-v001.csv",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/间距边界记录-v001.csv",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/verify_delivery_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/交付核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/S01-补充澄清-交付核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/check_s02_materials_v001.ps1",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/S02-资料入场核对-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/run_s02_examples_v001.ps1",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/S02-通用例子复核-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/verify_s02_delivery_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/S02-交付核验-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/verify_s02_delivery_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/S02-交付核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/S02-运行与核验说明-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:../方法库/资料清单-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:../补充资料/资料清单-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-方案输入版本-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/verify_q01_plan_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-文档核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/Q01-文档核验说明-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q01-建模与原型验证-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_core_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_core_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_tests_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_tests_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_run_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/Q01-原型配置-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/Q01-补充验证配置-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_local_checks_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_local_checks_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_report_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/Q01-原型运行说明-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/verify_q01_prototype_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-首次测试失败-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-基础与交叉验证-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-预选与适用域-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-小样本计时与筛选核对-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-本题局部试算-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-局部细化补充-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-局部细化补充-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-原型交付核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_report_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/verify_q01_prototype_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-原型交付核验-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q01-全场初算与数值精度验证-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q01-第1问结果初稿-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/Q01-全场配置-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-全场-v001/执行修订-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-全场-v001/累计计算预算.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q01-全场初算与数值精度验证-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q01-第1问结果初稿-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_core_v003.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_full_run_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_full_summary_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/Q01-全场运行说明-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-全场-v001/汇总与数值核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-全场-v001/稀有分母补充核查-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-全场-v001/汇总重建一致性.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-全场-v001/交付文件核验-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-全场-v001/归档哈希清单-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_full_delivery_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-全场-v001/交付文件核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-全场-v001/归档哈希清单-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q01-验收收尾与论文写作-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/第1问-模型建立与求解-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/LaTeX/第1问-模型建立与求解-v001.tex",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/LaTeX/第1问-模型建立与求解-v001.pdf",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/写作规范-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/第1问-正文证据映射-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/第1问-可复现说明-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/第1问-修订与排版记录-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:经验.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/AGENTS-逐问写作规则追加前-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:../AGENTS.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-论文收尾-v001/低存活全量核查-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-论文收尾-v001/低存活组合-v002.csv",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_low_survivors_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-论文收尾-v001/首次序列化失败-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_paper_build_v006.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/第1问-正文模板-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_paper_tex_v006.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_paper_render_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-论文收尾-v001/论文数据生成与逐项核对-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-论文收尾-v001/Markdown与TeX对应-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/图表/月度结果与工作指标-v001.csv",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/图表/图1-月度效率-v001.png",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/图表/图2-月度单位面积功率-v001.png",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/LaTeX/编译日志-最终-v001.txt",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/LaTeX/页面核验-最终/",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-论文收尾-v001/PDF自动核验-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q01_paper_verify_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-论文收尾-v001/最终文件核验-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-论文收尾-v001/论文归档哈希清单-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-论文收尾-v001/论文人工核对-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/LaTeX/页面核验-最终/",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q01-论文收尾-v001/PDF自动核验-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q02-约束梳理与候选方案-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-准备-v001/资料与输入绑定-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/verify_q02_preparation_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/Q02-准备核验说明-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-准备-v001/交付文件核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-准备-v001/本轮文件哈希-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q02-参数化与几何原型验证-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/Q02-设计与评价接口-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/Q02-原型运行说明-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q02_design_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q02_eval_v003.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q02_prototype_run_v003.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q02_design_tests_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q02_eval_tests_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/Q02-原型配置-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/执行修订-v003.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/人工测试-attempt2.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/旧场回归-attempt2.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/D-A/非正式诊断清单.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/D-B/非正式诊断清单.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/D-C/非正式诊断清单.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/新诊断布局预登记汇总.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/诊断重建汇总.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/verify_q02_prototype_statistics_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/落盘统计独立核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/修订与失败记录-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/累计计算预算.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/交付文件核验-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/归档哈希清单-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/交付前文档合同修订-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q02_prototype_docfix_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/交付文件核验-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-原型-v001/归档哈希清单-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/verify_q02_prototype_delivery_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q02-受控搜索与独立确认-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q02_fast_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q02_fast_tests_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q02_compact_v001.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/密集压力与计时-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/累计计算预算.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/失败运行.jsonl",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q02-受控搜索与独立确认-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/Q02-搜索运行与复现说明-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/搜索与确认冻结配置-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/搜索与确认冻结配置-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q02_fast_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q02_search_engine_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q02_search_run_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/q02_search_summary_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/最终拟提交候选冻结.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/frozen/C22-未确认设计.xlsx",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/独立确认结论.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/frozen/confirmation/",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/独立重建核验.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/收尾数据与工作指标独立重建-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/修订与失败记录-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/累计计算预算.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/第2问-模型建立与求解-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/第2问-正文证据映射-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/LaTeX/第2问-模型建立与求解-v001.tex",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/LaTeX/第2问-模型建立与求解-v001.pdf",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/LaTeX/第2问-未完成草稿页面-v002/",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/Q02-PDF自动核验-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/第2问-修订与排版记录-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/交付文件核验-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/归档哈希清单-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/交付文件核验-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-搜索-v001/归档哈希清单-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q02-可行性修复与独立确认-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q02-可行性修复与独立确认-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:阶段记录/Q02-第2问结果初稿-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/result2.xlsx",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/结果数据.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/第2问-模型建立与求解-v002.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/第2问-正文证据映射-v002.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/第2问-修订与排版记录-v002.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/LaTeX/第2问-模型建立与求解-v002.tex",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/LaTeX/第2问-模型建立与求解-v002.pdf",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:论文/图表/Q02-v002/",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/搜索与确认冻结配置-v004.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/最终拟提交候选冻结.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/独立确认结论.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/frozen/confirmation/",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/独立重建核验.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/独立工作指标重建.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/实际Excel同源重放核验.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/实际候选比较.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/candidates/",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/并行调度同射线测试-v001/测试结论.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/失败运行.jsonl",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/累计计算预算.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断代码/Q02-修复运行与复现说明-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/交付文件核验-v001.json",
+      "pass": false,
+      "evidence": null
+    },
+    {
+      "name": "记录索引.md:link:诊断结果/Q02-修复-v001/交付哈希清单-v001.json",
+      "pass": false,
+      "evidence": null
+    },
+    {
+      "name": "document_exists_方法库查阅记录.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:table_header_25",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:table_header_41",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:table_header_49",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:table_header_65",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:table_header_85",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:table_header_101",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:table_header_116",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:table_header_131",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:table_header_147",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:table_header_160",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:table_header_174",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:table_header_194",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:阶段记录/S01-题目理解-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:阶段记录/S01-补充澄清-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:诊断结果/S02-资料入场核对-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../方法库/原文选段/D01-建模质量观念.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../方法库/原文选段/D02-几何方法分类.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../方法库/原文选段/D03-随机模拟基本思想.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../方法库/M01-输入假设与适用范围-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../方法库/M02-空间方向反射与有限几何-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../方法库/M03-条件能量比与分布归一化-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../方法库/M04-平均权重与非线性汇总-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../方法库/M05-数值误差验证与复现-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../补充资料/P01-角尺度来源与边界-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../补充资料/P02-方向分布与待选假设-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../补充资料/待确认事项-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../方法库/验证/README.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../方法库/验证/check_examples.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../方法库/验证/运行结果-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:诊断结果/S02-通用例子复核-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../方法库/来源与许可.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:../补充资料/交付完整性-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:阶段记录/S02-方法学习与第1问知识准备-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:诊断结果/Q01-方案输入版本-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:阶段记录/Q01-方案构造-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:阶段记录/Q01-建模与原型验证-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:论文/第1问-正文证据映射-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:经验.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:阶段记录/Q02-约束梳理与候选方案-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "方法库查阅记录.md:link:阶段记录/Q02-参数化与几何原型验证-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "document_exists_决策记录.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:方法库查阅记录.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:阶段记录/S00-材料审计-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:06-更新记录.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:阶段记录/S01-补充澄清-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:阶段记录/S02-方法学习与第1问知识准备-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:06-更新记录.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:阶段记录/S02-方法学习与第1问知识准备-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:阶段记录/S02-方法学习与第1问知识准备-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:阶段记录/Q01-方案构造-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:06-更新记录.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:阶段记录/Q01-方案构造-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:阶段记录/Q01-方案构造-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:诊断结果/Q01-预选与适用域-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:诊断结果/Q01-论文收尾-v001/低存活全量核查-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:论文/第1问-修订与排版记录-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:阶段记录/Q02-约束梳理与候选方案-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:阶段记录/Q02-参数化与几何原型验证-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:诊断结果/Q02-原型-v001/修订与失败记录-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:诊断结果/Q02-搜索-v001/密集压力与计时-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:诊断结果/Q02-搜索-v001/搜索与确认冻结配置-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:诊断结果/Q02-搜索-v001/追加较精比较-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:诊断结果/Q02-搜索-v001/最终拟提交候选冻结.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:诊断结果/Q02-搜索-v001/frozen/交付精度读回.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:阶段记录/Q02-可行性修复与独立确认-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:诊断结果/Q02-修复-v001/搜索与确认冻结配置-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:诊断结果/Q02-修复-v001/独立确认结论.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:诊断结果/Q02-修复-v001/独立重建核验.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:诊断结果/Q02-修复-v001/独立工作指标重建.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:诊断结果/Q02-修复-v001/实际Excel同源重放核验.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:阶段记录/Q02-可行性修复与独立确认-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:论文/第2问-正文证据映射-v002.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "决策记录.md:link:诊断结果/Q02-修复-v001/PDF实际页面检查-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "document_exists_06-更新记录.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:诊断结果/交付核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:诊断结果/S01-补充澄清-交付核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:诊断结果/S02-交付核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:阶段记录/Q01-方案构造-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:诊断结果/Q01-文档核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:诊断代码/Q01-文档核验说明-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:诊断结果/Q01-首次测试失败-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:诊断结果/Q01-基础与交叉验证-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:诊断结果/Q01-小样本计时与筛选核对-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:诊断结果/Q01-论文收尾-v001/首次序列化失败-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:论文/第1问-修订与排版记录-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:阶段记录/Q01-验收收尾与论文写作-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:论文/第1问-模型建立与求解-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:论文/第1问-正文证据映射-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:阶段记录/Q02-约束梳理与候选方案-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:阶段记录/Q02-参数化与几何原型验证-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:诊断结果/Q02-原型-v001/交付前文档合同修订-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "06-更新记录.md:link:论文/第2问-修订与排版记录-v002.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "document_exists_归档清单.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:table_header_13",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:table_header_62",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:table_header_89",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:table_header_107",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:table_header_125",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:table_header_157",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:table_header_165",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:table_header_189",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:table_header_203",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:table_header_231",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:table_header_249",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:table_header_268",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:table_header_297",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:table_header_324",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:link:诊断结果/交付核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:link:诊断结果/S01-补充澄清-交付核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:link:诊断结果/S02-交付核验-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:link:诊断结果/Q01-文档核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:link:诊断代码/Q01-文档核验说明-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:link:诊断结果/Q01-原型交付核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:link:诊断结果/Q02-准备-v001/资料与输入绑定-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "归档清单.md:link:诊断结果/Q02-修复-v001/交付哈希清单-v001.json",
+      "pass": false,
+      "evidence": null
+    },
+    {
+      "name": "document_exists_经验.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "经验.md:table_header_5",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "经验.md:table_header_19",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "经验.md:table_header_30",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "经验.md:link:诊断结果/Q01-全场前核心回归-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "经验.md:link:诊断结果/Q01-论文收尾-v001/低存活全量核查-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "经验.md:link:诊断结果/Q01-全场-v001/压力测试与计时.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "经验.md:link:诊断结果/Q01-局部细化补充-v002.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "经验.md:link:诊断代码/q01_full_summary_v002.py",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "经验.md:link:诊断结果/Q01-全场-v001/汇总与数值核验-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "经验.md:link:诊断结果/Q01-论文收尾-v001/论文数据生成与逐项核对-v001.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "经验.md:link:论文/第1问-修订与排版记录-v001.md",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "no_result_placeholders",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "required_evidence_table1.csv",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "required_evidence_table2.csv",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "required_evidence_table3.csv",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "required_evidence_结果数据.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "required_evidence_实际候选比较.json",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "required_evidence_图表生成记录.json",
+      "pass": true,
+      "evidence": null
+    }
+  ],
+  "file_count": 1223,
+  "scope": "File/render/source binding only; numerical and physical evidence are separate",
+  "numerical_verification": {
+    "confirmation": "PASS",
+    "independent_point": true,
+    "independent_U": true,
+    "excel_replay": true
+  }
+}

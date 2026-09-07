@@ -1,0 +1,840 @@
+{
+  "created": "2026-09-05T17:11:44.034014",
+  "all_pass": true,
+  "count": 147,
+  "checks": [
+    {
+      "check": "unchanged",
+      "path": "方法库/来源与许可.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "方法库/验证/运行结果-v001.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "方法库/验证/check_examples.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "方法库/验证/README.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "方法库/原文选段/D01-建模质量观念.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "方法库/原文选段/D02-几何方法分类.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "方法库/原文选段/D03-随机模拟基本思想.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "方法库/M01-输入假设与适用范围-v001.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "方法库/M02-空间方向反射与有限几何-v001.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "方法库/M03-条件能量比与分布归一化-v001.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "方法库/M04-平均权重与非线性汇总-v001.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "方法库/M05-数值误差验证与复现-v001.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "方法库/README.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "补充资料/待确认事项-v001.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "补充资料/P01-角尺度来源与边界-v001.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "补充资料/P02-方向分布与待选假设-v001.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "补充资料/README.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "AGENTS.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/论文/LaTeX/第2问-模型建立与求解-v002.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/论文/LaTeX/第2问-模型建立与求解-v002.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/论文/第2问-模型建立与求解-v002.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/论文/第2问-正文证据映射-v002.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断代码/q02_compact_v001.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断代码/q02_fast_v002.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断代码/q02_hex_bands_v001.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断代码/q02_repair_common_v001.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断代码/q02_repair_confirm_parallel_v001.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断代码/q02_repair_engine_v001.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断代码/q02_repair_parallel_v001.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断代码/q02_repair_run_v003.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断代码/q02_search_summary_v002.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/design.bundle.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/design.metadata.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/design.mirrors.csv",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断结果/Q02-修复-v001/result2.xlsx",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断结果/Q02-修复-v001/搜索与确认冻结配置-v004.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断结果/Q02-修复-v001/最终拟提交候选冻结.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/诊断结果/Q02-修复-v001/独立确认结论.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/阶段记录/Q02-可行性修复与独立确认-v001.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/阶段记录/Q02-第2问结果初稿-v001.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/阶段记录/S01-补充澄清-v001.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "工作记录/阶段记录/S01-题目理解-v001.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged",
+      "path": "题目.pdf",
+      "passed": true
+    },
+    {
+      "check": "stage_exists",
+      "passed": true
+    },
+    {
+      "check": "balanced_math",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "first_row": "| 材料 | 实际范围 | 本阶段用途与证据身份 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "first_row": "| 条件 | 形式及单位 | 来源与状态 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "first_row": "| 输出 | 必需字段与单位 | 说明 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "first_row": "| 解释 | 规则 | 理由、影响与批准状态 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "first_row": "| 统计量 | 定义 | 分母、用途及限制 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "first_row": "| R027基线项 | 当前值或证据 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "first_row": "| 接口 | 状态 | 实际依据与下一阶段工作 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "first_row": "| 知识主题 | 实际本地来源 | 本轮得到的接口认识、适用前提和缺口 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "first_row": "| 维度 | Q3-A 分组参数 | Q3-B 稀疏逐镜修改 | Q3-C 联合重建 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "first_row": "| 检查层级 | 具体检查 | 失败影响及处理 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "first_row": "| 编号 | 推荐决定 | 理由和影响 | 替代选项 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "first_row": "| 原位置和原判断 | 原依据 | 本轮解释/新依据 | 影响范围 |",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "target": "Q02-可行性修复与独立确认-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "target": "Q02-第2问结果初稿-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "target": "../诊断结果/Q02-修复-v001/result2.xlsx",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "target": "../论文/第2问-模型建立与求解-v002.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "target": "S01-题目理解-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "target": "S01-补充澄清-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "target": "../诊断结果/Q03-准备-v001/题面与约束核对-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "target": "../诊断结果/Q03-准备-v001/资料与只读基线核验-v001.json",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "target": "../诊断结果/Q02-修复-v001/最终拟提交候选冻结.json",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "target": "../诊断结果/Q02-修复-v001/独立确认结论.json",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "target": "../诊断结果/Q03-准备-v001/异尺寸接口静态审查-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\阶段记录\\Q03-约束梳理与候选方案-v001.md",
+      "target": "../诊断结果/Q02-修复-v001/累计计算预算.json",
+      "passed": true
+    },
+    {
+      "check": "balanced_math",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\异尺寸接口静态审查-v001.md",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\异尺寸接口静态审查-v001.md",
+      "first_row": "| 文件与位置 | 分类 | 实际依据及第3问修改/验证要求 |",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\异尺寸接口静态审查-v001.md",
+      "target": "../../诊断代码/q02_design_v002.py",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\异尺寸接口静态审查-v001.md",
+      "target": "../../诊断代码/q02_compact_v001.py",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\异尺寸接口静态审查-v001.md",
+      "target": "../../诊断代码/q02_hex_bands_v001.py",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\异尺寸接口静态审查-v001.md",
+      "target": "../../诊断代码/q02_eval_v003.py",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\异尺寸接口静态审查-v001.md",
+      "target": "../../诊断代码/q01_core_v003.py",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\异尺寸接口静态审查-v001.md",
+      "target": "../../诊断代码/q02_fast_v002.py",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\异尺寸接口静态审查-v001.md",
+      "target": "../../诊断代码/q02_search_summary_v002.py",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\异尺寸接口静态审查-v001.md",
+      "target": "../../诊断代码/q02_repair_engine_v001.py",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\异尺寸接口静态审查-v001.md",
+      "target": "../../诊断代码/q02_repair_verify_v001.py",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\异尺寸接口静态审查-v001.md",
+      "target": "../../诊断代码/q02_repair_common_v001.py",
+      "passed": true
+    },
+    {
+      "check": "balanced_math",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\文件核验说明-v001.md",
+      "passed": true
+    },
+    {
+      "check": "balanced_math",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\进入本阶段前任务状态.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\进入本阶段前任务状态.md",
+      "target": "阶段记录/Q02-可行性修复与独立确认-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\进入本阶段前任务状态.md",
+      "target": "阶段记录/Q02-第2问结果初稿-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\进入本阶段前任务状态.md",
+      "target": "论文/第2问-模型建立与求解-v002.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\进入本阶段前任务状态.md",
+      "target": "论文/LaTeX/第2问-模型建立与求解-v002.pdf",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\进入本阶段前任务状态.md",
+      "target": "诊断结果/Q02-修复-v001/result2.xlsx",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\进入本阶段前任务状态.md",
+      "target": "论文/第2问-正文证据映射-v002.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\进入本阶段前任务状态.md",
+      "target": "诊断结果/Q02-修复-v001/交付文件核验-v002.json",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\进入本阶段前任务状态.md",
+      "target": "诊断结果/Q02-修复-v001/累计计算预算.json",
+      "passed": true
+    },
+    {
+      "check": "balanced_math",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "first_row": "| 材料 | 本轮实际阅读范围 | 用途及限制 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "first_row": "| 项目 | 原题位置 | 题面内容及本轮判断 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "first_row": "| 规则 | 对称约束 | 依据与限制 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "first_row": "| 列 | 必需字段 | 对应变量与约束 |",
+      "passed": true
+    },
+    {
+      "check": "table_header_and_columns",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "first_row": "| 类别 | 本轮准确状态 |",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../题目逐页提取-v001.txt",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../题目页面/page-1.png",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../题目页面/page-2.png",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../题目页面/page-3.png",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../题面公式与表格核对-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../../阶段记录/S01-题目理解-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../../阶段记录/S01-补充澄清-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../../阶段记录/S00-材料审计-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../../阶段记录/Q02-约束梳理与候选方案-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../../决策记录.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../../../方法库/README.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../../../方法库/资料清单-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../../../方法库/manifest-v001.json",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../../../补充资料/资料清单-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../../../方法库/原文选段/D02-几何方法分类.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../../../方法库/M01-输入假设与适用范围-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../../../方法库/M02-空间方向反射与有限几何-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../../../方法库/M04-平均权重与非线性汇总-v001.md",
+      "passed": true
+    },
+    {
+      "check": "link",
+      "path": "工作记录\\诊断结果\\Q03-准备-v001\\题面与约束核对-v001.md",
+      "target": "../../../方法库/M05-数值误差验证与复现-v001.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_updated",
+      "path": "00-任务状态.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "00-任务状态.md",
+      "target": "阶段记录/Q03-约束梳理与候选方案-v001.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "00-任务状态.md",
+      "target": "诊断结果/Q03-准备-v001/题面与约束核对-v001.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "00-任务状态.md",
+      "target": "诊断结果/Q03-准备-v001/异尺寸接口静态审查-v001.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "00-任务状态.md",
+      "target": "诊断结果/Q03-准备-v001/资料与只读基线核验-v001.json",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "00-任务状态.md",
+      "target": "诊断结果/Q03-准备-v001/文件核验说明-v001.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_updated",
+      "path": "记录索引.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "记录索引.md",
+      "target": "阶段记录/Q03-约束梳理与候选方案-v001.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "记录索引.md",
+      "target": "诊断结果/Q03-准备-v001/题面与约束核对-v001.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "记录索引.md",
+      "target": "诊断结果/Q03-准备-v001/资料与只读基线核验-v001.json",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "记录索引.md",
+      "target": "诊断代码/q03_preparation_files_v001.py",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "记录索引.md",
+      "target": "诊断结果/Q03-准备-v001/进入本阶段前任务状态.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "记录索引.md",
+      "target": "阶段记录/Q03-约束梳理与候选方案-v001.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "记录索引.md",
+      "target": "诊断结果/Q03-准备-v001/题面与约束核对-v001.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "记录索引.md",
+      "target": "诊断结果/Q03-准备-v001/异尺寸接口静态审查-v001.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "记录索引.md",
+      "target": "诊断结果/Q03-准备-v001/资料与只读基线核验-v001.json",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "记录索引.md",
+      "target": "诊断代码/q03_preparation_files_v001.py",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "记录索引.md",
+      "target": "诊断结果/Q03-准备-v001/进入本阶段前任务状态.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_updated",
+      "path": "方法库查阅记录.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "方法库查阅记录.md",
+      "target": "诊断结果/Q03-准备-v001/资料与只读基线核验-v001.json",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "方法库查阅记录.md",
+      "target": "阶段记录/Q03-约束梳理与候选方案-v001.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_updated",
+      "path": "决策记录.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "决策记录.md",
+      "target": "阶段记录/Q03-约束梳理与候选方案-v001.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_updated",
+      "path": "06-更新记录.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "06-更新记录.md",
+      "target": "诊断结果/Q03-准备-v001/进入本阶段前任务状态.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "06-更新记录.md",
+      "target": "阶段记录/Q03-约束梳理与候选方案-v001.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_updated",
+      "path": "归档清单.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "归档清单.md",
+      "target": "阶段记录/Q03-约束梳理与候选方案-v001.md",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "归档清单.md",
+      "target": "诊断结果/Q03-准备-v001/",
+      "passed": true
+    },
+    {
+      "check": "Q3_control_link",
+      "path": "归档清单.md",
+      "target": "诊断代码/q03_preparation_files_v001.py",
+      "passed": true
+    },
+    {
+      "check": "report_written",
+      "passed": true
+    }
+  ],
+  "artifact_sha256": {
+    "工作记录/阶段记录/Q03-约束梳理与候选方案-v001.md": "adaae349ede79fdcaa0b2247aa8f1eb82fdf7379064d4a640126795048a774b4",
+    "工作记录/诊断结果/Q03-准备-v001/异尺寸接口静态审查-v001.md": "2a0160387e2aaec6678293d2b968c43d67f32b77abc596b2f2cb049df8528ec4",
+    "工作记录/诊断结果/Q03-准备-v001/文件核验说明-v001.md": "87d80e503e44d1f3eb7b5c62d5fdef315c58de26d702a08d9effb937081f779b",
+    "工作记录/诊断结果/Q03-准备-v001/进入本阶段前任务状态.md": "59bf8dc04547f0d965de3ad0b0306246638a2e6ce926710ecf08f87ecf7c3173",
+    "工作记录/诊断结果/Q03-准备-v001/题面与约束核对-v001.md": "c723fb8d424d06fc60f3eb4ac8ddee70391fef57e3c638d5dab50811a10e99f7",
+    "工作记录/诊断代码/q03_preparation_files_v001.py": "2cdb591d612e061d6f0c24ae2ecc667a73d2083c07e189d5b1931b19c84d8b45"
+  },
+  "limit": "File integrity/link/math-delimiter checks only. Static scientific review is in Markdown. No Q3 numerical validation performed."
+}

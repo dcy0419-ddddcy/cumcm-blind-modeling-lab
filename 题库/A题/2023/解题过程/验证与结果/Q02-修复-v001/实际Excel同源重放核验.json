@@ -1,0 +1,52 @@
+{
+  "all_pass": true,
+  "design_key": "2a3afcf2a5cf4e4e37fbd3256e3038a4f19a4372c77dae2b89fb7e866174a73e",
+  "excel_sha256": "b305e8da10ab5323d38824521dbb1d768f029fbc1838ac20aea769681d47ed61",
+  "checks": [
+    {
+      "export_index": 1,
+      "mirror_id": 177487332782245,
+      "time_index": 0,
+      "month": 1,
+      "hour": 9,
+      "exact_equal": {
+        "sums": true,
+        "cross": true,
+        "counts": true,
+        "unknown_weights": true,
+        "known_capture_weights": true
+      }
+    },
+    {
+      "export_index": 1491,
+      "mirror_id": 97424308305814,
+      "time_index": 27,
+      "month": 6,
+      "hour": 12,
+      "exact_equal": {
+        "sums": true,
+        "cross": true,
+        "counts": true,
+        "unknown_weights": true,
+        "known_capture_weights": true
+      }
+    },
+    {
+      "export_index": 2981,
+      "mirror_id": 165274398824031,
+      "time_index": 59,
+      "month": 12,
+      "hour": 15,
+      "exact_equal": {
+        "sums": true,
+        "cross": true,
+        "counts": true,
+        "unknown_weights": true,
+        "known_capture_weights": true
+      }
+    }
+  ],
+  "replayed_source_samples": 6144,
+  "additional_independent_confirmation_samples": 0,
+  "purpose": "replay same rays, not extra independent evidence or new candidate score"
+}

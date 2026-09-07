@@ -1,0 +1,103 @@
+{
+  "source": "工作记录/论文/第3问-模型建立与求解-v001.md",
+  "source_sha256": "f6f1045fddac45248410ff272476d75260c4e04e782c46a84d8c81316227f127",
+  "tex": "工作记录/论文/LaTeX/第3问-模型建立与求解-v001.tex",
+  "tex_sha256": "c7ac1b66134af753972759b9977bb8dd0ad5bc25380e0532a405ac1481a54848",
+  "pdf": "工作记录/论文/LaTeX/第3问-模型建立与求解-v001.pdf",
+  "pdf_sha256": "9380e87e6198029df17a8b132ed6b0f9016a130823e53421ecd6f99b02508988",
+  "log_sha256": "4b46bd3a8a86fa21a7dd6c66687c60ad25efb5200624e7065b2249ad50ab8a39",
+  "pages": 10,
+  "rendered_pages": 10,
+  "page_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "render_directory": "工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002",
+  "contact_sheets": [
+    "工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/contact-01.png",
+    "工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/contact-05.png",
+    "工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/contact-09.png"
+  ],
+  "page_files": [
+    {
+      "file": "工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-01.png",
+      "sha256": "140d83febd680e863ee2ee0d88f3efb699e845a889d06650f89bed3eef2bba74"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-02.png",
+      "sha256": "ac016e751925703340ae4ec9eb9301e429919c2b1534cccbecba8d3eae5c63db"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-03.png",
+      "sha256": "9bfa21de78f2baea1c21b8b07bf56568e95aabf7c0ec378ddea9a94589c472dc"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-04.png",
+      "sha256": "1edf291de16ce699f1fec03ec4694b89c50b9a9e25048636a32a00cbd40ed56f"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-05.png",
+      "sha256": "c52564884b96e00b3f74a276b14ef6d8788940075a0b0161f84b80f893c42cce"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-06.png",
+      "sha256": "3ea5b29bff889797ce9d3401cccfc2099ec9ed215f6c7bf78a73b30ba6723bba"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-07.png",
+      "sha256": "d9328489a8a02a5da56a73a9ec438c10573de32ac6963d4a1a3a8e1d7317baf9"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-08.png",
+      "sha256": "defc476e7b8897db6c985ec5d3c1158d8564efea64fc5825daf7726e2a802daf"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-09.png",
+      "sha256": "f54ed1264c49d54a86f212a07c0b9a308fd26c36b0516799917907bff1f44cbd"
+    },
+    {
+      "file": "工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-10.png",
+      "sha256": "199f59b14f8d68a8ef459865c8d3f0b01ed777089f0104ecdf0084d355b0d10d"
+    }
+  ],
+  "tex_log_flags": [
+    "LaTeX Warning"
+  ],
+  "render_stderr_bytes": 0,
+  "text_stderr_bytes": 0,
+  "commands": [
+    [
+      "pdftoppm",
+      "-r",
+      "90",
+      "-png",
+      "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\论文\\LaTeX\\第3问-模型建立与求解-v001.pdf",
+      "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\论文\\LaTeX\\第3问-v001-页面核验\\attempt-002\\page"
+    ],
+    [
+      "pdftotext",
+      "-layout",
+      "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\论文\\LaTeX\\第3问-模型建立与求解-v001.pdf",
+      "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\论文\\LaTeX\\第3问-v001-页面核验\\attempt-002\\PDF文本.txt"
+    ]
+  ],
+  "markdown_counts": {
+    "math_display_blocks": 14,
+    "tables": 9,
+    "figures": 2
+  },
+  "visual_inspection": "pending human/model inspection; page counting is not visual QA",
+  "old_renderings_overwritten": false,
+  "new_optical_rays": 0,
+  "rendering_wall_seconds": 1.7871487999800593,
+  "render_adapter_sha256": "de195b7101ad690a1c51b38671d0aef99adc268ecd137d459ca727ffcf567447",
+  "reuse_source_sha256": "21254a23be63610f90a0fda6eee183ec4682aa3113e7a7eb79510fafd08a6bac"
+}

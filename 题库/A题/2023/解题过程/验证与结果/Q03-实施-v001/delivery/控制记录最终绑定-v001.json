@@ -1,0 +1,165 @@
+{
+  "status": "Q3 calculation and paper complete; pending user acceptance; administrator archive unconfirmed",
+  "files": {
+    "工作记录/00-任务状态.md": "413d8043230eed753cf2aefe0314bfb3772508bd090cf368bc113419015dbe76",
+    "工作记录/记录索引.md": "f4892168af8594f5f64725bf3045a2ebacf9a6a73deb50181e1de33712723c95",
+    "工作记录/方法库查阅记录.md": "2dfbb2bb4296be97d7d38a40349c8bec50388448991d175f2e19003906ea7f6b",
+    "工作记录/决策记录.md": "1306a653e3d2850da08f2b531855ddc3090328d2983a4dded789efbd49e180de",
+    "工作记录/06-更新记录.md": "2261a0806f412336ededaa5dfecd706ed207036c33c0db2602d3f5278c4a01c3",
+    "工作记录/归档清单.md": "d8e47e885637705f31f68a8b501f5e5f389d46fd9e2bfd388f31fcbdea1c54b7",
+    "工作记录/经验.md": "70cafbbd2ed412c7d7e1466891c37eb7d9befa791ba48941bb9bc19d3da01b88",
+    "工作记录/论文/第3问-正文证据映射-v001.md": "8272a9a64685d8bbb87432a9ae23543ce9683758552b4946d391df5861c6b9e6",
+    "工作记录/诊断结果/Q03-实施-v001/累计计算预算.json": "cc3f681ed3a06bf190e0adb9797406f2dd16a3673e43244adf8918fd57d5b424"
+  },
+  "budget": {
+    "metered_job_wall_seconds": 2305.6884180999564,
+    "additional_conservative_allowance_seconds": 30.0,
+    "charged_seconds": 2335.6884180999564,
+    "limit_seconds": 5400,
+    "remaining_seconds": 3064.3115819000436,
+    "by_mode": {
+      "unit": 7.375523400027305,
+      "init": 9.087743500014767,
+      "old-analysis": 0.3524805000051856,
+      "prototype": 29.08672540000407,
+      "score": 1554.603853099944,
+      "budget-probe": 0.1135129,
+      "compare": 0.6526589,
+      "freeze": 6.7881641,
+      "confirm": 680.5710872,
+      "deliver": 5.5957827,
+      "post_figures": 2.7921313000260852,
+      "post_paper": 0.6471758999978192,
+      "post_records": 0.25155719998292625,
+      "final_file_audit": 7.770021999953315,
+      "unmetered_overhead_allowance": 30.0
+    },
+    "cpu_lower_bound_records": [
+      {
+        "path": "candidates\\Q3F013\\confirmation\\parallel-audit\\run-1788616277821231000\\run.json",
+        "parent_cpu": 0.765625,
+        "worker_cpu_cumulative": 1156.578125,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R000\\confirmation\\parallel-audit\\run-1788616590270510400\\run.json",
+        "parent_cpu": 0.734375,
+        "worker_cpu_cumulative": 1384.703125,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R000\\fine\\parallel-audit\\run-1788615215528670300\\run.json",
+        "parent_cpu": 0.296875,
+        "worker_cpu_cumulative": 377.34375,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R000\\low\\parallel-audit\\run-1788613552608413900\\run.json",
+        "parent_cpu": 0.34375,
+        "worker_cpu_cumulative": 262.71875,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R001\\low\\parallel-audit\\run-1788613715809498400\\run.json",
+        "parent_cpu": 0.359375,
+        "worker_cpu_cumulative": 270.75,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R002\\low\\parallel-audit\\run-1788613848366379000\\run.json",
+        "parent_cpu": 0.390625,
+        "worker_cpu_cumulative": 270.203125,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R003\\low\\parallel-audit\\run-1788613928704485900\\run.json",
+        "parent_cpu": 0.421875,
+        "worker_cpu_cumulative": 275.828125,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R004\\low\\parallel-audit\\run-1788614010790405200\\run.json",
+        "parent_cpu": 0.328125,
+        "worker_cpu_cumulative": 281.15625,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R005\\low\\parallel-audit\\run-1788614094531340700\\run.json",
+        "parent_cpu": 0.3125,
+        "worker_cpu_cumulative": 291.359375,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R006\\low\\parallel-audit\\run-1788614205154289500\\run.json",
+        "parent_cpu": 0.390625,
+        "worker_cpu_cumulative": 276.734375,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R007\\low\\parallel-audit\\run-1788614287360283000\\run.json",
+        "parent_cpu": 0.328125,
+        "worker_cpu_cumulative": 279.734375,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R008\\low\\parallel-audit\\run-1788614370574454700\\run.json",
+        "parent_cpu": 0.28125,
+        "worker_cpu_cumulative": 279.5625,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R009\\low\\parallel-audit\\run-1788614453458282800\\run.json",
+        "parent_cpu": 0.359375,
+        "worker_cpu_cumulative": 278.6875,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R010\\fine\\parallel-audit\\run-1788615318761179200\\run.json",
+        "parent_cpu": 0.46875,
+        "worker_cpu_cumulative": 379.890625,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R010\\low\\parallel-audit\\run-1788614813817003000\\run.json",
+        "parent_cpu": 0.3125,
+        "worker_cpu_cumulative": 266.6875,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R011\\low\\parallel-audit\\run-1788614893357268800\\run.json",
+        "parent_cpu": 0.453125,
+        "worker_cpu_cumulative": 273.90625,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R012\\fine\\parallel-audit\\run-1788615423263253200\\run.json",
+        "parent_cpu": 0.40625,
+        "worker_cpu_cumulative": 383.125,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R012\\low\\parallel-audit\\run-1788614974917825900\\run.json",
+        "parent_cpu": 0.3125,
+        "worker_cpu_cumulative": 275.515625,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R013\\fine\\parallel-audit\\run-1788615528697268400\\run.json",
+        "parent_cpu": 0.4375,
+        "worker_cpu_cumulative": 385.203125,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      },
+      {
+        "path": "candidates\\Q3R013\\low\\parallel-audit\\run-1788615056342979400\\run.json",
+        "parent_cpu": 0.359375,
+        "worker_cpu_cumulative": 275.203125,
+        "scope": "measured CPU lower bound: cumulative maxima through last saved task; interpreter bootstrap, last receipt and shutdown may be excluded; never added to wall ledger"
+      }
+    ],
+    "worker_cpu_lower_bound_sum": 7924.890625,
+    "cpu_not_added_to_wall": true,
+    "no_new_optical_rays_after_confirmation": true,
+    "text_and_typesetting": "recorded separately in manuscript recovery/compilation/rendering receipts; no optical budget reset"
+  },
+  "file_qa_sha": "e13bb40badce61e3a7c7e064ba8b811710ebe49d04bb828d560c6ee160a832e8"
+}

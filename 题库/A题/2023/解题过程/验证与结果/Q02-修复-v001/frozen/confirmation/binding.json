@@ -1,0 +1,279 @@
+{
+  "design_key": "2a3afcf2a5cf4e4e37fbd3256e3038a4f19a4372c77dae2b89fb7e866174a73e",
+  "name": "R027",
+  "n_mirrors": 2981,
+  "times": [
+    [
+      1,
+      9
+    ],
+    [
+      1,
+      10.5
+    ],
+    [
+      1,
+      12
+    ],
+    [
+      1,
+      13.5
+    ],
+    [
+      1,
+      15
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      2,
+      10.5
+    ],
+    [
+      2,
+      12
+    ],
+    [
+      2,
+      13.5
+    ],
+    [
+      2,
+      15
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      3,
+      10.5
+    ],
+    [
+      3,
+      12
+    ],
+    [
+      3,
+      13.5
+    ],
+    [
+      3,
+      15
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      4,
+      10.5
+    ],
+    [
+      4,
+      12
+    ],
+    [
+      4,
+      13.5
+    ],
+    [
+      4,
+      15
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      5,
+      10.5
+    ],
+    [
+      5,
+      12
+    ],
+    [
+      5,
+      13.5
+    ],
+    [
+      5,
+      15
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      6,
+      10.5
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      6,
+      13.5
+    ],
+    [
+      6,
+      15
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      7,
+      10.5
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      7,
+      13.5
+    ],
+    [
+      7,
+      15
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      10.5
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      8,
+      13.5
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      9,
+      10.5
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      9,
+      13.5
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      10,
+      9
+    ],
+    [
+      10,
+      10.5
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      10,
+      13.5
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      11,
+      9
+    ],
+    [
+      11,
+      10.5
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      13.5
+    ],
+    [
+      11,
+      15
+    ],
+    [
+      12,
+      9
+    ],
+    [
+      12,
+      10.5
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      12,
+      13.5
+    ],
+    [
+      12,
+      15
+    ]
+  ],
+  "B": 8,
+  "n": 256,
+  "levels": [
+    128,
+    256
+  ],
+  "namespace": 1990,
+  "root_seed": 2026090505,
+  "rng": "numpy.PCG64 via SeedSequence; per stable position_key, standard time index, namespace, batch",
+  "code_sha": "5a17a2a77f9cd6f4cdc0f35fa7cef194262ee9d96f1d6ee2fb3e9991dc19ee09",
+  "fast_sha": "84195cbd2395e8bf6d09c7189a5b158acd1373db2836903f648bdce9aca98e09",
+  "scheduler_sha": "bc0d145de0c9485165160a037566ac823c33d2ad828d7cd086ab4f58628f03f8",
+  "scheduler_version": "q02-repair-parallel-v001",
+  "worker_dependency_sha256": {
+    "q02_repair_engine_v001.py": "5a17a2a77f9cd6f4cdc0f35fa7cef194262ee9d96f1d6ee2fb3e9991dc19ee09",
+    "q02_fast_v002.py": "84195cbd2395e8bf6d09c7189a5b158acd1373db2836903f648bdce9aca98e09",
+    "q02_repair_common_v001.py": "47ae9aee44798934e17726ff7274370d90600a6800eca4f2a9f6a69fb95856b1",
+    "q02_compact_v001.py": "6351316e6bd3f797c2a47c1b67e58774148e36b1d97cac09d9808fb6c111b6dd",
+    "q02_hex_bands_v001.py": "9b4e803bf06429f1d47c65e8b90402d1e36e30538884ff37589eb3cdbbfcbf67",
+    "q01_core_v003.py": "7d7e70b8c85b1bc7762efdc08fadc972635d810ceb852bf74bfb2cc318ed1693",
+    "q02_eval_v003.py": "f2d26131fd500c193cc643021815feee5195c5da668144b22a1571e2003b35de",
+    "q02_design_v002.py": "92315f1506597508d1d558ea1e58bd18579c4381a56741de929d7b9a48f3b361",
+    "q02_repair_parallel_v001.py": "bc0d145de0c9485165160a037566ac823c33d2ad828d7cd086ab4f58628f03f8"
+  },
+  "workers": 4,
+  "task_unit": "one complete standard time; all mirrors and all obstacles",
+  "compact_bundle_sha256": "0a0a2dde24f912e1556abbd74eec470d0a1054748de6b61c50366548355f98fe",
+  "budget_accounting": "parent wall time once; child CPU audit separately",
+  "deadline_rule": "parent phase cap minus saved cumulative use minus reserve_after; terminate unfinished processes",
+  "reserve_after_seconds": 90,
+  "common_sha": "47ae9aee44798934e17726ff7274370d90600a6800eca4f2a9f6a69fb95856b1",
+  "compact_sha": "6351316e6bd3f797c2a47c1b67e58774148e36b1d97cac09d9808fb6c111b6dd"
+}

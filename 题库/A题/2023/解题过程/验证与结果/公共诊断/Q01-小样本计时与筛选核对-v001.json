@@ -1,0 +1,273 @@
+{
+  "metadata": {
+    "time": "2026-09-04T21:39:11.626637+08:00",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "core_sha256": "f8297c1c9a40f70cc6381302fe4d8f18d1ed7d3669129498892e88172cc7c964",
+    "runner_sha256": "a39ce1a20c28f73c9a867c2e642284c664f85111014bbed444335e2e29905dd7",
+    "config_sha256": "9f9e287ffb32b052fdbc56162babbfcd695bcf54e365dc143da5028d7b0edab4",
+    "input_sha256": "596abec1162db0bce095f6f768b6cd06394e61766f80129a09e15146dc1fed50",
+    "scope": "diagnostic only; not field/year estimate"
+  },
+  "n_per_combination": 32,
+  "combinations": [
+    {
+      "mirror_id": 1681,
+      "month": 12,
+      "hour": 9,
+      "event_equal": true,
+      "full_seconds": 0.026132099999813363,
+      "screened_seconds": 0.0012331999896559864,
+      "screened_candidates": [
+        2,
+        3
+      ],
+      "unknown_count": 0,
+      "projection_residual": 6.187621706688073e-05
+    },
+    {
+      "mirror_id": 1617,
+      "month": 12,
+      "hour": 9,
+      "event_equal": true,
+      "full_seconds": 0.013283699983730912,
+      "screened_seconds": 0.0010859000030905008,
+      "screened_candidates": [
+        0,
+        3
+      ],
+      "unknown_count": 0,
+      "projection_residual": 0.000318255445750093
+    },
+    {
+      "mirror_id": 1713,
+      "month": 12,
+      "hour": 9,
+      "event_equal": true,
+      "full_seconds": 0.013020699989283457,
+      "screened_seconds": 0.001323700009379536,
+      "screened_candidates": [
+        0,
+        1
+      ],
+      "unknown_count": 0,
+      "projection_residual": 0.00011792674702770789
+    },
+    {
+      "mirror_id": 1649,
+      "month": 12,
+      "hour": 9,
+      "event_equal": true,
+      "full_seconds": 0.014959199994336814,
+      "screened_seconds": 0.001334800006588921,
+      "screened_candidates": [
+        1,
+        1
+      ],
+      "unknown_count": 0,
+      "projection_residual": 6.910357656020327e-05
+    },
+    {
+      "mirror_id": 29,
+      "month": 12,
+      "hour": 9,
+      "event_equal": true,
+      "full_seconds": 0.013548499991884455,
+      "screened_seconds": 0.0013942999939899892,
+      "screened_candidates": [
+        2,
+        0
+      ],
+      "unknown_count": 0,
+      "projection_residual": 3.376767396345848e-05
+    },
+    {
+      "mirror_id": 1666,
+      "month": 12,
+      "hour": 9,
+      "event_equal": true,
+      "full_seconds": 0.014817999996012077,
+      "screened_seconds": 0.0012823999859392643,
+      "screened_candidates": [
+        2,
+        1
+      ],
+      "unknown_count": 0,
+      "projection_residual": -3.9516976013675986e-07
+    },
+    {
+      "mirror_id": 1681,
+      "month": 6,
+      "hour": 12,
+      "event_equal": true,
+      "full_seconds": 0.013009599992074072,
+      "screened_seconds": 0.0011763999937102199,
+      "screened_candidates": [
+        0,
+        3
+      ],
+      "unknown_count": 0,
+      "projection_residual": -8.139753154401408e-05
+    },
+    {
+      "mirror_id": 1617,
+      "month": 6,
+      "hour": 12,
+      "event_equal": true,
+      "full_seconds": 0.016483400017023087,
+      "screened_seconds": 0.0012784999853465706,
+      "screened_candidates": [
+        0,
+        3
+      ],
+      "unknown_count": 0,
+      "projection_residual": 2.760356254838392e-05
+    },
+    {
+      "mirror_id": 1713,
+      "month": 6,
+      "hour": 12,
+      "event_equal": true,
+      "full_seconds": 0.016969299991615117,
+      "screened_seconds": 0.0033007000165525824,
+      "screened_candidates": [
+        0,
+        1
+      ],
+      "unknown_count": 0,
+      "projection_residual": -0.0002652217458128936
+    },
+    {
+      "mirror_id": 1649,
+      "month": 6,
+      "hour": 12,
+      "event_equal": true,
+      "full_seconds": 0.013373099995078519,
+      "screened_seconds": 0.001108399999793619,
+      "screened_candidates": [
+        0,
+        1
+      ],
+      "unknown_count": 0,
+      "projection_residual": 0.000463675404023145
+    },
+    {
+      "mirror_id": 29,
+      "month": 6,
+      "hour": 12,
+      "event_equal": true,
+      "full_seconds": 0.01568289997521788,
+      "screened_seconds": 0.001735700003337115,
+      "screened_candidates": [
+        0,
+        0
+      ],
+      "unknown_count": 0,
+      "projection_residual": 4.3327336208820455e-05
+    },
+    {
+      "mirror_id": 1666,
+      "month": 6,
+      "hour": 12,
+      "event_equal": true,
+      "full_seconds": 0.014045199990505353,
+      "screened_seconds": 0.0012051000085193664,
+      "screened_candidates": [
+        0,
+        1
+      ],
+      "unknown_count": 0,
+      "projection_residual": 5.994138186626863e-05
+    },
+    {
+      "mirror_id": 1681,
+      "month": 3,
+      "hour": 15,
+      "event_equal": true,
+      "full_seconds": 0.01438790000975132,
+      "screened_seconds": 0.001073399995220825,
+      "screened_candidates": [
+        0,
+        3
+      ],
+      "unknown_count": 0,
+      "projection_residual": 9.181639052352475e-05
+    },
+    {
+      "mirror_id": 1617,
+      "month": 3,
+      "hour": 15,
+      "event_equal": true,
+      "full_seconds": 0.015539300016826019,
+      "screened_seconds": 0.002094700001180172,
+      "screened_candidates": [
+        1,
+        3
+      ],
+      "unknown_count": 0,
+      "projection_residual": 7.458942896698684e-05
+    },
+    {
+      "mirror_id": 1713,
+      "month": 3,
+      "hour": 15,
+      "event_equal": true,
+      "full_seconds": 0.0127210000064224,
+      "screened_seconds": 0.0014297000016085804,
+      "screened_candidates": [
+        0,
+        1
+      ],
+      "unknown_count": 0,
+      "projection_residual": 0.0007466902764216021
+    },
+    {
+      "mirror_id": 1649,
+      "month": 3,
+      "hour": 15,
+      "event_equal": true,
+      "full_seconds": 0.014172900002449751,
+      "screened_seconds": 0.0012206999817863107,
+      "screened_candidates": [
+        0,
+        1
+      ],
+      "unknown_count": 0,
+      "projection_residual": -0.00011670330254842654
+    },
+    {
+      "mirror_id": 29,
+      "month": 3,
+      "hour": 15,
+      "event_equal": true,
+      "full_seconds": 0.013520499982405454,
+      "screened_seconds": 0.0009447000047657639,
+      "screened_candidates": [
+        0,
+        0
+      ],
+      "unknown_count": 0,
+      "projection_residual": 0.000649735773413207
+    },
+    {
+      "mirror_id": 1666,
+      "month": 3,
+      "hour": 15,
+      "event_equal": true,
+      "full_seconds": 0.01472869998542592,
+      "screened_seconds": 0.001328900019871071,
+      "screened_candidates": [
+        0,
+        1
+      ],
+      "unknown_count": 0,
+      "projection_residual": 0.00010589007867523037
+    }
+  ],
+  "all_equal": true,
+  "elapsed_seconds": 0.2988455999875441,
+  "same_rays_full_and_screened": true,
+  "full_obstacle_count": 1745,
+  "projected_trial_seconds": 12.877804800169542
+}

@@ -1,0 +1,695 @@
+{
+  "geometry": {
+    "suite": "q02-design-artificial-v002",
+    "test_count": 13,
+    "passed_count": 13,
+    "all_passed": true,
+    "results": [
+      {
+        "name": "inclusive_center_and_spacing_equalities",
+        "passed": true,
+        "evidence": {
+          "equal_spacing": 11.0,
+          "boundary_pass": true
+        }
+      },
+      {
+        "name": "one_ulp_outside_never_accepted_by_tolerance",
+        "passed": true,
+        "evidence": {
+          "one_ulp_violations": [
+            {
+              "code": "mirror_field",
+              "margin": -5.684341886080802e-14
+            },
+            {
+              "code": "tower_exclusion",
+              "margin": -1.4210854715202004e-14
+            },
+            {
+              "code": "pair_spacing",
+              "margin": -1.4210854715202004e-14
+            },
+            {
+              "code": "tower_field",
+              "margin": -5.684341886080802e-14
+            }
+          ],
+          "large_reporting_threshold_did_not_relax": true
+        }
+      },
+      {
+        "name": "ground_strictness_and_rectangular_vertical_extent",
+        "passed": true,
+        "evidence": {
+          "strict_ground_boundary": true,
+          "horizontal_width_not_vertical_extent": true
+        }
+      },
+      {
+        "name": "width_height_relation_is_search_scope_only",
+        "passed": true,
+        "evidence": {}
+      },
+      {
+        "name": "finite_inputs_ranges_and_json_safe_failure_reports",
+        "passed": true,
+        "evidence": {}
+      },
+      {
+        "name": "ids_stable_keys_unexpected_dimension_and_duplicate_points",
+        "passed": true,
+        "evidence": {}
+      },
+      {
+        "name": "cross_ring_conflict_is_detected_without_repair",
+        "passed": true,
+        "evidence": {}
+      },
+      {
+        "name": "generator_preserves_duplicate_failure_evidence",
+        "passed": true,
+        "evidence": {}
+      },
+      {
+        "name": "fixed_field_moving_exclusion_and_separate_generation_order",
+        "passed": true,
+        "evidence": {
+          "nominal_n": 5,
+          "actual_n": 3,
+          "surviving_generation_ordinals": [
+            3,
+            4,
+            5
+          ],
+          "stable_mirror_ids": [
+            223930159810991,
+            102140472342251,
+            57531114828058
+          ]
+        }
+      },
+      {
+        "name": "stable_ids_when_earlier_sector_count_changes",
+        "passed": true,
+        "evidence": {
+          "unchanged_ids_for_common_keys": 3,
+          "generation_and_export_order_changed_keys": [
+            "[\"later\",\"s\",0]",
+            "[\"later\",\"s\",1]"
+          ],
+          "id_range": "1 through 2**48"
+        }
+      },
+      {
+        "name": "stable_id_collision_is_rejected_including_clipped_keys",
+        "passed": true,
+        "evidence": {}
+      },
+      {
+        "name": "half_open_sectors_fractional_phase_and_parameter_rejections",
+        "passed": true,
+        "evidence": {}
+      },
+      {
+        "name": "json_csv_full_precision_independent_roundtrip_and_uniformity",
+        "passed": true,
+        "evidence": {
+          "float_roundtrip_exact": true,
+          "independent_objects": true,
+          "csv_provenance_is_own_file": true,
+          "physical_file_roundtrip": "passed",
+          "json": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q02-原型-v001\\artificial_roundtrip_attempt1\\q02-artificial-roundtrip-v002.json",
+          "csv": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q02-原型-v001\\artificial_roundtrip_attempt1\\q02-artificial-roundtrip-v002.csv"
+        }
+      }
+    ],
+    "scope": "artificial geometry and serialization; no optical/power validation",
+    "randomness": "none",
+    "problem_specific_diagnostic_layouts_generated": 0
+  },
+  "evaluation": {
+    "checks": [
+      {
+        "name": "E01_parameter_chain_cache",
+        "expected": "actual dimensions/height/tower/N used; five stale cache changes rejected",
+        "actual": {
+          "areas": [
+            [
+              24.0,
+              24.0
+            ],
+            [
+              48.0,
+              48.0
+            ]
+          ],
+          "centers_z": [
+            3,
+            5
+          ],
+          "target_changed": true,
+          "normalized_source_error": 3.774758283725532e-15,
+          "stale_cache_rejections": 5,
+          "scope": "pure parameter and source mapping; no optics for these legal point sets"
+        },
+        "passed": true,
+        "ray_evaluations": 0
+      },
+      {
+        "name": "E02_finite_non_square_rectangle",
+        "expected": "w=4/h=2, edges and self/parallel/behind classified",
+        "actual": {
+          "hits": [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          "uncertain": [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        "passed": true,
+        "ray_evaluations": 6
+      },
+      {
+        "name": "E03_cylinder_translation",
+        "expected": "finite side/cap/exit/tangent and optical-only translation invariance",
+        "actual": {
+          "kinds": [
+            "side",
+            "cap",
+            "exit",
+            "side",
+            "miss"
+          ],
+          "active": [
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "translated_equal": true,
+          "field_boundary_translated": false
+        },
+        "passed": true,
+        "ray_evaluations": 10
+      },
+      {
+        "name": "E04_geometry_proven_zeros",
+        "expected": "automatic full-cone cap proofs; zero total and undefined component remain distinct",
+        "actual": {
+          "true_zero_survivor": {
+            "scene_sha256": "221c3e16d478ae53df5237971dcb0f9808f87b6a88e31e4ed98e62b38d4a008f",
+            "scene_mirror_ids": [
+              1
+            ],
+            "scene_n": 1,
+            "mirror_index": 0,
+            "mirror_id": 1,
+            "status": "TRUE_ZERO_SURVIVOR",
+            "total_state": "DEFINED_TRUE_ZERO",
+            "component_state": "TRUNCATION_UNDEFINED_ZERO_DENOMINATOR",
+            "certificate": {
+              "kind": "zero_survivor",
+              "scene_sha256": "221c3e16d478ae53df5237971dcb0f9808f87b6a88e31e4ed98e62b38d4a008f",
+              "mirror_index": 0,
+              "incoming_cap": {
+                "proof": "source_ball_to_cap_interior_v001",
+                "side": "bottom",
+                "source_radius_m": 1.4142135623730951,
+                "source_plane_gap_m": 72.0,
+                "axis_to_vertical_plus_beta_rad": 0.00465,
+                "radial_upper_m": 1.7555921159276016,
+                "cap_radius_m": 3.5,
+                "strict_margin_m": 1.7444078840723984,
+                "meaning": "all directions in complete cone and all points in mirror bounding ball; first solid contact is nonactive cap"
+              },
+              "basis": "incoming first opaque receiver cap implies S=0 everywhere, hence SB=SBR=0"
+            },
+            "n": 128,
+            "counts": {
+              "shadow": 128,
+              "blocked_after_unshadowed": 0,
+              "survive": 0,
+              "capture": 0,
+              "unknown": 0
+            },
+            "eta_sb": 0.0,
+            "eta_cos": 1.0,
+            "eta_at": 1.0,
+            "eta_trunc": null,
+            "eta_ref": 0.92,
+            "eta_total": 0.0,
+            "power_kw": 0.0,
+            "area_m2": 4.0,
+            "unit_power_kw_m2": 0.0,
+            "dni_kw_m2": 1.0,
+            "analytic_pi0_kw": 3.68,
+            "estimate_pi1_kw": 0.0,
+            "estimate_pi2_kw": 0.0,
+            "estimate_f1": 0.0,
+            "estimate_f2": 0.0,
+            "estimate_power_kw": 0.0,
+            "raw_mean": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "raw_energy_kw": [
+              3.68,
+              0.0,
+              0.0
+            ],
+            "raw_projection_residual": 0.0,
+            "boundary_fraction": [
+              0.0,
+              0.0
+            ],
+            "rated_power_state": "NOT_ASSESSED_DIAGNOSTIC_ONLY"
+          },
+          "true_zero_capture": {
+            "scene_sha256": "cfd759c800666850c28cdce861a5b1345a88ceca88281bd451fed556010a3172",
+            "scene_mirror_ids": [
+              1
+            ],
+            "scene_n": 1,
+            "mirror_index": 0,
+            "mirror_id": 1,
+            "status": "TRUE_ZERO_CAPTURE",
+            "total_state": "DEFINED_TRUE_ZERO",
+            "component_state": "DEFINED_ESTIMATES",
+            "certificate": {
+              "kind": "zero_capture",
+              "scene_sha256": "cfd759c800666850c28cdce861a5b1345a88ceca88281bd451fed556010a3172",
+              "mirror_index": 0,
+              "outgoing_cap": {
+                "proof": "source_ball_to_cap_interior_v001",
+                "side": "bottom",
+                "source_radius_m": 1.4142135623730951,
+                "source_plane_gap_m": 72.0,
+                "axis_to_vertical_plus_beta_rad": 0.004650000000000111,
+                "radial_upper_m": 1.7555921159276098,
+                "cap_radius_m": 3.5,
+                "strict_margin_m": 1.7444078840723902,
+                "meaning": "all directions in complete cone and all points in mirror bounding ball; first solid contact is nonactive cap"
+              },
+              "survivor_identically_one": true,
+              "incoming_receiver_miss": {
+                "proven": true,
+                "axial_m": 60.800000000000004,
+                "perpendicular_excess_m": 38.48602373550928
+              },
+              "candidate_counts": [
+                0,
+                0
+              ],
+              "basis": "all reflected rays hit a nonactive cap first, hence SBR=0; SB=1 only if both mirror candidate sets empty and incoming cylinder sphere missed"
+            },
+            "n": 128,
+            "counts": {
+              "shadow": 0,
+              "blocked_after_unshadowed": 0,
+              "survive": 128,
+              "capture": 0,
+              "unknown": 0
+            },
+            "eta_sb": 1.0,
+            "eta_cos": 0.9486832980505139,
+            "eta_at": 1.0,
+            "eta_trunc": 0.0,
+            "eta_ref": 0.92,
+            "eta_total": 0.0,
+            "power_kw": 0.0,
+            "area_m2": 4.0,
+            "unit_power_kw_m2": 0.0,
+            "dni_kw_m2": 1.0,
+            "analytic_pi0_kw": 3.491154536825891,
+            "estimate_pi1_kw": 3.491154536825891,
+            "estimate_pi2_kw": 0.0,
+            "estimate_f1": 1.0,
+            "estimate_f2": 0.0,
+            "estimate_power_kw": 0.0,
+            "raw_mean": [
+              0.9486750309124171,
+              0.9486750309124171,
+              0.0
+            ],
+            "raw_energy_kw": [
+              3.491124113757695,
+              3.491124113757695,
+              0.0
+            ],
+            "raw_projection_residual": -8.267138096762494e-06,
+            "boundary_fraction": [
+              0.0,
+              0.0
+            ],
+            "rated_power_state": "NOT_ASSESSED_DIAGNOSTIC_ONLY",
+            "five_factor_error": 0.0
+          },
+          "contradiction_rejected": "CERTIFICATE_CONTRADICTION: survival differs from proven one",
+          "flag_rejected": "UNTRUSTED_ZERO_CERTIFICATE: caller-supplied flags are prohibited",
+          "scope": "artificial under-tower geometry, not a C22-feasible diagnostic layout"
+        },
+        "passed": true,
+        "ray_evaluations": 256
+      },
+      {
+        "name": "E05_sampled_zero",
+        "expected": "finite zero hit does not imply true zero; independent interior hit exists",
+        "actual": {
+          "sample": {
+            "scene_sha256": "f77012a9eb133197cd8a4bba3fb41cc0a626f06ca29c00409751193d0a5669c9",
+            "scene_mirror_ids": [
+              1
+            ],
+            "scene_n": 1,
+            "mirror_index": 0,
+            "mirror_id": 1,
+            "status": "SAMPLED_ZERO_CAPTURE",
+            "total_state": "UNRESOLVED_SAMPLE_ZERO",
+            "component_state": "TRUNCATION_UNRESOLVED_SAMPLE_ZERO",
+            "certificate": {
+              "kind": "unproven",
+              "scene_sha256": "f77012a9eb133197cd8a4bba3fb41cc0a626f06ca29c00409751193d0a5669c9",
+              "mirror_index": 0,
+              "basis": "supported sufficient cap proofs do not apply; sampled zero is not a true-zero certificate"
+            },
+            "n": 64,
+            "counts": {
+              "shadow": 0,
+              "blocked_after_unshadowed": 0,
+              "survive": 64,
+              "capture": 0,
+              "unknown": 0
+            },
+            "eta_sb": 1.0,
+            "eta_cos": 0.7071067811865476,
+            "eta_at": 1.0,
+            "eta_trunc": null,
+            "eta_ref": 0.92,
+            "eta_total": null,
+            "power_kw": null,
+            "area_m2": 4.0,
+            "unit_power_kw_m2": null,
+            "dni_kw_m2": 1.0,
+            "analytic_pi0_kw": 2.602152954766495,
+            "estimate_pi1_kw": 2.602152954766495,
+            "estimate_pi2_kw": 0.0,
+            "estimate_f1": 1.0,
+            "estimate_f2": 0.0,
+            "estimate_power_kw": 0.0,
+            "raw_mean": [
+              0.7067723983425777,
+              0.7067723983425777,
+              0.0
+            ],
+            "raw_energy_kw": [
+              2.600922425900686,
+              2.600922425900686,
+              0.0
+            ],
+            "raw_projection_residual": -0.0003343828439699159,
+            "boundary_fraction": [
+              0.0,
+              0.0
+            ],
+            "rated_power_state": "NOT_ASSESSED_DIAGNOSTIC_ONLY"
+          },
+          "independent_center_interior_hit": true,
+          "basis": "center ray hits side away from rim/tangent; an open neighborhood has positive reception, yet fixed finite sample has none"
+        },
+        "passed": true,
+        "ray_evaluations": 65
+      },
+      {
+        "name": "E06_ray_domain_and_boundary",
+        "expected": "out-of-mirror/cone/stale axis rejected; exact source edge unresolved",
+        "actual": {
+          "rejections": [
+            "RAY_DOMAIN_FAILURE: origin outside finite mirror or direction outside bound cone",
+            "RAY_DOMAIN_FAILURE: origin outside finite mirror or direction outside bound cone",
+            "MODEL_DOMAIN_FAILURE: stale/wrong outgoing axis"
+          ],
+          "edge": {
+            "scene_sha256": "44eb95498c9d60b00e54dfb7776c074d8908db33dbc2cbb17d2241b4db037fcb",
+            "scene_mirror_ids": [
+              1
+            ],
+            "scene_n": 1,
+            "mirror_index": 0,
+            "mirror_id": 1,
+            "status": "BOUNDARY_UNCERTAIN",
+            "total_state": "BOUNDARY_UNCERTAIN",
+            "component_state": "BOUNDARY_UNCERTAIN",
+            "certificate": {
+              "kind": "unproven",
+              "scene_sha256": "44eb95498c9d60b00e54dfb7776c074d8908db33dbc2cbb17d2241b4db037fcb",
+              "mirror_index": 0,
+              "basis": "supported sufficient cap proofs do not apply; sampled zero is not a true-zero certificate"
+            },
+            "n": 1,
+            "counts": {
+              "shadow": 0,
+              "blocked_after_unshadowed": 0,
+              "survive": 1,
+              "capture": 1,
+              "unknown": 1
+            },
+            "eta_sb": null,
+            "eta_cos": 0.7071067811865476,
+            "eta_at": 1.0,
+            "eta_trunc": null,
+            "eta_ref": 0.92,
+            "eta_total": null,
+            "power_kw": null,
+            "area_m2": 4.0,
+            "unit_power_kw_m2": null,
+            "dni_kw_m2": 1.0,
+            "analytic_pi0_kw": 2.602152954766495,
+            "estimate_pi1_kw": 2.602152954766495,
+            "estimate_pi2_kw": 2.602152954766495,
+            "estimate_f1": 1.0,
+            "estimate_f2": 1.0,
+            "estimate_power_kw": 2.602152954766495,
+            "raw_mean": [
+              0.7071067811865476,
+              0.7071067811865476,
+              0.7071067811865476
+            ],
+            "raw_energy_kw": [
+              2.602152954766495,
+              2.602152954766495,
+              2.602152954766495
+            ],
+            "raw_projection_residual": 0.0,
+            "boundary_fraction": [
+              0.0,
+              1.0
+            ],
+            "rated_power_state": "NOT_ASSESSED_DIAGNOSTIC_ONLY"
+          }
+        },
+        "passed": true,
+        "ray_evaluations": 1
+      },
+      {
+        "name": "E07_N05_fixed_population_aggregation",
+        "expected": "undefined component coexists with legal zero contribution; mixed scene rejected",
+        "actual": {
+          "complete_artificial_population": {
+            "coverage": "COMPLETE_EXPLICIT_POPULATION",
+            "expected_count": 2,
+            "completed_count": 2,
+            "missing_ids": [],
+            "component_means": {
+              "eta_sb": 0.5,
+              "eta_cos": 0.9260230030744627,
+              "eta_at": 1.0,
+              "eta_trunc": null,
+              "eta_ref": 0.92,
+              "eta_total": 0.3919411628285057
+            },
+            "total_power_kw": 3.1355293026280457,
+            "total_power_state": "DEFINED",
+            "total_area_m2": 8,
+            "unit_power_kw_m2": 0.3919411628285057,
+            "rated_power_state": "NOT_ASSESSED_DIAGNOSTIC_ONLY"
+          },
+          "partial": {
+            "coverage": "PARTIAL_NO_FIELD_EXTRAPOLATION",
+            "expected_count": 2,
+            "completed_count": 1,
+            "missing_ids": [
+              2
+            ],
+            "component_means": {
+              "eta_sb": null,
+              "eta_cos": null,
+              "eta_at": null,
+              "eta_trunc": null,
+              "eta_ref": null,
+              "eta_total": null
+            },
+            "total_power_kw": null,
+            "total_power_state": "UNDEFINED_OR_INCOMPLETE",
+            "total_area_m2": 8,
+            "unit_power_kw_m2": null,
+            "rated_power_state": "NOT_ASSESSED_DIAGNOSTIC_ONLY"
+          },
+          "mixed_rejection": "INPUT_FAILURE: mixed/unbound scenes or times",
+          "subset_relabel_rejected": "INPUT_FAILURE: population/identity not bound to scene"
+        },
+        "passed": true,
+        "ray_evaluations": 256
+      },
+      {
+        "name": "E08_local_R1_R2_analytic",
+        "expected": "simple entire-acceptance geometry, analytical weighted total and R2 symmetry",
+        "actual": {
+          "R1": {
+            "scene_sha256": "44eb95498c9d60b00e54dfb7776c074d8908db33dbc2cbb17d2241b4db037fcb",
+            "scene_mirror_ids": [
+              1
+            ],
+            "scene_n": 1,
+            "mirror_index": 0,
+            "mirror_id": 1,
+            "status": "ESTIMATED",
+            "total_state": "ESTIMATED",
+            "component_state": "DEFINED_ESTIMATES",
+            "certificate": {
+              "kind": "unproven",
+              "scene_sha256": "44eb95498c9d60b00e54dfb7776c074d8908db33dbc2cbb17d2241b4db037fcb",
+              "mirror_index": 0,
+              "basis": "supported sufficient cap proofs do not apply; sampled zero is not a true-zero certificate"
+            },
+            "n": 256,
+            "counts": {
+              "shadow": 0,
+              "blocked_after_unshadowed": 0,
+              "survive": 256,
+              "capture": 256,
+              "unknown": 0
+            },
+            "eta_sb": 1.0,
+            "eta_cos": 0.7071067811865476,
+            "eta_at": 1.0,
+            "eta_trunc": 1.0,
+            "eta_ref": 0.92,
+            "eta_total": 0.6505382386916237,
+            "power_kw": 2.602152954766495,
+            "area_m2": 4.0,
+            "unit_power_kw_m2": 0.6505382386916237,
+            "dni_kw_m2": 1.0,
+            "analytic_pi0_kw": 2.602152954766495,
+            "estimate_pi1_kw": 2.602152954766495,
+            "estimate_pi2_kw": 2.602152954766495,
+            "estimate_f1": 1.0,
+            "estimate_f2": 1.0,
+            "estimate_power_kw": 2.602152954766495,
+            "raw_mean": [
+              0.7071950414627,
+              0.7071950414627,
+              0.7071950414627
+            ],
+            "raw_energy_kw": [
+              2.602477752582736,
+              2.602477752582736,
+              2.602477752582736
+            ],
+            "raw_projection_residual": 8.826027615238541e-05,
+            "boundary_fraction": [
+              0.9999999999999991,
+              0.9999999999999991
+            ],
+            "rated_power_state": "NOT_ASSESSED_DIAGNOSTIC_ONLY",
+            "five_factor_error": 0.0
+          },
+          "R2": {
+            "scene_sha256": "44eb95498c9d60b00e54dfb7776c074d8908db33dbc2cbb17d2241b4db037fcb",
+            "scene_mirror_ids": [
+              1
+            ],
+            "scene_n": 1,
+            "mirror_index": 0,
+            "mirror_id": 1,
+            "status": "ESTIMATED",
+            "total_state": "ESTIMATED",
+            "component_state": "DEFINED_ESTIMATES",
+            "certificate": {
+              "kind": "unproven",
+              "scene_sha256": "44eb95498c9d60b00e54dfb7776c074d8908db33dbc2cbb17d2241b4db037fcb",
+              "mirror_index": 0,
+              "basis": "supported sufficient cap proofs do not apply; sampled zero is not a true-zero certificate"
+            },
+            "n": 512,
+            "counts": {
+              "shadow": 0,
+              "blocked_after_unshadowed": 0,
+              "survive": 512,
+              "capture": 512,
+              "unknown": 0
+            },
+            "eta_sb": 1.0,
+            "eta_cos": 0.7071067811865476,
+            "eta_at": 1.0,
+            "eta_trunc": 1.0,
+            "eta_ref": 0.92,
+            "eta_total": 0.6505382386916237,
+            "power_kw": 2.602152954766495,
+            "area_m2": 4.0,
+            "unit_power_kw_m2": 0.6505382386916237,
+            "dni_kw_m2": 1.0,
+            "analytic_pi0_kw": 2.602152954766495,
+            "estimate_pi1_kw": 2.602152954766495,
+            "estimate_pi2_kw": 2.602152954766495,
+            "estimate_f1": 1.0,
+            "estimate_f2": 1.0,
+            "estimate_power_kw": 2.602152954766495,
+            "raw_mean": [
+              0.7071067811865495,
+              0.7071067811865495,
+              0.7071067811865495
+            ],
+            "raw_energy_kw": [
+              2.602152954766502,
+              2.602152954766502,
+              2.602152954766502
+            ],
+            "raw_projection_residual": 1.887379141862766e-15,
+            "boundary_fraction": [
+              0.9999999999999973,
+              0.9999999999999973
+            ],
+            "rated_power_state": "NOT_ASSESSED_DIAGNOSTIC_ONLY",
+            "five_factor_error": 0.0
+          },
+          "independent_expected_eta": 0.6505382386916237,
+          "scope": "large finite receiver; entire reflected source envelope strictly within side reception"
+        },
+        "passed": true,
+        "ray_evaluations": 768
+      }
+    ],
+    "all_pass": true,
+    "ray_evaluations": 1362,
+    "scope": "artificial kernels/parameter mapping only; no target diagnostic layouts or annual result"
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5"
+  },
+  "scope": "artificial/parameter tests, no new target optical design",
+  "all_pass": true
+}

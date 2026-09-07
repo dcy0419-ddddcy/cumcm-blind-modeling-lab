@@ -1,0 +1,451 @@
+{
+  "version": "v001",
+  "frozen_at": "2026-09-05T11:23:31.855678+08:00",
+  "scope": "Q2 prototype only; at most 3 new layouts and 54 new optical combinations; no optimization/no rated claim",
+  "budget_seconds": 1800,
+  "root_seed": 2026090503,
+  "rng": "NumPy PCG64 + SeedSequence",
+  "beta": 0.00465,
+  "rho": 0.92,
+  "hours": [
+    9.0,
+    10.5,
+    12.0,
+    13.5,
+    15.0
+  ],
+  "batches": 4,
+  "levels": [
+    64,
+    256
+  ],
+  "max_unique_samples_per_combination": 1024,
+  "batch_merge": "pool final 256 prefix per each of 4 equal independent batches; 64 prefix is correlated and never added again",
+  "new_times": [
+    [
+      12,
+      9.0
+    ],
+    [
+      3,
+      12.0
+    ],
+    [
+      6,
+      15.0
+    ]
+  ],
+  "old_combinations": [
+    [
+      12,
+      9.0,
+      57
+    ],
+    [
+      1,
+      9.0,
+      732
+    ],
+    [
+      6,
+      15.0,
+      63
+    ]
+  ],
+  "regression_samples": 256,
+  "exhaustive_samples": 64,
+  "roundtrip_samples": 64,
+  "comparison_abs": 1e-10,
+  "event_comparison": "exact S/B/R/unknown and entity identity; no relaxation",
+  "geometric_tolerance": "Q1 numerical kernel 256*float64 eps*1000 m; C22 exact sign constraints, near_boundary 1e-9 m labels only",
+  "source_domain": "outside mirror/cone beyond roundoff rejected, within boundary band marked uncertain; no angular cropping",
+  "low_survival_screen": 100,
+  "diagnostic_thresholds": {
+    "level_efficiency_change_warning": 0.05,
+    "jackknife_efficiency_se_warning": 0.03,
+    "interpretation": "flags for local prototype follow-up, not final optimization precision"
+  },
+  "independence": "4 batches independent within each design/object/time; layout name plus stable position key included in new seed identity; no cross-layout CRN in this diagnostic round",
+  "checkpoint": "one immutable combination JSON; resume only matching design/config hashes and same seed identities, skip completed records; incomplete population not filled",
+  "stopping": "basic or old regression failure stops new optics; screening mismatch stops; unexpected domain failure retained; budget stops at checkpoints with 10 s reserve; no discretionary redesign based on power",
+  "design_specs": [
+    {
+      "name": "D-A",
+      "version": "v001",
+      "tower_xy": [
+        0.0,
+        0.0
+      ],
+      "width": 6.0,
+      "height": 4.0,
+      "installation_height": 3.0,
+      "rings": [
+        {
+          "ring_id": "ring1",
+          "radius": 110,
+          "sectors": [
+            {
+              "sector_id": "whole",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 60,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring2",
+          "radius": 122,
+          "sectors": [
+            {
+              "sector_id": "whole",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 66,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring3",
+          "radius": 134,
+          "sectors": [
+            {
+              "sector_id": "whole",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 72,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring4",
+          "radius": 146,
+          "sectors": [
+            {
+              "sector_id": "whole",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 78,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring5",
+          "radius": 250,
+          "sectors": [
+            {
+              "sector_id": "whole",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 100,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring6",
+          "radius": 340,
+          "sectors": [
+            {
+              "sector_id": "whole",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 140,
+              "phase": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "D-B",
+      "version": "v001",
+      "tower_xy": [
+        100.0,
+        -70.0
+      ],
+      "width": 8.0,
+      "height": 6.0,
+      "installation_height": 4.5,
+      "rings": [
+        {
+          "ring_id": "ring1",
+          "radius": 112,
+          "sectors": [
+            {
+              "sector_id": "whole",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 52,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring2",
+          "radius": 126,
+          "sectors": [
+            {
+              "sector_id": "whole",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 58,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring3",
+          "radius": 140,
+          "sectors": [
+            {
+              "sector_id": "whole",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 64,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring4",
+          "radius": 220,
+          "sectors": [
+            {
+              "sector_id": "whole",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 96,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring5",
+          "radius": 300,
+          "sectors": [
+            {
+              "sector_id": "whole",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 132,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring6",
+          "radius": 400,
+          "sectors": [
+            {
+              "sector_id": "whole",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 176,
+              "phase": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "D-C",
+      "version": "v001",
+      "tower_xy": [
+        -80.0,
+        40.0
+      ],
+      "width": 4.0,
+      "height": 2.0,
+      "installation_height": 2.0,
+      "rings": [
+        {
+          "ring_id": "ring1",
+          "radius": 101,
+          "sectors": [
+            {
+              "sector_id": "upper",
+              "start": 0.0,
+              "end": 3.141592653589793,
+              "count": 33,
+              "phase": 0.5
+            },
+            {
+              "sector_id": "lower",
+              "start": 3.141592653589793,
+              "end": 6.283185307179586,
+              "count": 33,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring2",
+          "radius": 111,
+          "sectors": [
+            {
+              "sector_id": "upper",
+              "start": 0.0,
+              "end": 3.141592653589793,
+              "count": 37,
+              "phase": 0.5
+            },
+            {
+              "sector_id": "lower",
+              "start": 3.141592653589793,
+              "end": 6.283185307179586,
+              "count": 37,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring3",
+          "radius": 121,
+          "sectors": [
+            {
+              "sector_id": "upper",
+              "start": 0.0,
+              "end": 3.141592653589793,
+              "count": 41,
+              "phase": 0.5
+            },
+            {
+              "sector_id": "lower",
+              "start": 3.141592653589793,
+              "end": 6.283185307179586,
+              "count": 41,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring4",
+          "radius": 131,
+          "sectors": [
+            {
+              "sector_id": "upper",
+              "start": 0.0,
+              "end": 3.141592653589793,
+              "count": 44,
+              "phase": 0.5
+            },
+            {
+              "sector_id": "lower",
+              "start": 3.141592653589793,
+              "end": 6.283185307179586,
+              "count": 44,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring5",
+          "radius": 220,
+          "sectors": [
+            {
+              "sector_id": "upper",
+              "start": 0.0,
+              "end": 3.141592653589793,
+              "count": 70,
+              "phase": 0.5
+            },
+            {
+              "sector_id": "lower",
+              "start": 3.141592653589793,
+              "end": 6.283185307179586,
+              "count": 70,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring6",
+          "radius": 300,
+          "sectors": [
+            {
+              "sector_id": "upper",
+              "start": 0.0,
+              "end": 3.141592653589793,
+              "count": 97,
+              "phase": 0.5
+            },
+            {
+              "sector_id": "lower",
+              "start": 3.141592653589793,
+              "end": 6.283185307179586,
+              "count": 97,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring7",
+          "radius": 420,
+          "sectors": [
+            {
+              "sector_id": "upper",
+              "start": 0.0,
+              "end": 3.141592653589793,
+              "count": 138,
+              "phase": 0.5
+            },
+            {
+              "sector_id": "lower",
+              "start": 3.141592653589793,
+              "end": 6.283185307179586,
+              "count": 138,
+              "phase": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "design_rationale": {
+    "D-A": "non-square and changed height; several near-spaced rings plus outer boundary",
+    "D-B": "offset tower and larger rectangle; off-center fixed-field clipping",
+    "D-C": "smaller rectangle/height, split sectors at pi, close rings and exclusion/boundary vicinity"
+  },
+  "bindings": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "f7a5facb2fb333b20e3e9e12cd14b4990a209f3a8a09899d8eabe7927c9c9247"
+    },
+    {
+      "path": "工作记录/阶段记录/Q02-约束梳理与候选方案-v001.md",
+      "sha256": "8512eb4bfc2e9e28a040d0ccb2cf08f844438346884205ae8cfbfb4ffc521acf"
+    },
+    {
+      "path": "工作记录/诊断代码/q01_core_v003.py",
+      "sha256": "7d7e70b8c85b1bc7762efdc08fadc972635d810ceb852bf74bfb2cc318ed1693"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_eval_v002.py",
+      "sha256": "777a6889531d7f167c1dfba04c5c71df6198ab7a59a6721816b9c28d4100793e"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_design_v002.py",
+      "sha256": "92315f1506597508d1d558ea1e58bd18579c4381a56741de929d7b9a48f3b361"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_design_tests_v002.py",
+      "sha256": "e5edca1ffe5631a65d7462e966c56571a9ba8785c10ffa87def31136da6a1347"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_eval_tests_v001.py",
+      "sha256": "4a7b451e131877928473f31dc6fbfa6f66025d69d6ce609e27ec5eaf400881f2"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_prototype_run_v001.py",
+      "sha256": "770ccb65f686024555671cac71b5e29c4aaf39445f917d42dd40de11181dbe14"
+    },
+    {
+      "path": "附件/附件03.xlsx",
+      "sha256": "596abec1162db0bce095f6f768b6cd06394e61766f80129a09e15146dc1fed50"
+    }
+  ]
+}

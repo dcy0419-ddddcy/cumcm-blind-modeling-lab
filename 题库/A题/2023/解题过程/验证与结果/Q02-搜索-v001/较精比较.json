@@ -1,0 +1,1397 @@
+[
+  {
+    "P_score_kw": 54454.16984477355,
+    "q_score_kw_m2": 0.3964801508968251,
+    "zero_survivor": 0,
+    "zero_capture": 0,
+    "unknown": 0,
+    "point_time_power_kw": [
+      38081.49606924375,
+      49108.9074876235,
+      51905.88283166269,
+      49074.7670005205,
+      37558.08601108262,
+      47097.29293925989,
+      54610.11375031662,
+      56602.86512882199,
+      54637.73388988697,
+      47165.43781585205,
+      53251.42540216847,
+      58688.62547824111,
+      60264.53370266961,
+      58635.62058474266,
+      53220.60688614448,
+      57228.914015324786,
+      61677.37357629138,
+      62886.66046232725,
+      61569.18844318373,
+      57238.45985866105,
+      59372.24556754407,
+      63093.63775759626,
+      64502.71392572386,
+      63147.312807450166,
+      59081.93776229979,
+      59690.56812818721,
+      63638.41742587423,
+      64819.63062928951,
+      63491.68437335171,
+      59761.314373393056,
+      59143.26316015379,
+      63071.13774633327,
+      64288.87931942779,
+      63185.94921486867,
+      59042.23720605874,
+      57136.937298757315,
+      61493.863239056205,
+      63014.28358266922,
+      61420.11521335982,
+      57072.399850580434,
+      52982.94789657823,
+      58568.98172777457,
+      60020.14451635865,
+      58491.19986198979,
+      52978.30306874414,
+      46043.30658098557,
+      54000.4358341506,
+      56138.99192136233,
+      54082.19692544877,
+      46151.141768536174,
+      37027.059777739014,
+      48521.14494898015,
+      51483.164029569794,
+      48417.35780240276,
+      36615.74533889302,
+      32908.14518463261,
+      45698.128268582084,
+      49174.00972567337,
+      45628.95793890655,
+      32346.307653103384
+    ],
+    "formal_rating": "NOT_PERMITTED_HEURISTIC",
+    "actual_time_count": 60,
+    "actual_mirror_count": 2146,
+    "name": "C01",
+    "design_key": "72043f04f6bc9c28b6e2694aa84fc572f09a5b70168f879b9c45dac294e38f3a",
+    "n": 2146,
+    "area": 137344.0,
+    "spec": {
+      "name": "C01",
+      "version": "v001",
+      "tower_xy": [
+        0.0,
+        0.0
+      ],
+      "width": 8.0,
+      "height": 8.0,
+      "installation_height": 6.0,
+      "rings": [
+        {
+          "ring_id": "ring1",
+          "radius": 100.5,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 48,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring2",
+          "radius": 113.61525000000002,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 54,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring3",
+          "radius": 126.73050000000003,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 60,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring4",
+          "radius": 139.84575000000007,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 66,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring5",
+          "radius": 152.9610000000001,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 73,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring6",
+          "radius": 166.07625000000013,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 79,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring7",
+          "radius": 179.19150000000016,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 85,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring8",
+          "radius": 192.3067500000002,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 92,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring9",
+          "radius": 205.42200000000022,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 98,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring10",
+          "radius": 218.53725000000026,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 104,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring11",
+          "radius": 231.6525000000003,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 110,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring12",
+          "radius": 244.76775000000032,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 117,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring13",
+          "radius": 257.8830000000004,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 123,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring14",
+          "radius": 270.99825000000044,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 129,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring15",
+          "radius": 284.1135000000005,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 136,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring16",
+          "radius": 297.22875000000056,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 142,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring17",
+          "radius": 310.3440000000006,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 148,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring18",
+          "radius": 323.4592500000007,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 154,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring19",
+          "radius": 336.57450000000074,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 161,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring20",
+          "radius": 349.6897500000008,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 167,
+              "phase": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "score_kind": "fine",
+    "full_comparison_point": [
+      0.40710729082524905,
+      0.7512287908040343,
+      0.7562055679912935,
+      0.8366148303014069,
+      54454.16984477355,
+      0.39648015089682503
+    ],
+    "comparison_states": {
+      "ESTIMATED": 128760,
+      "TRUE_ZERO_SURVIVOR": 0,
+      "TRUE_ZERO_CAPTURE": 0,
+      "TRUE_ZERO_CAPTURE_SURVIVOR_ONE": 0,
+      "SAMPLED_ZERO_SURVIVOR": 0,
+      "SAMPLED_ZERO_CAPTURE": 0,
+      "BOUNDARY_UNCERTAIN": 0,
+      "ZERO_PRIMARY_DENOMINATOR": 0,
+      "INVALID_STATISTICS": 0,
+      "CERTIFICATE_CONTRADICTION": 0,
+      "CERTIFICATE_WITH_UNKNOWN": 0
+    },
+    "summary_path": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q02-搜索-v001\\candidates\\C01\\fine\\summary.json",
+    "rate_wall_seconds": 247.0057017999934,
+    "evaluation_seconds": 247.0057017999934
+  },
+  {
+    "P_score_kw": 52649.883168209686,
+    "q_score_kw_m2": 0.507107057792126,
+    "zero_survivor": 1,
+    "zero_capture": 1,
+    "unknown": 0,
+    "point_time_power_kw": [
+      37579.58188416005,
+      48324.81302029968,
+      51161.064322968545,
+      48344.83260224237,
+      36953.94695369523,
+      45783.26979584465,
+      53309.3710099654,
+      55316.463775569966,
+      53313.32772142232,
+      45663.93378522099,
+      51124.94092502,
+      56857.173545476886,
+      58503.89675467502,
+      56759.0703360455,
+      51082.92541200601,
+      54445.18860152116,
+      59347.98299443679,
+      60867.05829379811,
+      59293.93834895385,
+      54391.20107790095,
+      55928.78946122135,
+      60544.766542163125,
+      62034.53611504863,
+      60505.668381042255,
+      55954.65196415928,
+      56359.89674457154,
+      60830.421945536065,
+      62369.33362287257,
+      60812.67417022553,
+      56413.952603399324,
+      55855.4136074489,
+      60510.769644072425,
+      61963.89029919255,
+      60476.06951342583,
+      55938.67933383641,
+      54370.74857820064,
+      59300.775984996595,
+      60792.80598250493,
+      59195.5985729689,
+      54316.51418605387,
+      50891.82960069504,
+      56726.73626661661,
+      58357.081427051075,
+      56664.33045369387,
+      50812.49319295953,
+      44942.93860713616,
+      52768.0076110717,
+      54821.209261800046,
+      52808.37605548689,
+      44820.98908204084,
+      36667.64285657543,
+      47758.803467579666,
+      50612.70654432416,
+      47798.304533071896,
+      36020.41009779109,
+      32823.05051713514,
+      45068.265863688444,
+      48648.69454228937,
+      45136.6649751846,
+      31944.516722225748
+    ],
+    "formal_rating": "NOT_PERMITTED_HEURISTIC",
+    "actual_time_count": 60,
+    "actual_mirror_count": 2884,
+    "name": "C07",
+    "design_key": "df9dc765c9809b5856d46870f391b9289ac6278f17f76acf761af826307b7dc8",
+    "n": 2884,
+    "area": 103824.0,
+    "spec": {
+      "name": "C07",
+      "version": "v001",
+      "tower_xy": [
+        0.0,
+        -100.0
+      ],
+      "width": 6.0,
+      "height": 6.0,
+      "installation_height": 4.0,
+      "rings": [
+        {
+          "ring_id": "ring1",
+          "radius": 100.5,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 56,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring2",
+          "radius": 111.60525000000001,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 63,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring3",
+          "radius": 122.71050000000002,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 69,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring4",
+          "radius": 133.81575000000007,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 75,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring5",
+          "radius": 144.9210000000001,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 81,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring6",
+          "radius": 156.02625000000015,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 88,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring7",
+          "radius": 167.1315000000002,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 94,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring8",
+          "radius": 178.23675000000023,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 100,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring9",
+          "radius": 189.34200000000027,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 107,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring10",
+          "radius": 200.4472500000003,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 113,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring11",
+          "radius": 211.55250000000035,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 119,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring12",
+          "radius": 222.6577500000004,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 125,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring13",
+          "radius": 233.76300000000043,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 132,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring14",
+          "radius": 244.86825000000047,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 138,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring15",
+          "radius": 255.9735000000005,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 144,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring16",
+          "radius": 267.0787500000006,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 151,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring17",
+          "radius": 278.18400000000065,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 157,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring18",
+          "radius": 289.2892500000007,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 163,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring19",
+          "radius": 300.3945000000008,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 169,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring20",
+          "radius": 311.49975000000086,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 176,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring21",
+          "radius": 322.6050000000009,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 182,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring22",
+          "radius": 333.710250000001,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 188,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring23",
+          "radius": 344.81550000000107,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 195,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring24",
+          "radius": 355.92075000000114,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 201,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring25",
+          "radius": 367.0260000000012,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 207,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring26",
+          "radius": 378.1312500000013,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 213,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring27",
+          "radius": 389.23650000000134,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 220,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring28",
+          "radius": 400.3417500000014,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 226,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring29",
+          "radius": 411.4470000000015,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 232,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring30",
+          "radius": 422.55225000000155,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 239,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring31",
+          "radius": 433.6575000000016,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 245,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring32",
+          "radius": 444.7627500000017,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 251,
+              "phase": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "score_kind": "fine",
+    "full_comparison_point": [
+      null,
+      0.8063567358441763,
+      null,
+      null,
+      null,
+      null
+    ],
+    "comparison_states": {
+      "ESTIMATED": 173039,
+      "TRUE_ZERO_SURVIVOR": 0,
+      "TRUE_ZERO_CAPTURE": 0,
+      "TRUE_ZERO_CAPTURE_SURVIVOR_ONE": 0,
+      "SAMPLED_ZERO_SURVIVOR": 1,
+      "SAMPLED_ZERO_CAPTURE": 0,
+      "BOUNDARY_UNCERTAIN": 0,
+      "ZERO_PRIMARY_DENOMINATOR": 0,
+      "INVALID_STATISTICS": 0,
+      "CERTIFICATE_CONTRADICTION": 0,
+      "CERTIFICATE_WITH_UNKNOWN": 0
+    },
+    "summary_path": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q02-搜索-v001\\candidates\\C07\\fine\\summary.json",
+    "rate_wall_seconds": 329.6149182000081,
+    "evaluation_seconds": 329.6149182000081
+  },
+  {
+    "P_score_kw": 50666.945445115765,
+    "q_score_kw_m2": 0.498700224857928,
+    "zero_survivor": 0,
+    "zero_capture": 0,
+    "unknown": 0,
+    "point_time_power_kw": [
+      36682.07078871574,
+      46964.15807189149,
+      49279.47977656852,
+      46909.52917267671,
+      36167.23884449015,
+      44560.53881374749,
+      51275.346827174384,
+      53062.50925848844,
+      51298.66029815748,
+      44504.3516983953,
+      49242.14214131065,
+      54484.701406962464,
+      55940.79939491526,
+      54346.71866546326,
+      49320.11707181965,
+      52223.82653368705,
+      56792.840256002964,
+      58082.634671886255,
+      56703.101885735385,
+      52331.296974172656,
+      53730.07818260082,
+      57827.281192127084,
+      59227.59928291422,
+      57820.82145364149,
+      53701.77608502699,
+      54108.83747437118,
+      58124.04545727392,
+      59443.217097001485,
+      58114.04338435208,
+      54122.136983758246,
+      53607.81382450369,
+      57784.96413423141,
+      59151.734891482665,
+      57757.1475140074,
+      53722.62827749711,
+      52190.08194189868,
+      56706.09710708924,
+      58120.79236390807,
+      56635.96006624899,
+      52224.27837024468,
+      48983.54692720432,
+      54385.319540264085,
+      55843.663725214654,
+      54316.140495643944,
+      49002.98154329499,
+      43702.54340580662,
+      50795.210013212556,
+      52660.206949876345,
+      50810.058871480884,
+      43691.23154763164,
+      35770.465015075446,
+      46459.285555751856,
+      48851.185429036785,
+      46419.03719618306,
+      35300.20464521247,
+      32131.776520062507,
+      44117.85125770272,
+      46964.396933376185,
+      44120.715160588086,
+      31397.50833788527
+    ],
+    "formal_rating": "NOT_PERMITTED_HEURISTIC",
+    "actual_time_count": 60,
+    "actual_mirror_count": 2419,
+    "name": "C05",
+    "design_key": "106b8bfc9a8fdf465343a720ae28d1e3343a6d37853bd3f13eb535a0e36631b9",
+    "n": 2419,
+    "area": 101598.0,
+    "spec": {
+      "name": "C05",
+      "version": "v001",
+      "tower_xy": [
+        0.0,
+        -100.0
+      ],
+      "width": 7.0,
+      "height": 6.0,
+      "installation_height": 4.5,
+      "rings": [
+        {
+          "ring_id": "ring1",
+          "radius": 100.5,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 52,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring2",
+          "radius": 112.61025000000001,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 58,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring3",
+          "radius": 124.72050000000002,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 64,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring4",
+          "radius": 136.83075000000005,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 70,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring5",
+          "radius": 148.9410000000001,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 77,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring6",
+          "radius": 161.05125000000012,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 83,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring7",
+          "radius": 173.16150000000016,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 89,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring8",
+          "radius": 185.2717500000002,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 96,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring9",
+          "radius": 197.38200000000023,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 102,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring10",
+          "radius": 209.49225000000027,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 108,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring11",
+          "radius": 221.6025000000003,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 114,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring12",
+          "radius": 233.71275000000034,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 121,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring13",
+          "radius": 245.82300000000038,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 127,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring14",
+          "radius": 257.93325000000044,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 133,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring15",
+          "radius": 270.0435000000005,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 140,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring16",
+          "radius": 282.15375000000057,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 146,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring17",
+          "radius": 294.26400000000064,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 152,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring18",
+          "radius": 306.3742500000007,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 158,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring19",
+          "radius": 318.48450000000076,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 165,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring20",
+          "radius": 330.59475000000083,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 171,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring21",
+          "radius": 342.7050000000009,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 177,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring22",
+          "radius": 354.81525000000096,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 184,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring23",
+          "radius": 366.925500000001,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 190,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring24",
+          "radius": 379.0357500000011,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 196,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring25",
+          "radius": 391.14600000000115,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 202,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring26",
+          "radius": 403.2562500000012,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 209,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring27",
+          "radius": 415.3665000000013,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 215,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring28",
+          "radius": 427.47675000000135,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 221,
+              "phase": 0.5
+            }
+          ]
+        },
+        {
+          "ring_id": "ring29",
+          "radius": 439.5870000000014,
+          "sectors": [
+            {
+              "sector_id": "active",
+              "start": 0.0,
+              "end": 6.283185307179586,
+              "count": 228,
+              "phase": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "score_kind": "fine",
+    "full_comparison_point": [
+      0.5128566801656173,
+      0.8059987746383069,
+      0.8079148247617953,
+      0.9089696566443423,
+      50666.945445115765,
+      0.4987002248579277
+    ],
+    "comparison_states": {
+      "ESTIMATED": 145140,
+      "TRUE_ZERO_SURVIVOR": 0,
+      "TRUE_ZERO_CAPTURE": 0,
+      "TRUE_ZERO_CAPTURE_SURVIVOR_ONE": 0,
+      "SAMPLED_ZERO_SURVIVOR": 0,
+      "SAMPLED_ZERO_CAPTURE": 0,
+      "BOUNDARY_UNCERTAIN": 0,
+      "ZERO_PRIMARY_DENOMINATOR": 0,
+      "INVALID_STATISTICS": 0,
+      "CERTIFICATE_CONTRADICTION": 0,
+      "CERTIFICATE_WITH_UNKNOWN": 0
+    },
+    "summary_path": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q02-搜索-v001\\candidates\\C05\\fine\\summary.json",
+    "rate_wall_seconds": 270.19872879999457,
+    "evaluation_seconds": 270.19872879999457
+  }
+]

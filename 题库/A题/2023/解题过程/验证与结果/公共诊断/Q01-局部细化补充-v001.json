@@ -1,0 +1,70 @@
+{
+  "scope": "synthetic follow-up to observed R2 nonmonotone spatial convergence; no target rays",
+  "spatial": [
+    {
+      "na": 16,
+      "f2": 0.4687499999999982,
+      "analytic": 0.42426406871192845,
+      "independent_cell_lower": 0.3125,
+      "independent_cell_upper": 0.46875,
+      "inside_bound": true,
+      "estimate_inside_bound": true
+    },
+    {
+      "na": 32,
+      "f2": 0.42968749999999956,
+      "analytic": 0.42426406871192845,
+      "independent_cell_lower": 0.38671875,
+      "independent_cell_upper": 0.46875,
+      "inside_bound": true,
+      "estimate_inside_bound": true
+    },
+    {
+      "na": 64,
+      "f2": 0.4267578124999923,
+      "analytic": 0.42426406871192845,
+      "independent_cell_lower": 0.408203125,
+      "independent_cell_upper": 0.44921875,
+      "inside_bound": true,
+      "estimate_inside_bound": true
+    },
+    {
+      "na": 128,
+      "f2": 0.41748046874997513,
+      "analytic": 0.42426406871192845,
+      "independent_cell_lower": 0.41748046875,
+      "independent_cell_upper": 0.43798828125,
+      "inside_bound": true,
+      "estimate_inside_bound": false
+    }
+  ],
+  "angular": [
+    {
+      "nmu": 2,
+      "nphi": 8,
+      "azimuth_phase": 0.25,
+      "f2": 0.5000000000000002,
+      "analytic": 0.5
+    },
+    {
+      "nmu": 4,
+      "nphi": 16,
+      "azimuth_phase": 0.25,
+      "f2": 0.5000000000000047,
+      "analytic": 0.5
+    },
+    {
+      "nmu": 8,
+      "nphi": 32,
+      "azimuth_phase": 0.25,
+      "f2": 0.5000000000000008,
+      "analytic": 0.5
+    }
+  ],
+  "seed_repeatable": true,
+  "rays": 43264,
+  "elapsed_seconds": 0.07251649998943321,
+  "core_sha256": "f8297c1c9a40f70cc6381302fe4d8f18d1ed7d3669129498892e88172cc7c964",
+  "all_checks_pass": false,
+  "claim": "Bounds valid only for this independently reduced rectangle event; no universal order or error bound"
+}

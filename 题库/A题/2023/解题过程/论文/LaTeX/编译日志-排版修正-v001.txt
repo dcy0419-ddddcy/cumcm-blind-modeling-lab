@@ -1,0 +1,94 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex.fmt)
+entering extended mode
+(第1问-模型建立与求解-v001.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/ctex\ctexart.cls
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/ctex/config\ctexbackend
+.cfg)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
+ex.def))
+Document Class: ctexart 2026/07/14 v2.6.4 Chinese adapter for class article (CT
+EX)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/ctex\ctexhook.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/ctex\ctexpatch.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/ctex/config\ctexopts.cf
+g) (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/ctex/engine\ctex-engine
+-xetex.def
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/xelatex/xecjk\xeCJK.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\xt
+emplate.sty)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex
+.sty (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))
+) (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/xelatex/xecjk\xeCJK.cfg)))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/zhnumber\zhnumber.sty
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/zhnumber\zhnumber-utf8.
+cfg))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/ctex/scheme\ctex-scheme
+-chinese-article.def
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/ctex/config\ctex-name-u
+tf8.cfg))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/ctex\ctex-cs4size.clo)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/ctex/fontset\ctex-fonts
+et-windows.def))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/ctex/config\ctex.cfg)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+ (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def)
+))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(第1问-模型建立与求解-v001.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] (第1问-模型建立与求解-v001.aux) 
+)
+Output written on 第1问-模型建立与求解-v001.pdf (13 pages).
+Transcript written on 第1问-模型建立与求解-v001.log.

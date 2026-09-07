@@ -1,0 +1,66 @@
+{
+  "design_key": "2cda827c2b8da721963b77c577c9155898b44413f3aa816cbb18e970430c52d4",
+  "name": "C04",
+  "n_mirrors": 2065,
+  "times": [
+    [
+      3,
+      9
+    ],
+    [
+      3,
+      12
+    ],
+    [
+      3,
+      15
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      6,
+      15
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      12,
+      9
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      12,
+      15
+    ]
+  ],
+  "B": 2,
+  "n": 32,
+  "levels": [
+    16,
+    32
+  ],
+  "namespace": 900,
+  "root_seed": 2026090505,
+  "rng": "numpy.PCG64 via SeedSequence; per stable position_key, standard time index, namespace, batch",
+  "code_sha": "039bcb7a803e97f7c441808c3ce5ea25125a69baeb50c7034a0732a3de94f465",
+  "fast_sha": "84195cbd2395e8bf6d09c7189a5b158acd1373db2836903f648bdce9aca98e09"
+}

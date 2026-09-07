@@ -1,0 +1,425 @@
+\documentclass[UTF8,fontset=windows,zihao=-4]{ctexart}
+\usepackage{amsmath,amssymb,graphicx,booktabs,longtable,array,geometry}
+\geometry{a4paper,margin=23mm}
+\setlength{\parskip}{0.35em}
+\setlength{\emergencystretch}{2em}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.25}
+\setcounter{tocdepth}{2}
+\begin{document}
+
+\begin{center}{\LARGE\bfseries 第3问：逐镜异尺寸定日镜场的分组设计与确认}\end{center}
+
+\section*{1 问题分析}
+
+第3问解除统一镜面尺寸和统一安装高度的限制，在与第2问相同的场地、额定功率和光学评价口径下，要求给出逐镜宽度、高度、安装高度和中心坐标。尺寸自由度改变实际采光面积、有限矩形边界以及镜间遮挡关系，安装高度还改变三维传播几何。因此，逐镜参数必须进入设计身份、场景准备、光线求交、功率汇总和交付清单，不能在统一尺寸结果上作面积比例换算。
+
+\par\noindent\begin{minipage}{\linewidth}
+本问的原优化目标是在满足额定年平均输出热功率的条件下提高单位镜面面积年平均输出热功率：
+
+\[
+\max_{\mathcal D_3\in\Omega_3}\ \overline q
+=\frac{\overline P}{A_{\rm tot}},
+\qquad
+\text{s.t.}\quad \overline P\ge60000\ \mathrm{kW}.
+\tag{Q3-1}
+\]
+\end{minipage}\par
+
+式（Q3-1）给出模型目标和约束。计算中的条件 \(\widehat{\overline P}-U_{\overline P}\ge60000\,\mathrm{kW}\) 只是预定数值工作标准下支持额定可行性的判据，不改写原目标，也不构成严格概率保证。
+
+本文以第2问通过独立确认的 R027 为可行起点，固定塔位 \((0,-15)\,\mathrm m\)、2981 个稳定镜身份及全部平面坐标，只调整预先冻结的尺寸组参数。这样保留了可行基线并控制搜索维数，但不会探索镜位、镜数或塔位变化。所求结果只属于这一有限分组参数族，不提供原连续设计空间的全局最优性保证。
+
+
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\small
+\textbf{表A1　主要符号}\par\smallskip
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.290000\dimexpr\linewidth-6\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.540000\dimexpr\linewidth-6\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.170000\dimexpr\linewidth-6\tabcolsep\relax}}
+\toprule
+符号 & 含义 & 单位 \\
+\midrule
+\(\mathcal D_3,\Omega_3\) & 第3问逐镜设计及本轮有限可行搜索域 & — \\
+\(\boldsymbol a,\boldsymbol c_R,\boldsymbol c_i\) & 塔平面位置、接收器中心、镜面中心 & m \\
+\(\boldsymbol s_{0k},\boldsymbol s,\boldsymbol t_i,\boldsymbol n_{ik}\) & 太阳中心方向、抽样光源方向、镜心至接收器方向、镜面单位法向 & 1 \\
+\(c_{ik},g_{ik},\tau_i\) & 中心余弦因子、投影权重、大气透射率 & 1 \\
+\(S,B,R\) & 未遮阴、反射段未遮挡、有效侧面首次接收事件 & 0或1 \\
+\(A_i,A_{\rm tot},\overline P,\overline q\) & 单镜面积、总面积、年平均总功率、单位面积年平均功率 & m\textsuperscript{2}、m\textsuperscript{2}、kW、kW/m\textsuperscript{2} \\
+\(M_{0,ik},M_{1,ik},M_{2,ik},U_Q\) & 三层池化加权和及统计量 \(Q\) 的数值工作指标 & 见定义 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par\medskip
+
+\section*{2 设计变量、几何约束与分组}
+
+\par\noindent\begin{minipage}{\linewidth}
+第 \(i\) 面镜的宽、高、安装高度、平面中心和面积分别记为 \(w_i,h_i,z_i,\boldsymbol p_i=(x_i,y_i)\) 和 \(A_i=w_ih_i\)。完整设计写为
+
+\[
+\mathcal D_3=\left(\boldsymbol a,N,
+\{\boldsymbol p_i,w_i,h_i,z_i\}_{i=1}^{N}\right),
+\qquad
+\boldsymbol a=(0,-15),\quad N=2981,\quad
+A_{\rm tot}=\sum_{i=1}^{N}A_i .
+\tag{Q3-2}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+场界和塔周禁布区继续按镜面中心判断，安装高度为镜心竖坐标。逐镜基本约束为
+
+\[
+\|\boldsymbol a\|\le350,\quad
+\|\boldsymbol p_i\|\le350,\quad
+\|\boldsymbol p_i-\boldsymbol a\|\ge100,\quad
+2\le w_i,h_i\le8,\quad
+2\le z_i\le6,\quad
+z_i>\frac{h_i}{2}.
+\tag{Q3-3}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+有限搜索另取 \(w_i\ge h_i\)。该关系延续第2问的搜索范围解释，不作为题面另给的独立硬约束。异宽镜对采用对称的全对间距规则
+
+\[
+\|\boldsymbol p_i-\boldsymbol p_j\|
+\ge \max(w_i,w_j)+5,
+\qquad 1\le i<j\le N .
+\tag{Q3-4}
+\]
+\end{minipage}\par
+
+该规则在 \(w_i=w_j\) 时退化为第2问条件。所有无序镜对均直接核验，数值报告阈值只定位近边界对象，不把真实负余量放行为可行。
+
+\par\noindent\begin{minipage}{\linewidth}
+固定镜位后，每面镜和每组的宽度上限可在光学搜索前由中心间距确定：
+
+\[
+w_i^{\rm cap}
+=\min\!\left(8,\min_{j\ne i}\|\boldsymbol p_i-\boldsymbol p_j\|-5\right),
+\qquad
+w_g^{\rm cap}=\min_{i:g_i=g}w_i^{\rm cap}.
+\tag{Q3-5}
+\]
+\end{minipage}\par
+
+组参数须满足 \(w_g\le w_g^{\rm cap}\)。对冻结的 R027 坐标，静态全对报告给出的全场共同宽度上限为约 \(6.70\,\mathrm m\)，6个组的成员最小上限也均约为 \(6.70\,\mathrm m\)；搜索不得以显示舍入把宽度放到该实际上限之外。
+
+\par\noindent\begin{minipage}{\linewidth}
+为降低变量维数，先按镜心到塔的距离排序，同距时按稳定镜身份排序；排序秩从0开始，即 \({\rm rank}_i\in\{0,1,\ldots,N-1\}\)，再按径向秩等分为3组。相对塔位的方位角归一到 \([0,2\pi)\)，用两个半开半平面区间划分。径向编号为 \(r_i\in\{0,1,2\}\)，半平面编号为 \(b_i\in\{0,1\}\)，组号为
+
+\[
+r_i=\min\!\left(2,\left\lfloor\frac{3\,{\rm rank}_i}{N}\right\rfloor\right),
+\qquad
+b_i=\left\lfloor\frac{\theta_i}{\pi}\right\rfloor,
+\qquad
+g_i=2r_i+b_i .
+\tag{Q3-6}
+\]
+\end{minipage}\par
+
+由此得到6个非空组，每组共享 \((w_g,h_g,z_g)\)。组成员在查看光学结果前冻结，参数改变后不重新分组；所有组同取 R027 参数时完整表示可行基线。
+
+\section*{3 光学评价与异面积统计}
+
+太阳位置、DNI、有限矩形、反射率 \(\rho=0.92\) 和单次理想反射沿用第2问已验收正文第2.1节及第4节的定义。光源仍取半角 \(\beta=0.00465\,\mathrm{rad}\) 的硬截止圆锥，并在立体角上均匀抽样；\(\boldsymbol s\) 指向光源，\(\mathrm{DNI}_k\) 表示单位面积对参考太阳中心方向 \(\boldsymbol s_{0k}\) 法面的直接辐照通量。每个候选仍在全部镜面作为障碍的场景中评价；改变任一 \(w_i,h_i,z_i\) 都重新建立镜面边界、三维中心、遮挡候选和场景身份，不引入新的物理输入。
+
+\par\noindent\begin{minipage}{\linewidth}
+令接收器中心为 \(\boldsymbol c_R=(a_x,a_y,80)\)，太阳中心单位方向 \(\boldsymbol s_{0k}\) 和圆锥内抽样方向 \(\boldsymbol s\) 均指向光源。镜心至接收器中心的单位方向、镜面法向、中心余弦、投影权重和大气透射率为
+
+\[
+\begin{aligned}
+\boldsymbol t_i&=\frac{\boldsymbol c_R-\boldsymbol c_i}
+{\|\boldsymbol c_R-\boldsymbol c_i\|},
+&\boldsymbol n_{ik}&=\frac{\boldsymbol s_{0k}+\boldsymbol t_i}
+{\|\boldsymbol s_{0k}+\boldsymbol t_i\|},\\
+c_{ik}&=\boldsymbol n_{ik}\cdot\boldsymbol s_{0k},
+&g_{ik}(\boldsymbol s)&=
+\frac{\boldsymbol n_{ik}\cdot\boldsymbol s}
+{\boldsymbol s_{0k}\cdot\boldsymbol s},\\
+d_i&=\|\boldsymbol c_R-\boldsymbol c_i\|,
+&\tau_i&=0.99321-0.0001176d_i+1.97\times10^{-8}d_i^2.
+\end{aligned}
+\tag{Q3-7}
+\]
+\end{minipage}\par
+
+其中，大气透射公式用于 \(d_i\le1000\,\mathrm m\) 的当前场景。只有当完整光源圆锥内各方向均位于镜面正面和地平线上方、\(\boldsymbol s_{0k}\!\cdot\!\boldsymbol s>0\)，且N04终点参数为正时，才使用完整圆锥积分关系 \(\mathbb E[g_{ik}]=c_{ik}\)；上述前提对每个设计的规定60时点逐一检查。对镜面源点 \(\boldsymbol x\)，从源点向光源回查且无其他镜面或接收器实体遮阴时记 \(S=1\)；反射路径在规定终点前未被其他镜面截住时记 \(B=1\)；接收器的首次实体接触为有效外入侧面时记 \(R=1\)。只有联合事件 \(SBR=1\) 计入有效接收。
+
+\par\noindent\begin{minipage}{\linewidth}
+N04 对未接收路径采用接收体包围球后切平面作为有限终点。令 \(\boldsymbol y\) 表示该终止平面上的任意点，则：
+
+\[
+(\boldsymbol y-\boldsymbol c_R)\cdot\boldsymbol t_i=R_b,
+\qquad
+R_b=\sqrt{3.5^2+4^2}.
+\tag{Q3-8}
+\]
+\end{minipage}\par
+
+若路径更早接触接收器实体，则在首次接触处终止；所有终止参数必须为正。该终点只规定阴影遮挡和截断损失的分项归属，不是新增实体。改变未接收路径终点可能改变两个分项而不改变净接收，因此本文不把这一分解称为唯一物理定义。
+
+\par\noindent\begin{minipage}{\linewidth}
+对镜 \(i\)、时点 \(k\) 的源样本，令 \(g\) 为投影权重，\(S,B,R\) 分别表示未遮阴、反射段未遮挡和首次接触有效受光侧面。合并所纳入批次的 \(n_{\rm tot}\) 条互不重复源样本，保存
+
+\[
+M_{0,ik}=\sum g,\qquad
+M_{1,ik}=\sum gSB,\qquad
+M_{2,ik}=\sum gSBR .
+\tag{Q3-9}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+在分母为正且没有边界未知状态时，自归一总效率及两个条件比分别为
+
+\[
+\widehat\eta_{ik}
+=\rho\,c_{ik}\tau_i\frac{M_{2,ik}}{M_{0,ik}},
+\qquad
+\widehat\eta_{{\rm sb},ik}=\frac{M_{1,ik}}{M_{0,ik}},
+\qquad
+\widehat\eta_{{\rm trunc},ik}=\frac{M_{2,ik}}{M_{1,ik}} .
+\tag{Q3-10}
+\]
+\end{minipage}\par
+
+另以 \(M_{\ell,ik}/n_{\rm tot}\) 构造原始积分替代量，作为数值诊断而非另一套物理模型。真实零只有在当前完整场景的可验证证书成立时才据此认定；必需分母不足或非法、存在未知交点时保留未定义状态。若存活分母为正而接收计数为零，则相应条件比保留有限样本估计零，但该估计不证明真实截断为零；不通过换种子或删除镜面隐藏任何状态。
+
+\par\noindent\begin{minipage}{\linewidth}
+表1、表2中的四项平均效率继续采用固定镜面总体的镜数算术平均
+
+\[
+\overline\eta_{N,k}=\frac1N\sum_{i=1}^{N}\eta_{ik}.
+\tag{Q3-11}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+同时另存面积加权效率作为辅助诊断
+
+\[
+\overline\eta_{A,k}
+=\frac{\sum_{i=1}^{N}A_i\eta_{ik}}{A_{\rm tot}} .
+\tag{Q3-12}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+两种平均回答不同问题，不能按数值高低选择报告口径。全场功率必须使用逐镜实际面积：
+
+\[
+P_k=\mathrm{DNI}_k\sum_{i=1}^{N}A_i\eta_{ik},
+\qquad
+\overline P=\frac1{60}\sum_{k=1}^{60}P_k,
+\qquad
+\overline q=\frac{\overline P}{A_{\rm tot}} .
+\tag{Q3-13}
+\]
+\end{minipage}\par
+
+因此，镜数平均效率不能直接乘总面积代替式（Q3-13）。能量总量比与逐镜条件比的镜均值也分别保存，不把二者混写成同一效率。
+
+\section*{4 有限搜索与独立确认}
+
+搜索只在6组参数构成的有限邻域内进行，每个参数组合先逐镜展开，再核验尺寸、高度、离地、中心边界及全部异宽镜对。低样本层采用2个独立批次、每批16条源样本及批内8条半量前缀；较精层采用4批、每批64条及32条半量前缀。两层均覆盖2981面镜和完整60时点，只在层内比较。批内前缀与终值嵌套，汇总只池化每批最大样本层，不把前缀重复计数。必需分母不足造成的抽样零保留为未定义；正存活分母下的零接收形成估计零但不证明真实零。这些状态用于决定是否增样，不作为正式额定认证；搜索评分只用于候选排序。
+
+\par\noindent\begin{minipage}{\linewidth}
+冻结候选后，额定确认和相对改进比较使用未继续调参的新随机流：候选与R027基线均取8个独立批次、每批256条源样本，批内128条前缀只作相关诊断而不重复计入终值。两设计按稳定镜身份、规定时点和批次配对，使用共同随机流；每一设计均完整评价60个时点与2981面镜。对任一月度或年度汇总量 \(Q\)，数值工作指标取
+
+\[
+U_Q=\max\!\left(
+t_{B-1,0.975}\,\mathrm{SE}_{\rm JK},
+|\widehat Q-\widehat Q_{1/2}|,
+|\widehat Q-\widehat Q_{\rm raw}|
+\right)+D_{{\rm low},Q}.
+\tag{Q3-14}
+\]
+\end{minipage}\par
+
+其中，\(\mathrm{SE}_{\rm JK}\) 由删除一个完整独立批次的伪值计算，半量前缀与终值相关，\(D_{{\rm low},Q}\) 是合并存活数低于阈值对象的逐坐标全范围影响量。面积加权辅助效率使用 \(A_i/A_{\rm tot}\) 形成自己的低存活界。\(U_Q\) 是预定的数值工作指标，不是严格置信区间、同时误差界或物理误差界。
+
+候选额定条件为 \(\widehat{\overline P}-U_{\overline P}\ge60000\,\mathrm{kW}\)，且全部题表项满足数值精度要求。改进判断在同一新配对批次中分别计算候选与 R027 的实际 \(\overline q\)，再对 \(\Delta q=\overline q_{\rm cand}-\overline q_{\rm base}\) 建立工作指标；不能先相减功率再除以任一设计的面积。
+
+\section*{5 结果分析与验证}
+
+\subsection*{5.1 冻结候选与逐组参数}
+
+有限分组搜索最终冻结候选 Q3F013。其塔位、镜数、稳定镜身份和全部平面坐标与 R027 保持一致；逐镜宽度、高度和安装高度由表S1的6组参数展开。总镜面面积为 130284.0705 m\textsuperscript{2}。分组是降维表示，不表示同组镜面的局部光学条件相同。
+
+
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\footnotesize
+\textbf{表S1　Q3F013 的6组逐镜参数}\par\smallskip
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.125000\dimexpr\linewidth-16\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.125000\dimexpr\linewidth-16\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.125000\dimexpr\linewidth-16\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.125000\dimexpr\linewidth-16\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.125000\dimexpr\linewidth-16\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.125000\dimexpr\linewidth-16\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.125000\dimexpr\linewidth-16\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.125000\dimexpr\linewidth-16\tabcolsep\relax}}
+\toprule
+组号 & 径向秩组 & 半平面 & 镜数 & 宽度（m） & 高度（m） & 安装高度（m） & 组面积（m\textsuperscript{2}） \\
+\midrule
+0 & 0 & 0 & 497 & 6.690000 & 6.650000 & 6.000000 & 22110.7845 \\
+1 & 0 & 1 & 497 & 6.690000 & 6.650000 & 6.000000 & 22110.7845 \\
+2 & 1 & 0 & 497 & 6.690000 & 6.650000 & 6.000000 & 22110.7845 \\
+3 & 1 & 1 & 497 & 6.690000 & 6.650000 & 6.000000 & 22110.7845 \\
+4 & 2 & 0 & 582 & 6.690000 & 6.050000 & 6.000000 & 23556.1590 \\
+5 & 2 & 1 & 411 & 6.690000 & 6.650000 & 6.000000 & 18284.7735 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par\medskip
+
+
+\par\medskip\noindent\begin{minipage}{\linewidth}\centering
+\includegraphics[width=0.68\linewidth,height=0.72\textheight,keepaspectratio]{\detokenize{../图表/Q03-v001/Q03-镜高分组.png}}\par
+{\small\raggedright 图1　Q3F013镜面高度的空间分布\par}\end{minipage}\par\medskip
+
+图1以颜色表示逐镜尺寸中的高度 \(h_i\)，不是安装高度 \(z_i\)。外圆、塔周虚线圆和塔位符号分别辅助核对固定场界、禁布区及塔位；该图用于说明异尺寸参数在固定镜位上的空间分布，不能代替全对间距核验。
+\subsection*{5.2 正式题表与额定确认}
+
+候选的年平均总功率点估计为 60020.3221 kW，功率工作指标为 7.8759 kW，工作下限为 60012.4462 kW。单位面积年平均输出热功率为 0.4606881 kW/m\textsuperscript{2}，相应工作指标为 \(6.04518\times10^{-5}\) kW/m\textsuperscript{2}。以下题表采用镜数平均效率，功率和单位面积功率按逐镜实际面积汇总。
+
+
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\small
+\textbf{表1　Q3F013 每月21日的平均光学效率及输出热功率}\par\smallskip
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.166667\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.166667\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.166667\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.166667\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.166667\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.166667\dimexpr\linewidth-12\tabcolsep\relax}}
+\toprule
+日期 & 平均光学效率 & 平均余弦效率 & 平均阴影遮挡效率 & 平均截断效率 & 单位面积镜面平均输出热功率（kW/m\textsuperscript{2}） \\
+\midrule
+1月21日 & 0.4363 & 0.7284 & 0.7554 & 0.9388 & 0.3810 \\
+2月21日 & 0.4600 & 0.7464 & 0.7744 & 0.9306 & 0.4345 \\
+3月21日 & 0.4808 & 0.7642 & 0.7895 & 0.9217 & 0.4790 \\
+4月21日 & 0.4949 & 0.7792 & 0.7944 & 0.9168 & 0.5102 \\
+5月21日 & 0.5021 & 0.7869 & 0.7948 & 0.9161 & 0.5257 \\
+6月21日 & 0.5044 & 0.7891 & 0.7951 & 0.9159 & 0.5304 \\
+7月21日 & 0.5020 & 0.7868 & 0.7949 & 0.9160 & 0.5255 \\
+8月21日 & 0.4944 & 0.7786 & 0.7943 & 0.9171 & 0.5092 \\
+9月21日 & 0.4801 & 0.7633 & 0.7892 & 0.9221 & 0.4771 \\
+10月21日 & 0.4570 & 0.7441 & 0.7722 & 0.9314 & 0.4282 \\
+11月21日 & 0.4340 & 0.7269 & 0.7531 & 0.9398 & 0.3758 \\
+12月21日 & 0.4224 & 0.7205 & 0.7396 & 0.9448 & 0.3518 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par\medskip
+
+
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\small
+\textbf{表2　Q3F013 年平均光学效率及输出热功率}\par\smallskip
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.166667\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.166667\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.166667\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.166667\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.166667\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.166667\dimexpr\linewidth-12\tabcolsep\relax}}
+\toprule
+年平均光学效率 & 年平均余弦效率 & 年平均阴影遮挡效率 & 年平均截断效率 & 年平均输出热功率（MW） & 单位面积镜面年平均输出热功率（kW/m\textsuperscript{2}） \\
+\midrule
+0.4724 & 0.7595 & 0.7789 & 0.9259 & 60.020 & 0.4607 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par\medskip
+
+\par\medskip\noindent\begin{minipage}{\linewidth}\centering
+\includegraphics[width=0.90\linewidth,height=0.72\textheight,keepaspectratio]{\detokenize{../图表/Q03-v001/Q03-月度单位面积功率.png}}\par
+{\small\raggedright 图2　Q3F013与R027在规定月样本上的单位面积输出热功率\par}\end{minipage}\par\medskip
+
+图2中的实线圆点及误差棒分别为Q3F013的月度点估计和数值工作指标 \(U_Q\)，虚线圆点为同一新配对数据下R027的月度点估计。误差棒不是严格置信区间、物理误差界或工程保证；折线只连接12个规定月份21日的样本均值，不表示逐日连续变化。正式相对改进仍以年度配对差及其差值工作指标判断。
+
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\small
+\textbf{表3　Q3F013 定日镜场设计参数}\par\smallskip
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}}
+\toprule
+吸收塔位置坐标（m） & 定日镜尺寸（宽\(\times\)高）（m） & 定日镜安装高度（m） & 定日镜总面数 & 定日镜总面积（m\textsuperscript{2}） \\
+\midrule
+\((0,-15)\) &  &  & 2981 & 130284.0705 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par\medskip
+
+表3的统一尺寸、安装高度栏按第3问允许方式留空；实际逐镜参数完整列于 result3.xlsx，并由表S1说明分组取值。
+
+
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\small
+\textbf{表S2　面积加权效率辅助结果}\par\smallskip
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}}
+\toprule
+时间总体 & 面积加权总光学效率 & 面积加权余弦效率 & 面积加权阴影遮挡效率 & 面积加权截断效率 \\
+\midrule
+年平均 & 0.472923 & 0.757910 & 0.781386 & 0.925810 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par\medskip
+
+
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\small
+\textbf{表S3　面积加权效率的年度数值工作指标}\par\smallskip
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.250000\dimexpr\linewidth-8\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.250000\dimexpr\linewidth-8\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.250000\dimexpr\linewidth-8\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.250000\dimexpr\linewidth-8\tabcolsep\relax}}
+\toprule
+总光学效率 & 余弦效率 & 阴影遮挡效率 & 截断效率 \\
+\midrule
+\(6.12191\times10^{-5}\) & 0 & \(6.58133\times10^{-5}\) & \(6.06602\times10^{-5}\) \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par\medskip
+
+\subsection*{5.3 与 R027 的新配对比较}
+
+配对比较使用候选与 R027 的同一组新随机流，对逐批差值作删除一整批 jackknife。差值工作指标取配对批次近似半宽、配对半量前缀差和配对原始积分替代差三者的最大值，再加候选与基线按各自实际面积汇总的低存活影响量。候选相对 R027 的年度单位面积功率差为 0.0043351 kW/m\textsuperscript{2}，差值工作指标为 \(2.63993\times10^{-5}\) kW/m\textsuperscript{2}；总功率点估计差为 -139.4496 kW。由于差值扣除工作指标后仍为正，当前新确认数据支持候选在所用模型和分组搜索域内提高单位面积功率。
+
+
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\small
+\textbf{表S4　候选与 R027 的年度结果比较}\par\smallskip
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-10\tabcolsep\relax}}
+\toprule
+设计 & 年平均总功率（kW） & 功率工作指标（kW） & 单位面积年平均功率（kW/m\textsuperscript{2}） & 单位面积功率工作指标（kW/m\textsuperscript{2}） \\
+\midrule
+R027 新基线确认 & 60159.7717 & 8.1620 & 0.4563530 & \(6.19141\times10^{-5}\) \\
+Q3F013 & 60020.3221 & 7.8759 & 0.4606881 & \(6.04518\times10^{-5}\) \\
+差值（候选－基线） & -139.4496 & — & 0.0043351 & \(2.63993\times10^{-5}\) \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par\medskip
+
+\subsection*{5.4 有限搜索的分层比较}
+
+实际搜索先以2批\(\times\)16条源样本完成14个全场低样本候选，再以4批\(\times\)64条源样本比较4个对象；两层的半量前缀分别为每批8条和32条。所有对象均覆盖2981面镜和规定60时点，批内前缀与终值嵌套且不重复计数。两层只在各自层内排序，不把低样本和较精数值混排。必需分母不足造成的抽样零保留为未定义并促使增样；正存活分母下的零接收保留为估计零，但不作为真实零或额定通过证据。
+
+
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\small
+\textbf{表S5　完整60时点较精搜索比较（搜索层）}\par\smallskip
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.100000\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.180000\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.180000\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.200000\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.170000\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.170000\dimexpr\linewidth-12\tabcolsep\relax}}
+\toprule
+设计 & 总面积（m\textsuperscript{2}） & 年均功率评分（kW） & 单位面积功率评分（kW/m\textsuperscript{2}） & 配对搜索SE（kW/m\textsuperscript{2}） & 功率正余量（kW） \\
+\midrule
+Q3R000 & 131827.2725 & 60162.8604 & 0.4563764 & \(0\times10^{0}\) & 148.1191 \\
+Q3R010 & 130737.8667 & 60058.8476 & 0.4593837 & \(6.78042\times10^{-6}\) & 42.2591 \\
+Q3R012 & 130673.4285 & 60079.7114 & 0.4597699 & \(9.78688\times10^{-6}\) & 63.0714 \\
+Q3R013 & 130284.0705 & 60024.4440 & 0.4607197 & \(8.69504\times10^{-6}\) & 8.6382 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par\medskip
+
+表S5是候选选择阶段的搜索层结果，不是最终独立确认。Q3R013在4个较精对象中的单位面积功率评分最高；其功率评分扣除搜索工作量后仅保留 8.638 kW 正余量，低于搜索前预先登记的额外30 kW软偏好。该30 kW仅用于风险排序，并非额定功率硬门禁；Q3R013仍满足预先冻结的正余量条件，且低样本与较精功率变化较小，因此按原单位面积功率目标选择它，并以交付精度身份Q3F013进入未参与调参的新独立确认。
+
+这一选择只说明为什么安排Q3F013接受确认，不提前证明其额定可行或相对改进。Q3R010和Q3R012没有接受本轮最终独立确认，不能依据表S5称为已确认可行设计；Q3R000的正式基线状态也只由后续新配对确认给出，不由该搜索表给出。
+\subsection*{5.5 实现、精度与清单核验}
+
+异尺寸接口原型的18项人工测试全部通过，其中包括6个旧统一尺寸兼容组合和6个新异尺寸组合。最终候选与R027新基线分别完整评价60个规定时点、2981面镜和8个独立批次；每批终值采用256条源样本，128条嵌套前缀只作相关诊断，两份确认按稳定镜身份、时点和批次使用共同随机流。
+
+Q3F013共有78项题表精度检查通过。全部月度及年度效率项中的最大数值工作指标为 0.0003574664；功率和单位面积功率的最大相对工作指标为 0.0004742938，即 0.047429\%。这些数值只刻画既定模型下的抽样、批间、前缀、原始积分替代和低存活敏感性，不表示物理误差。
+
+合并确认中有2个对象—时点组合的存活数低于100，存活/接收计数分别为 39/36 和 62/62。阈值100是预先设定的数值筛查阈值，不是物理边界；相应全范围影响量按各镜实际面积进入功率和单位面积功率工作指标。两个组合均有正存活分母，其状态为估计值，未被改写为真实零或删除。
+
+逐镜清单回读的字段变化数为0。几何核验实际检查 4,441,690 个无序镜对，最小间距余量为 0.00999999993 m，最小离地净空为 2.675 m；这些数值来自冻结设计和清单回读的同一几何报告。
+\subsection*{5.6 文件与重建验证}
+
+正式逐镜清单保存于 delivery/result3.xlsx。交付报告同时绑定候选设计、候选与基线确认汇总、配对比较、搜索轨迹、工作簿和独立重建文件的 SHA-256；独立重建状态为通过。上述文件核对支持清单、统计和正文取值来自同一冻结证据链，不增加新的光学样本。
+
+\section*{6 局限}
+
+本问固定 R027 的塔位、镜数和全部镜位，只在3个径向秩组与2个半平面的6组宽、高、安装高度中搜索。分组共享参数会遗漏单镜差异，固定布局也排除了密度、镜数与塔位的联合调整。候选比较经历有限搜索，配对确认隔离了最终估计与继续调参，却不校正整个候选选择过程，也不证明全局最优。
+
+数值工作指标只描述既定离散光学模型中的批间、前缀、估计形式和低存活敏感性。它不覆盖太阳位置与DNI近似、光源角分布、反射率、镜面形状与跟踪误差、塔身和支架省略、接收器热损失等物理偏差。增加射线数不能消除这些建模误差。面积加权效率是辅助统计，不能替代题表的镜数平均效率；能量总量比也不能与逐镜条件比的镜均值混同。
+
+\section*{7 本问小结}
+
+在固定 R027 塔位、镜数和镜位的6组异尺寸参数族内，Q3F013 通过候选额定确认和相对 R027 的新配对改进检查。其正式年平均总功率、工作下限和单位面积功率见表2，逐镜参数见 result3.xlsx。该结论限于冻结设计、本文光学模型和预定数值标准，不延伸为工程保证或全局最优性结论。
+\end{document}

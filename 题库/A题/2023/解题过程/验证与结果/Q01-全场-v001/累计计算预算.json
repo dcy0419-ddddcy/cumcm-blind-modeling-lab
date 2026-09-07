@@ -1,0 +1,112 @@
+{
+  "limit_seconds": 1800,
+  "charged_seconds": 1121.8649656999914,
+  "entries": [
+    {
+      "mode": "core regression v003",
+      "charged_seconds": 3.0,
+      "observed_process_seconds": 2.809666,
+      "note": "rounded up including startup"
+    },
+    {
+      "mode": "prepare",
+      "charged_seconds": 35.713625400007004,
+      "status": "done",
+      "time": "2026-09-04T22:34:01.701585+08:00",
+      "startup_reserve_seconds": 2.0
+    },
+    {
+      "mode": "stress",
+      "charged_seconds": 4.690048599994043,
+      "status": "done",
+      "time": "2026-09-04T22:36:18.486279+08:00",
+      "startup_reserve_seconds": 2.0
+    },
+    {
+      "mode": "summary-selftest",
+      "charged_seconds": 2.027036899991799,
+      "status": "done",
+      "time": "2026-09-04T22:36:18.724903+08:00",
+      "startup_reserve_seconds": 2.0
+    },
+    {
+      "mode": "freeze",
+      "charged_seconds": 2.2492151000187732,
+      "status": "done",
+      "time": "2026-09-04T22:37:00.148555+08:00",
+      "startup_reserve_seconds": 2.0
+    },
+    {
+      "mode": "initial",
+      "charged_seconds": 49.80249840000761,
+      "status": "failed",
+      "time": "2026-09-04T22:37:48.124745+08:00",
+      "startup_reserve_seconds": 2.0
+    },
+    {
+      "mode": "checkpoint-IO-repair-check",
+      "charged_seconds": 2.152929600008065,
+      "status": "done",
+      "time": "2026-09-04T22:39:36.938795+08:00",
+      "startup_reserve_seconds": 2.0
+    },
+    {
+      "mode": "initial",
+      "charged_seconds": 432.86856430000626,
+      "status": "done",
+      "time": "2026-09-04T22:46:47.889384+08:00",
+      "startup_reserve_seconds": 2.0
+    },
+    {
+      "mode": "confirmation",
+      "charged_seconds": 573.5199619999912,
+      "status": "done",
+      "time": "2026-09-04T22:56:40.885137+08:00",
+      "startup_reserve_seconds": 2.0
+    },
+    {
+      "mode": "summary-rebuild",
+      "charged_seconds": 3.670890299981693,
+      "status": "done",
+      "time": "2026-09-04T22:57:00.925364+08:00",
+      "startup_reserve_seconds": 2.0
+    },
+    {
+      "mode": "summary-verify-rebuild",
+      "charged_seconds": 3.4317754000076093,
+      "status": "done",
+      "time": "2026-09-04T22:57:25.667023+08:00",
+      "startup_reserve_seconds": 2.0
+    },
+    {
+      "mode": "document-generation",
+      "charged_seconds": 2.089576099999249,
+      "status": "done",
+      "time": "2026-09-04T22:57:25.835767+08:00",
+      "startup_reserve_seconds": 2.0
+    },
+    {
+      "mode": "rare-event-saved-data-audit",
+      "charged_seconds": 2.045164700015448,
+      "status": "done",
+      "time": "2026-09-04T22:59:36.945421+08:00",
+      "startup_reserve_seconds": 2.0
+    },
+    {
+      "mode": "delivery-file-verification",
+      "charged_seconds": 2.3094585000071675,
+      "status": "verification_failed",
+      "time": "2026-09-04T23:02:30.971631+08:00",
+      "startup_reserve_seconds": 2.0
+    },
+    {
+      "mode": "delivery-file-verification",
+      "charged_seconds": 2.2937696000153664,
+      "status": "done",
+      "time": "2026-09-04T23:04:18.310816+08:00",
+      "startup_reserve_seconds": 2.0
+    }
+  ],
+  "active": null,
+  "updated": "2026-09-04T23:04:18.310816+08:00"
+}

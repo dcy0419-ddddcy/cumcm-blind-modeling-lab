@@ -1,0 +1,20 @@
+{
+  "mirror_id": 57,
+  "excel_row": 58,
+  "month": 12,
+  "hour": 9,
+  "samples": 256,
+  "checks": {
+    "S": true,
+    "B": true,
+    "R": true,
+    "unknown": true,
+    "incoming_object": true,
+    "blocking_object": true,
+    "receiver_kind": true,
+    "weight": true
+  },
+  "all_pass": true,
+  "source_read_field": "q01_core_v003.read_field: ndarray centers plus dict row records",
+  "full_old_field_as_obstacles": 1745
+}

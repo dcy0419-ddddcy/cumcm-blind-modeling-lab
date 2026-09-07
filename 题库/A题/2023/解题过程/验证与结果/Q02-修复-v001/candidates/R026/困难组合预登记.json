@@ -1,0 +1,11 @@
+{
+  "month": 12,
+  "hour": 9,
+  "index": 2452,
+  "mirror_id": 1052761549574,
+  "rule": "maximum sum conservative candidate counts, before rays",
+  "candidates": [
+    6,
+    7
+  ]
+}

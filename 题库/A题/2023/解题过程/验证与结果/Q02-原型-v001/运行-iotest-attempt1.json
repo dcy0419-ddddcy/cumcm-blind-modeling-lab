@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETED",
+  "result": {
+    "all_pass": true,
+    "injected_failures": 2,
+    "finite_retries": [
+      {
+        "path": "工作记录\\诊断结果\\Q02-原型-v001\\io-retry-probe-attempt1.json",
+        "retry": 1,
+        "error": "controlled transient replace failure for retry test",
+        "time": "2026-09-05T11:30:06.073956+08:00"
+      },
+      {
+        "path": "工作记录\\诊断结果\\Q02-原型-v001\\io-retry-probe-attempt1.json",
+        "retry": 2,
+        "error": "controlled transient replace failure for retry test",
+        "time": "2026-09-05T11:30:06.124419+08:00"
+      }
+    ],
+    "no_optical_samples": true
+  },
+  "config_sha256": "aecb12edf0e3ac5eba9f3d3079f0fca84601a9f230cd8e5131230c915c7d8f26",
+  "io_retries": [
+    {
+      "path": "工作记录\\诊断结果\\Q02-原型-v001\\io-retry-probe-attempt1.json",
+      "retry": 1,
+      "error": "controlled transient replace failure for retry test",
+      "time": "2026-09-05T11:30:06.073956+08:00"
+    },
+    {
+      "path": "工作记录\\诊断结果\\Q02-原型-v001\\io-retry-probe-attempt1.json",
+      "retry": 2,
+      "error": "controlled transient replace failure for retry test",
+      "time": "2026-09-05T11:30:06.124419+08:00"
+    }
+  ]
+}

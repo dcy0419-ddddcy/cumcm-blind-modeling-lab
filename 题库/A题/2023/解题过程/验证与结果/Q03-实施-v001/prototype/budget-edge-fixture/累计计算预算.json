@@ -1,0 +1,13 @@
+{
+  "used_seconds": 3599.0019354000106,
+  "records": [
+    {
+      "mode": "synthetic-rejected-start",
+      "phase": "search",
+      "start": "2026-09-05T21:26:06.557906+08:00",
+      "elapsed_seconds": 0.0019354000105522573,
+      "status": "REJECTED_BEFORE_COMPUTE",
+      "finish": "2026-09-05T21:26:06.560920+08:00"
+    }
+  ]
+}

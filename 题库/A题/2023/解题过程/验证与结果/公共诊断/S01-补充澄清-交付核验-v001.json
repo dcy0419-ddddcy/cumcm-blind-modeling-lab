@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-09-04T17:49:40+08:00",
+  "scope": "本轮文档、引用、数学分隔符和旧版本保留核验；未读取原始附件内容，未重新渲染，未执行太阳/效率/功率评价",
+  "preserved_old_versions": [
+    {
+      "unchanged": true,
+      "sha256": "5602f8230036e7a4ce2c45122ef220ee0936d3f50c490f0cff3e87c83d16cd72",
+      "path": "工作记录/阶段记录/S00-材料审计-v001.md"
+    },
+    {
+      "unchanged": true,
+      "sha256": "c3b5491d0e8bc2981be3a2f2917675cf825b3a0bb5d5e655d865ea6266c2ad8d",
+      "path": "工作记录/阶段记录/S01-题目理解-v001.md"
+    },
+    {
+      "unchanged": true,
+      "sha256": "dd600eb12aed728dceab96d26a20bb4e61a8d03726f0931c53f8dafe37f7a4b3",
+      "path": "工作记录/诊断结果/交付核验-v001.json"
+    }
+  ],
+  "changed_markdown_files": [
+    {
+      "bytes": 4300,
+      "path": "工作记录/00-任务状态.md"
+    },
+    {
+      "bytes": 4358,
+      "path": "工作记录/记录索引.md"
+    },
+    {
+      "bytes": 5623,
+      "path": "工作记录/方法库查阅记录.md"
+    },
+    {
+      "bytes": 3630,
+      "path": "工作记录/决策记录.md"
+    },
+    {
+      "bytes": 6466,
+      "path": "工作记录/06-更新记录.md"
+    },
+    {
+      "bytes": 6118,
+      "path": "工作记录/归档清单.md"
+    },
+    {
+      "bytes": 33775,
+      "path": "工作记录/阶段记录/S01-补充澄清-v001.md"
+    }
+  ],
+  "checked_local_links": 62,
+  "tables_checked": 18,
+  "table_header_issues": 0,
+  "math_delimiters": {
+    "no_double_escaped_delimiters": true,
+    "balanced": true,
+    "inline_open": 26,
+    "block_close": 7,
+    "inline_close": 26,
+    "block_open": 7
+  },
+  "archive_entries_checked": 37,
+  "stage_acceptance": {
+    "S01_v001": "用户已接受阶段成果，未批准全部解释",
+    "assumptions_H01_H04": "待明确批准",
+    "admin_archived": "未确认，记未归档",
+    "S00_v001": "用户已接受阶段成果，未批准全部解释",
+    "supplement_v001": "待用户验收"
+  },
+  "issues": [],
+  "all_checks_passed": true,
+  "final_readback": "已全文回读补充澄清及任务状态，抽查归档状态；交付前收紧第6.1节条件归一化措辞并回读确认。该修订未改变链接、表格结构或数学分隔符，原阶段与旧核验快照未触及。"
+}

@@ -1,0 +1,33 @@
+{
+  "passed": false,
+  "checks": {
+    "delivery_hash:candidates\\Q3F013\\design.json": true,
+    "delivery_hash:candidates\\Q3F013\\confirmation\\summary.json": true,
+    "delivery_hash:candidates/Q3R000/confirmation/summary.json": true,
+    "delivery_hash:delivery/paired-comparison-v001.json": true,
+    "delivery_hash:delivery/result3.xlsx": true,
+    "delivery_hash:delivery/独立重建核验-v001.json": true,
+    "delivery_hash:scores.jsonl": true,
+    "delivery_hash:delivery/结果数据-v001.json": true,
+    "numeric_gate": true,
+    "markdown_tex_binding": true,
+    "pdf_current": true,
+    "all_pages": true,
+    "page_hash:工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-01.png": true,
+    "page_hash:工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-02.png": true,
+    "page_hash:工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-03.png": true,
+    "page_hash:工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-04.png": true,
+    "page_hash:工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-05.png": true,
+    "page_hash:工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-06.png": true,
+    "page_hash:工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-07.png": true,
+    "page_hash:工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-08.png": true,
+    "page_hash:工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-09.png": true,
+    "page_hash:工作记录/论文/LaTeX/第3问-v001-页面核验/attempt-002/page-10.png": true,
+    "actual_visual_review": true,
+    "table_header_0": true,
+    "table_width_0": true,
+    "table_header_1": false
+  },
+  "details": {},
+  "error": "table_header_1"
+}

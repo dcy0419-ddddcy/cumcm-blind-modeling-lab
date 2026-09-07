@@ -1,0 +1,387 @@
+{
+  "completed": [
+    {
+      "design": "D-A",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 11521236035170,
+      "position_key": "[\"ring2\",\"whole\",46]"
+    },
+    {
+      "design": "D-A",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 146951446084,
+      "position_key": "[\"ring4\",\"whole\",27]"
+    },
+    {
+      "design": "D-A",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 14711326532720,
+      "position_key": "[\"ring6\",\"whole\",130]"
+    },
+    {
+      "design": "D-A",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 69737130393424,
+      "position_key": "[\"ring1\",\"whole\",22]"
+    },
+    {
+      "design": "D-A",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 188326009368807,
+      "position_key": "[\"ring1\",\"whole\",47]"
+    },
+    {
+      "design": "D-A",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 52411766233315,
+      "position_key": "[\"ring1\",\"whole\",0]"
+    },
+    {
+      "design": "D-A",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 11521236035170,
+      "position_key": "[\"ring2\",\"whole\",46]"
+    },
+    {
+      "design": "D-A",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 146951446084,
+      "position_key": "[\"ring4\",\"whole\",27]"
+    },
+    {
+      "design": "D-A",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 14711326532720,
+      "position_key": "[\"ring6\",\"whole\",130]"
+    },
+    {
+      "design": "D-A",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 69737130393424,
+      "position_key": "[\"ring1\",\"whole\",22]"
+    },
+    {
+      "design": "D-A",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 188326009368807,
+      "position_key": "[\"ring1\",\"whole\",47]"
+    },
+    {
+      "design": "D-A",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 52411766233315,
+      "position_key": "[\"ring1\",\"whole\",0]"
+    },
+    {
+      "design": "D-A",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 11521236035170,
+      "position_key": "[\"ring2\",\"whole\",46]"
+    },
+    {
+      "design": "D-A",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 146951446084,
+      "position_key": "[\"ring4\",\"whole\",27]"
+    },
+    {
+      "design": "D-A",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 14711326532720,
+      "position_key": "[\"ring6\",\"whole\",130]"
+    },
+    {
+      "design": "D-A",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 69737130393424,
+      "position_key": "[\"ring1\",\"whole\",22]"
+    },
+    {
+      "design": "D-A",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 188326009368807,
+      "position_key": "[\"ring1\",\"whole\",47]"
+    },
+    {
+      "design": "D-A",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 52411766233315,
+      "position_key": "[\"ring1\",\"whole\",0]"
+    },
+    {
+      "design": "D-B",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 37056970124405,
+      "position_key": "[\"ring3\",\"whole\",15]"
+    },
+    {
+      "design": "D-B",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 43291383329176,
+      "position_key": "[\"ring2\",\"whole\",43]"
+    },
+    {
+      "design": "D-B",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 142047022934709,
+      "position_key": "[\"ring5\",\"whole\",15]"
+    },
+    {
+      "design": "D-B",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 5519714854660,
+      "position_key": "[\"ring1\",\"whole\",31]"
+    },
+    {
+      "design": "D-B",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 191949213342297,
+      "position_key": "[\"ring1\",\"whole\",45]"
+    },
+    {
+      "design": "D-B",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 52411766233315,
+      "position_key": "[\"ring1\",\"whole\",0]"
+    },
+    {
+      "design": "D-B",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 37056970124405,
+      "position_key": "[\"ring3\",\"whole\",15]"
+    },
+    {
+      "design": "D-B",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 43291383329176,
+      "position_key": "[\"ring2\",\"whole\",43]"
+    },
+    {
+      "design": "D-B",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 142047022934709,
+      "position_key": "[\"ring5\",\"whole\",15]"
+    },
+    {
+      "design": "D-B",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 5519714854660,
+      "position_key": "[\"ring1\",\"whole\",31]"
+    },
+    {
+      "design": "D-B",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 191949213342297,
+      "position_key": "[\"ring1\",\"whole\",45]"
+    },
+    {
+      "design": "D-B",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 52411766233315,
+      "position_key": "[\"ring1\",\"whole\",0]"
+    },
+    {
+      "design": "D-B",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 37056970124405,
+      "position_key": "[\"ring3\",\"whole\",15]"
+    },
+    {
+      "design": "D-B",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 43291383329176,
+      "position_key": "[\"ring2\",\"whole\",43]"
+    },
+    {
+      "design": "D-B",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 142047022934709,
+      "position_key": "[\"ring5\",\"whole\",15]"
+    },
+    {
+      "design": "D-B",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 5519714854660,
+      "position_key": "[\"ring1\",\"whole\",31]"
+    },
+    {
+      "design": "D-B",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 191949213342297,
+      "position_key": "[\"ring1\",\"whole\",45]"
+    },
+    {
+      "design": "D-B",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 52411766233315,
+      "position_key": "[\"ring1\",\"whole\",0]"
+    },
+    {
+      "design": "D-C",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 779623052975,
+      "position_key": "[\"ring2\",\"lower\",30]"
+    },
+    {
+      "design": "D-C",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 921285332049,
+      "position_key": "[\"ring5\",\"upper\",66]"
+    },
+    {
+      "design": "D-C",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 101057042654870,
+      "position_key": "[\"ring7\",\"lower\",91]"
+    },
+    {
+      "design": "D-C",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 24672758531002,
+      "position_key": "[\"ring1\",\"lower\",3]"
+    },
+    {
+      "design": "D-C",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 218012157784665,
+      "position_key": "[\"ring3\",\"lower\",35]"
+    },
+    {
+      "design": "D-C",
+      "month": 12,
+      "hour": 9.0,
+      "mirror_id": 33248960293874,
+      "position_key": "[\"ring3\",\"upper\",0]"
+    },
+    {
+      "design": "D-C",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 779623052975,
+      "position_key": "[\"ring2\",\"lower\",30]"
+    },
+    {
+      "design": "D-C",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 921285332049,
+      "position_key": "[\"ring5\",\"upper\",66]"
+    },
+    {
+      "design": "D-C",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 101057042654870,
+      "position_key": "[\"ring7\",\"lower\",91]"
+    },
+    {
+      "design": "D-C",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 24672758531002,
+      "position_key": "[\"ring1\",\"lower\",3]"
+    },
+    {
+      "design": "D-C",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 218012157784665,
+      "position_key": "[\"ring3\",\"lower\",35]"
+    },
+    {
+      "design": "D-C",
+      "month": 3,
+      "hour": 12.0,
+      "mirror_id": 33248960293874,
+      "position_key": "[\"ring3\",\"upper\",0]"
+    },
+    {
+      "design": "D-C",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 779623052975,
+      "position_key": "[\"ring2\",\"lower\",30]"
+    },
+    {
+      "design": "D-C",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 921285332049,
+      "position_key": "[\"ring5\",\"upper\",66]"
+    },
+    {
+      "design": "D-C",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 101057042654870,
+      "position_key": "[\"ring7\",\"lower\",91]"
+    },
+    {
+      "design": "D-C",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 24672758531002,
+      "position_key": "[\"ring1\",\"lower\",3]"
+    },
+    {
+      "design": "D-C",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 218012157784665,
+      "position_key": "[\"ring3\",\"lower\",35]"
+    },
+    {
+      "design": "D-C",
+      "month": 6,
+      "hour": 15.0,
+      "mirror_id": 33248960293874,
+      "position_key": "[\"ring3\",\"upper\",0]"
+    }
+  ],
+  "completed_count": 54,
+  "expected_count": 54,
+  "unique_integral_samples": 55296,
+  "path_evaluations": 56640,
+  "current_budget_remaining_s": 1723.5819870000705
+}

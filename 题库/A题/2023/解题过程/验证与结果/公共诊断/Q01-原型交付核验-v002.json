@@ -1,0 +1,370 @@
+{
+  "stage": "Q01-建模与原型验证-v001",
+  "checked_at": "2026-09-04T21:55:18.354650+08:00",
+  "scope": "Document/result binding only; no test or optical rerun",
+  "checks": [
+    {
+      "name": "13_historical_and_method_inputs_preserved",
+      "passed": true,
+      "details": [
+        {
+          "path": "工作记录/阶段记录/S00-材料审计-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/阶段记录/S01-题目理解-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/阶段记录/S01-补充澄清-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/阶段记录/S02-方法学习与第1问知识准备-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "方法库/M01-输入假设与适用范围-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "方法库/M02-空间方向反射与有限几何-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "方法库/M03-条件能量比与分布归一化-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "方法库/M04-平均权重与非线性汇总-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "方法库/M05-数值误差验证与复现-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "补充资料/P01-角尺度来源与边界-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "补充资料/P02-方向分布与待选假设-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断结果/题面公式与表格核对-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/阶段记录/Q01-方案构造-v001.md",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "name": "actual_tests_and_code_config_binding",
+      "passed": true,
+      "details": {
+        "foundation": 11,
+        "local_cross": 2,
+        "local_followup": true,
+        "core_hash": "f8297c1c9a40f70cc6381302fe4d8f18d1ed7d3669129498892e88172cc7c964"
+      }
+    },
+    {
+      "name": "bounded_preselected_trial_and_full_obstacles",
+      "passed": true,
+      "details": {
+        "combinations": 18,
+        "records": 162,
+        "rays": 290304,
+        "selection_time": "2026-09-04T21:38:51.135818+08:00",
+        "pilot_time": "2026-09-04T21:39:11.626637+08:00",
+        "trial_time": "2026-09-04T21:39:51.199629+08:00",
+        "full_obstacles": 1745
+      }
+    },
+    {
+      "name": "saved_markdown_links_tables_math",
+      "passed": true,
+      "details": [
+        {
+          "path": "工作记录/阶段记录/Q01-建模与原型验证-v001.md",
+          "tables": 7,
+          "links": 14,
+          "issues": []
+        },
+        {
+          "path": "工作记录/00-任务状态.md",
+          "tables": 1,
+          "links": 10,
+          "issues": []
+        },
+        {
+          "path": "工作记录/记录索引.md",
+          "tables": 2,
+          "links": 70,
+          "issues": []
+        },
+        {
+          "path": "工作记录/方法库查阅记录.md",
+          "tables": 8,
+          "links": 24,
+          "issues": []
+        },
+        {
+          "path": "工作记录/决策记录.md",
+          "tables": 0,
+          "links": 13,
+          "issues": []
+        },
+        {
+          "path": "工作记录/06-更新记录.md",
+          "tables": 0,
+          "links": 9,
+          "issues": []
+        },
+        {
+          "path": "工作记录/归档清单.md",
+          "tables": 6,
+          "links": 6,
+          "issues": []
+        },
+        {
+          "path": "工作记录/诊断代码/Q01-原型运行说明-v001.md",
+          "tables": 2,
+          "links": 16,
+          "issues": []
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-首次测试失败-v001.md",
+          "tables": 0,
+          "links": 0,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "name": "archive_all_24_artifacts",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "archived_python_syntax",
+      "passed": true,
+      "details": [
+        "工作记录/诊断代码/q01_core_v001.py",
+        "工作记录/诊断代码/q01_core_v002.py",
+        "工作记录/诊断代码/q01_tests_v001.py",
+        "工作记录/诊断代码/q01_tests_v002.py",
+        "工作记录/诊断代码/q01_run_v001.py",
+        "工作记录/诊断代码/q01_local_checks_v001.py",
+        "工作记录/诊断代码/q01_local_checks_v002.py",
+        "工作记录/诊断代码/q01_report_v001.py",
+        "工作记录/诊断代码/verify_q01_prototype_v001.py",
+        "工作记录/诊断代码/q01_report_v002.py",
+        "工作记录/诊断代码/verify_q01_prototype_v002.py"
+      ]
+    },
+    {
+      "name": "continued_D_U_numbering",
+      "passed": true,
+      "details": [
+        {
+          "path": "工作记录/决策记录.md",
+          "numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ok": true
+        },
+        {
+          "path": "工作记录/06-更新记录.md",
+          "numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "stage_state_separation",
+      "passed": true,
+      "details": "Prototype acceptance pending; archival not confirmed; N04 experimental"
+    }
+  ],
+  "all_pass": true,
+  "artifacts": [
+    {
+      "path": "工作记录/阶段记录/Q01-建模与原型验证-v001.md",
+      "bytes": 23189,
+      "sha256": "99f89aeae180b090b9c3299ead558a5a1085c29555a7f738c2fee82e08da1918"
+    },
+    {
+      "path": "工作记录/00-任务状态.md",
+      "bytes": 3221,
+      "sha256": "7506647faa361143465199d7c91c513ef9d0a4dcb8407de20ab861cf8d7669bb"
+    },
+    {
+      "path": "工作记录/记录索引.md",
+      "bytes": 10565,
+      "sha256": "662cf6e17905ad8269d5e2d6ea5af29624f055de95b5504d04db48c585adac36"
+    },
+    {
+      "path": "工作记录/方法库查阅记录.md",
+      "bytes": 18190,
+      "sha256": "a048fbb2ee30c0c15222b12e749c1a2678b963c1c83b2ca40e3f639abf2d1e44"
+    },
+    {
+      "path": "工作记录/决策记录.md",
+      "bytes": 14369,
+      "sha256": "1edbc06ad5b940dcdf12db92965911d91d6f9b4a44ae1e286b984039dcb85edc"
+    },
+    {
+      "path": "工作记录/06-更新记录.md",
+      "bytes": 21220,
+      "sha256": "93cd19babd11262549cf372aa00f22dbef8994503d461031d328093670f5c082"
+    },
+    {
+      "path": "工作记录/归档清单.md",
+      "bytes": 19610,
+      "sha256": "2342dc883aa0feb298d2b55f02a6c64825e6f854eea31712f10f832d25d6db86"
+    },
+    {
+      "path": "工作记录/诊断代码/Q01-原型运行说明-v001.md",
+      "bytes": 5926,
+      "sha256": "d23f5047c85f5857ee3d295ca10812d1d664ff5d03826946e2098df9af812a9b"
+    },
+    {
+      "path": "工作记录/诊断结果/Q01-首次测试失败-v001.md",
+      "bytes": 1062,
+      "sha256": "0cbdaa74ce5385b0f3bbef58d93f32f49393d25a566ef1a89778b76112497ba0"
+    },
+    {
+      "path": "工作记录/诊断代码/q01_core_v001.py",
+      "bytes": 18809,
+      "sha256": "7e76d0f38e6331bb492ab0d3f8d6fcbcb494e88f2f1e9802d5ccdae9eb5b951a"
+    },
+    {
+      "path": "工作记录/诊断代码/q01_core_v002.py",
+      "bytes": 19265,
+      "sha256": "f8297c1c9a40f70cc6381302fe4d8f18d1ed7d3669129498892e88172cc7c964"
+    },
+    {
+      "path": "工作记录/诊断代码/q01_tests_v001.py",
+      "bytes": 12879,
+      "sha256": "9983f90355e1fa767f61270f2368b97b6afba80773fb398140aaf10edf12c05f"
+    },
+    {
+      "path": "工作记录/诊断代码/q01_tests_v002.py",
+      "bytes": 13456,
+      "sha256": "b86c150a47cd86f269adeced072a6544fd43fbf0cf4849fcb820197e8023f6c9"
+    },
+    {
+      "path": "工作记录/诊断代码/q01_run_v001.py",
+      "bytes": 12268,
+      "sha256": "a39ce1a20c28f73c9a867c2e642284c664f85111014bbed444335e2e29905dd7"
+    },
+    {
+      "path": "工作记录/诊断代码/Q01-原型配置-v001.json",
+      "bytes": 1997,
+      "sha256": "9f9e287ffb32b052fdbc56162babbfcd695bcf54e365dc143da5028d7b0edab4"
+    },
+    {
+      "path": "工作记录/诊断代码/Q01-补充验证配置-v001.json",
+      "bytes": 487,
+      "sha256": "8cda506a86cff95ecc424357cebb4993a0ce3151716d43e48d606cc1a9f59b5a"
+    },
+    {
+      "path": "工作记录/诊断代码/q01_local_checks_v001.py",
+      "bytes": 3109,
+      "sha256": "9a3bf98a656174ebff6cda717a7f7563062d4366fead926fcbbb962c415b646d"
+    },
+    {
+      "path": "工作记录/诊断代码/q01_local_checks_v002.py",
+      "bytes": 1864,
+      "sha256": "d28425b92277839c024e26ecb28f684f684a8e157840b7ee262b3c4717ec65de"
+    },
+    {
+      "path": "工作记录/诊断代码/q01_report_v001.py",
+      "bytes": 12414,
+      "sha256": "87d106a66c3e62bab0b1f09f4c705248cfe7c9219a89691b0baafa12f93cb4e1"
+    },
+    {
+      "path": "工作记录/诊断代码/verify_q01_prototype_v001.py",
+      "bytes": 8482,
+      "sha256": "28af5260844c80157de5478276de5745bcc52ca3b5fccad91783f63276184eba"
+    },
+    {
+      "path": "工作记录/诊断结果/Q01-基础与交叉验证-v002.json",
+      "bytes": 15917,
+      "sha256": "21e0f0d59b3e9faf660cdd1281ea4d9868165d1a669910e21f1111fed4402d85"
+    },
+    {
+      "path": "工作记录/诊断结果/Q01-预选与适用域-v001.json",
+      "bytes": 33211,
+      "sha256": "889bdf2661281dabad003c79977da5decc84a111edc0eaef1edf305efd73e6f7"
+    },
+    {
+      "path": "工作记录/诊断结果/Q01-小样本计时与筛选核对-v001.json",
+      "bytes": 7100,
+      "sha256": "5614954ae4f19c4036463f0d5ef6e3622c56290010e4bf2278dee4e2c06c050a"
+    },
+    {
+      "path": "工作记录/诊断结果/Q01-本题局部试算-v001.json",
+      "bytes": 391177,
+      "sha256": "8beb9ffe882ba2bdd1e7e2a605bc8b5cf809e0bd2a4b6d765c5652cb0da85eac"
+    },
+    {
+      "path": "工作记录/诊断结果/Q01-局部细化补充-v001.json",
+      "bytes": 1919,
+      "sha256": "aedfb5f9bcbaefe60797ed5d2e7138737836e3b310cc337d7800fcf9fc0664b8"
+    },
+    {
+      "path": "工作记录/诊断结果/Q01-局部细化补充-v002.json",
+      "bytes": 3456,
+      "sha256": "df8d8b3c756b8cb207179094141f3f131bd7de2bc07ef1f32afb0ee0b2ba068c"
+    },
+    {
+      "path": "工作记录/诊断结果/Q01-原型交付核验-v001.json",
+      "bytes": 10958,
+      "sha256": "d4c6777e02c5dd9de79c141a7ae0763d2bedd0eb26a6cfd626e8d2fe9ed214ee"
+    },
+    {
+      "path": "工作记录/诊断代码/q01_report_v002.py",
+      "bytes": 12418,
+      "sha256": "cff38f5d53d0567865f8a1de05f25d0ca89a395a074f3fd4d4cd4b3b3c874c94"
+    },
+    {
+      "path": "工作记录/诊断代码/verify_q01_prototype_v002.py",
+      "bytes": 8713,
+      "sha256": "30afdcce273965a94a18ec6a5238a1ec1e0499b795c9005ef6d051fd6a3c8402"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "created": "2026-09-05T11:25:51.247323+08:00",
+  "failure": "old regression attempt1 first combination 12/21 09:00 mirror57 / Excel58; core NumPy tuple interpreted as multi-axis indices",
+  "old_code": "q02_eval_v002.py checked_cache",
+  "new_code": "q02_eval_v003.py checked_cache converts tuples to np.int64 arrays",
+  "config_revision": "v002 same physical and numerical/layout configuration; code bindings updated",
+  "old_evaluator_completed_source_samples_before_failure": 256,
+  "new_evaluator_attempted_paths_before_index_failure": 256,
+  "seed_words": [
+    2026090503,
+    701,
+    12,
+    900,
+    57
+  ],
+  "evidence": "运行-old-attempt1.json",
+  "new_optical_design_combinations_before_repair": 0,
+  "regression_plan": "repeat all artificial tests including new >=2 obstacle cache test, then all three fixed old combinations",
+  "config_sha256": "aecb12edf0e3ac5eba9f3d3079f0fca84601a9f230cd8e5131230c915c7d8f26"
+}

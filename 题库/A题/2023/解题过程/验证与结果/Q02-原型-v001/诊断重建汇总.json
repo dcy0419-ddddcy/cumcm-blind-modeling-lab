@@ -1,0 +1,65 @@
+{
+  "designs": [
+    {
+      "design": "D-A",
+      "n": 516,
+      "total_area_m2": 12384.0,
+      "combinations": 18,
+      "states": {
+        "ESTIMATED": 18
+      },
+      "survivor_min": 872,
+      "capture_min": 859,
+      "screen_comparisons": 6,
+      "all_screen_equal": true,
+      "optical_seconds": 3.582725900108926,
+      "candidate_in_max_selected": 3,
+      "candidate_out_max_selected": 1,
+      "rated_power": "NOT_ASSESSED",
+      "field_power": "NOT_COMPUTED_PARTIAL_MIRROR_POPULATION"
+    },
+    {
+      "design": "D-B",
+      "n": 402,
+      "total_area_m2": 19296.0,
+      "combinations": 18,
+      "states": {
+        "ESTIMATED": 18
+      },
+      "survivor_min": 681,
+      "capture_min": 570,
+      "screen_comparisons": 6,
+      "all_screen_equal": true,
+      "optical_seconds": 2.698890600062441,
+      "candidate_in_max_selected": 3,
+      "candidate_out_max_selected": 2,
+      "rated_power": "NOT_ASSESSED",
+      "field_power": "NOT_COMPUTED_PARTIAL_MIRROR_POPULATION"
+    },
+    {
+      "design": "D-C",
+      "n": 629,
+      "total_area_m2": 5032.0,
+      "combinations": 18,
+      "states": {
+        "ESTIMATED": 18
+      },
+      "survivor_min": 1024,
+      "capture_min": 948,
+      "screen_comparisons": 6,
+      "all_screen_equal": true,
+      "optical_seconds": 4.414275499933865,
+      "candidate_in_max_selected": 1,
+      "candidate_out_max_selected": 0,
+      "rated_power": "NOT_ASSESSED",
+      "field_power": "NOT_COMPUTED_PARTIAL_MIRROR_POPULATION"
+    }
+  ],
+  "new_combinations": 54,
+  "unique_integral_samples": 55296,
+  "path_evaluations_including_replays": 56640,
+  "elapsed_action_seconds": 12.520593200053554,
+  "full_search_started": false,
+  "formal_tables_generated": false,
+  "config_sha256": "aecb12edf0e3ac5eba9f3d3079f0fca84601a9f230cd8e5131230c915c7d8f26"
+}

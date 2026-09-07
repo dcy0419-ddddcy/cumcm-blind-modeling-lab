@@ -1,0 +1,363 @@
+{
+  "stage": "S02-v001",
+  "checked_at": "2026-09-04T19:54:37.771187+08:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "scope": "Local material/record integrity and formatting checks, not target numerical validation",
+  "network_used": false,
+  "raw_problem_or_attachment_content_read": false,
+  "checks": [
+    {
+      "name": "21_material_and_metadata_files_unchanged",
+      "passed": true,
+      "details": [
+        {
+          "path": "补充资料/待确认事项-v001.md",
+          "exists": true,
+          "sha256": "fe2605c467a855bbe9b3c6d901c820836e00321f73bce61b3fcb693903dc8c15",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "补充资料/资料清单-v001.md",
+          "exists": true,
+          "sha256": "32d55084ce769eefe80f8d5c136bb24f57973d6867e08013211255ff6669113e",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "补充资料/manifest-v001.json",
+          "exists": true,
+          "sha256": "bbfa7a488c49de9f3c340a83bb925d0c3169d85cec821d05b1523bf80d1bb19d",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "补充资料/P01-角尺度来源与边界-v001.md",
+          "exists": true,
+          "sha256": "1909e60303e57e39b7929f2200b7b966523b0bc2c2d44995f4f952e0a7ec4588",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "补充资料/P02-方向分布与待选假设-v001.md",
+          "exists": true,
+          "sha256": "bd47a735887659b4db9f6b026b12b054c71db79b1993a0f88abe7a511136dc36",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "补充资料/README.md",
+          "exists": true,
+          "sha256": "9be33226f37b4deece2bf957e5ed27e4ccbfabee5caac8f8d5a992592c543bd7",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/来源与许可.md",
+          "exists": true,
+          "sha256": "0b8958b162cbfac209cfdcdbc7e68fb5d0d5ac43ae099e1d96d516a491300535",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/验证/运行结果-v001.json",
+          "exists": true,
+          "sha256": "984296454463cf2728c52f7b178bf4f55fd7b354d3cc6f5aa108412afa196e43",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/验证/check_examples.py",
+          "exists": true,
+          "sha256": "71b75eeda1a5dbd82d72a700063600524ebc2201afcec20bd4e1f4bcb1977c27",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/验证/README.md",
+          "exists": true,
+          "sha256": "c20b953eef886f2ad011cc7e26feeb3653e9b684631f93591c45b99b8648645e",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/原文选段/D01-建模质量观念.md",
+          "exists": true,
+          "sha256": "837ac362d2e891bd459276993570b5e503573a5d0421d04a1c84e45305fc89e9",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/原文选段/D02-几何方法分类.md",
+          "exists": true,
+          "sha256": "4a4bb2da78d406ba8dde8fdf9b328f2179db0aeff404cb65b30ba082d755cc7f",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/原文选段/D03-随机模拟基本思想.md",
+          "exists": true,
+          "sha256": "63a692f622e86825d353da381892205286b5ab40f9e70e80ad1d6f4beec6e01d",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/资料清单-v001.md",
+          "exists": true,
+          "sha256": "7f4616a0e65c773157551d39cf34c89d5a0773179833e725c82a3a5e0fb4a802",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/M01-输入假设与适用范围-v001.md",
+          "exists": true,
+          "sha256": "96ed9a694f5a9e73e1a19a472bf5f87f186ab49a9dc8a8e64434a62f55b1ae8a",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/M02-空间方向反射与有限几何-v001.md",
+          "exists": true,
+          "sha256": "94416d26857e99fcf145e9e97b11b5f68656397cdb37718d74d6e258e296cefc",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/M03-条件能量比与分布归一化-v001.md",
+          "exists": true,
+          "sha256": "ec17db106349f5150f3e9bc49ad6469f975a2f3cb9387c4aae38414d3bda3ff8",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/M04-平均权重与非线性汇总-v001.md",
+          "exists": true,
+          "sha256": "848fc02fd70882921bdb6aa3d1efa31d851fd8569c07602215ce4e5a6e778e2a",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/M05-数值误差验证与复现-v001.md",
+          "exists": true,
+          "sha256": "14de3c6a420225beccacf9d5e2e558a0e109f14e391511e1d4dd9c57bf032a0f",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/manifest-v001.json",
+          "exists": true,
+          "sha256": "0444a6ff2a381458092d21fb708619260f66bb84bdb71f57d30fa5f0c1f29f5c",
+          "hash_match": true,
+          "bytes_match": true
+        },
+        {
+          "path": "方法库/README.md",
+          "exists": true,
+          "sha256": "efe5b3b3c20a2e8ce149ab74d70c518f85746f7433e0c03aaa9a4a6af4b58353",
+          "hash_match": true,
+          "bytes_match": true
+        }
+      ]
+    },
+    {
+      "name": "three_delivered_stages_preserved",
+      "passed": true,
+      "details": [
+        {
+          "path": "工作记录/阶段记录/S00-材料审计-v001.md",
+          "expected_sha256": "5602f8230036e7a4ce2c45122ef220ee0936d3f50c490f0cff3e87c83d16cd72",
+          "actual_sha256": "5602f8230036e7a4ce2c45122ef220ee0936d3f50c490f0cff3e87c83d16cd72",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/阶段记录/S01-题目理解-v001.md",
+          "expected_sha256": "c3b5491d0e8bc2981be3a2f2917675cf825b3a0bb5d5e655d865ea6266c2ad8d",
+          "actual_sha256": "c3b5491d0e8bc2981be3a2f2917675cf825b3a0bb5d5e655d865ea6266c2ad8d",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/阶段记录/S01-补充澄清-v001.md",
+          "expected_sha256": "9b0dee47ec43cb2880ab71b7a8097c77cd9a6bc5e19a32698fd2bdcbd2d6d646",
+          "actual_sha256": "9b0dee47ec43cb2880ab71b7a8097c77cd9a6bc5e19a32698fd2bdcbd2d6d646",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "name": "saved_documents_links_headers_math_markers",
+      "passed": true,
+      "details": [
+        {
+          "path": "工作记录/阶段记录/S02-方法学习与第1问知识准备-v001.md",
+          "bytes": 36793,
+          "sha256": "9d7bf89cb62baca21300013aa25b161f95c0b9900929a65e85e7cb246dd46ddd",
+          "tables": 11,
+          "local_links_checked": 40,
+          "issues": []
+        },
+        {
+          "path": "工作记录/00-任务状态.md",
+          "bytes": 4352,
+          "sha256": "f8e7854556590de144af12d40b4376fa1b7e0b17f94c41be063720fc6eedc6ca",
+          "tables": 1,
+          "local_links_checked": 13,
+          "issues": []
+        },
+        {
+          "path": "工作记录/记录索引.md",
+          "bytes": 5840,
+          "sha256": "d174e3c34e433896effe4533acd702e15193d1efaf9d385b2bd7b03f7279dec4",
+          "tables": 2,
+          "local_links_checked": 40,
+          "issues": []
+        },
+        {
+          "path": "工作记录/方法库查阅记录.md",
+          "bytes": 12047,
+          "sha256": "3d216c642538ee95c6127842d2cdaa38f0bea050ae7d3d6cfc4176288b71a9c1",
+          "tables": 5,
+          "local_links_checked": 21,
+          "issues": []
+        },
+        {
+          "path": "工作记录/决策记录.md",
+          "bytes": 7516,
+          "sha256": "0766af31b318de26bdcee8fc40a9cb4f0502b8cf5056d76574f547f767939cfb",
+          "tables": 0,
+          "local_links_checked": 8,
+          "issues": []
+        },
+        {
+          "path": "工作记录/06-更新记录.md",
+          "bytes": 11509,
+          "sha256": "2acc1df72f4ba8dbbdfc7f7ab02d6b21244376ada6fc8ed41cd27baa1f2e822c",
+          "tables": 0,
+          "local_links_checked": 3,
+          "issues": []
+        },
+        {
+          "path": "工作记录/归档清单.md",
+          "bytes": 12631,
+          "sha256": "09e5c8d28e98abae4f436bbc708388ec130b840e8fbcd28780f3acd76efea1da",
+          "tables": 3,
+          "local_links_checked": 3,
+          "issues": []
+        },
+        {
+          "path": "工作记录/诊断代码/S02-运行与核验说明-v001.md",
+          "bytes": 3528,
+          "sha256": "e31a59b0282de204646a28571bcbac2812982e0d3548a19839a79fafcd754c22",
+          "tables": 1,
+          "local_links_checked": 11,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "name": "generic_teaching_checks_only",
+      "passed": true,
+      "details": {
+        "tests": 20,
+        "passed": 20,
+        "scope": "generic teaching examples only; no target data loaded"
+      }
+    },
+    {
+      "name": "entry_scope_integrity",
+      "passed": true,
+      "details": {
+        "file_count": 17,
+        "all_pass": true
+      }
+    },
+    {
+      "name": "archive_covers_new_artifacts_and_materials",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "stage_acceptance_boundary",
+      "passed": true,
+      "details": "S02 pending user acceptance; H approval limited to Q1; P not approved; archival unconfirmed"
+    }
+  ],
+  "all_pass": true,
+  "artifacts": [
+    {
+      "path": "工作记录/阶段记录/S02-方法学习与第1问知识准备-v001.md",
+      "sha256": "9d7bf89cb62baca21300013aa25b161f95c0b9900929a65e85e7cb246dd46ddd",
+      "bytes": 36793
+    },
+    {
+      "path": "工作记录/00-任务状态.md",
+      "sha256": "f8e7854556590de144af12d40b4376fa1b7e0b17f94c41be063720fc6eedc6ca",
+      "bytes": 4352
+    },
+    {
+      "path": "工作记录/记录索引.md",
+      "sha256": "d174e3c34e433896effe4533acd702e15193d1efaf9d385b2bd7b03f7279dec4",
+      "bytes": 5840
+    },
+    {
+      "path": "工作记录/方法库查阅记录.md",
+      "sha256": "3d216c642538ee95c6127842d2cdaa38f0bea050ae7d3d6cfc4176288b71a9c1",
+      "bytes": 12047
+    },
+    {
+      "path": "工作记录/决策记录.md",
+      "sha256": "0766af31b318de26bdcee8fc40a9cb4f0502b8cf5056d76574f547f767939cfb",
+      "bytes": 7516
+    },
+    {
+      "path": "工作记录/06-更新记录.md",
+      "sha256": "2acc1df72f4ba8dbbdfc7f7ab02d6b21244376ada6fc8ed41cd27baa1f2e822c",
+      "bytes": 11509
+    },
+    {
+      "path": "工作记录/归档清单.md",
+      "sha256": "09e5c8d28e98abae4f436bbc708388ec130b840e8fbcd28780f3acd76efea1da",
+      "bytes": 12631
+    },
+    {
+      "path": "工作记录/诊断代码/S02-运行与核验说明-v001.md",
+      "sha256": "e31a59b0282de204646a28571bcbac2812982e0d3548a19839a79fafcd754c22",
+      "bytes": 3528
+    },
+    {
+      "path": "工作记录/诊断代码/check_s02_materials_v001.ps1",
+      "sha256": "e0239a4a3b1480dbbebb8e4c35f46343a98f8f488e23247587c120c360ddcecf",
+      "bytes": 2741
+    },
+    {
+      "path": "工作记录/诊断结果/S02-资料入场核对-v001.json",
+      "sha256": "e563e5d922cd079b288b29dc13b6eb5ae917de257b59d30e67e402c111a68817",
+      "bytes": 13471
+    },
+    {
+      "path": "工作记录/诊断代码/run_s02_examples_v001.ps1",
+      "sha256": "cc7515c2b8d6f5fc4a7b3adedcd2561b167f4da9f84fd0876068ba4d562fdd5a",
+      "bytes": 1220
+    },
+    {
+      "path": "工作记录/诊断结果/S02-通用例子复核-v001.json",
+      "sha256": "984296454463cf2728c52f7b178bf4f55fd7b354d3cc6f5aa108412afa196e43",
+      "bytes": 3236
+    },
+    {
+      "path": "工作记录/诊断代码/verify_s02_delivery_v001.py",
+      "sha256": "b27d62a7c5ecce4cfbf040ccae41e818b794c83c7f88a4cc53ac7830ca0bff97",
+      "bytes": 8268
+    },
+    {
+      "path": "工作记录/诊断代码/verify_s02_delivery_v002.py",
+      "sha256": "7c9cd9d9e8cff690190032cec3cf5c1481ca314c8353333c5b1b13971a956134",
+      "bytes": 9003
+    },
+    {
+      "path": "工作记录/诊断结果/S02-交付核验-v001.json",
+      "sha256": "b21a3f918d25eea5ada859161ad4cc6344373f2ea39fefecfb943ed857e637e8",
+      "bytes": 12803
+    }
+  ],
+  "output_self_hash_excluded": true
+}

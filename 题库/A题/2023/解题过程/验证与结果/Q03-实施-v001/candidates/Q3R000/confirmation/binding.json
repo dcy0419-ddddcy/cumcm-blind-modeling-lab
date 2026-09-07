@@ -1,0 +1,279 @@
+{
+  "design_key": "b82a47d86c659d2ea514564491d3faaed273113689dae9397771a7fe2930e6c6",
+  "name": "Q3R000",
+  "n_mirrors": 2981,
+  "times": [
+    [
+      1,
+      9.0
+    ],
+    [
+      1,
+      10.5
+    ],
+    [
+      1,
+      12.0
+    ],
+    [
+      1,
+      13.5
+    ],
+    [
+      1,
+      15.0
+    ],
+    [
+      2,
+      9.0
+    ],
+    [
+      2,
+      10.5
+    ],
+    [
+      2,
+      12.0
+    ],
+    [
+      2,
+      13.5
+    ],
+    [
+      2,
+      15.0
+    ],
+    [
+      3,
+      9.0
+    ],
+    [
+      3,
+      10.5
+    ],
+    [
+      3,
+      12.0
+    ],
+    [
+      3,
+      13.5
+    ],
+    [
+      3,
+      15.0
+    ],
+    [
+      4,
+      9.0
+    ],
+    [
+      4,
+      10.5
+    ],
+    [
+      4,
+      12.0
+    ],
+    [
+      4,
+      13.5
+    ],
+    [
+      4,
+      15.0
+    ],
+    [
+      5,
+      9.0
+    ],
+    [
+      5,
+      10.5
+    ],
+    [
+      5,
+      12.0
+    ],
+    [
+      5,
+      13.5
+    ],
+    [
+      5,
+      15.0
+    ],
+    [
+      6,
+      9.0
+    ],
+    [
+      6,
+      10.5
+    ],
+    [
+      6,
+      12.0
+    ],
+    [
+      6,
+      13.5
+    ],
+    [
+      6,
+      15.0
+    ],
+    [
+      7,
+      9.0
+    ],
+    [
+      7,
+      10.5
+    ],
+    [
+      7,
+      12.0
+    ],
+    [
+      7,
+      13.5
+    ],
+    [
+      7,
+      15.0
+    ],
+    [
+      8,
+      9.0
+    ],
+    [
+      8,
+      10.5
+    ],
+    [
+      8,
+      12.0
+    ],
+    [
+      8,
+      13.5
+    ],
+    [
+      8,
+      15.0
+    ],
+    [
+      9,
+      9.0
+    ],
+    [
+      9,
+      10.5
+    ],
+    [
+      9,
+      12.0
+    ],
+    [
+      9,
+      13.5
+    ],
+    [
+      9,
+      15.0
+    ],
+    [
+      10,
+      9.0
+    ],
+    [
+      10,
+      10.5
+    ],
+    [
+      10,
+      12.0
+    ],
+    [
+      10,
+      13.5
+    ],
+    [
+      10,
+      15.0
+    ],
+    [
+      11,
+      9.0
+    ],
+    [
+      11,
+      10.5
+    ],
+    [
+      11,
+      12.0
+    ],
+    [
+      11,
+      13.5
+    ],
+    [
+      11,
+      15.0
+    ],
+    [
+      12,
+      9.0
+    ],
+    [
+      12,
+      10.5
+    ],
+    [
+      12,
+      12.0
+    ],
+    [
+      12,
+      13.5
+    ],
+    [
+      12,
+      15.0
+    ]
+  ],
+  "B": 8,
+  "n": 256,
+  "levels": [
+    128,
+    256
+  ],
+  "namespace": 3190,
+  "root_seed": 2026090506,
+  "rng": "numpy.PCG64 via SeedSequence; per stable position_key, standard time index, namespace, batch",
+  "code_sha": "40adaf867dca671dfee12fdb09875fe4052f692edf7f9f765a3f06db08fe9c2e",
+  "fast_sha": "c79fd3ef7939fc65287a46ea758f7fef176c9da2d0e4e651c380ed19d4c63a4e",
+  "scheduler_sha": "5e41b34262e5cfdbe173d27b7198c333f67b672f6362dfd65b126d560fd708ac",
+  "scheduler_version": "q03-parallel-v001",
+  "worker_dependency_sha256": {
+    "q03_engine_v001.py": "40adaf867dca671dfee12fdb09875fe4052f692edf7f9f765a3f06db08fe9c2e",
+    "q03_fast_v001.py": "c79fd3ef7939fc65287a46ea758f7fef176c9da2d0e4e651c380ed19d4c63a4e",
+    "q03_common_v001.py": "1b737f883c36a6703696876c20e64fefed8e32c48b4d55a464ba92fa411451bd",
+    "q03_design_v001.py": "c61d9f032f9a0fb8c00165b7ad50838cb5395627b3edcea656b51098b48108e9",
+    "q03_summary_v001.py": "fedfe6b54baf2f199517e8763a836d3b93bc026af0c247885bc804f519250a81",
+    "q01_core_v003.py": "7d7e70b8c85b1bc7762efdc08fadc972635d810ceb852bf74bfb2cc318ed1693",
+    "q02_eval_v003.py": "f2d26131fd500c193cc643021815feee5195c5da668144b22a1571e2003b35de",
+    "q02_design_v002.py": "92315f1506597508d1d558ea1e58bd18579c4381a56741de929d7b9a48f3b361",
+    "q03_parallel_v001.py": "5e41b34262e5cfdbe173d27b7198c333f67b672f6362dfd65b126d560fd708ac"
+  },
+  "workers": 4,
+  "task_unit": "one complete standard time; all mirrors and all obstacles",
+  "design_file_sha256": "d7cfa1e6ea6a67b7bf0aa99553e069c41f8c2e97cfb32d34b4deaa0466fe4fbb",
+  "budget_accounting": "parent wall time once; child CPU audit separately",
+  "deadline_rule": "parent phase cap minus saved cumulative use minus reserve_after; terminate unfinished processes",
+  "reserve_after_seconds": 90,
+  "common_sha": "1b737f883c36a6703696876c20e64fefed8e32c48b4d55a464ba92fa411451bd",
+  "design_schema_sha": "c61d9f032f9a0fb8c00165b7ad50838cb5395627b3edcea656b51098b48108e9"
+}

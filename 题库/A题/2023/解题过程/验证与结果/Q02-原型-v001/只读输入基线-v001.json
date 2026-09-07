@@ -1,0 +1,37 @@
+{
+  "created": "2026-09-05T11:03:30.691016+08:00",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "f7a5facb2fb333b20e3e9e12cd14b4990a209f3a8a09899d8eabe7927c9c9247"
+    },
+    {
+      "path": "工作记录/阶段记录/Q02-约束梳理与候选方案-v001.md",
+      "sha256": "8512eb4bfc2e9e28a040d0ccb2cf08f844438346884205ae8cfbfb4ffc521acf"
+    },
+    {
+      "path": "工作记录/诊断代码/q01_core_v003.py",
+      "sha256": "7d7e70b8c85b1bc7762efdc08fadc972635d810ceb852bf74bfb2cc318ed1693"
+    },
+    {
+      "path": "工作记录/诊断代码/q01_full_run_v002.py",
+      "sha256": "bd9f993ac54bbecd03d6dadddf07cc4ae52365bdaf3edb09776e16ff1d51ab26"
+    },
+    {
+      "path": "工作记录/诊断代码/q01_full_summary_v002.py",
+      "sha256": "26ad7240da4a1471d33a1ed993d0bb254f7cbc5e5db2a2fff59911faaaba9eeb"
+    },
+    {
+      "path": "附件/附件03.xlsx",
+      "sha256": "596abec1162db0bce095f6f768b6cd06394e61766f80129a09e15146dc1fed50"
+    },
+    {
+      "path": "方法库/M03-条件能量比与分布归一化-v001.md",
+      "sha256": "ec17db106349f5150f3e9bc49ad6469f975a2f3cb9387c4aae38414d3bda3ff8"
+    },
+    {
+      "path": "方法库/M05-数值误差验证与复现-v001.md",
+      "sha256": "14de3c6a420225beccacf9d5e2e558a0e109f14e391511e1d4dd9c57bf032a0f"
+    }
+  ]
+}

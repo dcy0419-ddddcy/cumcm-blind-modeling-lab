@@ -1,0 +1,29 @@
+{
+  "scope": "synthetic follow-up to observed R2 nonmonotone spatial convergence; no target rays",
+  "spatial_na": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "spatial_nmu": 1,
+  "spatial_nphi": 1,
+  "angle_levels": [
+    [
+      2,
+      8
+    ],
+    [
+      4,
+      16
+    ],
+    [
+      8,
+      32
+    ]
+  ],
+  "angle_na": 8,
+  "phase": 0.25,
+  "synthetic_ray_cap": 50000,
+  "reason": "separate spatial boundary error from angular integration; report analytic cell-enclosure bounds"
+}

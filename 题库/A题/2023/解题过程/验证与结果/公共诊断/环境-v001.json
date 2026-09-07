@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "pypdf": "6.10.0",
+    "pdfplumber": "0.11.9",
+    "openpyxl": "3.1.5",
+    "Pillow": "12.3.0"
+  },
+  "runtime": "Codex bundled local Python",
+  "random_seed": "不适用；无随机过程",
+  "timestamp": "2026-09-04T16:59:10.276715+08:00",
+  "method_library_exists": false
+}

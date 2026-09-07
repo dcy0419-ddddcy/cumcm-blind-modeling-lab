@@ -1,0 +1,151 @@
+{
+  "next_number": 28,
+  "candidates": [
+    {
+      "name": "R023",
+      "signature": [
+        6.75,
+        6.75,
+        6,
+        0,
+        0,
+        0.5235987755982988,
+        0.05
+      ],
+      "spec": {
+        "generator": "hex_bands",
+        "name": "R023",
+        "version": "v001",
+        "tower_xy": [
+          0,
+          0
+        ],
+        "width": 6.75,
+        "height": 6.75,
+        "installation_height": 6,
+        "phi": 0.5235987755982988,
+        "spacing_margin": 0.05
+      },
+      "parent": "C22",
+      "reason": "initial_joint_dimension_step_0.25",
+      "registered_before_output": "2026-09-05T14:56:02.070662+08:00"
+    },
+    {
+      "name": "R024",
+      "signature": [
+        7,
+        7,
+        6,
+        0,
+        0,
+        0.5235987755982988,
+        0.05
+      ],
+      "spec": {
+        "generator": "hex_bands",
+        "name": "R024",
+        "version": "v001",
+        "tower_xy": [
+          0,
+          0
+        ],
+        "width": 7,
+        "height": 7,
+        "installation_height": 6,
+        "phi": 0.5235987755982988,
+        "spacing_margin": 0.05
+      },
+      "parent": "C22",
+      "reason": "initial_joint_dimension_step_0.5_compare_area_and_q",
+      "registered_before_output": "2026-09-05T15:01:44.168510+08:00"
+    },
+    {
+      "name": "R025",
+      "signature": [
+        6.65,
+        6.65,
+        6,
+        0,
+        0,
+        0.5235987755982988,
+        0.05
+      ],
+      "spec": {
+        "generator": "hex_bands",
+        "name": "R025",
+        "version": "v001",
+        "tower_xy": [
+          0,
+          0
+        ],
+        "width": 6.65,
+        "height": 6.65,
+        "installation_height": 6,
+        "phi": 0.5235987755982988,
+        "spacing_margin": 0.05
+      },
+      "parent": "R023",
+      "reason": "q_direction_reduce_both_dimensions_0.10; full60_recompute_density_count_and_occlusion",
+      "registered_before_output": "2026-09-05T15:11:49.182603+08:00"
+    },
+    {
+      "name": "R026",
+      "signature": [
+        6.75,
+        6.7,
+        6,
+        0,
+        0,
+        0.5235987755982988,
+        0.05
+      ],
+      "spec": {
+        "generator": "hex_bands",
+        "name": "R026",
+        "version": "v001",
+        "tower_xy": [
+          0,
+          0
+        ],
+        "width": 6.75,
+        "height": 6.7,
+        "installation_height": 6,
+        "phi": 0.5235987755982988,
+        "spacing_margin": 0.05
+      },
+      "parent": "R023",
+      "reason": "non_square_height_only_minus0.05_at_unchanged_width_grid; assess_q_without_assuming_power_monotonic",
+      "registered_before_output": "2026-09-05T15:16:09.596491+08:00"
+    },
+    {
+      "name": "R027",
+      "signature": [
+        6.65,
+        6.65,
+        6,
+        0,
+        -15,
+        0.5235987755982988,
+        0.05
+      ],
+      "spec": {
+        "generator": "hex_bands",
+        "name": "R027",
+        "version": "v001",
+        "tower_xy": [
+          0,
+          -15
+        ],
+        "width": 6.65,
+        "height": 6.65,
+        "installation_height": 6,
+        "phi": 0.5235987755982988,
+        "spacing_margin": 0.05
+      },
+      "parent": "R025",
+      "reason": "conditional_local_tower_south15: R025 higher heuristic_q and thin_full60_power_margin; fixed_field_not_translated; full_design_reclip_and_recompute",
+      "registered_before_output": "2026-09-05T15:20:23.186188+08:00"
+    }
+  ],
+  "selection_log": []
+}

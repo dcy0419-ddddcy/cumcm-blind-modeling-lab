@@ -1,0 +1,96 @@
+{
+  "version": "v001",
+  "scope": "prototype only",
+  "seed": 2026090401,
+  "bit_generator": "NumPy PCG64",
+  "substreams": "SeedSequence([root,stage,month,hour_code,mirror_id,batch]); nested prefixes within batch",
+  "beta_rad": 0.00465,
+  "rho": 0.92,
+  "geometry": {
+    "length_scale_m": 1000,
+    "factor": 256,
+    "reason": "256 binary64 eps times field length scale; uncertainty flags rather than object expansion"
+  },
+  "selection": {
+    "rules": [
+      "minimum x",
+      "maximum x",
+      "minimum y",
+      "maximum y",
+      "minimum radius",
+      "maximum radius"
+    ],
+    "ties": "first Excel row; duplicate chooses next distinct in same ordering",
+    "times": [
+      {
+        "month": 12,
+        "hour": 9,
+        "reason": "low morning sun"
+      },
+      {
+        "month": 6,
+        "hour": 12,
+        "reason": "high noon sun"
+      },
+      {
+        "month": 3,
+        "hour": 15,
+        "reason": "afternoon branch"
+      }
+    ]
+  },
+  "pilot": {
+    "rays_per_combination": 32,
+    "max_seconds": 120,
+    "compare_full_obstacles": true
+  },
+  "trial": {
+    "samples": [
+      256,
+      1024,
+      4096
+    ],
+    "batches": 3,
+    "max_total_rays": 300000,
+    "max_seconds": 360,
+    "chunk_size": 1024,
+    "max_combinations": 18,
+    "max_mirrors": 6,
+    "max_times": 3,
+    "diagnostic_criteria": {
+      "batch_f2_range": 0.04,
+      "level_f2_change": 0.015,
+      "max_boundary_weight": 0,
+      "projection_abs_error": 0.0003
+    },
+    "stop": "configured maximum or resource cap; report instability, no escalation"
+  },
+  "synthetic": {
+    "r1_samples": [
+      2048,
+      8192,
+      32768
+    ],
+    "batches": 4,
+    "r2_levels": [
+      [
+        8,
+        4,
+        8
+      ],
+      [
+        16,
+        8,
+        16
+      ],
+      [
+        32,
+        12,
+        24
+      ]
+    ],
+    "cross_abs_tolerance": 0.025,
+    "max_total_rays": 1500000
+  },
+  "test_policy": "prototype thresholds only, no annual precision approval"
+}

@@ -1,0 +1,610 @@
+{
+  "version": "repair-v004-parallel-confirmation",
+  "created": "2026-09-05T14:55:10.063642+08:00",
+  "root_seed": 2026090505,
+  "before_first_new_optical_score": true,
+  "parent_failure": {
+    "candidate": "C22",
+    "path": "../Q02-搜索-v001/独立确认结论.json",
+    "sha256": "fe6edc533af6306e383bc1fd3b3a79576af167faf3c1bf1a2ff99e5dcf108dc2",
+    "used_as_search_data": true
+  },
+  "search_namespaces": [
+    1900,
+    1910
+  ],
+  "low": {
+    "times": [
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        10.5
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        13.5
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10.5
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13.5
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        10.5
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        3,
+        13.5
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        10.5
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        13.5
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        10.5
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        5,
+        13.5
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        10.5
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        6,
+        13.5
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        10.5
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        7,
+        13.5
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10.5
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        8,
+        13.5
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        9,
+        10.5
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        13.5
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        10,
+        10.5
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        10,
+        13.5
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        11,
+        10.5
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        11,
+        13.5
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        12,
+        10.5
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        12,
+        13.5
+      ],
+      [
+        12,
+        15
+      ]
+    ],
+    "B": 2,
+    "n": 16,
+    "levels": [
+      8,
+      16
+    ],
+    "namespace": 1900
+  },
+  "fine": {
+    "times": [
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        10.5
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        13.5
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10.5
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13.5
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        10.5
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        3,
+        13.5
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        10.5
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        13.5
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        10.5
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        5,
+        13.5
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        10.5
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        6,
+        13.5
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        10.5
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        7,
+        13.5
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10.5
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        8,
+        13.5
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        9,
+        10.5
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        13.5
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        10,
+        10.5
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        10,
+        13.5
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        11,
+        10.5
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        11,
+        13.5
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        12,
+        10.5
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        12,
+        13.5
+      ],
+      [
+        12,
+        15
+      ]
+    ],
+    "B": 4,
+    "n": 64,
+    "levels": [
+      32,
+      64
+    ],
+    "namespace": 1910
+  },
+  "confirmation": {
+    "B": 8,
+    "n": 256,
+    "levels": [
+      128,
+      256
+    ],
+    "namespace": 1990,
+    "fixed_sample_no_adaptive_stop": true,
+    "min_reserve_seconds": 1200,
+    "U": "max(t7 whole-batch jackknife halfwidth, final-half-prefix difference, final-raw-integral difference) + coordinatewise full-range low-survivor(<100) influence bound",
+    "efficiency_abs": 0.001,
+    "power_relative": 0.005,
+    "rating": "annual P-U_P>=60000kW; all78 report metrics and no required unresolved states",
+    "low_survival_threshold": 100,
+    "zero_rule": "no zero/one fill, keep fixed H02, unknown propagates, no seed retries",
+    "interval": "approximate pointwise diagnostic only, no simultaneous or physical guarantee"
+  },
+  "rules": {
+    "candidate_names": "R023 onward, generator signature excludes name/version; each spec saved before scoring",
+    "family": "six-sector straight-edge bands with proven triangular lattice spacing; full fixed-field/tower exclusion clip and all-pair check",
+    "initial": [
+      {
+        "w": 6.75,
+        "h": 6.75,
+        "z": 6,
+        "tower": [
+          0,
+          0
+        ],
+        "phi": 0.5235987755982988,
+        "margin": 0.05
+      },
+      {
+        "w": 7,
+        "h": 7,
+        "z": 6,
+        "tower": [
+          0,
+          0
+        ],
+        "phi": 0.5235987755982988,
+        "margin": 0.05
+      }
+    ],
+    "allowed_moves": {
+      "width_height": "2..8 and w>=h; local +/- .05,.1,.15,.25,.5 m, joint dimensions or height-only; z6 retained first, optionalz5.5 if h<11",
+      "tower": "from parent +/-(0,15),(0,30),(15,0); |x|<=30, y in[-60,30]",
+      "phi": "0,pi/12,pi/6",
+      "spacing_margin": ".01 or .05 m; numerical search restriction, not engineering clearance"
+    },
+    "selection": "Until fine-gated candidate exists rank valid whole60 point P first; also retain q/area. Once exists retain baseline and rank q among fine-gated. At least one q-directed local adjustment or complementary full60 comparison; do not start local only when feasible.",
+    "NA_at_low": "low total formal point may be NA due pooled zero; record heuristic score separately for shortlist only, no rating. At fine unresolved may trigger one higher sample stage only if budget and new registered config; otherwise not eligible.",
+    "shortlist": "promising low P and q receive fine; cannot call noise-scale q differences established improvements; paired batch comparison diagnostic retained",
+    "fine_gate": "all required point quantities defined; annual P - max(50kW, 2*max(3.182446305*JK_SE,abs(P-prefixP),abs(P-rawP))) >60000. Search risk margin only, not rated rule or strict confidence. 50kW floor exceeds previous between-level ~10kW and U~6kW; intentionally conservative management choice.",
+    "budgets": {
+      "maximum_new_candidates": 8,
+      "maximum_low": 6,
+      "maximum_fine": 3,
+      "search_seconds": 2400,
+      "total_seconds": 3600,
+      "reserve_confirmation": 1200,
+      "startup_low_seconds": 310,
+      "startup_fine_seconds": 380,
+      "cost_rule": "last comparable elapsed times1.12 times N ratio; reserve20sec freeze; no new stage if prediction exceeds phase cap; projections not hard guarantees"
+    },
+    "rounding": "x/y10 decimal before scoring and Excel; exact readback frozen",
+    "CRN": "PCG64 SeedSequence(root,namespace,time index,stable position_key,batch). Common keys receive same normalized source points/directions, not guaranteed same physicalmirror; ordering does not drive RNG. low andfine independent, halfprefix correlated and countedonce."
+  },
+  "bindings": {
+    "q02_repair_engine_v001.py": "5a17a2a77f9cd6f4cdc0f35fa7cef194262ee9d96f1d6ee2fb3e9991dc19ee09",
+    "q02_repair_common_v001.py": "47ae9aee44798934e17726ff7274370d90600a6800eca4f2a9f6a69fb95856b1",
+    "q02_fast_v002.py": "84195cbd2395e8bf6d09c7189a5b158acd1373db2836903f648bdce9aca98e09",
+    "q02_compact_v001.py": "6351316e6bd3f797c2a47c1b67e58774148e36b1d97cac09d9808fb6c111b6dd",
+    "q02_search_summary_v002.py": "f5f95f46932992e3efb0a30c6841d3ba0cfd545226a50300a36fdd011a1e4515",
+    "q02_hex_bands_v001.py": "9b4e803bf06429f1d47c65e8b90402d1e36e30538884ff37589eb3cdbbfcbf67",
+    "q02_repair_run_v003.py": "c4dc4a8ce7ae3de8ea1d498808d8d97886c4ae97eb46457a7d64e495d30a3e58",
+    "q02_repair_parallel_v001.py": "bc0d145de0c9485165160a037566ac823c33d2ad828d7cd086ab4f58628f03f8",
+    "q02_repair_confirm_parallel_v001.py": "f331950e25e93996fc68d8979bffc584330ef7c2b400599be9fb9fae07340e9a"
+  },
+  "parent_config_sha256": "679d7076e424e1c04e89a7b2a6fd23d6d61da6e65b5548a5e2d3a62976ccb1aa",
+  "revision": "Post-freeze, validated time-block scheduling only. Physical design, seeds, B8n256, pooling, U and gates unchanged.",
+  "execution": {
+    "workers": 4,
+    "scheduler": "q02_repair_parallel_v001.py",
+    "test_record": "并行调度同射线测试-v001/测试结论.json",
+    "test_sha256": "26b9aae0bfea066586a4abc76ecbb7981ac8302f5ff05bdc172eabae156b677a",
+    "task_unit": "one full time, all mirrors/obstacles, original per-key RNG",
+    "reserve_after_seconds": 90,
+    "accounting": "whole parent job wall time includes spawn/wait/read/write/termination; overlapping internal worker wall times not double counted; worker CPU separately recorded",
+    "performance_limit": "tiny test establishes numeric equivalence only, not full throughput guarantee"
+  }
+}

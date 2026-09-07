@@ -1,0 +1,76 @@
+{
+  "checked_at": "2026-09-04T17:13:01.061976+08:00",
+  "scope": "当前单题材料与文件交付核验；不代表用户验收、管理员归档或模型验证",
+  "required_markdown_files": [
+    "00-任务状态.md",
+    "记录索引.md",
+    "方法库查阅记录.md",
+    "阶段记录/S00-材料审计-v001.md",
+    "阶段记录/S01-题目理解-v001.md",
+    "06-更新记录.md",
+    "归档清单.md",
+    "决策记录.md"
+  ],
+  "original_files": [
+    {
+      "path": "AGENTS.md",
+      "unchanged": true,
+      "sha256": "b0a4c77a0f6c66e43bfb6ff9e6d89ed5bc6cc34060129ecd9cd4a0b940048f14"
+    },
+    {
+      "path": "README.md",
+      "unchanged": true,
+      "sha256": "03f6defc977e9297ab67a228bc7002fe096f45e697ef2b27cc0c741e80350c6e"
+    },
+    {
+      "path": "总控提示词.md",
+      "unchanged": true,
+      "sha256": "40006685201878b18c91ef01932cb673fd2d6832fb1bda63cb8e401424c9ebc2"
+    },
+    {
+      "path": "第一步-材料审计与题目理解.md",
+      "unchanged": true,
+      "sha256": "b20a940695baf5720b2c83442a1f286ac9b862bba5598fc6462bfa2d69224e29"
+    },
+    {
+      "path": "题目.pdf",
+      "unchanged": true,
+      "sha256": "86dd794bc41671bf55203be03403a165863374c5e2beca12f5de3db4425e997e"
+    },
+    {
+      "path": "附件/附件01.xlsx",
+      "unchanged": true,
+      "sha256": "e58d7f327a662d7d2263cf9aaded946a9f9018a49c9908e7f670f308b8f4a634"
+    },
+    {
+      "path": "附件/附件02.xlsx",
+      "unchanged": true,
+      "sha256": "e58d7f327a662d7d2263cf9aaded946a9f9018a49c9908e7f670f308b8f4a634"
+    },
+    {
+      "path": "附件/附件03.xlsx",
+      "unchanged": true,
+      "sha256": "596abec1162db0bce095f6f768b6cd06394e61766f80129a09e15146dc1fed50"
+    }
+  ],
+  "diagnostic_consistency_checks": {
+    "pdf_pages_4": true,
+    "rendered_pages_4": true,
+    "coordinate_rows_1745": true,
+    "coordinate_missing_0": true,
+    "coordinate_duplicates_0": true,
+    "radius_checks_clear": true,
+    "spacing_checks_clear": true,
+    "template_hashes_equal": true,
+    "no_result_workbooks": true
+  },
+  "markdown_links_checked": 73,
+  "archive_entries_checked": 35,
+  "work_files_count": 27,
+  "syntax_checks": "两份本轮Python代码已通过ast.parse静态语法检查",
+  "issues": [],
+  "all_checks_passed": true,
+  "files_saved": true,
+  "user_accepted": false,
+  "admin_archived": false
+}

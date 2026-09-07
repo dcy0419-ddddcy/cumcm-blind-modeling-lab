@@ -1,0 +1,112 @@
+{
+  "version": "v001",
+  "date": "2026-09-04",
+  "files": [
+    {
+      "path": "补充资料/待确认事项-v001.md",
+      "sha256": "fe2605c467a855bbe9b3c6d901c820836e00321f73bce61b3fcb693903dc8c15",
+      "bytes": 1140
+    },
+    {
+      "path": "补充资料/资料清单-v001.md",
+      "sha256": "32d55084ce769eefe80f8d5c136bb24f57973d6867e08013211255ff6669113e",
+      "bytes": 3471
+    },
+    {
+      "path": "补充资料/manifest-v001.json",
+      "sha256": "bbfa7a488c49de9f3c340a83bb925d0c3169d85cec821d05b1523bf80d1bb19d",
+      "bytes": 11689
+    },
+    {
+      "path": "补充资料/P01-角尺度来源与边界-v001.md",
+      "sha256": "1909e60303e57e39b7929f2200b7b966523b0bc2c2d44995f4f952e0a7ec4588",
+      "bytes": 3010
+    },
+    {
+      "path": "补充资料/P02-方向分布与待选假设-v001.md",
+      "sha256": "bd47a735887659b4db9f6b026b12b054c71db79b1993a0f88abe7a511136dc36",
+      "bytes": 3749
+    },
+    {
+      "path": "补充资料/README.md",
+      "sha256": "9be33226f37b4deece2bf957e5ed27e4ccbfabee5caac8f8d5a992592c543bd7",
+      "bytes": 1314
+    },
+    {
+      "path": "方法库/来源与许可.md",
+      "sha256": "0b8958b162cbfac209cfdcdbc7e68fb5d0d5ac43ae099e1d96d516a491300535",
+      "bytes": 3461
+    },
+    {
+      "path": "方法库/验证/运行结果-v001.json",
+      "sha256": "984296454463cf2728c52f7b178bf4f55fd7b354d3cc6f5aa108412afa196e43",
+      "bytes": 3236
+    },
+    {
+      "path": "方法库/验证/check_examples.py",
+      "sha256": "71b75eeda1a5dbd82d72a700063600524ebc2201afcec20bd4e1f4bcb1977c27",
+      "bytes": 3624
+    },
+    {
+      "path": "方法库/验证/README.md",
+      "sha256": "c20b953eef886f2ad011cc7e26feeb3653e9b684631f93591c45b99b8648645e",
+      "bytes": 1390
+    },
+    {
+      "path": "方法库/原文选段/D01-建模质量观念.md",
+      "sha256": "837ac362d2e891bd459276993570b5e503573a5d0421d04a1c84e45305fc89e9",
+      "bytes": 1773
+    },
+    {
+      "path": "方法库/原文选段/D02-几何方法分类.md",
+      "sha256": "4a4bb2da78d406ba8dde8fdf9b328f2179db0aeff404cb65b30ba082d755cc7f",
+      "bytes": 4016
+    },
+    {
+      "path": "方法库/原文选段/D03-随机模拟基本思想.md",
+      "sha256": "63a692f622e86825d353da381892205286b5ab40f9e70e80ad1d6f4beec6e01d",
+      "bytes": 1496
+    },
+    {
+      "path": "方法库/资料清单-v001.md",
+      "sha256": "7f4616a0e65c773157551d39cf34c89d5a0773179833e725c82a3a5e0fb4a802",
+      "bytes": 9807
+    },
+    {
+      "path": "方法库/M01-输入假设与适用范围-v001.md",
+      "sha256": "96ed9a694f5a9e73e1a19a472bf5f87f186ab49a9dc8a8e64434a62f55b1ae8a",
+      "bytes": 4154
+    },
+    {
+      "path": "方法库/M02-空间方向反射与有限几何-v001.md",
+      "sha256": "94416d26857e99fcf145e9e97b11b5f68656397cdb37718d74d6e258e296cefc",
+      "bytes": 4587
+    },
+    {
+      "path": "方法库/M03-条件能量比与分布归一化-v001.md",
+      "sha256": "ec17db106349f5150f3e9bc49ad6469f975a2f3cb9387c4aae38414d3bda3ff8",
+      "bytes": 3975
+    },
+    {
+      "path": "方法库/M04-平均权重与非线性汇总-v001.md",
+      "sha256": "848fc02fd70882921bdb6aa3d1efa31d851fd8569c07602215ce4e5a6e778e2a",
+      "bytes": 3747
+    },
+    {
+      "path": "方法库/M05-数值误差验证与复现-v001.md",
+      "sha256": "14de3c6a420225beccacf9d5e2e558a0e109f14e391511e1d4dd9c57bf032a0f",
+      "bytes": 4180
+    },
+    {
+      "path": "方法库/manifest-v001.json",
+      "sha256": "0444a6ff2a381458092d21fb708619260f66bb84bdb71f57d30fa5f0c1f29f5c",
+      "bytes": 19050
+    },
+    {
+      "path": "方法库/README.md",
+      "sha256": "efe5b3b3c20a2e8ce149ab74d70c518f85746f7433e0c03aaa9a4a6af4b58353",
+      "bytes": 3352
+    }
+  ],
+  "note": "本完整性文件自身不参与哈希，管理员交付核验记录另记录它的哈希，避免循环。"
+}

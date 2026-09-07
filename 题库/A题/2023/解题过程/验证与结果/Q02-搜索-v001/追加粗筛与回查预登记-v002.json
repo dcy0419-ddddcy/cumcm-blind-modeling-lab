@@ -1,0 +1,100 @@
+{
+  "coarse": [
+    {
+      "P_score_kw": 56513.422608438326,
+      "q_score_kw_m2": 0.46972390624740945,
+      "zero_survivor": 0,
+      "zero_capture": 0,
+      "unknown": 0,
+      "point_time_power_kw": [
+        57062.609094831016,
+        65108.85083756397,
+        57232.47247030211,
+        64518.369430755476,
+        71037.86451765486,
+        64480.24173546314,
+        56862.23788784964,
+        64807.88481121485,
+        56889.28770648753,
+        33427.95891085838,
+        53300.91918188218,
+        33432.374716396655
+      ],
+      "formal_rating": "NOT_PERMITTED_HEURISTIC",
+      "actual_time_count": 12,
+      "actual_mirror_count": 3342,
+      "name": "C21",
+      "design_key": "4f31dd00e06d71db4587245ef741a9e68a741849a86a85be2b873c72a70fdbf2",
+      "n": 3342,
+      "area": 120312.0,
+      "spec": {
+        "generator": "hex_bands",
+        "name": "C21",
+        "version": "v001",
+        "tower_xy": [
+          0,
+          0
+        ],
+        "width": 6,
+        "height": 6,
+        "installation_height": 6,
+        "phi": 0.0,
+        "spacing_margin": 0.05
+      },
+      "score_kind": "coarse",
+      "rate_wall_seconds": 71.76828049996402,
+      "evaluation_seconds": 71.76828049996402
+    },
+    {
+      "P_score_kw": 57555.327067129816,
+      "q_score_kw_m2": 0.44605640535163754,
+      "zero_survivor": 1,
+      "zero_capture": 1,
+      "unknown": 0,
+      "point_time_power_kw": [
+        57449.98644138865,
+        66201.50252506655,
+        57628.544830977604,
+        65792.53576749952,
+        72236.14695412535,
+        65860.61322295864,
+        57100.69136649966,
+        65984.33387988358,
+        57260.3027568284,
+        36768.58152037577,
+        51604.861553945266,
+        36775.823986008916
+      ],
+      "formal_rating": "NOT_PERMITTED_HEURISTIC",
+      "actual_time_count": 12,
+      "actual_mirror_count": 3054,
+      "name": "C22",
+      "design_key": "6a46590d1f8ca3c742c3ae3b34ae75b18c1dec26c52aeb5e436a5f7721a7f69e",
+      "n": 3054,
+      "area": 129031.5,
+      "spec": {
+        "generator": "hex_bands",
+        "name": "C22",
+        "version": "v001",
+        "tower_xy": [
+          0,
+          0
+        ],
+        "width": 6.5,
+        "height": 6.5,
+        "installation_height": 6,
+        "phi": 0.5235987755982988,
+        "spacing_margin": 0.05
+      },
+      "score_kind": "coarse",
+      "rate_wall_seconds": 66.95917249994818,
+      "evaluation_seconds": 66.95917249994818
+    }
+  ],
+  "selected_full": [
+    "C22",
+    "C21"
+  ],
+  "audit": null,
+  "exclusions": []
+}

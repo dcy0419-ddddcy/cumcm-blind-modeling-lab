@@ -1,0 +1,42 @@
+{
+  "excel": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q02-修复-v001\\frozen\\R027-待确认设计.xlsx",
+  "sha256": "b305e8da10ab5323d38824521dbb1d768f029fbc1838ac20aea769681d47ed61",
+  "n": 2981,
+  "actual_design_key": "2a3afcf2a5cf4e4e37fbd3256e3038a4f19a4372c77dae2b89fb7e866174a73e",
+  "geometry": {
+    "accepted": true,
+    "comparison_policy": "strict sign tests; near-boundary threshold never relaxes constraints",
+    "duplicate_pairs": [],
+    "geometry_valid": true,
+    "minima": {
+      "exclusion_margin": 1.3249722427844972,
+      "field_margin": 0.19652660383877674,
+      "ground_margin": 2.675,
+      "pair_distance": 11.699999999932487,
+      "pair_margin": 0.049999999932486716,
+      "tower_margin": 335.0
+    },
+    "n": 2981,
+    "near_boundaries": [
+      {
+        "bound": 6.0,
+        "code": "installation_height_upper",
+        "margin": 0.0,
+        "passes_exact_test": true,
+        "value": 6.0
+      }
+    ],
+    "near_boundary_reporting_distance": 1e-09,
+    "pair_count_checked": 4441690,
+    "schema": "q02-diagnostic-design-v002",
+    "schema_valid": true,
+    "search_scope_valid": true,
+    "total_area": 131827.27250000002,
+    "validation_scope": "approved center geometry and declared search scope; no optical or power validation",
+    "violation_count": 0,
+    "violations": []
+  },
+  "max_coordinate_difference_m": 0.0,
+  "nominal_original_key": "a45f64acc8edd02155e80f8baa3fdb6c4357d01e7a72e2c67187e2bac6ccb40f",
+  "actual_total_area": 131827.27250000002
+}

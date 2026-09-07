@@ -1,0 +1,51 @@
+{
+  "official_pdf_sha256": "3e2507025f0a776e3ba8e340e646d2105896482b055cdd6a22862dedbf89311b",
+  "local_pdf_sha256": "86dd794bc41671bf55203be03403a165863374c5e2beca12f5de3db4425e997e",
+  "official_pdf_pages": 4,
+  "local_pdf_pages": 4,
+  "pdf_page_text_equal": [
+    false,
+    true,
+    true,
+    true
+  ],
+  "pdf_note": "Page 1 differs only because the local anonymous copy omits the competition/year heading; pages 2-4 extracted text equal. Visual page renders were also checked.",
+  "workbooks": [
+    {
+      "identity": "coordinates",
+      "official_sha256": "621b0cb77367d3ac79488b0a553081ee854efcaea16c4d06c91074617e9d1633",
+      "local_sha256": "596abec1162db0bce095f6f768b6cd06394e61766f80129a09e15146dc1fed50",
+      "all_cell_values_equal": true,
+      "official_sheets": [
+        "Sheet1"
+      ],
+      "local_sheets": [
+        "Sheet1"
+      ]
+    },
+    {
+      "identity": "result2_template",
+      "official_sha256": "4f9fbd0cc4e817063616e8202aab25f02cd68a9b4409fe77b13a9f8f0306caa1",
+      "local_sha256": "e58d7f327a662d7d2263cf9aaded946a9f9018a49c9908e7f670f308b8f4a634",
+      "all_cell_values_equal": true,
+      "official_sheets": [
+        "Sheet1"
+      ],
+      "local_sheets": [
+        "Sheet1"
+      ]
+    },
+    {
+      "identity": "result3_template",
+      "official_sha256": "4f9fbd0cc4e817063616e8202aab25f02cd68a9b4409fe77b13a9f8f0306caa1",
+      "local_sha256": "e58d7f327a662d7d2263cf9aaded946a9f9018a49c9908e7f670f308b8f4a634",
+      "all_cell_values_equal": true,
+      "official_sheets": [
+        "Sheet1"
+      ],
+      "local_sheets": [
+        "Sheet1"
+      ]
+    }
+  ]
+}

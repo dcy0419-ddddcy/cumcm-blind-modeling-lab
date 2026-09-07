@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-09-07T11:51:12.701666+08:00",
+  "source_inventory_files": 8403,
+  "source_inventory_bytes": 8456142225,
+  "source_duplicate_groups": 642,
+  "source_duplicate_files_beyond_first": 715,
+  "potential_duplicate_bytes_beyond_first": 274864853,
+  "actual_git_files_excluding_manifests": 825,
+  "actual_git_bytes_excluding_manifests": 45770182,
+  "largest_20": [
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/紧凑读回冻结身份差异.json",
+      "bytes": 1306365,
+      "sha256": "0e0613bf35405a7f1791c300fa9f5eb49ac8226f4aecff5c9a1174d28b5adce8",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/冻结版本/输入快照/匿名题目.pdf",
+      "bytes": 974524,
+      "sha256": "86dd794bc41671bf55203be03403a165863374c5e2beca12f5de3db4425e997e",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q03-实施-v001/delivery/交付哈希清单-v002.json",
+      "bytes": 939371,
+      "sha256": "6c69eeb9c70ad137099ca497368869bd7f77c6a3dab81d0624a2c926cfb065b6",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q03-实施-v001/delivery/交付哈希清单-v001.json",
+      "bytes": 936859,
+      "sha256": "5c30a061c8a9dd387267ad92f26cb05d465798ce96f1bc76ce4074d262bb2336",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/论文/全题整合/实际搜索比较与检验证据-v001.json",
+      "bytes": 902115,
+      "sha256": "13d7d0ba04b4a1a83a7e3e9aacd63def1d8486d3028e0dfaaad60393aaaf7c37",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q03-实施-v001/prototype/attempt-1788613497469380100/result.json",
+      "bytes": 733914,
+      "sha256": "4e30cb1a47ea5da9d938a4e2de1dcae1f29236fa72558ce1378cb3b9fd575572",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q03-实施-v001/prototype/report-v001.json",
+      "bytes": 733914,
+      "sha256": "4e30cb1a47ea5da9d938a4e2de1dcae1f29236fa72558ce1378cb3b9fd575572",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q03-实施-v001/groups-v001.json",
+      "bytes": 723081,
+      "sha256": "ec699f16e2608d2b883ecf392978a3248f5aa066df2ce98f67ee9f06b5c8aae5",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C06/design.metadata.json",
+      "bytes": 688781,
+      "sha256": "9224c69459be7faa4d20d5d7a2b0317ffc9810c36214432c2ad1d9d8e604a550",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C11/design.metadata.json",
+      "bytes": 672692,
+      "sha256": "6ac3126beb45f9d25c5ad681033c07d29edff5508bb5e344030e07b2a25ae9d6",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C10/design.metadata.json",
+      "bytes": 648341,
+      "sha256": "c7f7f413ded3586d6aa4a8119369f5733955efde00161f5b87c4445a8ee9a4ad",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C07/design.metadata.json",
+      "bytes": 579792,
+      "sha256": "f172b388a82dc7e3c2fa53bb6d008214e64b5aa93d95621120687eea27685ab9",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/diagnostics/DenseA/design.metadata.json",
+      "bytes": 579757,
+      "sha256": "d7955e451f594de29a234dad75a796f42812a6811d0b22409b83fe5f6b98bed9",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C04/design.metadata.json",
+      "bytes": 578853,
+      "sha256": "89a49122b6082c80d29f683e382a4105f1f5d5d1c1cd2003468ba7507023fde2",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C09/design.metadata.json",
+      "bytes": 578853,
+      "sha256": "36ec0c9d96b091a16a506c30641fcd9b6fd0b6407baecb9406d77881cddb5fc6",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C03/design.metadata.json",
+      "bytes": 578840,
+      "sha256": "30e6c96e592295e130c84f060c92063ff9efa077b197ec9b50f8c9b75f214bec",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C08/design.metadata.json",
+      "bytes": 578840,
+      "sha256": "296d29f86cd715af5cbb62328e2d7210e6b96560a749a763a6b16188ec1c8145",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/diagnostics/DenseB/design-v002.metadata.json",
+      "bytes": 578818,
+      "sha256": "2f00ec597258afdebe6f365127bbdba0beed4b56023ae71875a1962031ce87c8",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q03-实施-v001/candidates/Q3R003/design.json",
+      "bytes": 507838,
+      "sha256": "c9ff1fc8e8ea54e6cfd6cb7748ec1028aefa2134349bf7f4a571be9cbd065003",
+      "status": "A"
+    },
+    {
+      "repo_path": "题库/A题/2023/解题过程/验证与结果/Q03-实施-v001/candidates/Q3R000/design.json",
+      "bytes": 507609,
+      "sha256": "d7cfa1e6ea6a67b7bf0aa99553e069c41f8c2e97cfb32d34b4deaa0466fe4fbb",
+      "status": "A"
+    }
+  ],
+  "excluded_source_files": 7613,
+  "excluded_source_bytes": 8411337933,
+  "files_over_100MiB_in_actual": [],
+  "self_reference_policy": "The two CSV manifests, this summary JSON, and the mutable pre-commit verification receipt are excluded from the actual-file hash list to avoid self-reference and stale hashes."
+}

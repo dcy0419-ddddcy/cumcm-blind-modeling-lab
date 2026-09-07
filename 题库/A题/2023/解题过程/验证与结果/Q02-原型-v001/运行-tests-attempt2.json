@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED",
+  "result": {
+    "all_pass": true,
+    "geometry_cases": 13,
+    "evaluation_cases": 9,
+    "artificial_ray_evaluations": 1490
+  },
+  "config_sha256": "aecb12edf0e3ac5eba9f3d3079f0fca84601a9f230cd8e5131230c915c7d8f26"
+}

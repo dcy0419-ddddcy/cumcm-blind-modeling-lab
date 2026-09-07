@@ -1,0 +1,136 @@
+{
+  "frozen_at": "2026-09-06T08:35:00.343726+08:00",
+  "version": "盲解-v001",
+  "formal_blind_freeze": true,
+  "user_acceptance": "本轮用户接受S03/完整论文/冻结候选并授权先冻结后揭晓",
+  "package": "工作记录/冻结候选/盲解-v001",
+  "package_manifest_sha256": "ed23098187e4479ab250744f6cc35fc84e1ec5bb25afe7e6b4ac21851c0da357",
+  "checksum_file_sha256": "9e6b950d124e16454aaf1715d21d2be183432e2703f4b92ff9a10d0d01820439",
+  "package_manifest_entries": 570,
+  "package_files_including_two_manifests": 572,
+  "external_dependencies": 512,
+  "external_direct_match": 507,
+  "resolved_historical_control_changes": [
+    {
+      "kind": "external",
+      "path": "工作记录/00-任务状态.md",
+      "expected_sha256": "b2c5129a38416b3b63d0fca27210a80bc49e07505500443d7b4a88c15c502fe2",
+      "actual_sha256": "a446642a8b91eec9aa245b95815f14ed78215f75d87197343b31525166312687",
+      "exists": true,
+      "pass_hash": false,
+      "expected_bytes": 1003,
+      "actual_bytes": 1535,
+      "resolution": "由打包前已保存s03_register脚本中的完整字面量恢复；与旧清单SHA-256精确匹配，未执行旧脚本",
+      "exact_old_bytes_preserved_at": "工作记录/揭晓后对照/首次正确性核查-v001/冻结证据补充/清单原字节/00-任务状态.md",
+      "explained_by": "S03第7节、U056、S03收尾控制绑定-v001.json和s03_finish_v001.py",
+      "current_hash_matches_prior_closeout": true
+    },
+    {
+      "kind": "external",
+      "path": "工作记录/决策记录.md",
+      "expected_sha256": "798ca9c00cdd5ae1bd672c62c393d516d2d0bb519faf110e0d9b1801cc1b9165",
+      "actual_sha256": "bffdbeae41a2bcfee9e8ce9574d2e53acb15177257b3600dade1aaccc1089e4c",
+      "exists": true,
+      "pass_hash": false,
+      "expected_bytes": 56885,
+      "actual_bytes": 57938,
+      "resolution": "当前文件前缀，与旧清单哈希精确相等；新增部分对应S03收尾追加",
+      "exact_old_bytes_preserved_at": "工作记录/揭晓后对照/首次正确性核查-v001/冻结证据补充/清单原字节/决策记录.md",
+      "explained_by": "S03第7节、U056、S03收尾控制绑定-v001.json和s03_finish_v001.py",
+      "current_hash_matches_prior_closeout": true
+    },
+    {
+      "kind": "external",
+      "path": "工作记录/方法库查阅记录.md",
+      "expected_sha256": "e51b3cf1bfecfe1e31237c58e3faa9aa437de8ee31416a6ced4f7530c809d8c6",
+      "actual_sha256": "d5d1f086d622816906d72be4bee555aeb0a00708efdf797f462960f1868f50e7",
+      "exists": true,
+      "pass_hash": false,
+      "expected_bytes": 32316,
+      "actual_bytes": 33112,
+      "resolution": "当前文件前缀，与旧清单哈希精确相等；新增部分对应S03收尾追加",
+      "exact_old_bytes_preserved_at": "工作记录/揭晓后对照/首次正确性核查-v001/冻结证据补充/清单原字节/方法库查阅记录.md",
+      "explained_by": "S03第7节、U056、S03收尾控制绑定-v001.json和s03_finish_v001.py",
+      "current_hash_matches_prior_closeout": true
+    },
+    {
+      "kind": "external",
+      "path": "工作记录/经验.md",
+      "expected_sha256": "70cafbbd2ed412c7d7e1466891c37eb7d9befa791ba48941bb9bc19d3da01b88",
+      "actual_sha256": "bdeafdc9593fddd7118dbc34c97535d2b212ec214a9c927b81cacf0f55af2805",
+      "exists": true,
+      "pass_hash": false,
+      "expected_bytes": 6349,
+      "actual_bytes": 7777,
+      "resolution": "当前文件前缀，与旧清单哈希精确相等；新增部分对应S03收尾追加",
+      "exact_old_bytes_preserved_at": "工作记录/揭晓后对照/首次正确性核查-v001/冻结证据补充/清单原字节/经验.md",
+      "explained_by": "S03第7节、U056、S03收尾控制绑定-v001.json和s03_finish_v001.py",
+      "current_hash_matches_prior_closeout": true
+    },
+    {
+      "kind": "external",
+      "path": "工作记录/记录索引.md",
+      "expected_sha256": "d1ec174decedf6165c83b8c6549d7c8747c1136cad2d3115ac204e9865075cfa",
+      "actual_sha256": "ab6fe8d51f73dd0a191aa8fb0527fc8f551dc8ada468bae669df7e5546ffd50d",
+      "exists": true,
+      "pass_hash": false,
+      "expected_bytes": 37251,
+      "actual_bytes": 39819,
+      "resolution": "当前文件前缀，与旧清单哈希精确相等；新增部分对应S03收尾追加",
+      "exact_old_bytes_preserved_at": "工作记录/揭晓后对照/首次正确性核查-v001/冻结证据补充/清单原字节/记录索引.md",
+      "explained_by": "S03第7节、U056、S03收尾控制绑定-v001.json和s03_finish_v001.py",
+      "current_hash_matches_prior_closeout": true
+    }
+  ],
+  "pre_authorization_snapshots": [
+    {
+      "original": "工作记录/00-任务状态.md",
+      "preserved": "工作记录/揭晓后对照/首次正确性核查-v001/冻结证据补充/本轮授权前控制快照/00-任务状态.md",
+      "sha256": "a446642a8b91eec9aa245b95815f14ed78215f75d87197343b31525166312687",
+      "bytes": 1535
+    },
+    {
+      "original": "工作记录/记录索引.md",
+      "preserved": "工作记录/揭晓后对照/首次正确性核查-v001/冻结证据补充/本轮授权前控制快照/记录索引.md",
+      "sha256": "ab6fe8d51f73dd0a191aa8fb0527fc8f551dc8ada468bae669df7e5546ffd50d",
+      "bytes": 39819
+    },
+    {
+      "original": "工作记录/决策记录.md",
+      "preserved": "工作记录/揭晓后对照/首次正确性核查-v001/冻结证据补充/本轮授权前控制快照/决策记录.md",
+      "sha256": "bffdbeae41a2bcfee9e8ce9574d2e53acb15177257b3600dade1aaccc1089e4c",
+      "bytes": 57938
+    },
+    {
+      "original": "工作记录/06-更新记录.md",
+      "preserved": "工作记录/揭晓后对照/首次正确性核查-v001/冻结证据补充/本轮授权前控制快照/06-更新记录.md",
+      "sha256": "adf58d63439d835ed5849b9e6e9b3a01984359e0180c65c3fc0aa35ff87b433d",
+      "bytes": 64435
+    },
+    {
+      "original": "工作记录/方法库查阅记录.md",
+      "preserved": "工作记录/揭晓后对照/首次正确性核查-v001/冻结证据补充/本轮授权前控制快照/方法库查阅记录.md",
+      "sha256": "d5d1f086d622816906d72be4bee555aeb0a00708efdf797f462960f1868f50e7",
+      "bytes": 33112
+    },
+    {
+      "original": "工作记录/归档清单.md",
+      "preserved": "工作记录/揭晓后对照/首次正确性核查-v001/冻结证据补充/本轮授权前控制快照/归档清单.md",
+      "sha256": "c861815ecdb53997c64a3fbaae6989fe250eaeae957cd2d4f0cbe0983c566367",
+      "bytes": 45779
+    },
+    {
+      "original": "工作记录/经验.md",
+      "preserved": "工作记录/揭晓后对照/首次正确性核查-v001/冻结证据补充/本轮授权前控制快照/经验.md",
+      "sha256": "bdeafdc9593fddd7118dbc34c97535d2b212ec214a9c927b81cacf0f55af2805",
+      "bytes": 7777
+    }
+  ],
+  "external_answers_first_access": null,
+  "all_dependencies_preserved": true,
+  "self_contained_for_reading": true,
+  "self_contained_for_raw_rebuild": false,
+  "administrator_archived": "未确认",
+  "reference_original_writing_learning": "待材料，不阻塞本轮对照",
+  "experience_sha256_unchanged": "bdeafdc9593fddd7118dbc34c97535d2b212ec214a9c927b81cacf0f55af2805"
+}

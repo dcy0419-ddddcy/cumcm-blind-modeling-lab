@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "H02_fixed_population_and_DNI_pairing": true,
+    "identical_batches_zero_numeric_U": true,
+    "rated_test_uses_lower_work_value": true,
+    "pooled_point_not_substituted_by_batch_ratio_mean": true,
+    "whole_batch_jackknife_saved": true,
+    "low_survival_all_object_time_screen": true,
+    "sampled_zero_without_proof_is_unresolved": true,
+    "boundary_unknown_is_not_hidden": true,
+    "partial_time_is_heuristic_only": true
+  },
+  "all_pass": true,
+  "scope": "synthetic in-memory arrays only; no file, geometry, search, or optical execution"
+}

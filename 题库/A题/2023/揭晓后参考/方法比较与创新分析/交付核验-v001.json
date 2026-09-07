@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-09-07T10:36:18.334743+08:00",
+  "expected_files": {
+    "00-校准与小型检查计划-v001.md": true,
+    "01-阅读范围与证据清单-v001.md": true,
+    "02-三问方法差异与取舍-v001.md": true,
+    "03-创新机制拆解-v001.md": true,
+    "04-自身方法评估与互补建议-v001.md": true,
+    "05-经验条目与旧经验审查-v001.md": true,
+    "06-可迁移经验候选-v001.md": true,
+    "07-论文排版对照与改进清单-v001.md": true,
+    "calibrate_comparisons_v001.py": true,
+    "校准百分比-v001.json": true,
+    "verify_frozen_package_v001.py": true,
+    "冻结成果复核-v001.json": true
+  },
+  "hashes": {
+    "00-校准与小型检查计划-v001.md": "d993cf668b1fd1baf898028ff619c651a93d2b60fb4a202558c537aba3a8165a",
+    "01-阅读范围与证据清单-v001.md": "28273c429d55f3a3f696cdfe8154f13dbcda24597a72698ddfc0ff5c1c66b7dc",
+    "02-三问方法差异与取舍-v001.md": "0ef35272d074ba2a16eb452897f0a4452bbf83fc7783af0cc258a89ea0492aae",
+    "03-创新机制拆解-v001.md": "f6142cae82f745a24f23be809b2c7f8a2c8f26336e3212056d9b68218c96d540",
+    "04-自身方法评估与互补建议-v001.md": "4e6fdfecf82ee424036a00f300aa5a6f059bc0e88b05d401670e6e9c962224ab",
+    "05-经验条目与旧经验审查-v001.md": "a17d19a1476aa0c4a37e4c71e2e8153a24242e000131d77dffe6245c482b1fc8",
+    "06-可迁移经验候选-v001.md": "4267d6089e88dd5663912b7910c03a1ea431494a601e49adef4ab5a17ddfccc5",
+    "07-论文排版对照与改进清单-v001.md": "5a3e9a3fc944f53aa86d1c2823e3e946a8327d1a00535414e6ea5bb2322cde87",
+    "calibrate_comparisons_v001.py": "6765be0ce97831008d0bbf479bc6f2c2d156c279f07e255a5783217af726944c",
+    "校准百分比-v001.json": "9521bb2668035830931fbb33c42bb8f7daec61da5d1ce74c8ef5d6d6708bd39a",
+    "verify_frozen_package_v001.py": "8dad8886eaaecf20640f59af6f6735db9372dd5e9aeed78265899de1fb8b4ff7",
+    "冻结成果复核-v001.json": "140e0ba7df219065ab0807cdf8ffa7001106e0fca224f8123303687c091f7e2c"
+  },
+  "broken_markdown_links": [],
+  "table_header_errors": [],
+  "control_checks": {
+    "state_phrase": true,
+    "index_section": true,
+    "decision_D052": true,
+    "update_U059": true,
+    "archive_section": true,
+    "method_reading_recorded": true,
+    "experience_E022_to_E030": true,
+    "external_total_experience_not_updated": true
+  },
+  "freeze_check_passed": true,
+  "scope": "文档、链接、表头、控制状态和冻结包字节；不替代方法判断或物理验证",
+  "passed": true
+}

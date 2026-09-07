@@ -1,0 +1,1966 @@
+{
+  "kind": "S03_FILE_AND_DOCUMENT_VALIDATION",
+  "created_at": "2026-09-06T00:00:09.727243+08:00",
+  "all_pass": true,
+  "check_count": 205,
+  "checks": [
+    {
+      "name": "unchanged accepted baseline: 工作记录/论文/第1问-模型建立与求解-v001.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/论文/LaTeX/第1问-模型建立与求解-v001.tex",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/论文/LaTeX/第1问-模型建立与求解-v001.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/论文/第1问-正文证据映射-v001.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/论文/第2问-模型建立与求解-v002.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/论文/LaTeX/第2问-模型建立与求解-v002.tex",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/论文/LaTeX/第2问-模型建立与求解-v002.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/论文/第2问-正文证据映射-v002.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/论文/第3问-模型建立与求解-v001.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/论文/LaTeX/第3问-模型建立与求解-v001.tex",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/论文/LaTeX/第3问-模型建立与求解-v001.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/论文/第3问-正文证据映射-v001.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/诊断结果/Q02-修复-v001/result2.xlsx",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/诊断结果/Q03-实施-v001/delivery/result3.xlsx",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/诊断结果/Q03-实施-v001/delivery/paired-comparison-v001.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged accepted baseline: 工作记录/论文/写作规范-v001.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "source registry validated",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q1/confirmation_summary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q1/configuration",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q1/input_mapping",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q1/saved_rebuild",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q1/low_survival_supplement",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q1/accepted_result",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q1/paper",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q1/evidence_map",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q2/confirmation_summary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q2/result_data",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q2/confirmation_binding",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q2/design_bundle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q2/design_metadata",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q2/mirror_rows",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q2/formal_excel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q2/freeze",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q2/saved_rebuild",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q2/saved_U_rebuild",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q2/accepted_result",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q2/paper",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q2/evidence_map",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q3/confirmation_summary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q3/result_data",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q3/confirmation_binding",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q3/design",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q3/formal_excel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q3/freeze",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q3/saved_rebuild",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q3/accepted_result",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q3/paper",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source q3/evidence_map",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source paired/confirmation_summary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source paired/confirmation_binding",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source paired/design",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current source paired/saved_rebuild",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "paired delta source unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "render current md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "render current tex",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "render current pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "generator manuscript binding",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "converter tex binding",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "source and search generation binding",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "complete raster coverage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all pages actually inspected or identical raster inheritance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "independent table checks",
+      "pass": true,
+      "detail": 434
+    },
+    {
+      "name": "global equation ids",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "global table ids by occurrence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no unresolved author tokens",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "math delimiters",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no missing glyph/overflow/compile failure",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Q3 small margin retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "two R027 experiments retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "NA handling and finite domains retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all final source numeric/rating states retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current figure: 工作记录/论文/全题整合/图表/图1-三问月度功率.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "current figure: 工作记录/论文/全题整合/图表/图2-异尺寸镜场.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+        "target": "结果与来源表-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+        "target": "结果与来源-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+        "target": "../../诊断代码/s03_integrate_v001.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+        "target": "正文生成证据-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+        "target": "Markdown与LaTeX对应-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+        "target": "../../诊断代码/s03_verify_package_v001.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+        "target": "../第1问-可复现说明-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+        "target": "../../诊断代码/Q02-修复运行与复现说明-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/复现说明-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+        "target": "本地编译核验-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+        "target": "PDF人工核验-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../../AGENTS.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../00-任务状态.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../记录索引.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../第1问-模型建立与求解-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../第2问-模型建立与求解-v002.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../第3问-模型建立与求解-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../阶段记录/Q01-建模与原型验证-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../诊断结果/题面公式与表格核对-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../决策记录.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../写作规范-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../诊断代码/q01_core_v003.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../诊断代码/q02_eval_v003.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../诊断代码/q02_search_summary_v002.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../诊断代码/q03_fast_v001.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../诊断代码/q03_design_v001.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../诊断代码/q03_summary_v001.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../第2问-正文证据映射-v002.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../第3问-正文证据映射-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../诊断结果/Q02-修复-v001/frozen/confirmation/summary.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/summary.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/delivery/paired-comparison-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/边界事件记录-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/学术修订记录-v001.md",
+        "target": "完整论文-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/学术修订记录-v001.md",
+        "target": "修订前快照/整合草稿-001/完整论文-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/学术修订记录-v001.md",
+        "target": "结果与来源表-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/学术修订记录-v001.md",
+        "target": "实际搜索比较与检验证据-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/学术修订记录-v001.md",
+        "target": "结果与来源-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文-v001.md",
+        "target": "图表/图1-三问月度功率.png"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文-v001.md",
+        "target": "图表/图2-异尺寸镜场.png"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文内容模板-v001.md",
+        "target": "图表/图1-三问月度功率.png"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文内容模板-v001.md",
+        "target": "图表/图2-异尺寸镜场.png"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "完整论文-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "结果与来源表-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "结果与来源-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "实际搜索比较与检验证据-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断代码/s03_integrate_v001.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "完整论文内容模板-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "正文生成证据-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "Markdown与LaTeX对应-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../第1问-模型建立与求解-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断结果/题面公式与表格核对-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断代码/q01_core_v003.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断结果/Q01-基础与交叉验证-v002.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断代码/q03_fast_v001.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/prototype/report-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../阶段记录/Q01-全场初算与数值精度验证-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断代码/q02_search_summary_v002.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断代码/q03_summary_v001.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "实际搜索比较与检验证据-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断结果/Q01-全场-v001/汇总与数值核验-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断代码/Q01-全场配置-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断结果/Q02-修复-v001/frozen/confirmation/summary.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/summary.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/delivery/独立重建核验-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../阶段记录/Q02-约束梳理与候选方案-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断代码/q02_design_v002.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断代码/q02_repair_engine_v001.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../阶段记录/Q03-约束梳理与候选方案-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断代码/q03_design_v001.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/groups-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断结果/Q01-论文收尾-v001/低存活全量核查-v002.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/delivery/paired-comparison-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "图表/图1-三问月度功率.png"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "图表/图2-异尺寸镜场.png"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "学术修订记录-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "公共模型一致性审查-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+        "target": "盲解边界与局限-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.md",
+        "target": "../../诊断结果/Q02-搜索-v001/搜索轨迹.jsonl"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.md",
+        "target": "../../诊断结果/Q02-搜索-v001/独立确认结论.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.md",
+        "target": "../../诊断结果/Q02-修复-v001/实际候选比较.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/comparison-fine-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.md",
+        "target": "结果与来源-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/论文/第1问-模型建立与求解-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/论文/LaTeX/第1问-模型建立与求解-v001.tex"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/论文/LaTeX/第1问-模型建立与求解-v001.pdf"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/论文/第1问-正文证据映射-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/论文/第2问-模型建立与求解-v002.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/论文/LaTeX/第2问-模型建立与求解-v002.tex"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/论文/LaTeX/第2问-模型建立与求解-v002.pdf"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/论文/第2问-正文证据映射-v002.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/论文/第3问-模型建立与求解-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/论文/LaTeX/第3问-模型建立与求解-v001.tex"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/论文/LaTeX/第3问-模型建立与求解-v001.pdf"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/论文/第3问-正文证据映射-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/诊断结果/Q02-修复-v001/result2.xlsx"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/诊断结果/Q03-实施-v001/delivery/result3.xlsx"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/诊断结果/Q03-实施-v001/delivery/paired-comparison-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "C:/Users/admin/OneDrive/Desktop/26国赛-单题盲解区/A-P8C3/工作记录/论文/写作规范-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+        "target": "整合与参考学习前基线-v001/baseline.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/盲解边界与局限-v001.md",
+        "target": "../../方法库查阅记录.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/盲解边界与局限-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/边界事件记录-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/盲解边界与局限-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/failures.jsonl"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/盲解边界与局限-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/确认前接口修订-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/经验整理候选-v001.md",
+        "target": "../../经验.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q01-全场-v001/汇总与数值核验-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q02-修复-v001/frozen/confirmation/summary.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/summary.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/summary.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/delivery/paired-comparison-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q02-修复-v001/result2.xlsx"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/delivery/result3.xlsx"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q01-全场-v001/汇总与数值核验-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断代码/Q01-全场配置-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q02-修复-v001/frozen/confirmation/summary.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q02-修复-v001/frozen/confirmation/binding.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q02-修复-v001/frozen/design.bundle.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q02-修复-v001/result2.xlsx"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/summary.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/binding.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/candidates/Q3F013/design.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/delivery/result3.xlsx"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/summary.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/binding.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/candidates/Q3R000/design.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断结果/Q03-实施-v001/delivery/paired-comparison-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "结果与来源-v001.json"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+        "target": "../../诊断代码/s03_results_sources_v001.py"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/参考论文写作学习-v001.md",
+        "target": "全题整合/整合与参考学习前基线-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/参考写作应用对照-v001.md",
+        "target": "全题整合/完整论文-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/参考写作应用对照-v001.md",
+        "target": "全题整合/学术修订记录-v001.md"
+      }
+    },
+    {
+      "name": "document local link",
+      "pass": true,
+      "detail": {
+        "source": "工作记录/论文/参考写作应用对照-v001.md",
+        "target": "全题整合/完整论文证据映射-v001.md"
+      }
+    }
+  ],
+  "local_link_count": 132,
+  "links": [
+    {
+      "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+      "target": "工作记录/论文/全题整合/结果与来源表-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+      "target": "工作记录/论文/全题整合/结果与来源-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+      "target": "工作记录/诊断代码/s03_integrate_v001.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+      "target": "工作记录/论文/全题整合/正文生成证据-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+      "target": "工作记录/论文/全题整合/Markdown与LaTeX对应-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+      "target": "工作记录/诊断代码/s03_verify_package_v001.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+      "target": "工作记录/论文/第1问-可复现说明-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+      "target": "工作记录/诊断代码/Q02-修复运行与复现说明-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/复现说明-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+      "target": "工作记录/论文/全题整合/本地编译核验-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+      "target": "工作记录/论文/全题整合/PDF人工核验-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "AGENTS.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/00-任务状态.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/记录索引.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/论文/第1问-模型建立与求解-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/论文/第2问-模型建立与求解-v002.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/论文/第3问-模型建立与求解-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/阶段记录/Q01-建模与原型验证-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/诊断结果/题面公式与表格核对-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/决策记录.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/论文/写作规范-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/诊断代码/q01_core_v003.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/诊断代码/q02_eval_v003.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/诊断代码/q02_search_summary_v002.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/诊断代码/q03_fast_v001.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/诊断代码/q03_design_v001.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/诊断代码/q03_summary_v001.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/论文/第2问-正文证据映射-v002.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/论文/第3问-正文证据映射-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/summary.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/summary.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/delivery/paired-comparison-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/边界事件记录-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/学术修订记录-v001.md",
+      "target": "工作记录/论文/全题整合/完整论文-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/学术修订记录-v001.md",
+      "target": "工作记录/论文/全题整合/修订前快照/整合草稿-001/完整论文-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/学术修订记录-v001.md",
+      "target": "工作记录/论文/全题整合/结果与来源表-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/学术修订记录-v001.md",
+      "target": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/学术修订记录-v001.md",
+      "target": "工作记录/论文/全题整合/结果与来源-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文-v001.md",
+      "target": "工作记录/论文/全题整合/图表/图1-三问月度功率.png"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文-v001.md",
+      "target": "工作记录/论文/全题整合/图表/图2-异尺寸镜场.png"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文内容模板-v001.md",
+      "target": "工作记录/论文/全题整合/图表/图1-三问月度功率.png"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文内容模板-v001.md",
+      "target": "工作记录/论文/全题整合/图表/图2-异尺寸镜场.png"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/论文/全题整合/完整论文-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/论文/全题整合/结果与来源表-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/论文/全题整合/结果与来源-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断代码/s03_integrate_v001.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/论文/全题整合/完整论文内容模板-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/论文/全题整合/正文生成证据-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/论文/全题整合/Markdown与LaTeX对应-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/论文/第1问-模型建立与求解-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断结果/题面公式与表格核对-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断代码/q01_core_v003.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断结果/Q01-基础与交叉验证-v002.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断代码/q03_fast_v001.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/prototype/report-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/阶段记录/Q01-全场初算与数值精度验证-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断代码/q02_search_summary_v002.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断代码/q03_summary_v001.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断结果/Q01-全场-v001/汇总与数值核验-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断代码/Q01-全场配置-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/summary.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/summary.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/delivery/独立重建核验-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/阶段记录/Q02-约束梳理与候选方案-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断代码/q02_design_v002.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断代码/q02_repair_engine_v001.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/阶段记录/Q03-约束梳理与候选方案-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断代码/q03_design_v001.py"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/groups-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断结果/Q01-论文收尾-v001/低存活全量核查-v002.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/delivery/paired-comparison-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/论文/全题整合/图表/图1-三问月度功率.png"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/论文/全题整合/图表/图2-异尺寸镜场.png"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/论文/全题整合/学术修订记录-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/论文/全题整合/公共模型一致性审查-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "target": "工作记录/论文/全题整合/盲解边界与局限-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.md",
+      "target": "工作记录/诊断结果/Q02-搜索-v001/搜索轨迹.jsonl"
+    },
+    {
+      "source": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.md",
+      "target": "工作记录/诊断结果/Q02-搜索-v001/独立确认结论.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.md",
+      "target": "工作记录/诊断结果/Q02-修复-v001/实际候选比较.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/comparison-fine-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.md",
+      "target": "工作记录/论文/全题整合/结果与来源-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/论文/第1问-模型建立与求解-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/论文/LaTeX/第1问-模型建立与求解-v001.tex"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/论文/LaTeX/第1问-模型建立与求解-v001.pdf"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/论文/第1问-正文证据映射-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/论文/第2问-模型建立与求解-v002.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/论文/LaTeX/第2问-模型建立与求解-v002.tex"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/论文/LaTeX/第2问-模型建立与求解-v002.pdf"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/论文/第2问-正文证据映射-v002.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/论文/第3问-模型建立与求解-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/论文/LaTeX/第3问-模型建立与求解-v001.tex"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/论文/LaTeX/第3问-模型建立与求解-v001.pdf"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/论文/第3问-正文证据映射-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/诊断结果/Q02-修复-v001/result2.xlsx"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/delivery/result3.xlsx"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/delivery/paired-comparison-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/论文/写作规范-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "target": "工作记录/论文/全题整合/整合与参考学习前基线-v001/baseline.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/盲解边界与局限-v001.md",
+      "target": "工作记录/方法库查阅记录.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/盲解边界与局限-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/边界事件记录-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/盲解边界与局限-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/failures.jsonl"
+    },
+    {
+      "source": "工作记录/论文/全题整合/盲解边界与局限-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/确认前接口修订-v001.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/经验整理候选-v001.md",
+      "target": "工作记录/经验.md"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q01-全场-v001/汇总与数值核验-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/summary.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/summary.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/summary.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/delivery/paired-comparison-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q02-修复-v001/result2.xlsx"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/delivery/result3.xlsx"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q01-全场-v001/汇总与数值核验-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断代码/Q01-全场配置-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/summary.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/binding.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q02-修复-v001/frozen/design.bundle.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q02-修复-v001/result2.xlsx"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/summary.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/binding.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/design.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/delivery/result3.xlsx"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/summary.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/binding.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/design.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断结果/Q03-实施-v001/delivery/paired-comparison-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/论文/全题整合/结果与来源-v001.json"
+    },
+    {
+      "source": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "target": "工作记录/诊断代码/s03_results_sources_v001.py"
+    },
+    {
+      "source": "工作记录/论文/参考论文写作学习-v001.md",
+      "target": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md"
+    },
+    {
+      "source": "工作记录/论文/参考写作应用对照-v001.md",
+      "target": "工作记录/论文/全题整合/完整论文-v001.md"
+    },
+    {
+      "source": "工作记录/论文/参考写作应用对照-v001.md",
+      "target": "工作记录/论文/全题整合/学术修订记录-v001.md"
+    },
+    {
+      "source": "工作记录/论文/参考写作应用对照-v001.md",
+      "target": "工作记录/论文/全题整合/完整论文证据映射-v001.md"
+    }
+  ],
+  "paper_sha256": "86f9f98642331632d82eef24cd2b3fddadc81773c53204a210553c7306284f83",
+  "pdf_sha256": "f1961abe482d87137cd7372800a83cde1c2a17e80736a75fe0320e13225b9a45",
+  "new_optical_rays": 0,
+  "physical_model_independently_validated": false,
+  "reference_original_learning": "待材料",
+  "limits": "独立表值核对、既有来源及清单字节核验、PDF视觉检查。不是新的三问光学或物理验证。"
+}

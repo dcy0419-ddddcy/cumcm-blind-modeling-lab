@@ -1,0 +1,29 @@
+{
+  "name": "R023",
+  "key": "851fc5d172735a8c7c6fb32dd725e00a0c3ea319529df65519aaa5dab66cb272",
+  "indices": [
+    0,
+    1476,
+    2951
+  ],
+  "time_indices": [
+    0,
+    59
+  ],
+  "B": 4,
+  "n": 64,
+  "levels": [
+    32,
+    64
+  ],
+  "namespace": 1910,
+  "root_seed": 2026090505,
+  "all_obstacles": 2952,
+  "unique_source_identities": 1536,
+  "source_replays_per_mode": 2,
+  "modes": [
+    "serial",
+    "four_spawn_workers"
+  ],
+  "scope": "same source/event/statistic scheduling equivalence, not new physical validation"
+}

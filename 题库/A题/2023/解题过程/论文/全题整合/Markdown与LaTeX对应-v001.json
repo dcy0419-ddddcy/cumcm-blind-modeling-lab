@@ -1,0 +1,437 @@
+{
+  "source": "工作记录/论文/全题整合/完整论文-v001.md",
+  "source_sha256": "86f9f98642331632d82eef24cd2b3fddadc81773c53204a210553c7306284f83",
+  "tex": "工作记录/论文/全题整合/完整论文-v001.tex",
+  "tex_sha256": "4cd1ee4bce53cec2e7f34f01098c831aaa5ffddd69a7f5ec4be5107b75202904",
+  "math_display_blocks": 29,
+  "tables": 12,
+  "figures": 2,
+  "display_details": [
+    {
+      "start_line": 53,
+      "end_line": 63,
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "start_line": 67,
+      "end_line": 74,
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "start_line": 78,
+      "end_line": 85,
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "start_line": 89,
+      "end_line": 95,
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "start_line": 103,
+      "end_line": 109,
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "start_line": 117,
+      "end_line": 122,
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "start_line": 126,
+      "end_line": 130,
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "start_line": 142,
+      "end_line": 146,
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "start_line": 152,
+      "end_line": 157,
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "start_line": 161,
+      "end_line": 165,
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "start_line": 169,
+      "end_line": 176,
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "start_line": 184,
+      "end_line": 192,
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "start_line": 196,
+      "end_line": 201,
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "start_line": 211,
+      "end_line": 215,
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "start_line": 221,
+      "end_line": 224,
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "start_line": 228,
+      "end_line": 234,
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "start_line": 248,
+      "end_line": 253,
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "start_line": 259,
+      "end_line": 263,
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "start_line": 267,
+      "end_line": 271,
+      "tags": [
+        "19"
+      ]
+    },
+    {
+      "start_line": 277,
+      "end_line": 280,
+      "tags": [
+        "20"
+      ]
+    },
+    {
+      "start_line": 329,
+      "end_line": 333,
+      "tags": [
+        "21"
+      ]
+    },
+    {
+      "start_line": 339,
+      "end_line": 346,
+      "tags": [
+        "22"
+      ]
+    },
+    {
+      "start_line": 356,
+      "end_line": 363,
+      "tags": [
+        "23"
+      ]
+    },
+    {
+      "start_line": 369,
+      "end_line": 372,
+      "tags": [
+        "24"
+      ]
+    },
+    {
+      "start_line": 428,
+      "end_line": 433,
+      "tags": [
+        "25"
+      ]
+    },
+    {
+      "start_line": 437,
+      "end_line": 440,
+      "tags": [
+        "26"
+      ]
+    },
+    {
+      "start_line": 450,
+      "end_line": 455,
+      "tags": [
+        "27"
+      ]
+    },
+    {
+      "start_line": 459,
+      "end_line": 463,
+      "tags": [
+        "28"
+      ]
+    },
+    {
+      "start_line": 563,
+      "end_line": 570,
+      "tags": [
+        "29"
+      ]
+    }
+  ],
+  "equation_tags": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ],
+  "table_details": [
+    {
+      "start_line": 33,
+      "caption": "表1　公共符号及单位",
+      "columns": 3,
+      "body_rows": 11,
+      "header": [
+        "符号",
+        "含义",
+        "单位"
+      ]
+    },
+    {
+      "start_line": 290,
+      "caption": "表2　三问年样本平均结果（对应题目表2）",
+      "columns": 7,
+      "body_rows": 3,
+      "header": [
+        "问题/设计",
+        "\\(\\eta\\)",
+        "\\(\\eta_{\\rm cos}\\)",
+        "\\(\\eta_{\\rm sb}\\)",
+        "\\(\\eta_{\\rm trunc}\\)",
+        "\\(\\overline P\\)（MW）",
+        "\\(\\overline q\\)（kW/m²）"
+      ]
+    },
+    {
+      "start_line": 300,
+      "caption": "表3　固定镜场每月21日平均效率及单位面积功率（对应题目表1）",
+      "columns": 6,
+      "body_rows": 12,
+      "header": [
+        "月份",
+        "\\(\\eta\\)",
+        "\\(\\eta_{\\rm cos}\\)",
+        "\\(\\eta_{\\rm sb}\\)",
+        "\\(\\eta_{\\rm trunc}\\)",
+        "\\(\\overline q_m\\)（kW/m²）"
+      ]
+    },
+    {
+      "start_line": 384,
+      "caption": "表4　可行性修复的较精全60时点比较（搜索层）",
+      "columns": 5,
+      "body_rows": 2,
+      "header": [
+        "候选",
+        "镜数",
+        "总面积（m²）",
+        "功率评分（kW）",
+        "单位面积评分（kW/m²）"
+      ]
+    },
+    {
+      "start_line": 397,
+      "caption": "表5　R027设计参数（对应题目表3）",
+      "columns": 5,
+      "body_rows": 1,
+      "header": [
+        "塔位（m）",
+        "统一宽×高（m）",
+        "统一安装高（m）",
+        "镜数",
+        "总面积（m²）"
+      ]
+    },
+    {
+      "start_line": 405,
+      "caption": "表6　R027每月21日平均效率及单位面积功率（对应题目表1）",
+      "columns": 6,
+      "body_rows": 12,
+      "header": [
+        "月份",
+        "\\(\\eta\\)",
+        "\\(\\eta_{\\rm cos}\\)",
+        "\\(\\eta_{\\rm sb}\\)",
+        "\\(\\eta_{\\rm trunc}\\)",
+        "\\(\\overline q_m\\)（kW/m²）"
+      ]
+    },
+    {
+      "start_line": 479,
+      "caption": "表7　Q3F013的六组参数",
+      "columns": 6,
+      "body_rows": 6,
+      "header": [
+        "组号",
+        "镜数",
+        "宽（m）",
+        "高（m）",
+        "安装高（m）",
+        "组面积（m²）"
+      ]
+    },
+    {
+      "start_line": 496,
+      "caption": "表8　Q3F013设计参数（对应题目表3）",
+      "columns": 5,
+      "body_rows": 1,
+      "header": [
+        "塔位（m）",
+        "统一宽×高（m）",
+        "统一安装高（m）",
+        "镜数",
+        "总面积（m²）"
+      ]
+    },
+    {
+      "start_line": 504,
+      "caption": "表9　Q3F013每月21日平均效率及单位面积功率（对应题目表1）",
+      "columns": 6,
+      "body_rows": 12,
+      "header": [
+        "月份",
+        "\\(\\eta\\)",
+        "\\(\\eta_{\\rm cos}\\)",
+        "\\(\\eta_{\\rm sb}\\)",
+        "\\(\\eta_{\\rm trunc}\\)",
+        "\\(\\overline q_m\\)（kW/m²）"
+      ]
+    },
+    {
+      "start_line": 525,
+      "caption": "表10　第3问新配对实验的年度比较",
+      "columns": 5,
+      "body_rows": 3,
+      "header": [
+        "设计",
+        "功率（kW）",
+        "\\(U_P\\)（kW）",
+        "\\(\\overline q\\)（kW/m²）",
+        "\\(U_q\\)（kW/m²）"
+      ]
+    },
+    {
+      "start_line": 549,
+      "caption": "表11　已保存正式确认的汇总数值检查",
+      "columns": 5,
+      "body_rows": 3,
+      "header": [
+        "问题",
+        "组合数",
+        "最大效率指标",
+        "最大功率相对指标（%）",
+        "低存活组合数"
+      ]
+    },
+    {
+      "start_line": 602,
+      "caption": "表12　第3问较精全60时点比较（确认前）",
+      "columns": 5,
+      "body_rows": 4,
+      "header": [
+        "候选",
+        "总面积（m²）",
+        "功率评分（kW）",
+        "单位面积评分（kW/m²）",
+        "功率搜索余量（kW）"
+      ]
+    }
+  ],
+  "figure_details": [
+    {
+      "source_line": 319,
+      "caption": "图1　三问规定月样本的单位面积热功率。第2问曲线采用原正式确认值；第3问改善判定不由这两条曲线之差替代。连线只连接12个离散月样本，不表示连续全年积分；未显示误差条，数值工作指标见第8节。",
+      "file": "工作记录/论文/全题整合/图表/图1-三问月度功率.png",
+      "sha256": "8802f3a07a360e018d0f143120bd4f0b77e0a7dc86042c4df03ff2306abf93d2"
+    },
+    {
+      "source_line": 490,
+      "caption": "图2　Q3F013的镜高分布。颜色表示镜面边长中的高度；全部安装高度均为6m。横纵轴等比例，外圆为固定场界，虚线圆为随塔位移动的中心禁布区，图示不能替代全镜对约束检查。",
+      "file": "工作记录/论文/全题整合/图表/图2-异尺寸镜场.png",
+      "sha256": "61e2f83bab1f52daf40ce766afa520f7778d1a93a7d4e059315b8f7dc61a7563"
+    }
+  ],
+  "basic_checks": {
+    "title_present": true,
+    "math_delimiters_balanced": true,
+    "math_environments_balanced": true,
+    "unique_equation_tags": true,
+    "table_headers_separators_and_column_counts_valid": true
+  },
+  "fixed_equation_or_table_count_required": false,
+  "layout": "ordinary ctexart, zihao -4, 23mm margin; shared symbols and captions; no official template claim",
+  "compilation_performed": false,
+  "visual_inspection": "pending after root compilation/rendering",
+  "old_v001_modified": false,
+  "internet_or_dependency_install": false,
+  "new_optical_rays": 0,
+  "source_registry_sha256": "4a160072eb1d4ee8772be10fd3ba5352f54cb98216fc592ea53f2a295aaafdfe",
+  "search_registry_sha256": "13d7d0ba04b4a1a83a7e3e9aacd63def1d8486d3028e0dfaaad60393aaaf7c37"
+}

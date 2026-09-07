@@ -1,0 +1,106 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5"
+  },
+  "artificial_seconds": 0.044296500040218234,
+  "artificial_scope": "fast-v002 tests only; existing compact seven checks not rerun",
+  "dense_preregistration": {
+    "path": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q02-搜索-v001\\密集诊断配置预登记.json",
+    "sha256": "c9e727457fe9eec6f74614664eada1b42188cbaca2438a19aeef8d2e0672d8e5",
+    "action": "read existing v001; not overwritten"
+  },
+  "designs": [
+    {
+      "name": "DenseA",
+      "n": 2884,
+      "area": 95172.0,
+      "geometry_seconds": 3.622698799998034,
+      "compact_io_seconds": null,
+      "domain60_seconds": 2.1109088999801315,
+      "all_candidates_3_times_seconds": 2.067140900006052,
+      "fast_integral_seconds": 0.03607370000099763,
+      "reference_seconds_64_per_combination": 1.216156900045462,
+      "exhaustive_seconds": null,
+      "combinations": 12,
+      "mean_fast_1024_seconds": 0.003006141666749803,
+      "timing_source": "v001 stored per-row times; missing old exhaustive/I/O duration left null",
+      "all_comparisons_pass": true,
+      "compact_optical_pass": true,
+      "compact_csv_bytes": 253057,
+      "max_candidates": [
+        5,
+        7
+      ],
+      "source_comparisons": "optical_comparisons.json (v001, reused)",
+      "validation": {
+        "comparisons": 12,
+        "exhaustive_comparisons": 6,
+        "all_stored_flags_and_numeric_thresholds_pass": true,
+        "source": "v001 existing evidence"
+      }
+    },
+    {
+      "name": "DenseB",
+      "n": 2065,
+      "area": 115640.0,
+      "geometry_seconds": 3.7225573000032455,
+      "compact_io_seconds": 0.11922380002215505,
+      "domain60_seconds": 1.492680300027132,
+      "all_candidates_3_times_seconds": 1.1337177000241354,
+      "fast_integral_seconds": 0.04088970000157133,
+      "reference_seconds_64_per_combination": 0.854368899948895,
+      "exhaustive_seconds": 0.22043470008065924,
+      "combinations": 12,
+      "mean_fast_1024_seconds": 0.003407475000130944,
+      "timing_source": "v002 new execution",
+      "all_comparisons_pass": true,
+      "compact_optical_pass": true,
+      "compact_csv_bytes": 180703,
+      "max_candidates": [
+        8,
+        9
+      ],
+      "source_comparisons": "optical_comparisons-v002.json",
+      "validation": {
+        "comparisons": 12,
+        "exhaustive_comparisons": 6,
+        "all_stored_flags_and_numeric_thresholds_pass": true,
+        "source": "v002 new execution"
+      }
+    }
+  ],
+  "resumed_from": "q02_search_preflight_v001.py",
+  "old_failure": "DENSE_DISK_INPUT_FAILURE: provenance polluted frozen identity",
+  "new_integral_comparisons": 12,
+  "reused_integral_comparisons": 12,
+  "all_pass": true,
+  "q1_limited_regression": {
+    "mirror_id": 57,
+    "excel_row": 58,
+    "month": 12,
+    "hour": 9,
+    "samples": 256,
+    "checks": {
+      "S": true,
+      "B": true,
+      "R": true,
+      "unknown": true,
+      "incoming_object": true,
+      "blocking_object": true,
+      "receiver_kind": true,
+      "weight": true
+    },
+    "all_pass": true,
+    "source_read_field": "q01_core_v003.read_field: ndarray centers plus dict row records",
+    "full_old_field_as_obstacles": 1745
+  },
+  "no_search_scores_generated": true,
+  "compact_artificial_tests_rerun": false,
+  "code_bindings": {
+    "q02_fast_v002.py": "84195cbd2395e8bf6d09c7189a5b158acd1373db2836903f648bdce9aca98e09",
+    "q02_fast_tests_v002.py": "cd1fc3a2b382f9cc8f5671e9eec8784eb1337e94a171c167f2137bf358b9d9c6",
+    "q02_compact_v001.py": "6351316e6bd3f797c2a47c1b67e58774148e36b1d97cac09d9808fb6c111b6dd",
+    "q02_search_preflight_v002.py": "25616eefd73139ec3bde7ffd2d12d5d489b6a960a4dc915f856545d0460e6760"
+  }
+}

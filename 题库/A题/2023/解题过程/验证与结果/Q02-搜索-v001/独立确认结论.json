@@ -1,0 +1,200 @@
+{
+  "name": "C22",
+  "design_key": "9667c9bcefd4da32c8fd794c1f2cd6a2dd59b17ad3672c8b1c8f9f11bca5492c",
+  "decision": "FAIL",
+  "annual": [
+    0.4750345689590482,
+    0.751726484375919,
+    0.7851002464948791,
+    0.9327091659629928,
+    59721.991034192215,
+    0.46284814974786953
+  ],
+  "annual_U": [
+    4.950741892201082e-05,
+    0.0,
+    6.126677427024145e-05,
+    6.130580619123643e-05,
+    6.012495858928212,
+    4.659711666439694e-05
+  ],
+  "all_precision": true,
+  "rating_lower_kw": 59715.978538333286,
+  "unresolved": [],
+  "low_survival": {
+    "threshold_exclusive": 100,
+    "screened_count": 4,
+    "cases": [
+      {
+        "time_index": 2,
+        "month": 1,
+        "hour": 12.0,
+        "object_index": 77,
+        "object_id": 176473955952466,
+        "survive": 79,
+        "capture": 73,
+        "unknown": 0,
+        "raw_R": 1593,
+        "state": "ESTIMATED",
+        "certificate": "NONE"
+      },
+      {
+        "time_index": 46,
+        "month": 10,
+        "hour": 10.5,
+        "object_index": 82,
+        "object_id": 209650717723858,
+        "survive": 90,
+        "capture": 88,
+        "unknown": 0,
+        "raw_R": 1573,
+        "state": "ESTIMATED",
+        "certificate": "NONE"
+      },
+      {
+        "time_index": 52,
+        "month": 11,
+        "hour": 12.0,
+        "object_index": 77,
+        "object_id": 176473955952466,
+        "survive": 31,
+        "capture": 28,
+        "unknown": 0,
+        "raw_R": 1605,
+        "state": "ESTIMATED",
+        "certificate": "NONE"
+      },
+      {
+        "time_index": 57,
+        "month": 12,
+        "hour": 12.0,
+        "object_index": 144,
+        "object_id": 174303916202366,
+        "survive": 48,
+        "capture": 48,
+        "unknown": 0,
+        "raw_R": 1660,
+        "state": "ESTIMATED",
+        "certificate": "NONE"
+      }
+    ],
+    "effect_diameter_bound": [
+      [
+        5.882283097912485e-05,
+        0.0,
+        6.548788474132285e-05,
+        6.548788474132285e-05,
+        7.128405065522999,
+        5.524546382490321e-05
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        5.8919021701827994e-05,
+        0.0,
+        6.548788474132285e-05,
+        6.548788474132285e-05,
+        7.330278859528962,
+        5.680999492006961e-05
+      ],
+      [
+        5.882364741527133e-05,
+        0.0,
+        6.548788474132285e-05,
+        6.548788474132285e-05,
+        7.087312839759815,
+        5.492699720424714e-05
+      ],
+      [
+        5.87538565043007e-05,
+        0.0,
+        6.548788474132285e-05,
+        6.548788474132285e-05,
+        6.896102539761621,
+        5.344510867316602e-05
+      ],
+      [
+        1.9609946383377072e-05,
+        0.0,
+        2.1829294913774286e-05,
+        2.1829294913774286e-05,
+        2.370174942047783,
+        1.8368963718532166e-05
+      ]
+    ],
+    "scope": "all final pooled object-times with unweighted survive count below threshold; coordinatewise feasible diameters, certificate-exact dimensions removed"
+  },
+  "numeric_checks": {
+    "factor_product_abs_error_on_estimated_objects": 3.3306690738754696e-16,
+    "area_relation_abs_kw": 1.4551915228366852e-11,
+    "max_raw_projection_residual": 0.00023046028881168468,
+    "energy_and_count_inputs_valid": true,
+    "certificate_evidence_valid": true
+  },
+  "reconstructed_from_saved_chunks": true,
+  "independent_batch_count": 8,
+  "full_combinations": 183240,
+  "source_samples": 375275520
+}

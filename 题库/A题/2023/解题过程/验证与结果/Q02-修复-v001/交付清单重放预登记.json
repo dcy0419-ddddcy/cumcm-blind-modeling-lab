@@ -1,0 +1,19 @@
+{
+  "selection": "first/middle/last exported mirror at fixed standard time indices0/27/59, chosen without optical filtering",
+  "pairs": [
+    [
+      0,
+      0
+    ],
+    [
+      1490,
+      27
+    ],
+    [
+      2980,
+      59
+    ]
+  ],
+  "source": "actual result2.xlsx rebuilt, frozen stable identity sidecar",
+  "before_replay": true
+}

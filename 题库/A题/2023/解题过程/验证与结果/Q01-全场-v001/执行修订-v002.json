@@ -1,0 +1,21 @@
+{
+  "created": "2026-09-04T22:39:36.937778+08:00",
+  "base_config_sha256": "d54371ef05491ef6edd786bb22601308a63911cf64213272e7b9bbb4e16c7ee7",
+  "reason": "I/O bounded retry only; retain base numerical configuration and streams; original complete shards still valid",
+  "bindings": {
+    "工作记录/诊断代码/q01_full_run_v002.py": "bd9f993ac54bbecd03d6dadddf07cc4ae52365bdaf3edb09776e16ff1d51ab26",
+    "工作记录/诊断代码/q01_full_summary_v002.py": "26ad7240da4a1471d33a1ed993d0bb254f7cbc5e5db2a2fff59911faaaba9eeb"
+  },
+  "previous_versions_retained": [
+    "q01_full_run_v001.py",
+    "q01_full_summary_v001.py"
+  ],
+  "initial_existing_complete_shards": [
+    "t000.npz",
+    "t001.npz",
+    "t002.npz",
+    "t003.npz",
+    "t004.npz"
+  ],
+  "no_numerical_invalidation": true
+}

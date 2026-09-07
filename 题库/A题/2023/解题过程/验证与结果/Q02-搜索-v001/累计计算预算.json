@@ -1,0 +1,112 @@
+{
+  "limit_seconds": 3600.0,
+  "confirmation_reserve_seconds": 1200.0,
+  "used_seconds": 3114.385384300025,
+  "records": [
+    {
+      "mode": "preflight",
+      "phase": "search",
+      "start": "2026-09-05T12:36:11.921359+08:00",
+      "elapsed_seconds": 19.214455600013025,
+      "status": "FAILED",
+      "finish": "2026-09-05T12:36:31.102623+08:00"
+    },
+    {
+      "mode": "compact_failure_diagnosis",
+      "phase": "search",
+      "start": "2026-09-05T12:37:19.399972+08:00",
+      "elapsed_seconds": 10.992523599998094,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T12:37:30.367387+08:00"
+    },
+    {
+      "mode": "preflight-v002",
+      "phase": "search",
+      "start": "2026-09-05T12:56:33.013063+08:00",
+      "elapsed_seconds": 24.42382359999465,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T12:56:57.411954+08:00"
+    },
+    {
+      "mode": "summary_v001_artificial",
+      "phase": "search",
+      "start": "2026-09-05T13:02:37.507742+08:00",
+      "elapsed_seconds": 0.1225811000331305,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T13:02:37.608785+08:00"
+    },
+    {
+      "mode": "controlled_search",
+      "phase": "search",
+      "start": "2026-09-05T13:04:22.809434+08:00",
+      "elapsed_seconds": 1365.2245010000188,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T13:27:08.006495+08:00"
+    },
+    {
+      "mode": "controlled_search",
+      "phase": "search",
+      "start": "2026-09-05T13:30:18.426583+08:00",
+      "elapsed_seconds": 852.1108227999648,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T13:44:30.201514+08:00"
+    },
+    {
+      "mode": "controlled_confirm",
+      "phase": "confirmation",
+      "start": "2026-09-05T13:45:24.593724+08:00",
+      "elapsed_seconds": 824.203958500002,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T13:59:08.769375+08:00"
+    },
+    {
+      "mode": "independent_rebuild",
+      "phase": "confirmation",
+      "start": "2026-09-05T13:59:36.787747+08:00",
+      "elapsed_seconds": 9.170211399963591,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T13:59:45.929725+08:00"
+    },
+    {
+      "mode": "report_data_and_U_reconstruction",
+      "phase": "confirmation",
+      "start": "2026-09-05T13:59:54.294277+08:00",
+      "elapsed_seconds": 0.993901600013487,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T13:59:55.266752+08:00"
+    },
+    {
+      "mode": "diagnostic_layout_figure",
+      "phase": "confirmation",
+      "start": "2026-09-05T14:06:48.045927+08:00",
+      "elapsed_seconds": 0.02678419998846948,
+      "status": "FAILED",
+      "finish": "2026-09-05T14:06:48.049633+08:00"
+    },
+    {
+      "mode": "diagnostic_layout_figure_v002",
+      "phase": "confirmation",
+      "start": "2026-09-05T14:07:55.498362+08:00",
+      "elapsed_seconds": 0.10267349996138364,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T14:07:55.579204+08:00"
+    },
+    {
+      "mode": "delivery_file_audit",
+      "phase": "confirmation",
+      "start": "2026-09-05T14:16:24.039681+08:00",
+      "elapsed_seconds": 4.268111700017471,
+      "status": "FAILED",
+      "finish": "2026-09-05T14:16:28.286801+08:00"
+    },
+    {
+      "mode": "delivery_file_audit_v002",
+      "phase": "confirmation",
+      "start": "2026-09-05T14:17:38.854414+08:00",
+      "elapsed_seconds": 3.5310357000562362,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T14:17:42.362617+08:00"
+    }
+  ],
+  "scope": "each process main entry starts before numerical imports; includes geometry/optics/statistics and in-process I/O; excludes document reading/writing and typesetting"
+}

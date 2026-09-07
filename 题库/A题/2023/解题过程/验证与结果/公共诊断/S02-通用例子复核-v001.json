@@ -1,0 +1,156 @@
+{
+  "scope": "generic teaching examples only; no target data loaded",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": "Python standard library only",
+  "tests": 20,
+  "passed": 20,
+  "checks": [
+    {
+      "name": "M01_tank_balance",
+      "passed": true,
+      "evidence": {
+        "litres": 32
+      }
+    },
+    {
+      "name": "M02_active_rotation",
+      "passed": true,
+      "evidence": [
+        1.2246467991473532e-16,
+        2.0,
+        1
+      ]
+    },
+    {
+      "name": "M02_inverse_rotation",
+      "passed": true,
+      "evidence": [
+        2.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "M02_rotation_norm",
+      "passed": true,
+      "evidence": 5.0
+    },
+    {
+      "name": "M02_reflection",
+      "passed": true,
+      "evidence": [
+        0.6,
+        0.0,
+        0.8
+      ]
+    },
+    {
+      "name": "M02_normal_sign_invariance",
+      "passed": true,
+      "evidence": [
+        0.6,
+        0.0,
+        0.8
+      ]
+    },
+    {
+      "name": "M02_reflection_unit",
+      "passed": true,
+      "evidence": 1.0
+    },
+    {
+      "name": "M02_plane_forward_intersection",
+      "passed": true,
+      "evidence": {
+        "t": 2.0,
+        "z": 1.0
+      }
+    },
+    {
+      "name": "M03_conditional_energy",
+      "passed": true,
+      "evidence": 0.6
+    },
+    {
+      "name": "M03_union",
+      "passed": true,
+      "evidence": 4
+    },
+    {
+      "name": "M03_cone_normalization",
+      "passed": true,
+      "evidence": {
+        "mass": 1.0000000001142317,
+        "nodes": 20000
+      }
+    },
+    {
+      "name": "M03_cone_mean_cos",
+      "passed": true,
+      "evidence": 0.75
+    },
+    {
+      "name": "M04_product_order_counterexample",
+      "passed": true,
+      "evidence": {
+        "mean_product": 3,
+        "product_means": 4
+      }
+    },
+    {
+      "name": "M04_ratio_counterexample",
+      "passed": true,
+      "evidence": {
+        "mean_ratios": 0.7,
+        "ratio_totals": 0.8333333333333334
+      }
+    },
+    {
+      "name": "M04_two_level_mean",
+      "passed": true,
+      "evidence": 5
+    },
+    {
+      "name": "M05_midpoint_10",
+      "passed": true,
+      "evidence": {
+        "nodes": 10,
+        "estimate": 0.3325,
+        "absolute_error": 0.0008333333333332971
+      }
+    },
+    {
+      "name": "M05_midpoint_20",
+      "passed": true,
+      "evidence": {
+        "nodes": 20,
+        "estimate": 0.333125,
+        "absolute_error": 0.0002083333333333104
+      }
+    },
+    {
+      "name": "M05_midpoint_40",
+      "passed": true,
+      "evidence": {
+        "nodes": 40,
+        "estimate": 0.33328125000000003,
+        "absolute_error": 5.2083333333285964e-05
+      }
+    },
+    {
+      "name": "M05_midpoint_order",
+      "passed": true,
+      "evidence": 4.0000000000002665
+    },
+    {
+      "name": "M05_seed_reproducibility",
+      "passed": true,
+      "evidence": {
+        "seed": 731,
+        "generator": "Python random.Random",
+        "samples": 20
+      }
+    }
+  ]
+}

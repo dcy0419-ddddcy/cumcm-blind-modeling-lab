@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-05",
+  "accepted_by_user": "Q02-参数化与几何原型验证-v001 and related interfaces/code/tests/diagnostics",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "f7a5facb2fb333b20e3e9e12cd14b4990a209f3a8a09899d8eabe7927c9c9247"
+    },
+    {
+      "path": "工作记录/阶段记录/Q02-参数化与几何原型验证-v001.md",
+      "sha256": "aff21cb385c9ab8d6fb252386fdbacf1f4318d35ed5e9efc0b09dd5e5d5969c8"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_eval_v003.py",
+      "sha256": "f2d26131fd500c193cc643021815feee5195c5da668144b22a1571e2003b35de"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_design_v002.py",
+      "sha256": "92315f1506597508d1d558ea1e58bd18579c4381a56741de929d7b9a48f3b361"
+    },
+    {
+      "path": "工作记录/诊断代码/q01_core_v003.py",
+      "sha256": "7d7e70b8c85b1bc7762efdc08fadc972635d810ceb852bf74bfb2cc318ed1693"
+    },
+    {
+      "path": "工作记录/诊断代码/Q02-设计与评价接口-v001.md",
+      "sha256": "c7e403f3456fa07c7b948226fc86a0efa4e3892e05e68e8f4c9c1a1d832b2f71"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/归档哈希清单-v002.json",
+      "sha256": "e32a3bac59da9ea981bff96a10be9cebe0b86b8c23b5675f316815b49aa985a0"
+    }
+  ],
+  "admin_archive": "UNCONFIRMED"
+}

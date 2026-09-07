@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-05",
+  "changes": [
+    {
+      "path": "诊断代码/Q02-设计与评价接口-v001.md",
+      "before": "设计名/版本；参与场景身份和子流",
+      "after": "设计名与版本参与场景身份；本轮子流用设计名/稳定键，版本不单独入种子",
+      "basis": "eval-v003 prepare tag与runner-v003 seed_words实际调用",
+      "scope": "documentation only; no code/config/optical result changed"
+    },
+    {
+      "path": "诊断代码/Q02-设计与评价接口-v001.md",
+      "before": "combine只合并同Scene/对象的最终批次，不重计前缀，不把单批比值平均当池化。",
+      "after": "combine核验同Scene及对象后累加传入统计，并不识别重复批次或层级；本轮runner分别池化64和256层，最终只取256层，未再纳入相关前缀。调用者不得传入重叠统计；单批比值平均也不能冒充池化。",
+      "basis": "eval-v003 combine只检查绑定；runner-v003按层级组织；落盘1707项审核核对216独立批次",
+      "scope": "documentation only; no code/config/optical result changed"
+    },
+    {
+      "path": "阶段记录/Q02-参数化与几何原型验证-v001.md",
+      "before": "组合成本约0.150—0.245秒。",
+      "after": "按三个布局分别计算的每组合平均成本约0.150—0.245秒，并非全部逐组合耗时的最小值与最大值。",
+      "basis": "落盘核验每布局18个组合内部耗时之和除18",
+      "scope": "documentation only; no code/config/optical result changed"
+    }
+  ],
+  "old_basis": "本轮接口/成本草稿依据实际代码，原措辞把运行器责任写成函数保证，或省略了子流/平均限定",
+  "revalidation": "source read-only review plus all-54 saved-statistics checks; no optical rerun"
+}

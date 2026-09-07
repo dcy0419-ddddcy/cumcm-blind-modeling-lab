@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "shells_1": true,
+    "shells_2": true,
+    "shells_3": true,
+    "six_sector_boundary_unique": true
+  },
+  "all_pass": true,
+  "scope": "independent exact integer small lattice identities; no optics; final floating geometry separately required"
+}

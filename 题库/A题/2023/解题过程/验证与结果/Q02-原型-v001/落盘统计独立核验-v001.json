@@ -1,0 +1,7023 @@
+{
+  "all_pass": true,
+  "check_count": 1707,
+  "failed_checks": [],
+  "checks": [
+    {
+      "name": "read_only_baseline",
+      "pass": true
+    },
+    {
+      "name": "scope",
+      "pass": true
+    },
+    {
+      "name": "D-A_geometry_roundtrip",
+      "pass": true
+    },
+    {
+      "name": "D-A_60_domain",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id11521236035170.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id146951446084.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id14711326532720.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id188326009368807.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id69737130393424.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id11521236035170.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id146951446084.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id14711326532720.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id188326009368807.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id69737130393424.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_optical_roundtrip",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id11521236035170.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id146951446084.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id14711326532720.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id188326009368807.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id69737130393424.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "D-A_coverage",
+      "pass": true
+    },
+    {
+      "name": "D-B_geometry_roundtrip",
+      "pass": true
+    },
+    {
+      "name": "D-B_60_domain",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id142047022934709.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id191949213342297.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id37056970124405.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id43291383329176.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id52411766233315.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id5519714854660.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id142047022934709.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id191949213342297.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id37056970124405.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id43291383329176.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id52411766233315.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id5519714854660.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id142047022934709.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id191949213342297.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_optical_roundtrip",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id37056970124405.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id43291383329176.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id52411766233315.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id5519714854660.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "D-B_coverage",
+      "pass": true
+    },
+    {
+      "name": "D-C_geometry_roundtrip",
+      "pass": true
+    },
+    {
+      "name": "D-C_60_domain",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id101057042654870.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id218012157784665.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id24672758531002.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id33248960293874.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id779623052975.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m03_h12_id921285332049.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id101057042654870.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id218012157784665.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id24672758531002.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id33248960293874.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id779623052975.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m06_h15_id921285332049.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id101057042654870.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id218012157784665.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id24672758531002.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id33248960293874.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_optical_roundtrip",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id779623052975.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_bindings",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_batches",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_seed_64_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_seed_64_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_seed_64_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_seed_64_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_seed_256_0",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_seed_256_1",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_seed_256_2",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_seed_256_3",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_unique_seed",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_energy_containment",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_population_and_counts",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_rebuilt_estimator",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_jackknife_eta_sb",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_jackknife_eta_trunc",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_jackknife_eta_total",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_jackknife_power_kw",
+      "pass": true
+    },
+    {
+      "name": "optical_m12_h9_id921285332049.json_no_rating",
+      "pass": true
+    },
+    {
+      "name": "D-C_coverage",
+      "pass": true
+    },
+    {
+      "name": "total_scope_and_replays",
+      "pass": true
+    }
+  ],
+  "designs": [
+    {
+      "design": "D-A",
+      "n": 516,
+      "area_m2": 12384.0,
+      "nominal_n": 516,
+      "file_count": 18,
+      "low_survival": [],
+      "numerical_warnings": [],
+      "pooled_states": {
+        "ESTIMATED": 18
+      },
+      "batch_zero_survive": 0,
+      "batch_zero_capture": 0,
+      "prefix_zero_survive": 0,
+      "prefix_zero_capture": 0,
+      "unknown_samples": 0,
+      "survive_min": 872,
+      "capture_min": 859,
+      "min_batch_survive": 215,
+      "min_batch_capture": 209,
+      "metric_ranges": {
+        "eta_sb": [
+          0.8515677344205967,
+          1.0
+        ],
+        "eta_trunc": [
+          0.8389231481891928,
+          1.0
+        ],
+        "eta_total": [
+          0.26982768614574304,
+          0.8234605278186153
+        ],
+        "power_kw": [
+          4.78321343644816,
+          20.37178119306863
+        ]
+      },
+      "optical_seconds": 3.582725900108926,
+      "csv_bytes": 34929290,
+      "preregistered_geometry_seconds": 17.558438200037926,
+      "geometric_minima": {
+        "field_margin": 9.999999999999943,
+        "exclusion_margin": 9.999999999999986,
+        "pair_distance": 11.513910373447509,
+        "pair_margin": 0.5139103734475086,
+        "ground_margin": 1.0,
+        "tower_margin": 350.0
+      },
+      "cost_seconds_per_evaluated_combination": 0.1990403277838292,
+      "naive_same_cost_60_time_seconds": 6162.288548187353
+    },
+    {
+      "design": "D-B",
+      "n": 402,
+      "area_m2": 19296.0,
+      "nominal_n": 578,
+      "file_count": 18,
+      "low_survival": [],
+      "numerical_warnings": [],
+      "pooled_states": {
+        "ESTIMATED": 18
+      },
+      "batch_zero_survive": 0,
+      "batch_zero_capture": 0,
+      "prefix_zero_survive": 0,
+      "prefix_zero_capture": 0,
+      "unknown_samples": 0,
+      "survive_min": 681,
+      "capture_min": 570,
+      "min_batch_survive": 156,
+      "min_batch_capture": 122,
+      "metric_ranges": {
+        "eta_sb": [
+          0.6649946063251675,
+          1.0
+        ],
+        "eta_trunc": [
+          0.6992325033564359,
+          0.926790825518428
+        ],
+        "eta_total": [
+          0.3159114843749357,
+          0.6793018094574846
+        ],
+        "power_kw": [
+          11.2002743556441,
+          33.61081037601773
+        ]
+      },
+      "optical_seconds": 2.698890600062441,
+      "csv_bytes": 30662345,
+      "preregistered_geometry_seconds": 11.060453999962192,
+      "geometric_minima": {
+        "field_margin": 2.0842829541608694,
+        "exclusion_margin": 11.999999999999986,
+        "pair_distance": 13.524783422591998,
+        "pair_margin": 0.5247834225919981,
+        "ground_margin": 1.5,
+        "tower_margin": 227.93444384266297
+      },
+      "cost_seconds_per_evaluated_combination": 0.1499383666701356,
+      "naive_same_cost_60_time_seconds": 3616.5134040836706
+    },
+    {
+      "design": "D-C",
+      "n": 629,
+      "area_m2": 5032.0,
+      "nominal_n": 920,
+      "file_count": 18,
+      "low_survival": [],
+      "numerical_warnings": [],
+      "pooled_states": {
+        "ESTIMATED": 18
+      },
+      "batch_zero_survive": 0,
+      "batch_zero_capture": 0,
+      "prefix_zero_survive": 0,
+      "prefix_zero_capture": 0,
+      "unknown_samples": 0,
+      "survive_min": 1024,
+      "capture_min": 948,
+      "min_batch_survive": 256,
+      "min_batch_capture": 227,
+      "metric_ranges": {
+        "eta_sb": [
+          1.0,
+          1.0
+        ],
+        "eta_trunc": [
+          0.9257517717439663,
+          1.0
+        ],
+        "eta_total": [
+          0.21013401647549956,
+          0.8861592942479097
+        ],
+        "power_kw": [
+          1.241676203824307,
+          7.272755020660665
+        ]
+      },
+      "optical_seconds": 4.414275499933865,
+      "csv_bytes": 76368332,
+      "preregistered_geometry_seconds": 26.562567899993155,
+      "geometric_minima": {
+        "field_margin": 0.4620169244309409,
+        "exclusion_margin": 0.9999999999999716,
+        "pair_distance": 9.269261552988462,
+        "pair_margin": 0.2692615529884623,
+        "ground_margin": 1.0,
+        "tower_margin": 260.55728090000844
+      },
+      "cost_seconds_per_evaluated_combination": 0.2452375277741036,
+      "naive_same_cost_60_time_seconds": 9255.264298194668
+    }
+  ],
+  "unique_combinations": 54,
+  "unique_integral_samples": 55296,
+  "independent_batch_streams": 216,
+  "independent_batches_per_combination": 4,
+  "path_evaluations_including_replays": 56640,
+  "screen_comparisons": 18,
+  "optical_roundtrip_comparisons": 3,
+  "max_estimator_rebuild_absolute_difference": 7.105427357601002e-15,
+  "maximum_numerical_diagnostics": {
+    "eta_sb": {
+      "se": 0.019176458485560443,
+      "change": 0.026318810170227747
+    },
+    "eta_trunc": {
+      "se": 0.02267627926416829,
+      "change": 0.03464434246483228
+    },
+    "eta_total": {
+      "se": 0.018972706801614055,
+      "change": 0.024392079525603405
+    },
+    "power_kw": {
+      "se": 0.7346250608113272,
+      "change": 1.1462858979068855
+    }
+  },
+  "no_optical_rays_generated": true,
+  "evidence_scope": "saved-statistic arithmetic/bindings/coverage; not independent physical validation",
+  "config_sha256": "aecb12edf0e3ac5eba9f3d3079f0fca84601a9f230cd8e5131230c915c7d8f26",
+  "code_sha256": "63d17e5145c34d756135dd4d07b5964eb2da1ae0229f3ace26ca64d1668d3443"
+}

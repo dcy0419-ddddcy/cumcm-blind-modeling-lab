@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "point": true,
+    "work_uncertainty_indicator": true,
+    "targets_met": true,
+    "states": true,
+    "numeric_checks": true,
+    "energy_total_ratios": true
+  },
+  "passed": true,
+  "note": "fresh process reloaded immutable shards; no optical rerun"
+}
