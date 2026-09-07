@@ -38,10 +38,10 @@ def reason(row):
         return ("恢复检查点或未完成分块；结论已由阶段记录和最终统计覆盖","非必要；用于历史恢复","源工作区","仅本地保留")
     return ("未被精简映射选为关键原件，或信息已由阶段记录/哈希/当前版本覆盖","视文件而定","源工作区全量清单和SHA","管理员按需补充")
 def main():
-    staged=set(git_lines("diff","--cached","--name-only"))
-    paths=sorted(staged)
+    archive_changes=set(git_lines("diff","origin/main","--name-only"))
+    paths=sorted(archive_changes)
     status_by_path={}
-    for line in git_lines("diff","--cached","--name-status"):
+    for line in git_lines("diff","origin/main","--name-status"):
         parts=line.split("\t")
         if len(parts)>=2:status_by_path[parts[-1]]=parts[0]
     rows=[]

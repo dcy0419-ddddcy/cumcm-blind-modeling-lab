@@ -40,7 +40,7 @@ def secret_scan(paths):
    if rx.search(text):hits.append({"path":rel,"type":kind})
  return hits
 def main():
- staged=git("diff","--cached","--name-only")
+ archive_paths=git("diff","origin/main","--name-only")
  readmes=[
   BASE/"README.md",BASE/"解题过程/00-任务状态.md",BASE/"解题过程/01-题目理解.md",
   BASE/"解题过程/02-逐问建模.md",BASE/"解题过程/03-求解与验证.md",
@@ -82,20 +82,20 @@ def main():
  freeze["passed"]=freeze["manifest_sha256"]==EXPECTED_MANIFEST and freeze["sums_sha256"]==EXPECTED_SUMS
  experience=(BASE/"经验.md").read_text(encoding="utf-8-sig")
  missing_e=[f"E{i:03d}" for i in range(1,31) if f"E{i:03d}" not in experience]
- thirdparty=[p for p in staged if re.search(r"(参考论文[/\\].*(page-|\.jpg$|\.html$)|官方来源[/\\].*\.(rar|xlsx|pdf|png)$)",p,re.I)]
+ thirdparty=[p for p in archive_paths if re.search(r"(参考论文[/\\].*(page-|\.jpg$|\.html$)|官方来源[/\\].*\.(rar|xlsx|pdf|png)$)",p,re.I)]
  allowed=("题库/A题/2023/","模型方法库/实践候选/2023-A/","总经验/")
  out={
   "checked_at":datetime.now().astimezone().isoformat(),
   "branch":git("branch","--show-current")[0],
   "head":git("rev-parse","HEAD")[0],
   "origin":git("remote","get-url","origin")[0],
-  "staged_files":len(staged),
-  "staged_bytes":sum((REPO/p).stat().st_size for p in staged if (REPO/p).is_file()),
-  "largest_20":sorted([{"path":p,"bytes":(REPO/p).stat().st_size} for p in staged if (REPO/p).is_file()],key=lambda x:x["bytes"],reverse=True)[:20],
-  "over_100MiB":[p for p in staged if (REPO/p).is_file() and (REPO/p).stat().st_size>100*1024*1024],
-  "outside_allowed_prefix":[p for p in staged if not p.replace("\\","/").startswith(allowed)],
+  "archive_changed_files":len(archive_paths),
+  "archive_changed_bytes":sum((REPO/p).stat().st_size for p in archive_paths if (REPO/p).is_file()),
+  "largest_20":sorted([{"path":p,"bytes":(REPO/p).stat().st_size} for p in archive_paths if (REPO/p).is_file()],key=lambda x:x["bytes"],reverse=True)[:20],
+  "over_100MiB":[p for p in archive_paths if (REPO/p).is_file() and (REPO/p).stat().st_size>100*1024*1024],
+  "outside_allowed_prefix":[p for p in archive_paths if not p.replace("\\","/").startswith(allowed)],
   "third_party_fulltext_or_bulk_pages_staged":thirdparty,
-  "secret_scan_hits":secret_scan(staged),
+  "secret_scan_hits":secret_scan(archive_paths),
   "broken_new_readme_links":broken,
   "pdf_info":pdf_info,
   "xlsx_info":xlsx_info,
@@ -106,6 +106,6 @@ def main():
  out["passed"]=(out["branch"]=="codex/archive-2023-a" and not out["over_100MiB"] and not out["outside_allowed_prefix"] and not thirdparty and not out["secret_scan_hits"] and not broken and all(v.get("pages",0)>0 for v in pdf_info.values()) and out["xlsx_sources_match"] and not missing_e and freeze["passed"])
  OUT.parent.mkdir(parents=True,exist_ok=True)
  OUT.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
- print(json.dumps({k:out[k] for k in ["staged_files","staged_bytes","over_100MiB","outside_allowed_prefix","third_party_fulltext_or_bulk_pages_staged","secret_scan_hits","broken_new_readme_links","pdf_info","xlsx_sources_match","missing_E001_E030","freeze","passed"]},ensure_ascii=True))
+ print(json.dumps({k:out[k] for k in ["archive_changed_files","archive_changed_bytes","over_100MiB","outside_allowed_prefix","third_party_fulltext_or_bulk_pages_staged","secret_scan_hits","broken_new_readme_links","pdf_info","xlsx_sources_match","missing_E001_E030","freeze","passed"]},ensure_ascii=True))
 if __name__=="__main__":main()
 

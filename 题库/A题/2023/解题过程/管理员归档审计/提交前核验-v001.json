@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-09-07T11:51:13.182850+08:00",
+  "checked_at": "2026-09-07T11:58:14.578414+08:00",
   "branch": "codex/archive-2023-a",
-  "head": "0094abe05b2daa5417ccc8c5cbcd2088d6a025f1",
+  "head": "f17ee78fbd0f525f95b70477791a05408cca917e",
   "origin": "https://github.com/dcy0419-ddddcy/cumcm-blind-modeling-lab.git",
-  "staged_files": 829,
-  "staged_bytes": 49938594,
+  "archive_changed_files": 829,
+  "archive_changed_bytes": 49937816,
   "largest_20": [
     {
       "path": "题库/A题/2023/解题过程/GitHub未入库依赖与原因清单-v001.csv",
