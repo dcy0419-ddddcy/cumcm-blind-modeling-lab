@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETED",
+  "result": {
+    "new_designs": 3,
+    "pre_registered_combinations": 54,
+    "geometry_only": true
+  },
+  "config_sha256": "aecb12edf0e3ac5eba9f3d3079f0fca84601a9f230cd8e5131230c915c7d8f26"
+}

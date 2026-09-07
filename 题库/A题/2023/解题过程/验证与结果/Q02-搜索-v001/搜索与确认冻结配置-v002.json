@@ -1,0 +1,405 @@
+{
+  "version": "v002",
+  "created": "2026-09-05T13:30:19.971900+08:00",
+  "before_first_search_score": true,
+  "approved": "C21-C24, D025",
+  "initial_specs": [
+    {
+      "generator": "hex_bands",
+      "name": "C21",
+      "version": "v001",
+      "tower_xy": [
+        0,
+        0
+      ],
+      "width": 6,
+      "height": 6,
+      "installation_height": 6,
+      "phi": 0.0,
+      "spacing_margin": 0.05
+    },
+    {
+      "generator": "hex_bands",
+      "name": "C22",
+      "version": "v001",
+      "tower_xy": [
+        0,
+        0
+      ],
+      "width": 6.5,
+      "height": 6.5,
+      "installation_height": 6,
+      "phi": 0.5235987755982988,
+      "spacing_margin": 0.05
+    }
+  ],
+  "max_initial": 2,
+  "max_local": 0,
+  "coarse": {
+    "times": [
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        12,
+        15
+      ]
+    ],
+    "B": 2,
+    "n": 32,
+    "levels": [
+      16,
+      32
+    ],
+    "namespace": 900,
+    "purpose": "heuristic only, all mirrors at 12 selected times; no rating or deterministic impossibility"
+  },
+  "fine": {
+    "times": [
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        10.5
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        13.5
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10.5
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        13.5
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        10.5
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        3,
+        13.5
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        10.5
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        13.5
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        10.5
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        5,
+        13.5
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        10.5
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        6,
+        13.5
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        10.5
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        7,
+        13.5
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10.5
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        8,
+        13.5
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        9,
+        10.5
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        13.5
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        10,
+        10.5
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        10,
+        13.5
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        11,
+        10.5
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        11,
+        13.5
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        12,
+        10.5
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        12,
+        13.5
+      ],
+      [
+        12,
+        15
+      ]
+    ],
+    "B": 4,
+    "n": 32,
+    "levels": [
+      16,
+      32
+    ],
+    "namespace": 910,
+    "max_initial_shortlist": 2,
+    "coarse_rejection_audit": 0,
+    "max_local_shortlist": 0
+  },
+  "local_moves": [],
+  "selection": "Two new candidates, both full60 if startup budget estimate permits; highest q among estimated P>=60000, otherwise highest P for diagnostic holdout. Point ranking does not prove improvement beyond numerical resolution.",
+  "deterministic_elimination": "only explicit geometry/model-domain failure; optical low scores remain heuristic exclusions",
+  "random_pairing": "CRN keyed by position_key and standard60 time index and batch; same normalized coordinates/directions for shared keys, not necessarily same physical mirror; different namespaces independent",
+  "confirmation": {
+    "B": 8,
+    "n": 256,
+    "levels": [
+      128,
+      256
+    ],
+    "namespace": 990,
+    "fixed_sample_no_adaptive_stop": true,
+    "min_reserve_seconds": 1200,
+    "U": "max(t7 whole-batch jackknife halfwidth, final-half-prefix difference, final-raw-integral difference) + coordinatewise full-range low-survivor(<100) influence bound",
+    "efficiency_abs": 0.001,
+    "power_relative": 0.005,
+    "rating": "annual P - U_P >=60000kW and all report metrics pass and no required unresolved state",
+    "sample_zero_rule": "no silent zero/one; pooled zeros or unknown are unresolved absent validated independent certificate; no seed retries",
+    "low_survival_threshold": 100,
+    "interval": "pointwise approximate t7 diagnostic only; U is numerical work indicator, not strict confidence bound or physical uncertainty"
+  },
+  "search_limits": {
+    "tower": "center(0,0) only for this bounded followup; combined with initial12 already evaluated nonzero tower positions",
+    "dimensions": "C21 width=height6,z6,phi0; C22 width=height6.5,z6,phi=pi/6; both tower(0,0). Two bounded joint structural comparisons.",
+    "height": "listed initial/local2..6 with strict z>h/2",
+    "layout": "common hexagonal shells indexed k, six sectors s and integer edge slot j; all share d=w+5+.05 and angle phi; center clipping; squared distance d^2(a^2+ab+b^2)>=d^2; not the old circle generator",
+    "positive_spacing_search_margin_m": 0.05,
+    "coordinate_decimal_places": 10
+  },
+  "budget": {
+    "total_seconds": 3600,
+    "search_preflight_limit_seconds": 2400,
+    "min_confirmation_reserve_seconds": 1200,
+    "initial_fine_start_estimate_seconds": 400,
+    "minimum_coarse_start_estimate_seconds": 120,
+    "freeze_start_estimate_seconds": 20,
+    "stop_rule": "per-time/object checkpoint guards; initial coarse preserves initial fine and freeze estimates; skip new stage if extrapolated cost plus freeze estimate exceeds remaining search allocation; estimates are not deterministic runtime bounds",
+    "followup_fine_prediction": "last observed fine evaluation seconds times1.1 times mirror-count ratio; startup estimate, not hard guarantee"
+  },
+  "bindings": {
+    "q02_search_run_v002.py": "a012e1149c5c4e19453fe02c655ac4fc9a52210d7ee73cb042602231742fc0df",
+    "q02_search_engine_v002.py": "48a540a822e4d5806eef661f6739e59ccffc4b540fedb425b3e67867caaf156d",
+    "q02_fast_v002.py": "84195cbd2395e8bf6d09c7189a5b158acd1373db2836903f648bdce9aca98e09",
+    "q02_compact_v001.py": "6351316e6bd3f797c2a47c1b67e58774148e36b1d97cac09d9808fb6c111b6dd",
+    "q02_search_summary_v002.py": "f5f95f46932992e3efb0a30c6841d3ba0cfd545226a50300a36fdd011a1e4515",
+    "q02_search_common_v001.py": "5006bc11c3121ab4c47c4ea597883a05ff49ec73cb065b5ac00c4c55ce4de22b",
+    "q02_hex_bands_v001.py": "9b4e803bf06429f1d47c65e8b90402d1e36e30538884ff37589eb3cdbbfcbf67"
+  },
+  "extension_basis": "Circular-ring initial search produced no estimated feasible full60 design; add explicitly new Q2-A six-sector straight-edge shells with common triangular lattice, no pointwise binary selection, same physical model/constraints.",
+  "parent_config_sha256": "6074361e5bf99a9e2f1d1a0449e83dd0bde539adb1fc4b4bdd943d4d387ffcac",
+  "pre_score_stagger_check": "for each stagger design before any score: max candidate-count object at12/9 and6/15, allN potential obstacles, identical64 rays screened vs exhaustive; all seven event arrays plus g",
+  "freeze_if_rating_unmet": "After bounded followup, freeze highest full60 P if no estimated feasible candidate; confirmation is diagnostic and cannot imply power met."
+}

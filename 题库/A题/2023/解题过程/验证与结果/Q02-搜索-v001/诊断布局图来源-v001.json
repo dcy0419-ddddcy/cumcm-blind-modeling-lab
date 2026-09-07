@@ -1,0 +1,12 @@
+{
+  "figure": "工作记录\\论文\\图表\\第2问-C22-未达标诊断布局-v001.png",
+  "figure_sha256": "0adfaeca9d22b152af852b13faf5e90a43179601c164119f2f1e240ba966d5c2",
+  "source": "工作记录\\诊断结果\\Q02-搜索-v001\\frozen\\design.mirrors.csv",
+  "source_sha256": "4eec7b03ce541e46a0d73704a53f8daa5bc1c1ba3950b0af69de88e1f5b34fa7",
+  "n": 3054,
+  "transform": "X=110+(x+370)/740*1080; Y=160+(370-y)/740*1080; equal scale",
+  "kind": "diagnostic center plot, not footprints or formal result",
+  "new_rays": 0,
+  "Pillow_version": "12.3.0",
+  "fallback": "matplotlib missing; v001 failure retained; no install"
+}

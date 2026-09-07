@@ -1,0 +1,198 @@
+[
+  {
+    "file": "附件/附件01.xlsx",
+    "package": {
+      "crc_error_member": null,
+      "vba_present": false,
+      "external_link_parts": [],
+      "embedding_parts": []
+    },
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "range": "A1:H7",
+        "headers": [
+          "吸收塔x坐标 (m)",
+          "吸收塔y坐标 (m)",
+          "定日镜序号",
+          "定日镜宽度 (m)",
+          "定日镜高度 (m)",
+          "定日镜x坐标 (m)",
+          "定日镜y坐标 (m)",
+          "定日镜z坐标 (m)"
+        ],
+        "data_rows": 6,
+        "empty_cells_below_header": 42,
+        "fully_empty_data_rows": [],
+        "formula_cells": [],
+        "error_cells": [],
+        "comment_cells": [],
+        "hyperlink_cells": [],
+        "hidden_rows": [],
+        "hidden_columns": [],
+        "auto_filter": null,
+        "table_names": [],
+        "image_count": 0,
+        "chart_count": 0,
+        "column_type_counts": {
+          "1": {
+            "NoneType": 6
+          },
+          "2": {
+            "NoneType": 6
+          },
+          "3": {
+            "int": 6
+          },
+          "4": {
+            "NoneType": 6
+          },
+          "5": {
+            "NoneType": 6
+          },
+          "6": {
+            "NoneType": 6
+          },
+          "7": {
+            "NoneType": 6
+          },
+          "8": {
+            "NoneType": 6
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "附件/附件02.xlsx",
+    "package": {
+      "crc_error_member": null,
+      "vba_present": false,
+      "external_link_parts": [],
+      "embedding_parts": []
+    },
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "range": "A1:H7",
+        "headers": [
+          "吸收塔x坐标 (m)",
+          "吸收塔y坐标 (m)",
+          "定日镜序号",
+          "定日镜宽度 (m)",
+          "定日镜高度 (m)",
+          "定日镜x坐标 (m)",
+          "定日镜y坐标 (m)",
+          "定日镜z坐标 (m)"
+        ],
+        "data_rows": 6,
+        "empty_cells_below_header": 42,
+        "fully_empty_data_rows": [],
+        "formula_cells": [],
+        "error_cells": [],
+        "comment_cells": [],
+        "hyperlink_cells": [],
+        "hidden_rows": [],
+        "hidden_columns": [],
+        "auto_filter": null,
+        "table_names": [],
+        "image_count": 0,
+        "chart_count": 0,
+        "column_type_counts": {
+          "1": {
+            "NoneType": 6
+          },
+          "2": {
+            "NoneType": 6
+          },
+          "3": {
+            "int": 6
+          },
+          "4": {
+            "NoneType": 6
+          },
+          "5": {
+            "NoneType": 6
+          },
+          "6": {
+            "NoneType": 6
+          },
+          "7": {
+            "NoneType": 6
+          },
+          "8": {
+            "NoneType": 6
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "附件/附件03.xlsx",
+    "package": {
+      "crc_error_member": null,
+      "vba_present": false,
+      "external_link_parts": [],
+      "embedding_parts": []
+    },
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "range": "A1:B1746",
+        "headers": [
+          "x坐标 (m)",
+          "y坐标 (m)"
+        ],
+        "data_rows": 1745,
+        "empty_cells_below_header": 0,
+        "fully_empty_data_rows": [],
+        "formula_cells": [],
+        "error_cells": [],
+        "comment_cells": [],
+        "hyperlink_cells": [],
+        "hidden_rows": [],
+        "hidden_columns": [],
+        "auto_filter": null,
+        "table_names": [],
+        "image_count": 0,
+        "chart_count": 0,
+        "column_type_counts": {
+          "1": {
+            "float": 1729,
+            "int": 16
+          },
+          "2": {
+            "float": 1726,
+            "int": 19
+          }
+        },
+        "invalid_coordinate_rows": [],
+        "duplicate_coordinate_groups": [],
+        "x_range_m": [
+          -337.132,
+          337.032
+        ],
+        "y_range_m": [
+          -337.107,
+          337.107
+        ],
+        "radius_range_m": [
+          107.882,
+          337.13266260331403
+        ],
+        "radius_below_100_rows": [],
+        "radius_above_350_rows": [],
+        "at_radial_boundary_rows": [],
+        "coordinate_count": 1745,
+        "distance_check": "所有无序点对的平面欧氏距离；11 m 仅是第1问6 m镜宽加题面5 m的审计参照，未自行设置容差。",
+        "min_pair_distance_m": 11.680484279343899,
+        "max_nearest_neighbor_distance_m": 15.828192695314273,
+        "pairs_at_or_below_11_m": 0,
+        "pairs_strictly_below_11_m": 0,
+        "pairs_at_or_below_11_details": [],
+        "coordinate_rounding_check": "所有数值是否均落在0.001 m网格（不据此断言测量精度）",
+        "all_coordinates_on_0_001_m_grid": true
+      }
+    ]
+  }
+]

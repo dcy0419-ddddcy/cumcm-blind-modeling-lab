@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-09-07T10:36:17.971576+08:00",
+  "scope": "冻结候选包内文件；不重新计算模型或结果",
+  "manifest_sha256": "ed23098187e4479ab250744f6cc35fc84e1ec5bb25afe7e6b4ac21851c0da357",
+  "checksum_file_sha256": "9e6b950d124e16454aaf1715d21d2be183432e2703f4b92ff9a10d0d01820439",
+  "expected_manifest_sha256": "ed23098187e4479ab250744f6cc35fc84e1ec5bb25afe7e6b4ac21851c0da357",
+  "expected_checksum_file_sha256": "9e6b950d124e16454aaf1715d21d2be183432e2703f4b92ff9a10d0d01820439",
+  "manifest_entries_checked": 570,
+  "manifest_entry_failures": [],
+  "checksum_lines_checked": 571,
+  "checksum_failures": [],
+  "passed": true
+}

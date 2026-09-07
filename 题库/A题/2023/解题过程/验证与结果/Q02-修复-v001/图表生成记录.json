@@ -1,0 +1,143 @@
+{
+  "version": "q02-repair-figures-v001",
+  "created": "2026-09-05T16:01:14.037279+08:00",
+  "all_pass": true,
+  "figure_count": 2,
+  "candidate": "R027",
+  "design_key": "2a3afcf2a5cf4e4e37fbd3256e3038a4f19a4372c77dae2b89fb7e866174a73e",
+  "figures": [
+    {
+      "path": "工作记录\\论文\\图表\\Q02-v002\\Q02-确认镜场布局-v002.png",
+      "sha256": "6c392ba89a9915ab82b600a18a28302b4faaec385eb4bd4deb5ea5f90b37a85c",
+      "pixels": [
+        1800,
+        1900
+      ],
+      "dpi": [
+        300,
+        300
+      ],
+      "format": "PNG",
+      "readback_ok": true,
+      "kind": "mirror_center_layout",
+      "candidate": "R027",
+      "actual_n": 2981,
+      "x_range_m": [
+        -375.0,
+        375.0
+      ],
+      "y_range_m": [
+        -375.0,
+        375.0
+      ],
+      "equal_scale": true,
+      "pixels_per_m_x": 1.92,
+      "pixels_per_m_y": 1.92,
+      "field_center_m": [
+        0,
+        0
+      ],
+      "field_radius_m": 350,
+      "tower_center_m": [
+        0.0,
+        -15.0
+      ],
+      "exclusion_radius_m": 100,
+      "points_are_centers_not_footprints": true
+    },
+    {
+      "path": "工作记录\\论文\\图表\\Q02-v002\\Q02-月度单位面积功率-v002.png",
+      "sha256": "691d473653a957e39d23e13f0139aa17151f7596b0b9cbb85b50c59138f5e5b3",
+      "pixels": [
+        1800,
+        1300
+      ],
+      "dpi": [
+        300,
+        300
+      ],
+      "format": "PNG",
+      "readback_ok": true,
+      "kind": "12_prescribed_monthly_unit_power_samples",
+      "x_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "x_range_month": [
+        0.5,
+        12.5
+      ],
+      "y_range_kw_m2": [
+        0.0,
+        0.6000000000000001
+      ],
+      "y_unit": "kW/m^2",
+      "monthly_q_kw_m2": [
+        0.3772955777025586,
+        0.4303401989634432,
+        0.4746589276504758,
+        0.5054737023761671,
+        0.5208567843259463,
+        0.5255512058246039,
+        0.520621394863851,
+        0.504294721222469,
+        0.472501606816574,
+        0.4241705776159378,
+        0.3720876075361483,
+        0.3482027646577497
+      ],
+      "monthly_U_kw_m2": [
+        0.0001352945224108348,
+        0.00015767242272466956,
+        5.452519503684134e-05,
+        0.00015459812692321826,
+        0.00014031549714381484,
+        0.0001709088904660807,
+        0.00012069688531224365,
+        0.00011436566028011352,
+        0.0001968411336121777,
+        0.0001259431583431556,
+        0.00020369762283071587,
+        0.00011416240940505557
+      ],
+      "bars": "q plus/minus prescribed numerical U, exact scale, no minimum visual inflation",
+      "line_meaning": "straight connections between twelve prescribed-date averages; no continuous-year estimate",
+      "physical_uncertainty_claimed": false,
+      "confidence_interval_claimed": false
+    }
+  ],
+  "caption": {
+    "path": "工作记录\\论文\\图表\\Q02-v002\\Q02-图注与来源-v002.md",
+    "sha256": "e3fbf7ba6c28e91a922b44a78be3d45542592d421eff80ca31c50f54b515416d"
+  },
+  "sources": {
+    "results_json": "工作记录\\诊断结果\\Q02-修复-v001\\结果数据.json",
+    "results_json_sha256": "44730282b3d53cb5657d5854cf154041c5f659ff1ea26ceaf5f78f8e7d02317e",
+    "frozen_candidate_sha256": "abf88c93f01464b377c4b5e8d001af0765b54d076587da938434438045be74c7",
+    "work_reconstruction_sha256": "10bce8442e4ef3f707cc6c895d60b9660ddb25793c96168955550ccd9d5ebad6",
+    "confirmation_summary_sha256": "1aff91072732fa7f536f679e71ba6fcd85f566866c9bdc1298e724640e846c1b",
+    "compact_manifest_sha256": "0a0a2dde24f912e1556abbd74eec470d0a1054748de6b61c50366548355f98fe",
+    "compact_metadata_sha256": "c2341e5a62d5f47593fa8aa75a1db35f493b14dbeeb8c043186d33729277b05a",
+    "compact_mirrors_sha256": "0e6d06152fdf7eede9d03f9a13dd0b4824dccc42ec35500ca4a02888784bd09b"
+  },
+  "Pillow_version": "12.3.0",
+  "font": "Pillow internal default font; no external font paths",
+  "new_optical_rays": 0,
+  "matplotlib_used": false,
+  "new_search": false,
+  "manuscript_modified": false,
+  "visual_check_scope": "PNG load/dimensions verified by entry; human-visible layout inspection remains for the root after execution.",
+  "elapsed_seconds_before_save": 0.41099950001807883,
+  "budget_used_seconds_before_save": 3006.135387599934,
+  "generator_sha256": "f7871202241d7ddfcaad112413c203f6cc330165cda03d5d987358d1bc85d825"
+}

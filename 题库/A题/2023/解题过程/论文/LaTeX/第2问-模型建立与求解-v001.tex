@@ -1,0 +1,570 @@
+\documentclass[UTF8,fontset=windows,zihao=-4]{ctexart}
+\usepackage{amsmath,amssymb,graphicx,booktabs,longtable,array,geometry}
+\geometry{a4paper,margin=23mm}
+\setlength{\parskip}{0.35em}
+\setlength{\emergencystretch}{2em}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.25}
+\setcounter{tocdepth}{2}
+\begin{document}
+
+\begin{center}{\LARGE\bfseries 第2问：统一尺寸定日镜场的参数化设计与热功率评价}\end{center}
+
+\textbf{未完成草稿 v001。} 模型与求解方法已整理。限定搜索和独立确认已经结束，当前冻结候选未通过额定功率工作判据；第2问的最终设计、题表1—3及本问结果结论仍待完成。本稿不构成第2问正式结果交付。
+
+\section*{1 问题分析}
+
+第2问要求在统一镜面尺寸和安装高度的条件下，确定吸收塔位置、定日镜宽高、安装高度、镜数及各镜面的位置，使年平均输出热功率达到额定要求，并使单位镜面面积的年平均输出热功率尽可能大。相较于第1问，镜场的几何结构由给定输入变为设计变量；镜数变化同时改变总采光面积、潜在障碍集合以及其他镜面的接收贡献。
+
+设计中的几何量与光学量相互影响。塔位改变镜面的瞄准方向和反射传播距离，也改变塔周禁布区域；镜面尺寸改变采光面积、有限边界和镜间遮挡；安装高度改变镜面姿态、传播路径及离地条件。因此，不能将第1问的平均效率按新面积或镜数直接放大。每个候选均须展开为完整镜场，在全部镜面互相遮挡的条件下重新评价。
+
+镜数为整数，位置变量随镜数变化，裁剪和遮挡又使目标具有不光滑性。为控制有限计算条件下的搜索规模，采用由少量公共参数生成完整布局的环带表示，先在有界参数集合内进行比较，再对冻结设计作独立确认。参数化限定了可搜索的布局集合，其中仍须检查几何和功率可行性；有限搜索不提供原问题的全局最优性保证。
+
+\section*{2 基本假设、符号与统计口径}
+
+\subsection*{2.1 共同光学假设}
+
+沿用第1问的东、北、上坐标系和代表日历。太阳位置按365日非闰年计算，以3月21日为第0天；将题给当地时间直接代入时角公式，不另作民用时修正。每月21日的9:00、10:30、12:00、13:30、15:00构成60个规定时点。以下“年平均”均指这60个时点的等权平均，不表示连续全年的能量积分。
+
+光源采用轴对称、按立体角均匀的硬截止圆锥，半角为 \(\beta=0.00465\,\mathrm{rad}\)。该分布为第1问已采用的近似，不是当地太阳辐射的实测分布。每面镜视为零厚度、双面不透明的有限平面矩形，进行单次理想反射，反射率取 \(\rho=0.92\)。集热器仍为中心高度80 m、直径7 m、高8 m的有限圆柱；仅侧面作为有效受光面，顶底面为不透明、非受光端面。
+
+未给出尺寸的塔身、支架和厂房不建立实体，未给出参数的跟踪误差、坡度误差、散射和镜间二次反射不另行加入。沿用这些假设是为了保持不同设计的评价口径一致，不表示所省略的实际损失为零。第1问的物理定义可以复用，但其特定镜场的数值误差和验证范围不能转移为新设计的精度保证。
+
+\subsection*{2.2 决策变量与主要符号}
+
+\par\noindent\begin{minipage}{\linewidth}
+设塔位为 \(\boldsymbol a=(a_x,a_y)\)，镜面宽度、高度和镜心安装高度分别为 \(w,h,z\)，第 \(i\) 面镜的平面位置为 \(\boldsymbol p_i=(x_i,y_i)\)。完整设计记为
+
+\[
+\mathcal D=
+\left(\boldsymbol a,w,h,z,N,\{\boldsymbol p_i\}_{i=1}^{N}\right),
+\qquad
+\boldsymbol c_i=(x_i,y_i,z),\qquad
+\boldsymbol c_R=(a_x,a_y,80).
+\tag{1}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+其中，\(N\) 是实际保留的镜数，全部长度以米计。所有镜面的共同面积和总镜面面积分别为
+
+\[
+A_i=wh,\qquad A_{\rm tot}=Nwh.
+\tag{2}
+\]
+\end{minipage}\par
+
+
+\par\medskip\noindent\begin{minipage}{\linewidth}\small
+\textbf{表S2　本问主要符号}\par\smallskip
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.2900\dimexpr\linewidth-6\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.5400\dimexpr\linewidth-6\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.1700\dimexpr\linewidth-6\tabcolsep\relax}}
+\toprule
+符号 & 含义 & 单位 \\
+\midrule
+\(\boldsymbol a,w,h,z\) & 塔位、镜宽、镜高、镜心安装高度 & m \\
+\(N,\boldsymbol p_i,A_{\rm tot}\) & 实际镜数、镜位、总镜面面积 & 1、m、m\textsuperscript{2} \\
+\(\boldsymbol c_i,\boldsymbol c_R\) & 镜面中心与集热器中心 & m \\
+\(\boldsymbol s_{0k},\boldsymbol s\) & 指向太阳中心和光源采样方向的单位向量 & 1 \\
+\(\boldsymbol t_i,\boldsymbol n_{ik}\) & 中心瞄准方向与镜面单位法向 & 1 \\
+\(\boldsymbol u_{ik},\boldsymbol v_{ik}\) & 镜面宽边与高边的单位方向 & 1 \\
+\(\mathrm{DNI}_k,c_{ik},\tau_i\) & 法向直接辐照度、中心余弦因子、大气透射率 & kW/m\textsuperscript{2}、1、1 \\
+\(S,B,R\) & 未遮阴、反射段未遮挡、有效侧面接触的指示量 & 1 \\
+\(\Pi_{0,ik},\Pi_{1,ik},\Pi_{2,ik}\) & 基准反射、联合存活和有效接收三层功率 & kW \\
+\(P_k,\overline P,\overline q\) & 逐时总功率、年平均总功率、年平均单位面积功率 & kW、kW、kW/m\textsuperscript{2} \\
+\(\boldsymbol\vartheta\) & 布局生成参数 & 依分量而定 \\
+\(U_Q,L_P\) & 汇总量的数值工作指标、年平均功率工作下限 & 与相应量相同 \\
+\bottomrule\end{tabular}\end{minipage}\par\medskip
+
+第1问给定的镜数、镜位和安装参数不作为本问的固定条件。场地圆心始终位于坐标原点，塔位改变时不能将场地一同平移。
+
+\section*{3 优化模型与几何约束}
+
+\subsection*{3.1 原目标及额定功率条件}
+
+\par\noindent\begin{minipage}{\linewidth}
+记 \(\eta_{ik}(\mathcal D)\) 为第 \(i\) 面镜在时点 \(k\) 的总光学效率。逐时全场热功率为
+
+\[
+P_k(\mathcal D)=\mathrm{DNI}_k\,wh\sum_{i=1}^{N}\eta_{ik}(\mathcal D),
+\qquad
+\overline P(\mathcal D)=\frac1{60}\sum_{k=1}^{60}P_k(\mathcal D).
+\tag{3}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+将“达到额定功率”解释为年平均总热功率下限，建立模型
+
+\[
+\begin{aligned}
+\max_{\mathcal D}\quad&
+\overline q(\mathcal D)=\frac{\overline P(\mathcal D)}{Nwh},\\
+\text{满足}\quad&
+\overline P(\mathcal D)\ge60000\ \mathrm{kW},\\
+&\mathcal D\in\mathcal F_{\rm geom}.
+\end{aligned}
+\tag{4}
+\]
+\end{minipage}\par
+
+其中，\(\mathcal F_{\rm geom}\) 为下节定义的几何可行集。额定条件作用于规定时点的平均值，不要求每个时点均达到额定值；镜数为整数，允许总热功率在下限之上取值。
+
+单位面积目标必须保留比值形式。仅当比较设计的总镜面面积相同时，最大总功率才与最大单位面积功率等价；仅当总功率被固定为相同数值时，最小总面积才与该目标等价。式（4）只设置功率下限，因而不能用最大总功率、最少镜数或最小总面积替换原目标。特别地，增删镜面会改变其余镜面的遮挡条件，总功率不具有可直接假定的镜数单调性。
+
+\subsection*{3.2 中心边界与全对间距}
+
+\par\noindent\begin{minipage}{\linewidth}
+场界和塔周禁布区均按镜面中心位置判断，塔中心位于固定圆形场地内。间距要求中的“以上”取为包含等号。几何可行集满足
+
+\[
+\begin{aligned}
+&\|\boldsymbol a\|\le350,\qquad
+\|\boldsymbol p_i\|\le350, &&i=1,\ldots,N,\\
+&\|\boldsymbol p_i-\boldsymbol a\|\ge100, &&i=1,\ldots,N,\\
+&\|\boldsymbol p_i-\boldsymbol p_j\|\ge w+5,
+&&1\le i<j\le N,\\
+&2\le w\le8,\qquad2\le h\le8,\qquad2\le z\le6,
+\qquad z>h/2,\qquad N\in\mathbb Z_{>0}.
+\end{aligned}
+\tag{5}
+\]
+\end{minipage}\par
+
+中心边界是本模型采用的解释，不等同于全部转动姿态下完整镜面投影都位于场地内。禁布圆随塔位移动，但不额外要求整个禁布圆内含于场地。镜间距作用于所有不同镜对，不能以同环相邻点或清单相邻行的检查代替。
+
+\par\noindent\begin{minipage}{\linewidth}
+宽边沿用始终水平的姿态定义。镜面最低点为
+
+\[
+z_{\min,ik}=z-\frac h2|v_{ik,z}|.
+\tag{6}
+\]
+\end{minipage}\par
+
+对全部俯仰转角要求不触地时，\(|v_{ik,z}|\) 可达到1，因此采用严格条件 \(z>h/2\)。宽度不进入该竖直跨度，不能以半对角线代替 \(h/2\) 而不说明新增限制。数值检查中的近边界报告阈值只用于定位对象，不将负间距余量或零离地余量判为满足要求。
+
+有限搜索另取 \(w\ge h\)，对应题面关于通常宽高关系的说明。这是搜索范围限制，不是明确给定的独立尺寸硬约束。宽高在水平姿态、中心间距和触地条件中的作用不同，交换两个符号不能证明这一搜索限制不影响最优值。
+
+\section*{4 复用的光学评价模型}
+
+\subsection*{4.1 新设计中的镜面姿态与接收边界}
+
+\par\noindent\begin{minipage}{\linewidth}
+太阳中心方向和DNI沿用第1问的题给公式。对新的镜心和集热器中心，重新计算
+
+\[
+\begin{aligned}
+\boldsymbol t_i&=\frac{\boldsymbol c_R-\boldsymbol c_i}
+{\|\boldsymbol c_R-\boldsymbol c_i\|},\\
+\boldsymbol n_{ik}&=\frac{\boldsymbol s_{0k}+\boldsymbol t_i}
+{\|\boldsymbol s_{0k}+\boldsymbol t_i\|},\\
+\boldsymbol u_{ik}&=\frac{(-n_{ik,y},n_{ik,x},0)}
+{\sqrt{n_{ik,x}^2+n_{ik,y}^2}},\qquad
+\boldsymbol v_{ik}=\boldsymbol n_{ik}\times\boldsymbol u_{ik}.
+\end{aligned}
+\tag{7}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+仅在法向两个水平分量严格为零时，将宽边规定为向东，近竖直情形仍使用式（7）。新设计是否触发退化情形由各自的域检查确定。有限镜面上的点为
+
+\[
+\boldsymbol x=\boldsymbol c_i+\xi\boldsymbol u_{ik}+\zeta\boldsymbol v_{ik},
+\qquad
+-w/2\le\xi\le w/2,\quad-h/2\le\zeta\le h/2.
+\tag{8}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+指向光源的单位向量为 \(\boldsymbol s\) 时，入射传播方向为 \(-\boldsymbol s\)，反射方向为
+
+\[
+\boldsymbol r=-\boldsymbol s+2(\boldsymbol s\cdot\boldsymbol n_{ik})\boldsymbol n_{ik}.
+\tag{9}
+\]
+\end{minipage}\par
+
+镜面相交须同时满足正向射线参数和有限矩形边界。塔位改变后，集热器侧面平移为 \((X-a_x)^2+(Y-a_y)^2=3.5^2\)、\(|Z-80|\le4\)。按最小正向参数确定首次实体接触，仅首次接触为侧面且方向指向实体内部时计入接收。切触、接缝和机器容差带内的不确定交点保留状态，不通过扩张实体强制归类。
+
+\subsection*{4.2 路径事件与三层功率}
+
+从镜面点向光源回查，入射路径没有其他镜面或集热器实体遮阴时记 \(S=1\)；反射路径在终止之前未被其他镜面截住时记 \(B=1\)；接收体首次接触为有效外入侧面时记 \(R=1\)。有效接收对应联合事件 \(SBR=1\)，从而避免将重叠损失重复扣除。
+
+\par\noindent\begin{minipage}{\linewidth}
+未命中集热器的反射路径沿用接收体包围球后切平面作为终点：
+
+\[
+(\boldsymbol x-\boldsymbol c_R)\cdot\boldsymbol t_i=R_b,
+\qquad R_b=\sqrt{3.5^2+4^2}.
+\tag{10}
+\]
+\end{minipage}\par
+
+若路径先接触实体，则在首次接触处终止。终止参数必须为正。式（10）是阴影遮挡与截断分项的记账约定，不是新增障碍，也不使分项成为唯一的物理分解。
+
+\par\noindent\begin{minipage}{\linewidth}
+以第1问相同的均匀立体角分布抽取方向，以镜面实际面积均匀抽取源点。令
+
+\[
+g_{ik}(\boldsymbol s)=
+\frac{\boldsymbol n_{ik}\cdot\boldsymbol s}{\boldsymbol s_{0k}\cdot\boldsymbol s},
+\qquad c_{ik}=\boldsymbol n_{ik}\cdot\boldsymbol s_{0k}.
+\tag{11}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+在整个角域满足正面、地平线及参考面投影条件时，轴对称分布给出 \(\mathbb E[g_{ik}]=c_{ik}\)。三层反射功率定义为
+
+\[
+\begin{aligned}
+\Pi_{0,ik}&=\rho\,\mathrm{DNI}_k\,wh\,c_{ik},\\
+\Pi_{1,ik}&=\rho\,\mathrm{DNI}_k\,wh\,\mathbb E[g_{ik}SB],\\
+\Pi_{2,ik}&=\rho\,\mathrm{DNI}_k\,wh\,\mathbb E[g_{ik}SBR].
+\end{aligned}
+\tag{12}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+三者分别表示基准反射功率、联合阴影遮挡后的存活功率和有效接收面捕获功率，均尚未乘入大气透射率。分母为正时，效率分解为
+
+\[
+\eta_{{\rm sb},ik}=\frac{\Pi_{1,ik}}{\Pi_{0,ik}},\qquad
+\eta_{{\rm trunc},ik}=\frac{\Pi_{2,ik}}{\Pi_{1,ik}},\qquad
+\eta_{ik}=\rho c_{ik}\tau_i\eta_{{\rm sb},ik}\eta_{{\rm trunc},ik}.
+\tag{13}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+大气透射率按新传播距离计算：
+
+\[
+\tau_i=0.99321-0.0001176d_i+1.97\times10^{-8}d_i^2,
+\qquad d_i=\|\boldsymbol c_R-\boldsymbol c_i\|\le1000\ \mathrm m.
+\tag{14}
+\]
+\end{minipage}\par
+
+于是 \(P_{ik}=\tau_i\Pi_{2,ik}=\mathrm{DNI}_kwh\eta_{ik}\)。反射率、入射投影和大气透射各计一次，不附加反平方因子、接收面余弦或热电转换因子。输出热功率继续采用题目附录的有效受光面接收口径，未另计接收器吸收、再辐射、对流及换热损失。
+
+\subsection*{4.3 固定总体汇总与适用性检查}
+
+\par\noindent\begin{minipage}{\linewidth}
+对月份 \(m\) 的五个时点组成集合 \(\mathcal K_m\)，有
+
+\[
+\begin{aligned}
+\overline P_m&=\frac15\sum_{k\in\mathcal K_m}P_k,
+&\overline q_m&=\frac{\overline P_m}{Nwh},\\
+\overline e_m&=\frac1{5N}\sum_{k\in\mathcal K_m}\sum_{i=1}^{N}e_{ik},
+&\overline e&=\frac1{60N}\sum_{k=1}^{60}\sum_{i=1}^{N}e_{ik}.
+\end{aligned}
+\tag{15}
+\]
+\end{minipage}\par
+
+这里的 \(e_{ik}\) 为已定义的单镜效率分量或总效率。总效率必须先逐镜、逐时形成，再取平均；不能用各平均分量相乘代替。月度及年平均功率同样不能由平均DNI乘平均效率得到。能量总量比与平均条件效率另行区分。
+
+每个新设计均检查完整光源圆锥、镜面正面、目标方向、接收体有限边界、终止面正向性及大气公式适用域。完整布局的全部镜子始终参与潜在障碍集合。几何筛选只剔除不可能相交的对象，不以少量评价镜代替镜场总体，也不通过固定近邻数量截断遮挡查询。
+
+\section*{5 两种环带参数化}
+
+\subsection*{5.1 圆环与半开扇区表示}
+
+\par\noindent\begin{minipage}{\linewidth}
+圆环族以塔为生成中心，采用环半径、角域、整数计数和相位作为布局参数。设第 \(\ell\) 环的半径为 \(r_\ell\)，角域为 \([\theta_\ell^-,\theta_\ell^+)\)，名义点数为 \(m_\ell\)，相位比例为 \(\sigma_\ell\in[0,1)\)。当 \(m_\ell>0\) 时，生成点为
+
+\[
+\begin{aligned}
+\theta_{\ell j}
+&=\theta_\ell^-+\frac{j+\sigma_\ell}{m_\ell}
+(\theta_\ell^+-\theta_\ell^-),
+&&j=0,\ldots,m_\ell-1,\\
+\widetilde{\boldsymbol p}_{\ell j}
+&=\boldsymbol a+r_\ell(\cos\theta_{\ell j},\sin\theta_{\ell j}).
+\end{aligned}
+\tag{16}
+\]
+\end{minipage}\par
+
+角域采用半开区间，避免完整圆周两端重复。实际圆环搜索取完整角域，其表达能力小于任意扇区组合或自由镜位集合。
+
+\par\noindent\begin{minipage}{\linewidth}
+为给构造留出正间距余量，令 \(d_* =w+5+\varepsilon\)，并采用径向、角向间距系数 \(f_r,f_\theta\ge1\)。径向间隔至少为 \(f_rd_*\)，角向弦长目标为 \(f_\theta d_*\)。当角向目标不大于直径时，完整环的计数采用
+
+\[
+m_\ell=
+\left\lfloor
+\frac{\pi}{\arcsin\!\left(f_\theta d_*/(2r_\ell)\right)}
+\right\rfloor.
+\tag{17}
+\]
+\end{minipage}\par
+
+计算后还须检查实际弦长是否达到目标；若浮点取整使弦长略低于目标，则减少计数，不能以容差增加计数。径向差至少为 \(w+5\) 是保证跨环间距的充分条件，并非题目强制的最密布局条件。该构造限制了圆环族的密度，不能据其搜索表现否定更灵活的环带布局。
+
+\subsection*{5.2 六扇区直边层带}
+
+为扩大有限环带表示的结构范围，增加六扇区直边层带。该表示由同心正六边形边界构成，属于新增的分区生成族；同层各点到塔的欧氏距离并不相同，因而不能视为式（16）中改变一个圆环半径所得的特例。
+
+\par\noindent\begin{minipage}{\linewidth}
+设公共间距为 \(d_*=w+5+\varepsilon\)，公共旋转角为 \(\phi\)，定义
+
+\[
+\boldsymbol b_s=d_*
+\left(\cos\left(\phi+\frac{s\pi}{3}\right),
+\sin\left(\phi+\frac{s\pi}{3}\right)\right),
+\quad s=0,\ldots,5,\qquad\boldsymbol b_6=\boldsymbol b_0.
+\tag{18}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+第 \(\ell\) 层、第 \(s\) 条边取
+
+\[
+\widetilde{\boldsymbol p}_{\ell sj}
+=\boldsymbol a+(\ell-j)\boldsymbol b_s+j\boldsymbol b_{s+1},
+\quad \ell\ge1,\quad s=0,\ldots,5,\quad j=0,\ldots,\ell-1.
+\tag{19}
+\]
+\end{minipage}\par
+
+每边排除末端点，由下一边包含该顶点，因此完整第 \(\ell\) 层有 \(6\ell\) 个互异点。不同正整数层的六边形边界不重合。所有层共享同一平移中心、旋转角和格距，镜位由公共参数整体确定，不设置逐点独立的保留变量。
+
+\par\noindent\begin{minipage}{\linewidth}
+任意两个不同生成点之差都可写成 \(a\boldsymbol b_0+b\boldsymbol b_1\)，其中 \((a,b)\) 是非零整数对。由于两基向量夹角为 \(60^\circ\)，有
+
+\[
+\|\Delta\boldsymbol p\|^2
+=d_*^2(a^2+ab+b^2)
+=d_*^2\left[\left(a+\frac b2\right)^2+\frac{3b^2}{4}\right]
+\ge d_*^2.
+\tag{20}
+\]
+\end{minipage}\par
+
+式（20）同时覆盖同层、跨层和跨扇区点对，不依赖只检查相邻边。该性质要求公共基底不变，不能直接推广到逐层独立旋转或缩放的构造。
+
+\par\noindent\begin{minipage}{\linewidth}
+第 \(\ell\) 层的欧氏半径满足
+
+\[
+\frac{\sqrt3}{2}\ell d_*
+\le\|\widetilde{\boldsymbol p}_{\ell sj}-\boldsymbol a\|
+\le\ell d_*.
+\tag{21}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+为覆盖可能进入固定场地的层，实际生成器采用保守上限
+
+\[
+K=\left\lceil
+\frac{350+\|\boldsymbol a\|}{(\sqrt3/2)d_*}
+\right\rceil+1.
+\tag{22}
+\]
+\end{minipage}\par
+
+随后逐点裁剪。若直接把圆环的顶点半径截止规则用于六边形，会漏掉部分外层边中点；式（22）避免这一遗漏。几何上较紧密的排布不自动意味着较高总功率或单位面积功率，其光学表现仍由完整评价决定。
+
+\subsection*{5.3 裁剪、实际镜数与稳定身份}
+
+\par\noindent\begin{minipage}{\linewidth}
+对任一生成族，用 \(\mathcal J(\boldsymbol\vartheta)\) 表示名义槽位集合。按中心场界和禁区保留
+
+\[
+\mathcal I(\boldsymbol\vartheta)=
+\left\{j\in\mathcal J(\boldsymbol\vartheta):
+\|\widetilde{\boldsymbol p}_j\|\le350,
+\quad\|\widetilde{\boldsymbol p}_j-\boldsymbol a\|\ge100
+\right\},
+\qquad N(\boldsymbol\vartheta)=|\mathcal I(\boldsymbol\vartheta)|.
+\tag{23}
+\]
+\end{minipage}\par
+
+名义计数不等于实际镜数。裁剪只删除点，不降低保留点之间原有的距离；但边界和计数变化会使面积与目标发生跳变。镜场清单展开后，独立于生成规则检查全部无序镜对、中心边界、禁区、尺寸和严格离地条件，重复身份及重复坐标均不得作为不同镜面接受。
+
+生成槽位键、内部镜号和导出行号分别保存。稳定身份指同一生成槽位的对应关系，不表示不同设计中的物理坐标相同。镜面排序、导出行号或读入来源不能代替布局身份；设计的有效几何、公共参数及生成记录共同绑定后续评价。
+
+\section*{6 有界搜索与独立确认方法}
+
+\subsection*{6.1 搜索参数集合与评价层级}
+
+圆环阶段预先设置12个初始设计，改变塔位、宽高、安装高度及间距参数。表S3列出其公共几何参数；各自环参数保存在对应冻结配置中。正间距余量取 \(\varepsilon=0.05\,\mathrm m\)，初始径向、角向间距系数采用冻结值1.005或1.04。它们是有限搜索设置，不是题定工程余量。
+
+
+\par\medskip\noindent\begin{minipage}{\linewidth}\small
+\textbf{表S3　圆环初始设计的公共参数（长度单位：m）}\par\smallskip
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.2400\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.1900\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.1900\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.1800\dimexpr\linewidth-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.2000\dimexpr\linewidth-10\tabcolsep\relax}}
+\toprule
+设计编号 & 塔位 \((a_x,a_y)\) & 宽度 \(w\) & 高度 \(h\) & 安装高度 \(z\) \\
+\midrule
+C01 & \((0,0)\) & 8 & 8 & 6 \\
+C02 & \((0,-100)\) & 8 & 8 & 6 \\
+C03 & \((0,-180)\) & 8 & 8 & 6 \\
+C04 & \((80,-160)\) & 8 & 8 & 6 \\
+C05 & \((0,-100)\) & 7 & 6 & 4.5 \\
+C06 & \((0,-180)\) & 7 & 7 & 5 \\
+C07 & \((0,-100)\) & 6 & 6 & 4 \\
+C08 & \((0,-180)\) & 8 & 7 & 5.5 \\
+C09 & \((80,-160)\) & 8 & 7 & 5.5 \\
+C10 & \((0,-180)\) & 7.5 & 7.5 & 5.5 \\
+C11 & \((0,-220)\) & 8 & 8 & 5 \\
+C12 & \((0,-100)\) & 8 & 8 & 5 \\
+\bottomrule\end{tabular}\end{minipage}\par\medskip
+
+结构扩展阶段另设两个六扇区直边层带设计：塔位均为 \((0,0)\)，安装高度均为6 m；镜面分别为6 m\(\times\)6 m、6.5 m\(\times\)6.5 m，旋转角分别为0、\(\pi/6\)。两个设计采用同一正间距余量，属于有界的联合参数比较，不表示塔位、正方形尺寸或最大安装高度是原问题的必要条件。
+
+
+\par\medskip\noindent\begin{minipage}{\linewidth}\small
+\textbf{表S4　冻结的数值评价层级}\par\smallskip
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.1600\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.1600\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.1700\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.1700\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.1700\dimexpr\linewidth-12\tabcolsep\relax}>{\raggedright\arraybackslash}p{0.1700\dimexpr\linewidth-12\tabcolsep\relax}}
+\toprule
+用途 & 时点范围 & 独立批数 & 每批每镜每时点射线数 & 相关前缀 & 随机流命名空间 \\
+\midrule
+初始及扩展粗筛 & 3、6、9、12月的9:00、12:00、15:00 & 2 & 32 & 16 & 900 \\
+圆环全时点比较 & 全部60个规定时点 & 4 & 64 & 32 & 910 \\
+直边层带全时点比较 & 全部60个规定时点 & 4 & 32 & 16 & 910 \\
+冻结设计独立确认 & 全部60个规定时点 & 8 & 256 & 128 & 990 \\
+\bottomrule\end{tabular}\end{minipage}\par\medskip
+
+粗筛保留全部镜面，只减少时点和射线数，其功率平均仅作为探索评分。初始排序优先考虑粗功率不低于62000 kW且无未决边界事件的候选，再按单位面积评分排序；不足时按功率评分安排进一步评价。62000 kW是预登记的粗筛阈值，不改变式（4）的额定要求，也不提供可行性保证。圆环配置允许最多两个初始短名单和一个粗筛排除对象回查，并为估计可行候选保留最多四个预定局部调整、最多一个局部较精比较的条件分支；该上限不能作为实际执行数量。
+
+结构扩展配置不再设置局部调整，两个新增设计在预算允许时均进入全时点评价。若存在点估计达到额定要求且无未决边界事件的候选，按单位面积目标选择；若仍没有这样的候选，则冻结全时点功率评分最高者进行诊断性独立确认。后一选择只是为量化有限搜索的剩余差距，不将最大总功率替换为原问题的优化目标，也不将被确认对象预先称为可行设计。
+
+所有粗筛排除和点估计排序都保留其启发式性质。较低粗评分不能证明原设计不可能达标，不同样本层级下的点排序也不自动表示差异已超过数值分辨能力。未入选的设计不能被表述为已证明不可行。
+
+计算采用累计3600 s预算，其中搜索及前置检查最多使用2400 s，至少保留1200 s用于独立确认和重建。分块记录实际用时，重启不清零；新增评价的启动由已观测成本估计和剩余预算共同限制。成本估计用于控制启动，不作为确定的运行时间上界。预算停止只限制搜索完成范围，不提供最优性或无解证明。
+
+\subsection*{6.2 原始加权统计与共同随机数}
+
+\par\noindent\begin{minipage}{\linewidth}
+随机积分同时在镜面面积和光源立体角上抽样。四个独立的 \([0,1)\) 均匀变量可生成
+
+\[
+\xi=w(U_1-1/2),\qquad\zeta=h(U_2-1/2),\qquad
+\mu=\cos\beta+(1-\cos\beta)U_3,\qquad
+\psi=2\pi U_4.
+\tag{24}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+其中 \(\mu\) 是相对太阳中心方向的极角余弦，\(\psi\) 是方位角。逐镜、逐时保存 \(g\)、\(gSB\)、\(gSBR\) 的加权和、平方和、事件计数及状态。对互不重复的独立批次先池化原始统计，记三和为 \(M_0,M_1,M_2\)，再计算
+
+\[
+\begin{aligned}
+\widehat f_1&=M_1/M_0,\qquad\widehat f_2=M_2/M_0,\\
+\widehat\eta_{\rm sb}&=\widehat f_1,\qquad
+\widehat\eta_{\rm trunc}=M_2/M_1,\qquad
+\widehat\eta_{ik}=\rho c_{ik}\tau_i\widehat f_2.
+\end{aligned}
+\tag{25}
+\]
+\end{minipage}\par
+
+式（25）适用于相应正分母和可定义状态，不对每批比值先取平均。原始积分 \(M_\ell/n\) 与采用解析尺度的自归一比例分开保存，用于差异诊断；有限样本下自归一比值仍可能有偏。
+
+共同随机数按生成位置键、标准时点和批号建立对应，在共享槽位上使用相同的标准化源点和方向变量。同一槽位的实际坐标可以变化，故这一关系表示采样配对，而非相同物理镜面。不同生成族没有自然对应槽位时，不声称所有镜面完全配对。候选间相关性不能按独立重复样本处理。
+
+零存活和零命中分别保留。抽样零不自动成为真实零证书；没有有效独立证据时，不能将正式分项或总量静默填为0或1。若固定总体的某个必需分项仍未定义，则相应平均值保留未决状态，不通过删除镜面、删除时点或更换随机种子补齐。
+
+\subsection*{6.3 实际交付清单的冻结与重建}
+
+布局在首次光学评分前即按10位小数形成坐标表示，并重新检查几何。候选选择结束后，保存公共参数和逐镜设计清单，写入附件所需字段，再从工作簿读取实际数值，核对镜数、共同参数、全对几何、总面积及内部身份到导出序号的映射。独立确认使用读回后的设计，避免评价高精度内存坐标而交付另一套坐标。
+
+紧凑记录将公共参数和生成元数据保存一次，逐镜CSV仅保存导出序号、内部身份、位置键和坐标；浮点序列化采用17位有效数字。公共文件、逐镜文件和清单摘要相互绑定，允许脱离搜索器内存独立重建设计。导出行与读入来源作为追溯信息保留，不因来源变化将同一有效设计判为另一物理输入。
+
+在独立确认开始前，固定实际设计、评价模型、采样批次、随机流、工作指标和停止规则。确认结果不能反过来调整设计后继续沿用同一确认结论，搜索数据也不并入最终确认点估计。
+
+\subsection*{6.4 独立批次与数值工作指标}
+
+确认采用表S4中的8个等量独立批次，每批每组合256条射线。128条相关前缀只用于层级比较，不作为新增独立样本重复池化。最终估计只使用冻结后的确认数据。
+
+\par\noindent\begin{minipage}{\linewidth}
+对某一月度或年度汇总量 \(Q\)，用 \(\mathcal T\) 表示从原始统计到题定汇总的同一重建函数，第 \(b\) 批原始统计记为 \(\mathcal S_b\)。定义
+
+\[
+\widehat Q=\mathcal T\!\left(\sum_{b=1}^{B_0}\mathcal S_b\right),
+\qquad
+\widehat Q_{(-b)}=\mathcal T\!\left(\sum_{j\ne b}\mathcal S_j\right),
+\qquad B_0=8.
+\tag{26}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+删去一整批时，同时删除该批覆盖的全部镜面和时点统计，以保留共享随机数产生的依赖关系。相应刀切标准误为
+
+\[
+\widehat{\mathrm{SE}}_Q=
+\sqrt{\frac{B_0-1}{B_0}\sum_{b=1}^{B_0}
+\left(\widehat Q_{(-b)}-\frac1{B_0}\sum_{j=1}^{B_0}\widehat Q_{(-j)}\right)^2}.
+\tag{27}
+\]
+\end{minipage}\par
+
+\par\noindent\begin{minipage}{\linewidth}
+设 \(\widehat Q_{128}\) 为相关前缀重建值，\(\widehat Q_{\rm raw}\) 为原始加权积分重建值。确认工作指标为
+
+\[
+U_Q=
+\max\left\{
+t_{7,0.975}\widehat{\mathrm{SE}}_Q,
+|\widehat Q-\widehat Q_{128}|,
+|\widehat Q-\widehat Q_{\rm raw}|
+\right\}+U_{Q,\rm low}.
+\tag{28}
+\]
+\end{minipage}\par
+
+低存活项 \(U_{Q,\rm low}\) 对确认池化后未加权联合存活数小于100的对象—时点组合计算。令 \(F_{ik}=\rho c_{ik}\tau_i\)，对这些对象—时点组合，阴影遮挡和截断分量采用范围直径1，总效率采用 \(F_{ik}\)，单镜功率采用 \(\mathrm{DNI}_kwhF_{ik}\)；确定的余弦分量不增加该项。将各对象—时点组合的范围直径按式（3）、（15）的固定总体权重汇总，单位面积功率再除以实际总面积。若有效几何证书已确定某一分量，则只移除该已确定维度的影响量，不能由局部证书消除所有误差。
+
+式（28）的近似批间半宽、相关层级差、原始积分差和低存活影响量共同构成数值工作指标。它不是覆盖所有比值偏差的严格界，不保证多个表项同时达到统计覆盖率，也不包括光学假设和省略实体造成的物理误差。全时点搜索比较只提供点估计、删批标准误及状态，不直接输出式（28）的正式达标评级。
+
+\subsection*{6.5 数值确认条件}
+
+\par\noindent\begin{minipage}{\linewidth}
+对月度和年度所需效率表项，要求 \(U_Q\le0.001\)；对总功率和单位面积功率表项，要求工作指标相对值不大于0.005，并要求相关量及工作指标可定义。额定功率采用
+
+\[
+L_P=\widehat{\overline P}_{\rm conf}-U_{\overline P},
+\qquad L_P\ge60000\ \mathrm{kW}.
+\tag{29}
+\]
+\end{minipage}\par
+
+只有清单与几何检查有效、能量及事件统计一致、必需状态可定义、全部规定精度条件满足且式（29）成立时，才将冻结设计判为通过数值确认。工作下限不足或精度不满足时不能借显示舍入认定达标；关键状态未解决时应保留未决结论。即使通过上述条件，结论也只对应冻结设计和所采用的模型及数值标准。
+
+\section*{7 结果分析与验证}
+
+\subsection*{7.1 搜索结果与设计清单}
+
+\textbf{待完成。} 本节尚未填入实际候选镜数、搜索评分、全时点比较值、设计清单和题目要求的表格。须根据保存的有效搜索数据区分已执行范围、启发式排除、全时点比较和最终冻结对象；不得将配置上限写成实际完成数量，或将诊断性冻结对象预先表述为可行方案。
+
+\subsection*{7.2 独立确认结果}
+
+\textbf{正式达标设计及其确认结论待完成。} 当前C22的诊断性独立确认和落盘重建已经完成，汇总数值工作目标通过，额定功率工作判据未通过。其诊断统计保存在证据记录中，不据此填入正式达标设计的结果表，也不由有限搜索失败推断题目无可行解。
+
+\subsection*{7.3 清单与实现验证}
+
+\textbf{结果待完成。} 验证对象包括实际清单的尺寸、边界、禁区、严格触地条件和所有无序镜对；清单读回后的镜数、总面积、完整字段及身份映射；完整60时点的模型域；保守筛选与全对象穷举的相同射线事件对照；确认统计的原始和、池化、状态及工作指标重建。解析构造证明、参数检查、全坐标验证和有限同射线对照的支持范围分别报告，不将其中任一项扩大为完整物理验证。
+
+\subsection*{7.4 模型与搜索局限}
+
+搜索受有限几何族、参数集合、样本量和累计计算预算限制，尚未覆盖任意镜位、任意扇区组合或点池二元占据空间。直边层带扩展改变了结构、尺寸和旋转等联合参数，不能仅凭两设计之差孤立归因于某一个因素。不同层级的随机积分存在有限样本波动和比值偏差，粗筛可能遗漏有效候选；冻结后的独立确认用于减轻选择对最终估计的影响，不证明搜索已经充分。
+
+几何验证针对采用的中心边界及宽边水平姿态，不代表完整镜面在所有姿态下均满足另一种场界解释。光源分布、单次理想反射、有效接收边界及省略实体限定了物理适用范围。增加射线数只能改善所给模型的数值评价，不能消除这些建模误差。
+
+\section*{8 本问小结}
+
+\textbf{待完成。} 当前计算尚未取得满足额定功率工作判据的设计，本问结果与最终结论不予定稿。已确定的参数化、几何检查和独立评价接口可用于后续获准的搜索；现有失败诊断不构成原问题不可行性证明。
+\end{document}

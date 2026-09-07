@@ -1,0 +1,71 @@
+{
+  "version": "v001",
+  "frozen_at": "2026-09-04T22:37:00.011616+08:00",
+  "scope": "Q1 all 1745 mirrors x 60 times; no Q2/Q3",
+  "bindings": {
+    "附件/附件03.xlsx": "596abec1162db0bce095f6f768b6cd06394e61766f80129a09e15146dc1fed50",
+    "题目.pdf": "86dd794bc41671bf55203be03403a165863374c5e2beca12f5de3db4425e997e",
+    "AGENTS.md": "b0a4c77a0f6c66e43bfb6ff9e6d89ed5bc6cc34060129ecd9cd4a0b940048f14",
+    "工作记录/诊断代码/q01_core_v003.py": "7d7e70b8c85b1bc7762efdc08fadc972635d810ceb852bf74bfb2cc318ed1693",
+    "工作记录/诊断代码/q01_full_run_v001.py": "ebeee2767b13401b9536665bad4aba244962f26c3904b378470e1dd24f55a642",
+    "工作记录/诊断代码/q01_full_summary_v001.py": "a5e27acb8f25402c3fe14c3dfc1eca9d34abd7a9a63d0c1c73ae55ca4ee00b6d",
+    "工作记录/诊断代码/q01_tests_v003.py": "de9267741f1dd6626b853c76fea7f212e6ad8b2aacea4bd9a62dfcce4648a4a5",
+    "工作记录/阶段记录/Q01-建模与原型验证-v001.md": "99f89aeae180b090b9c3299ead558a5a1085c29555a7f738c2fee82e08da1918",
+    "工作记录/阶段记录/Q01-方案构造-v001.md": "0a2060407f181bb006f621edb74193f3cca8612270c923bad43ba1f185d1336e",
+    "方法库/M03-条件能量比与分布归一化-v001.md": "ec17db106349f5150f3e9bc49ad6469f975a2f3cb9387c4aae38414d3bda3ff8",
+    "方法库/M04-平均权重与非线性汇总-v001.md": "848fc02fd70882921bdb6aa3d1efa31d851fd8569c07602215ce4e5a6e778e2a",
+    "方法库/M05-数值误差验证与复现-v001.md": "14de3c6a420225beccacf9d5e2e558a0e109f14e391511e1d4dd9c57bf032a0f",
+    "补充资料/P01-角尺度来源与边界-v001.md": "1909e60303e57e39b7929f2200b7b966523b0bc2c2d44995f4f952e0a7ec4588",
+    "补充资料/P02-方向分布与待选假设-v001.md": "bd47a735887659b4db9f6b026b12b054c71db79b1993a0f88abe7a511136dc36"
+  },
+  "beta_rad": 0.00465,
+  "rho": 0.92,
+  "H": "H01-H04 Q1 only",
+  "N": "N01-N05 approved; N04 computational bookkeeping for this full run",
+  "geometry": {
+    "scale_m": 1000,
+    "factor": 256
+  },
+  "rng": "NumPy PCG64 SeedSequence",
+  "seed_root": 2026090402,
+  "seed_words": "[root,ensemble_code,time_index,mirror_id,batch]",
+  "ensembles": {
+    "initial": {
+      "code": 911,
+      "batches": 8,
+      "n": 128,
+      "prefix_levels": [
+        128
+      ]
+    },
+    "confirmation": {
+      "code": 912,
+      "batches": 8,
+      "n": 256,
+      "prefix_levels": [
+        128,
+        256
+      ]
+    }
+  },
+  "design": "Fixed before full optics. Independent confirmation not used for tuning. No automatic sample escalation beyond these levels. If unmet, report unmet within budget. Prefixes correlated, never counted twice. Initial and confirmation seeds disjoint.",
+  "point_estimator": "per mirror pool raw sums across 8 equal-size batches; self normalized ratios then H02. Final point uses confirmation only.",
+  "uncertainty": "delete-one-whole-batch jackknife of exact pooled-summary functional; t_7 0.975 halfwidth approximate pointwise, not simultaneous/strict; no mirror/time sqrt shortcut",
+  "t7": 2.3646242515927844,
+  "work_indicator": "max(jackknife t halfwidth, absolute confirmation256-confirmation128, absolute confirmation256-initial128, raw-integral alternative shift); refinement terms diagnostics not confidence bounds",
+  "efficiency_abs_target": 0.001,
+  "power_rel_target": 0.005,
+  "near_zero_rule": "if abs(power)<=10*halfwidth or abs(power)<=1e-12 kW, relative criterion unresolved; report absolute indicator",
+  "budget_seconds": 1800,
+  "budget_guard_reserve_seconds": 20,
+  "checkpoint": "atomic per-time shards plus every 250 mirrors partial checkpoint; charge elapsed every 100; resume identical seeds and verify hashes; completed shards never overwrite",
+  "anomalies": "save object/time/batch/ray seed, raw stats, first 8 uncertain rays; sampled zeros stay unresolved until pooled evidence; do not fill/drop. Systemic failures pause.",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "openblas_threads": "1"
+  },
+  "total_unique_final_rays": 214425600,
+  "full_optics_started": false
+}

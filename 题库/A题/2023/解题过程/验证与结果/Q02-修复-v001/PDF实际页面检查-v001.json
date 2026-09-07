@@ -1,0 +1,110 @@
+{
+  "pdf_sha256": "664e7e4e03ac65637a548dc95271ae32779295ec8b3ea4774c4841002e390c5b",
+  "all_pages_inspected": true,
+  "all_pass": true,
+  "pages": 18,
+  "inspection": "Model viewed contact sheets containing all 18 attempt-002 actual pages, plus full page 11,13,17. Attempt-003 regenerated after equivalent Markdown pipe syntax fix; all18 PNGs byte-identical, linked below.",
+  "page_identity_evidence": [
+    {
+      "page": 1,
+      "file": "page-01.png",
+      "identical": true
+    },
+    {
+      "page": 2,
+      "file": "page-02.png",
+      "identical": true
+    },
+    {
+      "page": 3,
+      "file": "page-03.png",
+      "identical": true
+    },
+    {
+      "page": 4,
+      "file": "page-04.png",
+      "identical": true
+    },
+    {
+      "page": 5,
+      "file": "page-05.png",
+      "identical": true
+    },
+    {
+      "page": 6,
+      "file": "page-06.png",
+      "identical": true
+    },
+    {
+      "page": 7,
+      "file": "page-07.png",
+      "identical": true
+    },
+    {
+      "page": 8,
+      "file": "page-08.png",
+      "identical": true
+    },
+    {
+      "page": 9,
+      "file": "page-09.png",
+      "identical": true
+    },
+    {
+      "page": 10,
+      "file": "page-10.png",
+      "identical": true
+    },
+    {
+      "page": 11,
+      "file": "page-11.png",
+      "identical": true
+    },
+    {
+      "page": 12,
+      "file": "page-12.png",
+      "identical": true
+    },
+    {
+      "page": 13,
+      "file": "page-13.png",
+      "identical": true
+    },
+    {
+      "page": 14,
+      "file": "page-14.png",
+      "identical": true
+    },
+    {
+      "page": 15,
+      "file": "page-15.png",
+      "identical": true
+    },
+    {
+      "page": 16,
+      "file": "page-16.png",
+      "identical": true
+    },
+    {
+      "page": 17,
+      "file": "page-17.png",
+      "identical": true
+    },
+    {
+      "page": 18,
+      "file": "page-18.png",
+      "identical": true
+    }
+  ],
+  "observations": {
+    "pages_1_4": "Title, assumptions, symbols, constraints, finite geometry readable; no clipping or blank page.",
+    "pages_5_8": "Energy, H02, band geometry and two-line search criterion readable; old long-formula overflow removed.",
+    "pages_9_12": "Pooled denominator and statistical formulas readable; S5/S6 numeric columns separated, no overlay.",
+    "page_13": "All12 monthly rows and annual/design tables1-3 complete on same page, units/captions visible.",
+    "pages_14_15": "Both images and captions complete, equal-layout axes and U interpretation retained.",
+    "pages_16_18": "Low-survival table, 13-row U table, limitations and conclusion present; page18 is continuation, not missing render."
+  },
+  "compile": "XeLaTeX passes5/6 completed, no Overfull/Underfull/Missing character/Infinite glue; existing package-required LaTeX date warning retained without online installation.",
+  "history": "attempt001 19-page evidence retained; old v001 accepted/unfinished paper untouched",
+  "scope": "Presentation and source binding only, independent from numerical/physical validation."
+}

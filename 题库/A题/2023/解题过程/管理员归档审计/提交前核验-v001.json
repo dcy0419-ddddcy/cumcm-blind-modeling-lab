@@ -1,0 +1,140 @@
+{
+  "checked_at": "2026-09-07T11:58:14.578414+08:00",
+  "branch": "codex/archive-2023-a",
+  "head": "f17ee78fbd0f525f95b70477791a05408cca917e",
+  "origin": "https://github.com/dcy0419-ddddcy/cumcm-blind-modeling-lab.git",
+  "archive_changed_files": 829,
+  "archive_changed_bytes": 49937816,
+  "largest_20": [
+    {
+      "path": "题库/A题/2023/解题过程/GitHub未入库依赖与原因清单-v001.csv",
+      "bytes": 4026526
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/紧凑读回冻结身份差异.json",
+      "bytes": 1306365
+    },
+    {
+      "path": "题库/A题/2023/解题过程/冻结版本/输入快照/匿名题目.pdf",
+      "bytes": 974524
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q03-实施-v001/delivery/交付哈希清单-v002.json",
+      "bytes": 939371
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q03-实施-v001/delivery/交付哈希清单-v001.json",
+      "bytes": 936859
+    },
+    {
+      "path": "题库/A题/2023/解题过程/论文/全题整合/实际搜索比较与检验证据-v001.json",
+      "bytes": 902115
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q03-实施-v001/prototype/attempt-1788613497469380100/result.json",
+      "bytes": 733914
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q03-实施-v001/prototype/report-v001.json",
+      "bytes": 733914
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q03-实施-v001/groups-v001.json",
+      "bytes": 723081
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C06/design.metadata.json",
+      "bytes": 688781
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C11/design.metadata.json",
+      "bytes": 672692
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C10/design.metadata.json",
+      "bytes": 648341
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C07/design.metadata.json",
+      "bytes": 579792
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/diagnostics/DenseA/design.metadata.json",
+      "bytes": 579757
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C04/design.metadata.json",
+      "bytes": 578853
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C09/design.metadata.json",
+      "bytes": 578853
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C03/design.metadata.json",
+      "bytes": 578840
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/candidates/C08/design.metadata.json",
+      "bytes": 578840
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q02-搜索-v001/diagnostics/DenseB/design-v002.metadata.json",
+      "bytes": 578818
+    },
+    {
+      "path": "题库/A题/2023/解题过程/验证与结果/Q03-实施-v001/candidates/Q3R003/design.json",
+      "bytes": 507838
+    }
+  ],
+  "over_100MiB": [],
+  "outside_allowed_prefix": [],
+  "third_party_fulltext_or_bulk_pages_staged": [],
+  "secret_scan_hits": [],
+  "broken_new_readme_links": {},
+  "pdf_info": {
+    "题库\\A题\\2023\\解题过程\\论文\\全题整合\\完整论文-v001.pdf": {
+      "exists": true,
+      "pages": 20
+    },
+    "题库\\A题\\2023\\解题过程\\论文\\LaTeX\\第1问-模型建立与求解-v001.pdf": {
+      "exists": true,
+      "pages": 13
+    },
+    "题库\\A题\\2023\\解题过程\\论文\\LaTeX\\第2问-模型建立与求解-v002.pdf": {
+      "exists": true,
+      "pages": 18
+    },
+    "题库\\A题\\2023\\解题过程\\论文\\LaTeX\\第3问-模型建立与求解-v001.pdf": {
+      "exists": true,
+      "pages": 10
+    }
+  },
+  "xlsx_info": {
+    "result2.xlsx": {
+      "sheets": [
+        "设计参数",
+        "逐镜设计",
+        "镜场设计"
+      ],
+      "sha256": "b305e8da10ab5323d38824521dbb1d768f029fbc1838ac20aea769681d47ed61",
+      "source_sha256": "b305e8da10ab5323d38824521dbb1d768f029fbc1838ac20aea769681d47ed61"
+    },
+    "result3.xlsx": {
+      "sheets": [
+        "完整清单",
+        "身份映射"
+      ],
+      "sha256": "b92e3004b42054c2d90ce384a0561b0434c1012c48a8a4686045d989fb653351",
+      "source_sha256": "b92e3004b42054c2d90ce384a0561b0434c1012c48a8a4686045d989fb653351"
+    }
+  },
+  "xlsx_sources_match": true,
+  "missing_E001_E030": [],
+  "freeze": {
+    "manifest_sha256": "ed23098187e4479ab250744f6cc35fc84e1ec5bb25afe7e6b4ac21851c0da357",
+    "sums_sha256": "9e6b950d124e16454aaf1715d21d2be183432e2703f4b92ff9a10d0d01820439",
+    "passed": true
+  },
+  "passed": true
+}

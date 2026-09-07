@@ -1,0 +1,152 @@
+{
+  "source": "工作记录/论文/全题整合/完整论文-v001.md",
+  "source_sha256": "86f9f98642331632d82eef24cd2b3fddadc81773c53204a210553c7306284f83",
+  "tex": "工作记录/论文/全题整合/完整论文-v001.tex",
+  "tex_sha256": "4cd1ee4bce53cec2e7f34f01098c831aaa5ffddd69a7f5ec4be5107b75202904",
+  "pdf": "工作记录/论文/全题整合/完整论文-v001.pdf",
+  "pdf_sha256": "f1961abe482d87137cd7372800a83cde1c2a17e80736a75fe0320e13225b9a45",
+  "log_sha256": "28b4f384d6b0743716dd214e9409bf3dbf83c08e461ea8f74246ecc3a3a876eb",
+  "pages": 20,
+  "rendered_pages": 20,
+  "page_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "render_directory": "工作记录/论文/全题整合/页面核验/attempt-002",
+  "contact_sheets": [
+    "工作记录/论文/全题整合/页面核验/attempt-002/contact-01.png",
+    "工作记录/论文/全题整合/页面核验/attempt-002/contact-05.png",
+    "工作记录/论文/全题整合/页面核验/attempt-002/contact-09.png",
+    "工作记录/论文/全题整合/页面核验/attempt-002/contact-13.png",
+    "工作记录/论文/全题整合/页面核验/attempt-002/contact-17.png"
+  ],
+  "page_files": [
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-01.png",
+      "sha256": "8d90723595f861e0889e8908c44294d2df70b549ef7d596587227bf60c2ceb94"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-02.png",
+      "sha256": "e0180d65c456fd964f7f81d3445675622b898f79db9ca7535f733e4862a24d1f"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-03.png",
+      "sha256": "9b2f6e99a1bf8e798f8c9050074b5c435c598883ab1fc77a2075a3e8bcb495bd"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-04.png",
+      "sha256": "8d34d46698b237bd05dd2f2524b0467eea1076031194f6940248d062e70f412e"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-05.png",
+      "sha256": "3bbde611301eaf68c75b680c7140a5932043de8125056ae81a277ae9a1330fea"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-06.png",
+      "sha256": "b5051389218cfef1f6fd80c3885dc3e428296af02cfbab6ea7a0af094f77d806"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-07.png",
+      "sha256": "8c1a760cbfee5ea9619c75a9ac3cdb7c063e4db61c4fcbf37a72514db1a217f8"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-08.png",
+      "sha256": "68f711d9768359bcbcd13eb6c8a1ae6adb24ef391c7516f78d2dc742e975d868"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-09.png",
+      "sha256": "132107b1c1c037251a986b37279c0e28c6ca680024defdfd72996f5df5c73699"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-10.png",
+      "sha256": "9ef3eba54bbfa8a6050545061a54d01fdd845c194bf87b050e077b86f72062cf"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-11.png",
+      "sha256": "296172516ed576366b79236f5b877d24a5e1b0a76afbde003ac0521a0d1ad4a2"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-12.png",
+      "sha256": "7d9a66f7096a8a6089862ac3d77df0411c532eec27b5418bb5ad2bd38822b70d"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-13.png",
+      "sha256": "2baac26fec72e51bd4da11f4c93e6a2c63ec72824dc60090c7640b98df751ab1"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-14.png",
+      "sha256": "d62d1703b064254c3c9f6020a8f703c54e781e63a50a833936de7e1c2a4a9ce8"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-15.png",
+      "sha256": "e44419011ef3274f6c3cc870bc948791a12cd7ac613baf1045d789d83a9534a2"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-16.png",
+      "sha256": "6b4324124241de41b8c801632b8ca25e65381fede294a2346b2e7d8de0e230db"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-17.png",
+      "sha256": "b3c85c079a33d12509db35b645e9f66e2abf27e51f860a224bd03e70dc72d800"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-18.png",
+      "sha256": "287a6e7b5b7105e10e93b507529af7a3aafbda79e124af8520c3ccc676f9ac5f"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-19.png",
+      "sha256": "79cbcd9d7338fd95cd5a2572665e4eb4b2f965c7d450da254d18e4d8f73f4be2"
+    },
+    {
+      "file": "工作记录/论文/全题整合/页面核验/attempt-002/page-20.png",
+      "sha256": "c867649fabd20821fe8a54f05d4b81d11d2124824c8ff062db4d632d92e6088e"
+    }
+  ],
+  "tex_log_flags": [
+    "LaTeX Warning"
+  ],
+  "render_stderr_bytes": 0,
+  "text_stderr_bytes": 0,
+  "commands": [
+    [
+      "pdftoppm",
+      "-r",
+      "90",
+      "-png",
+      "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\论文\\全题整合\\完整论文-v001.pdf",
+      "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\论文\\全题整合\\页面核验\\attempt-002\\page"
+    ],
+    [
+      "pdftotext",
+      "-layout",
+      "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\论文\\全题整合\\完整论文-v001.pdf",
+      "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\论文\\全题整合\\页面核验\\attempt-002\\PDF文本.txt"
+    ]
+  ],
+  "markdown_counts": {
+    "math_display_blocks": 29,
+    "tables": 12,
+    "figures": 2
+  },
+  "visual_inspection": "pending human/model inspection; page counting is not visual QA",
+  "old_renderings_overwritten": false,
+  "new_optical_rays": 0
+}

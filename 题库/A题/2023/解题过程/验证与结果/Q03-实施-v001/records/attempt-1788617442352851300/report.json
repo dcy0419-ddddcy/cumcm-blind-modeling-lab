@@ -1,0 +1,83 @@
+{
+  "version": "q03-records-v001",
+  "all_pass": false,
+  "formal_records": false,
+  "scope": "saved-artifact record generation; no optical rays, geometry program, optimization or new estimator",
+  "checks": {
+    "manifest_success": true,
+    "manifest_path:result_data": true,
+    "manifest_path:comparison_report": true,
+    "manifest_path:rebuild_report": true,
+    "manifest_path:search_trace": true,
+    "manifest_path:excel_file": true,
+    "manifest_sha:candidates\\Q3F013\\design.json": true,
+    "manifest_sha:candidates\\Q3F013\\confirmation\\summary.json": true,
+    "manifest_sha:candidates/Q3R000/confirmation/summary.json": true,
+    "manifest_sha:delivery/paired-comparison-v001.json": true,
+    "manifest_sha:delivery/result3.xlsx": true,
+    "manifest_sha:delivery/独立重建核验-v001.json": true,
+    "manifest_sha:scores.jsonl": true,
+    "manifest_sha:delivery/结果数据-v001.json": true,
+    "manifest_covers:result_data": true,
+    "manifest_covers:comparison_report": true,
+    "manifest_covers:rebuild_report": true,
+    "manifest_covers:search_trace": true,
+    "manifest_covers:excel_file": true,
+    "manifest_covers:design_file": true,
+    "manifest_covers:candidate_confirmation_summary": true,
+    "manifest_covers:baseline_confirmation_summary": true,
+    "selected_identity": true,
+    "independent_gates": true,
+    "independent_each_check": true,
+    "audit_current_freeze": true,
+    "paired_gates": true,
+    "point_dimensions": true,
+    "annual_consistency": true,
+    "rating_and_improvement": true,
+    "population_groups": true,
+    "frozen_sampling": true,
+    "frozen_geometry": true,
+    "actual_search_count": true,
+    "full_field_search": true,
+    "prototype": false
+  },
+  "source_sha256": {
+    "delivery/report.json": "d748938a18d03727e7185c8033c84f8c4505d29cb7c5edf32aded8692774b536",
+    "delivery/结果数据-v001.json": "bc3947650ed237dd95428160c29c4ce4e8bd941061237f7ddfa80aad17901033",
+    "delivery/paired-comparison-v001.json": "d7f41c046a57b651c706e552f5259e751c84077c521f3fe53156132befa441b6",
+    "delivery/独立重建核验-v001.json": "07894a5f01d7712b5d91e81843445e60c90e73e318c7af974745975cc70edda5",
+    "comparison-fine-v001.json": "3d56105423fb678d3ee693489ea9f0bcb7befab3c630d2c34b30aec83652d398",
+    "最终候选与确认冻结-v001.json": "38f9c479cdef9a842571aaa74c8a5a97feed39f9a911e1cafd923efc1ca5e31d",
+    "累计计算预算.json": "7dbc5178acf020292f510f9622c5cc029487fac30d6c6ecda12ed9dd17b0a1ef",
+    "prototype/report-v001.json": "4e30cb1a47ea5da9d938a4e2de1dcae1f29236fa72558ce1378cb3b9fd575572",
+    "groups-v001.json": "ec699f16e2608d2b883ecf392978a3248f5aa066df2ce98f67ee9f06b5c8aae5",
+    "scores.jsonl": "fedc0b13a76c171026736e99125135529eafcb9b28bd26d381e3259dfada87ee"
+  },
+  "outputs": [],
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断代码\\q03_records_v001.py\", line 183, in run\n    check('prototype', proto['all_pass'] is True and len(proto['checks'])==19 and all(c['passed'] is True for c in proto['checks']) and proto['compatibility_combinations_completed']==6 and proto['new_design_combinations_completed']==6)\n  File \"C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断代码\\q03_records_v001.py\", line 135, in check\n    raise ValueError('RECORD_GATE_FAILED: ' + name)\nValueError: RECORD_GATE_FAILED: prototype\n",
+  "partial_outputs": [
+    {
+      "path": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\records\\attempt-1788617442352851300\\partial\\Q03-分组搜索与独立确认-v001.md",
+      "sha256": "a781e94238344753e3ec50da18cf129cb4ca34bbc2da74157e8cadbc707196ca",
+      "bytes": 381
+    },
+    {
+      "path": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\records\\attempt-1788617442352851300\\partial\\Q03-第3问结果初稿-v001.md",
+      "sha256": "a781e94238344753e3ec50da18cf129cb4ca34bbc2da74157e8cadbc707196ca",
+      "bytes": 381
+    },
+    {
+      "path": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\records\\attempt-1788617442352851300\\partial\\第3问-正文证据映射-v001.md",
+      "sha256": "a781e94238344753e3ec50da18cf129cb4ca34bbc2da74157e8cadbc707196ca",
+      "bytes": 381
+    },
+    {
+      "path": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\records\\attempt-1788617442352851300\\partial\\复现说明-v001.md",
+      "sha256": "a781e94238344753e3ec50da18cf129cb4ca34bbc2da74157e8cadbc707196ca",
+      "bytes": 381
+    }
+  ],
+  "status": "PARTIAL_ONLY",
+  "elapsed_seconds": 0.0778336999937892,
+  "implementation_sha256": "baa1bf18b70d7627aede48b3463efa02ca9a0b3d60dfeb4da02d2bdcc68605c4"
+}

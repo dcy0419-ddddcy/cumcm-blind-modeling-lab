@@ -1,0 +1,1166 @@
+{
+  "metadata": {
+    "time": "2026-09-04T21:38:51.135818+08:00",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "core_sha256": "f8297c1c9a40f70cc6381302fe4d8f18d1ed7d3669129498892e88172cc7c964",
+    "runner_sha256": "a39ce1a20c28f73c9a867c2e642284c664f85111014bbed444335e2e29905dd7",
+    "config_sha256": "9f9e287ffb32b052fdbc56162babbfcd695bcf54e365dc143da5028d7b0edab4",
+    "input_sha256": "596abec1162db0bce095f6f768b6cd06394e61766f80129a09e15146dc1fed50",
+    "scope": "diagnostic only; not field/year estimate"
+  },
+  "selection_frozen_before_optics": true,
+  "selected": [
+    {
+      "mirror_id": 1681,
+      "excel_row": 1682,
+      "x": -337.132,
+      "y": 0.0,
+      "rule": "minimum x",
+      "radius_m": 337.132
+    },
+    {
+      "mirror_id": 1617,
+      "excel_row": 1618,
+      "x": 337.032,
+      "y": 8.21,
+      "rule": "maximum x",
+      "radius_m": 337.1319817578866
+    },
+    {
+      "mirror_id": 1713,
+      "excel_row": 1714,
+      "x": -4.105,
+      "y": -337.107,
+      "rule": "minimum y",
+      "radius_m": 337.13199265866183
+    },
+    {
+      "mirror_id": 1649,
+      "excel_row": 1650,
+      "x": -4.105,
+      "y": 337.107,
+      "rule": "maximum y",
+      "radius_m": 337.13199265866183
+    },
+    {
+      "mirror_id": 29,
+      "excel_row": 30,
+      "x": -107.882,
+      "y": 0.0,
+      "rule": "minimum radius",
+      "radius_m": 107.882
+    },
+    {
+      "mirror_id": 1666,
+      "excel_row": 1667,
+      "x": -251.087,
+      "y": 224.975,
+      "rule": "maximum radius",
+      "radius_m": 337.13266260331403
+    }
+  ],
+  "times": [
+    {
+      "month": 12,
+      "hour": 9,
+      "reason": "low morning sun"
+    },
+    {
+      "month": 6,
+      "hour": 12,
+      "reason": "high noon sun"
+    },
+    {
+      "month": 3,
+      "hour": 15,
+      "reason": "afternoon branch"
+    }
+  ],
+  "combination_count": 18,
+  "full_obstacle_count": 1745,
+  "domain_checks_only": [
+    {
+      "month": 1,
+      "hour": 9,
+      "D": -59,
+      "alpha_rad": 0.304226866416981,
+      "s0": [
+        0.665444170298223,
+        -0.6837035016011901,
+        0.2995556344226911
+      ],
+      "min_front": 0.25547205212492113,
+      "min_horizon": 0.2951159452665012,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.01176254424441331,
+      "passed": true
+    },
+    {
+      "month": 1,
+      "hour": 10.5,
+      "D": -59,
+      "alpha_rad": 0.4748372390538941,
+      "s0": [
+        0.36013578983042005,
+        -0.8131888676565364,
+        0.45719369899715295
+      ],
+      "min_front": 0.3369355061764567,
+      "min_horizon": 0.45305321384210795,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.013788473436202053,
+      "passed": true
+    },
+    {
+      "month": 1,
+      "hour": 12,
+      "D": -59,
+      "alpha_rad": 0.5381505523349126,
+      "s0": [
+        -0.0,
+        -0.8586580815537874,
+        0.5125488259496547
+      ],
+      "min_front": 0.36658205437011043,
+      "min_horizon": 0.5085505389758134,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.022998750315181126,
+      "passed": true
+    },
+    {
+      "month": 1,
+      "hour": 13.5,
+      "D": -59,
+      "alpha_rad": 0.4748372390538941,
+      "s0": [
+        -0.36013578983042005,
+        -0.8131888676565364,
+        0.45719369899715295
+      ],
+      "min_front": 0.33698032910782566,
+      "min_horizon": 0.45305321384210795,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.013788473436202053,
+      "passed": true
+    },
+    {
+      "month": 1,
+      "hour": 15,
+      "D": -59,
+      "alpha_rad": 0.304226866416981,
+      "s0": [
+        -0.665444170298223,
+        -0.6837035016011901,
+        0.2995556344226911
+      ],
+      "min_front": 0.2556345971001859,
+      "min_horizon": 0.2951159452665012,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.02113180576146098,
+      "passed": true
+    },
+    {
+      "month": 2,
+      "hour": 9,
+      "D": -28,
+      "alpha_rad": 0.4333788534250889,
+      "s0": [
+        0.6949716238031484,
+        -0.5836652363454409,
+        0.41993967899001383
+      ],
+      "min_front": 0.3173400354520641,
+      "min_horizon": 0.4157150372482459,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.00934036379721778,
+      "passed": true
+    },
+    {
+      "month": 2,
+      "hour": 10.5,
+      "D": -28,
+      "alpha_rad": 0.6243531094531736,
+      "s0": [
+        0.37611593251453385,
+        -0.7188961980441514,
+        0.5845725461791607
+      ],
+      "min_front": 0.4063010245183361,
+      "min_horizon": 0.5807935021134255,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.00655540727836218,
+      "passed": true
+    },
+    {
+      "month": 2,
+      "hour": 12,
+      "D": -28,
+      "alpha_rad": 0.6976048393000404,
+      "s0": [
+        -0.0,
+        -0.766382996825578,
+        0.6423839211691449
+      ],
+      "min_front": 0.43950685158387676,
+      "min_horizon": 0.6388133081158535,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.054685683317481235,
+      "passed": true
+    },
+    {
+      "month": 2,
+      "hour": 13.5,
+      "D": -28,
+      "alpha_rad": 0.6243531094531736,
+      "s0": [
+        -0.37611593251453385,
+        -0.7188961980441514,
+        0.5845725461791607
+      ],
+      "min_front": 0.4063604935930729,
+      "min_horizon": 0.5807935021134255,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.00655540727836218,
+      "passed": true
+    },
+    {
+      "month": 2,
+      "hour": 15,
+      "D": -28,
+      "alpha_rad": 0.4333788534250889,
+      "s0": [
+        -0.6949716238031484,
+        -0.5836652363454409,
+        0.41993967899001383
+      ],
+      "min_front": 0.317415420566127,
+      "min_horizon": 0.4157150372482459,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.00934036379721778,
+      "passed": true
+    },
+    {
+      "month": 3,
+      "hour": 9,
+      "D": 0,
+      "alpha_rad": 0.5780659471500635,
+      "s0": [
+        0.7071067811865476,
+        -0.44882225011134086,
+        0.5464051498704904
+      ],
+      "min_front": 0.38504222617477,
+      "min_horizon": 0.5425047839799201,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.01624993798744105,
+      "passed": true
+    },
+    {
+      "month": 3,
+      "hour": 10.5,
+      "D": 0,
+      "alpha_rad": 0.7950701564030589,
+      "s0": [
+        0.3826834323650898,
+        -0.58641452980796,
+        0.7139127326385087
+      ],
+      "min_front": 0.48271681545024475,
+      "min_horizon": 0.7106489348252123,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.09112937161796902,
+      "passed": true
+    },
+    {
+      "month": 3,
+      "hour": 12,
+      "D": 0,
+      "alpha_rad": 0.8831366015091309,
+      "s0": [
+        -0.0,
+        -0.6347305132022676,
+        0.7727335734973511
+      ],
+      "min_front": 0.5208157942576412,
+      "min_horizon": 0.7697737330466127,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.13726994966245804,
+      "passed": true
+    },
+    {
+      "month": 3,
+      "hour": 13.5,
+      "D": 0,
+      "alpha_rad": 0.7950701564030589,
+      "s0": [
+        -0.3826834323650898,
+        -0.58641452980796,
+        0.7139127326385087
+      ],
+      "min_front": 0.4827709722604833,
+      "min_horizon": 0.7106489348252123,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.09112937161796902,
+      "passed": true
+    },
+    {
+      "month": 3,
+      "hour": 15,
+      "D": 0,
+      "alpha_rad": 0.5780659471500635,
+      "s0": [
+        -0.7071067811865476,
+        -0.44882225011134086,
+        0.5464051498704904
+      ],
+      "min_front": 0.38512864313272926,
+      "min_horizon": 0.5425047839799201,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.025066486207343107,
+      "passed": true
+    },
+    {
+      "month": 4,
+      "hour": 9,
+      "D": 31,
+      "alpha_rad": 0.7255922418092147,
+      "s0": [
+        0.6924681066571432,
+        -0.2831101158199818,
+        0.6635786189918025
+      ],
+      "min_front": 0.4521061675368926,
+      "min_horizon": 0.6600927619497524,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.06271950396899614,
+      "passed": true
+    },
+    {
+      "month": 4,
+      "hour": 10.5,
+      "D": 31,
+      "alpha_rad": 0.9748512838471295,
+      "s0": [
+        0.3747610387984667,
+        -0.41785393096523904,
+        0.8276184242605956
+      ],
+      "min_front": 0.5593997595319059,
+      "min_horizon": 0.8249994822918948,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.18002547236918726,
+      "passed": true
+    },
+    {
+      "month": 4,
+      "hour": 12,
+      "D": 31,
+      "alpha_rad": 1.0869700595052758,
+      "s0": [
+        -0.0,
+        -0.4651696666256887,
+        0.8852215435987455
+      ],
+      "min_front": 0.6049593059068946,
+      "min_horizon": 0.8830489421098106,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.2354154010748561,
+      "passed": true
+    },
+    {
+      "month": 4,
+      "hour": 13.5,
+      "D": 31,
+      "alpha_rad": 0.9748512838471295,
+      "s0": [
+        -0.3747610387984667,
+        -0.41785393096523904,
+        0.8276184242605956
+      ],
+      "min_front": 0.5593968735556756,
+      "min_horizon": 0.8249994822918948,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.18002547236918726,
+      "passed": true
+    },
+    {
+      "month": 4,
+      "hour": 15,
+      "D": 31,
+      "alpha_rad": 0.7255922418092147,
+      "s0": [
+        -0.6924681066571432,
+        -0.2831101158199818,
+        0.6635786189918025
+      ],
+      "min_front": 0.45200241116874135,
+      "min_horizon": 0.6600927619497524,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.06271950396899614,
+      "passed": true
+    },
+    {
+      "month": 5,
+      "hour": 9,
+      "D": 61,
+      "alpha_rad": 0.8211464237522114,
+      "s0": [
+        0.6636395260588283,
+        -0.15448225580130448,
+        0.7319274636840418
+      ],
+      "min_front": 0.4941032579154612,
+      "min_horizon": 0.7287511331793527,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.10374995025921932,
+      "passed": true
+    },
+    {
+      "month": 5,
+      "hour": 10.5,
+      "D": 61,
+      "alpha_rad": 1.0954581802892018,
+      "s0": [
+        0.3591591234059083,
+        -0.28361646539549645,
+        0.8891380233860572
+      ],
+      "min_front": 0.6083301833038248,
+      "min_horizon": 0.8870003964137979,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.23865655998630578,
+      "passed": true
+    },
+    {
+      "month": 5,
+      "hour": 12,
+      "D": 61,
+      "alpha_rad": 1.2355917477605913,
+      "s0": [
+        -0.0,
+        -0.32896236954176894,
+        0.9443430305908255
+      ],
+      "min_front": 0.6624017154863252,
+      "min_horizon": 0.9428031515748235,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.3064071579119236,
+      "passed": true
+    },
+    {
+      "month": 5,
+      "hour": 13.5,
+      "D": 61,
+      "alpha_rad": 1.0954581802892018,
+      "s0": [
+        -0.3591591234059083,
+        -0.28361646539549645,
+        0.8891380233860572
+      ],
+      "min_front": 0.6083360626297739,
+      "min_horizon": 0.8870003964137979,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.23865655998630578,
+      "passed": true
+    },
+    {
+      "month": 5,
+      "hour": 15,
+      "D": 61,
+      "alpha_rad": 0.8211464237522114,
+      "s0": [
+        -0.6636395260588283,
+        -0.15448225580130448,
+        0.7319274636840418
+      ],
+      "min_front": 0.4941247148135649,
+      "min_horizon": 0.7287511331793527,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.10374995025921932,
+      "passed": true
+    },
+    {
+      "month": 6,
+      "hour": 9,
+      "D": 92,
+      "alpha_rad": 0.853907031851067,
+      "s0": [
+        0.6487153775463572,
+        -0.10427680472622175,
+        0.753853239650117
+      ],
+      "min_front": 0.5082816391120871,
+      "min_horizon": 0.7507898513751698,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.12296974103807634,
+      "passed": true
+    },
+    {
+      "month": 6,
+      "hour": 10.5,
+      "D": 92,
+      "alpha_rad": 1.137361223816602,
+      "s0": [
+        0.35108223243295633,
+        -0.23050700085173226,
+        0.9075283954941747
+      ],
+      "min_front": 0.6248491579908064,
+      "min_horizon": 0.9055656341495454,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.2592448052139913,
+      "passed": true
+    },
+    {
+      "month": 6,
+      "hour": 12,
+      "D": 92,
+      "alpha_rad": 1.292380159983527,
+      "s0": [
+        -0.0,
+        -0.2748331510783878,
+        0.9614919339590553
+      ],
+      "min_front": 0.6834018636990707,
+      "min_horizon": 0.9602035695010945,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.3331859823841155,
+      "passed": true
+    },
+    {
+      "month": 6,
+      "hour": 13.5,
+      "D": 92,
+      "alpha_rad": 1.137361223816602,
+      "s0": [
+        -0.35108223243295633,
+        -0.23050700085173226,
+        0.9075283954941747
+      ],
+      "min_front": 0.6248147394672491,
+      "min_horizon": 0.9055656341495454,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.2592448052139913,
+      "passed": true
+    },
+    {
+      "month": 6,
+      "hour": 15,
+      "D": 92,
+      "alpha_rad": 0.853907031851067,
+      "s0": [
+        -0.6487153775463572,
+        -0.10427680472622175,
+        0.753853239650117
+      ],
+      "min_front": 0.5082899491323406,
+      "min_horizon": 0.7507898513751698,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.12296974103807634,
+      "passed": true
+    },
+    {
+      "month": 7,
+      "hour": 9,
+      "D": 122,
+      "alpha_rad": 0.8200527286062252,
+      "s0": [
+        0.6640847878259308,
+        -0.15609153740501192,
+        0.7311818012838722
+      ],
+      "min_front": 0.4936354180572098,
+      "min_horizon": 0.7280017583992078,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.1032950749603514,
+      "passed": true
+    },
+    {
+      "month": 7,
+      "hour": 10.5,
+      "D": 122,
+      "alpha_rad": 1.0940611925150594,
+      "s0": [
+        0.3594000973378084,
+        -0.28531238820139204,
+        0.8884978397117191
+      ],
+      "min_front": 0.6077814336036487,
+      "min_horizon": 0.8863544459253064,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.23801215101239862,
+      "passed": true
+    },
+    {
+      "month": 7,
+      "hour": 12,
+      "D": 122,
+      "alpha_rad": 1.2337630710072545,
+      "s0": [
+        -0.0,
+        -0.3306887166919331,
+        0.9437398861193917
+      ],
+      "min_front": 0.6617165121700265,
+      "min_horizon": 0.9421919861388045,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.30554115560905576,
+      "passed": true
+    },
+    {
+      "month": 7,
+      "hour": 13.5,
+      "D": 122,
+      "alpha_rad": 1.0940611925150594,
+      "s0": [
+        -0.3594000973378084,
+        -0.28531238820139204,
+        0.8884978397117191
+      ],
+      "min_front": 0.6077758149841304,
+      "min_horizon": 0.8863544459253064,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.23801215101239862,
+      "passed": true
+    },
+    {
+      "month": 7,
+      "hour": 15,
+      "D": 122,
+      "alpha_rad": 0.8200527286062252,
+      "s0": [
+        -0.6640847878259308,
+        -0.15609153740501192,
+        0.7311818012838722
+      ],
+      "min_front": 0.49363937533814445,
+      "min_horizon": 0.7280017583992078,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.1032950749603514,
+      "passed": true
+    },
+    {
+      "month": 8,
+      "hour": 9,
+      "D": 153,
+      "alpha_rad": 0.7193617370530375,
+      "s0": [
+        0.6937410456463627,
+        -0.29080573202373283,
+        0.6589046879539047
+      ],
+      "min_front": 0.4492800018590302,
+      "min_horizon": 0.6553997240577747,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.057604071705093546,
+      "passed": true
+    },
+    {
+      "month": 8,
+      "hour": 10.5,
+      "D": 153,
+      "alpha_rad": 0.9671055722418563,
+      "s0": [
+        0.37544994841515633,
+        -0.42579724183421086,
+        0.8232460416433444
+      ],
+      "min_front": 0.5561679990815209,
+      "min_horizon": 0.820597416849857,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.17599069640711046,
+      "passed": true
+    },
+    {
+      "month": 8,
+      "hour": 12,
+      "D": 153,
+      "alpha_rad": 1.0778767056926528,
+      "s0": [
+        -0.0,
+        -0.4731999562943291,
+        0.8809550507052247
+      ],
+      "min_front": 0.6013330203162491,
+      "min_horizon": 0.8787451546299357,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.23103995009917755,
+      "passed": true
+    },
+    {
+      "month": 8,
+      "hour": 13.5,
+      "D": 153,
+      "alpha_rad": 0.9671055722418563,
+      "s0": [
+        -0.37544994841515633,
+        -0.42579724183421086,
+        0.8232460416433444
+      ],
+      "min_front": 0.5562160210791778,
+      "min_horizon": 0.820597416849857,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.17599069640711046,
+      "passed": true
+    },
+    {
+      "month": 8,
+      "hour": 15,
+      "D": 153,
+      "alpha_rad": 0.7193617370530375,
+      "s0": [
+        -0.6937410456463627,
+        -0.29080573202373283,
+        0.6589046879539047
+      ],
+      "min_front": 0.4492316329161742,
+      "min_horizon": 0.6553997240577747,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.057604071705093546,
+      "passed": true
+    },
+    {
+      "month": 9,
+      "hour": 9,
+      "D": 184,
+      "alpha_rad": 0.5702646340105066,
+      "s0": [
+        0.7070694578464392,
+        -0.456737943683644,
+        0.5398548254673465
+      ],
+      "min_front": 0.38147948364250867,
+      "min_horizon": 0.5359348277238623,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.020445823421091875,
+      "passed": true
+    },
+    {
+      "month": 9,
+      "hour": 10.5,
+      "D": 184,
+      "alpha_rad": 0.7857472316832529,
+      "s0": [
+        0.3826632331189787,
+        -0.594322960823054,
+        0.7073535666535151
+      ],
+      "min_front": 0.47862309493405264,
+      "min_horizon": 0.7040590325567433,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.08703625203890546,
+      "passed": true
+    },
+    {
+      "month": 9,
+      "hour": 12,
+      "D": 184,
+      "alpha_rad": 0.8728620077823881,
+      "s0": [
+        -0.0,
+        -0.6426363939464139,
+        0.7661713027616929
+      ],
+      "min_front": 0.51642378026018,
+      "min_horizon": 0.7631747710441981,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.13236843329828538,
+      "passed": true
+    },
+    {
+      "month": 9,
+      "hour": 13.5,
+      "D": 184,
+      "alpha_rad": 0.7857472316832529,
+      "s0": [
+        -0.3826632331189787,
+        -0.594322960823054,
+        0.7073535666535151
+      ],
+      "min_front": 0.47872694610116884,
+      "min_horizon": 0.7040590325567433,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.08703625203890546,
+      "passed": true
+    },
+    {
+      "month": 9,
+      "hour": 15,
+      "D": 184,
+      "alpha_rad": 0.5702646340105066,
+      "s0": [
+        -0.7070694578464392,
+        -0.456737943683644,
+        0.5398548254673465
+      ],
+      "min_front": 0.3814637411723464,
+      "min_horizon": 0.5359348277238623,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.02034630078186542,
+      "passed": true
+    },
+    {
+      "month": 10,
+      "hour": 9,
+      "D": 214,
+      "alpha_rad": 0.4163296403450124,
+      "s0": [
+        0.692034924594376,
+        -0.5979491348512748,
+        0.40440634919875873
+      ],
+      "min_front": 0.3092385291140079,
+      "min_horizon": 0.40014919811883787,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.004285344485531967,
+      "passed": true
+    },
+    {
+      "month": 10,
+      "hour": 10.5,
+      "D": 214,
+      "alpha_rad": 0.6044912288421795,
+      "s0": [
+        0.37452660235544377,
+        -0.7326086593220177,
+        0.5683435373209438
+      ],
+      "min_front": 0.3971958426033318,
+      "min_horizon": 0.5645114267875834,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.011636054055286484,
+      "passed": true
+    },
+    {
+      "month": 10,
+      "hour": 12,
+      "D": 214,
+      "alpha_rad": 0.6762986086180179,
+      "s0": [
+        -0.0,
+        -0.7798947960337538,
+        0.6259106223091837
+      ],
+      "min_front": 0.4299141379368148,
+      "min_horizon": 0.6222773577126286,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.047638050257305053,
+      "passed": true
+    },
+    {
+      "month": 10,
+      "hour": 13.5,
+      "D": 214,
+      "alpha_rad": 0.6044912288421795,
+      "s0": [
+        -0.37452660235544377,
+        -0.7326086593220177,
+        0.5683435373209438
+      ],
+      "min_front": 0.3973162124628903,
+      "min_horizon": 0.5645114267875834,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.011636054055286484,
+      "passed": true
+    },
+    {
+      "month": 10,
+      "hour": 15,
+      "D": 214,
+      "alpha_rad": 0.4163296403450124,
+      "s0": [
+        -0.692034924594376,
+        -0.5979491348512748,
+        0.40440634919875873
+      ],
+      "min_front": 0.3093394977829937,
+      "min_horizon": 0.40014919811883787,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.004285344485531967,
+      "passed": true
+    },
+    {
+      "month": 11,
+      "hour": 9,
+      "D": 245,
+      "alpha_rad": 0.2937270796941411,
+      "s0": [
+        0.6623293001465939,
+        -0.6910116451997745,
+        0.2895216820302484
+      ],
+      "min_front": 0.25038674704440267,
+      "min_horizon": 0.2850677207152552,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.002745928268495801,
+      "passed": true
+    },
+    {
+      "month": 11,
+      "hour": 10.5,
+      "D": 245,
+      "alpha_rad": 0.46276261788730194,
+      "s0": [
+        0.35845003425189653,
+        -0.8198909046577518,
+        0.4464218603566671
+      ],
+      "min_front": 0.3312817723014081,
+      "min_horizon": 0.44225612379548274,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.010711358101176308,
+      "passed": true
+    },
+    {
+      "month": 11,
+      "hour": 12,
+      "D": 245,
+      "alpha_rad": 0.5253523565549678,
+      "s0": [
+        -0.0,
+        -0.8651472822217561,
+        0.5015178761164045
+      ],
+      "min_front": 0.3606218596510374,
+      "min_horizon": 0.49748953372634086,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.0208156359251682,
+      "passed": true
+    },
+    {
+      "month": 11,
+      "hour": 13.5,
+      "D": 245,
+      "alpha_rad": 0.46276261788730194,
+      "s0": [
+        -0.35845003425189653,
+        -0.8198909046577518,
+        0.4464218603566671
+      ],
+      "min_front": 0.3312522192660994,
+      "min_horizon": 0.44225612379548274,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.010711358101176308,
+      "passed": true
+    },
+    {
+      "month": 11,
+      "hour": 15,
+      "D": 245,
+      "alpha_rad": 0.2937270796941411,
+      "s0": [
+        -0.6623293001465939,
+        -0.6910116451997745,
+        0.2895216820302484
+      ],
+      "min_front": 0.2505933959297127,
+      "min_horizon": 0.2850677207152552,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.019316713223058675,
+      "passed": true
+    },
+    {
+      "month": 12,
+      "hour": 9,
+      "D": 275,
+      "alpha_rad": 0.25140646820879436,
+      "s0": [
+        0.6487334583046488,
+        -0.7192080013047062,
+        0.248766458622099
+      ],
+      "min_front": 0.2299633067037103,
+      "min_horizon": 0.24425996511691844,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.014459582417359902,
+      "passed": true
+    },
+    {
+      "month": 12,
+      "hour": 10.5,
+      "D": 275,
+      "alpha_rad": 0.4141870983053444,
+      "s0": [
+        0.3510920176688314,
+        -0.8454417156721825,
+        0.4024458976440255
+      ],
+      "min_front": 0.3082982592290832,
+      "min_horizon": 0.3981847485098988,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.012482636102793357,
+      "passed": true
+    },
+    {
+      "month": 12,
+      "hour": 12,
+      "D": 275,
+      "alpha_rad": 0.47395730781022755,
+      "s0": [
+        -0.0,
+        -0.8897691013411229,
+        0.4564109401609592
+      ],
+      "min_front": 0.33654095899192427,
+      "min_horizon": 0.45226859438607125,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.00024189264418590526,
+      "passed": true
+    },
+    {
+      "month": 12,
+      "hour": 13.5,
+      "D": 275,
+      "alpha_rad": 0.4141870983053444,
+      "s0": [
+        -0.3510920176688314,
+        -0.8454417156721825,
+        0.4024458976440255
+      ],
+      "min_front": 0.30822947671095063,
+      "min_horizon": 0.3981847485098988,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.012482636102793357,
+      "passed": true
+    },
+    {
+      "month": 12,
+      "hour": 15,
+      "D": 275,
+      "alpha_rad": 0.25140646820879436,
+      "s0": [
+        -0.6487334583046488,
+        -0.7192080013047062,
+        0.248766458622099
+      ],
+      "min_front": 0.22988168039247414,
+      "min_horizon": 0.24425996511691844,
+      "min_end_start_margin_m": 133.03654068817985,
+      "min_outgoing_axis_dot": 0.9999891887694805,
+      "strict_vertical_count": 0,
+      "min_horizontal_normal": 0.011545541547728636,
+      "passed": true
+    }
+  ],
+  "all_domain_pass": true
+}

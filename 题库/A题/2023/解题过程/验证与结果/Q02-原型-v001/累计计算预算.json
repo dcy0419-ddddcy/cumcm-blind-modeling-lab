@@ -1,0 +1,78 @@
+{
+  "limit_seconds": 1800.0,
+  "spent_seconds": 76.5333207998774,
+  "runs": [
+    {
+      "action": "tests",
+      "attempt": 1,
+      "started": "2026-09-05T11:23:32.193346+08:00",
+      "status": "COMPLETED",
+      "elapsed_seconds": 0.5684953999589197,
+      "finished": "2026-09-05T11:23:32.761748+08:00"
+    },
+    {
+      "action": "old",
+      "attempt": 1,
+      "started": "2026-09-05T11:24:07.555189+08:00",
+      "status": "FAILED_OR_STOPPED",
+      "elapsed_seconds": 1.8641332000261173,
+      "finished": "2026-09-05T11:24:09.419418+08:00"
+    },
+    {
+      "action": "tests",
+      "attempt": 2,
+      "started": "2026-09-05T11:25:51.409966+08:00",
+      "status": "COMPLETED",
+      "elapsed_seconds": 0.045425200019963086,
+      "finished": "2026-09-05T11:25:51.455209+08:00"
+    },
+    {
+      "action": "old",
+      "attempt": 2,
+      "started": "2026-09-05T11:26:00.729008+08:00",
+      "status": "COMPLETED",
+      "elapsed_seconds": 4.3163324999623,
+      "finished": "2026-09-05T11:26:05.045293+08:00"
+    },
+    {
+      "action": "prep",
+      "attempt": 1,
+      "started": "2026-09-05T11:26:15.766289+08:00",
+      "status": "COMPLETED",
+      "elapsed_seconds": 55.20808020001277,
+      "finished": "2026-09-05T11:27:10.974044+08:00"
+    },
+    {
+      "action": "diagnostics",
+      "attempt": 1,
+      "started": "2026-09-05T11:28:16.892193+08:00",
+      "status": "FAILED_OR_STOPPED",
+      "elapsed_seconds": 1.7581219999701716,
+      "finished": "2026-09-05T11:28:18.650333+08:00"
+    },
+    {
+      "action": "iotest",
+      "attempt": 1,
+      "started": "2026-09-05T11:30:06.072394+08:00",
+      "status": "COMPLETED",
+      "elapsed_seconds": 0.15467909997096285,
+      "finished": "2026-09-05T11:30:06.226335+08:00"
+    },
+    {
+      "action": "diagnostics",
+      "attempt": 2,
+      "started": "2026-09-05T11:30:06.396082+08:00",
+      "status": "COMPLETED",
+      "elapsed_seconds": 12.526295099989511,
+      "finished": "2026-09-05T11:30:18.922765+08:00"
+    },
+    {
+      "action": "saved_statistics_verification",
+      "attempt": 1,
+      "started": "2026-09-05T11:41:12.185468+08:00",
+      "status": "COMPLETED",
+      "elapsed_seconds": 0.0917580999666825,
+      "finished": "2026-09-05T11:41:12.276737+08:00"
+    }
+  ]
+}

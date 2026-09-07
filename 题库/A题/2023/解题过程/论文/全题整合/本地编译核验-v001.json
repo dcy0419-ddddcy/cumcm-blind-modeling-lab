@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-09-05T23:55:18.169957+08:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "openpyxl": "3.1.5",
+  "pypdf": "6.10.0",
+  "reportlab": "4.4.9",
+  "xelatex": "MiKTeX 25.12 XeTeX 0.999997; local log bound",
+  "cwd": "工作记录/论文/全题整合",
+  "command": [
+    "C:\\Users\\admin\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\xelatex.exe",
+    "-disable-installer",
+    "-interaction=nonstopmode",
+    "-halt-on-error",
+    "-file-line-error",
+    "-output-directory",
+    "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\论文\\全题整合",
+    "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\论文\\全题整合\\完整论文-v001.tex"
+  ],
+  "final_passes": 2,
+  "render_command_script": "工作记录/诊断代码/s03_render_v001.py",
+  "pdf_sha256": "f1961abe482d87137cd7372800a83cde1c2a17e80736a75fe0320e13225b9a45",
+  "tex_sha256": "4cd1ee4bce53cec2e7f34f01098c831aaa5ffddd69a7f5ec4be5107b75202904",
+  "log_sha256": "28b4f384d6b0743716dd214e9409bf3dbf83c08e461ea8f74246ecc3a3a876eb",
+  "pages": 20,
+  "actual_visual_status": "PASS",
+  "external_dependency_install": false
+}

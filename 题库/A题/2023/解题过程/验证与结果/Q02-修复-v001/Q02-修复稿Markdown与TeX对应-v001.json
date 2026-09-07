@@ -1,0 +1,425 @@
+{
+  "source": "工作记录/论文/第2问-模型建立与求解-v002.md",
+  "source_sha256": "eb30650b30f15035e8d8e486a5df53b76022c37dcd411a5b34fa9931500cbd56",
+  "tex": "工作记录/论文/LaTeX/第2问-模型建立与求解-v002.tex",
+  "tex_sha256": "6a666b85f94f2ca114a071a8198fbb90763094ac1a819362aa1804bbb48eef25",
+  "math_display_blocks": 31,
+  "tables": 10,
+  "figures": 2,
+  "display_details": [
+    {
+      "start_line": 27,
+      "end_line": 34,
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "start_line": 38,
+      "end_line": 41,
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "start_line": 68,
+      "end_line": 73,
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "start_line": 77,
+      "end_line": 86,
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "start_line": 96,
+      "end_line": 107,
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "start_line": 113,
+      "end_line": 116,
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "start_line": 128,
+      "end_line": 139,
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "start_line": 143,
+      "end_line": 148,
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "start_line": 152,
+      "end_line": 155,
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "start_line": 165,
+      "end_line": 169,
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "start_line": 175,
+      "end_line": 180,
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "start_line": 184,
+      "end_line": 191,
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "start_line": 195,
+      "end_line": 200,
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "start_line": 204,
+      "end_line": 208,
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "start_line": 216,
+      "end_line": 224,
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "start_line": 236,
+      "end_line": 246,
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "start_line": 252,
+      "end_line": 258,
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "start_line": 268,
+      "end_line": 274,
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "start_line": 278,
+      "end_line": 283,
+      "tags": [
+        "19"
+      ]
+    },
+    {
+      "start_line": 289,
+      "end_line": 295,
+      "tags": [
+        "20"
+      ]
+    },
+    {
+      "start_line": 301,
+      "end_line": 306,
+      "tags": [
+        "21"
+      ]
+    },
+    {
+      "start_line": 310,
+      "end_line": 315,
+      "tags": [
+        "22"
+      ]
+    },
+    {
+      "start_line": 323,
+      "end_line": 331,
+      "tags": [
+        "23"
+      ]
+    },
+    {
+      "start_line": 365,
+      "end_line": 375,
+      "tags": []
+    },
+    {
+      "start_line": 385,
+      "end_line": 390,
+      "tags": [
+        "24"
+      ]
+    },
+    {
+      "start_line": 394,
+      "end_line": 402,
+      "tags": [
+        "25"
+      ]
+    },
+    {
+      "start_line": 426,
+      "end_line": 432,
+      "tags": [
+        "26"
+      ]
+    },
+    {
+      "start_line": 436,
+      "end_line": 441,
+      "tags": [
+        "27"
+      ]
+    },
+    {
+      "start_line": 445,
+      "end_line": 453,
+      "tags": [
+        "28"
+      ]
+    },
+    {
+      "start_line": 463,
+      "end_line": 467,
+      "tags": [
+        "29"
+      ]
+    },
+    {
+      "start_line": 510,
+      "end_line": 516,
+      "tags": []
+    }
+  ],
+  "equation_tags": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29"
+  ],
+  "table_details": [
+    {
+      "start_line": 45,
+      "caption": "表S2　本问主要符号",
+      "columns": 3,
+      "body_rows": 12,
+      "header": [
+        "符号",
+        "含义",
+        "单位"
+      ]
+    },
+    {
+      "start_line": 345,
+      "caption": "表S3　可行性修复搜索的参数边界（长度单位：m）",
+      "columns": 2,
+      "body_rows": 5,
+      "header": [
+        "参数",
+        "取值范围或局部调整"
+      ]
+    },
+    {
+      "start_line": 357,
+      "caption": "表S4　可行性修复与独立确认的冻结数值层级",
+      "columns": 6,
+      "body_rows": 3,
+      "header": [
+        "用途",
+        "时点范围",
+        "独立批数",
+        "每批每镜每时点射线数",
+        "相关前缀",
+        "随机流命名空间"
+      ]
+    },
+    {
+      "start_line": 479,
+      "caption": "表S5　低样本全时点候选及启发式评分",
+      "columns": 10,
+      "body_rows": 5,
+      "header": [
+        "候选",
+        "塔位（m）",
+        "镜面宽×高（m）",
+        "镜数 \\(N\\)",
+        "总面积（m²）",
+        "\\(P_h\\)（kW）",
+        "\\(q_h\\)（kW/m²）",
+        "抽样零存活组合数",
+        "必需未定义位置数",
+        "固定总体状态"
+      ]
+    },
+    {
+      "start_line": 493,
+      "caption": "表S6　较精全时点候选比较",
+      "columns": 9,
+      "body_rows": 2,
+      "header": [
+        "候选",
+        "镜数 \\(N\\)",
+        "总面积（m²）",
+        "\\(\\widehat{\\overline P}\\)（kW）",
+        "\\(\\widehat q\\)（kW/m²）",
+        "功率刀切标准误（kW）",
+        "单位面积功率刀切标准误（kW/m²）",
+        "筛选扣减量（kW）",
+        "搜索筛选"
+      ]
+    },
+    {
+      "start_line": 524,
+      "caption": "表1　R027 每月21日的平均光学效率及输出热功率",
+      "columns": 6,
+      "body_rows": 12,
+      "header": [
+        "日期",
+        "平均光学效率",
+        "平均余弦效率",
+        "平均阴影遮挡效率",
+        "平均截断效率",
+        "单位面积镜面平均输出热功率（kW/m²）"
+      ]
+    },
+    {
+      "start_line": 541,
+      "caption": "表2　R027 年平均光学效率及输出热功率",
+      "columns": 6,
+      "body_rows": 1,
+      "header": [
+        "年平均光学效率",
+        "年平均余弦效率",
+        "年平均阴影遮挡效率",
+        "年平均截断效率",
+        "年平均输出热功率（MW）",
+        "单位面积镜面年平均输出热功率（kW/m²）"
+      ]
+    },
+    {
+      "start_line": 547,
+      "caption": "表3　R027 定日镜场设计参数",
+      "columns": 5,
+      "body_rows": 1,
+      "header": [
+        "吸收塔位置坐标（m）",
+        "定日镜尺寸（宽×高）（m）",
+        "定日镜安装高度（m）",
+        "定日镜总面数",
+        "定日镜总面积（m²）"
+      ]
+    },
+    {
+      "start_line": 581,
+      "caption": "表S7　R027独立确认中的低存活组合",
+      "columns": 6,
+      "body_rows": 2,
+      "header": [
+        "日期与时刻",
+        "导出镜号",
+        "联合存活数",
+        "接收数",
+        "未知数",
+        "证书"
+      ]
+    },
+    {
+      "start_line": 590,
+      "caption": "表S8　R027各规定月样本及年度数值工作指标",
+      "columns": 7,
+      "body_rows": 13,
+      "header": [
+        "时间",
+        "总光学效率 \\(U_Q\\)",
+        "余弦效率 \\(U_Q\\)",
+        "阴影遮挡效率 \\(U_Q\\)",
+        "截断效率 \\(U_Q\\)",
+        "总功率 \\(U_Q\\)（kW）",
+        "单位面积功率 \\(U_Q\\)（kW/m²）"
+      ]
+    }
+  ],
+  "figure_details": [
+    {
+      "source_line": 551,
+      "caption": "图1　R027 定日镜中心布局及场界",
+      "file": "工作记录/论文/图表/Q02-v002/Q02-确认镜场布局-v002.png",
+      "sha256": "6c392ba89a9915ab82b600a18a28302b4faaec385eb4bd4deb5ea5f90b37a85c"
+    },
+    {
+      "source_line": 557,
+      "caption": "图2　R027 各规定月样本的单位面积平均输出热功率",
+      "file": "工作记录/论文/图表/Q02-v002/Q02-月度单位面积功率-v002.png",
+      "sha256": "691d473653a957e39d23e13f0139aa17151f7596b0b9cbb85b50c59138f5e5b3"
+    }
+  ],
+  "basic_checks": {
+    "title_present": true,
+    "math_delimiters_balanced": true,
+    "math_environments_balanced": true,
+    "unique_equation_tags": true,
+    "table_headers_separators_and_column_counts_valid": true
+  },
+  "fixed_equation_or_table_count_required": false,
+  "layout": "ordinary ctexart; same fontset as old local workflow; not an official template",
+  "compilation_performed": false,
+  "visual_inspection": "pending after root compilation/rendering",
+  "old_v001_modified": false,
+  "internet_or_dependency_install": false,
+  "new_optical_rays": 0
+}

@@ -1,0 +1,2 @@
+{"time": "2026-09-05T12:36:31.100624+08:00", "mode": "preflight", "error": "Traceback (most recent call last):\n  File \"C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断代码\\q02_search_preflight_v001.py\", line 70, in <module>\n    if not disk_eq:raise RuntimeError('DENSE_DISK_INPUT_FAILURE')\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: DENSE_DISK_INPUT_FAILURE\n", "used": 19.21400989999529}
+{"mode": "diagnostic_layout_figure", "error": "ModuleNotFoundError(\"No module named 'matplotlib'\")"}

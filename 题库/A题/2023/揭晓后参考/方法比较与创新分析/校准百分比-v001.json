@@ -1,0 +1,55 @@
+{
+  "purpose": "统一首次对照中的百分比分母；不修改冻结数值",
+  "q1_annual_total_power_MW": {
+    "A0127": {
+      "local": 35.24859,
+      "reference": 36.994507232,
+      "reference_minus_local": 1.7459172319999965,
+      "local_lower_than_reference_fraction_of_reference": 0.047193958309837684,
+      "reference_higher_than_local_fraction_of_local": 0.04953154812717321
+    },
+    "A092": {
+      "local": 35.24859,
+      "reference": 38.295,
+      "reference_minus_local": 3.0464100000000016,
+      "local_lower_than_reference_fraction_of_reference": 0.07955111633372507,
+      "reference_higher_than_local_fraction_of_local": 0.08642643578083553
+    }
+  },
+  "q2_unit_area_power_kW_per_m2": {
+    "A0127": {
+      "local": 0.456337922463,
+      "reference": 0.58712005,
+      "reference_minus_local": 0.13078212753700003,
+      "local_lower_than_reference_fraction_of_reference": 0.22275193554878603,
+      "reference_higher_than_local_fraction_of_local": 0.28659053105016463
+    },
+    "A092": {
+      "local": 0.456337922463,
+      "reference": 0.7139,
+      "reference_minus_local": 0.257562077537,
+      "local_lower_than_reference_fraction_of_reference": 0.36078173068637065,
+      "reference_higher_than_local_fraction_of_local": 0.5644108562068567
+    }
+  },
+  "q3_unit_area_power_kW_per_m2": {
+    "A0127": {
+      "local": 0.460688109252,
+      "reference": 0.530652,
+      "reference_minus_local": 0.06996389074800002,
+      "local_lower_than_reference_fraction_of_reference": 0.13184514662716812,
+      "reference_higher_than_local_fraction_of_local": 0.15186823654206633
+    },
+    "A092": {
+      "local": 0.460688109252,
+      "reference": 0.7551,
+      "reference_minus_local": 0.294411890748,
+      "local_lower_than_reference_fraction_of_reference": 0.38989788206595155,
+      "reference_higher_than_local_fraction_of_local": 0.6390698714278176
+    }
+  },
+  "interpretation": {
+    "local_lower": "(reference-local)/reference",
+    "reference_higher": "(reference-local)/local"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "kind": "Q03_PARTIAL_TIME_HEURISTIC",
+  "summary_version": "q03-summary-v001",
+  "labels": [
+    "optical",
+    "cosine",
+    "shadow_blocking",
+    "truncation",
+    "power_kw",
+    "unit_power_kw_m2"
+  ],
+  "count_labels": [
+    "shadow",
+    "blocked_after_unshadowed",
+    "survive",
+    "capture",
+    "unknown",
+    "raw_R"
+  ],
+  "coverage": {
+    "levels_n_per_batch": [
+      128,
+      256
+    ],
+    "levels": 2,
+    "batches": 2,
+    "times": 1,
+    "objects": 1,
+    "final_samples_per_object_time": 512,
+    "complete_time_population": false
+  },
+  "months": [
+    1
+  ],
+  "hours": [
+    9.0
+  ],
+  "object_ids": [
+    1
+  ],
+  "input_validation": {
+    "energy_nonfinite": 0,
+    "energy_negative": 0,
+    "energy_order_violation": 0,
+    "counts_nonfinite": 0,
+    "counts_noninteger": 0,
+    "counts_negative": 0,
+    "counts_above_level_n": 0,
+    "shadow_block_survive_partition_violation": 0,
+    "capture_above_survive": 0,
+    "capture_above_raw_R": 0,
+    "unknown_weight_nonfinite": 0,
+    "unknown_weight_negative": 0,
+    "unknown_weight_above_total_weight": 0,
+    "unknown_count_weight_mismatch": 0,
+    "survivor_count_weight_mismatch": 0,
+    "capture_count_weight_mismatch": 0,
+    "prefix_nesting_violation": 0,
+    "all_valid": true
+  },
+  "certificate_audit": {
+    "accepted": [
+      {
+        "record_index": 0,
+        "time_index": 0,
+        "mirror_index": 0,
+        "scene_sha256": "ad3de5ff287ed36044eb3d2a0e57066827440e96946b5559499cebb8d04b9e18",
+        "source": {
+          "name": "q02_eval_v003.py",
+          "sha256": "f2d26131fd500c193cc643021815feee5195c5da668144b22a1571e2003b35de"
+        },
+        "kind": "TRUE_ZERO_SURVIVOR"
+      }
+    ],
+    "rejected": [],
+    "all_valid": true,
+    "accepted_count": 1,
+    "rejected_count": 0
+  },
+  "certificate_codes": [
+    [
+      1
+    ]
+  ],
+  "certificate_code_labels": {
+    "0": "NONE",
+    "1": "TRUE_ZERO_SURVIVOR",
+    "2": "TRUE_ZERO_CAPTURE",
+    "3": "TRUE_ZERO_CAPTURE_SURVIVOR_ONE"
+  },
+  "pooled_state_codes": [
+    [
+      1
+    ]
+  ],
+  "state_code_labels": {
+    "0": "ESTIMATED",
+    "1": "TRUE_ZERO_SURVIVOR",
+    "2": "TRUE_ZERO_CAPTURE",
+    "3": "TRUE_ZERO_CAPTURE_SURVIVOR_ONE",
+    "4": "SAMPLED_ZERO_SURVIVOR",
+    "5": "SAMPLED_ZERO_CAPTURE",
+    "6": "BOUNDARY_UNCERTAIN",
+    "7": "ZERO_PRIMARY_DENOMINATOR",
+    "8": "INVALID_STATISTICS",
+    "9": "CERTIFICATE_CONTRADICTION",
+    "10": "CERTIFICATE_WITH_UNKNOWN"
+  },
+  "pooled_total_defined": [
+    [
+      true
+    ]
+  ],
+  "pooled_component_defined": [
+    [
+      [
+        true,
+        true,
+        true,
+        false
+      ]
+    ]
+  ],
+  "pooled_state_counts": {
+    "ESTIMATED": 0,
+    "TRUE_ZERO_SURVIVOR": 1,
+    "TRUE_ZERO_CAPTURE": 0,
+    "TRUE_ZERO_CAPTURE_SURVIVOR_ONE": 0,
+    "SAMPLED_ZERO_SURVIVOR": 0,
+    "SAMPLED_ZERO_CAPTURE": 0,
+    "BOUNDARY_UNCERTAIN": 0,
+    "ZERO_PRIMARY_DENOMINATOR": 0,
+    "INVALID_STATISTICS": 0,
+    "CERTIFICATE_CONTRADICTION": 0,
+    "CERTIFICATE_WITH_UNKNOWN": 0
+  },
+  "pooled_state_cases": [
+    {
+      "time_index": 0,
+      "month": 1,
+      "hour": 9.0,
+      "object_index": 0,
+      "object_id": 1,
+      "state": "TRUE_ZERO_SURVIVOR",
+      "counts": {
+        "shadow": 512,
+        "blocked_after_unshadowed": 0,
+        "survive": 0,
+        "capture": 0,
+        "unknown": 0,
+        "raw_R": 0
+      },
+      "unknown_weight": 0.0,
+      "sums": [
+        512.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "temporal_point": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      null,
+      0.0,
+      0.0
+    ]
+  ],
+  "area_weighted_efficiencies": {
+    "labels": [
+      "optical",
+      "cosine",
+      "shadow_blocking",
+      "truncation"
+    ],
+    "weights": [
+      1.0
+    ],
+    "total_area_m2": 4.0,
+    "temporal_point": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        null
+      ]
+    ],
+    "required_for_main_table_gate": false,
+    "scope": "fixed full mirror population, area weights, strict component NA propagation"
+  },
+  "limitations": [
+    "finite-sample self-normalized ratios can be biased",
+    "Student-t jackknife halfwidth is approximate and not simultaneous coverage",
+    "low-survival diameter is a coordinatewise work bound for screened objects, not a confidence interval",
+    "physical model error is outside this summary"
+  ],
+  "formal_h02_rows": null,
+  "formal_decision": "NOT_AVAILABLE_HEURISTIC_PARTIAL_TIME",
+  "heuristic_only": true,
+  "note": "partial-time values may rank a coarse screen but cannot establish monthly/annual H02 tables, precision, or rated power"
+}

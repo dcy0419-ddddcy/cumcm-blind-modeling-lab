@@ -1,0 +1,40 @@
+{
+  "kind": "Q03_NEW_PAIRED_CONFIRMATION_V001",
+  "candidate": "Q3F013",
+  "baseline": "Q3R000",
+  "improvement_supported": true,
+  "delta_q_kw_m2": 0.004335106414784906,
+  "delta_power_kw": -139.44955691531504,
+  "baseline_q_kw_m2": 0.45635300283703945,
+  "candidate_q_kw_m2": 0.46068810925182435,
+  "relative_q_difference": 0.009499458506538947,
+  "paired_leave_estimates": [
+    0.004333748481377686,
+    0.0043339470655721635,
+    0.004335338254030208,
+    0.004336106762390879,
+    0.004337671006449273,
+    0.0043339693195290074,
+    0.004335255813606054,
+    0.004334814802410214
+  ],
+  "paired_pseudo_values": [
+    0.004344611948635446,
+    0.0043432218592741045,
+    0.004333483540067795,
+    0.004328103981543097,
+    0.004317154273134338,
+    0.004343066081576197,
+    0.004334060623036873,
+    0.004337147701407751
+  ],
+  "paired_jackknife_se": 3.269937808515654e-06,
+  "paired_t7_term": 7.732174243216277e-06,
+  "prefix_delta": 0.004332220658536279,
+  "raw_delta": 0.004335106576521253,
+  "low_survival_q_bound_sum": 1.8667170698994493e-05,
+  "work_indicator_delta_q": 2.639934494221077e-05,
+  "difference_minus_work_indicator": 0.004308707069842695,
+  "paired_identity_valid": true,
+  "method": "paired whole-batch delete-one jackknife; max(t7 SE, paired-prefix shift, paired-raw shift)+sum of separate actual-area low-survival bounds; pointwise numerical work evidence, not confidence or physical-error guarantee"
+}

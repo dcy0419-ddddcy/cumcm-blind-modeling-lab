@@ -1,0 +1,21 @@
+{
+  "schema": "q03-paper-finalize-failure-recovery-v001",
+  "scope": "Q3 manuscript Markdown/TeX and document records only",
+  "original_failure": "formal Markdown byte hash was compared with an LF-only in-memory hash after Windows newline translation",
+  "preserved_before_repair": {
+    "finalizer_source": "工作记录/诊断结果/Q03-实施-v001/delivery/finalize-failure-v001/q03_paper_finalize_v001-before-newline-fix.py",
+    "finalizer_source_sha256": "07cc4fef7ad90ca446c9563e985f496c9be77f590922dceabb818c40e6ba91d2",
+    "failed_markdown": "工作记录/诊断结果/Q03-实施-v001/delivery/finalize-failure-v001/第3问-模型建立与求解-v001-after-failed-run.md",
+    "failed_markdown_sha256": "96be2815d5492719dcc20b5183a3265bd4c43b824ddeeb357c7cfe3e0ee15f88",
+    "failed_tex": "工作记录/诊断结果/Q03-实施-v001/delivery/finalize-failure-v001/第3问-模型建立与求解-v001-after-failed-run.tex",
+    "failed_tex_sha256": "1570ab0e72ba2c5d7d63fbe12db0d558ee5d7ef639bca9a58a55ffb19cbf4a7e"
+  },
+  "repair": "compare normalized read_text content, preserve actual on-disk hashes for binding, and allow only the exact preserved failed draft as a resumable predecessor",
+  "recovered_outputs": {
+    "工作记录/论文/第3问-模型建立与求解-v001.md": "77f2b1a818537e2b3aff8fecdfee042a39ef3a2831bc8880c274b26763e1f3d3",
+    "工作记录/论文/LaTeX/第3问-模型建立与求解-v001.tex": "9246dc435faa7b573154864cf3737544a7934f7b839ede27303c3d5913335837",
+    "工作记录/诊断结果/Q03-实施-v001/delivery/正式Markdown与TeX对应-v001.json": "948ae0a54b9efbc084e845a2bbfe73e91db534d61535eb9b2e77d233c96e0bf4"
+  },
+  "optical_or_search_computation_performed": false,
+  "tex_compilation_or_pdf_rendering_performed": false
+}

@@ -1,0 +1,3594 @@
+{
+  "created_at": "2026-09-06T00:01:07.830839+08:00",
+  "path_base": "original anonymous workspace root, not candidate root",
+  "self_contained_for_reading": true,
+  "self_contained_for_raw_statistic_rebuild": false,
+  "files": [
+    {
+      "workspace_relative_path": "工作记录/00-任务状态.md",
+      "bytes": 1003,
+      "sha256": "b2c5129a38416b3b63d0fca27210a80bc49e07505500443d7b4a88c15c502fe2",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/决策记录.md",
+      "bytes": 56885,
+      "sha256": "798ca9c00cdd5ae1bd672c62c393d516d2d0bb519faf110e0d9b1801cc1b9165",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/方法库查阅记录.md",
+      "bytes": 32316,
+      "sha256": "e51b3cf1bfecfe1e31237c58e3faa9aa437de8ee31416a6ced4f7530c809d8c6",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/经验.md",
+      "bytes": 6349,
+      "sha256": "70cafbbd2ed412c7d7e1466891c37eb7d9befa791ba48941bb9bc19d3da01b88",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/记录索引.md",
+      "bytes": 37251,
+      "sha256": "d1ec174decedf6165c83b8c6549d7c8747c1136cad2d3115ac204e9865075cfa",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/LaTeX/第1问-模型建立与求解-v001.pdf",
+      "bytes": 466374,
+      "sha256": "57600f55d44cfc38b1d500c58f8b11f4f7da23d1c00aacd480338924d1e91a70",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/LaTeX/第1问-模型建立与求解-v001.tex",
+      "bytes": 35274,
+      "sha256": "5122792cd6ec71ff61f3cd7c8ca6f4f263dee51b333cff06cb1fe1d2254399c2",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/LaTeX/第2问-模型建立与求解-v002.pdf",
+      "bytes": 439961,
+      "sha256": "664e7e4e03ac65637a548dc95271ae32779295ec8b3ea4774c4841002e390c5b",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/LaTeX/第2问-模型建立与求解-v002.tex",
+      "bytes": 54022,
+      "sha256": "6a666b85f94f2ca114a071a8198fbb90763094ac1a819362aa1804bbb48eef25",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/LaTeX/第3问-模型建立与求解-v001.pdf",
+      "bytes": 365132,
+      "sha256": "9380e87e6198029df17a8b132ed6b0f9016a130823e53421ecd6f99b02508988",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/LaTeX/第3问-模型建立与求解-v001.tex",
+      "bytes": 28947,
+      "sha256": "c7ac1b66134af753972759b9977bb8dd0ad5bc25380e0532a405ac1481a54848",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/全题整合/修订前快照/整合草稿-001/完整论文-v001.md",
+      "bytes": 43704,
+      "sha256": "fa705cc55c304628512f4e2dedd51fe107fb031df718e67ae9be78387e8c43ce",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/图表/Q02-v002/Q02-月度单位面积功率-v002.png",
+      "bytes": 76901,
+      "sha256": "691d473653a957e39d23e13f0139aa17151f7596b0b9cbb85b50c59138f5e5b3",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/图表/Q02-v002/Q02-确认镜场布局-v002.png",
+      "bytes": 95508,
+      "sha256": "6c392ba89a9915ab82b600a18a28302b4faaec385eb4bd4deb5ea5f90b37a85c",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/图表/Q03-v001/Q03-月度单位面积功率.png",
+      "bytes": 53582,
+      "sha256": "538f76607b42abf71c7ea57f643dffe9f579f2dc04e21c85edd55e8be7318ca4",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/图表/Q03-v001/Q03-镜高分组.png",
+      "bytes": 103381,
+      "sha256": "d46af90c2cd6fc47c4bbcd205ded4223fd9b55f619dc11f0afd0bff8a7e2ceaa",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/图表/图1-月度效率-v001.png",
+      "bytes": 130315,
+      "sha256": "ec7660e9066d2aeb317ee991d00695772562617e003defcf8d6f843064d744b0",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/图表/图2-月度单位面积功率-v001.png",
+      "bytes": 106367,
+      "sha256": "229abf70f4279cb9c7645202722c26383184989908c2db150ac72b3a4d2b2937",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/图表/月度结果与工作指标-v001.csv",
+      "bytes": 2905,
+      "sha256": "7edf29e261ca783f164f64bdf81b6faabc3c67fc47c6b88d7917d9f56c6af9b3",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/第1问-修订与排版记录-v001.md",
+      "bytes": 13521,
+      "sha256": "a8582660a96c0bdd13c208d8ca5da0a06fe6c793d28bc18cefe5915a5ecbd906",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/论文/第1问-可复现说明-v001.md",
+      "bytes": 4027,
+      "sha256": "e183f245a1db9859b1af4b4285b3b5774fe0347d81fcf382c770929a9940c097",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/AGENTS-逐问写作规则追加前-v001.md",
+      "bytes": 9160,
+      "sha256": "b0a4c77a0f6c66e43bfb6ff9e6d89ed5bc6cc34060129ecd9cd4a0b940048f14",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t000-partial.npz",
+      "bytes": 1144732,
+      "sha256": "9de4b2d62a3c29089f3b7bc4323a155b7d6ef79937611399fc9859b17a8427a4",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t000.npz",
+      "bytes": 1328644,
+      "sha256": "047f5401b4ca21181c73f794509029b2d4410a92648fb3664a9da71c0f497590",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t001-partial.npz",
+      "bytes": 1073417,
+      "sha256": "2f92f30a850a73d16d99f3bf5cb7b901503e652bc20fbafb4c389727485dc904",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t001.npz",
+      "bytes": 1249996,
+      "sha256": "da2c811d60cc74b5c528f963cbadee8f94f44da472c8dbc9fc66da45f02f13f1",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t002-partial.npz",
+      "bytes": 1062286,
+      "sha256": "fa56b6a46d66abae70950fe5d8dfd96bad4202f8956d870328d2fab0193dba50",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t002.npz",
+      "bytes": 1240757,
+      "sha256": "1ae2ac2d7b5b5b3a66f2106bb7b9128f4e64f64ea58572bcbce2b12ca07d3a2d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t003-partial.npz",
+      "bytes": 1083822,
+      "sha256": "4d757278712bf8eb8e7eba9a7273016fe17f5e90f5b7f003e7e6707c3e320485",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t003.npz",
+      "bytes": 1258844,
+      "sha256": "11aaa391661bf12ee2a6e3262e2dc6d9d0a0cbcc688c55c8bf3b785698e0ae95",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t004-partial.npz",
+      "bytes": 1156730,
+      "sha256": "ec0ad3d40ec9529080b6632c5745e96dcae189e84291d79ba384024c857dc6a7",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t004.npz",
+      "bytes": 1338274,
+      "sha256": "1a51d9ee38f11132d31ca4532dd1ca83c740a06ea926cff93b487ad0e07701f3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t005-partial.npz",
+      "bytes": 1095267,
+      "sha256": "da16b5ffc446002ad81c5cfeb97b64beee7873abe3f1c5bbcf7dcaba5f250681",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t005.npz",
+      "bytes": 1270577,
+      "sha256": "85a64a1d0bff5c2bfe61fded507f8019dc857ea057d331d333968ed0c7f5bf4d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t006-partial.npz",
+      "bytes": 1057156,
+      "sha256": "1ef167b218abeb1142fef516f7cfc3d920c22277e5ffb6ebf123df9037186ab8",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t006.npz",
+      "bytes": 1234651,
+      "sha256": "6c87a5811ed28139b8a49b562e39c01aab2f8149a1af0a1cf5e8c3c698bcb425",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t007-partial.npz",
+      "bytes": 1049872,
+      "sha256": "a755c1f7fe2f140eb92524235ab5e03a15b545548f1c9c05d41705104f5c3c91",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t007.npz",
+      "bytes": 1229737,
+      "sha256": "e114f3118c845bbd775a9bcec61d6941ff1658781179a6f7351191ceae1580e7",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t008-partial.npz",
+      "bytes": 1067567,
+      "sha256": "a4389b14df23cb2b4b46f4250fc1ce765f72e8ea77d2b62e50d4f3620762d992",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t008.npz",
+      "bytes": 1244086,
+      "sha256": "1c0490c800b6647bf388256ee0927149e5d35700b4e94ba8c86090fbf710f852",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t009-partial.npz",
+      "bytes": 1104479,
+      "sha256": "30cc305f13ec41bccc5a7c541b4a8b0b7468a244e6ca356dcfe36b066845894d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t009.npz",
+      "bytes": 1277664,
+      "sha256": "e9194bcb5e63b75f8d182bb78854be1695a24d8dff6d3304d2676bb579bc1129",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t010-partial.npz",
+      "bytes": 1073038,
+      "sha256": "886ce235ccbf6ac982f98a372d9e8ce6c32bb75cb1508c263ddc40f4e1e91f1d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t010.npz",
+      "bytes": 1247291,
+      "sha256": "9bf3fccfa4c7b30ae647307cf1b21a9b0ae7beb751bd8ade24025e610ce7d96c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t011-partial.npz",
+      "bytes": 1056301,
+      "sha256": "2f983808e19ff2e1910805592d355ec3e7165439c9d926ad6e488bf9d7d4eec8",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t011.npz",
+      "bytes": 1237080,
+      "sha256": "0ee8cd744a543165fee8df59e689bc4df77dc103e192f92aea53970bfd5498d0",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t012-partial.npz",
+      "bytes": 1055663,
+      "sha256": "5df5e19b57e9898efdb0c0569b9bb4e041b36db806c68cc23ea3ba087ddd8c24",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t012.npz",
+      "bytes": 1238949,
+      "sha256": "caff946e376172bf1ff63719d379638c5fa3bb019e35971566592344117855d3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t013-partial.npz",
+      "bytes": 1066650,
+      "sha256": "a3f1b8fc8d4de61073cfff6f5f0e9e1ff79ec017ce308ec10c5cb27b2259f5b8",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t013.npz",
+      "bytes": 1246400,
+      "sha256": "1140278a22d60b7a51a92f4518483e357b51e17f78ef16e5c79a6c4cfca8672b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t014-partial.npz",
+      "bytes": 1083669,
+      "sha256": "969d11f80c56eecb76af9a247cad0b99180bf5f348e953484cbf68e37daaca8d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t014.npz",
+      "bytes": 1256544,
+      "sha256": "07e9fff78f67b7e7a9125404314491cda7fd0f18db14cf86cae68f94b6f0c876",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t015-partial.npz",
+      "bytes": 1068287,
+      "sha256": "8c7e15064514699c964bc5454fd2a0867787bf19e0f51bf64e6634dd68412aad",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t015.npz",
+      "bytes": 1244008,
+      "sha256": "d5535aaa47285293ef046d7b692ba17f49cd9b843dd5f5a976f46135e8c457c6",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t016-partial.npz",
+      "bytes": 1062831,
+      "sha256": "9149fd2000e1c91aa8b6a2091fca3f2f35e3d57fe20743c302c9b95f2d100c88",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t016.npz",
+      "bytes": 1248316,
+      "sha256": "9bedfef6f0714c483955f009d0c3edeb91156c84715760c272bb51d611a3ca3b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t017-partial.npz",
+      "bytes": 1071716,
+      "sha256": "4b27923ebc7ed034453185aa7ef4a0ea7d298b3ab5f49905171860013d3de759",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t017.npz",
+      "bytes": 1257604,
+      "sha256": "3d5f5002f86324787f3d5d08804485ce0f85eee6e83c75aa8119604d0d2a4c94",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t018-partial.npz",
+      "bytes": 1071696,
+      "sha256": "1e154956d5f73e1711a0a4525914465a93341f9db61f6bf724f6a7ce70581767",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t018.npz",
+      "bytes": 1256642,
+      "sha256": "97a66afa0fdbdc7910743831de5f153d0a855021d6580b2c82235ee75fed422c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t019-partial.npz",
+      "bytes": 1077790,
+      "sha256": "972661d11ea58facaf68cb7ad5a2fbaa8788a4590c66b576f799987104b3acea",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t019.npz",
+      "bytes": 1251822,
+      "sha256": "e7c10653a04fc5408b8d63fef0df214110b70f1ff18e3730afe84479919493ac",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t020-partial.npz",
+      "bytes": 1071619,
+      "sha256": "df596dba863006126a0bbc6ca8df6a4fe012d9e62cd37ba13abb086dc2404839",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t020.npz",
+      "bytes": 1248681,
+      "sha256": "305bc9f17ea5b6e6e20f7d3eb4311da3b1f17f7cea7b70501b20dc76e5af57ec",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t021-partial.npz",
+      "bytes": 1067043,
+      "sha256": "5328b149d4537f598b543c853e0e0beaf641511a9502636441e0f02f9073d2d8",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t021.npz",
+      "bytes": 1252698,
+      "sha256": "eacdf6f1177b3e1c0eefd2ebc84aa0c6bec0b94ff66696d5be804527186da639",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t022-partial.npz",
+      "bytes": 1080038,
+      "sha256": "194f8d5240824f28c78c20ee467eb27505e6118cb14aabc802c3d5f789252c2e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t022.npz",
+      "bytes": 1266515,
+      "sha256": "f057b77a1cfddc4d3768580075de4b9778f4a34c752b9adf23bb9677d64ed671",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t023-partial.npz",
+      "bytes": 1076261,
+      "sha256": "d1001f430d366e1ebb2e4e1af4d4751ed24c88a724c77968e76ee524a628f4cd",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t023.npz",
+      "bytes": 1261770,
+      "sha256": "d9dd155b8f8c1afbb6985c50753e0107c23f69c38fc7b8cd0ffb6f726a176c41",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t024-partial.npz",
+      "bytes": 1080174,
+      "sha256": "73e2bbba8d30bca0316a6f28d76b88af2bd0e152ac97b211c11b8b823350d18f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t024.npz",
+      "bytes": 1255734,
+      "sha256": "ce5fd0e394896db086e079820cb77cf7160bb10020692935263c04279f8c442e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t025-partial.npz",
+      "bytes": 1074478,
+      "sha256": "29c2245ee4ee71094aae787e6164401f0548a11cb7415325ebe15d59fef3549e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t025.npz",
+      "bytes": 1251873,
+      "sha256": "b83b182e59fd3ef5e4b0315208cae3702e43bff5696fd82892865960f8566d58",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t026-partial.npz",
+      "bytes": 1068196,
+      "sha256": "e201e31218f85c2a51520a5d4b5fa160da89fd50b09846e06d5fa8e75a49e5be",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t026.npz",
+      "bytes": 1253604,
+      "sha256": "8076b84ca93482050322e9a76d3068332c8e7e44936bae6d89172f9bd7512375",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t027-partial.npz",
+      "bytes": 1080004,
+      "sha256": "f73903ee5ae49521fe714abf288625e2ad4e6b5b7157a9e04e57ae26ad92097b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t027.npz",
+      "bytes": 1267112,
+      "sha256": "631ab556343538b4a6b8bb11a330c820ca3859ed38714f692008c43ccac0a9cf",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t028-partial.npz",
+      "bytes": 1077602,
+      "sha256": "2c30385ef3720e451f32a49d412489160dff811f789af9e5c17efc989d6b6f17",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t028.npz",
+      "bytes": 1262891,
+      "sha256": "bcb74f167e35b40b0d1a8880c2934847e5c0027c55c9c515f5e3290b699c40f6",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t029-partial.npz",
+      "bytes": 1080669,
+      "sha256": "289d9b86731ad94df4cfa10022f67c9b63ea64166242cd277a93bad3b848d62a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t029.npz",
+      "bytes": 1257714,
+      "sha256": "bfb1b821323602a4bf75de4b7c289fab6f071c8070e6c7966777f0c4f7bed09b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t030-partial.npz",
+      "bytes": 1072217,
+      "sha256": "bdc478c36a3bc138e3ae97c3429f7e26a9f34c41282eecf70e94629a08818012",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t030.npz",
+      "bytes": 1249236,
+      "sha256": "3386a8972f66d3bd035845546d8d86124e8cf38307ea0a732df8451368b2f0b5",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t031-partial.npz",
+      "bytes": 1067445,
+      "sha256": "bc8eb9a1ab620461c72d351c234decdfbc8f3d7cffa4c83216e63cae47c9bbbc",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t031.npz",
+      "bytes": 1253335,
+      "sha256": "011bdb5e639039b3e2d79c54e824ead6a02d18a765dab2af3715be26e0b2a95f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t032-partial.npz",
+      "bytes": 1080657,
+      "sha256": "d9090cfd3725e648396037bff4c51700f366d6d290b7aa13a9152fa84089421a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t032.npz",
+      "bytes": 1267231,
+      "sha256": "d9e75d7c80ee95dbf2ee7e21f82c7568f450dcb0cee425f678a356bd18ee4b04",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t033-partial.npz",
+      "bytes": 1077081,
+      "sha256": "e1e3d269ce8b457fce1e47bd6e4102029509672dad5a458b7764c248c86d3e49",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t033.npz",
+      "bytes": 1262789,
+      "sha256": "5b38e18f8fd8394912149906856ba079d6a949e21819c3949d577be77ac40973",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t034-partial.npz",
+      "bytes": 1078966,
+      "sha256": "9922aeebd94b12b2c9ac1d68fbf9d77575cf74bfba6462be83e5f6dc9c99da67",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t034.npz",
+      "bytes": 1254727,
+      "sha256": "384aba359922665e3f5771221030dcd098ddeaefe9310b87524f7c1d1c476eb1",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t035-partial.npz",
+      "bytes": 1067443,
+      "sha256": "41e6a310b559b19e62ee621e0e3dd06427f0663f1092e6c851d44ffd1d941f92",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t035.npz",
+      "bytes": 1242802,
+      "sha256": "0f36ec4f975ba705ea99e3d356dfce541a85c3108c7ed2d370a08e05dc7ae150",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t036-partial.npz",
+      "bytes": 1063201,
+      "sha256": "f27bbb6d85d23a988f0b0bee62beb58003448162502ad0aae194417521633fac",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t036.npz",
+      "bytes": 1248779,
+      "sha256": "523256414d90a9e216e21f63e9006cf2fba3ba88c5d77d15c8f7070b77ff06d2",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t037-partial.npz",
+      "bytes": 1070752,
+      "sha256": "23d85790ead366b2f9a2bec1a08fcdc189576f2c85c0d7e3cb34574449cf589e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t037.npz",
+      "bytes": 1256662,
+      "sha256": "de84489b532af4d8de35ae4a5d0fb6a8220f33df1ef81af4e7b2743df0b1dfe5",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t038-partial.npz",
+      "bytes": 1072360,
+      "sha256": "738e74d78c2f575d04faa1edf26eaeaf08473655956e895b2db86edca31bc998",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t038.npz",
+      "bytes": 1256807,
+      "sha256": "407fd2f7078de809b3f279cd6751dbd8f99619a03a3a2ebe7e61dc3cd5fae2fe",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t039-partial.npz",
+      "bytes": 1078364,
+      "sha256": "c0ae05dc1a1c318a958ba567dff1181253edfcd30286df97468c80e8cc835419",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t039.npz",
+      "bytes": 1252646,
+      "sha256": "652fd773c08ae194c53ba405052e74407a0e6fee1beae445ca742a3b4c4aea9b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t040-partial.npz",
+      "bytes": 1072657,
+      "sha256": "4dcdb400b24de6edd289c8babf29821177b5cf157a934d343a839164911f574d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t040.npz",
+      "bytes": 1246971,
+      "sha256": "7f6e155a6c20b7572a8c9a1f457fb5c018398139546796f753b09a0cc8e647e2",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t041-partial.npz",
+      "bytes": 1056212,
+      "sha256": "a2de0dc895bee3c9d6365b8d6913d94df5701c23b3bb476ed97ac202d4d7d033",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t041.npz",
+      "bytes": 1236770,
+      "sha256": "b51bcac81f5701735cbf3e1659959200699e080514f8322fec46771faad18eab",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t042-partial.npz",
+      "bytes": 1054954,
+      "sha256": "a680efd33952fc863928fcba93d1d75169da4c96c7fb003cb404a600b3df1173",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t042.npz",
+      "bytes": 1237977,
+      "sha256": "f2779a6899cc23371681153bfb8948cd64bd977f38e136ee3959d21a3e352072",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t043-partial.npz",
+      "bytes": 1066696,
+      "sha256": "c50cb97f0c9b7d468de9062d1befd151276f2f801a7cbc2cfbfdf556cc725e26",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t043.npz",
+      "bytes": 1246273,
+      "sha256": "fce767046e2d41db878bbd498469ceaf78bd041ab70f3ead46fc11bd4ea8bcc0",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t044-partial.npz",
+      "bytes": 1083262,
+      "sha256": "975de0a5dcf46e0e9ddb25d595348200bede7f54895e90ac6e93cbc900559d9a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t044.npz",
+      "bytes": 1255882,
+      "sha256": "3f39d979a45beb54071edd1ef5c2564ddcad5e101a5b9e80b4cab37cda10b457",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t045-partial.npz",
+      "bytes": 1103414,
+      "sha256": "08f5a2f2328f27f9fc3bdf79d170553e184a10afbf0bf38cc68c861b752cb061",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t045.npz",
+      "bytes": 1279200,
+      "sha256": "323f2e5953d05bfdca82c37ac4aa844e3970a620baa11a333fe23f7adf3aed6e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t046-partial.npz",
+      "bytes": 1059804,
+      "sha256": "377a34b38ab6ec699a89e8acef1c970c696c18e4aced1ac50e1b75a9f16441c4",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t046.npz",
+      "bytes": 1236798,
+      "sha256": "fdb1ba40901d5b9d66f6327a7f011ea9d3ff244d6b1db28e3ed60f1a8a76d54f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t047-partial.npz",
+      "bytes": 1049366,
+      "sha256": "b4aca3f6d01a70da0737f52ae05440e25c9ba2c69c4fa3780cefb06491f6ed5a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t047.npz",
+      "bytes": 1229073,
+      "sha256": "5f041c93c33192c08f0013f35b0d9ccd8aec80198411f83a8763d3828fe7e6df",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t048-partial.npz",
+      "bytes": 1069522,
+      "sha256": "64fb0b9e3bff74d4b753145c664e3dcf981f17fb95fb34f568942ac1fef721bf",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t048.npz",
+      "bytes": 1245795,
+      "sha256": "60bb0005f89e276808b156e2924e6df4ee24d8fce3621a45128e2cee356e5dc2",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t049-partial.npz",
+      "bytes": 1113001,
+      "sha256": "414097e093cc435eee1420c7346bbfe9cdc05a4d071cd27458fd0cde06cf2443",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t049.npz",
+      "bytes": 1287007,
+      "sha256": "8a91229c7728d34ff7f6fbdcfca88063c1895969d641c5f7bc8a360c7bfde3f7",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t050-partial.npz",
+      "bytes": 1146601,
+      "sha256": "4bf04be71854f9685cffb6b44b3536ed78f44d9a1a4115bcefbf0012b183902f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t050.npz",
+      "bytes": 1331478,
+      "sha256": "29a8bc2094c3320eee55f674e3ff6be766db7981d1cade2b4c8e7fa7f9171c59",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t051-partial.npz",
+      "bytes": 1075661,
+      "sha256": "ab9e337fa63068fce4ad6c671381fa0f63374bfbced0ca8465917344bacfaf84",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t051.npz",
+      "bytes": 1252010,
+      "sha256": "bf2490b99dcdf1d77be28d3db62e489f87e1b1edc3019698bdb189ccc59a4716",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t052-partial.npz",
+      "bytes": 1064379,
+      "sha256": "1287b56230a787f7bd9d11d2678410a253d47f8c6749c2b36b99bfc97430de7c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t052.npz",
+      "bytes": 1242767,
+      "sha256": "8563d0b3740e04b7f16e6f306204441ddb37e69119f4cf282440c6f91b70a836",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t053-partial.npz",
+      "bytes": 1086185,
+      "sha256": "dc3b830550adb40ae99f3701766358e7e5fb5ed980c39ef1fce0b4a89015a6f3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t053.npz",
+      "bytes": 1261267,
+      "sha256": "3a09d1d28d531255f32259194f4c1a4ebcfc240ba3b524eb1715ba3901401504",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t054-partial.npz",
+      "bytes": 1157415,
+      "sha256": "9e82bedd90887dbfc10b0bc2015e35b8c44e7a66a9b4953e834d67f2ec0e1ff5",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t054.npz",
+      "bytes": 1339497,
+      "sha256": "a58159cd096bd55107b1e0fe34bb47d21d7c3a111156d9c380b9557bae104a38",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t055-partial.npz",
+      "bytes": 1153890,
+      "sha256": "69699dfcb7fb84ea2335b757ec2e43590d2905a7bfa7694f4e0b48f6d0098dc8",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t055.npz",
+      "bytes": 1339854,
+      "sha256": "21cbc97a751577652f2f950dd0efcdc54146c32aa204ef335c4c78d68d09c4d3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t056-partial.npz",
+      "bytes": 1099102,
+      "sha256": "3a8305fb02dc18e11781a5f1579de50cfdc949018bdb9560406104a9ea218bbc",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t056.npz",
+      "bytes": 1277790,
+      "sha256": "0cedc422cff6fcb886bdf5cb9003d8a5d3ca5557792724d1e501bf67103e9ff3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t057-partial.npz",
+      "bytes": 1072797,
+      "sha256": "889d9d010411415950e2aea53d0adefebb62a01e4687729e354650df60630464",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t057.npz",
+      "bytes": 1250593,
+      "sha256": "3356cf4b411a3bee4f9f757f0b449815ff0dc7be8eea83017fda1388b88629c8",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t058-partial.npz",
+      "bytes": 1108789,
+      "sha256": "a09993421363ff719acb17430f5cfc0a282cabb23bad0154d3714123eef6a555",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t058.npz",
+      "bytes": 1287080,
+      "sha256": "3895eb46f32760b94d0f9bc86d4c55afa372370ca786e3345a75d025477bae8a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t059-partial.npz",
+      "bytes": 1169856,
+      "sha256": "f19c69215e2d0abc46ac485886436112b866faf63ba0a62afc19182187e8bbfb",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t059.npz",
+      "bytes": 1352439,
+      "sha256": "bf2c88ed745dd36a47996aa59ae010724f708a59a8745e78198b667f66108e9f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t000-partial.npz",
+      "bytes": 570512,
+      "sha256": "c0b7105999599bb16aa1a7b9a3b1a93f75cd2127d6c57dfdf6451775f50eceef",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t000.npz",
+      "bytes": 660656,
+      "sha256": "e9656de019952d949d197f72b88663644fdced637b6d235c411d7dc46a741b51",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t001-partial.npz",
+      "bytes": 537748,
+      "sha256": "912d4dc6ead5a9eddc6bb187b610f4a9aed7c5744b216638557e57e1f3c9d417",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t001.npz",
+      "bytes": 624838,
+      "sha256": "12502386ceb9757b34106395f05570fb514ef33a8baddd9fc6d9a6e57394492c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t002-partial.npz",
+      "bytes": 531422,
+      "sha256": "8e5bf1671e13ed424b4df74cbd487ed6024b7bf9f7b78e4c565ec072768c25d3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t002.npz",
+      "bytes": 619234,
+      "sha256": "a6147f24dda0aacf965b0a274a61e600a7d6c18bfd93e5ed5ac81fb1f9a4e3a3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t003-partial.npz",
+      "bytes": 543420,
+      "sha256": "abe9c446a95afcb7fd7b0df9f28a7df653555c54cb3f2ac1ae6a6747854cf0aa",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t003.npz",
+      "bytes": 629759,
+      "sha256": "01bc1c49b9192d04cd7e4b1fa6ee080fd76c3c3a045bb80fa882b5fac2b194a6",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t004-partial.npz",
+      "bytes": 576041,
+      "sha256": "bf53a7aabc7c092517a43960fe5ceda8fea76b436289d236f1360c4cb636641c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t004.npz",
+      "bytes": 664840,
+      "sha256": "adb71898bada229804d70c856292effeee4442d6aec5b5f94973a214e93a1759",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t005-partial.npz",
+      "bytes": 547778,
+      "sha256": "57bce483af51d3ef70f62dab06991f78407d0212c30a7afbb9ab2cbd0dbb3074",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t005.npz",
+      "bytes": 633918,
+      "sha256": "a14d29ded165e81ad5fb89e55a7f50622bc597e4a6b16798c89aa755ba161aa6",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t006-partial.npz",
+      "bytes": 531399,
+      "sha256": "d6966ffa469d3bf30e32d2816bbe739a4487f3b33bc851c3244be0ca9b45eaef",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t006.npz",
+      "bytes": 618731,
+      "sha256": "b91a76f3f36035c6a870cabab1336939a9406abb0ce7547d54874f61965991fe",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t007-partial.npz",
+      "bytes": 526744,
+      "sha256": "deb78492ce70561db8b37d258f41ada700187692b9a54d05dbc0692c989a924c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t007.npz",
+      "bytes": 615278,
+      "sha256": "d281156095677fc99bf4c033bf652ecf4c240eb4f7a5b76a358714e2a275f50e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t008-partial.npz",
+      "bytes": 536004,
+      "sha256": "2fbbc0c2307ec16c165401afae9fc170cc6cb05077340cc163bab5a9f301a442",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t008.npz",
+      "bytes": 622800,
+      "sha256": "8c6a25637d9c4d0358c5177cf07e9d57802845d583fd43a322ca4815ec2d2a7a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t009-partial.npz",
+      "bytes": 551864,
+      "sha256": "740807b4bf8e466630adbf592019ecc8283c25463bdc88535a76a18895f575c9",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t009.npz",
+      "bytes": 637451,
+      "sha256": "98836ad60e92cbdbb2c807af294ebfa694f16ce9f9998b5d986d7fba66efb4fa",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t010-partial.npz",
+      "bytes": 538616,
+      "sha256": "eea579de2e0b173fbae777313a1e1772dcaf49b08cfa54128534d62f883cf148",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t010.npz",
+      "bytes": 624259,
+      "sha256": "53e067edb1f1f957ec62b5dd7ddee20e4c51ade3381d19aeeaa2b45ffebc8eea",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t011-partial.npz",
+      "bytes": 531666,
+      "sha256": "052832676c421af02162c1277a1f6b3796c54cba0f606eda77686c86f2f692e8",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t011.npz",
+      "bytes": 620547,
+      "sha256": "ce13935922f0b40a539004e5473ab65a0390493bc0286e703decde4c78b9cca9",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t012-partial.npz",
+      "bytes": 530170,
+      "sha256": "6ae2d4a23d7040a7ff58551f6cc607f080f6bc1299b1168e3ca9dd96232490fa",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t012.npz",
+      "bytes": 620682,
+      "sha256": "36a74a0d75dcb863467861ac197bef876a0998b27960d594eea461a4aec3da76",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t013-partial.npz",
+      "bytes": 536464,
+      "sha256": "c89da9d1911b666ea36c2de8f7516e8c5502a065a308a7a9afbd47e783ca0939",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t013.npz",
+      "bytes": 624996,
+      "sha256": "519f532d6fc0dc0637f6287e028afe97edd69b883260ebaf05f52fa5235d823b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t014-partial.npz",
+      "bytes": 543606,
+      "sha256": "616eb475ec02f94aa5f6ba450b2dc744caac50819fe058e25fb6d569a4efa741",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t014.npz",
+      "bytes": 628918,
+      "sha256": "d13a65cd15032faf2375f4a6a0564036928c32683d2ce0ef44fb05b7adc4d1c8",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t015-partial.npz",
+      "bytes": 537013,
+      "sha256": "3f5844cc876e9e1a834194ee27f04b05600347a72dad34014c0f96b0e922a678",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t015.npz",
+      "bytes": 623670,
+      "sha256": "35cd04ece3ff28eecf23fc7d4deea4087b375e5da30db6e96c08009e02bedf02",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t016-partial.npz",
+      "bytes": 535017,
+      "sha256": "80be2a3b3f65f443d8aa2bebd43f1a1c3240df362197fbe536e1cfa4ee8b6620",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t016.npz",
+      "bytes": 626846,
+      "sha256": "45ef6aee6d792da587df5c0f0dd112dd1600312c2a419dc543083c881d9870cc",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t017-partial.npz",
+      "bytes": 538190,
+      "sha256": "c168f48d38d5708e6a60bfff8efe9c7b3354b9550fbd23818cae7fca21dd6ea5",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t017.npz",
+      "bytes": 629785,
+      "sha256": "9f48dc09d1a17f6ee7f075b0522ef782b88ad579ac11290fae46645190a68b1a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t018-partial.npz",
+      "bytes": 539873,
+      "sha256": "ef779ac61d28866173dbe489a493cb803c1d08ddd0a30559dd001f1d31a57efd",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t018.npz",
+      "bytes": 630938,
+      "sha256": "23065feb1968cfc2b72c91dc2f385a50e5a3a442b8dd5c64e9bb6c4ff224d76f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t019-partial.npz",
+      "bytes": 541830,
+      "sha256": "6b7055233e3a36610b71f279303445fd875791ee86dbb89e99ebcde5c35d84c0",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t019.npz",
+      "bytes": 627735,
+      "sha256": "555adea9ffd787b62b1f8afc9802d63f3e7aa2a978481d1d4427838859db6811",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t020-partial.npz",
+      "bytes": 539454,
+      "sha256": "fccc9e0cbd3c14a336c407369f741afa82e55cc9779eeb8ae8e153564d5fc4e9",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t020.npz",
+      "bytes": 626785,
+      "sha256": "f95ed84378c5f39f74298cd53f8bad1fc97729cdeadea80264ecbb55967d9f8b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t021-partial.npz",
+      "bytes": 536699,
+      "sha256": "2ff173b3b46505f15357069f783f42e50c7d6ff3badfd6b1988dcd7ef0156fee",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t021.npz",
+      "bytes": 628369,
+      "sha256": "28de87305f2738c7789a8b21635219ebefb4d38b152d17b8e1cf545dda77830c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t022-partial.npz",
+      "bytes": 541645,
+      "sha256": "e13ecdda0582472d02fd441058aea9153945d75b234e8b1c2e6d590d336a0176",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t022.npz",
+      "bytes": 633730,
+      "sha256": "2130f075cddbce0b84ff2e33be1b425872689ff9a13297ecf74a2f29dfe02fd8",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t023-partial.npz",
+      "bytes": 541187,
+      "sha256": "1e2c7fdb6fab1df6ad8143fd521adb3e9315d5e495995918a7ec0470022e259e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t023.npz",
+      "bytes": 632838,
+      "sha256": "5709b009974008e3bf7e97c355f39d6b6b547af095a2e81946af6704cfb263bc",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t024-partial.npz",
+      "bytes": 543007,
+      "sha256": "1fda99cda843199126156a37606f0d9491c7abb2fd970a95298bf64ba0084f5c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t024.npz",
+      "bytes": 629435,
+      "sha256": "edaea12498693c5d9d16a401473631a5a29632afcaaeaaab8ca6bd3c28426209",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t025-partial.npz",
+      "bytes": 540371,
+      "sha256": "6e493f09f8cf588ecb99df0c977d2a7f3356bf240dff629b300bb62c73faf7fc",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t025.npz",
+      "bytes": 628113,
+      "sha256": "59e1c23e0819b4addd8236215bb4ca515ce14b93a455b92a8086ae5306f16847",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t026-partial.npz",
+      "bytes": 537404,
+      "sha256": "8d446091f5befc22aa78d8404e2dde25d00724cff58e7c7e32fb94006c1b1dcd",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t026.npz",
+      "bytes": 629098,
+      "sha256": "3806cf56f0b91b452f2d7dfa4d37a0a343fcb77011c585bb16b5ec037cafd3fc",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t027-partial.npz",
+      "bytes": 541348,
+      "sha256": "9ed09fdb9be706a750f7a0cd2439e183de29a373af5eae71d4713c5a5bf0eb2f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t027.npz",
+      "bytes": 633286,
+      "sha256": "d0483041695ab3022aac3df3916e659e5a707b0cb695eda3ca1fe729262f6a3e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t028-partial.npz",
+      "bytes": 541659,
+      "sha256": "c3867f8c9b2246c7b8a69a0709f71441cb3e679d754040a8b982ab3cff629a73",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t028.npz",
+      "bytes": 633165,
+      "sha256": "e88fccdb17be6c195584c967e3101ef769214f9324e28f58e3786279ff355680",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t029-partial.npz",
+      "bytes": 543037,
+      "sha256": "08041b937a5c4d163a0cd2d0703fa43644edc9d9b0953b3e005d373f9be721c8",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t029.npz",
+      "bytes": 630094,
+      "sha256": "de15ba9758009aaee057490d69a55895460b85fdc93dc7d1f5d93a2e545d85a4",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t030-partial.npz",
+      "bytes": 539093,
+      "sha256": "0b2989803793bfb41bd458be7a2e622fbdd481c29864daeb45ff285de9c0ee23",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t030.npz",
+      "bytes": 626363,
+      "sha256": "435f464cf9f6252be6be207af47c5c7fd55fada750d3d2a67bc3822e240a62d3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t031-partial.npz",
+      "bytes": 536703,
+      "sha256": "9199bb16e6b50bab81937fa506c7bd22f05a18e5b88986fab71955f97948b71e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t031.npz",
+      "bytes": 628657,
+      "sha256": "2bc77432bf670ff65068eebd71ac1864f1aff885c68182268492188905a211c5",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t032-partial.npz",
+      "bytes": 542132,
+      "sha256": "b006ae731349c8beccd0dbfb54cb130afa33b611fd9f2deca18bf448d5535183",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t032.npz",
+      "bytes": 634096,
+      "sha256": "df53708b46e8ef15bda8a2c7733c89ac970349b87741f5f0402f5cc60e72bbf3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t033-partial.npz",
+      "bytes": 541378,
+      "sha256": "499baf7e6123fd13dc45b31f1b23e162ce315b3d8c1170850c1859778059cde6",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t033.npz",
+      "bytes": 632987,
+      "sha256": "48d19d034dfad0c92644e7f3a0a7e0510c928d4c431b24bcea0292f849fdf67c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t034-partial.npz",
+      "bytes": 543094,
+      "sha256": "9135f731cda0488b5bde44742d6e3135943a0f11b7f70f06660af69d81151726",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t034.npz",
+      "bytes": 629397,
+      "sha256": "6a6bbad6db969e67189849af7276ffcc2c18f7d616546d36b3205ed7f1cbcc94",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t035-partial.npz",
+      "bytes": 536669,
+      "sha256": "f04e8a9f22de552ff2db9e9e8bed11e4f628a05d988f3ac7eb3f70aa01376e11",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t035.npz",
+      "bytes": 623406,
+      "sha256": "83fcca30a6a904b10c63ced2e8d23ca653fd84140f216a1a6fd00ac1b2becf9a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t036-partial.npz",
+      "bytes": 534522,
+      "sha256": "d1e7af0fdb9d651978764926c18dfe54b474e2489581b6467c0b0fb870909c92",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t036.npz",
+      "bytes": 626036,
+      "sha256": "fc0e6b7f090c3dd722653b63b28ea6d023d565ca28f6d5d50e6080644c69cd2d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t037-partial.npz",
+      "bytes": 537753,
+      "sha256": "87a7687b9c7bbd47d8ef4f7236cd372d1b1a35a296cdecf326097f330e92de74",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t037.npz",
+      "bytes": 629311,
+      "sha256": "938ce1f299bcb6a8b73205ee9ef37f68974972d9b051b783935b6d014cece3b9",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t038-partial.npz",
+      "bytes": 539071,
+      "sha256": "b7f00845a78918d4d244ca3771dd79dd70948c3ea72354ef75527a1c7108d719",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t038.npz",
+      "bytes": 630257,
+      "sha256": "8093dc391a2a129c3f41c723956e565f4e324dee00da96cc0e50fffe47854132",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t039-partial.npz",
+      "bytes": 541196,
+      "sha256": "1905a9ff8aead72359d49ae82bd34bee85a9886f2eaac4e05bbf3bb7bcd1b8ab",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t039.npz",
+      "bytes": 627185,
+      "sha256": "eb1525b8f122626112e4a183a4b373e978e6c96630ade18a5e24969de596839b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t040-partial.npz",
+      "bytes": 539302,
+      "sha256": "ab6305d9b6df15967c32d88d047cfe54e90bb5fa015b6eb5f3ddf3547c49e77f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t040.npz",
+      "bytes": 625098,
+      "sha256": "722a840761bd3ab2830ef00a347a9ee63499996b64e517d7cb9bc818041bda28",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t041-partial.npz",
+      "bytes": 531267,
+      "sha256": "506e1caff155fc242e362ba27bc07c52a8a19be509925a3fc2648ec7351d313e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t041.npz",
+      "bytes": 620149,
+      "sha256": "cf12b354721368b700dc62d3f5681253fa5acc62e9ea2ed442d8640ce0e1bb7f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t042-partial.npz",
+      "bytes": 530100,
+      "sha256": "185304f4930c3dce5ede62f280653009ece1a6183d02696ec8ee8e256d1f69a4",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t042.npz",
+      "bytes": 620508,
+      "sha256": "28e21f74c0f10d37e50df232516ac5f0bcb4f9926e82b8acbe4db2db967a9fba",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t043-partial.npz",
+      "bytes": 536247,
+      "sha256": "abf917263a3f2e8ef957de427268433f6c4584ee1f1a3f6467cee4cfdc805527",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t043.npz",
+      "bytes": 624639,
+      "sha256": "8ae022a0bbb2a1de4a0854cb927c282352cac09bb645df356a4cd7cd52bbc424",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t044-partial.npz",
+      "bytes": 543860,
+      "sha256": "8a80cb11b97a0058db7bfcea1d98ea7800803afd14a99300f4baa2e86705c0f0",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t044.npz",
+      "bytes": 628675,
+      "sha256": "7035517484179849b78723052c71350e0f902539fa5942873b0fbcefef1539f2",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t045-partial.npz",
+      "bytes": 552808,
+      "sha256": "9b89891e7bc0a0264eb41883fcc25cac908bde2941fbc3a7d793ce3d08e0c948",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t045.npz",
+      "bytes": 639479,
+      "sha256": "ed9c96c7d733a63fc9ebe9dbc00ab630b257a9bb8d618402cb69e2ebe1bf8f63",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t046-partial.npz",
+      "bytes": 532892,
+      "sha256": "37aec14f1b260e49461e07dd372c246697a0d6639354ef27fa2a321c481a43aa",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t046.npz",
+      "bytes": 620017,
+      "sha256": "e82f0314e158fc192211c7cfaff60d4b9652f925025d30fd3144a79c474f42ef",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t047-partial.npz",
+      "bytes": 526089,
+      "sha256": "5be1934fca04f2aec2cee6208ab031d833a06f1e32bf1d483f04f94fe2bdbc0a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t047.npz",
+      "bytes": 614536,
+      "sha256": "f694f816eb7650a27349067dbd3f75f968865129ebac28e598ee9526583f86e4",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t048-partial.npz",
+      "bytes": 537859,
+      "sha256": "8bf9fbabfcfb443fe770d109e7db19a83cfc02a0e89af45176bb3a2b2e30b78b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t048.npz",
+      "bytes": 624420,
+      "sha256": "c3d0c00575ec3d63ee70a7ee886ded669f45e7ce94a8c06286413000cebcc8ec",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t049-partial.npz",
+      "bytes": 555766,
+      "sha256": "f1d1e59376596d93cee9158012f0c07b8ad4708f49fa8f0016b355a7a4e449e1",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t049.npz",
+      "bytes": 641257,
+      "sha256": "8966043087b7215a63ba2bb45ac988472455553fc02f79104643a576581ed84b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t050-partial.npz",
+      "bytes": 571103,
+      "sha256": "4ed74bc5cb63d10741aa6bc2fd0116b44ff48656ef9a5a729b414ea2d66cf05f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t050.npz",
+      "bytes": 661658,
+      "sha256": "aa0cc374e49662ac2d2f8df71c165d691ba200e39898a7785fe34f84ab2a2788",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t051-partial.npz",
+      "bytes": 539173,
+      "sha256": "cb41dd718fddb540e83b1768b1c9ab02806104368bab3344762fba4d671181c5",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t051.npz",
+      "bytes": 626229,
+      "sha256": "b1f5c7ed52df2c8bef5ab8c71998424df2339d33c752a6fe9eaed747e12fdccc",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t052-partial.npz",
+      "bytes": 533289,
+      "sha256": "5909df997d071668eceadf1a0328a990ac798ee62c8c4d1d99b05376084cbe85",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t052.npz",
+      "bytes": 621311,
+      "sha256": "285133473313ac90862f8f2dd51b4104bd7ae8b74c522567344b969091025f45",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t053-partial.npz",
+      "bytes": 544878,
+      "sha256": "cfc4c9f0ea3f545f7e8745458a094832398b80c774be94c5e693a773392cc958",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t053.npz",
+      "bytes": 630971,
+      "sha256": "a47fd2ba58a255485751cc8fed4ff77e611c741ae139aff6281b130514637150",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t054-partial.npz",
+      "bytes": 577368,
+      "sha256": "f159fa83b89638c3e52dc7c8a6d213f4a8d6089731eea6fdaf98754b8523a6f5",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t054.npz",
+      "bytes": 666272,
+      "sha256": "4e4fb8ea6a407533a4b3419ed9702bc2048dd742e544a979886331e225ee8b89",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t055-partial.npz",
+      "bytes": 574335,
+      "sha256": "59a53650e0a8d48e273541249b32e61621cac78cfc4fd23db2b6567748cc71e2",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t055.npz",
+      "bytes": 665485,
+      "sha256": "ea3c1b59d9422fbe8fc2faecf2c8abf3446277924a457dd81c14490f3d5e0ddd",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t056-partial.npz",
+      "bytes": 550907,
+      "sha256": "554ed49520f23385c22c74093f5383cf7c4075af842a987268d222c657d90d11",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t056.npz",
+      "bytes": 638804,
+      "sha256": "be97bd2fc460d32169d8ba4021f1acd888409ff95a216d38082c0078dfb6e148",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t057-partial.npz",
+      "bytes": 537216,
+      "sha256": "2e8948196d40ac763f2d2499c4e64dfd227e62640188e3cf75d16a75b9d1946c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t057.npz",
+      "bytes": 624597,
+      "sha256": "82de1900f4f372f1fa5d04b707e090a2e2355d59f840a21943e9076d2dbfc933",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t058-partial.npz",
+      "bytes": 554428,
+      "sha256": "89acfee00047e68635134b3ef3d5ee94979649891864bd0986e83c78ce05ad96",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t058.npz",
+      "bytes": 642173,
+      "sha256": "d7dd2fcba4e7ec8ad810933e95459c37df376c950d09d97d2620128b35d49bb2",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t059-partial.npz",
+      "bytes": 582019,
+      "sha256": "ee5b21ca29dc2c544ee2a80b22d85e3e440bccbbbd86d9733283eddd3046858e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/initial/t059.npz",
+      "bytes": 671810,
+      "sha256": "41f19c14f86f8ba584201714d07f03fbf85a2de7c70b57a0478544ecdea4dbc2",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/压力测试与计时.json",
+      "bytes": 12531,
+      "sha256": "2af299990d9e68ac1f56124f0905a5094126259bbbe691d8fb0efae1c1574240",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场-v001/稀有分母补充核查-v001.json",
+      "bytes": 8843,
+      "sha256": "68f13c649df2fb856d46f3b8651a0639cfa927adfd3ddc0ed594a48eb9128cb6",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-全场前核心回归-v001.json",
+      "bytes": 15917,
+      "sha256": "cdeac585bf7d77ccd15e71dea0ee9aab0dbf2c5fb00e1f60cfb9b561931b8b94",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-原型交付核验-v002.json",
+      "bytes": 11633,
+      "sha256": "7b16b42ccb826d06b97d463ffae66b11768ed51dceded431c75770a4303fce90",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-基础与交叉验证-v002.json",
+      "bytes": 15917,
+      "sha256": "21e0f0d59b3e9faf660cdd1281ea4d9868165d1a669910e21f1111fed4402d85",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-小样本计时与筛选核对-v001.json",
+      "bytes": 7100,
+      "sha256": "5614954ae4f19c4036463f0d5ef6e3622c56290010e4bf2278dee4e2c06c050a",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-局部细化补充-v001.json",
+      "bytes": 1919,
+      "sha256": "aedfb5f9bcbaefe60797ed5d2e7138737836e3b310cc337d7800fcf9fc0664b8",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-局部细化补充-v002.json",
+      "bytes": 3456,
+      "sha256": "df8d8b3c756b8cb207179094141f3f131bd7de2bc07ef1f32afb0ee0b2ba068c",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-文档核验-v001.json",
+      "bytes": 9393,
+      "sha256": "cffad9db7c57222ea84467865fbd73906aea50cfcf93c110df94ce364c4ed24c",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-方案输入版本-v001.json",
+      "bytes": 2538,
+      "sha256": "951b6284d456bdacfb0dea0b4a797bc19dd575754fd65e1d03cb390c709c57fc",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-本题局部试算-v001.json",
+      "bytes": 391177,
+      "sha256": "8beb9ffe882ba2bdd1e7e2a605bc8b5cf809e0bd2a4b6d765c5652cb0da85eac",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-论文收尾-v001/PDF自动核验-v002.json",
+      "bytes": 423,
+      "sha256": "95dd8cfac12ba470ad8d99f9cf64ceb64b47e4183a4fc125f9f8bc629ed977fe",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-论文收尾-v001/最终文件核验-v002.json",
+      "bytes": 52510,
+      "sha256": "8e70e4c71a08e38d214b815a5f44c56d605b1643eb41ce14e28b170a5e126394",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-论文收尾-v001/论文人工核对-v001.md",
+      "bytes": 2307,
+      "sha256": "1980f03bd6d80d8405bb862ae981ec7542bc9f840923c22a4fc7194e3851e739",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-论文收尾-v001/论文归档哈希清单-v001.json",
+      "bytes": 32610,
+      "sha256": "10d16a1ebfe64c1dc8f56d204f6239979e91fdf69741ee7a375f5034e52b076c",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-论文收尾-v001/论文数据生成与逐项核对-v001.json",
+      "bytes": 12342,
+      "sha256": "86044cd1e05beabb6d284fc1d8ab867693765c3ff6a6a7b9aea1a49512ef53d7",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-预选与适用域-v001.json",
+      "bytes": 33211,
+      "sha256": "889bdf2661281dabad003c79977da5decc84a111edc0eaef1edf305efd73e6f7",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q01-首次测试失败-v001.md",
+      "bytes": 1062,
+      "sha256": "0cbdaa74ce5385b0f3bbef58d93f32f49393d25a566ef1a89778b76112497ba0",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-00.npz",
+      "bytes": 7753118,
+      "sha256": "797bd3a4694b95787920596493f16290856d06c654cd1dfe13093898ef04b814",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-01.npz",
+      "bytes": 7753118,
+      "sha256": "73fa51890465e0ee7352cc6fe0dd0f1093842eebc7858132d7534528c90b0419",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-02.npz",
+      "bytes": 7753118,
+      "sha256": "8d31cca8589604db7e992f1c99a8830be4dc3602d45dd31b9a38c2f3dd4b94c5",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-03.npz",
+      "bytes": 7753118,
+      "sha256": "a0e5bce4b9ef71d149b443101e1e257fadf6edb00897a85c26784f608a8a3d4d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-04.npz",
+      "bytes": 7753118,
+      "sha256": "999c958524524dcef5e579a89ff2e321945d2dc2c3e2af0b2a2c4016191929fe",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-05.npz",
+      "bytes": 7753118,
+      "sha256": "3449c8daa00d5d01b364b24a376f8732dbfabea8cc5e2ea1fdf92f06250a683c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-06.npz",
+      "bytes": 7753118,
+      "sha256": "5628fa61c83a5676aed56ef931b6f987d074a1462c9f1c841951b3540f230bb3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-07.npz",
+      "bytes": 7753118,
+      "sha256": "4f33892199174d7e4aa40c5354986d6df5f4ce583a8c789b32e226e0dce12693",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-08.npz",
+      "bytes": 7753118,
+      "sha256": "2746a3f45fac1d1283beb60e56712e5719d53ad0ef8eb887404189fed71f2ed6",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-09.npz",
+      "bytes": 7753118,
+      "sha256": "fca2f3a3320fa7fa561c3babe2582cccc4cd4708490ab19cd7df22a461efc9cc",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-10.npz",
+      "bytes": 7753118,
+      "sha256": "267714d4a653f9d2d603302a4d5c820619b7de205dd9b121e93be71d21caa6de",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-11.npz",
+      "bytes": 7753118,
+      "sha256": "ce0183bc81ebe8a53c86250deddafb2be75506948101057c1f758627b082f85d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-12.npz",
+      "bytes": 7753118,
+      "sha256": "bad7ad39e8988b6276efb16d72d4a0c1899b04d0a8edcd11194b3eb133caf791",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-13.npz",
+      "bytes": 7753118,
+      "sha256": "d6ebab47199bedb25bebf0d6f7240cede2d76a35619b8416e3c0f86aebb7704e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-14.npz",
+      "bytes": 7753118,
+      "sha256": "4b15a99cbcc637884e00e1589b208b0c25220aceb6af2fba07cac54d75ee7d64",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-15.npz",
+      "bytes": 7753118,
+      "sha256": "e5880916dad835098d971376edb968b6546c002979cb07b113b729ae5ad793d3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-16.npz",
+      "bytes": 7753118,
+      "sha256": "0db6f4179b6e41bd3a3099b391a975e407efb980d5107fc74bcac2b4e0924714",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-17.npz",
+      "bytes": 7753118,
+      "sha256": "bdfd0ecbf28aa499d3fe80fdb4133d95c1a9c13e483301d20f23f2b75bc22267",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-18.npz",
+      "bytes": 7753118,
+      "sha256": "3f0b46eac4a7249635969b3888added9a2035d2245337d7aabc2aaeb413be294",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-19.npz",
+      "bytes": 7753118,
+      "sha256": "a32705e30e2a654a37607b8c286af9771c2cc39efbc7bab7d16f2b531ef28d9d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-20.npz",
+      "bytes": 7753118,
+      "sha256": "f624c60331ade1931d12f72195d8c9779f8129745da1983225cfc3f4a1947a50",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-21.npz",
+      "bytes": 7753118,
+      "sha256": "1b5fe72b3de7dcca3b7bdc91636a362bdeb8106fda57c6ff0e6f238e946477ad",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-22.npz",
+      "bytes": 7753118,
+      "sha256": "a8c58e2fee985eb103d3db1cd7b4c0cd161de7d8be0c5347f4e7bd28af69dae4",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-23.npz",
+      "bytes": 7753118,
+      "sha256": "b02156007c1f7223d0cbe5b8f71ffc13ffedf16da36566eaf5c3326490f329bb",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-24.npz",
+      "bytes": 7753118,
+      "sha256": "16b7cf949933a37b82de9158d8bc824da81c6327272b5c5a11536a5824b86886",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-25.npz",
+      "bytes": 7753118,
+      "sha256": "ceb73eee6e8d48428c892a7f7a5d1fe386bae70d9c6ec59a372a670fe12bed93",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-26.npz",
+      "bytes": 7753118,
+      "sha256": "e2d6437bdf3d3a2e90672dd43f6e87a434c0e2a870859f033544ad8ade2d7425",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-27.npz",
+      "bytes": 7753118,
+      "sha256": "2b45a0422af852330ed6d4221960cfd3b7a23b19b83ad41ef43826f23d8df360",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-28.npz",
+      "bytes": 7753118,
+      "sha256": "d3da1e9a2ea4950a62f70d8b6343c78aaa57dcd690e07892371b7cb7f502f863",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-29.npz",
+      "bytes": 7753118,
+      "sha256": "af33ccda04f276224f50870e75d4e02088fc39e0800cdedcfc19043d2e217b14",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-30.npz",
+      "bytes": 7753118,
+      "sha256": "73fa03218c23620f7e9b1f863f0a35287999f5b8de5ea0e870c7aa49c9463234",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-31.npz",
+      "bytes": 7753118,
+      "sha256": "c958f4cb701c0425db2a1ac398a47d861f30326d5437f3f92d6e11ccdbc6d127",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-32.npz",
+      "bytes": 7753118,
+      "sha256": "b4df0f76615fb044a222a1c7936feebbb221a1997f8cc43baf930eb0e94e122d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-33.npz",
+      "bytes": 7753118,
+      "sha256": "8c2678cfb355aa8e6cf02226a843621783b40b967e8bff57691455cb582426bc",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-34.npz",
+      "bytes": 7753118,
+      "sha256": "0a3348f0e0fbcca872664571d78462f1e12990c9b59273eb399e216ec1136d2b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-35.npz",
+      "bytes": 7753118,
+      "sha256": "9e8154e2e389fc8a13e0222ca8b674ac73715a7f0a619bad330a6c15e561f87f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-36.npz",
+      "bytes": 7753118,
+      "sha256": "e00c537d66c1a888c1eaea2237b233d8aa87631d4b2247695dd5528d8b32dc03",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-37.npz",
+      "bytes": 7753118,
+      "sha256": "d8363c24a643e9d6711951e423ead9a00edb73369955c498c2542acc9f3c6a2e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-38.npz",
+      "bytes": 7753118,
+      "sha256": "07f7e49528108f66ae55ecc38234ff19983438a9bb73e7f358fe19e04c3f4667",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-39.npz",
+      "bytes": 7753118,
+      "sha256": "fed4923a0bf57e8df20bac10d0c32a8becdf1c984a64ed2430202504ee7267f8",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-40.npz",
+      "bytes": 7753118,
+      "sha256": "afcd2064c775734548e2a0b9f37f3ce551dbd0ebe28d0e0a8b5b8ec6fad6b7ea",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-41.npz",
+      "bytes": 7753118,
+      "sha256": "60999aa0cf55d6f94383e46d317d5dbf019a9f110ee303e1ab3164fd75e1d659",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-42.npz",
+      "bytes": 7753118,
+      "sha256": "87615a117192666e587a1b13f51ea22e97d6cd858e736d89845c43875bbabeef",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-43.npz",
+      "bytes": 7753118,
+      "sha256": "0c2b341a5b44dc2ae9d27d488ba20b1b4d3e4445e5739672f2bd9b1dae84a635",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-44.npz",
+      "bytes": 7753118,
+      "sha256": "202d20319c9fb7f066660afcb88a138fa635fc72e0fc847d6a0feb9a8a9261e8",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-45.npz",
+      "bytes": 7753118,
+      "sha256": "52f9fda61d18634ed557f452b9e0a46015a1e7faab1871555ef608dc2d5dd5f0",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-46.npz",
+      "bytes": 7753118,
+      "sha256": "1f09b72677d4ef83b7905a692473584257a6e06a2d3a62778b1abe26a9e5029f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-47.npz",
+      "bytes": 7753118,
+      "sha256": "f7846f00b2d772b0d3f1b7733e78ec72db1367e3d8d757e058c39933c1e7f7ee",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-48.npz",
+      "bytes": 7753118,
+      "sha256": "4e5b2fdafce2eff7260409b7f7fe5994e288b448553cc4d76e45135fd75a7e91",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-49.npz",
+      "bytes": 7753118,
+      "sha256": "e410ed03f4c69f556a67818e5cff7af5d2010ebf1b9aa6cc81f29ac290df9ee4",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-50.npz",
+      "bytes": 7753118,
+      "sha256": "c3e03deb92ead1c5df13e96bc082344a9059777c1810293b6fa6b47fc5371011",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-51.npz",
+      "bytes": 7753118,
+      "sha256": "1def13cf9d6e6ff9ca57bdb3e695c771a0848e7498d9e7750a103a2a88006ea7",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-52.npz",
+      "bytes": 7753118,
+      "sha256": "299de2d707473b5cbdbc87635785216a1601d5792f0a1234f500869e66cc0029",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-53.npz",
+      "bytes": 7753118,
+      "sha256": "d7f93cb9c0d4a447e0f62be73595dd59373423e3d404d4ab0c3b3e309505e384",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-54.npz",
+      "bytes": 7753118,
+      "sha256": "8052bc0be97af0194d7c67fd1db60c6f73c89c2c8042b7618230b46b6284d700",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-55.npz",
+      "bytes": 7753118,
+      "sha256": "2ea29e01bc45af8ffcccc5702f0508388bcf60992e7709d0738a2b2d2cece1f0",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-56.npz",
+      "bytes": 7753118,
+      "sha256": "3c56c60dcbf8dd9cd270a7bcdd6797f3d1f6961bd734d6553de68b0a08483bb9",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-57.npz",
+      "bytes": 7753118,
+      "sha256": "a0fa73485ceacaffc6820d2aec471560e37bcf4e4b0be8235e507a1bbcf6709a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-58.npz",
+      "bytes": 7753118,
+      "sha256": "aea796a70f08c759b7302f57f7f1b42453ac4e18fd27f60cdb5856f8630df505",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-59.npz",
+      "bytes": 7753118,
+      "sha256": "c1277dcfe0590ee369b31534d171c1ac87d37320480fcdf02fabe3c1db911961",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/交付精度读回.json",
+      "bytes": 1607,
+      "sha256": "4bb072788ce0e5b75269b1fe90a4146fe2f9c6396a87973f67cb9495d02218d8",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/frozen/身份映射.json",
+      "bytes": 351127,
+      "sha256": "e7d81c79be81504088037381cdad282fc003f7db8feacf7faff6b62d04f676e8",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/PDF实际页面检查-v001.json",
+      "bytes": 3143,
+      "sha256": "b9ad6a4961492f9ac33ac402616f53032d338944c11540f4b6ac0ee655cf4159",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/Q02-修复稿Markdown与TeX对应-v001.json",
+      "bytes": 8998,
+      "sha256": "a617c1b7d2153f6e4604d8f778093c9d566de8cda2ec5b04f8010b09f70b1237",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/Q02-修复稿PDF自动核验-v001.json",
+      "bytes": 6232,
+      "sha256": "334bd5a9efc89257e2cd93c0bf83f45dcdede9ac32238b71a2ce78cd344b66f6",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/table1.csv",
+      "bytes": 1399,
+      "sha256": "58a38373bc118420e29c1f3ac425a587fd549557b161c755435a1c0844199014",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/table2.csv",
+      "bytes": 291,
+      "sha256": "c80737e2c43bed29f56efbadcb92a082a0979349ba794a07bf2528bd4494353d",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/table3.csv",
+      "bytes": 212,
+      "sha256": "2a6b24058025bb15f5b04032f03d53aefe848c925eae4aea43147803e7427300",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/图表生成记录.json",
+      "bytes": 4595,
+      "sha256": "5a934f6da9c4d38cd6b2846e3e525c07a4b2bc54a05e4e03bcd2f7806c5e0d0f",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/实际Excel同源重放核验.json",
+      "bytes": 1357,
+      "sha256": "cbaf4e8ce906d1ff3e57f72259a1d7527a660a1cfbd72d78db141524d316a954",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/实际候选比较.csv",
+      "bytes": 869,
+      "sha256": "5e367ee0e499ccee9cea52cb44217ff342a50affd3217f0ba29bb262d17eb936",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/实际候选比较.json",
+      "bytes": 20362,
+      "sha256": "a01e5b1c7ac8addcab6d71f29d7cc62d6021c55dc3b7a305bf2a6704ab35317b",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/并行调度同射线测试-v001/测试结论.json",
+      "bytes": 11479,
+      "sha256": "26b9aae0bfea066586a4abc76ecbb7981ac8302f5ff05bdc172eabae156b677a",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/搜索与确认冻结配置-v004.json",
+      "bytes": 11468,
+      "sha256": "f0797938261457c1edd6ff100e7cdd1da2197c7d79dfadf53d4c5f5a04a05f70",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/搜索轨迹.jsonl",
+      "bytes": 21759,
+      "sha256": "be40b2f5e79b6d0761c56930421dca849665af71d50de13f63b717d01a962174",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/独立确认结论.json",
+      "bytes": 3658,
+      "sha256": "76e3841eb96c367cc5b6835b51ebf4f8fab75a034fa7110bbd835d8c56352b31",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/累计计算预算.json",
+      "bytes": 6514,
+      "sha256": "c9261783fcb7234352098ff46a7a0c478e4b17ddbad3b45f3dddc314a46bed7c",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-修复-v001/论文模型核查-v001.md",
+      "bytes": 8698,
+      "sha256": "c4487dd903a73f50e30146e70df4900441c31ae6bb2eeefd3aabc5c172f01fb0",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-搜索-v001/搜索轨迹.jsonl",
+      "bytes": 95604,
+      "sha256": "f36e2dcdff286e5c411779254043b989e344e2b698fb4a376f0cdfb09b06cacf",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-搜索-v001/收尾数据与工作指标独立重建-v001.json",
+      "bytes": 27039,
+      "sha256": "ca135bab756c847aa59b7b4a5510f6611f9e82f8153c12bc122b47add47f79f4",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q02-搜索-v001/独立确认结论.json",
+      "bytes": 4339,
+      "sha256": "fe6edc533af6306e383bc1fd3b3a79576af167faf3c1bf1a2ff99e5dcf108dc2",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-00.npz",
+      "bytes": 7753118,
+      "sha256": "009684bbefc46dbf096daae424a09548ed4bfc707d20d9a9f33f82c5dc3ce359",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-01.npz",
+      "bytes": 7753118,
+      "sha256": "18f9403dcd85f24f241fd0b5b2dd1f8d61fe8e9561fea5197328776871844d71",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-02.npz",
+      "bytes": 7753118,
+      "sha256": "e2c33428d8441a32b066af49c7c87fcef7ea42dd833c111b7d559e3f0a97628b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-03.npz",
+      "bytes": 7753118,
+      "sha256": "480ce627b2119d964a53ff74aa003fdb3a0fc1a826d079f9ceffb14ae7b6538c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-04.npz",
+      "bytes": 7753118,
+      "sha256": "bf64904a5b5839ecc92b09a2b89327a8bce8cf7cd3f107ce230202841d5e3913",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-05.npz",
+      "bytes": 7753118,
+      "sha256": "29ca63846135d0c24019619a3c581ff15ba4036dbbf0cae0f9dd4807c84f3922",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-06.npz",
+      "bytes": 7753118,
+      "sha256": "1f79bbd4f2a55cc8e393636df798fb6d9c6c3460270b8a4cde20c9d870a80e5d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-07.npz",
+      "bytes": 7753118,
+      "sha256": "9ca060eec1a1a6b66441110c5e0d0fdfc350e82f70429170e881533f2581a021",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-08.npz",
+      "bytes": 7753118,
+      "sha256": "cec3ee36ab8d58c90f806d64b7f0520233566d9255373f2c76f003dc1d06774a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-09.npz",
+      "bytes": 7753118,
+      "sha256": "a5ef0f95582e5a3feae68630118df544dc31d6e7a7115b893226f78fa70cf31b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-10.npz",
+      "bytes": 7753118,
+      "sha256": "44b95ee1a33d245da4cfebf9f86fbf5d374debf3c73ea9b7f33a96206296f32d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-11.npz",
+      "bytes": 7753118,
+      "sha256": "70841b81ae7cafd547f84cbc8ae2a53d39c081905eb8a5e53db176fd3edc21b3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-12.npz",
+      "bytes": 7753118,
+      "sha256": "7aa34bd76102ea23ea3576b052e1c6476b95078a00fc212bb16349e891754c94",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-13.npz",
+      "bytes": 7753118,
+      "sha256": "528aa569d501db08c81a7a0bcc0ca971ced16ca72a8a7653a264c40ceb6cc78a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-14.npz",
+      "bytes": 7753118,
+      "sha256": "f31839a7252eabbea24cdbad1296972856cce084a7bea5e73962f0c8d83d97fc",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-15.npz",
+      "bytes": 7753118,
+      "sha256": "4cc0e29d98f004c669bfeb649791936dd8dc29566687b890c3305efd894093ae",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-16.npz",
+      "bytes": 7753118,
+      "sha256": "933735292ab1bdff780b6be02f12da5a35494e828021c8154d395f91a5424bab",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-17.npz",
+      "bytes": 7753118,
+      "sha256": "f522c8703b566d5cef15b56d5e13bcef89d80bcb75900409200fba0480f556d9",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-18.npz",
+      "bytes": 7753118,
+      "sha256": "decf4a5c44eea298287603fc4ee963ab4748bd1b702889a914322e1161adbd35",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-19.npz",
+      "bytes": 7753118,
+      "sha256": "1c4735b4b120ee8a032466c95b2fddaf60455d68fe5f7c405be193dc52fd70d3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-20.npz",
+      "bytes": 7753118,
+      "sha256": "b41d993e98922b9903188e611cfba499b84d0c80ddface4c7f51bf20e0c1968c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-21.npz",
+      "bytes": 7753118,
+      "sha256": "1bbd7e2f0f6f04f5d18d8cd0d57d7a0062ae42d9f08b4bf62fa6c00aa0334090",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-22.npz",
+      "bytes": 7753118,
+      "sha256": "af66e4bf4183e317adeace7bb5debde68134350a66866b231449c7af725c728f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-23.npz",
+      "bytes": 7753118,
+      "sha256": "dbd69b764c7404e19b042581ed3b501843851ab65ae065cf369f72d4287af9e6",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-24.npz",
+      "bytes": 7753118,
+      "sha256": "884fcd448815c2a817bad4683cdf10edd7b5ad996a4a424e384a9d6cc6683fab",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-25.npz",
+      "bytes": 7753118,
+      "sha256": "16c2524a6074065a93b67effad3a93157f3f0c4b07f2834717cc670ca201d108",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-26.npz",
+      "bytes": 7753118,
+      "sha256": "8813162474f3d0074c7c90a75daa7cba515429e75c2379d6c3797684affff929",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-27.npz",
+      "bytes": 7753118,
+      "sha256": "ab6673910f165aab7b81c8b949237c87caf3111c20130f2c5aa5bc61d54d0312",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-28.npz",
+      "bytes": 7753118,
+      "sha256": "dc685b046e2b1cd93a5077c52d1c4b1ddd2f9d3e5b02f3d77dd79fa31d1981ba",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-29.npz",
+      "bytes": 7753118,
+      "sha256": "a1fb6a9e44ef03263b7600b46a188f8ea4f44df7b0f416b6c3d068b536e2f5b4",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-30.npz",
+      "bytes": 7753118,
+      "sha256": "2128ca091b3bff35551cdeeb07a5e83ce64e3940efbc3da59351ffa002e2c26c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-31.npz",
+      "bytes": 7753118,
+      "sha256": "6a23b3c793d2a68870fe3b232e5a8123cb51aa09e27f9131c23a85d71f3dab1e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-32.npz",
+      "bytes": 7753118,
+      "sha256": "68ebb67dd5815e3f304d7fbfd643b5eb94c86d8f9bb7c4621af92385e72fd64c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-33.npz",
+      "bytes": 7753118,
+      "sha256": "37da53e486154b2b68a17b470c43ff30a142f33214a436bf12fac517be6b68cd",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-34.npz",
+      "bytes": 7753118,
+      "sha256": "06c0f164cd6f672c28b2ea9d97292f0bac4fbcb3d41ffb6553b51890aaa68410",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-35.npz",
+      "bytes": 7753118,
+      "sha256": "523a97adf360ec2672ee2519e1df7bb963bb24c3a6e388afab03af2c8ec5ee63",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-36.npz",
+      "bytes": 7753118,
+      "sha256": "7ef81e010ec3b40ae82adf6bcada0e607869659d5b9f155e7775d238ad13f188",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-37.npz",
+      "bytes": 7753118,
+      "sha256": "b10183681bae67bf341b65e4925923635274c1a844e26f2e9694ef55e69f298f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-38.npz",
+      "bytes": 7753118,
+      "sha256": "3f0e6fd79f7f0b2691fa3de9c7f5f98b2be8e38e020ac5f000688b861159c643",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-39.npz",
+      "bytes": 7753118,
+      "sha256": "8818ba03027f8c9836bb1590b0cc3586e876c84fc3f38f6002a2b4e70df8924d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-40.npz",
+      "bytes": 7753118,
+      "sha256": "06408ccc1ad6a35dcd72ec68d64afbb15072516ed4d12e96e8862ee9a21f8ccd",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-41.npz",
+      "bytes": 7753118,
+      "sha256": "95e65b9ae5538a60ad864513f1ea9839ed7655244f50268e6a8293db05d4957f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-42.npz",
+      "bytes": 7753118,
+      "sha256": "cf7d501ded262019afcd8a65498dc3acd33398f321b8d1bd3594e57280a2f86c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-43.npz",
+      "bytes": 7753118,
+      "sha256": "0c273e8fd3470cb49b78ac8f85ef9d8a865b783d9f4891e7e6b1213abe96bb7c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-44.npz",
+      "bytes": 7753118,
+      "sha256": "a88c89dc197aa6869a5d74c7d24340e91240b65bd9dc9992dca4f72c8c2040ad",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-45.npz",
+      "bytes": 7753118,
+      "sha256": "e74ede1586fd030c9a211462019d6fe0820224f4326320808688d5a79e4043ca",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-46.npz",
+      "bytes": 7753118,
+      "sha256": "86cdc6c3cb61032f37d6be0ff5d681fca47842f6952cf27eb0cda4b0e11c6f68",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-47.npz",
+      "bytes": 7753118,
+      "sha256": "0723dd7e2f526614b77b32ae82ca141910de813b0791302337c4f887152c637c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-48.npz",
+      "bytes": 7753118,
+      "sha256": "8c41f201c3390c130221103c15df7c0e92cab352eebb1a47d4126e5bb023d1fb",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-49.npz",
+      "bytes": 7753118,
+      "sha256": "28c31ae1fe17deb5af1addd6d4a18aedfb1f55ed139ab5c2541080bbccbf21c5",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-50.npz",
+      "bytes": 7753118,
+      "sha256": "a045c04ad1c757b4435d8430b5215587cd8d603b20f74b4846f805742afcf4ac",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-51.npz",
+      "bytes": 7753118,
+      "sha256": "419af314fa367ba563e0fbadff3a0d905adc0abbd962ba3ede0cf125088b8e84",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-52.npz",
+      "bytes": 7753118,
+      "sha256": "476f443ba799f0b2547ee5d87137d80d4290d6e0c163d56932fcb021d0e6fb98",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-53.npz",
+      "bytes": 7753118,
+      "sha256": "d95c647d124c32c032c7cc436277323f419f5a86b3945e2ea60c300dba0371cc",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-54.npz",
+      "bytes": 7753118,
+      "sha256": "11ce5227913a3d24d22122fe061b3dceb7d634990447640947da9b6234fc7f21",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-55.npz",
+      "bytes": 7753118,
+      "sha256": "75c7425909613ddc2f680815464583067346d85c348e1825047290df583083e6",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-56.npz",
+      "bytes": 7753118,
+      "sha256": "1f557f16a8e2bac44e491b4c2e2eb32d9e7b92c0399e30c96710b0de4b0c15cf",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-57.npz",
+      "bytes": 7753118,
+      "sha256": "b98cab9bc5f7e5068ee60d652014f9601b984e145662ccc42372cd9c57fda0f7",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-58.npz",
+      "bytes": 7753118,
+      "sha256": "6da77dbce34ea67fa6c0c40126b726ddabaaba021a312776882226b603f8f73a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-59.npz",
+      "bytes": 7753118,
+      "sha256": "ec3ef7ec862939479f579ec8142ea8b9dd362711cbcae3f0dacbc0689f4acbbe",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-00.npz",
+      "bytes": 7753118,
+      "sha256": "53b17579916d702b3f0e893ea6fc351b2e7cc391bbb56d323113cfcaf0492d8b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-01.npz",
+      "bytes": 7753118,
+      "sha256": "9dce1bf3a6f8206cd92fb8a86b085b59ead823dc76fe6450d3bb9dec3005c88b",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-02.npz",
+      "bytes": 7753118,
+      "sha256": "a57224bf4ab0c974d4e7a89ffe8edf1519969883d9cab1cc739ed7ae4d931caf",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-03.npz",
+      "bytes": 7753118,
+      "sha256": "eb860a8a9d7f60085219f4e29ab881591e4cdd2b1dc997711e953c49cfd7526f",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-04.npz",
+      "bytes": 7753118,
+      "sha256": "f7d8ffd838cb0180b9e2db6899fa82db3d2f09e16e0e880dc845256ef6d8cd0d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-05.npz",
+      "bytes": 7753118,
+      "sha256": "bcf6d8ee1fff1ece276c03077ea2e7f56b3db1f3d0bbdc259ea0db0943206e6d",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-06.npz",
+      "bytes": 7753118,
+      "sha256": "0ed14302fc0e0d925f11f11ebb1bd0cf50b024940f281edc2e3fa37940035fa9",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-07.npz",
+      "bytes": 7753118,
+      "sha256": "a2cfbde0356ac43e00c2a91560211eb4d52729a29b5e5371b44ce2b357c032c5",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-08.npz",
+      "bytes": 7753118,
+      "sha256": "4252d06b9b46c4d8b760bc7cf1f58095a8a74d8a4ad1ca62c57554f055b1b271",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-09.npz",
+      "bytes": 7753118,
+      "sha256": "7a292d0d9e9697ac505693323bf0c48a9b0a8d0f3a06499401b8623549b7822c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-10.npz",
+      "bytes": 7753118,
+      "sha256": "19d2603f90818c492eef96f832a227ef2d153e8c6762789822072e3b96dc3b08",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-11.npz",
+      "bytes": 7753118,
+      "sha256": "f27ac019c058671dc32bdf503522b976a6662d42eebc25dd4315949161401d08",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-12.npz",
+      "bytes": 7753118,
+      "sha256": "283d5e70eeec9ce8c64dd30b9386c59bb67655f822b564c22817304dc2641074",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-13.npz",
+      "bytes": 7753118,
+      "sha256": "8d05dd64fea79e0381cf5b2ab42959eda8198eea4c0a59a8a2227730bdcccdd7",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-14.npz",
+      "bytes": 7753118,
+      "sha256": "e796bc6e7e49abb969794d57b6c2396b7d77c03fabc964a7da9116936e450076",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-15.npz",
+      "bytes": 7753118,
+      "sha256": "62d3fbf9975ac3ed0da44cde80b397209b202e94618cbab3066be8a4b821ec51",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-16.npz",
+      "bytes": 7753118,
+      "sha256": "2ca1c84ef9c7cd4a910ff155c096285a61f2173fa5476fd2c608b2e1689356cc",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-17.npz",
+      "bytes": 7753118,
+      "sha256": "35b2ca051b728e32b44018858b36bae4afd93e01f651478192a4e221d57ef7e6",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-18.npz",
+      "bytes": 7753118,
+      "sha256": "75769505fffca662daf8c207ed48a6fac0eca898e161bffef1f6559e246dcb0c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-19.npz",
+      "bytes": 7753118,
+      "sha256": "ab38de3b276b3e184330f85ecf93c0aa45b02c2dc7680364480f41b4388bb168",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-20.npz",
+      "bytes": 7753118,
+      "sha256": "24e286b8e234108098c93d9719d43f839fabbeb58869fe627ca97d54f32137d7",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-21.npz",
+      "bytes": 7753118,
+      "sha256": "91fd4a5104980c53a3b129293e380409b764db1dd24f40cf89029366fa874245",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-22.npz",
+      "bytes": 7753118,
+      "sha256": "1b8e50547f12c4f1807f406e5d1f959002fb99493f9022124dd38d53e73c34f2",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-23.npz",
+      "bytes": 7753118,
+      "sha256": "3f689f5158be14847edcb203b082127502967968350c070ffaaaff5f534aeb8c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-24.npz",
+      "bytes": 7753118,
+      "sha256": "8a0edba00592f21ac5e0bb855f7e634945a0e5f94d9aa7e01c94f6f8a9d22c61",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-25.npz",
+      "bytes": 7753118,
+      "sha256": "15456e7a6e1e50234b2ff883b31b61b6194ac903e2372f8756a7ab21becdd341",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-26.npz",
+      "bytes": 7753118,
+      "sha256": "afcb3419b2c1b160b16bf4be02075cd1a750772e07e636b2370c2e9d41aed836",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-27.npz",
+      "bytes": 7753118,
+      "sha256": "d39fd034f4d1ad2cf6e186588544d6b30d6a976a3837a106deb1b2494e74912e",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-28.npz",
+      "bytes": 7753118,
+      "sha256": "87445a9dd096d18c07a17049693cbc8a2a26275a4abd1fa606e500397e122ccf",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-29.npz",
+      "bytes": 7753118,
+      "sha256": "aebe095f7ceab2b2f69067ff619b4d35f8458f90d7ea346bddc6e85f066b6ed9",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-30.npz",
+      "bytes": 7753118,
+      "sha256": "f55d59eeeba77d30b3050fcc46583c4df439aa40524113a98c75bbb56df14fbe",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-31.npz",
+      "bytes": 7753118,
+      "sha256": "08bdaa4efb361e032d707f1e8e0e5208d9d7ad102c720a430788babc543ace64",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-32.npz",
+      "bytes": 7753118,
+      "sha256": "cb158e41189616417ea2889b80b7b465544c0e33648d2b96a861cf876aa1dea5",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-33.npz",
+      "bytes": 7753118,
+      "sha256": "bf5bc04cd2780c5c8942ef276f0636b5a6c75e7941728405154ade8866d12a8c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-34.npz",
+      "bytes": 7753118,
+      "sha256": "6ca95590c36bbbfe0f2dd2e2a2bb8c5ab313b562a825d1cade95abbab234fb60",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-35.npz",
+      "bytes": 7753118,
+      "sha256": "bdf2cc8faf7b4f6e37d4c55aeddd99b2cb5736cf3316ecf32c54ab04735d6ffc",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-36.npz",
+      "bytes": 7753118,
+      "sha256": "30bc1cb66668e7b601707741821b36153235b75552ef8843ffe82e5bda097d3a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-37.npz",
+      "bytes": 7753118,
+      "sha256": "da3aeb2c4792e89c49a1b2c0e1d5f96d1aad49effb6785e65ad9c07d8e16cfb6",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-38.npz",
+      "bytes": 7753118,
+      "sha256": "4ebda30019b601cb14f09638b41ad1d4ecd852c1fd9603d07e90c3fe8a87a6f9",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-39.npz",
+      "bytes": 7753118,
+      "sha256": "dcd28c0aec828647ab83254432542f0f12ec68737f972a9fe7dad45b0c93230c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-40.npz",
+      "bytes": 7753118,
+      "sha256": "bd56e278315108700241780db9d47c63d72688238f574a98abf91827190844c6",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-41.npz",
+      "bytes": 7753118,
+      "sha256": "448afdbc709b56ff60aadc62e1dd773cc6e965bbf09ecbd7243f09d47edc80e3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-42.npz",
+      "bytes": 7753118,
+      "sha256": "91e587a5c7ba90d0a263f63a064bdd693f153cc6cfca599ff0f73072aa309732",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-43.npz",
+      "bytes": 7753118,
+      "sha256": "6849df5930e8129e6a83081764a0fbf2804b38f9207cf55666363873e20433be",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-44.npz",
+      "bytes": 7753118,
+      "sha256": "3cc9eb170ea54873728d4ace55d777dbd6107fac0ca6410989758de1f63ae6e3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-45.npz",
+      "bytes": 7753118,
+      "sha256": "94bebc469283a016b8b8f37ea2347ae9a7a9b9a1df9c512ffcf0580a6e91c316",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-46.npz",
+      "bytes": 7753118,
+      "sha256": "5ca284a777a0fb15c3bc191cffc70cb5e97cb940d6200cf35fa90b8b045234f6",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-47.npz",
+      "bytes": 7753118,
+      "sha256": "3f898e3d63308fd0e043b85fb6ca0c54b83e44e145b57f276a7d4220fa0b4f57",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-48.npz",
+      "bytes": 7753118,
+      "sha256": "5d751dc398024ce632e91e75662c611a97fddbcc4261b1ab9ee06324febd9e98",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-49.npz",
+      "bytes": 7753118,
+      "sha256": "e6f67fcc703f14fe2484faa316ebb9d7853cf4d831ae7b5e31364594a4c01fe3",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-50.npz",
+      "bytes": 7753118,
+      "sha256": "573abe11bae5703222a0004c10b6aae7837ffbe4231facb7ac94ce26ebd3087c",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-51.npz",
+      "bytes": 7753118,
+      "sha256": "317a0ad477c67a739715c004d28e3ef1dcc68f0160e09e9b838d109feff2f534",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-52.npz",
+      "bytes": 7753118,
+      "sha256": "ce8e50afae80ef3e8fac66725a0c12e2dcef2fd6ca54de1d7f84aac591e383d1",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-53.npz",
+      "bytes": 7753118,
+      "sha256": "f93ed09e206864357a205757ec6dbf91bb1a34af7ad64c481467a4d4bfea718a",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-54.npz",
+      "bytes": 7753118,
+      "sha256": "418d719d6b58277409e9b84316f0e7622058f9a400b3765555d1f473838f56fc",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-55.npz",
+      "bytes": 7753118,
+      "sha256": "22c7518548c94e520a2f9b9fe1ece10c35832452a089ac85067f47e2be5a9e17",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-56.npz",
+      "bytes": 7753118,
+      "sha256": "ca2a443a8865a89069ddb7cd5eedb66270851d9b7cccfb76520467491b0874a9",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-57.npz",
+      "bytes": 7753118,
+      "sha256": "d8d2968b4d976122a74fa610b09f1d8fd7ae8909f7bd8fc49bd24df3a727e637",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-58.npz",
+      "bytes": 7753118,
+      "sha256": "9577a826adfb26bebc204375e39abc6e3bbef3ebef1ed13b2e8d8513bc086074",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-59.npz",
+      "bytes": 7753118,
+      "sha256": "61cbe8b929b8916805251576f8bc66f49530f605b912c9d69e0888dc5d6069d0",
+      "copied": false,
+      "role": "原始随机统计，重建需要"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/comparison-fine-v001.json",
+      "bytes": 3363,
+      "sha256": "3d56105423fb678d3ee693489ea9f0bcb7befab3c630d2c34b30aec83652d398",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/delivery/PDF人工页面核验-v001.json",
+      "bytes": 1276,
+      "sha256": "125d39d75cfe5c11bb72308e38f01620f851f5c0414e61a6f5a81d7d6d93a2bf",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/delivery/交付文件核验-v001.json",
+      "bytes": 3190,
+      "sha256": "e13bb40badce61e3a7c7e064ba8b811710ebe49d04bb828d560c6ee160a832e8",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/delivery/图表生成核验-v001.json",
+      "bytes": 2470,
+      "sha256": "64b454567e3f61afc98cdbdd1f926886ee658dddf114cfb13acc4e090190ea11",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/delivery/预算最终结算-v001.json",
+      "bytes": 8320,
+      "sha256": "0ae8f6e7bbb48c07316a88d2ca6dc577dce56105d82514dda68a4ffd8f58ad93",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/failures.jsonl",
+      "bytes": 1582,
+      "sha256": "8cf36f3f62ef73c8208dc6fd6c549562acbec4a2eb08f68cf4b11c319e7b907b",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/prototype/report-v001.json",
+      "bytes": 733914,
+      "sha256": "4e30cb1a47ea5da9d938a4e2de1dcae1f29236fa72558ce1378cb3b9fd575572",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/records/attempt-1788617677881654300/report.json",
+      "bytes": 5333,
+      "sha256": "1c67fbbe213d2aaafe17cd2c80d9cb350ab92beb41ef6a81a8eea76dee81d1cd",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/scores.jsonl",
+      "bytes": 6591,
+      "sha256": "fedc0b13a76c171026736e99125135529eafcb9b28bd26d381e3259dfada87ee",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/复现说明-v001.md",
+      "bytes": 6473,
+      "sha256": "15b09d15bf947b209e0a66f29c5f9ee1a22fb096e3344252df15fda7fe4b6d81",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/本轮用户授权.md",
+      "bytes": 13288,
+      "sha256": "11a33a3db256cd419298bbbe8d91018913ecea913b218a90def5638924f4d880",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/Q03-实施-v001/确认前接口修订-v001.md",
+      "bytes": 2035,
+      "sha256": "8a1793a108abf6e2fc932890983338263f8c4c9675de56037005ee3158cb7242",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/S02-交付核验-v001.json",
+      "bytes": 12803,
+      "sha256": "b21a3f918d25eea5ada859161ad4cc6344373f2ea39fefecfb943ed857e637e8",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/S02-交付核验-v002.json",
+      "bytes": 13111,
+      "sha256": "c1969349d92beb60cb2c41d1fcd9405d10e66106fcadbf970f72ff85a727d8b6",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/S02-资料入场核对-v001.json",
+      "bytes": 13471,
+      "sha256": "e563e5d922cd079b288b29dc13b6eb5ae917de257b59d30e67e402c111a68817",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/S02-通用例子复核-v001.json",
+      "bytes": 3236,
+      "sha256": "984296454463cf2728c52f7b178bf4f55fd7b354d3cc6f5aa108412afa196e43",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/交付核验-v001.json",
+      "bytes": 2433,
+      "sha256": "dd600eb12aed728dceab96d26a20bb4e61a8d03726f0931c53f8dafe37f7a4b3",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/原始材料清单-v001.json",
+      "bytes": 1191,
+      "sha256": "a0895985f5b5fb0f4908ef92818f3c234fe2c900ffbfeca1df397336cf1d162d",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/环境-v001.json",
+      "bytes": 435,
+      "sha256": "6cf09771c458610b1d91c8e0fe6be18e47a95f534630b8c5be253f8c4e9f421e",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/诊断结果/题面公式与表格核对-v001.md",
+      "bytes": 4407,
+      "sha256": "b9d28dcd578a790e1ab134cdfdf4be24376e112277717f8271b8e3bb409de6ef",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/阶段记录/Q01-全场初算与数值精度验证-v001.md",
+      "bytes": 15921,
+      "sha256": "84827edf7ac3549e10d3a72fee0a15736a82befd887f8f32a2dcdf87635c19c5",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/阶段记录/Q01-建模与原型验证-v001.md",
+      "bytes": 23189,
+      "sha256": "99f89aeae180b090b9c3299ead558a5a1085c29555a7f738c2fee82e08da1918",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/阶段记录/Q01-方案构造-v001.md",
+      "bytes": 46273,
+      "sha256": "0a2060407f181bb006f621edb74193f3cca8612270c923bad43ba1f185d1336e",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/阶段记录/Q02-参数化与几何原型验证-v001.md",
+      "bytes": 22077,
+      "sha256": "aff21cb385c9ab8d6fb252386fdbacf1f4318d35ed5e9efc0b09dd5e5d5969c8",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/阶段记录/Q02-可行性修复与独立确认-v001.md",
+      "bytes": 9021,
+      "sha256": "2c2b92322cc7f0c951b4010dbe5f629255f59e85d14a8b262845386ab58df1b0",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/阶段记录/Q02-约束梳理与候选方案-v001.md",
+      "bytes": 51283,
+      "sha256": "8512eb4bfc2e9e28a040d0ccb2cf08f844438346884205ae8cfbfb4ffc521acf",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/阶段记录/Q03-分组搜索与独立确认-v001.md",
+      "bytes": 15131,
+      "sha256": "2c000ccc8b519f8bbca7def5ad815f616365a2229f9b698199c5d728d8adfadf",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/阶段记录/Q03-约束梳理与候选方案-v001.md",
+      "bytes": 46830,
+      "sha256": "adaae349ede79fdcaa0b2247aa8f1eb82fdf7379064d4a640126795048a774b4",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/阶段记录/S00-材料审计-v001.md",
+      "bytes": 12675,
+      "sha256": "5602f8230036e7a4ce2c45122ef220ee0936d3f50c490f0cff3e87c83d16cd72",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/阶段记录/S01-补充澄清-v001.md",
+      "bytes": 33775,
+      "sha256": "9b0dee47ec43cb2880ab71b7a8097c77cd9a6bc5e19a32698fd2bdcbd2d6d646",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    },
+    {
+      "workspace_relative_path": "工作记录/阶段记录/S02-方法学习与第1问知识准备-v001.md",
+      "bytes": 36793,
+      "sha256": "9d7bf89cb62baca21300013aa25b161f95c0b9900929a65e85e7cb246dd46ddd",
+      "copied": false,
+      "role": "既有追溯证据或单问原版"
+    }
+  ],
+  "bytes": 1611191051,
+  "optical_rerun_authorized": false
+}

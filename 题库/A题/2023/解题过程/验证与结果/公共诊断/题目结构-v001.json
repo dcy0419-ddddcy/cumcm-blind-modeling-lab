@@ -1,0 +1,46 @@
+{
+  "page_count": 4,
+  "encrypted": false,
+  "pages": [
+    {
+      "page": 1,
+      "size_points": [
+        0.0,
+        0.0,
+        595.32,
+        841.92
+      ],
+      "characters": 1116
+    },
+    {
+      "page": 2,
+      "size_points": [
+        0.0,
+        0.0,
+        595.32,
+        841.92
+      ],
+      "characters": 913
+    },
+    {
+      "page": 3,
+      "size_points": [
+        0.0,
+        0.0,
+        595.32,
+        841.92
+      ],
+      "characters": 970
+    },
+    {
+      "page": 4,
+      "size_points": [
+        0.0,
+        0.0,
+        595.32,
+        841.92
+      ],
+      "characters": 956
+    }
+  ]
+}

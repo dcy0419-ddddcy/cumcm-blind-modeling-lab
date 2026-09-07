@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "created_at": "2026-09-05T23:55:17.536724+08:00",
+  "pdf_sha256": "f1961abe482d87137cd7372800a83cde1c2a17e80736a75fe0320e13225b9a45",
+  "page_count": 20,
+  "rendered_pages": 20,
+  "review_range": "全部1—20页；首稿逐页实际查看，修订后逐字节继承14页并重看6页",
+  "source_records": [
+    "工作记录/论文/全题整合/页面核验/attempt-002/前10页人工查看-v001.json",
+    "工作记录/论文/全题整合/页面核验/attempt-002/后10页人工查看-v001.json"
+  ],
+  "changed_pages_actually_reviewed": [
+    4,
+    5,
+    6,
+    9,
+    12,
+    19
+  ],
+  "retained_unblocking_layout": "符号表、图和月表保持完整引起局部留白；末页附录较短，无整页内容缺失",
+  "first_attempt_issues": "页4/5行内方向分解跨页已改写；内部来源身份表题已改可读名称；旧PDF/页面/代码快照保留",
+  "compile_warning": "本地ctex请求的LaTeX release晚于当前内核；已有本地环境提示，无缺字、溢出、编译错误，未升级或联网",
+  "math_model_changed": false,
+  "new_optical_rays": 0
+}

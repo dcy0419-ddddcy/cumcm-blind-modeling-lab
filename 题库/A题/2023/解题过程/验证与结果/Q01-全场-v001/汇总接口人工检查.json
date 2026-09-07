@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "H02_independent_expected": true,
+    "jackknife_linear_independent_sd": true,
+    "fixed_population_NA": true,
+    "student_quantile_integral": true,
+    "pooled_not_batch_ratio_mean": true
+  },
+  "all_pass": true,
+  "t_cdf": 0.975,
+  "scope": "synthetic artificial arrays only"
+}

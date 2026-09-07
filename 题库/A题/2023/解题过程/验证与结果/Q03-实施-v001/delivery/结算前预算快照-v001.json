@@ -1,0 +1,385 @@
+{
+  "limit_seconds": 5400.0,
+  "confirmation_reserve_seconds": 1800.0,
+  "used_seconds": 2305.6884180999564,
+  "records": [
+    {
+      "mode": "unit",
+      "phase": "prototype",
+      "start": "2026-09-05T20:54:11.94761+08:00",
+      "elapsed_seconds": 4.524349700019229,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T20:54:16.189829+08:00"
+    },
+    {
+      "mode": "init",
+      "phase": "prototype",
+      "start": "2026-09-05T20:54:49.259252+08:00",
+      "elapsed_seconds": 9.087743500014767,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T20:54:58.31314+08:00"
+    },
+    {
+      "mode": "old-analysis",
+      "phase": "search",
+      "start": "2026-09-05T20:56:02.848034+08:00",
+      "elapsed_seconds": 0.3524805000051856,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T20:56:03.174441+08:00"
+    },
+    {
+      "mode": "unit",
+      "phase": "prototype",
+      "start": "2026-09-05T21:02:08.440615+08:00",
+      "elapsed_seconds": 2.8511737000080757,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:02:11.265626+08:00"
+    },
+    {
+      "mode": "prototype",
+      "phase": "prototype",
+      "start": "2026-09-05T21:04:57.225543+08:00",
+      "elapsed_seconds": 29.08672540000407,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:05:26.285183+08:00"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:05:49.83105+08:00",
+      "elapsed_seconds": 71.70366039994406,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:07:01.508922+08:00"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:08:26.776337+08:00",
+      "elapsed_seconds": 80.1883745,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:09:46.843272+08:00",
+      "external_wrapper_wall_seconds": 80.1883745,
+      "included_interpreter_startup_exit_and_log_seconds": 0.09501910003608316,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R001-low_json--20260905210826687.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:10:39.303414+08:00",
+      "elapsed_seconds": 79.9140578,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:11:59.105071+08:00",
+      "external_wrapper_wall_seconds": 79.9140578,
+      "included_interpreter_startup_exit_and_log_seconds": 0.08730649998264539,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R002-low_json--20260905211039219.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:11:59.249587+08:00",
+      "elapsed_seconds": 81.761835,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:13:20.908956+08:00",
+      "external_wrapper_wall_seconds": 81.761835,
+      "included_interpreter_startup_exit_and_log_seconds": 0.071520599990194,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R003-low_json--20260905211159178.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:13:21.015213+08:00",
+      "elapsed_seconds": 83.48324,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:14:44.411831+08:00",
+      "external_wrapper_wall_seconds": 83.48324,
+      "included_interpreter_startup_exit_and_log_seconds": 0.06112170001003392,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R004-low_json--20260905211320956.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:14:44.515961+08:00",
+      "elapsed_seconds": 86.2932855,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:16:10.722236+08:00",
+      "external_wrapper_wall_seconds": 86.2932855,
+      "included_interpreter_startup_exit_and_log_seconds": 0.0599459000260083,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R005-low_json--20260905211444453.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:16:35.926912+08:00",
+      "elapsed_seconds": 81.8399092,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:17:57.649644+08:00",
+      "external_wrapper_wall_seconds": 81.8399092,
+      "included_interpreter_startup_exit_and_log_seconds": 0.08801079998013961,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R006-low_json--20260905211635837.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:17:57.78791+08:00",
+      "elapsed_seconds": 83.0695128,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:19:20.768926+08:00",
+      "external_wrapper_wall_seconds": 83.0695128,
+      "included_interpreter_startup_exit_and_log_seconds": 0.05885649999915188,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R007-low_json--20260905211757724.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:19:20.863579+08:00",
+      "elapsed_seconds": 83.0400435,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:20:43.824473+08:00",
+      "external_wrapper_wall_seconds": 83.0400435,
+      "included_interpreter_startup_exit_and_log_seconds": 0.05388139995451979,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R008-low_json--20260905211920807.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:20:43.914988+08:00",
+      "elapsed_seconds": 82.8075721,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:22:06.643155+08:00",
+      "external_wrapper_wall_seconds": 82.8075721,
+      "included_interpreter_startup_exit_and_log_seconds": 0.05549300000119217,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R009-low_json--20260905212043859.log"
+    },
+    {
+      "mode": "budget-probe",
+      "phase": "search",
+      "start": "2026-09-05T21:26:06.55392+08:00",
+      "elapsed_seconds": 0.1135129,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:26:06.564903+08:00",
+      "external_wrapper_wall_seconds": 0.1135129,
+      "included_interpreter_startup_exit_and_log_seconds": 0.07741379998021722,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-budget-probe---20260905212606464.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:26:44.751988+08:00",
+      "elapsed_seconds": 79.1587921,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:28:03.805527+08:00",
+      "external_wrapper_wall_seconds": 79.1587921,
+      "included_interpreter_startup_exit_and_log_seconds": 0.08003580002420563,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R010-low_json--20260905212644676.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:28:03.936814+08:00",
+      "elapsed_seconds": 81.4437201,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:29:25.244064+08:00",
+      "external_wrapper_wall_seconds": 81.4437201,
+      "included_interpreter_startup_exit_and_log_seconds": 0.10999059999078042,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R011-low_json--20260905212803877.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:29:25.40471+08:00",
+      "elapsed_seconds": 81.5676645,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:30:46.888406+08:00",
+      "external_wrapper_wall_seconds": 81.5676645,
+      "included_interpreter_startup_exit_and_log_seconds": 0.0587165999692445,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R012-low_json--20260905212925343.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:30:46.982186+08:00",
+      "elapsed_seconds": 81.4086995,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:32:08.308559+08:00",
+      "external_wrapper_wall_seconds": 81.4086995,
+      "included_interpreter_startup_exit_and_log_seconds": 0.05568069997046621,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R013-low_json--20260905213046923.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:33:32.710251+08:00",
+      "elapsed_seconds": 101.5528189,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:35:14.137964+08:00",
+      "external_wrapper_wall_seconds": 101.5528189,
+      "included_interpreter_startup_exit_and_log_seconds": 0.0964536000068108,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R000-fine_json--20260905213332620.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:35:14.276722+08:00",
+      "elapsed_seconds": 104.511842,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:36:58.703377+08:00",
+      "external_wrapper_wall_seconds": 104.511842,
+      "included_interpreter_startup_exit_and_log_seconds": 0.059398400008035424,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R010-fine_json--20260905213514217.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:36:58.82208+08:00",
+      "elapsed_seconds": 105.3353155,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:38:44.053802+08:00",
+      "external_wrapper_wall_seconds": 105.3353155,
+      "included_interpreter_startup_exit_and_log_seconds": 0.0755913999960427,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R012-fine_json--20260905213658754.log"
+    },
+    {
+      "mode": "score",
+      "phase": "search",
+      "start": "2026-09-05T21:38:44.18195+08:00",
+      "elapsed_seconds": 105.5235097,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:40:29.601011+08:00",
+      "external_wrapper_wall_seconds": 105.5235097,
+      "included_interpreter_startup_exit_and_log_seconds": 0.07223899997509875,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-score-specs_Q3R013-fine_json--20260905213844105.log"
+    },
+    {
+      "mode": "compare",
+      "phase": "search",
+      "start": "2026-09-05T21:40:54.505501+08:00",
+      "elapsed_seconds": 0.6526589,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:40:55.036391+08:00",
+      "external_wrapper_wall_seconds": 0.6526589,
+      "included_interpreter_startup_exit_and_log_seconds": 0.09712710003213365,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-compare-fine--20260905214054414.log"
+    },
+    {
+      "mode": "freeze",
+      "phase": "confirmation",
+      "start": "2026-09-05T21:43:28.057558+08:00",
+      "elapsed_seconds": 1.254132,
+      "status": "FAILED",
+      "finish": "2026-09-05T21:43:29.176702+08:00",
+      "external_wrapper_wall_seconds": 1.254132,
+      "included_interpreter_startup_exit_and_log_seconds": 0.10993950001827257,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-freeze-Q3R013-Q3F013-20260905214327969.log"
+    },
+    {
+      "mode": "freeze",
+      "phase": "confirmation",
+      "start": "2026-09-05T21:44:29.746814+08:00",
+      "elapsed_seconds": 5.5340321,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:44:35.166176+08:00",
+      "external_wrapper_wall_seconds": 5.5340321,
+      "included_interpreter_startup_exit_and_log_seconds": 0.08990670001697776,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-freeze-Q3R013-Q3F013-20260905214429667.log"
+    },
+    {
+      "mode": "confirm",
+      "phase": "confirmation",
+      "start": "2026-09-05T21:51:15.000266+08:00",
+      "elapsed_seconds": 312.0904149,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T21:56:26.959475+08:00",
+      "external_wrapper_wall_seconds": 312.0904149,
+      "included_interpreter_startup_exit_and_log_seconds": 0.10753080000193904,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-confirm-specs_Q3F013-confirmation_json--20260905215114916.log"
+    },
+    {
+      "mode": "confirm",
+      "phase": "confirmation",
+      "start": "2026-09-05T21:56:27.128292+08:00",
+      "elapsed_seconds": 368.4806723,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T22:02:35.488931+08:00",
+      "external_wrapper_wall_seconds": 368.4806723,
+      "included_interpreter_startup_exit_and_log_seconds": 0.08788850003458037,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-confirm-specs_Q3R000-confirmation_json--20260905215627053.log"
+    },
+    {
+      "mode": "deliver",
+      "phase": "confirmation",
+      "start": "2026-09-05T22:03:08.038794+08:00",
+      "elapsed_seconds": 5.5957827,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T22:03:13.502933+08:00",
+      "external_wrapper_wall_seconds": 5.5957827,
+      "included_interpreter_startup_exit_and_log_seconds": 0.10638409999026432,
+      "stdout_log": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q03-实施-v001\\run-deliver---20260905220307947.log"
+    },
+    {
+      "mode": "post_figures",
+      "phase": "confirmation",
+      "start": "2026-09-05T22:04:20.135976+08:00",
+      "elapsed_seconds": 0.027352500008419156,
+      "status": "FAILED",
+      "finish": "2026-09-05T22:04:20.140976+08:00"
+    },
+    {
+      "mode": "post_figures",
+      "phase": "confirmation",
+      "start": "2026-09-05T22:06:31.228480+08:00",
+      "elapsed_seconds": 0.6297324000042863,
+      "status": "FAILED",
+      "finish": "2026-09-05T22:06:31.839016+08:00"
+    },
+    {
+      "mode": "post_figures",
+      "phase": "confirmation",
+      "start": "2026-09-05T22:06:51.960867+08:00",
+      "elapsed_seconds": 2.1350464000133798,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T22:06:54.071488+08:00"
+    },
+    {
+      "mode": "post_paper",
+      "phase": "confirmation",
+      "start": "2026-09-05T22:09:54.774748+08:00",
+      "elapsed_seconds": 0.6471758999978192,
+      "status": "FAILED",
+      "finish": "2026-09-05T22:09:55.399330+08:00"
+    },
+    {
+      "mode": "post_records",
+      "phase": "confirmation",
+      "start": "2026-09-05T22:10:42.341831+08:00",
+      "elapsed_seconds": 0.11745339998742566,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T22:10:42.438106+08:00"
+    },
+    {
+      "mode": "post_records",
+      "phase": "confirmation",
+      "start": "2026-09-05T22:14:37.871189+08:00",
+      "elapsed_seconds": 0.1341037999955006,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T22:14:37.982314+08:00"
+    },
+    {
+      "mode": "final_file_audit",
+      "phase": "confirmation",
+      "start": "2026-09-05T22:33:37.543563+08:00",
+      "elapsed_seconds": 0.07439460000023246,
+      "status": "FAILED",
+      "finish": "2026-09-05T22:33:37.595905+08:00"
+    },
+    {
+      "mode": "final_file_audit",
+      "phase": "confirmation",
+      "start": "2026-09-05T22:34:40.237535+08:00",
+      "elapsed_seconds": 7.695627399953082,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T22:34:47.903693+08:00"
+    }
+  ],
+  "round": "new Q3 user-approved 5400 seconds; Q1/Q2 ledgers untouched",
+  "scope": "parent job wall from entry before numerical imports, startup/wait/I/O/failure included; overlapping child CPU recorded separately; text writing/typesetting separate, no new search budget"
+}

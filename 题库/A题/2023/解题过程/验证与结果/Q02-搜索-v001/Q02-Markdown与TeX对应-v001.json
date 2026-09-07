@@ -1,0 +1,10 @@
+{
+  "source": "工作记录/论文/第2问-模型建立与求解-v001.md",
+  "source_sha256": "73cd5ba89bb10348d38480d83cd843136c08bf89dcfcb40b3cfde398a906d11e",
+  "tex": "工作记录/论文/LaTeX/第2问-模型建立与求解-v001.tex",
+  "tex_sha256": "5225abd746c29f46b66f0fe39a79840af815803d456f642cdd0a4f9022e0a925",
+  "math_display_blocks": 29,
+  "tables": 3,
+  "layout": "ordinary ctexart with installed Windows fonts, not official/reference-paper template",
+  "internet_or_dependency_install": false
+}

@@ -1,0 +1,886 @@
+{
+  "created": "2026-09-04T23:04:18.582746+08:00",
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "historical_stage_code_evidence_preserved",
+      "passed": true,
+      "details": [
+        {
+          "path": "工作记录/阶段记录/Q01-建模与原型验证-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断代码/Q01-原型运行说明-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-首次测试失败-v001.md",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断代码/q01_core_v001.py",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断代码/q01_core_v002.py",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断代码/q01_tests_v001.py",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断代码/q01_tests_v002.py",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断代码/q01_run_v001.py",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断代码/Q01-原型配置-v001.json",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断代码/Q01-补充验证配置-v001.json",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断代码/q01_local_checks_v001.py",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断代码/q01_local_checks_v002.py",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断代码/q01_report_v001.py",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断代码/verify_q01_prototype_v001.py",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-基础与交叉验证-v002.json",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-预选与适用域-v001.json",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-小样本计时与筛选核对-v001.json",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-本题局部试算-v001.json",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-局部细化补充-v001.json",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-局部细化补充-v002.json",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-原型交付核验-v001.json",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断代码/q01_report_v002.py",
+          "unchanged": true
+        },
+        {
+          "path": "工作记录/诊断代码/verify_q01_prototype_v002.py",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "name": "frozen_inputs_and_execution_revision",
+      "passed": true,
+      "details": "Original configuration v001 retained; v002 execution-only bindings verified"
+    },
+    {
+      "name": "numeric_evidence_present_and_scope",
+      "passed": true,
+      "details": {
+        "coverage": {
+          "expected_combinations": 104700,
+          "completed_combinations": 104700,
+          "initial_independent_batches": 8,
+          "confirmation_independent_batches": 8,
+          "final_point_batches": 8,
+          "initial_n": 128,
+          "confirmation_n": 256,
+          "final_samples_per_combination": 2048,
+          "initial_unique_rays": 107212800,
+          "confirmation_unique_rays": 214425600
+        },
+        "numeric_checks": {
+          "factor_product_abs_error": 3.3306690738754696e-16,
+          "power_reconstruction_abs_kw": 7.275957614183426e-12,
+          "H02_total_error": 2.220446049250313e-16,
+          "H02_component_error": 6.217248937900877e-15,
+          "area_relation_abs_kw": 1.4551915228366852e-11,
+          "bounded_factors": true,
+          "ordered_raw_sums": true,
+          "max_raw_projection_residual": 0.00017087815401684026
+        },
+        "work_targets_met": true
+      }
+    },
+    {
+      "name": "120_immutable_shard_hashes",
+      "passed": true,
+      "details": [
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t000.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t001.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t002.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t003.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t004.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t005.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t006.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t007.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t008.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t009.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t010.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t011.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t012.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t013.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t014.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t015.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t016.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t017.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t018.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t019.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t020.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t021.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t022.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t023.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t024.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t025.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t026.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t027.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t028.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t029.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t030.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t031.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t032.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t033.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t034.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t035.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t036.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t037.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t038.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t039.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t040.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t041.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t042.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t043.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t044.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t045.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t046.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t047.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t048.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t049.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t050.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t051.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t052.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t053.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t054.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t055.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t056.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t057.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t058.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/initial/t059.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t000.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t001.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t002.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t003.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t004.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t005.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t006.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t007.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t008.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t009.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t010.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t011.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t012.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t013.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t014.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t015.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t016.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t017.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t018.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t019.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t020.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t021.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t022.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t023.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t024.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t025.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t026.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t027.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t028.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t029.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t030.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t031.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t032.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t033.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t034.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t035.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t036.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t037.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t038.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t039.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t040.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t041.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t042.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t043.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t044.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t045.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t046.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t047.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t048.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t049.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t050.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t051.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t052.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t053.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t054.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t055.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t056.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t057.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t058.npz",
+          "match": true
+        },
+        {
+          "path": "工作记录/诊断结果/Q01-全场-v001/confirmation/t059.npz",
+          "match": true
+        }
+      ]
+    },
+    {
+      "name": "recovery_committed_statistics_preserved",
+      "passed": true,
+      "details": {
+        "committed_mirrors": 1250,
+        "checks": {
+          "sums": true,
+          "cross": true,
+          "counts": true,
+          "unknown_weights": true
+        }
+      }
+    },
+    {
+      "name": "documents_saved_links_tables_math",
+      "passed": true,
+      "details": [
+        {
+          "path": "工作记录\\阶段记录\\Q01-全场初算与数值精度验证-v001.md",
+          "links": 9,
+          "issues": []
+        },
+        {
+          "path": "工作记录\\阶段记录\\Q01-第1问结果初稿-v001.md",
+          "links": 6,
+          "issues": []
+        },
+        {
+          "path": "工作记录\\00-任务状态.md",
+          "links": 11,
+          "issues": []
+        },
+        {
+          "path": "工作记录\\记录索引.md",
+          "links": 89,
+          "issues": []
+        },
+        {
+          "path": "工作记录\\方法库查阅记录.md",
+          "links": 24,
+          "issues": []
+        },
+        {
+          "path": "工作记录\\决策记录.md",
+          "links": 13,
+          "issues": []
+        },
+        {
+          "path": "工作记录\\06-更新记录.md",
+          "links": 9,
+          "issues": []
+        },
+        {
+          "path": "工作记录\\归档清单.md",
+          "links": 6,
+          "issues": []
+        },
+        {
+          "path": "工作记录\\诊断代码\\Q01-全场运行说明-v001.md",
+          "links": 0,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "name": "new_source_syntax",
+      "passed": true,
+      "details": [
+        "q01_core_v003.py",
+        "q01_tests_v003.py",
+        "q01_full_run_v001.py",
+        "q01_full_run_v002.py",
+        "q01_full_summary_v001.py",
+        "q01_full_summary_v002.py",
+        "q01_checkpoint_repair_v001.py",
+        "q01_full_report_v001.py",
+        "q01_full_delivery_v001.py",
+        "q01_full_delivery_v002.py",
+        "q01_rare_audit_v001.py"
+      ]
+    },
+    {
+      "name": "continuous_decision_update_ids",
+      "passed": true,
+      "details": {
+        "D": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "U": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "name": "acceptance_archival_budget_separated",
+      "passed": true,
+      "details": {
+        "charged_before_finish": 1121.8647672999941,
+        "scope": "Q1 only"
+      }
+    },
+    {
+      "name": "archive_contains_new_sources_and_data",
+      "passed": true,
+      "details": "Full data directory includes shards, partials, logs, failure snapshots, rebuilds, and manifest"
+    },
+    {
+      "name": "generated_manifest_link_exists",
+      "passed": true,
+      "details": [
+        "工作记录\\诊断结果\\Q01-全场-v001\\归档哈希清单-v002.json"
+      ]
+    }
+  ],
+  "budget_final": {
+    "limit_seconds": 1800,
+    "charged_seconds": 1121.8649656999914,
+    "entries": [
+      {
+        "mode": "core regression v003",
+        "charged_seconds": 3.0,
+        "observed_process_seconds": 2.809666,
+        "note": "rounded up including startup"
+      },
+      {
+        "mode": "prepare",
+        "charged_seconds": 35.713625400007004,
+        "status": "done",
+        "time": "2026-09-04T22:34:01.701585+08:00",
+        "startup_reserve_seconds": 2.0
+      },
+      {
+        "mode": "stress",
+        "charged_seconds": 4.690048599994043,
+        "status": "done",
+        "time": "2026-09-04T22:36:18.486279+08:00",
+        "startup_reserve_seconds": 2.0
+      },
+      {
+        "mode": "summary-selftest",
+        "charged_seconds": 2.027036899991799,
+        "status": "done",
+        "time": "2026-09-04T22:36:18.724903+08:00",
+        "startup_reserve_seconds": 2.0
+      },
+      {
+        "mode": "freeze",
+        "charged_seconds": 2.2492151000187732,
+        "status": "done",
+        "time": "2026-09-04T22:37:00.148555+08:00",
+        "startup_reserve_seconds": 2.0
+      },
+      {
+        "mode": "initial",
+        "charged_seconds": 49.80249840000761,
+        "status": "failed",
+        "time": "2026-09-04T22:37:48.124745+08:00",
+        "startup_reserve_seconds": 2.0
+      },
+      {
+        "mode": "checkpoint-IO-repair-check",
+        "charged_seconds": 2.152929600008065,
+        "status": "done",
+        "time": "2026-09-04T22:39:36.938795+08:00",
+        "startup_reserve_seconds": 2.0
+      },
+      {
+        "mode": "initial",
+        "charged_seconds": 432.86856430000626,
+        "status": "done",
+        "time": "2026-09-04T22:46:47.889384+08:00",
+        "startup_reserve_seconds": 2.0
+      },
+      {
+        "mode": "confirmation",
+        "charged_seconds": 573.5199619999912,
+        "status": "done",
+        "time": "2026-09-04T22:56:40.885137+08:00",
+        "startup_reserve_seconds": 2.0
+      },
+      {
+        "mode": "summary-rebuild",
+        "charged_seconds": 3.670890299981693,
+        "status": "done",
+        "time": "2026-09-04T22:57:00.925364+08:00",
+        "startup_reserve_seconds": 2.0
+      },
+      {
+        "mode": "summary-verify-rebuild",
+        "charged_seconds": 3.4317754000076093,
+        "status": "done",
+        "time": "2026-09-04T22:57:25.667023+08:00",
+        "startup_reserve_seconds": 2.0
+      },
+      {
+        "mode": "document-generation",
+        "charged_seconds": 2.089576099999249,
+        "status": "done",
+        "time": "2026-09-04T22:57:25.835767+08:00",
+        "startup_reserve_seconds": 2.0
+      },
+      {
+        "mode": "rare-event-saved-data-audit",
+        "charged_seconds": 2.045164700015448,
+        "status": "done",
+        "time": "2026-09-04T22:59:36.945421+08:00",
+        "startup_reserve_seconds": 2.0
+      },
+      {
+        "mode": "delivery-file-verification",
+        "charged_seconds": 2.3094585000071675,
+        "status": "verification_failed",
+        "time": "2026-09-04T23:02:30.971631+08:00",
+        "startup_reserve_seconds": 2.0
+      },
+      {
+        "mode": "delivery-file-verification",
+        "charged_seconds": 2.2937696000153664,
+        "status": "done",
+        "time": "2026-09-04T23:04:18.310816+08:00",
+        "startup_reserve_seconds": 2.0
+      }
+    ],
+    "active": null,
+    "updated": "2026-09-04T23:04:18.310816+08:00"
+  },
+  "manifest_entries": 287,
+  "scope": "file/lineage verification, not optical validation"
+}

@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "one_transient_error_retried": true,
+    "saved_json_correct": true,
+    "numeric_functions_unchanged": true,
+    "summary_tests": true
+  },
+  "all_pass": true,
+  "numeric_functions": {
+    "field_at": true,
+    "candidates": true,
+    "statistics": true,
+    "read_input": true
+  },
+  "completed_before_restart": [
+    "t000.npz",
+    "t001.npz",
+    "t002.npz",
+    "t003.npz",
+    "t004.npz"
+  ],
+  "partial_before_restart": [
+    {
+      "path": "工作记录\\诊断结果\\Q01-全场-v001\\initial\\t005-partial.npz",
+      "completed": 1250,
+      "backup": "工作记录\\诊断结果\\Q01-全场-v001\\失败时-t005-partial.npz"
+    }
+  ],
+  "failure": "WinError5 during budget atomic replace; external lock cause not identified",
+  "discarded_since_partial_upper_mirrors": 249,
+  "discarded_ray_process_upper": 254976
+}

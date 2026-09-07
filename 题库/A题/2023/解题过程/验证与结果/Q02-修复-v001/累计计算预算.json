@@ -1,0 +1,193 @@
+{
+  "limit_seconds": 3600.0,
+  "confirmation_reserve_seconds": 1200.0,
+  "used_seconds": 3013.4885571999475,
+  "records": [
+    {
+      "mode": "repair_init",
+      "phase": "search",
+      "start": "2026-09-05T14:55:09.965670+08:00",
+      "elapsed_seconds": 0.1363872000365518,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T14:55:10.072861+08:00"
+    },
+    {
+      "mode": "repair_rate",
+      "phase": "search",
+      "start": "2026-09-05T14:55:35.131218+08:00",
+      "elapsed_seconds": 0.2063135000062175,
+      "status": "FAILED",
+      "finish": "2026-09-05T14:55:35.310844+08:00"
+    },
+    {
+      "mode": "repair_rate",
+      "phase": "search",
+      "start": "2026-09-05T14:56:01.976146+08:00",
+      "elapsed_seconds": 255.80250200000592,
+      "status": "FAILED",
+      "finish": "2026-09-05T15:00:17.765611+08:00"
+    },
+    {
+      "mode": "repair_rate",
+      "phase": "search",
+      "start": "2026-09-05T15:00:30.290636+08:00",
+      "elapsed_seconds": 7.445755599997938,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T15:00:37.722090+08:00"
+    },
+    {
+      "mode": "repair_rate",
+      "phase": "search",
+      "start": "2026-09-05T15:01:23.942575+08:00",
+      "elapsed_seconds": 7.541438399988692,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T15:01:31.470211+08:00"
+    },
+    {
+      "mode": "repair_rate",
+      "phase": "search",
+      "start": "2026-09-05T15:01:44.072507+08:00",
+      "elapsed_seconds": 239.60990549996495,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T15:05:43.669455+08:00"
+    },
+    {
+      "mode": "repair_rate",
+      "phase": "search",
+      "start": "2026-09-05T15:06:06.600741+08:00",
+      "elapsed_seconds": 333.26282519998495,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T15:11:39.847868+08:00"
+    },
+    {
+      "mode": "repair_rate",
+      "phase": "search",
+      "start": "2026-09-05T15:11:49.089320+08:00",
+      "elapsed_seconds": 248.20213309995597,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T15:15:57.277780+08:00"
+    },
+    {
+      "mode": "repair_rate",
+      "phase": "search",
+      "start": "2026-09-05T15:16:09.501932+08:00",
+      "elapsed_seconds": 241.33476499997778,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T15:20:10.822121+08:00"
+    },
+    {
+      "mode": "repair_rate",
+      "phase": "search",
+      "start": "2026-09-05T15:20:23.092007+08:00",
+      "elapsed_seconds": 246.1928287000046,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T15:24:29.270370+08:00"
+    },
+    {
+      "mode": "repair_rate",
+      "phase": "search",
+      "start": "2026-09-05T15:24:53.090606+08:00",
+      "elapsed_seconds": 788.4854052999872,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T15:38:01.562118+08:00"
+    },
+    {
+      "mode": "repair_freeze",
+      "phase": "search",
+      "start": "2026-09-05T15:38:28.325904+08:00",
+      "elapsed_seconds": 15.867721099988557,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T15:38:44.165635+08:00"
+    },
+    {
+      "mode": "confirmation_preflight_same_ray_scheduler",
+      "phase": "confirmation",
+      "start": "2026-09-05T15:44:09.860407+08:00",
+      "elapsed_seconds": 18.116013000020757,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T15:44:27.328929+08:00"
+    },
+    {
+      "mode": "frozen_independent_confirmation_parallel",
+      "phase": "confirmation",
+      "start": "2026-09-05T15:45:00.614195+08:00",
+      "elapsed_seconds": 579.9720533000072,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T15:54:40.541074+08:00"
+    },
+    {
+      "mode": "repair_comparison_reconstruction",
+      "phase": "confirmation",
+      "start": "2026-09-05T15:55:37.653047+08:00",
+      "elapsed_seconds": 0.4211856999900192,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T15:55:38.034903+08:00"
+    },
+    {
+      "mode": "independent_rebuild",
+      "phase": "confirmation",
+      "start": "2026-09-05T15:56:41.838506+08:00",
+      "elapsed_seconds": 17.36048590001883,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T15:56:59.151784+08:00"
+    },
+    {
+      "mode": "independent_work_indicator_and_export",
+      "phase": "confirmation",
+      "start": "2026-09-05T16:00:49.999074+08:00",
+      "elapsed_seconds": 1.5667726999963634,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T16:00:51.537367+08:00"
+    },
+    {
+      "mode": "delivered_excel_same_source_replay",
+      "phase": "confirmation",
+      "start": "2026-09-05T16:00:59.700119+08:00",
+      "elapsed_seconds": 4.199891600001138,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T16:01:03.874640+08:00"
+    },
+    {
+      "mode": "confirmed_paper_figures",
+      "phase": "confirmation",
+      "start": "2026-09-05T16:01:14.037279+08:00",
+      "elapsed_seconds": 0.41287739999825135,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T16:01:14.423572+08:00"
+    },
+    {
+      "mode": "document_arithmetic_q02_repair_records_v001.py",
+      "phase": "confirmation",
+      "start": "2026-09-05T16:21:25.015542+08:00",
+      "elapsed_seconds": 0.04858020000392571,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T16:21:25.030534+08:00"
+    },
+    {
+      "mode": "document_arithmetic_q02_repair_delivery_v001.py",
+      "phase": "confirmation",
+      "start": "2026-09-05T16:21:26.492284+08:00",
+      "elapsed_seconds": 2.5660718000144698,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T16:21:29.032624+08:00"
+    },
+    {
+      "mode": "document_arithmetic_q02_repair_delivery_v002.py",
+      "phase": "confirmation",
+      "start": "2026-09-05T16:23:27.949049+08:00",
+      "elapsed_seconds": 2.3606621000217274,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T16:23:30.283064+08:00"
+    },
+    {
+      "mode": "document_arithmetic_q02_repair_delivery_v002.py",
+      "phase": "confirmation",
+      "start": "2026-09-05T16:25:20.522248+08:00",
+      "elapsed_seconds": 2.3759828999754973,
+      "status": "COMPLETED",
+      "finish": "2026-09-05T16:25:22.869513+08:00"
+    }
+  ],
+  "round": "new user-authorized 3600sec repair; old round ledger untouched",
+  "scope": "each process main entry starts before numerical imports; includes geometry/optics/statistics and in-process I/O; excludes document reading/writing and typesetting"
+}

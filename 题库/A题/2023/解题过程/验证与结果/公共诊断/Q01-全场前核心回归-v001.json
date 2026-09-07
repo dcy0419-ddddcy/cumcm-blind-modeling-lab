@@ -1,0 +1,600 @@
+{
+  "scope": "synthetic tests only, no target rows read",
+  "checks": [
+    {
+      "name": "T01_direction_time_frame",
+      "expected": "reflection [.6,0,.8]; central ray +x; AM east/PM west; strict vs near vertical distinct",
+      "actual": {
+        "max_algebra_error": 2.220446049250313e-16,
+        "morning_east": 0.7071067811865476,
+        "afternoon_east": -0.7071067811865476,
+        "strict_vertical": true,
+        "near_vertical_not_substituted": true
+      },
+      "passed": true
+    },
+    {
+      "name": "T02_finite_rectangle",
+      "expected": "inside/outside/edge/parallel/self/behind/coplanar explicit",
+      "actual": {
+        "hits": [
+          true,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "uncertain": [
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          true
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "T03_finite_cylinder",
+      "expected": "side entry t=1; cap first t=2; interior exit inactive; tangent/rim uncertain; backward miss",
+      "actual": {
+        "kind": [
+          "side",
+          "cap",
+          "exit",
+          "side",
+          "miss",
+          "side"
+        ],
+        "active": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        "uncertain": [
+          false,
+          false,
+          false,
+          true,
+          false,
+          true
+        ],
+        "first_distances": [
+          1.0,
+          2.0,
+          1.0,
+          2.0,
+          null,
+          1.4142135623730951
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "T04_N04_and_first_receiver",
+      "expected": "endpoint extends only miss ray: sb 1->.5, trunc .5->1, capture .5 unchanged",
+      "actual": {
+        "baseline": [
+          1.0,
+          0.5,
+          0.5
+        ],
+        "extended": [
+          0.5,
+          1.0,
+          0.5
+        ],
+        "behind_receiver_captured": true
+      },
+      "passed": true
+    },
+    {
+      "name": "T05_overlap_union",
+      "expected": "duplicate opaque obstacles do not deduct twice",
+      "actual": {
+        "one_S": [
+          false,
+          false
+        ],
+        "duplicate_S": [
+          false,
+          false
+        ]
+      },
+      "passed": true
+    },
+    {
+      "name": "T06_energy_zero_states",
+      "expected": "weighted .5/.8/.4; certified zero power differs from sampled zero",
+      "actual": {
+        "weighted": [
+          0.5,
+          0.8,
+          0.4
+        ],
+        "true_zero_status": "TRUE_ZERO_SURVIVOR",
+        "true_zero_power": 0.0,
+        "sample_zero_status": "SAMPLED_ZERO_SURVIVOR",
+        "sample_zero_power": null,
+        "input_rejected": true
+      },
+      "passed": true
+    },
+    {
+      "name": "T07_distribution_and_independent_projection",
+      "expected": "U cumulative mass and E[g]=.8; analytic variance used independently",
+      "actual": {
+        "cdf": [
+          0.10037994384765625,
+          0.2473297119140625,
+          0.4983978271484375,
+          0.7488784790039062,
+          0.9000778198242188
+        ],
+        "max_cdf_error": 0.0026702880859375,
+        "raw_mean_g": 0.7999607593184375,
+        "analytic_mean": 0.8,
+        "analytic_se": 0.0004609217498324162,
+        "quadrature_g": 0.8,
+        "variance": 0.028034908839807707
+      },
+      "passed": true
+    },
+    {
+      "name": "T08_ratio_bias_counterexample",
+      "expected": "one-sample self-normalized expectation .5 differs from weighted target .75",
+      "actual": {
+        "ratio_of_expectations": 0.75,
+        "expectation_of_one_sample_ratio": 0.5
+      },
+      "passed": true
+    },
+    {
+      "name": "T09_H02_synthetic",
+      "expected": "same-time power paired before averaging; NA propagates; mean product not product mean",
+      "actual": {
+        "power_year": 1.63,
+        "expected": 1.63,
+        "total_year": 0.17500000000000002,
+        "product_means": 0.25,
+        "NA_propagates": true
+      },
+      "passed": true
+    },
+    {
+      "name": "T09b_direct_total_with_NA",
+      "expected": "known direct zero preserves power while component remains NA",
+      "actual": {
+        "power": 2.0,
+        "component_NA": true
+      },
+      "passed": true
+    },
+    {
+      "name": "T10_domain_failures",
+      "expected": "no horizon truncation, no infinite N04 fallback",
+      "actual": [
+        "horizon",
+        "N04"
+      ],
+      "passed": true
+    }
+  ],
+  "cross_checks": [
+    {
+      "name": "finite_cone_half_shadow",
+      "analytic_f2": 0.5,
+      "r1": [
+        {
+          "n": 2048,
+          "batch": 0,
+          "f2": 0.4780138034345191,
+          "trunc": 1.0,
+          "raw_mean": [
+            0.7070752551652648,
+            0.3379917320359813,
+            0.3379917320359813
+          ],
+          "projection_residual": -3.152602128275728e-05,
+          "boundary": 0.0
+        },
+        {
+          "n": 2048,
+          "batch": 1,
+          "f2": 0.4942050010995845,
+          "trunc": 1.0,
+          "raw_mean": [
+            0.7070992539393458,
+            0.34945198757060975,
+            0.34945198757060975
+          ],
+          "projection_residual": -7.5272472017662295e-06,
+          "boundary": 0.0
+        },
+        {
+          "n": 2048,
+          "batch": 2,
+          "f2": 0.5014995626214116,
+          "trunc": 1.0,
+          "raw_mean": [
+            0.7070610744970479,
+            0.3545908196068948,
+            0.3545908196068948
+          ],
+          "projection_residual": -4.570668949965828e-05,
+          "boundary": 0.0
+        },
+        {
+          "n": 2048,
+          "batch": 3,
+          "f2": 0.48245520244493456,
+          "trunc": 1.0,
+          "raw_mean": [
+            0.7070669917448505,
+            0.3411281486443927,
+            0.3411281486443927
+          ],
+          "projection_residual": -3.9789441697024586e-05,
+          "boundary": 0.0
+        },
+        {
+          "n": 8192,
+          "batch": 0,
+          "f2": 0.4971702939264338,
+          "trunc": 1.0,
+          "raw_mean": [
+            0.7070965446155572,
+            0.35154739692088227,
+            0.35154739692088227
+          ],
+          "projection_residual": -1.0236570990418414e-05,
+          "boundary": 0.0
+        },
+        {
+          "n": 8192,
+          "batch": 1,
+          "f2": 0.5056268012234477,
+          "trunc": 1.0,
+          "raw_mean": [
+            0.70710923895489,
+            0.3575333826083076,
+            0.3575333826083076
+          ],
+          "projection_residual": 2.4577683424009678e-06,
+          "boundary": 0.0
+        },
+        {
+          "n": 8192,
+          "batch": 2,
+          "f2": 0.5039179614090551,
+          "trunc": 1.0,
+          "raw_mean": [
+            0.7070834957173423,
+            0.35631207370787144,
+            0.35631207370787144
+          ],
+          "projection_residual": -2.328546920526975e-05,
+          "boundary": 0.0
+        },
+        {
+          "n": 8192,
+          "batch": 3,
+          "f2": 0.5075744489466623,
+          "trunc": 1.0,
+          "raw_mean": [
+            0.7071138986268674,
+            0.3589129474380582,
+            0.3589129474380582
+          ],
+          "projection_residual": 7.117440319781565e-06,
+          "boundary": 0.0
+        },
+        {
+          "n": 32768,
+          "batch": 0,
+          "f2": 0.49935532491264195,
+          "trunc": 1.0,
+          "raw_mean": [
+            0.7071113930834506,
+            0.35309983944261736,
+            0.35309983944261736
+          ],
+          "projection_residual": 4.611896903039536e-06,
+          "boundary": 0.0
+        },
+        {
+          "n": 32768,
+          "batch": 1,
+          "f2": 0.5004242432465448,
+          "trunc": 1.0,
+          "raw_mean": [
+            0.707109752252329,
+            0.3538548626631235,
+            0.3538548626631235
+          ],
+          "projection_residual": 2.9710657813986074e-06,
+          "boundary": 0.0
+        },
+        {
+          "n": 32768,
+          "batch": 2,
+          "f2": 0.5051314256255581,
+          "trunc": 1.0,
+          "raw_mean": [
+            0.7071000716618456,
+            0.3571784672584824,
+            0.3571784672584824
+          ],
+          "projection_residual": -6.709524701942193e-06,
+          "boundary": 0.0
+        },
+        {
+          "n": 32768,
+          "batch": 3,
+          "f2": 0.5007007434591649,
+          "trunc": 1.0,
+          "raw_mean": [
+            0.7070984406450348,
+            0.3540447149297851,
+            0.3540447149297851
+          ],
+          "projection_residual": -8.340541512774635e-06,
+          "boundary": 0.0
+        }
+      ],
+      "r2": [
+        {
+          "nodes": [
+            8,
+            4,
+            8
+          ],
+          "count": 2048,
+          "f2": 0.5000000000000057,
+          "projection_residual": -6.217248937900877e-15,
+          "boundary": 0.0
+        },
+        {
+          "nodes": [
+            16,
+            8,
+            16
+          ],
+          "count": 32768,
+          "f2": 0.49999999999998995,
+          "projection_residual": 1.27675647831893e-14,
+          "boundary": 0.0
+        },
+        {
+          "nodes": [
+            32,
+            12,
+            24
+          ],
+          "count": 294912,
+          "f2": 0.4999999999998627,
+          "projection_residual": 3.289590821964339e-13,
+          "boundary": 0.0
+        }
+      ],
+      "r1_final_mean": 0.5014029343109775,
+      "r1_final_range": 0.005776100712916177,
+      "passed": true
+    },
+    {
+      "name": "zero_angle_finite_receiver",
+      "analytic_f2": 0.42426406871192845,
+      "r1": [
+        {
+          "n": 2048,
+          "batch": 0,
+          "f2": 0.42529296875001976,
+          "trunc": 0.42529296875001976,
+          "raw_mean": [
+            0.7071067811865196,
+            0.7071067811865196,
+            0.30072754219408554
+          ],
+          "projection_residual": -2.7977620220553945e-14,
+          "boundary": 0.0
+        },
+        {
+          "n": 2048,
+          "batch": 1,
+          "f2": 0.4116210937500191,
+          "trunc": 0.4116210937500191,
+          "raw_mean": [
+            0.7071067811865196,
+            0.7071067811865196,
+            0.29106006667005063
+          ],
+          "projection_residual": -2.7977620220553945e-14,
+          "boundary": 0.0
+        },
+        {
+          "n": 2048,
+          "batch": 2,
+          "f2": 0.4135742187500192,
+          "trunc": 0.4135742187500192,
+          "raw_mean": [
+            0.7071067811865196,
+            0.7071067811865196,
+            0.2924411346020556
+          ],
+          "projection_residual": -2.7977620220553945e-14,
+          "boundary": 0.0
+        },
+        {
+          "n": 2048,
+          "batch": 3,
+          "f2": 0.4130859375000192,
+          "trunc": 0.4130859375000192,
+          "raw_mean": [
+            0.7071067811865196,
+            0.7071067811865196,
+            0.2920958676190544
+          ],
+          "projection_residual": -2.7977620220553945e-14,
+          "boundary": 0.0
+        },
+        {
+          "n": 8192,
+          "batch": 0,
+          "f2": 0.43041992187495137,
+          "trunc": 0.43041992187495137,
+          "raw_mean": [
+            0.7071067811866065,
+            0.7071067811866065,
+            0.3043528455155875
+          ],
+          "projection_residual": 5.895284260759581e-14,
+          "boundary": 0.0
+        },
+        {
+          "n": 8192,
+          "batch": 1,
+          "f2": 0.4226074218749507,
+          "trunc": 0.4226074218749507,
+          "raw_mean": [
+            0.7071067811866065,
+            0.7071067811866065,
+            0.29882857378756666
+          ],
+          "projection_residual": 5.895284260759581e-14,
+          "boundary": 0.0
+        },
+        {
+          "n": 8192,
+          "batch": 2,
+          "f2": 0.426269531249951,
+          "trunc": 0.426269531249951,
+          "raw_mean": [
+            0.7071067811866065,
+            0.7071067811866065,
+            0.30141807616007643
+          ],
+          "projection_residual": 5.895284260759581e-14,
+          "boundary": 0.0
+        },
+        {
+          "n": 8192,
+          "batch": 3,
+          "f2": 0.4246826171874509,
+          "trunc": 0.4246826171874509,
+          "raw_mean": [
+            0.7071067811866065,
+            0.7071067811866065,
+            0.3002959584653222
+          ],
+          "projection_residual": 5.895284260759581e-14,
+          "boundary": 0.0
+        },
+        {
+          "n": 32768,
+          "batch": 0,
+          "f2": 0.4236450195315569,
+          "trunc": 0.4236450195315569,
+          "raw_mean": [
+            0.707106781186119,
+            0.707106781186119,
+            0.29956226612648973
+          ],
+          "projection_residual": -4.285460875053104e-13,
+          "boundary": 0.0
+        },
+        {
+          "n": 32768,
+          "batch": 1,
+          "f2": 0.41894531250030326,
+          "trunc": 0.41894531250030326,
+          "raw_mean": [
+            0.707106781186119,
+            0.707106781186119,
+            0.2962390714151022
+          ],
+          "projection_residual": -4.285460875053104e-13,
+          "boundary": 0.0
+        },
+        {
+          "n": 32768,
+          "batch": 2,
+          "f2": 0.4267578125003093,
+          "trunc": 0.4267578125003093,
+          "raw_mean": [
+            0.707106781186119,
+            0.707106781186119,
+            0.30176334314312303
+          ],
+          "projection_residual": -4.285460875053104e-13,
+          "boundary": 0.0
+        },
+        {
+          "n": 32768,
+          "batch": 3,
+          "f2": 0.42294311523468137,
+          "trunc": 0.42294311523468137,
+          "raw_mean": [
+            0.707106781186119,
+            0.707106781186119,
+            0.29906594483842536
+          ],
+          "projection_residual": -4.285460875053104e-13,
+          "boundary": 0.0
+        }
+      ],
+      "r2": [
+        {
+          "nodes": [
+            8,
+            4,
+            8
+          ],
+          "count": 2048,
+          "f2": 0.3750000000000174,
+          "projection_residual": -2.7977620220553945e-14,
+          "boundary": 0.0
+        },
+        {
+          "nodes": [
+            16,
+            8,
+            16
+          ],
+          "count": 32768,
+          "f2": 0.46875000000034184,
+          "projection_residual": -4.285460875053104e-13,
+          "boundary": 0.0
+        },
+        {
+          "nodes": [
+            32,
+            12,
+            24
+          ],
+          "count": 294912,
+          "f2": 0.42968749999826966,
+          "projection_residual": 3.4309222129991213e-12,
+          "boundary": 0.0
+        }
+      ],
+      "r1_final_mean": 0.4230728149417127,
+      "r1_final_range": 0.00781250000000605,
+      "passed": true
+    }
+  ],
+  "all_pass": true,
+  "synthetic_rays": 1003520,
+  "within_ray_cap": true,
+  "elapsed_seconds": 1.9536067000008188,
+  "core_sha256": "7d7e70b8c85b1bc7762efdc08fadc972635d810ceb852bf74bfb2cc318ed1693",
+  "config_sha256": "9f9e287ffb32b052fdbc56162babbfcd695bcf54e365dc143da5028d7b0edab4",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5"
+}

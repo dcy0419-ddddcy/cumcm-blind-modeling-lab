@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "openpyxl": "3.1.5",
+  "Pillow": "12.3.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "matplotlib": "not installed; figure_v001 failed, v002 Pillow used",
+  "root_only": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3",
+  "commands": "工作记录/诊断代码/Q02-搜索运行与复现说明-v001.md",
+  "no_network": true
+}

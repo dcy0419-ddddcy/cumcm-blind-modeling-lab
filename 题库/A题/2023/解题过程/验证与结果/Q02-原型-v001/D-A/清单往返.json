@@ -1,0 +1,61 @@
+{
+  "payload_bitwise_equal": true,
+  "json_geometry": {
+    "schema": "q02-diagnostic-design-v002",
+    "schema_valid": true,
+    "geometry_valid": true,
+    "search_scope_valid": true,
+    "accepted": true,
+    "n": 516,
+    "total_area": 12384.0,
+    "violations": [],
+    "violation_count": 0,
+    "near_boundaries": [],
+    "near_boundary_reporting_distance": 1e-09,
+    "duplicate_pairs": [],
+    "minima": {
+      "field_margin": 9.999999999999943,
+      "exclusion_margin": 9.999999999999986,
+      "pair_distance": 11.513910373447509,
+      "pair_margin": 0.5139103734475086,
+      "ground_margin": 1.0,
+      "tower_margin": 350.0
+    },
+    "pair_count_checked": 132870,
+    "validation_scope": "approved center geometry and declared search scope; no optical or power validation",
+    "comparison_policy": "strict sign tests; near-boundary threshold never relaxes constraints"
+  },
+  "csv_geometry": {
+    "schema": "q02-diagnostic-design-v002",
+    "schema_valid": true,
+    "geometry_valid": true,
+    "search_scope_valid": true,
+    "accepted": true,
+    "n": 516,
+    "total_area": 12384.0,
+    "violations": [],
+    "violation_count": 0,
+    "near_boundaries": [],
+    "near_boundary_reporting_distance": 1e-09,
+    "duplicate_pairs": [],
+    "minima": {
+      "field_margin": 9.999999999999943,
+      "exclusion_margin": 9.999999999999986,
+      "pair_distance": 11.513910373447509,
+      "pair_margin": 0.5139103734475086,
+      "ground_margin": 1.0,
+      "tower_margin": 350.0
+    },
+    "pair_count_checked": 132870,
+    "validation_scope": "approved center geometry and declared search scope; no optical or power validation",
+    "comparison_policy": "strict sign tests; near-boundary threshold never relaxes constraints"
+  },
+  "csv_precision": "17 significant digits, roundtrip binary float preservation",
+  "ground_margin_m": 1.0,
+  "export_rows_preview": [
+    2,
+    3,
+    4
+  ],
+  "source_excel_rows_assigned": false
+}

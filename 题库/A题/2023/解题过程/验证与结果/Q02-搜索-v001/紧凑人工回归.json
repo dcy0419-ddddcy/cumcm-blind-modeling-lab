@@ -1,0 +1,73 @@
+{
+  "suite": "q02-compact-v001",
+  "test_count": 7,
+  "passed_count": 7,
+  "all_passed": true,
+  "results": [
+    {
+      "name": "compact_complete_roundtrip_signed_zero_and_field_mapping",
+      "passed": true,
+      "evidence": {
+        "complete_canonical_fields_equal": true,
+        "signed_zero_preserved": true,
+        "metadata_stored_once": true,
+        "internal_ids_not_export_ordinals": true
+      }
+    },
+    {
+      "name": "compact_tamper_binding_and_member_path_rejections",
+      "passed": true,
+      "evidence": {
+        "metadata_csv_manifest_and_canonical_digest_rejections": true
+      }
+    },
+    {
+      "name": "compact_duplicate_finite_fields_and_export_order_rejections",
+      "passed": true,
+      "evidence": {}
+    },
+    {
+      "name": "exact_chord_count_radial_positive_margin_and_expanded_geometry",
+      "passed": true,
+      "evidence": {
+        "rings": 3,
+        "actual_n": 205,
+        "minimum_pair_margin": 0.02027510914846431
+      }
+    },
+    {
+      "name": "partial_sector_fixed_boundary_clipping_and_cover_radius",
+      "passed": true,
+      "evidence": {
+        "partial_sector_clipped_count": 20,
+        "actual_n": 31,
+        "full_field_tower_relative_cover_bound": 650.0
+      }
+    },
+    {
+      "name": "search_margin_scope_and_strict_height_rejections",
+      "passed": true,
+      "evidence": {}
+    },
+    {
+      "name": "physical_roundtrip_relocated_bundle_and_idempotent_save",
+      "passed": true,
+      "evidence": {
+        "moved_bundle_rebuilt_without_original_path": true,
+        "complete_readback_fields_equal": true,
+        "id_mapping": {
+          "5482341": 1,
+          "7520132": 2
+        },
+        "bytes": {
+          "bundle": 546,
+          "metadata": 400,
+          "mirrors": 125
+        }
+      }
+    }
+  ],
+  "scope": "artificial storage and ring-parameter tests; no optical evaluation",
+  "randomness": "none",
+  "physical_io_requested": true
+}

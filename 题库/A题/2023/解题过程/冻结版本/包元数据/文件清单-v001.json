@@ -1,0 +1,3442 @@
+{
+  "candidate": "盲解-v001",
+  "formed_at": "2026-09-06T00:01:07.834839+08:00",
+  "status": "完整论文与冻结候选待用户整体验收",
+  "formal_blind_freeze": false,
+  "administrator_archived": false,
+  "reference_original_read": false,
+  "reference_learning": "待材料",
+  "path_base": "candidate package root",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 10417,
+      "sha256": "f7a5facb2fb333b20e3e9e12cd14b4990a209f3a8a09899d8eabe7927c9c9247",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/Markdown与LaTeX对应-v001.json",
+      "bytes": 9779,
+      "sha256": "ffd0dd398c340a9c5a62859837099dfe8d8cc2deb0bf6ff9f078e12421d60fa7",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/PDF人工核验-v001.json",
+      "bytes": 1139,
+      "sha256": "c0556480749789e8f535c2089af2451e2ca6b4f895e53ece6a535d0a1a5e7cb8",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/PDF自动核验-v001.json",
+      "bytes": 6164,
+      "sha256": "ba8643d8df1c227f2a909f83f09f7c0ffd67457185776d5b02e3b481f0e2885c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/全题可复现说明-v001.md",
+      "bytes": 17153,
+      "sha256": "54034ed53e8e559d7192e878041f3b1e982435e7e82bfb1f74396953b5807c61",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/公共模型一致性审查-v001.md",
+      "bytes": 24429,
+      "sha256": "7bf7cd8727a6ba2ae58769c4bbaf2918d41310ca5653e8a68be1f1921c5899ef",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/图表/图1-三问月度功率-生成.log",
+      "bytes": 96,
+      "sha256": "fd4e28977285b216758743f2ad9d9d043ef9b476432ff2eda2968f83920a63ce",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/图表/图1-三问月度功率.pdf",
+      "bytes": 5055,
+      "sha256": "2f201c3d557f06a485facc04d9108753f441d87b56d56b9b40438d1adc42b8fe",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/图表/图1-三问月度功率.png",
+      "bytes": 53908,
+      "sha256": "8802f3a07a360e018d0f143120bd4f0b77e0a7dc86042c4df03ff2306abf93d2",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/图表/图2-异尺寸镜场-生成.log",
+      "bytes": 96,
+      "sha256": "fd4e28977285b216758743f2ad9d9d043ef9b476432ff2eda2968f83920a63ce",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/图表/图2-异尺寸镜场.pdf",
+      "bytes": 203561,
+      "sha256": "68e4b6d96286c949f2f27a108a1193e5e2da648d16c44d66216ceeddd17327d0",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/图表/图2-异尺寸镜场.png",
+      "bytes": 97171,
+      "sha256": "61e2f83bab1f52daf40ce766afa520f7778d1a93a7d4e059315b8f7dc61a7563",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/学术修订记录-v001.md",
+      "bytes": 18196,
+      "sha256": "c5e033793544ca2b45bd078fb9633be54b229af1ca60f234c210cbb2b835fb57",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/完整论文-v001.log",
+      "bytes": 42121,
+      "sha256": "28b4f384d6b0743716dd214e9409bf3dbf83c08e461ea8f74246ecc3a3a876eb",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/完整论文-v001.md",
+      "bytes": 43533,
+      "sha256": "86f9f98642331632d82eef24cd2b3fddadc81773c53204a210553c7306284f83",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/完整论文-v001.pdf",
+      "bytes": 440378,
+      "sha256": "f1961abe482d87137cd7372800a83cde1c2a17e80736a75fe0320e13225b9a45",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/完整论文-v001.tex",
+      "bytes": 54597,
+      "sha256": "4cd1ee4bce53cec2e7f34f01098c831aaa5ffddd69a7f5ec4be5107b75202904",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/完整论文内容模板-v001.md",
+      "bytes": 38720,
+      "sha256": "dd0c341892599a371640be7be1b4a0cf40ebf14c96f223dc486472dd632b3608",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/完整论文证据映射-v001.md",
+      "bytes": 12684,
+      "sha256": "8d1a9ea01a04984307c6fd0b3c5b322a5b1abdf4d6ec20b5bd80541482ec1341",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/完整论文静态复核-v001.json",
+      "bytes": 1695,
+      "sha256": "ea0040f7e9ff4e868c76e6e99bf91199e38929ad2db86162843a79c54e28b5df",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.json",
+      "bytes": 902115,
+      "sha256": "13d7d0ba04b4a1a83a7e3e9aacd63def1d8486d3028e0dfaaad60393aaaf7c37",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/实际搜索比较与检验证据-v001.md",
+      "bytes": 3835,
+      "sha256": "27ca701fa6f7593d95da9d1dd33e012bd24c77963b3429f891b884cff6aec664",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/搜索比较证据回读-v001.json",
+      "bytes": 398,
+      "sha256": "e91e1309ef6d9efeed01b6403ae3aec14d8d01e80049051bf2e845a591e38938",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/整合与参考学习前基线-v001/baseline.json",
+      "bytes": 4255,
+      "sha256": "6e1eecc9c833469cb1ab5923bda599d8d5c16d19e196136c53f1f4042f415c28",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/整合与参考学习前基线-v001.md",
+      "bytes": 4690,
+      "sha256": "eeec53ea5f1bb499753d0caacc0983e09bdf0027d9c023cf33e49bb8d678a2b3",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/文件与整合一致性核验-v001.json",
+      "bytes": 68718,
+      "sha256": "40a4a0a79b928323ac3a7492812bd7b894c4ba7d03014ae72417a9db76ebd51d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/本地编译核验-v001.json",
+      "bytes": 1279,
+      "sha256": "99df6e90fa8e2382e6d3c95e204e6650e43ca37a92637814ce667849ef087cd5",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/来源审计回读-v001.json",
+      "bytes": 1984,
+      "sha256": "72c108926488ce816019db2d7b8c4b3fd9ec2ee14b22afd492d1d23d218c9e9c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/正文数值独立核验-v001.json",
+      "bytes": 127250,
+      "sha256": "a7b3dd6dc3d47e320a19ec44e3a46b2d20bbe06fdf7542896f590bce2e638ea4",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/正文数值独立核验-v001.md",
+      "bytes": 1773,
+      "sha256": "1ec5a46fcce7949064c1790d9567057edc6a5554d7f5cfcd418962bb22d72fe5",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/正文生成证据-v001.json",
+      "bytes": 21108,
+      "sha256": "67ab4db137420adb49dd058666895be6bd97984dd0b68819a32ab9e231e70c78",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/盲解边界与局限-v001.md",
+      "bytes": 9110,
+      "sha256": "19f8699a935b9909bb0c2924859890106aa61482469e16e4816dc6f33580c665",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/经验整理候选-v001.md",
+      "bytes": 6672,
+      "sha256": "967b4f5b18218a0c3a5bf9745e8159afc68322aee2b3c1f1f5e1f4369e492df3",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/结果与来源-v001.json",
+      "bytes": 251541,
+      "sha256": "4a160072eb1d4ee8772be10fd3ba5352f54cb98216fc592ea53f2a295aaafdfe",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "bytes": 8921,
+      "sha256": "594ef2b22c263f665a394c7d8e2033ea29f6fca088e720b691d1e2a88ff121e5",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/边界与引用静态复核-v001.md",
+      "bytes": 5595,
+      "sha256": "67b3671923f08c1887c5f9a8e4032c464ca1089dbb3ff7af7390220b1f8178f0",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/contact-01.png",
+      "bytes": 807287,
+      "sha256": "0022d4b76fc603c982b0f69cc4eb05629bb6bb0c343d88dc7f30b3d58312966b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/contact-05.png",
+      "bytes": 800816,
+      "sha256": "aac36a77361a11f2777d747e62c37ecaa276d24dcd3c01a17211db5e3b94c257",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/contact-09.png",
+      "bytes": 743891,
+      "sha256": "0bb8bf5104e1951b14be6645a8151687f7443adc09dc39fd6d235f216112c16f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/contact-13.png",
+      "bytes": 739374,
+      "sha256": "567af8d626dbebed0f64035084615365f772e70b7da6d662cc41e196cfbd7e36",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/contact-17.png",
+      "bytes": 812748,
+      "sha256": "740d572722964cce8e14a735dc9c3c27055dccfbbd8b5a6b217e7ad6779b150b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-01.png",
+      "bytes": 292417,
+      "sha256": "8d90723595f861e0889e8908c44294d2df70b549ef7d596587227bf60c2ceb94",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-02.png",
+      "bytes": 187316,
+      "sha256": "e0180d65c456fd964f7f81d3445675622b898f79db9ca7535f733e4862a24d1f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-03.png",
+      "bytes": 142372,
+      "sha256": "9b2f6e99a1bf8e798f8c9050074b5c435c598883ab1fc77a2075a3e8bcb495bd",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-04.png",
+      "bytes": 195983,
+      "sha256": "8d34d46698b237bd05dd2f2524b0467eea1076031194f6940248d062e70f412e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-05.png",
+      "bytes": 218444,
+      "sha256": "3bbde611301eaf68c75b680c7140a5932043de8125056ae81a277ae9a1330fea",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-06.png",
+      "bytes": 191078,
+      "sha256": "b5051389218cfef1f6fd80c3885dc3e428296af02cfbab6ea7a0af094f77d806",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-07.png",
+      "bytes": 252963,
+      "sha256": "8c1a760cbfee5ea9619c75a9ac3cdb7c063e4db61c4fcbf37a72514db1a217f8",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-08.png",
+      "bytes": 137310,
+      "sha256": "68f711d9768359bcbcd13eb6c8a1ae6adb24ef391c7516f78d2dc742e975d868",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-09.png",
+      "bytes": 119664,
+      "sha256": "132107b1c1c037251a986b37279c0e28c6ca680024defdfd72996f5df5c73699",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-10.png",
+      "bytes": 161835,
+      "sha256": "9ef3eba54bbfa8a6050545061a54d01fdd845c194bf87b050e077b86f72062cf",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-11.png",
+      "bytes": 254433,
+      "sha256": "296172516ed576366b79236f5b877d24a5e1b0a76afbde003ac0521a0d1ad4a2",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-12.png",
+      "bytes": 213640,
+      "sha256": "7d9a66f7096a8a6089862ac3d77df0411c532eec27b5418bb5ad2bd38822b70d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-13.png",
+      "bytes": 217772,
+      "sha256": "2baac26fec72e51bd4da11f4c93e6a2c63ec72824dc60090c7640b98df751ab1",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-14.png",
+      "bytes": 151130,
+      "sha256": "d62d1703b064254c3c9f6020a8f703c54e781e63a50a833936de7e1c2a4a9ce8",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-15.png",
+      "bytes": 140464,
+      "sha256": "e44419011ef3274f6c3cc870bc948791a12cd7ac613baf1045d789d83a9534a2",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-16.png",
+      "bytes": 186945,
+      "sha256": "6b4324124241de41b8c801632b8ca25e65381fede294a2346b2e7d8de0e230db",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-17.png",
+      "bytes": 258253,
+      "sha256": "b3c85c079a33d12509db35b645e9f66e2abf27e51f860a224bd03e70dc72d800",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-18.png",
+      "bytes": 277138,
+      "sha256": "287a6e7b5b7105e10e93b507529af7a3aafbda79e124af8520c3ccc676f9ac5f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-19.png",
+      "bytes": 207260,
+      "sha256": "79cbcd9d7338fd95cd5a2572665e4eb4b2f965c7d450da254d18e4d8f73f4be2",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/page-20.png",
+      "bytes": 88617,
+      "sha256": "c867649fabd20821fe8a54f05d4b81d11d2124824c8ff062db4d632d92e6088e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/PDF文本.txt",
+      "bytes": 50486,
+      "sha256": "1cb420377d9713f10f567c3314e88807fd4fbebdfafe9e3a24f72fb6b5ff767d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/PDF自动核验.json",
+      "bytes": 6164,
+      "sha256": "ba8643d8df1c227f2a909f83f09f7c0ffd67457185776d5b02e3b481f0e2885c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/前10页人工查看-v001.json",
+      "bytes": 7276,
+      "sha256": "26157b80d1963a9c8128c9b767f2c7116ed81d23968543d354c0b10729f75966",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/后10页人工查看-v001.json",
+      "bytes": 4330,
+      "sha256": "b9eb2e63685d7d213c313a947c9260b8dce1d22c4c60f4608a44f9ed3cbb5fab",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/文本提取日志.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/全题整合/页面核验/attempt-002/渲染日志.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/写作规范-v001.md",
+      "bytes": 3870,
+      "sha256": "28e8ff6e4c2664a71851ee9d5c49890a70a8863debc36dc1199077216c41f781",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/参考写作应用对照-v001.md",
+      "bytes": 2097,
+      "sha256": "ecca5bf5e5adcae79961bd8df4da97b214ebd612ce5316afec2208d9ce6a70f4",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/参考论文写作学习-v001.md",
+      "bytes": 1897,
+      "sha256": "2f1d9261a1fbf8dd8c1c8289f49843ee5ad0b9ffdd560fbcce752f8504bc7752",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/第1问-模型建立与求解-v001.md",
+      "bytes": 30004,
+      "sha256": "5d13b04da58dd74070124f047a58a5b7887cec7adfe3bfcc754ad82c6f6f5341",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/第1问-正文证据映射-v001.md",
+      "bytes": 8211,
+      "sha256": "fecd96d735c222549dd764ebf82db3efe305f632a412025ef96d3a87c3dcc371",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/第2问-模型建立与求解-v002.md",
+      "bytes": 44292,
+      "sha256": "eb30650b30f15035e8d8e486a5df53b76022c37dcd411a5b34fa9931500cbd56",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/第2问-正文证据映射-v002.md",
+      "bytes": 10752,
+      "sha256": "17983219c9b0884e889907b05fd5386efb55cbe398ea69a3a77f696febfe5346",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/第3问-模型建立与求解-v001.md",
+      "bytes": 22172,
+      "sha256": "f6f1045fddac45248410ff272476d75260c4e04e782c46a84d8c81316227f127",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/论文/第3问-正文证据映射-v001.md",
+      "bytes": 10238,
+      "sha256": "8272a9a64685d8bbb87432a9ae23543ce9683758552b4946d391df5861c6b9e6",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/audit_materials_v001.py",
+      "bytes": 8402,
+      "sha256": "c84d129c89ab2eb13df6d77fc44f0018bf98c446cf645dea388160bcc1edd745",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/check_s02_materials_v001.ps1",
+      "bytes": 2741,
+      "sha256": "e0239a4a3b1480dbbebb8e4c35f46343a98f8f488e23247587c120c360ddcecf",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/Q01-全场运行说明-v001.md",
+      "bytes": 4940,
+      "sha256": "d6b9250f4053fa109812b7161c50519aeb39e6ec55cecc7fffba802982c2dd02",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/Q01-全场配置-v001.json",
+      "bytes": 4225,
+      "sha256": "d54371ef05491ef6edd786bb22601308a63911cf64213272e7b9bbb4e16c7ee7",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/Q01-原型运行说明-v001.md",
+      "bytes": 5926,
+      "sha256": "d23f5047c85f5857ee3d295ca10812d1d664ff5d03826946e2098df9af812a9b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/Q01-原型配置-v001.json",
+      "bytes": 1997,
+      "sha256": "9f9e287ffb32b052fdbc56162babbfcd695bcf54e365dc143da5028d7b0edab4",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/Q01-文档核验说明-v001.md",
+      "bytes": 2645,
+      "sha256": "0268b60f53b1d1eefb1647110e2d3f54bb29cfd9ce9390219ecdaef77970d06f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/Q01-补充验证配置-v001.json",
+      "bytes": 487,
+      "sha256": "8cda506a86cff95ecc424357cebb4993a0ce3151716d43e48d606cc1a9f59b5a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_checkpoint_repair_v001.py",
+      "bytes": 2641,
+      "sha256": "574453b2c685fe1121df901fa4e1ec40260d8a6fc556e4df55ef277539c6b266",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_core_v001.py",
+      "bytes": 18809,
+      "sha256": "7e76d0f38e6331bb492ab0d3f8d6fcbcb494e88f2f1e9802d5ccdae9eb5b951a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_core_v002.py",
+      "bytes": 19265,
+      "sha256": "f8297c1c9a40f70cc6381302fe4d8f18d1ed7d3669129498892e88172cc7c964",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_core_v003.py",
+      "bytes": 19404,
+      "sha256": "7d7e70b8c85b1bc7762efdc08fadc972635d810ceb852bf74bfb2cc318ed1693",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_full_delivery_v001.py",
+      "bytes": 7275,
+      "sha256": "b935607fe676b04046582492715ceba34c766c79f34a1738a45ba2af1049cf20",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_full_delivery_v002.py",
+      "bytes": 7625,
+      "sha256": "728f45bb4c3ecf31368e329688bc904795263a2cd6df25f772d9af6dedc4385e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_full_report_v001.py",
+      "bytes": 23401,
+      "sha256": "bdc2804e408c776d594922ae4b6ad33d90accc87654c2dea7f61cb64ae5b36ac",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_full_run_v001.py",
+      "bytes": 17336,
+      "sha256": "ebeee2767b13401b9536665bad4aba244962f26c3904b378470e1dd24f55a642",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_full_run_v002.py",
+      "bytes": 18003,
+      "sha256": "bd9f993ac54bbecd03d6dadddf07cc4ae52365bdaf3edb09776e16ff1d51ab26",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_full_summary_v001.py",
+      "bytes": 12193,
+      "sha256": "a5e27acb8f25402c3fe14c3dfc1eca9d34abd7a9a63d0c1c73ae55ca4ee00b6d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_full_summary_v002.py",
+      "bytes": 12193,
+      "sha256": "26ad7240da4a1471d33a1ed993d0bb254f7cbc5e5db2a2fff59911faaaba9eeb",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_local_checks_v001.py",
+      "bytes": 3109,
+      "sha256": "9a3bf98a656174ebff6cda717a7f7563062d4366fead926fcbbb962c415b646d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_local_checks_v002.py",
+      "bytes": 1864,
+      "sha256": "d28425b92277839c024e26ecb28f684f684a8e157840b7ee262b3c4717ec65de",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_low_survivors_v001.py",
+      "bytes": 5482,
+      "sha256": "7e86a6324d1ca73d1513bc6c8fc39c099927450f94f2444d97336b2e41186812",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_low_survivors_v002.py",
+      "bytes": 5558,
+      "sha256": "a5d5d3b81d423925619f48874d4156c852f8c7aaa7a8c3dbe6cfa240023db072",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_build_v001.py",
+      "bytes": 7881,
+      "sha256": "7bd172b7458402ec7eb8f1866e7e4357a2633a5e7dca0dfb06c9fe62cf73dd19",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_build_v002.py",
+      "bytes": 8976,
+      "sha256": "d63d0028e13bde367dd70eea3c99bbaf4ba7784a6fb9efe142d598cf4307c08e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_build_v003.py",
+      "bytes": 9090,
+      "sha256": "4508dfde79ac86d282aae9bd10a5e8021d28cf0d16a9f3303755130e2a751318",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_build_v004.py",
+      "bytes": 9471,
+      "sha256": "1b344daa0e538feca97e992563a287c1dde4944885821ce8318e65c49e7b590d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_build_v005.py",
+      "bytes": 9504,
+      "sha256": "70614921617f36d03c299b7be67ad0adff5dae02253b0d8100554ccd9354eddb",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_build_v006.py",
+      "bytes": 9658,
+      "sha256": "c6d7e5cd5a3e4a236f76b4a933d2e72670e7467c0df48542f5ffee98eeaaa12d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_controls_v001.py",
+      "bytes": 14400,
+      "sha256": "de8319f4c437a4aee8e0ca6afc4140ae292566d477c14c3df05f6143319604da",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_records_v001.py",
+      "bytes": 23747,
+      "sha256": "4fa5e059a3f4ae8567d3b425d92022ddaf78b23b4f1b946fd13f25ee5f16fa0f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_refine_v001.py",
+      "bytes": 10570,
+      "sha256": "36ff937a1f6a8fc2c7b70d4c413468e9f7976e547dd8f18ce0433fdafb4b285b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_render_v001.py",
+      "bytes": 1891,
+      "sha256": "dfaf69eaefa6c0e1abac7b3d3d2093ed3233d323d565069bfa317fb20a8eddea",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_render_v002.py",
+      "bytes": 2410,
+      "sha256": "5556edb554b536b90d6803e2d375425fe4b19d25ef3cdd8936b9254b4db3a29c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_seal_v001.py",
+      "bytes": 13822,
+      "sha256": "6b5b52192cccf4c971113e7c82ccca9a5cec2b439fa42918881ba9e134d2ca84",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_tex_v001.py",
+      "bytes": 4098,
+      "sha256": "214b73832e7670f3330bee73458f86b7e14a2a397678f4a31590c6126ef090a6",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_tex_v002.py",
+      "bytes": 4098,
+      "sha256": "ed24b1c28eb3bc9606cee93b79821c514f9f4269dec2ed5d9436a5baa38759b7",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_tex_v003.py",
+      "bytes": 4546,
+      "sha256": "831f69a0c403ab08ce20efe42aa3879ca3a1e03ab4bb088a2d8f2725b41766b8",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_tex_v004.py",
+      "bytes": 4830,
+      "sha256": "dc3f27039816cd6f2ddb6e35c908ca4416c7c5b61bb4b69b9f81d4153aaf34a3",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_tex_v005.py",
+      "bytes": 4834,
+      "sha256": "613e2bb799bc3a3b2e3e65c9cebb4a604ad2afb60f8ea988e52d36ec343b76c9",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_tex_v006.py",
+      "bytes": 4859,
+      "sha256": "e4ff71f60bb00d0c2ffab3e75c4f49c9420e663c8ecb06f274c3f1be3e53753a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_verify_v001.py",
+      "bytes": 9028,
+      "sha256": "71806b3179e8c5328805a2d63f5a8e305a9c27b590df6160b971f36dcfb89e3e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_paper_verify_v002.py",
+      "bytes": 9192,
+      "sha256": "f94c0b023e737a0b5fc6721030239a14e73b7ce9e4277a0eeca6c22a9a190bea",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_rare_audit_v001.py",
+      "bytes": 2681,
+      "sha256": "45d4c813124b1873ab2004e3a6e76975aaf2cfdcafe89f1e9b80e5b763cc3fc3",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_report_v001.py",
+      "bytes": 12414,
+      "sha256": "87d106a66c3e62bab0b1f09f4c705248cfe7c9219a89691b0baafa12f93cb4e1",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_report_v002.py",
+      "bytes": 12418,
+      "sha256": "cff38f5d53d0567865f8a1de05f25d0ca89a395a074f3fd4d4cd4b3b3c874c94",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_run_v001.py",
+      "bytes": 12268,
+      "sha256": "a39ce1a20c28f73c9a867c2e642284c664f85111014bbed444335e2e29905dd7",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_tests_v001.py",
+      "bytes": 12879,
+      "sha256": "9983f90355e1fa767f61270f2368b97b6afba80773fb398140aaf10edf12c05f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_tests_v002.py",
+      "bytes": 13456,
+      "sha256": "b86c150a47cd86f269adeced072a6544fd43fbf0cf4849fcb820197e8023f6c9",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q01_tests_v003.py",
+      "bytes": 13456,
+      "sha256": "de9267741f1dd6626b853c76fea7f212e6ad8b2aacea4bd9a62dfcce4648a4a5",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/Q02-修复运行与复现说明-v001.md",
+      "bytes": 5839,
+      "sha256": "543458ad2ee8b3235459747a104e0dee4531abe1ea727c4e6ca668a8ca63752e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/Q02-准备核验说明-v001.md",
+      "bytes": 1351,
+      "sha256": "55bb9325256d59bcb3f275e4ac383d9849cede9b43d888d4aebe7bc96fa69651",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/Q02-原型运行说明-v001.md",
+      "bytes": 3363,
+      "sha256": "b8a5dd9d581ab66718a8deea8e24ebea333370919ce8e243181d0cc7abc0263c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/Q02-原型配置-v001.json",
+      "bytes": 12063,
+      "sha256": "cf5c1a1eb0cc796e110730377229a44ec92ab59d2971db88bab64dbbb6a4c56b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/Q02-原型配置-v002.json",
+      "bytes": 12210,
+      "sha256": "aecb12edf0e3ac5eba9f3d3079f0fca84601a9f230cd8e5131230c915c7d8f26",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/Q02-搜索运行与复现说明-v001.md",
+      "bytes": 4992,
+      "sha256": "ad03770d9cd7df624172f558515ba2843a42f51ce1d49f808db889b2892f7c0b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/Q02-设计与评价接口-v001.md",
+      "bytes": 8463,
+      "sha256": "c7e403f3456fa07c7b948226fc86a0efa4e3892e05e68e8f4c9c1a1d832b2f71",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_compact_v001.py",
+      "bytes": 29793,
+      "sha256": "6351316e6bd3f797c2a47c1b67e58774148e36b1d97cac09d9808fb6c111b6dd",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_delivery_docfix_v001.py",
+      "bytes": 1308,
+      "sha256": "c2493ab50a3868f24adcdf65701f5acc233d7817db7c0ca49ed7dce3cf3490cf",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_design_tests_v001.py",
+      "bytes": 13301,
+      "sha256": "eb831e39f421eda29d359ea57a6507fb7ea79bfa180dde2bd0ae79c0b7f432bc",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_design_tests_v002.py",
+      "bytes": 16886,
+      "sha256": "e5edca1ffe5631a65d7462e966c56571a9ba8785c10ffa87def31136da6a1347",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_design_v001.py",
+      "bytes": 22851,
+      "sha256": "2ac2880d1e425d06d545825f7446bd89f063ec131c49a0e4d430e2466cc988af",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_design_v002.py",
+      "bytes": 24769,
+      "sha256": "92315f1506597508d1d558ea1e58bd18579c4381a56741de929d7b9a48f3b361",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_diagnostic_figure_v001.py",
+      "bytes": 2017,
+      "sha256": "ef1bb24b92bec3fb98e58d27b536d7d95d2a4e04af5093e4419f261adfdd3878",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_diagnostic_figure_v002.py",
+      "bytes": 2724,
+      "sha256": "637e0416dd520de0f44923157ed9b275dc387888952b0b99c29f495914f24451",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_eval_tests_v001.py",
+      "bytes": 9721,
+      "sha256": "4a7b451e131877928473f31dc6fbfa6f66025d69d6ce609e27ec5eaf400881f2",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_eval_tests_v002.py",
+      "bytes": 10634,
+      "sha256": "b64920c75815fe4a2b95cbf90d1ba943af7f290c79f2697a9ddc04498ded055f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_eval_v001.py",
+      "bytes": 14193,
+      "sha256": "79318bc5153debb8d396c68f6cfa3eedfdfd27c5e802cd496c30d221edaad806",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_eval_v002.py",
+      "bytes": 16761,
+      "sha256": "777a6889531d7f167c1dfba04c5c71df6198ab7a59a6721816b9c28d4100793e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_eval_v003.py",
+      "bytes": 16815,
+      "sha256": "f2d26131fd500c193cc643021815feee5195c5da668144b22a1571e2003b35de",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_fast_tests_v001.py",
+      "bytes": 12522,
+      "sha256": "625012294cdb715d4c83058a1f03db55eac28e50ea571c091f371716b89c5f1e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_fast_tests_v002.py",
+      "bytes": 16049,
+      "sha256": "cd1fc3a2b382f9cc8f5671e9eec8784eb1337e94a171c167f2137bf358b9d9c6",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_fast_v001.py",
+      "bytes": 16439,
+      "sha256": "a15e5907d068ef6c078226bc45b6931e87c9dc23f09f1a2ee0653ec98db430bc",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_fast_v002.py",
+      "bytes": 17407,
+      "sha256": "84195cbd2395e8bf6d09c7189a5b158acd1373db2836903f648bdce9aca98e09",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_hex_bands_v001.py",
+      "bytes": 3241,
+      "sha256": "9b4e803bf06429f1d47c65e8b90402d1e36e30538884ff37589eb3cdbbfcbf67",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_paper_prepare_v001.py",
+      "bytes": 4290,
+      "sha256": "106e763c80d95899e7fb804477bc3a20bc944b9a4d699760da74676d673193bc",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_paper_render_v001.py",
+      "bytes": 2423,
+      "sha256": "3efadbe55c066076bba2ae2059de301469bf2ddccc33bcbf67a76ced18af6ee8",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_paper_render_v002.py",
+      "bytes": 2423,
+      "sha256": "f506e353bd112eeddce684c1791250c06449222179f32adb2734602a4e11db9a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_paper_tex_v001.py",
+      "bytes": 4916,
+      "sha256": "06a128eb6146dcbb9f3a51f84d1e3250cff1df4999b96c860b5a829790709a3d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_prototype_docfix_v001.py",
+      "bytes": 6099,
+      "sha256": "b891040d01c957d0ce952a5a6d2c2db2550ac679bcfe091440cf3c85f5b7fb96",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_prototype_document_v001.py",
+      "bytes": 11820,
+      "sha256": "365d67220c1a652728f7e8a3184c1831b96787469f209e6532c1aeade1ae3dd9",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_prototype_report_v001.py",
+      "bytes": 36396,
+      "sha256": "b169ec6bcfc9320e9364f676e6fd5f2fe18d5f351daedd79a71ba94e0b603e8e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_prototype_run_v001.py",
+      "bytes": 19673,
+      "sha256": "770ccb65f686024555671cac71b5e29c4aaf39445f917d42dd40de11181dbe14",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_prototype_run_v002.py",
+      "bytes": 19809,
+      "sha256": "dbf7189697f0f01ccf1f2c173bd267309ed182add9015250fb72178db967e158",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_prototype_run_v003.py",
+      "bytes": 21197,
+      "sha256": "b7bd1c40e7008e3f94dc4d28bbf5bca061dbc2a592d8cf76edb6bc2a1889011d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_budgeted_document_v001.py",
+      "bytes": 780,
+      "sha256": "50bed48535e4d54fe1f373ec82ec70e962ed0f6cb6b8395f63dcd0fbdaea8e52",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_call_fix_v001.py",
+      "bytes": 1953,
+      "sha256": "d30441a182c5f852f99461bcba032c1fb54543d146ef4588801fd0b53480547d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_common_v001.py",
+      "bytes": 2989,
+      "sha256": "47ae9aee44798934e17726ff7274370d90600a6800eca4f2a9f6a69fb95856b1",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_compare_v001.py",
+      "bytes": 3133,
+      "sha256": "ea6738c5d23a10df01fcf69093bd051d4eda2a990b67f7cc4fd806e9355842ac",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_confirm_parallel_v001.py",
+      "bytes": 2613,
+      "sha256": "f331950e25e93996fc68d8979bffc584330ef7c2b400599be9fb9fae07340e9a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_controls_v001.py",
+      "bytes": 12426,
+      "sha256": "b9db17e163c726dbed40eda9b296d89b48a32b793dd22708c10dcb0955114bdf",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_cost_fix_v001.py",
+      "bytes": 1558,
+      "sha256": "34db1e1745fe9fff9ccbb40ddfa192aeb8336fc3287d5886cb1c72fb4fc54d74",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_delivery_docfix_v001.py",
+      "bytes": 2865,
+      "sha256": "62d265a7feff90020471d1287dce52360a1ae10d40d77fa31b95c87457c5f171",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_delivery_v001.py",
+      "bytes": 4780,
+      "sha256": "2989a5a2853fa45e2141a17b0b63be733f6dd062f166e0cdad9c452b65505665",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_delivery_v002.py",
+      "bytes": 5239,
+      "sha256": "45f73a58b1941404601c99fec64a6165f79b103076d3ba001e5af19fbcafa6b6",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_engine_v001.py",
+      "bytes": 7508,
+      "sha256": "5a17a2a77f9cd6f4cdc0f35fa7cef194262ee9d96f1d6ee2fb3e9991dc19ee09",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_entry_v001.py",
+      "bytes": 467,
+      "sha256": "5d93ff179a72294bd77a8e5f7790b35aa2fd281e9a389738f3c8961af5246c1a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_entry_v002.py",
+      "bytes": 477,
+      "sha256": "636269cd088e51fcb18af618600283bf9f4dff34bfebb6bc4118ca7f2bbe2644",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_entry_v003.py",
+      "bytes": 477,
+      "sha256": "bf9c8b81bc2fafa60beda130d4def76cf294224fd94d22955c635c86e6d8907a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_figures_v001.py",
+      "bytes": 14509,
+      "sha256": "f7871202241d7ddfcaad112413c203f6cc330165cda03d5d987358d1bc85d825",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_paper_close_v001.py",
+      "bytes": 6797,
+      "sha256": "a1c706bb924e6f76d5e3772d3e72688574ef371f745d57e9fce0979ff6740da7",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_paper_render_v001.py",
+      "bytes": 6505,
+      "sha256": "21254a23be63610f90a0fda6eee183ec4682aa3113e7a7eb79510fafd08a6bac",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_paper_tex_v001.py",
+      "bytes": 15153,
+      "sha256": "ee8fec2548cac90dc4053d036d4569829227fe7d7ff00d1cab5762d5182ddc43",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_paper_tex_v002.py",
+      "bytes": 15010,
+      "sha256": "3e45d7291c94b7e6af673c37982466132186609e7a5d81a52b8ec485e9d3633f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_parallel_freeze_v001.py",
+      "bytes": 2570,
+      "sha256": "8571059a2b7848afe14a29451147ee2823e9ca9b4199a9f3f2da302c97c563df",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_parallel_v001.py",
+      "bytes": 20579,
+      "sha256": "bc0d145de0c9485165160a037566ac823c33d2ad828d7cd086ab4f58628f03f8",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_postprocess_v001.py",
+      "bytes": 20635,
+      "sha256": "568d4852145c1b50b58c606c984e1f9cafc6630c74fc75a5d8f0b8bd4d8ab129",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_records_v001.py",
+      "bytes": 12105,
+      "sha256": "c895aabc099bb33d041889f2837fce323b5a582d8271bd91e626db14f5c7840a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_replay_v001.py",
+      "bytes": 3039,
+      "sha256": "042e3746eac48df063294efe097428a8f8d68282ad58a6cc53308184e09becf1",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_run_v001.py",
+      "bytes": 14717,
+      "sha256": "585f19134c287fe33686ae638cd05d96cca52e127f1af04ec078a788bb49d55a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_run_v002.py",
+      "bytes": 14961,
+      "sha256": "b05f53c7dba5af044f38677566c515a440f6836bc81ce5e14a5a0b6c377b2015",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_run_v003.py",
+      "bytes": 15111,
+      "sha256": "c4dc4a8ce7ae3de8ea1d498808d8d97886c4ae97eb46457a7d64e495d30a3e58",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_setup_v001.py",
+      "bytes": 5620,
+      "sha256": "4a58ee805ae0067b8ff04c57722ad912c555542020761f4bce4d94e6cdda3917",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_repair_verify_v001.py",
+      "bytes": 36958,
+      "sha256": "b4d9fd2efc6e3c6e75bfb014adfe84ce58582d4bb61f823853d015180addc82f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_common_v001.py",
+      "bytes": 2872,
+      "sha256": "5006bc11c3121ab4c47c4ea597883a05ff49ec73cb065b5ac00c4c55ce4de22b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_delivery_v001.py",
+      "bytes": 7868,
+      "sha256": "eca0e6fa47802babfe4f906995207025201cb2f65e5bdab4cead0ac9cc9a2db7",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_delivery_v002.py",
+      "bytes": 8094,
+      "sha256": "88d67595fcd8be3a8464f9f5d71880848448d5e7e55e7bfeaad7ce7c9050792b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_docfix_v001.py",
+      "bytes": 4302,
+      "sha256": "c53aec595b087b4a31b32041501c6142080049da37809d66565ed1724c64126f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_engine_v001.py",
+      "bytes": 7242,
+      "sha256": "039bcb7a803e97f7c441808c3ce5ea25125a69baeb50c7034a0732a3de94f465",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_engine_v002.py",
+      "bytes": 7362,
+      "sha256": "48a540a822e4d5806eef661f6739e59ccffc4b540fedb425b3e67867caaf156d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_postprocess_v001.py",
+      "bytes": 8125,
+      "sha256": "225c951ee55bf65da688eeaee3894fcd1aee167f0bb5227b12812cdcf49a6571",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_preflight_v001.py",
+      "bytes": 7761,
+      "sha256": "84dcc2e7f3eab95d45a23de6b39e2b98757d659795e2c6ffe16d4254b7c0d56b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_preflight_v002.py",
+      "bytes": 22522,
+      "sha256": "25616eefd73139ec3bde7ffd2d12d5d489b6a960a4dc915f856545d0460e6760",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_run_v001.py",
+      "bytes": 14791,
+      "sha256": "5de36b9d9311985cf4b3be178d0b24b174571a2ca17e830e3a87cd16ff980cab",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_run_v002.py",
+      "bytes": 19249,
+      "sha256": "a012e1149c5c4e19453fe02c655ac4fc9a52210d7ee73cb042602231742fc0df",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_stage_build_v001.py",
+      "bytes": 19998,
+      "sha256": "d4ecb6a1e30c194304282ef3743d4832777e9d56f7d40de10c7a1b951f1457cc",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_summary_tests_v001.py",
+      "bytes": 6266,
+      "sha256": "7c2a10722a0eff2892faa1d23dd8567ffc4adde7c8837e976fa9069b7e43b12e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_summary_tests_v002.py",
+      "bytes": 6769,
+      "sha256": "160911e8b6c7c4ac12cf1aa631570d2c439b25cd28fb045d5819bb1d5029321f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_summary_v001.py",
+      "bytes": 42400,
+      "sha256": "d7f348579a27b49e29749fba4e0481dbb12be1bf538e4ded4a8edd449e742650",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_summary_v002.py",
+      "bytes": 43373,
+      "sha256": "f5f95f46932992e3efb0a30c6841d3ba0cfd545226a50300a36fdd011a1e4515",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_search_verify_v001.py",
+      "bytes": 24339,
+      "sha256": "4c95970201ff4eb6ab13afdea33267bd2e98216d466b03ba95e0af1005390e3a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q02_stagger_spec_v001.py",
+      "bytes": 11475,
+      "sha256": "e18ba1b1f1d996d9b53123ca47d6865d825e244b64060153d97f995c455f4610",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_build_adapter_v001.py",
+      "bytes": 3156,
+      "sha256": "34a921a30c8ad902715d8a38f2e22b7fcb5de9b9e832bd9b6b441397a61cf73d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_build_parallel_v001.py",
+      "bytes": 3552,
+      "sha256": "dbc1bbb929c0580f2318858af5f6e9e0a9229a4f0a4c71aa6f98883f0ebace95",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_close_v001.py",
+      "bytes": 13734,
+      "sha256": "8267bc22e21b91a7bdd3c1a1e7695673f01388d7577b78844aa4cf4c28c8ac25",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_common_v001.py",
+      "bytes": 3096,
+      "sha256": "1b737f883c36a6703696876c20e64fefed8e32c48b4d55a464ba92fa411451bd",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_delivery_v001.py",
+      "bytes": 8354,
+      "sha256": "649fbb6677ed491a08f4c0e05061e6f67898467eae5ad5800999808e40e2e55e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_design_tests_v001.py",
+      "bytes": 9975,
+      "sha256": "64b71c705a68de6eace6ab0442ff9717a35c89cc58c1f8dc2e5053491880a732",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_design_v001.py",
+      "bytes": 25301,
+      "sha256": "c61d9f032f9a0fb8c00165b7ad50838cb5395627b3edcea656b51098b48108e9",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_docfix_v001.py",
+      "bytes": 2294,
+      "sha256": "fe53d3a5548a6aa2db98dee3e6da5e647cb33c4aeab36c9b1ec24f56c76b0d6c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_engine_v001.py",
+      "bytes": 2326,
+      "sha256": "40adaf867dca671dfee12fdb09875fe4052f692edf7f9f765a3f06db08fe9c2e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_fast_v001.py",
+      "bytes": 15959,
+      "sha256": "c79fd3ef7939fc65287a46ea758f7fef176c9da2d0e4e651c380ed19d4c63a4e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_figures_v001.py",
+      "bytes": 2727,
+      "sha256": "bc3ddbade4b350a1f97eda4517b99010aef188276fc5e192b07ca26cb3e9d7b9",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_figures_v002.py",
+      "bytes": 5348,
+      "sha256": "e00a8e592af5d714a449a20d365bf7fba2c546f6a40660e4a313ee401d5508c3",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_fileqa_v001.py",
+      "bytes": 6537,
+      "sha256": "e41ad69df490f7c92b176627fecddd89ed7ca02e2153a61639ed3acaa8a13580",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_finish_v001.py",
+      "bytes": 1034,
+      "sha256": "1022c6ef11d805c4bef3d0001524fefa125ccfa5a3c5bcdf105ff972aceb7e0e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_job_v001.ps1",
+      "bytes": 1685,
+      "sha256": "e5a4950159844a48f8322c4a2e213be94e6185dfd039212b360d65c6fa60f02f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_layout_v001.py",
+      "bytes": 3915,
+      "sha256": "8f99e98f5a1ecb8b2e1f6d0b76dc03ce438e97a7164cda3d668f9eed7575b50d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_paper_finalize_v001.py",
+      "bytes": 56832,
+      "sha256": "75c9c6ebf3ea0cc8d412a7044586d5262cb4ab6313182c9346f68e5bf6fe4988",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_paper_v001.py",
+      "bytes": 39791,
+      "sha256": "94495517bda8da471c400d91516d6dc3c9d211be50a3638473db50010649b418",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_parallel_v001.py",
+      "bytes": 15741,
+      "sha256": "5e41b34262e5cfdbe173d27b7198c333f67b672f6362dfd65b126d560fd708ac",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_preparation_files_v001.py",
+      "bytes": 7821,
+      "sha256": "2cdb591d612e061d6f0c24ae2ecc667a73d2083c07e189d5b1931b19c84d8b45",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_prototype_v001.py",
+      "bytes": 20894,
+      "sha256": "91589a2d4432c088f1faa5bd0afa7ed7b3bef2d3dfc217b4c7cb2f7705464d9f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_records_v001.py",
+      "bytes": 29416,
+      "sha256": "936606c07335f7347b4fdb0ec14dd7d66785305279d5e32973d685bc1287b9dd",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_render_v001.py",
+      "bytes": 1373,
+      "sha256": "de195b7101ad690a1c51b38671d0aef99adc268ecd137d459ca727ffcf567447",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_run_v001.py",
+      "bytes": 8073,
+      "sha256": "a57304bc1f5774d2c6b9f3f80e662c8ab3eef155c1f906df2e95120e7fa1c1aa",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_summary_tests_v001.py",
+      "bytes": 12259,
+      "sha256": "207df88ea7016110f7dafa1fd468624402640dc7738d5101a4797b44fa96358e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_summary_v001.py",
+      "bytes": 48045,
+      "sha256": "fedfe6b54baf2f199517e8763a836d3b93bc026af0c247885bc804f519250a81",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/q03_verify_v001.py",
+      "bytes": 20305,
+      "sha256": "9ee6b537a755bdfd82f1a7573a80df9d6630e3ab83d499e38a89ba8705d3ab99",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/run_s02_examples_v001.ps1",
+      "bytes": 1220,
+      "sha256": "cc7515c2b8d6f5fc4a7b3adedcd2561b167f4da9f84fd0876068ba4d562fdd5a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/S02-运行与核验说明-v001.md",
+      "bytes": 3528,
+      "sha256": "e31a59b0282de204646a28571bcbac2812982e0d3548a19839a79fafcd754c22",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/s03_integrate_v001.py",
+      "bytes": 13743,
+      "sha256": "6d634523b5fcc5a1c70c10c9bacfe5498c21acf44d8c71a22aa1bfc7f903215a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/s03_paper_numbers_v001.py",
+      "bytes": 14429,
+      "sha256": "6481f65ecc5218c4e38dee7b322d2eb282e19c5aa3837718f100657eefb326e0",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/s03_register_v001.py",
+      "bytes": 10641,
+      "sha256": "d7c8ed96887130efaf2c08111ecd5d4a7ade94e854c30fa111653484e0f5be09",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/s03_render_v001.py",
+      "bytes": 885,
+      "sha256": "5a4b2bae343a86bf1a68163bc8e571ec9f584d732b2ad700a2c61104c291d404",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/s03_results_sources_v001.py",
+      "bytes": 24868,
+      "sha256": "ae9d8b1198845efeea3d7cdb530ce50c608e729bb345e010d2eb1b6e2a0b8d88",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/s03_search_evidence_v001.py",
+      "bytes": 13493,
+      "sha256": "95bfd5e1c9805b794db05969dc8acbecec8484282e6f89770c2d131b5f8d394f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/s03_verify_package_v001.py",
+      "bytes": 14790,
+      "sha256": "4abd4b96d192a126b1fda57cebbf928789f354f0402c9787a6efd3f5d32f6093",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/verify_delivery_v001.py",
+      "bytes": 4494,
+      "sha256": "def1f61026a549e571f4d5e32549e5232814e1632e255811921c56cadc86422a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/verify_q01_plan_v001.py",
+      "bytes": 8470,
+      "sha256": "a925fc66ee04480a63659dc4b8df80d03fb29424193426059e79a35e032ed56b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/verify_q01_prototype_v001.py",
+      "bytes": 8482,
+      "sha256": "28af5260844c80157de5478276de5745bcc52ca3b5fccad91783f63276184eba",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/verify_q01_prototype_v002.py",
+      "bytes": 8713,
+      "sha256": "30afdcce273965a94a18ec6a5238a1ec1e0499b795c9005ef6d051fd6a3c8402",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/verify_q02_preparation_v001.py",
+      "bytes": 6271,
+      "sha256": "2d2f22ad44c08528d8b8577dc2c27c520d2973b43aa81ac5d117caaaa4bff990",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/verify_q02_prototype_delivery_v001.py",
+      "bytes": 7035,
+      "sha256": "02ac49873346b771e6f6a69dbc0356f289fd4ad3f4d0bd5401f30682db4a67e6",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/verify_q02_prototype_delivery_v002.py",
+      "bytes": 7117,
+      "sha256": "da5d04805b7700ad97b156fa475e9bbc213fa8e1e67c6ff4c5a2dae2f0e1c693",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/verify_q02_prototype_statistics_v001.py",
+      "bytes": 10394,
+      "sha256": "63d17e5145c34d756135dd4d07b5964eb2da1ae0229f3ace26ca64d1668d3443",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/verify_s02_delivery_v001.py",
+      "bytes": 8268,
+      "sha256": "b27d62a7c5ecce4cfbf040ccae41e818b794c83c7f88a4cc53ac7830ca0bff97",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/verify_s02_delivery_v002.py",
+      "bytes": 9003,
+      "sha256": "7c9cd9d9e8cff690190032cec3cf5c1481ca314c8353333c5b1b13971a956134",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/第1问-正文模板-v001.md",
+      "bytes": 25995,
+      "sha256": "56edbc24769e7218c457bf9a9e79a55542261f488b40455c5bb4b1a19cd481d4",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断代码/运行说明-v001.md",
+      "bytes": 2785,
+      "sha256": "1a2eb494230d27f48cecd23d501fb9e5d82b33c3578f43c2601d305e56af7513",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q01-全场-v001/汇总与数值核验-v001.json",
+      "bytes": 110134,
+      "sha256": "d2300d73ccfdb85f1f5a85a58403dcb95f9fc1a5e4e702b7a41284fcd1869f5e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q01-全场-v001/汇总重建一致性.json",
+      "bytes": 287,
+      "sha256": "cdc206b109672cded9ec02e6a508163e5ba238286f606f321c98eca3e36e9551",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q01-全场-v001/输入映射与时间.json",
+      "bytes": 194550,
+      "sha256": "4747d448d49e076be1f685f6ac54d67a263aa74e53c2b4d0a19077a149fc3c6d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q01-论文收尾-v001/低存活全量核查-v002.json",
+      "bytes": 25750,
+      "sha256": "d086bc0c21d7ed62d4151ef8e6fcf6f8f60491082c87f6726cd837d8daba51a5",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/candidates/R023/fine/binding.json",
+      "bytes": 2684,
+      "sha256": "fac6fefc732933d0e09077be2450de29feaeb38bdcfb532f1986b8d993e8201c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/candidates/R023/fine/score.json",
+      "bytes": 3080,
+      "sha256": "b0faeb348a79d5f550fb8e7a657236149e4df69e6af70a40c51749c12126276b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/candidates/R023/low/binding.json",
+      "bytes": 2683,
+      "sha256": "49e1a11f467381013888c821fd09e08d968d078fa59192016c5e73952f2559d8",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/candidates/R023/low/score.json",
+      "bytes": 3704,
+      "sha256": "2d96ad91963fad7fb3f41cf02b2158d3f4ca9a9c20772e947a457833371cefa3",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/candidates/R024/low/binding.json",
+      "bytes": 2683,
+      "sha256": "e7e6460bd7f14149f3c686a22ee6ffe518cc8e4c843ca52d26fd6a6c1b9c3318",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/candidates/R024/low/score.json",
+      "bytes": 3959,
+      "sha256": "c7da403827eadc184f8ba5af7e2c4d7a3ed2e470cc7f05034c5c18adc1794c6c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/candidates/R025/low/binding.json",
+      "bytes": 2683,
+      "sha256": "500cf6dc759b65992f580cdfc92e0fa5e611215f1b8bb91ff44020d8ec06b87a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/candidates/R025/low/score.json",
+      "bytes": 3975,
+      "sha256": "79d84f788fb82828b242c7acc226f2e76223e695a021a6c721fc4a96f76b3fba",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/candidates/R026/low/binding.json",
+      "bytes": 2683,
+      "sha256": "fec58c89ac375cc1c27505956161938b72cba12beaf75f40d8b746686bb49df6",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/candidates/R026/low/score.json",
+      "bytes": 3710,
+      "sha256": "458d24aae7053c517668ae7af63140b97ee3eb0ad7e1cf6092ccd9f1839f3fd3",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/candidates/R027/fine/binding.json",
+      "bytes": 2684,
+      "sha256": "5a656c120535b882d7f5549b89f490934941d7dad1635b728dc82dc51a554319",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/candidates/R027/fine/score.json",
+      "bytes": 3102,
+      "sha256": "a45401698a20d6b40d9cc40ce78d1e9f8e6656b05015d37f5456c02b2576bfc6",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/candidates/R027/low/binding.json",
+      "bytes": 2683,
+      "sha256": "569bc3011c782d375ca394edf5b0a75515d5792d6e9938fabdf838226574029a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/candidates/R027/low/score.json",
+      "bytes": 3978,
+      "sha256": "cf619953734ababa174fe088c335c824cab8592ea41b7cc86421b8d736a38968",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/binding.json",
+      "bytes": 4330,
+      "sha256": "0465b64269e937e31438c15a6a3f048390936d8975728e6647b78634a42dc4fb",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/checkpoint.json",
+      "bytes": 43022,
+      "sha256": "80054b116be86f4a959bc7c1058bcbc0589ac47d6bf8e898dc4b925e1a5c8c87",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/summary.json",
+      "bytes": 20033921,
+      "sha256": "1aff91072732fa7f536f679e71ba6fcd85f566866c9bdc1298e724640e846c1b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-00.json",
+      "bytes": 632,
+      "sha256": "8356124725fd03ab4a466a8287719360f6a2cf4486ee324b221a595b0e41de6f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-01.json",
+      "bytes": 635,
+      "sha256": "21f7e90732bc71c1a98e1e478fbe194b1337ff2607a275151aa65320bc0088ea",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-02.json",
+      "bytes": 632,
+      "sha256": "597eb5229d117782a46ed184fe7128fa1648afe7296218fa6de5a2167d199168",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-03.json",
+      "bytes": 637,
+      "sha256": "5254ae286dba6860fce076150a47cd9d20aced755a277f8dbc4c41f5094ebcbd",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-04.json",
+      "bytes": 633,
+      "sha256": "e5ec017922281362962ac8b989101e9b905396f8f6b6ebb19b7c5a6f185a219b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-05.json",
+      "bytes": 630,
+      "sha256": "656285fdde6793857b9edb375f3389597957be5ff54591554b424bfecb6ea043",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-06.json",
+      "bytes": 636,
+      "sha256": "b99165ff79894315b54e464ba5aaffbf2b4916251e9cc2413fcb52f4f1c204ec",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-07.json",
+      "bytes": 632,
+      "sha256": "0984cd3393da7407252ad9d6bc9ec42d4b626b113e5202e3a78086ce0fd1f95d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-08.json",
+      "bytes": 637,
+      "sha256": "ddbfe550b45aba33089cfe3df72a4c443b7329bc7b3ae9e90f56351ffe562215",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-09.json",
+      "bytes": 634,
+      "sha256": "df56cf9b06b332a2c3519dfe54d07ab85da3a1f9663febbf6067087a211b11c7",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-10.json",
+      "bytes": 632,
+      "sha256": "96fc0f7016489f98733da19a5a35f2fba06a2b93ea1dac307098296a6a18ef25",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-11.json",
+      "bytes": 635,
+      "sha256": "61aa979f0de3482990ea2a062052d270da3788e413c8a74c55d0ebca68c51bef",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-12.json",
+      "bytes": 633,
+      "sha256": "ab8db615aca5c2db20590fb86a65736cbb8b7137037fe42e29db8e31e4e818ae",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-13.json",
+      "bytes": 637,
+      "sha256": "a3adedc70d91d7e50b14c274ace6a40bc790e3e4a47f5d491f55a5f126aa6541",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-14.json",
+      "bytes": 633,
+      "sha256": "d9808ed35d8af7fa331d27ae44009e2ee9de4fbbcb0688b3df4bba2c659b0057",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-15.json",
+      "bytes": 632,
+      "sha256": "4c1417352700cfa20b6e4780632550e0639ec23b3b8898d5d4f30527142bc69d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-16.json",
+      "bytes": 620,
+      "sha256": "20cf5e995629572c66dfbf47085d00f6fd15b1608a460adf2a7815e5ee8681ba",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-17.json",
+      "bytes": 617,
+      "sha256": "b041dee5a1992ba2755cf6ae7c7052555ce40dce88e021c082ed8dfe66f74d6e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-18.json",
+      "bytes": 620,
+      "sha256": "203014b6b720c67a645c6358f345815440ee1c70a4d39c2f6bc60bc6561f3df6",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-19.json",
+      "bytes": 632,
+      "sha256": "583eac7dc31517395ddce085dcfb1844b7a600fa78b2729871b6adca25401b16",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-20.json",
+      "bytes": 632,
+      "sha256": "971b38cbba6b1693b0460b4bfc751d91a68f5e16955170ec4d48a7595679189a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-21.json",
+      "bytes": 621,
+      "sha256": "1f3ecf98bc941b793addb468663a08e995c442e0c519fac79abf71bcd897eb67",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-22.json",
+      "bytes": 618,
+      "sha256": "07b1e14a97a0ca23ef7fd78fd49888690836e5bec4e2411448e6d1fa8e352b63",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-23.json",
+      "bytes": 622,
+      "sha256": "9c4072b7f85aaa3c218829f2ddade1bf26ef439a0e8102b1be2669da7d3fc20c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-24.json",
+      "bytes": 634,
+      "sha256": "6b44ebec7329f30b9c57e0dde47c601ca61a41fc20090a58b5c7ba22f60189c4",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-25.json",
+      "bytes": 632,
+      "sha256": "d9e2a426491372d0d2c3a94b9158ca75606480ae642879f90e6663c94bbf340c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-26.json",
+      "bytes": 620,
+      "sha256": "d27e019e943c82dd66531dd06dc40b8da16383b3a8d55ee63ad3ef4ee7ad3c02",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-27.json",
+      "bytes": 618,
+      "sha256": "0d33e38466c27124bc9365c4a9b6c26e7c10ca308ebe6a89f96d544bd720b3cc",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-28.json",
+      "bytes": 620,
+      "sha256": "ebc886cef765f3106ce67d8b37619f89e312c703e4703889d194b3e59ee869e1",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-29.json",
+      "bytes": 634,
+      "sha256": "2eb4fcfa41bdd5c5690393f281253644e945c9602e66f75939e008543523ebab",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-30.json",
+      "bytes": 631,
+      "sha256": "8ac9f1cfbd4a81b91b4828dfd892e83ca4cd2e2ecb9bfbc18e3cde245c6e266a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-31.json",
+      "bytes": 622,
+      "sha256": "4d706314f38e9b4c4cc2c3180ad5a2e5907b4150b3350de6f84575e68437436c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-32.json",
+      "bytes": 618,
+      "sha256": "c080099d70deb36c4c4f867e5d7bb332df00021f0db09f9126bbc1850c4e5deb",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-33.json",
+      "bytes": 621,
+      "sha256": "b68120f840e9388716eb711660064b6201d75974552ea91295f4f1b0ce27213d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-34.json",
+      "bytes": 634,
+      "sha256": "dbf77ddcac134ed790da0c71dc349e0d8de795c405fb8871449f32b4c61e0b8a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-35.json",
+      "bytes": 634,
+      "sha256": "280afe22b7e65bcb89b8dd59240052e2a79aa10a03fbf58a78ca0d174ee1f833",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-36.json",
+      "bytes": 622,
+      "sha256": "194a3a2125da4c8878e7e918d2a8c67e0a933a5df825ca36fbd5708a0228d272",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-37.json",
+      "bytes": 618,
+      "sha256": "e435b56bd5b4a393053247799f018019ffbe2d8913b8e233d0c6f2d35757120d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-38.json",
+      "bytes": 621,
+      "sha256": "0e7e0a9329e9ddfe9278766b30e999828ed49bc61d5cf3727c63807c9da37b43",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-39.json",
+      "bytes": 634,
+      "sha256": "3398d1f084e84e9d58c85a8778236a01231192ac5ac9182d042c2e3256364b00",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-40.json",
+      "bytes": 632,
+      "sha256": "83bfcf88c6d3166f64d4bbe9f3b10789a348623d04ea7c760fb3db4ccf83e849",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-41.json",
+      "bytes": 636,
+      "sha256": "4e07ca001a3d14ea8e2aad8246d9af284a053784d0121a31975222d6888bb005",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-42.json",
+      "bytes": 631,
+      "sha256": "4999bc3e952ce04c9a557c2727af60a02ddf2793db3f2f1ce1dae5b803e475e8",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-43.json",
+      "bytes": 636,
+      "sha256": "94579542f645cfbd26a7fd56d5be93acae6a545661566a42b8ee6f50a0fbb737",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-44.json",
+      "bytes": 633,
+      "sha256": "4e509b3ba0afc3b385b3890d9c1030484579216a7ed38d551efb8c4852fd5fcd",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-45.json",
+      "bytes": 633,
+      "sha256": "45d052f60b9f05969856bb2bdb999a7a0f375016ca799997893c2109771f1251",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-46.json",
+      "bytes": 636,
+      "sha256": "84067c67f32c1d53ba2b48ee603a1ad4be2603bf35201bda7a341ec3c5bfef37",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-47.json",
+      "bytes": 634,
+      "sha256": "ed942435c9af473f282928cc09f1bde90b8d9a271940fc15a84cc08e70d9f50f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-48.json",
+      "bytes": 636,
+      "sha256": "117eb46d97fbda7f2918b9f5eaa748a32d344c308e31b287b5cf5c702525a705",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-49.json",
+      "bytes": 633,
+      "sha256": "7e41c2b3c35279904946b7261e20ee1789173cc118f4916ff74314eae07309bc",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-50.json",
+      "bytes": 633,
+      "sha256": "7a2128ad2c25d7b7cd294cfa0c0cbd3466c0ae980c00dd2bf31299235ce18428",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-51.json",
+      "bytes": 638,
+      "sha256": "8810193d52595b395b685b3d9f588ec3942bbced85c11c1d99dcbd8af6d680b9",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-52.json",
+      "bytes": 634,
+      "sha256": "8c39232330a3018ef4128cd08c1f56f13b9430be14c192c673a5db143cff133b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-53.json",
+      "bytes": 635,
+      "sha256": "860b71ef63b9bcd456b13073f2c65919fc1bad20afef16387847f08f5b4c7769",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-54.json",
+      "bytes": 634,
+      "sha256": "b20dbbcea38ff2d2893d4b19bce3c88bc6c1af65a46277a85e9903d37624e319",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-55.json",
+      "bytes": 632,
+      "sha256": "c48791a62739077bc0cd77d4f453d51dfd2460b3a9226c7212e07f6242fb25e3",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-56.json",
+      "bytes": 636,
+      "sha256": "719e0a22c677be8e7cb50508561e4292ffe99ad688b5f88f4e9ee683b90c0258",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-57.json",
+      "bytes": 635,
+      "sha256": "bbb3e33aef9c4fa600a5c6ad01d0d317ff94b020b16a9dce339b5935f0145e60",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-58.json",
+      "bytes": 637,
+      "sha256": "54e2795791de5699befae4504a0c18a9ce6a935492cf4a03a4400a0f93b0bee3",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/confirmation/time-59.json",
+      "bytes": 635,
+      "sha256": "0fdfad8c636e4ffc58f9729ce6197331d65ef682c04b5282811cb057a2376897",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/design.bundle.json",
+      "bytes": 541,
+      "sha256": "0a0a2dde24f912e1556abbd74eec470d0a1054748de6b61c50366548355f98fe",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/design.metadata.json",
+      "bytes": 685,
+      "sha256": "c2341e5a62d5f47593fa8aa75a1db35f493b14dbeeb8c043186d33729277b05a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/frozen/design.mirrors.csv",
+      "bytes": 235030,
+      "sha256": "0e6d06152fdf7eede9d03f9a13dd0b4824dccc42ec35500ca4a02888784bd09b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/result2.xlsx",
+      "bytes": 175934,
+      "sha256": "b305e8da10ab5323d38824521dbb1d768f029fbc1838ac20aea769681d47ed61",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/最终拟提交候选冻结.json",
+      "bytes": 5846,
+      "sha256": "abf88c93f01464b377c4b5e8d001af0765b54d076587da938434438045be74c7",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/独立工作指标重建.json",
+      "bytes": 79639,
+      "sha256": "10bce8442e4ef3f707cc6c895d60b9660ddb25793c96168955550ccd9d5ebad6",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/独立重建核验.json",
+      "bytes": 351276,
+      "sha256": "78f918c304f809c7aa2d19dd9e9564a2b505b89bff9e25e45434f87dce3e5aa3",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-修复-v001/结果数据.json",
+      "bytes": 8119,
+      "sha256": "44730282b3d53cb5657d5854cf154041c5f659ff1ea26ceaf5f78f8e7d02317e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C01/coarse/binding.json",
+      "bytes": 950,
+      "sha256": "53497d507c6fd4a403f7a1e950bbf5db9a8263e77507b138b2904d3f3de970b3",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C01/coarse/score.json",
+      "bytes": 7036,
+      "sha256": "22adc00c65c0a56a40dadf51279464d75175ed8498c2a1e56b661b22b5f6923c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C01/fine/binding.json",
+      "bytes": 2682,
+      "sha256": "3a2b93d4a0156381153de393c2647fa76f722841fd0a9d40509c6a2744ae8165",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C01/fine/score.json",
+      "bytes": 8941,
+      "sha256": "b1ce767f64e52bbfaa65503070270a0e4ffe5e1e5c8a77e7498261daef017895",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C01/fine/summary.json",
+      "bytes": 14388879,
+      "sha256": "0c11742d7495d33f28d8f8d02a1f36038ef2385f702b57a76734370559d7c76e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C02/coarse/binding.json",
+      "bytes": 950,
+      "sha256": "4404ebcc93872265b9aaedc184b9cd84e544032a1ab632c9d577cf20d27eabc9",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C02/coarse/score.json",
+      "bytes": 9147,
+      "sha256": "1963b5afad62a6db6828ede0882371321035c847c0b6118bbce49911d5142fc6",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C03/coarse/binding.json",
+      "bytes": 950,
+      "sha256": "2e3869f74c4c82930baa31067bfa2f4b7246578fb08c39d75e6ad8b4e89d40ff",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C03/coarse/score.json",
+      "bytes": 10954,
+      "sha256": "7a2711df02263565765d2fa604b8f0b12a5afd67bfea52ecfea44af8852be909",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C04/coarse/binding.json",
+      "bytes": 950,
+      "sha256": "0d21732092c355e08a3d452fe04bcb1c01203714deb93a3a15b719f735bca376",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C04/coarse/score.json",
+      "bytes": 10958,
+      "sha256": "7e74f2e694e0845d56401c84a93c7d7086d50ca444916b37b29c1209ae05525c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C05/coarse/binding.json",
+      "bytes": 950,
+      "sha256": "90365c3e33d2428a0bca7f4dc396c35d47745daf9c9ae07365487ffe0fd9f4f1",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C05/coarse/score.json",
+      "bytes": 9755,
+      "sha256": "af9535c08522eaf91344da4a7913d1aa445f8e259ce04d6b8ab920d1e774f2a5",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C05/fine/binding.json",
+      "bytes": 2682,
+      "sha256": "b7dc20e3511d10d48cab478062f944c05b8a62486ca6fcf0a81472ed56349214",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C05/fine/score.json",
+      "bytes": 11672,
+      "sha256": "3aab1808c0d5d2c99490dcc3ff757c688da5e291e260753054e4d4d6caccbcca",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C05/fine/summary.json",
+      "bytes": 16212816,
+      "sha256": "d81ae3215963c5cac6b3a2f7a04d5769a2ede009c01449a2063ce86da47e188b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C06/coarse/binding.json",
+      "bytes": 950,
+      "sha256": "ac61c1bac2ea3f1889ffcdae2783bcfff47ce96c0c9701281c142e2f813bba62",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C06/coarse/score.json",
+      "bytes": 11862,
+      "sha256": "124ae9f42dff2eb50ef4f2c61b88267d0fa47bc2788270ff6acc080907a2d4f1",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C07/coarse/binding.json",
+      "bytes": 950,
+      "sha256": "105446ab820a262e61ada72e2f41bb0740ee5a3cf7cc5eb86e8f4e0799fc7378",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C07/coarse/score.json",
+      "bytes": 10658,
+      "sha256": "e786b7414e7bcc71667c73a753f84b7df1e806e8a1dfda43df3fa1b062cff505",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C07/fine/binding.json",
+      "bytes": 2682,
+      "sha256": "40673953fef793a1f7f1b164685246c4388458f9427f64d1423cb5cf3ccf9c0e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C07/fine/score.json",
+      "bytes": 12488,
+      "sha256": "abe60bddc4f954825050b4baf5903aeeae6cad1f3ada03717d803a28c9147e16",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C07/fine/summary.json",
+      "bytes": 19318382,
+      "sha256": "b4a4f250ecbbf3a1927b3cf34e589237b4ea04d69cb18fb62fca3a03e643cc7c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C08/coarse/binding.json",
+      "bytes": 950,
+      "sha256": "c5f80022f9179e2ef060e7ae27a91cd2e890f3e24a7c4af7c0f47b877ef38666",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C08/coarse/score.json",
+      "bytes": 10954,
+      "sha256": "02ca08ef20144faefdb8f5aafb708b7b3e56c9ef7800416270a7d085cc299501",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C09/coarse/binding.json",
+      "bytes": 950,
+      "sha256": "bd6b214ec0a815eaeecd5ddce7ba5fcba30ac6234b88048aed22a3345089bfb6",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C09/coarse/score.json",
+      "bytes": 10958,
+      "sha256": "8d68ccb0a42ccd41d7cb74dcc20075c8b69239bc79155e0af50f8452852fde74",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C10/coarse/binding.json",
+      "bytes": 950,
+      "sha256": "1bfc956d8e5adbbad3182c16fa21c0ba09c6f0c9764cb8b1191605d91b583384",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C10/coarse/score.json",
+      "bytes": 11557,
+      "sha256": "dc762bd45700c76cdc2770b56e9b7832e4b654d2d127a9662364560471a03346",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C11/coarse/binding.json",
+      "bytes": 950,
+      "sha256": "b4437c12eb18ddcaad87419e5a1a14248a5a98107cd5d556ef024b8c7239e795",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C11/coarse/score.json",
+      "bytes": 11863,
+      "sha256": "f8cf6b10fac2968d1e778c65b671a2b48b46dd506f10c226e3d723a7cfb22ddf",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C12/coarse/binding.json",
+      "bytes": 950,
+      "sha256": "451fc08bfe0d6ec9b15e1b68e468df20a5ca773531de10cbb8e0708c39091b45",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C12/coarse/score.json",
+      "bytes": 8851,
+      "sha256": "465660d30f33bce44e6dbeb3f8a94afe2bc0aac6a63223061a2ec96dd42d27d8",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C21/coarse/binding.json",
+      "bytes": 950,
+      "sha256": "bb193723309557423861d19489231c9b24534907d0bec5f69e76d7f5a3f7a270",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C21/coarse/score.json",
+      "bytes": 1079,
+      "sha256": "43124cb98943d0d8244f98a992ac896452151a5d2b9434c98f11e49307411425",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C21/fine/binding.json",
+      "bytes": 2682,
+      "sha256": "8c7eafa85c53027b83bc2d5b825292ea0c8891f2edbe8c20146fe36663ba631a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C21/fine/score.json",
+      "bytes": 2980,
+      "sha256": "73acd07182b57757721417db410a3d3986a58b3de98325c9ea70faa278897af8",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C21/fine/summary.json",
+      "bytes": 22379948,
+      "sha256": "2aabb9734a9a582e809d97c3761c41bc092fac7b40927106ee4176a57d7559b8",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C22/coarse/binding.json",
+      "bytes": 950,
+      "sha256": "499bfa769357a311989d6114ccdec509f7c702b41591b7d14bb958215949ed57",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C22/coarse/score.json",
+      "bytes": 1097,
+      "sha256": "f5c367b8abb91abd21a312fe71c0d74c9c6965b101f4179855d40498a7b96488",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C22/fine/binding.json",
+      "bytes": 2682,
+      "sha256": "2bffc028a2276dd6029bc2fd01bdf2c1406f3c35c4e4b1d76b8b89e520435f08",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C22/fine/score.json",
+      "bytes": 3001,
+      "sha256": "6bc514fd3acf97b2d62fed344c350b05336963545394e8040f705e659203f05e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-搜索-v001/candidates/C22/fine/summary.json",
+      "bytes": 20455572,
+      "sha256": "c5d4fc11a1761e6630f858c07712ec9b2e5088ff2e78f1aeb66475f314c49a96",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/binding.json",
+      "bytes": 4376,
+      "sha256": "58421b2ce6c68f31fae5d380570b2590f2d3f296c8fa0e6197b5351c23ea499b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/checkpoint.json",
+      "bytes": 45184,
+      "sha256": "d079df2071acede42a1f38eea999faf6f465aa530fe82eeb50e307fac4c2549d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/launch-binding.json",
+      "bytes": 486,
+      "sha256": "dd0bcda4a9e9550b5dcab313fe29a0b5839f132a69e05904cac7f13ba377c656",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/score.json",
+      "bytes": 901,
+      "sha256": "acf4fe88357c8fdb136dc0527c3a4f393d423f9afa9e8ffffefeba5fae2f7f24",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/summary.json",
+      "bytes": 20182714,
+      "sha256": "4cb9ea38acc09139f43e054c68a085c1ebc042675edafbb8c95325766476dc94",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-00.json",
+      "bytes": 663,
+      "sha256": "a77ec529f54d285699df3d7100c255e6a6987d4c2460fcf1cd4a512eb778d286",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-01.json",
+      "bytes": 666,
+      "sha256": "c6512b38d934e2a08445014442b9439c1834f31f92fb1e9dfb7edb26788ba520",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-02.json",
+      "bytes": 667,
+      "sha256": "961d3a9b3ee17739e9d04fc8e028f7c4b961b6d494bec9a8bbb3b7e762bba592",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-03.json",
+      "bytes": 666,
+      "sha256": "a943837842d7b4dc7a7434bbe396554a5fbc607084e89544d6d04140697c2192",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-04.json",
+      "bytes": 664,
+      "sha256": "53fcbe1719920e217bb43f14e2ab3d96ab50d2d056663f1be57452da751b8633",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-05.json",
+      "bytes": 665,
+      "sha256": "9bd44db180a78338c96c1f365a1b48c95dbabd833b06249be7ad0bf2dcd7961d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-06.json",
+      "bytes": 667,
+      "sha256": "85934ed4ddfaf2751cfddbdc614264aa5a4eecb631f9571b93caa7a6061ca191",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-07.json",
+      "bytes": 666,
+      "sha256": "78ac2967d75c1ceff1358d1d7e51a7cfa0e4981e3bfa3e011bde68f0fb9b5d6b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-08.json",
+      "bytes": 667,
+      "sha256": "0540ded53df76bc9ba6aece89dc9d898b63906eb7b926d574dd4b2f0ed6f60d9",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-09.json",
+      "bytes": 668,
+      "sha256": "d56d49573dccb6658675bee6232dcc62c7f0f550023fe24c62f51fb016d2bd44",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-10.json",
+      "bytes": 666,
+      "sha256": "bf4b9bb08c9818482272821d96280babcb2a10c9b2a3ba4605cc469b393f21d4",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-11.json",
+      "bytes": 665,
+      "sha256": "b2e818928ecfac07073d5fa2e9bfb8236b6b861baab89f80aeec2d7761ae59c0",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-12.json",
+      "bytes": 666,
+      "sha256": "bf90bc4c811d77fda68ca8c867a978104e2c72e821bd24a2d03104686b991581",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-13.json",
+      "bytes": 667,
+      "sha256": "08354594d872d4972801ab81d33bb474d22b522b13302324f57e902957928461",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-14.json",
+      "bytes": 667,
+      "sha256": "de00bff9ee932c532e6b1141b859174b93082b9256e96cf9b7c28ce791201425",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-15.json",
+      "bytes": 665,
+      "sha256": "87b8494f612400964996977ee57dd25cf39b7eae0f809a1b257e70a4bd97b61e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-16.json",
+      "bytes": 651,
+      "sha256": "8b41940751e18c3c76170e184a5394f3a138d3dc0990ebb986b917715aa01fd0",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-17.json",
+      "bytes": 652,
+      "sha256": "dc560f57ef377dde360e3ae1f813b32c86c170e9aaf9feec4e1bb15358aadad9",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-18.json",
+      "bytes": 652,
+      "sha256": "fcdded8d2a26ed3a9990e76721908fbd87ddd45368d3dbd213040c7d01494dc0",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-19.json",
+      "bytes": 666,
+      "sha256": "3b202d12ab3785279984bae432c5a276952553572e5d6919588e1e81bcbdd635",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-20.json",
+      "bytes": 666,
+      "sha256": "f3efa39e98a60a33420e917144eaedf21ec491d2f13611f239823e028864034a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-21.json",
+      "bytes": 651,
+      "sha256": "b0cf0addecd17ae437bc24dedc42bd483d2877d385d4850cfc7f8b21da3145c7",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-22.json",
+      "bytes": 651,
+      "sha256": "d6d9ba7d26ccc5d79bc3f54edaee376e9a54b7bac54ba62450951635257d8ec0",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-23.json",
+      "bytes": 653,
+      "sha256": "97e89c0ee2d2b1056215cb794688beb0f9f6253d560736ffe7474785bd888432",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-24.json",
+      "bytes": 665,
+      "sha256": "9e1478b63409011b8983a0adf8262f08083d6cdba1fa82607c0473ce079c31a8",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-25.json",
+      "bytes": 665,
+      "sha256": "edfd1f1aa24b7454ee7a9ae1a394d0cd98ac58c1510f4b200a05f6bac45d17f7",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-26.json",
+      "bytes": 651,
+      "sha256": "f2a435b94cfdd5ef3f9c223af8b6f69873ddb2e7580a8545be33cec2121db07f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-27.json",
+      "bytes": 650,
+      "sha256": "1061d8aaab50e1a41688fefbff44881d44abb91f798dbc7247e6fba83345cde6",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-28.json",
+      "bytes": 651,
+      "sha256": "39fa65c40bbc6dbf52c0efc9aff339379f7e9cd934a9b235eaf539c094a88961",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-29.json",
+      "bytes": 667,
+      "sha256": "aaca3d70bedf0c08e2d90c0732880e23c0eaabea23ed3f0cd29ea47d7dfea365",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-30.json",
+      "bytes": 666,
+      "sha256": "a54ed477c3cc6b134a51d0681eb2bcd98bdda7bb2cc1eac69e4daee1dcc93048",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-31.json",
+      "bytes": 651,
+      "sha256": "c30398acdab950ad199159e4bf25a8dd77ce4bfb50792461919c2fe1b6ecd4c7",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-32.json",
+      "bytes": 653,
+      "sha256": "e37d280c1e594e81c30cc4ce889d25df665872fb8e034c268742eb7acc3d5cf0",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-33.json",
+      "bytes": 650,
+      "sha256": "87aea60dfff5734ec01513674d12325c754f08756f67b409b1ca45bb8ad49127",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-34.json",
+      "bytes": 666,
+      "sha256": "9e0afa2aaf4a354031e0713689fda01e54484e82d24e671004312d674c3a7059",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-35.json",
+      "bytes": 664,
+      "sha256": "656f9c2d30da9b5767137eb89d27ece1e53c9d72ada0bc55bfdcdccb1446c573",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-36.json",
+      "bytes": 651,
+      "sha256": "89946fc720bd6686f09b351086e567ad42051b02020c137f48f7ad0f5289568b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-37.json",
+      "bytes": 651,
+      "sha256": "d48e7670eaeebcbd748c40d3c4d3683bcc90e51aa029147daae1ca51cf906d1e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-38.json",
+      "bytes": 650,
+      "sha256": "a6ddec638e736941d08ef381850712fa2e6c5ee82c09bfc7f631e567155c25ea",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-39.json",
+      "bytes": 668,
+      "sha256": "7f8398a35637be7e924bd8a786837fa6c2bda1f7d978a7e4e69b57aadf586d45",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-40.json",
+      "bytes": 665,
+      "sha256": "3c03e06fdc846ef43a63cd48987f5364d7f934a2ad3934f8c41934b9085e58cf",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-41.json",
+      "bytes": 667,
+      "sha256": "13d814deadfdda4ce7aea5e6208538605cca2d6851f079dea302355a37f27948",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-42.json",
+      "bytes": 666,
+      "sha256": "c4219520ca6fe556b2bef73418a623287f2482d1163e3397b6060f273874583e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-43.json",
+      "bytes": 665,
+      "sha256": "3abc10345049477b12b1f75fbd002de1e492d85df8721ab572d33008c35abbab",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-44.json",
+      "bytes": 667,
+      "sha256": "6f7ea513a127e5b29043fe6cb396b63016a8343f30a4afc7b8552d70707cbce2",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-45.json",
+      "bytes": 666,
+      "sha256": "8a87ec9b02db3402c3ef3181b9e6b6b574f5a53e6fa435e4898caf62d755ca1a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-46.json",
+      "bytes": 668,
+      "sha256": "65ea37a5900379a6a7778570ddbd59bc28b8da1814958ec870e38dbd18124fdb",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-47.json",
+      "bytes": 667,
+      "sha256": "db7d5d84f6d793e526ad04d7aef82e087f173df8edc4c18e80880f0a852b88c5",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-48.json",
+      "bytes": 668,
+      "sha256": "fb3c569ecde5d12f859421ce470f071bf3c71e195612d283c703b5cc279a5509",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-49.json",
+      "bytes": 667,
+      "sha256": "1997ea6eabcbc06681ff66d411eaf585c02f75f2242f0fdf2008ccf747d53e33",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-50.json",
+      "bytes": 666,
+      "sha256": "9e4d29e0154859a4733eca56653b095ab2ec93753bcf6d7a86435c62d96226ad",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-51.json",
+      "bytes": 665,
+      "sha256": "40d5aab82dbfb976fdab48403eabfbe4454f1d31cd8e63a795e498e18f4f771a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-52.json",
+      "bytes": 668,
+      "sha256": "f8842e1e7ba737430e62d74ba4e3c1f22a6489223c39976657ae5b8cc4680763",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-53.json",
+      "bytes": 667,
+      "sha256": "b1af6cea202d317b6263fae3ecd6209fc04fd172589ae312bbd3cff424519eac",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-54.json",
+      "bytes": 668,
+      "sha256": "254147fa64a9b608513385df4c4631e55ffde05cbc710f29380457c4cd0464fa",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-55.json",
+      "bytes": 664,
+      "sha256": "5cf2fcb95323c13660544c500c28f079890518277a27d3a9f9d1930c8a572918",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-56.json",
+      "bytes": 667,
+      "sha256": "db5d660c22e251334e1ff5fef1c31dd923228e4ab092f579c889e9f62cdceced",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-57.json",
+      "bytes": 666,
+      "sha256": "d32a735d38eb6ba1aebde52cf1afd897fecd8a1a289c4e9074e288588656204c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-58.json",
+      "bytes": 666,
+      "sha256": "921b1f9cb59a740e2133dd114187abb654f3028e72185626626868d490efe37e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/confirmation/time-59.json",
+      "bytes": 667,
+      "sha256": "54c101c29681d4a536eb27ed9d0a1e69db244b6445705ce30f1e4ff93ebc7a23",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3F013/design.json",
+      "bytes": 475082,
+      "sha256": "75306d0e1e28942f0b5863a4874c38f03ef0e3515ccd958b7f6156fe6ac6bebe",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/binding.json",
+      "bytes": 4376,
+      "sha256": "989b9770a2bbfe50876e2828785edfff6bfac9d13a0f53bb901ed234cf8fcd3c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/checkpoint.json",
+      "bytes": 45185,
+      "sha256": "326e51ad37dd531288a7d18af655a0257471d01001258c8a9a0ede5daa5044ba",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/launch-binding.json",
+      "bytes": 486,
+      "sha256": "b3596e52f93c83d615281dbc495617d727a1ad5f02a8a0fc613f6da23bc8faae",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/score.json",
+      "bytes": 901,
+      "sha256": "4ab3263cb8a3d7e1542826880474ee3252ddc2d1a80a1e32886d2532d28255b3",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/summary.json",
+      "bytes": 20180414,
+      "sha256": "581588909766675f030582d453c824e8b42938dfeb201c26858a0a45bc24e3c2",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-00.json",
+      "bytes": 665,
+      "sha256": "4dc53d57766bac9f3583f792c31f60aab51e0ddc27f0d9c3366d3466e89f0e1f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-01.json",
+      "bytes": 665,
+      "sha256": "3cf248292941282f85f39c43e7644ac491e63fa9757015cb0aba9ba28a3ce5b3",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-02.json",
+      "bytes": 668,
+      "sha256": "6b68dda80d276abb0715016d02113f3e23a0a55d5db98282164445e1719d1a80",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-03.json",
+      "bytes": 668,
+      "sha256": "a14a27a83d03446b134e79d9f36981bb5c0cbc48df1b32f160cf98b4f39cac31",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-04.json",
+      "bytes": 665,
+      "sha256": "21a37646faa721d40658ef894893c797b78701ac000320670c4d6e42d3004a5b",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-05.json",
+      "bytes": 666,
+      "sha256": "77a7fea5e22d63aad809a345f57f4e8408240f9d8f4d7315146e8fdfd97b9941",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-06.json",
+      "bytes": 667,
+      "sha256": "6c0716cdb80fd9bfa034f241f61c5412e7f0870556a117e2abf80d54a03dd260",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-07.json",
+      "bytes": 666,
+      "sha256": "f4c2adfef3564fa10818f0f9d5daeb5076f2d13f9108b2b559456992372d7200",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-08.json",
+      "bytes": 667,
+      "sha256": "d6f7f0737635596ad755fb2a8fb09d9986fa6e12f67b633727bb1ff7052debf4",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-09.json",
+      "bytes": 667,
+      "sha256": "5731dd77657f625d17116846712f589492040cd6b12ecfae83c41001d7beec5a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-10.json",
+      "bytes": 666,
+      "sha256": "b248082c53d5bee69646b9125de5376fdea958daf9739f8162e3504acd241d9e",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-11.json",
+      "bytes": 665,
+      "sha256": "6e25c0fa9f51305cf9afc2ca11b162a1949fbc162a64a2c8582f8c978a3752d4",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-12.json",
+      "bytes": 666,
+      "sha256": "84cf322a44a562c413f68bf514eeaff155000220ed02176f3916e1a84f1bbb5f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-13.json",
+      "bytes": 667,
+      "sha256": "2c18bb7b7eb9b6121fa0f6c7fec51cb8877e08681601e1444fca76aa1aec76ca",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-14.json",
+      "bytes": 666,
+      "sha256": "1563a0ea9861dce96a696760f99a918157be63d78695eecc092c9519890d1b83",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-15.json",
+      "bytes": 664,
+      "sha256": "fb51eaf48f0cfbd12c2a843f302effc81f3cc614bf4974b3231e45cb1049217f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-16.json",
+      "bytes": 650,
+      "sha256": "cfc1f2e65e3d99f8074d08cef67a18637b64f72279a03d6ef0f364851ef03e11",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-17.json",
+      "bytes": 651,
+      "sha256": "a934e4a0e4c2732fc0061ccced1140e0ff2e260a9aceef2bf010a16b987d5699",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-18.json",
+      "bytes": 651,
+      "sha256": "fd4e93e7db5807385a0d6667e5e8ce3c39a68ccc448b70a9967d459a7670a844",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-19.json",
+      "bytes": 664,
+      "sha256": "dfaae60e1ff00536d4368e2fdc10276e79c29e830d3680afde996ffc4411d364",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-20.json",
+      "bytes": 666,
+      "sha256": "182aa563ae17977edc1b5fef154b27db44dc11923774c6c9e9d22f6c2c1e3082",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-21.json",
+      "bytes": 649,
+      "sha256": "b7a3fce0d554457b5491599ec990751574fd05df5c8f1f5103e58f5e9c7adc07",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-22.json",
+      "bytes": 651,
+      "sha256": "0fa1f86cb9335972c1f3613c3fed58b372cae8f0766286d118af5abf5c8a464c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-23.json",
+      "bytes": 652,
+      "sha256": "df7622612449d84c6f6f1f17f5d5844ba8da56bcbc314e04969c389769fe09a3",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-24.json",
+      "bytes": 666,
+      "sha256": "3acc6b90b5a81915dd615b81af3dd99747e4cb63d5c225edb809bee6640f3e03",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-25.json",
+      "bytes": 665,
+      "sha256": "674170200769162d82763bc8e94867078ad07953d7f4dd5e0f3168ce85f63bb7",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-26.json",
+      "bytes": 652,
+      "sha256": "a8f1d5ea41a1926247ded557c10ac0081748aa72aff04cd0ea360342e1fd1859",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-27.json",
+      "bytes": 651,
+      "sha256": "e28556d6fed5d005bbba9e7b79f13f48063144ec4464642bff224357c51b54de",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-28.json",
+      "bytes": 649,
+      "sha256": "c2c0cb9c8e0d3ad71bf5d72e10c6c8370bbd13dcf02eb7441c2fd069d048db10",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-29.json",
+      "bytes": 666,
+      "sha256": "7794c6b77ceeda1af2d70f62c5f5d46956b957cba1bc9aae1fa53beac33be291",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-30.json",
+      "bytes": 666,
+      "sha256": "89754ffa48d04f74390930cb5b6713c78c8d32679af03e9aa5492f93c06dfcc4",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-31.json",
+      "bytes": 652,
+      "sha256": "aa711ec5166a29d6889d17d36e782b2b7382bc551c3eaa42a4f4d097f68ddd03",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-32.json",
+      "bytes": 649,
+      "sha256": "f375e38990b4c6ccec2c67f7ab7b9c2c611fb8cae74210266ecfa7a8c703e436",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-33.json",
+      "bytes": 651,
+      "sha256": "3b9c2c8cde5b2d15eff2995d219d0fe2e7d07ab4565b390dde19e14ba747129c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-34.json",
+      "bytes": 667,
+      "sha256": "da0eea97ad53fa1e6650ba890c98f7f7faebffb6ce53913545e4a3fdaecacd2f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-35.json",
+      "bytes": 667,
+      "sha256": "8f6dd145397829fd7a3543a7cf2acf5e8df2408fe81ad68afc8b15b36528c974",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-36.json",
+      "bytes": 651,
+      "sha256": "b8b432257c207edf22c99a77ffc5cf9c68dc920a955e060a540667b4f5c36265",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-37.json",
+      "bytes": 652,
+      "sha256": "a8dcecf0176140ea1bcfba571b495783e86209471f4a254f5cbac0da5cf6d7dd",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-38.json",
+      "bytes": 652,
+      "sha256": "d042e86f9d22283278f15a44900d9fba325cd2dd292fe567fd26656607f09a67",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-39.json",
+      "bytes": 667,
+      "sha256": "e1ac4fee9ec62e57a259bfcd5367f26db5760c045dd115744e3272bd3aecb053",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-40.json",
+      "bytes": 667,
+      "sha256": "42502cd18771ccacd9e257a2c06e1397140cafdd0be0452aa91ebc1d02af3bd7",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-41.json",
+      "bytes": 666,
+      "sha256": "b269d511b3a4564c6da247b3aa63a33d0bfa777ea15309063b66dbb6ddc96172",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-42.json",
+      "bytes": 667,
+      "sha256": "d321e7691086fbba4f4c258508ef935dd8399e4e52a6c9d509ca65b4761a8965",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-43.json",
+      "bytes": 666,
+      "sha256": "4fb70308284537171af2a7e7ed5af3542235fe6d0dcbb2b3badfe7b9a9772fbb",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-44.json",
+      "bytes": 667,
+      "sha256": "bbf9fbb242bc2a50f607b08ade7202eba164b1710afeac2d785475000c20221a",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-45.json",
+      "bytes": 664,
+      "sha256": "1bb35319b70e95a4b07c5619f0872b361bc5f78f7b4b35829dd9a3357ecb1b2f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-46.json",
+      "bytes": 664,
+      "sha256": "d8f155f845205d1e17a32bf146ad8d5c75977c9c11145e8e7e2111f9936ca222",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-47.json",
+      "bytes": 667,
+      "sha256": "76ee3585c505644eee22593ab319abde3f596d45e3cf65f2d1b45dac7367f11c",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-48.json",
+      "bytes": 667,
+      "sha256": "1bd472bb03e72e3fb1f9a5a9b85636264f794762a90916adbdd6ab147bf72818",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-49.json",
+      "bytes": 666,
+      "sha256": "d795fba5cc8132faa2a6eb88b6628622c4dc41f845ae0e47e034a2b6c5918b84",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-50.json",
+      "bytes": 666,
+      "sha256": "b56c884c9503578d5ee09bac8b4750c32875f9c39364246da45b1f8a46b58d90",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-51.json",
+      "bytes": 669,
+      "sha256": "59a475ad781c6f28a5e3e284e8b07050285f3f5228f1c3e28b8366cdafaac32d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-52.json",
+      "bytes": 668,
+      "sha256": "3e00a5e10165142eac8e89c20d477201ff3534997af8e0aa6ae3603fbfa0fc20",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-53.json",
+      "bytes": 669,
+      "sha256": "49470ae20ba9a58f10b233d9f768c9f1dcbf747146a9276cf7e18065859a88db",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-54.json",
+      "bytes": 667,
+      "sha256": "7865bd3e6c96957a86c2e4b9f25c471dd60abc78046a572fb6559a8d75b88682",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-55.json",
+      "bytes": 666,
+      "sha256": "d9eeb68513dbe531e2985297ecb1cb0b9908a58d2947ce00c20c6175e11c3020",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-56.json",
+      "bytes": 666,
+      "sha256": "0cc53f37c127576f6dc02420118431d9a9c37367f34ebf40b3eff2899a919961",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-57.json",
+      "bytes": 668,
+      "sha256": "9ac343f68264d23a3e8d056963a3da926bf6d023013fa1c0bb5a9b11f4121c83",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-58.json",
+      "bytes": 666,
+      "sha256": "47b6f77bde3272ae221b2995ed643c0c1ea4bc36eb7dd988fb788963942593e8",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/confirmation/time-59.json",
+      "bytes": 666,
+      "sha256": "373d6dc9d71cbd9a1733445c1008daec910734bc59208d155ac6b9f9c8d479b5",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/design.json",
+      "bytes": 507609,
+      "sha256": "d7cfa1e6ea6a67b7bf0aa99553e069c41f8c2e97cfb32d34b4deaa0466fe4fbb",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/fine/binding.json",
+      "bytes": 4373,
+      "sha256": "4b05d247a4c7f4b9bcb6ee2855e8d47f645caab82ca4d45499ee286112a15080",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R000/fine/summary.json",
+      "bytes": 20095875,
+      "sha256": "6d33dcd8cf1462fac620d66315e405fc7f1bda0a8cb3fed5a6fe69457b8deee0",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R010/fine/binding.json",
+      "bytes": 4373,
+      "sha256": "59b4819803ff8fb79a57781dae7549c946d92a40a006f91623f889c3fa793c29",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R010/fine/summary.json",
+      "bytes": 20096448,
+      "sha256": "d08095b1936d41631370716182c39739c1efcf6c25e1fd76601f6aa147f4fcfc",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R012/fine/binding.json",
+      "bytes": 4373,
+      "sha256": "eab2cdaaa6e5f50e6becbca66481b6459f9cb09c198e90c5982c924286b7f8e8",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R012/fine/summary.json",
+      "bytes": 20096385,
+      "sha256": "f2acf615ed2e144b8e11521c5c2ed0502371c5d8ace84fbd2ffd3cda54e5b4ed",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R013/fine/binding.json",
+      "bytes": 4373,
+      "sha256": "f468eea48de19ad7ad7ef636cb8708ae37e7f7b268fa424ea9f8ef52924d8657",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/candidates/Q3R013/fine/summary.json",
+      "bytes": 20098284,
+      "sha256": "31570f38dd678dd94d2339da2efff2bd7cb954ba6441850fec93a4bd44a8028f",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/delivery/paired-comparison-v001.json",
+      "bytes": 1472,
+      "sha256": "d7f41c046a57b651c706e552f5259e751c84077c521f3fe53156132befa441b6",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/delivery/result3.xlsx",
+      "bytes": 191022,
+      "sha256": "b92e3004b42054c2d90ce384a0561b0434c1012c48a8a4686045d989fb653351",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/delivery/独立重建核验-v001.json",
+      "bytes": 284129,
+      "sha256": "07894a5f01d7712b5d91e81843445e60c90e73e318c7af974745975cc70edda5",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/delivery/结果数据-v001.json",
+      "bytes": 159922,
+      "sha256": "bc3947650ed237dd95428160c29c4ce4e8bd941061237f7ddfa80aad17901033",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/groups-v001.json",
+      "bytes": 723081,
+      "sha256": "ec699f16e2608d2b883ecf392978a3248f5aa066df2ce98f67ee9f06b5c8aae5",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/specs/Q3R000-fine.json",
+      "bytes": 306,
+      "sha256": "6717bba38c1a905bc2ff2dc2efb92d0d365fdf4d7fca5ea61d49c92b54b46adb",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/specs/Q3R010-fine.json",
+      "bytes": 354,
+      "sha256": "2c36e2add8090ac405afee2de08250f72c3b84cd0e6b8a5e3e651c5fecc8bdb4",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/specs/Q3R012-fine.json",
+      "bytes": 325,
+      "sha256": "36dd0f8c40d6049483bfee6817a9b17ab1415d6ab522a52c2b2469850d7b180d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/specs/Q3R013-fine.json",
+      "bytes": 362,
+      "sha256": "1a772551ca16933ff62e7ace5c0fa255069c3d351ba01bdbd50d635bc7b4e358",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/最终候选与确认冻结-v001.json",
+      "bytes": 3585,
+      "sha256": "38f9c479cdef9a842571aaa74c8a5a97feed39f9a911e1cafd923efc1ca5e31d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/诊断结果/Q03-实施-v001/边界事件记录-v001.md",
+      "bytes": 1065,
+      "sha256": "8457c872973afdfad6517a035ff30d4abf0139236fcc9df8c8c243027f6181bc",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/阶段记录/Q01-第1问结果初稿-v001.md",
+      "bytes": 8383,
+      "sha256": "bc10f1245b94f103fe88fbd2611eedce866accebee302d25fda484105ecceca1",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/阶段记录/Q02-第2问结果初稿-v001.md",
+      "bytes": 2640,
+      "sha256": "05c3cafd8cf1749e523f95fa6babf41eca14fa45d71c9a94bbbc217b0229041d",
+      "copied_exact": true
+    },
+    {
+      "path": "工作记录/阶段记录/Q03-第3问结果初稿-v001.md",
+      "bytes": 9689,
+      "sha256": "9ca1b1ae5572a93813d4f1334e079021a96c7c3837b39e9720c0b60e09320d35",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/M01-输入假设与适用范围-v001.md",
+      "bytes": 4154,
+      "sha256": "96ed9a694f5a9e73e1a19a472bf5f87f186ab49a9dc8a8e64434a62f55b1ae8a",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/M02-空间方向反射与有限几何-v001.md",
+      "bytes": 4587,
+      "sha256": "94416d26857e99fcf145e9e97b11b5f68656397cdb37718d74d6e258e296cefc",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/M03-条件能量比与分布归一化-v001.md",
+      "bytes": 3975,
+      "sha256": "ec17db106349f5150f3e9bc49ad6469f975a2f3cb9387c4aae38414d3bda3ff8",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/M04-平均权重与非线性汇总-v001.md",
+      "bytes": 3747,
+      "sha256": "848fc02fd70882921bdb6aa3d1efa31d851fd8569c07602215ce4e5a6e778e2a",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/M05-数值误差验证与复现-v001.md",
+      "bytes": 4180,
+      "sha256": "14de3c6a420225beccacf9d5e2e558a0e109f14e391511e1d4dd9c57bf032a0f",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/manifest-v001.json",
+      "bytes": 19050,
+      "sha256": "0444a6ff2a381458092d21fb708619260f66bb84bdb71f57d30fa5f0c1f29f5c",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/README.md",
+      "bytes": 3352,
+      "sha256": "efe5b3b3c20a2e8ce149ab74d70c518f85746f7433e0c03aaa9a4a6af4b58353",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/原文选段/D01-建模质量观念.md",
+      "bytes": 1773,
+      "sha256": "837ac362d2e891bd459276993570b5e503573a5d0421d04a1c84e45305fc89e9",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/原文选段/D02-几何方法分类.md",
+      "bytes": 4016,
+      "sha256": "4a4bb2da78d406ba8dde8fdf9b328f2179db0aeff404cb65b30ba082d755cc7f",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/原文选段/D03-随机模拟基本思想.md",
+      "bytes": 1496,
+      "sha256": "63a692f622e86825d353da381892205286b5ab40f9e70e80ad1d6f4beec6e01d",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/来源与许可.md",
+      "bytes": 3461,
+      "sha256": "0b8958b162cbfac209cfdcdbc7e68fb5d0d5ac43ae099e1d96d516a491300535",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/资料清单-v001.md",
+      "bytes": 9807,
+      "sha256": "7f4616a0e65c773157551d39cf34c89d5a0773179833e725c82a3a5e0fb4a802",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/验证/check_examples.py",
+      "bytes": 3624,
+      "sha256": "71b75eeda1a5dbd82d72a700063600524ebc2201afcec20bd4e1f4bcb1977c27",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/验证/README.md",
+      "bytes": 1390,
+      "sha256": "c20b953eef886f2ad011cc7e26feeb3653e9b684631f93591c45b99b8648645e",
+      "copied_exact": true
+    },
+    {
+      "path": "方法库/验证/运行结果-v001.json",
+      "bytes": 3236,
+      "sha256": "984296454463cf2728c52f7b178bf4f55fd7b354d3cc6f5aa108412afa196e43",
+      "copied_exact": true
+    },
+    {
+      "path": "补充资料/manifest-v001.json",
+      "bytes": 11689,
+      "sha256": "bbfa7a488c49de9f3c340a83bb925d0c3169d85cec821d05b1523bf80d1bb19d",
+      "copied_exact": true
+    },
+    {
+      "path": "补充资料/P01-角尺度来源与边界-v001.md",
+      "bytes": 3010,
+      "sha256": "1909e60303e57e39b7929f2200b7b966523b0bc2c2d44995f4f952e0a7ec4588",
+      "copied_exact": true
+    },
+    {
+      "path": "补充资料/P02-方向分布与待选假设-v001.md",
+      "bytes": 3749,
+      "sha256": "bd47a735887659b4db9f6b026b12b054c71db79b1993a0f88abe7a511136dc36",
+      "copied_exact": true
+    },
+    {
+      "path": "补充资料/README.md",
+      "bytes": 1314,
+      "sha256": "9be33226f37b4deece2bf957e5ed27e4ccbfabee5caac8f8d5a992592c543bd7",
+      "copied_exact": true
+    },
+    {
+      "path": "补充资料/交付完整性-v001.json",
+      "bytes": 3973,
+      "sha256": "4fed446e200de25f96a29acb6cb8656d79193ba3f3c7deac8a699abb89386cf9",
+      "copied_exact": true
+    },
+    {
+      "path": "补充资料/待确认事项-v001.md",
+      "bytes": 1140,
+      "sha256": "fe2605c467a855bbe9b3c6d901c820836e00321f73bce61b3fcb693903dc8c15",
+      "copied_exact": true
+    },
+    {
+      "path": "补充资料/资料清单-v001.md",
+      "bytes": 3471,
+      "sha256": "32d55084ce769eefe80f8d5c136bb24f57973d6867e08013211255ff6669113e",
+      "copied_exact": true
+    },
+    {
+      "path": "附件/附件01.xlsx",
+      "bytes": 6804,
+      "sha256": "e58d7f327a662d7d2263cf9aaded946a9f9018a49c9908e7f670f308b8f4a634",
+      "copied_exact": true
+    },
+    {
+      "path": "附件/附件02.xlsx",
+      "bytes": 6804,
+      "sha256": "e58d7f327a662d7d2263cf9aaded946a9f9018a49c9908e7f670f308b8f4a634",
+      "copied_exact": true
+    },
+    {
+      "path": "附件/附件03.xlsx",
+      "bytes": 34796,
+      "sha256": "596abec1162db0bce095f6f768b6cd06394e61766f80129a09e15146dc1fed50",
+      "copied_exact": true
+    },
+    {
+      "path": "题目.pdf",
+      "bytes": 974524,
+      "sha256": "86dd794bc41671bf55203be03403a165863374c5e2beca12f5de3db4425e997e",
+      "copied_exact": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 1986,
+      "sha256": "ae519eae7565a2e710d478d8d615aa8667a4ee9606453bc6c0fa7d7d5d71a63c",
+      "copied_exact": false
+    },
+    {
+      "path": "未复制依赖清单-v001.json",
+      "bytes": 157584,
+      "sha256": "b179f0c7df9d22c8f748a8bb38a2ed57469eb2b6684f2588d16488cf9c1f430e",
+      "copied_exact": false
+    }
+  ],
+  "file_count_excluding_manifests": 570,
+  "copied_bytes": 251368355,
+  "excluded_self_files": [
+    "文件清单-v001.json",
+    "SHA256SUMS.txt"
+  ],
+  "external_dependency_count": 512,
+  "external_dependency_bytes": 1611191051,
+  "portable_for_reading": true,
+  "portable_for_complete_recalculation": false
+}

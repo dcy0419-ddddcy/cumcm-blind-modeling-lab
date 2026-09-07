@@ -1,0 +1,108 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "stage_status",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_baseline",
+      "pass": true,
+      "detail": 8
+    },
+    {
+      "name": "config_fixed_bindings",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "execution_overlay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "D_continuous",
+      "pass": true,
+      "detail": {
+        "last": 24,
+        "count": 24
+      }
+    },
+    {
+      "name": "U_continuous",
+      "pass": true,
+      "detail": {
+        "last": 28,
+        "count": 28
+      }
+    },
+    {
+      "name": "local_links_exist",
+      "pass": true,
+      "detail": {
+        "count": 258,
+        "missing": []
+      }
+    },
+    {
+      "name": "links_inside_task",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "complete_table_headers",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "math_delimiters",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "actual_tests",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "actual_old_regression",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "actual_saved_statistics",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "actual_screen_roundtrip",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no_full_power_claim",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "settled_budget",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_failure_versions",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "check_count": 17,
+  "checked_local_links": 258,
+  "verification_seconds": 0.26872649998404086,
+  "computation_action_seconds": 76.5333207998774,
+  "accounted_with_file_verification_seconds": 76.80204729986144,
+  "scope": "file/link/hash/version and saved evidence assertions; no new optics; not independent physical validation",
+  "stage_user_acceptance": "PENDING",
+  "administrator_archive": "UNCONFIRMED",
+  "manifest_count_excluding_self": 132
+}

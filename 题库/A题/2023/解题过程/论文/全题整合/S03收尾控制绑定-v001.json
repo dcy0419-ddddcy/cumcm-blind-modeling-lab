@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-09-06T00:07:45.212339+08:00",
+  "stage": "工作记录/阶段记录/S03-全题整合与盲解冻结准备-v001.md",
+  "old_pdf_pages": [
+    {
+      "path": "工作记录/论文/LaTeX/第1问-模型建立与求解-v001.pdf",
+      "pages": 13
+    },
+    {
+      "path": "工作记录/论文/LaTeX/第2问-模型建立与求解-v002.pdf",
+      "pages": 18
+    },
+    {
+      "path": "工作记录/论文/LaTeX/第3问-模型建立与求解-v001.pdf",
+      "pages": 10
+    }
+  ],
+  "full_pdf_pages": 20,
+  "all_old_baseline_files_unchanged": true,
+  "package_not_modified_after_formation": true,
+  "reference_learning": "待材料",
+  "controls": {
+    "00-任务状态.md": "a446642a8b91eec9aa245b95815f14ed78215f75d87197343b31525166312687",
+    "记录索引.md": "ab6fe8d51f73dd0a191aa8fb0527fc8f551dc8ada468bae669df7e5546ffd50d",
+    "决策记录.md": "bffdbeae41a2bcfee9e8ce9574d2e53acb15177257b3600dade1aaccc1089e4c",
+    "06-更新记录.md": "adf58d63439d835ed5849b9e6e9b3a01984359e0180c65c3fc0aa35ff87b433d",
+    "方法库查阅记录.md": "d5d1f086d622816906d72be4bee555aeb0a00708efdf797f462960f1868f50e7",
+    "归档清单.md": "c861815ecdb53997c64a3fbaae6989fe250eaeae957cd2d4f0cbe0983c566367",
+    "经验.md": "bdeafdc9593fddd7118dbc34c97535d2b212ec214a9c927b81cacf0f55af2805"
+  },
+  "stage_sha256": "809e75769fb39f20167fb5ab08664a5f39b6761d4d4090de57c1f8547831ed86",
+  "finish_script_sha256": "77233aba8a6033033ef73467a1b25b86db236c863617dab33f66ab59dee3c2f9"
+}

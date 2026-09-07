@@ -1,0 +1,219 @@
+[
+  {
+    "file": "附件/附件01.xlsx",
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "state": "visible",
+        "dimensions": "A1:H7",
+        "max_row": 7,
+        "max_column": 8,
+        "merged_ranges": [],
+        "head_rows": [
+          [
+            "吸收塔x坐标 (m)",
+            "吸收塔y坐标 (m)",
+            "定日镜序号",
+            "定日镜宽度 (m)",
+            "定日镜高度 (m)",
+            "定日镜x坐标 (m)",
+            "定日镜y坐标 (m)",
+            "定日镜z坐标 (m)"
+          ],
+          [
+            null,
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            2,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            3,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            4,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            5,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            6,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "附件/附件02.xlsx",
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "state": "visible",
+        "dimensions": "A1:H7",
+        "max_row": 7,
+        "max_column": 8,
+        "merged_ranges": [],
+        "head_rows": [
+          [
+            "吸收塔x坐标 (m)",
+            "吸收塔y坐标 (m)",
+            "定日镜序号",
+            "定日镜宽度 (m)",
+            "定日镜高度 (m)",
+            "定日镜x坐标 (m)",
+            "定日镜y坐标 (m)",
+            "定日镜z坐标 (m)"
+          ],
+          [
+            null,
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            2,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            3,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            4,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            5,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            6,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "附件/附件03.xlsx",
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "state": "visible",
+        "dimensions": "A1:B1746",
+        "max_row": 1746,
+        "max_column": 2,
+        "merged_ranges": [],
+        "head_rows": [
+          [
+            "x坐标 (m)",
+            "y坐标 (m)"
+          ],
+          [
+            107.25,
+            11.664
+          ],
+          [
+            105.36,
+            23.191
+          ],
+          [
+            102.235,
+            34.447
+          ],
+          [
+            97.911,
+            45.299
+          ],
+          [
+            92.44,
+            55.619
+          ],
+          [
+            85.884,
+            65.288
+          ],
+          [
+            78.322,
+            74.191
+          ]
+        ]
+      }
+    ]
+  }
+]

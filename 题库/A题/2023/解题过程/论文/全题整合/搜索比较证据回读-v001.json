@@ -1,0 +1,9 @@
+{
+  "schema": "S03_SEARCH_EVIDENCE_READBACK_V001",
+  "all39_checks_pass": true,
+  "all80_source_sha_matches": true,
+  "all_md_links_exist": true,
+  "json_sha256": "13d7d0ba04b4a1a83a7e3e9aacd63def1d8486d3028e0dfaaad60393aaaf7c37",
+  "md_sha256": "27ca701fa6f7593d95da9d1dd33e012bd24c77963b3429f891b884cff6aec664",
+  "scope": "Saved source readback only; no optical/geometry/search run."
+}

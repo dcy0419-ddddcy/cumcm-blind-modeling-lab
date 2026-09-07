@@ -1,0 +1,177 @@
+{
+  "suite": "q02-fast-v001",
+  "checks": [
+    {
+      "name": "F01_detached_immutable_snapshot",
+      "passed": true,
+      "evidence": {
+        "original_mutation_isolated": true,
+        "returned_copy_mutation_isolated": true,
+        "immutable_array_rejections": 14,
+        "other_rejections": [
+          "FrozenInstanceError: cannot assign to field 'beta'",
+          "FrozenInstanceError: cannot assign to field 'radius'"
+        ],
+        "reference_wrapper_isolated": true,
+        "n": 4,
+        "area_m2": 192.0
+      },
+      "elapsed_seconds": 8.610001532360911e-05
+    },
+    {
+      "name": "F02_parameter_and_candidate_identity",
+      "passed": true,
+      "evidence": {
+        "reference_scene_key_equal": true,
+        "all_candidate_indices_equal": true,
+        "candidate_counts": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "lazy_pair_reused": true,
+        "all_parameters_equal": true
+      },
+      "elapsed_seconds": 0.000415199960116297
+    },
+    {
+      "name": "F03_reference_fast_exhaustive_same_rays",
+      "passed": true,
+      "evidence": [
+        {
+          "mirror_index": 0,
+          "samples": 128,
+          "events_equal": {
+            "S": true,
+            "B": true,
+            "R": true,
+            "unknown": true,
+            "incoming_object": true,
+            "blocking_object": true,
+            "receiver_kind": true
+          },
+          "weights_exactly_equal": true
+        },
+        {
+          "mirror_index": 1,
+          "samples": 128,
+          "events_equal": {
+            "S": true,
+            "B": true,
+            "R": true,
+            "unknown": true,
+            "incoming_object": true,
+            "blocking_object": true,
+            "receiver_kind": true
+          },
+          "weights_exactly_equal": true
+        }
+      ],
+      "elapsed_seconds": 0.01607529999455437
+    },
+    {
+      "name": "F04_cache_invalidation_and_source_boundaries",
+      "passed": true,
+      "evidence": {
+        "foreign_cache_rejections": [
+          {
+            "changed": "width_height",
+            "rejected": "StateError: CACHE_INVALID: bound immutable scene or object differs"
+          },
+          {
+            "changed": "height",
+            "rejected": "StateError: CACHE_INVALID: bound immutable scene or object differs"
+          },
+          {
+            "changed": "tower",
+            "rejected": "StateError: CACHE_INVALID: bound immutable scene or object differs"
+          },
+          {
+            "changed": "count",
+            "rejected": "StateError: CACHE_INVALID: bound immutable scene or object differs"
+          },
+          {
+            "changed": "order",
+            "rejected": "StateError: CACHE_INVALID: bound immutable scene or object differs"
+          },
+          {
+            "changed": "time",
+            "rejected": "StateError: CACHE_INVALID: bound immutable scene or object differs"
+          }
+        ],
+        "outside_source_and_cone_rejected": true,
+        "edge_unknown_matches_reference": true
+      },
+      "elapsed_seconds": 0.006125600019004196
+    },
+    {
+      "name": "F05_one_trace_multi_batch_raw_statistics",
+      "passed": true,
+      "evidence": {
+        "max_absolute_stat_error": 1.7763568394002505e-15,
+        "count_order": [
+          "shadow",
+          "blocked_after_unshadowed",
+          "survive",
+          "capture",
+          "unknown",
+          "raw_R"
+        ],
+        "shape_sums": [
+          2,
+          3,
+          3
+        ],
+        "shape_cross": [
+          2,
+          3,
+          3,
+          3
+        ],
+        "shape_counts": [
+          2,
+          3,
+          6
+        ],
+        "n_final_only": 96,
+        "duplicate_batch_and_prefix_rejected": true
+      },
+      "elapsed_seconds": 0.0052064000046812
+    },
+    {
+      "name": "F06_bounded_same_scene_timing",
+      "passed": true,
+      "evidence": {
+        "repeats": 3,
+        "samples_per_replay": 256,
+        "reference_seconds": 0.0027312999591231346,
+        "fast_seconds": 0.002111000008881092,
+        "ratio_reference_over_fast": 1.2938417563393685,
+        "freeze_seconds": 0.0002663999912329018,
+        "prepare_once_seconds": 0.0005942999850958586,
+        "scope": "four-mirror artificial frame only; no full-field timing guarantee; replayed samples not extra independent evidence"
+      },
+      "elapsed_seconds": 0.0051262000342831016
+    }
+  ],
+  "all_pass": true,
+  "elapsed_seconds": 0.0342528999899514,
+  "path_evaluations": 2498,
+  "unique_source_samples": 608,
+  "no_target_search_layouts_generated": true,
+  "no_formal_power_result": true,
+  "limits": "Artificial cases only; caller must add pinned old-scene and dense/new-scene comparisons under its shared budget."
+}

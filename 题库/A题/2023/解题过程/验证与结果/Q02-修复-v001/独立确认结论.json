@@ -1,0 +1,175 @@
+{
+  "name": "R027",
+  "design_key": "2a3afcf2a5cf4e4e37fbd3256e3038a4f19a4372c77dae2b89fb7e866174a73e",
+  "decision": "PASS",
+  "annual": [
+    0.46844842927435854,
+    0.7595243371030294,
+    0.7733433462357145,
+    0.9258486076107543,
+    60157.78365661296,
+    0.45633792246299365
+  ],
+  "annual_U": [
+    3.602781073798942e-05,
+    0.0,
+    4.335528615456931e-05,
+    3.4910888739266265e-05,
+    4.51461976919416,
+    3.42464778608442e-05
+  ],
+  "all_precision": true,
+  "rating_lower_kw": 60153.26903684377,
+  "unresolved": [],
+  "low_survival": {
+    "threshold_exclusive": 100,
+    "screened_count": 2,
+    "cases": [
+      {
+        "time_index": 52,
+        "month": 11,
+        "hour": 12.0,
+        "object_index": 77,
+        "object_id": 176473955952466,
+        "survive": 34,
+        "capture": 31,
+        "unknown": 0,
+        "raw_R": 1603,
+        "state": "ESTIMATED",
+        "certificate": "NONE"
+      },
+      {
+        "time_index": 57,
+        "month": 12,
+        "hour": 12.0,
+        "object_index": 144,
+        "object_id": 174303916202366,
+        "survive": 44,
+        "capture": 44,
+        "unknown": 0,
+        "raw_R": 1639,
+        "state": "ESTIMATED",
+        "certificate": "NONE"
+      }
+    ],
+    "effect_diameter_bound": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        6.025423082103077e-05,
+        0.0,
+        6.709158000670916e-05,
+        6.709158000670916e-05,
+        7.416973390164754,
+        5.626281458690389e-05
+      ],
+      [
+        6.0182822114366696e-05,
+        0.0,
+        6.709158000670916e-05,
+        6.709158000670916e-05,
+        7.216878634242846,
+        5.474495904664071e-05
+      ],
+      [
+        1.003642107794979e-05,
+        0.0,
+        1.1181930001118193e-05,
+        1.1181930001118193e-05,
+        1.2194876687006333,
+        9.250647802795382e-06
+      ]
+    ],
+    "scope": "all final pooled object-times with unweighted survive count below threshold; coordinatewise feasible diameters, certificate-exact dimensions removed"
+  },
+  "numeric_checks": {
+    "factor_product_abs_error_on_estimated_objects": 3.3306690738754696e-16,
+    "area_relation_abs_kw": 1.4551915228366852e-11,
+    "max_raw_projection_residual": 0.0002000391724891748,
+    "energy_and_count_inputs_valid": true,
+    "certificate_evidence_valid": true
+  },
+  "reconstructed_from_saved_chunks": true,
+  "independent_batch_count": 8,
+  "full_combinations": 178860,
+  "source_samples": 366305280,
+  "execution": "four independent time-block workers, original optical kernel and per-position random streams unchanged"
+}

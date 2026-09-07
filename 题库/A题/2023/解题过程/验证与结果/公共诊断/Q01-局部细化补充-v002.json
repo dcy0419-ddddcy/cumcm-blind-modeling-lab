@@ -1,0 +1,112 @@
+{
+  "scope": "synthetic follow-up to observed R2 nonmonotone spatial convergence; no target rays",
+  "spatial": [
+    {
+      "na": 16,
+      "f2": 0.4687499999999982,
+      "analytic": 0.42426406871192845,
+      "independent_cell_lower": 0.3125,
+      "independent_cell_upper": 0.46875,
+      "inside_bound": true,
+      "estimate_inside_bound": true,
+      "estimate_inside_bound_with_roundoff": true,
+      "machine_comparison_allowance": 2.27373675443245e-13
+    },
+    {
+      "na": 32,
+      "f2": 0.42968749999999956,
+      "analytic": 0.42426406871192845,
+      "independent_cell_lower": 0.38671875,
+      "independent_cell_upper": 0.46875,
+      "inside_bound": true,
+      "estimate_inside_bound": true,
+      "estimate_inside_bound_with_roundoff": true,
+      "machine_comparison_allowance": 9.09494701773135e-13
+    },
+    {
+      "na": 64,
+      "f2": 0.4267578124999923,
+      "analytic": 0.42426406871192845,
+      "independent_cell_lower": 0.408203125,
+      "independent_cell_upper": 0.44921875,
+      "inside_bound": true,
+      "estimate_inside_bound": true,
+      "estimate_inside_bound_with_roundoff": true,
+      "machine_comparison_allowance": 3.637978807095022e-12
+    },
+    {
+      "na": 128,
+      "f2": 0.41748046874997513,
+      "analytic": 0.42426406871192845,
+      "independent_cell_lower": 0.41748046875,
+      "independent_cell_upper": 0.43798828125,
+      "inside_bound": true,
+      "estimate_inside_bound": false,
+      "estimate_inside_bound_with_roundoff": true,
+      "machine_comparison_allowance": 1.455191522841979e-11
+    }
+  ],
+  "angular": [
+    {
+      "nmu": 2,
+      "nphi": 8,
+      "azimuth_phase": 0.25,
+      "f2": 0.5000000000000002,
+      "analytic": 0.5
+    },
+    {
+      "nmu": 4,
+      "nphi": 16,
+      "azimuth_phase": 0.25,
+      "f2": 0.5000000000000047,
+      "analytic": 0.5
+    },
+    {
+      "nmu": 8,
+      "nphi": 32,
+      "azimuth_phase": 0.25,
+      "f2": 0.5000000000000008,
+      "analytic": 0.5
+    }
+  ],
+  "seed_repeatable": true,
+  "rays": 43264,
+  "elapsed_seconds": 0.07251649998943321,
+  "core_sha256": "f8297c1c9a40f70cc6381302fe4d8f18d1ed7d3669129498892e88172cc7c964",
+  "all_checks_pass": true,
+  "claim": "Bounds valid only for this independently reduced rectangle event; no universal order or error bound",
+  "revision": "Only floating comparison changed; original analytic bounds and every computed value retained.",
+  "source_sha256": "aedfb5f9bcbaefe60797ed5d2e7138737836e3b310cc337d7800fcf9fc0664b8",
+  "source_file": "工作记录/诊断结果/Q01-局部细化补充-v001.json",
+  "comparison_changes": [
+    {
+      "na": 16,
+      "strict_comparison_before": true,
+      "after": true,
+      "lower_residual": 0.15624999999999822,
+      "allowance": 2.27373675443245e-13
+    },
+    {
+      "na": 32,
+      "strict_comparison_before": true,
+      "after": true,
+      "lower_residual": 0.042968749999999556,
+      "allowance": 9.09494701773135e-13
+    },
+    {
+      "na": 64,
+      "strict_comparison_before": true,
+      "after": true,
+      "lower_residual": 0.018554687499992284,
+      "allowance": 3.637978807095022e-12
+    },
+    {
+      "na": 128,
+      "strict_comparison_before": false,
+      "after": true,
+      "lower_residual": -2.4868995751603507e-14,
+      "allowance": 1.455191522841979e-11
+    }
+  ],
+  "additional_rays_executed": 0
+}

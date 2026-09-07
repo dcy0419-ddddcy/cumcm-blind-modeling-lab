@@ -1,0 +1,693 @@
+{
+  "status": "FILES_SAVED_NOT_ADMIN_ARCHIVED",
+  "files": [
+    {
+      "path": "工作记录/00-任务状态.md",
+      "bytes": 1360,
+      "sha256": "7d4b6e8dd80f5a7d8cf2d8aee6aae49b1a4b117500b7f83af68f0d6e6e4bec99"
+    },
+    {
+      "path": "工作记录/06-更新记录.md",
+      "bytes": 40560,
+      "sha256": "0b2fa6f6f7bc562847582cdcf7c637cf841c7665422c18eb9ef4697bd7c33264"
+    },
+    {
+      "path": "工作记录/决策记录.md",
+      "bytes": 27509,
+      "sha256": "17bd60d27cba54826367084653c0194e6300f9bca8539576bfb9f9636f3ee445"
+    },
+    {
+      "path": "工作记录/归档清单.md",
+      "bytes": 34116,
+      "sha256": "ff0454e7ed580bfd0baffbdf194f3c5889c0bd7d70b0b32e84388324693a546b"
+    },
+    {
+      "path": "工作记录/方法库查阅记录.md",
+      "bytes": 24639,
+      "sha256": "b4627c6c7c225264dbec2ba01154c6b977fc95839fbd8c2deaefab9366ef3506"
+    },
+    {
+      "path": "工作记录/记录索引.md",
+      "bytes": 22025,
+      "sha256": "30aae86047a3b9b396c4aec28ad33b1a1c0131e5b2b558dd35ff620c2d2c0d5f"
+    },
+    {
+      "path": "工作记录/诊断代码/Q02-原型运行说明-v001.md",
+      "bytes": 3363,
+      "sha256": "b8a5dd9d581ab66718a8deea8e24ebea333370919ce8e243181d0cc7abc0263c"
+    },
+    {
+      "path": "工作记录/诊断代码/Q02-原型配置-v001.json",
+      "bytes": 12063,
+      "sha256": "cf5c1a1eb0cc796e110730377229a44ec92ab59d2971db88bab64dbbb6a4c56b"
+    },
+    {
+      "path": "工作记录/诊断代码/Q02-原型配置-v002.json",
+      "bytes": 12210,
+      "sha256": "aecb12edf0e3ac5eba9f3d3079f0fca84601a9f230cd8e5131230c915c7d8f26"
+    },
+    {
+      "path": "工作记录/诊断代码/Q02-设计与评价接口-v001.md",
+      "bytes": 8463,
+      "sha256": "c7e403f3456fa07c7b948226fc86a0efa4e3892e05e68e8f4c9c1a1d832b2f71"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_design_tests_v001.py",
+      "bytes": 13301,
+      "sha256": "eb831e39f421eda29d359ea57a6507fb7ea79bfa180dde2bd0ae79c0b7f432bc"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_design_tests_v002.py",
+      "bytes": 16886,
+      "sha256": "e5edca1ffe5631a65d7462e966c56571a9ba8785c10ffa87def31136da6a1347"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_design_v001.py",
+      "bytes": 22851,
+      "sha256": "2ac2880d1e425d06d545825f7446bd89f063ec131c49a0e4d430e2466cc988af"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_design_v002.py",
+      "bytes": 24769,
+      "sha256": "92315f1506597508d1d558ea1e58bd18579c4381a56741de929d7b9a48f3b361"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_eval_tests_v001.py",
+      "bytes": 9721,
+      "sha256": "4a7b451e131877928473f31dc6fbfa6f66025d69d6ce609e27ec5eaf400881f2"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_eval_tests_v002.py",
+      "bytes": 10634,
+      "sha256": "b64920c75815fe4a2b95cbf90d1ba943af7f290c79f2697a9ddc04498ded055f"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_eval_v001.py",
+      "bytes": 14193,
+      "sha256": "79318bc5153debb8d396c68f6cfa3eedfdfd27c5e802cd496c30d221edaad806"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_eval_v002.py",
+      "bytes": 16761,
+      "sha256": "777a6889531d7f167c1dfba04c5c71df6198ab7a59a6721816b9c28d4100793e"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_eval_v003.py",
+      "bytes": 16815,
+      "sha256": "f2d26131fd500c193cc643021815feee5195c5da668144b22a1571e2003b35de"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_prototype_docfix_v001.py",
+      "bytes": 6099,
+      "sha256": "b891040d01c957d0ce952a5a6d2c2db2550ac679bcfe091440cf3c85f5b7fb96"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_prototype_document_v001.py",
+      "bytes": 11820,
+      "sha256": "365d67220c1a652728f7e8a3184c1831b96787469f209e6532c1aeade1ae3dd9"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_prototype_report_v001.py",
+      "bytes": 36396,
+      "sha256": "b169ec6bcfc9320e9364f676e6fd5f2fe18d5f351daedd79a71ba94e0b603e8e"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_prototype_run_v001.py",
+      "bytes": 19673,
+      "sha256": "770ccb65f686024555671cac71b5e29c4aaf39445f917d42dd40de11181dbe14"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_prototype_run_v002.py",
+      "bytes": 19809,
+      "sha256": "dbf7189697f0f01ccf1f2c173bd267309ed182add9015250fb72178db967e158"
+    },
+    {
+      "path": "工作记录/诊断代码/q02_prototype_run_v003.py",
+      "bytes": 21197,
+      "sha256": "b7bd1c40e7008e3f94dc4d28bbf5bca061dbc2a592d8cf76edb6bc2a1889011d"
+    },
+    {
+      "path": "工作记录/诊断代码/verify_q02_prototype_delivery_v001.py",
+      "bytes": 7035,
+      "sha256": "02ac49873346b771e6f6a69dbc0356f289fd4ad3f4d0bd5401f30682db4a67e6"
+    },
+    {
+      "path": "工作记录/诊断代码/verify_q02_prototype_delivery_v002.py",
+      "bytes": 7117,
+      "sha256": "da5d04805b7700ad97b156fa475e9bbc213fa8e1e67c6ff4c5a2dae2f0e1c693"
+    },
+    {
+      "path": "工作记录/诊断代码/verify_q02_prototype_statistics_v001.py",
+      "bytes": 10394,
+      "sha256": "63d17e5145c34d756135dd4d07b5964eb2da1ae0229f3ace26ca64d1668d3443"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/artificial_roundtrip_attempt1/q02-artificial-roundtrip-v002.csv",
+      "bytes": 539,
+      "sha256": "322c64c729a6305cff9fe6cd7d935d1aba3d79c1bec6b2e8f2119a97b874d6e2"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/artificial_roundtrip_attempt1/q02-artificial-roundtrip-v002.json",
+      "bytes": 609,
+      "sha256": "60017482f01f9475534bb8f4e45f90bbcf52ddd3f2dde9d6206bc7a7c03fce91"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/artificial_roundtrip_attempt2/q02-artificial-roundtrip-v002.csv",
+      "bytes": 539,
+      "sha256": "322c64c729a6305cff9fe6cd7d935d1aba3d79c1bec6b2e8f2119a97b874d6e2"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/artificial_roundtrip_attempt2/q02-artificial-roundtrip-v002.json",
+      "bytes": 609,
+      "sha256": "60017482f01f9475534bb8f4e45f90bbcf52ddd3f2dde9d6206bc7a7c03fce91"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/60时点轻量域检查.json",
+      "bytes": 32609,
+      "sha256": "4ebd5ba485db5e61722fa049a832d0c69ad6bab608586af0b1e86d3e7247ab51"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m03_h12_id11521236035170.json",
+      "bytes": 41666,
+      "sha256": "8c1b0f7daf3901d274c3997dc919ac34e09f01fb888c7c35ca7ae50d4d7c8b1c"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m03_h12_id146951446084.json",
+      "bytes": 41658,
+      "sha256": "6162a896cef2b6f494337fd9be607ee2010d64f6bb299f10623fc66ec82e9093"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m03_h12_id14711326532720.json",
+      "bytes": 41417,
+      "sha256": "e00848cbfad30ccb78fce6be33b44db8491a79c5a7034b497a4c9c6cf38c55f3"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m03_h12_id188326009368807.json",
+      "bytes": 41401,
+      "sha256": "d8224a7b20f5297759dfb1971deb7fa9963644d423333851902b9b88232e0cd8"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m03_h12_id52411766233315.json",
+      "bytes": 41330,
+      "sha256": "f69a233daeb3f614a20306d42e8cfa44d2b8bf2834e26ddac2d70d45416e901a"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m03_h12_id69737130393424.json",
+      "bytes": 41351,
+      "sha256": "1c065130b05e58a3b74971d3cc3b89f5351161d5172e07a084f12dec22ed0455"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m06_h15_id11521236035170.json",
+      "bytes": 41649,
+      "sha256": "f9cdb17eb6a0ed9af3afea5341e24cc0437e2a343cea40e9b5b7580b1c108114"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m06_h15_id146951446084.json",
+      "bytes": 41633,
+      "sha256": "f462e4b6050c820b3d670a0f6c5b871766c89c5781c069139880f6b55119bf8e"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m06_h15_id14711326532720.json",
+      "bytes": 41394,
+      "sha256": "b4404511ee7151ff9112a35a7a67e50628cb61c84af8fdc1e08ea06bd23d4d6c"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m06_h15_id188326009368807.json",
+      "bytes": 41363,
+      "sha256": "80fbbaca81504f8111a54f14407d8345f3df39f58b9889ea5dd6734f92e6f35f"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m06_h15_id52411766233315.json",
+      "bytes": 41332,
+      "sha256": "6cbb86eb9654d9fd54b548ae7e94bc5677c65c76accf8ffa64ae43fcf630e940"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m06_h15_id69737130393424.json",
+      "bytes": 41392,
+      "sha256": "806388534802dd70357db6045f68f154aede1f486956eb2825da25ccbf31e71d"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m12_h9_id11521236035170.json",
+      "bytes": 41780,
+      "sha256": "ab5e82236a84ce68784d43eafbe7e0723d603485f3dcab951ce0b35ee8df8474"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m12_h9_id146951446084.json",
+      "bytes": 41746,
+      "sha256": "5f7d8991f1eec83d163c30f9d66386fbf1d418032fb3527a738922f9d8e2ee39"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m12_h9_id14711326532720.json",
+      "bytes": 41192,
+      "sha256": "f49b6c5b297f3329b20378231dab8160c4d55f9c26b6402f032487ac41645203"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m12_h9_id188326009368807.json",
+      "bytes": 41371,
+      "sha256": "d608281f4227ae8d6e7196400520f1b460b51b7c5ef0c91229d938321a8feacc"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m12_h9_id52411766233315.json",
+      "bytes": 41318,
+      "sha256": "174cc839d4d4d3dfaf2b9eec109d8a8bc7d81707cd31b271fd26d5dcb7b9250a"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/optical_m12_h9_id69737130393424.json",
+      "bytes": 41378,
+      "sha256": "343399a3d572b4e13a36ecb524ac2414ee4167b211b23f02058eb8327bf606e1"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/候选数统计.npz",
+      "bytes": 4441,
+      "sha256": "364f5908d71dd0b8f49acca1fa77586284569e3cfd4eed452064441382fbeb3d"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/光学组合预登记.json",
+      "bytes": 6238,
+      "sha256": "b47078b660f98a6742079e336900260b5c9c46cd593ed62f23266578ea1e46ea"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/几何检查.json",
+      "bytes": 814,
+      "sha256": "04ee9fbbc5ca770b88003593a34e625d491218409c1927720b40acd2a3a608cd"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/清单往返.json",
+      "bytes": 2008,
+      "sha256": "c4471a3e3379a6bf78e555696880a0cd6b245a672961bebfa6cd56fef885fb80"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/生成记录.json",
+      "bytes": 1279,
+      "sha256": "74a9f2b9f2569bf908e50d8ce6f2a82642269c5a640e9917ed2f3b1ceec7db2a"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/非正式诊断清单.csv",
+      "bytes": 34929290,
+      "sha256": "901eeb1a937d6b40fc3b43d280e705722d3e3b2ea4ffe74ca153b68ad43dce69"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-A/非正式诊断清单.json",
+      "bytes": 170388,
+      "sha256": "aab170fc18574cc0f63d5b14ad14d6887ed3aa6ed0201cf45820defc22a8d8fc"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/60时点轻量域检查.json",
+      "bytes": 32591,
+      "sha256": "8ff17af479f5376808ae65c97bb5a9b2a9231154055b81276788eaf201cbd1ce"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m03_h12_id142047022934709.json",
+      "bytes": 35537,
+      "sha256": "ac6a089ccd91680167f25a45c8a020db816456e16e3f35c9490382f4febc84dc"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m03_h12_id191949213342297.json",
+      "bytes": 35545,
+      "sha256": "eb336a686ab7c61f89abd790f4a642c9631baf73c55a4b1bdf9edb11c5e3a223"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m03_h12_id37056970124405.json",
+      "bytes": 35811,
+      "sha256": "eb0846353130a9a645d6e3bd92182ac8fbfb7c33b0c542e7eba87484e9b9a3b5"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m03_h12_id43291383329176.json",
+      "bytes": 35827,
+      "sha256": "7803f03bf7ca46b59f01ba0c18e930bb5f27110db4b584bcf5c5d39bed4ce696"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m03_h12_id52411766233315.json",
+      "bytes": 35460,
+      "sha256": "5372fda8b0fdc73a110eaa0d86cdaf5aadc80968a11227c0a83e6908d3b31f2f"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m03_h12_id5519714854660.json",
+      "bytes": 35555,
+      "sha256": "ec96e65188810dcae40a0ba9e327e3582a1474aba801c26f025cae1158198bca"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m06_h15_id142047022934709.json",
+      "bytes": 35516,
+      "sha256": "502cc0e10e2baeeca0ad14d032282f101ba4bc453e4e5b5817312a73a41e44bf"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m06_h15_id191949213342297.json",
+      "bytes": 35505,
+      "sha256": "b9bb96e69f06ae0d4a2727cb227e6cbba1bed60a133622bf09bb021fbdece0ae"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m06_h15_id37056970124405.json",
+      "bytes": 35821,
+      "sha256": "ebf85e3b89a19482f3f9b37916d97392d70f7aacd26e42b514e0c3767f393fe6"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m06_h15_id43291383329176.json",
+      "bytes": 35818,
+      "sha256": "e68c101a7e73004f7da195b42e3bde2ae7f45a0d55cffcbc7e9d946b3b3e3b4d"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m06_h15_id52411766233315.json",
+      "bytes": 35524,
+      "sha256": "0113ba7c70ab7fa0164819296a3493ca130c4d3598f6289f4991804686ff2958"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m06_h15_id5519714854660.json",
+      "bytes": 35539,
+      "sha256": "d7ef41fd6ffe73e7e3ddda5799d40e0a20d8c40efbaf71d5857e87f4a8d3009e"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m12_h9_id142047022934709.json",
+      "bytes": 35534,
+      "sha256": "f282851cc55cfeca912e4255c2d14bde7e3c1951026f3a5d7e4e455f04425aaf"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m12_h9_id191949213342297.json",
+      "bytes": 35530,
+      "sha256": "790c142c337d42b222a9f0d75cd6ab5e1155a2c0ef88fd53440b0d862d1d818d"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m12_h9_id37056970124405.json",
+      "bytes": 36055,
+      "sha256": "063a69a95985f5399b73ab9f7d566f5700212b01bb46d623b2e110d436f93c8b"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m12_h9_id43291383329176.json",
+      "bytes": 35849,
+      "sha256": "a2ae3ecde48ca757ddc0cbbc86749a21f5bffd169d36239968618a8b8fa22e6d"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m12_h9_id52411766233315.json",
+      "bytes": 35620,
+      "sha256": "0df759ddf6dec67e82814dc450f071c294a1a9fd818083aeecbeec734c0bb714"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/optical_m12_h9_id5519714854660.json",
+      "bytes": 35631,
+      "sha256": "a140ec580e6db1c46fc8aaa1cd7fedd6723bc4c793d1d315675838aba414068a"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/候选数统计.npz",
+      "bytes": 3539,
+      "sha256": "c4ec51a4bed35b996a843246ea04b6274a6265ff9763c0ed1eb04763094c7fc4"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/光学组合预登记.json",
+      "bytes": 6239,
+      "sha256": "c1413c491fb5f40ce4b113390b13a0eed9d75baef5151fee047b9b9defa639ff"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/几何检查.json",
+      "bytes": 973,
+      "sha256": "f20b1616f9d360969907287f6ef0c2854fb2e4c3ce844b19ca1b70e6807ee5cf"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/清单往返.json",
+      "bytes": 2358,
+      "sha256": "ee87fd98225367c7b726d6582f09766831cb1c3c6d444703a315c95617ace05d"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/生成记录.json",
+      "bytes": 60160,
+      "sha256": "4f29804620a2ef2aca1812debd30355e6bd1bc063e177a632ffbdb6e1f440daa"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/非正式诊断清单.csv",
+      "bytes": 30662345,
+      "sha256": "39c2505a2989dfb68e276a052c928b8fa3cf8971922fa04de76832c835d0c6a5"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-B/非正式诊断清单.json",
+      "bytes": 163212,
+      "sha256": "98da5604d794331a90966692aae0c9dccfd7eaff09dfe2889851aad7906b526a"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/60时点轻量域检查.json",
+      "bytes": 32714,
+      "sha256": "1f4ad3a199c6ebd69571f677a98d4e0846e65765878a6efa16f99b0d01e17f6e"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m03_h12_id101057042654870.json",
+      "bytes": 47158,
+      "sha256": "da9e0e5ad2a49bcada7f94fb5bd28ab9759c02a0ab862e189804b0e4cdd69bbb"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m03_h12_id218012157784665.json",
+      "bytes": 47208,
+      "sha256": "e992207acae38b7dd033fb74df6c858895a2f28330e7ec7ede5dc52869ac0536"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m03_h12_id24672758531002.json",
+      "bytes": 47204,
+      "sha256": "1d334ae3e5a65180f57220721567b2d81ed99b90579104d2c15baed9d45e2522"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m03_h12_id33248960293874.json",
+      "bytes": 47211,
+      "sha256": "2ddee94aacddec9b08fee8fd0a4f2f7a36c2521e6cdb72b8aed197c5db8e3c9d"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m03_h12_id779623052975.json",
+      "bytes": 47498,
+      "sha256": "dfd95f59b05b1f84e6f56ec5f4bd6146138a1d439652aa0dfef874edeb240a8c"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m03_h12_id921285332049.json",
+      "bytes": 47322,
+      "sha256": "0c8c324470cd98b8bca7a2e9d292e8c338e6bf7b4a9d72572f0d004e325cd21f"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m06_h15_id101057042654870.json",
+      "bytes": 47188,
+      "sha256": "d74b08a8f72bf73882ece41de26dd2321be97b4da9fa5666dafca239ab91c360"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m06_h15_id218012157784665.json",
+      "bytes": 47165,
+      "sha256": "1b863d40092baf290e423dd97ff397a98f9a6cf7df314401a395573c04a0913c"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m06_h15_id24672758531002.json",
+      "bytes": 47201,
+      "sha256": "d8f0bef81db44ccbfae8f19ca72b0d58b76dbaad880ef509fb6500543fbc0cff"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m06_h15_id33248960293874.json",
+      "bytes": 47205,
+      "sha256": "007f9e68906acd648e79c0dd423f1979f42bb1910a1f60deceacfeb540318d65"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m06_h15_id779623052975.json",
+      "bytes": 47469,
+      "sha256": "1fb3ca400897ca0beef7a738acc87b8e4bc41d769fb56682608e74e080b36c7a"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m06_h15_id921285332049.json",
+      "bytes": 47319,
+      "sha256": "89341c1d6a3793bc9efcdc0e316046cc2b831a8b97f2556899cf775cef67bae4"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m12_h9_id101057042654870.json",
+      "bytes": 47123,
+      "sha256": "9ba4847a738ddf3a04ecd6681cb164e044032c77e51cb58a7e3dbc2a28f01a72"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m12_h9_id218012157784665.json",
+      "bytes": 47242,
+      "sha256": "0ee5fa2edd024ee30e527ecd61761d7ef54d41595e3da0bd9ee820baedd09fe2"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m12_h9_id24672758531002.json",
+      "bytes": 47502,
+      "sha256": "99a0b311f6c72a373c9188d27eabc73d348e6fbfe5e72051b2d0be9e18eaa802"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m12_h9_id33248960293874.json",
+      "bytes": 47258,
+      "sha256": "e64e2961c255e05bb4dc786bd8f92cdc93f28fb1ef2c8e9c0f76c23c109e59f7"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m12_h9_id779623052975.json",
+      "bytes": 47672,
+      "sha256": "b85c0b7d547a50f89b63297fad509d8a39d1417e74165c7437f68458357de8a3"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/optical_m12_h9_id921285332049.json",
+      "bytes": 46981,
+      "sha256": "86ff9f54a7b815bf98041d51610139d6cd08ee33f22ea7451d820a5d6f68d5bd"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/候选数统计.npz",
+      "bytes": 5056,
+      "sha256": "726761c6f625a02e2355e863a4ed755fcdc8b250f4a137d8f30f693a11bc56ea"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/光学组合预登记.json",
+      "bytes": 6238,
+      "sha256": "3cd5b6fd10f5299df94d7f1ac68125af58e2d6b2b87a33e4434b42a6fa08a6a7"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/几何检查.json",
+      "bytes": 1129,
+      "sha256": "239a005f2adceb5fae6b1d981552623540338bd1ce4716a474c0cc7c144c869a"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/清单往返.json",
+      "bytes": 2698,
+      "sha256": "c8edb107d88e8d66b585285fe84fd556afa3c1e6ff27a5343844033dbeeffb05"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/生成记录.json",
+      "bytes": 98617,
+      "sha256": "5b355a79e4bd2106aed19edeee9689458e5c43bb59f0cc071e98d6e11b06f370"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/非正式诊断清单.csv",
+      "bytes": 76368332,
+      "sha256": "d852803d4a31503950fde125bd0d13fffad1f1ee7bcc6e69afe7ff7a27313bc2"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/D-C/非正式诊断清单.json",
+      "bytes": 258136,
+      "sha256": "15b0cd0915f5cd18b9365f0e97a83f24970f53902dcf7d35354d2cb743f6b3f4"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/io-retry-probe-attempt1.json",
+      "bytes": 67,
+      "sha256": "dd488189abed08f55d5b9696461d9e2275b1ba1fdde7d9d7d82f2c4231d5fd81"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/交付前文档合同修订-v001.json",
+      "bytes": 1835,
+      "sha256": "0965c34fa90da598a16daebfa37321afc773109ba8f310fe40f91b2b7adbaca0"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/交付文件核验-v001.json",
+      "bytes": 2256,
+      "sha256": "38c019fcd0c15a01b8986a6c15e9ccf7c967dc97679efc420b2564f612db9e24"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/人工测试-attempt1.json",
+      "bytes": 24385,
+      "sha256": "5c50bb20a33da91645fa7aee6451802b259c40c69ed97f248bedd2d0a6b2bf1e"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/人工测试-attempt2.json",
+      "bytes": 25105,
+      "sha256": "bd4cc58fb180381716205d30f241f3cbab8b9dfe37c6d7a947386a7f587c2b59"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/修订与失败记录-v001.md",
+      "bytes": 4031,
+      "sha256": "33378a07f69bb0613ca702500496add730985a04b7c3f54f477ffd3609869160"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/光学诊断检查点.json",
+      "bytes": 9094,
+      "sha256": "b773c6ae7f90055f5d4108b4c3e9fd3efe2ac5e5ba0b3b016589873ca1a94327"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/只读输入基线-v001.json",
+      "bytes": 1352,
+      "sha256": "bb3e2f27d11552bc0b981bf2487937d005c433b11bc1b0411aa4533863452481"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/归档哈希清单-v001.json",
+      "bytes": 28123,
+      "sha256": "4cb4d24f0eba80580b6f048e2e366283ee562a9b1b5c2f362f3f34c1a685debd"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/执行修订-v003.json",
+      "bytes": 942,
+      "sha256": "081f2b47226a7d6114d2612de5019bbd56d196e5914581ff173e8b6855090612"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/新诊断布局预登记汇总.json",
+      "bytes": 21693,
+      "sha256": "ca705f6a5f35d84cdc067bb739b0c32aaf0f0e05b5bf81c5214741c3b3995803"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/旧场回归-attempt2.json",
+      "bytes": 94056,
+      "sha256": "b7edf2d2666c7afa9bc725a6fc48698fd8e5ccd654a46438a06ddf3b3c4f00f0"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/累计计算预算.json",
+      "bytes": 2350,
+      "sha256": "1080b0a0caa2106642f56b47d0cc3fe643a320fdfc9b4e08d7d48dc5a669a4a3"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/缓存失败修订-v001.json",
+      "bytes": 952,
+      "sha256": "3afbf00050a4a8e3839a6d0aaf7cd0f9f0ef9eedf10afb681733fe5d6577a3e6"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/落盘统计独立核验-v001.json",
+      "bytes": 185418,
+      "sha256": "b9e248fba4de2e541ce977f1402950e5f6a85573d295bdfe361d535e5ae5780c"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/诊断重建汇总.json",
+      "bytes": 1890,
+      "sha256": "c21bfb9db7ec91a150aab2913d8682106bbd31d0ed20a1a6be4cbbd65f8377e3"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/运行-diagnostics-attempt1.json",
+      "bytes": 2149,
+      "sha256": "1e6b5610e44cd714340cd8b438a0edd877eaee3425ed57c4cf63640635a80c69"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/运行-diagnostics-attempt2.json",
+      "bytes": 2171,
+      "sha256": "c5d36d5e00bba9cbcf688cfa4cc07e17492bc1778b46fbb2cb07dd39a014a37c"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/运行-iotest-attempt1.json",
+      "bytes": 1292,
+      "sha256": "09eec29a21711d79335a42267fd3b309efb8fe8f1718f4be89c5238de67dd6af"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/运行-old-attempt1.json",
+      "bytes": 2294,
+      "sha256": "d9d026451c63f02a36d97145c2dc5d1ad192822259cda2664ed6838ba19713b5"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/运行-old-attempt2.json",
+      "bytes": 225,
+      "sha256": "07396078f3c8728930e58fb038d556d0285faaac303180e619bad928f978b91f"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/运行-prep-attempt1.json",
+      "bytes": 230,
+      "sha256": "70f0660643138d1adfea2a20c1ef616330a93a0a9ebd9befbb78241a187ce336"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/运行-tests-attempt1.json",
+      "bytes": 258,
+      "sha256": "55a936d4e58a7141f8d1cb0be5dec0c3367932f65afec0eebe4134f0f8079244"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/运行-tests-attempt2.json",
+      "bytes": 258,
+      "sha256": "8b6ddf89b912f96a4d4b6784773d0744ec663b7705ac35c0fceff33032f7520b"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/配置冻结记录-v001.json",
+      "bytes": 224,
+      "sha256": "9591f98e742bc7efba1312b9e6288730b07623923bb95676ac2018f3c768e020"
+    },
+    {
+      "path": "工作记录/阶段记录/Q02-参数化与几何原型验证-v001.md",
+      "bytes": 22077,
+      "sha256": "aff21cb385c9ab8d6fb252386fdbacf1f4318d35ed5e9efc0b09dd5e5d5969c8"
+    },
+    {
+      "path": "工作记录/诊断结果/Q02-原型-v001/交付文件核验-v002.json",
+      "bytes": 2256,
+      "sha256": "df8270dd0e5e7cd7f21b08668c7d1443a7cde1d0998b0b96cdb3153e525d9df0"
+    }
+  ],
+  "count": 137,
+  "self_hash_excluded": true,
+  "generated_from": "verify_q02_prototype_delivery_v002.py"
+}

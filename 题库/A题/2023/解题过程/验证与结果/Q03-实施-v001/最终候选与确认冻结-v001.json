@@ -1,0 +1,65 @@
+{
+  "candidate": "Q3F013",
+  "search_parent": "Q3R013",
+  "input_source_sha256": "b9bdffe93b7cdef503be1a60e06fd3102037200f05dc99d744941f05f1e2b153",
+  "xlsx": "candidates\\Q3F013\\候选交付清单-未确认.xlsx",
+  "xlsx_sha256": "b92e3004b42054c2d90ce384a0561b0434c1012c48a8a4686045d989fb653351",
+  "readback_changes": [],
+  "readback_geometry": {
+    "accepted": true,
+    "geometry_valid": true,
+    "minima": {
+      "field_center_margin_m": 0.19652660383877674,
+      "ground_margin_m": 2.675,
+      "pair_count_checked": 4441690,
+      "pair_distance_m": 11.699999999932487,
+      "pair_margin_m": 0.009999999932485792,
+      "tower_exclusion_margin_m": 1.3249722427844972,
+      "tower_position_margin_m": 335.0
+    },
+    "n": 2981,
+    "schema_valid": true,
+    "search_scope_valid": true,
+    "total_area": 130284.0705,
+    "violations": []
+  },
+  "frozen_design_key": "9a13e1de6db7ec6e9eb7e7d7240192a56aa40914fbb5b31218120dd3644c82e9",
+  "frozen_design_sha256": "75306d0e1e28942f0b5863a4874c38f03ef0e3515ccd958b7f6156fe6ac6bebe",
+  "fixed_xy_tower_N_identity": true,
+  "execution_sources": {
+    "q03_engine_v001.py": "40adaf867dca671dfee12fdb09875fe4052f692edf7f9f765a3f06db08fe9c2e",
+    "q03_fast_v001.py": "c79fd3ef7939fc65287a46ea758f7fef176c9da2d0e4e651c380ed19d4c63a4e",
+    "q03_common_v001.py": "1b737f883c36a6703696876c20e64fefed8e32c48b4d55a464ba92fa411451bd",
+    "q03_design_v001.py": "c61d9f032f9a0fb8c00165b7ad50838cb5395627b3edcea656b51098b48108e9",
+    "q03_summary_v001.py": "fedfe6b54baf2f199517e8763a836d3b93bc026af0c247885bc804f519250a81",
+    "q01_core_v003.py": "7d7e70b8c85b1bc7762efdc08fadc972635d810ceb852bf74bfb2cc318ed1693",
+    "q02_eval_v003.py": "f2d26131fd500c193cc643021815feee5195c5da668144b22a1571e2003b35de",
+    "q02_design_v002.py": "92315f1506597508d1d558ea1e58bd18579c4381a56741de929d7b9a48f3b361",
+    "q03_parallel_v001.py": "5e41b34262e5cfdbe173d27b7198c333f67b672f6362dfd65b126d560fd708ac"
+  },
+  "planned_confirmation": {
+    "B": 8,
+    "n": 256,
+    "levels": [
+      128,
+      256
+    ],
+    "namespace": 3190,
+    "root_seed": 2026090506,
+    "time_count": 60,
+    "actual_mirrors": 2981,
+    "candidate_and_baseline_paired": true,
+    "max_n": 256,
+    "refinement": "Current supported chain frozen at256 with correlated128 diagnostic prefix. If insufficient, retain failure; no unsupported512 run or seed retry. No tuning with confirmation."
+  },
+  "work_indicator": "max(2.3646242515927844*whole-batch JK SE, final-half-prefix change, raw alternative shift)+actual-area low survival diameter; pointwise approximate statistical term, no joint/physical guarantee",
+  "paired_improvement": "candidate-minus-baseline point and delete-one-batch paired estimates; Udelta=max(t7 paired JK, paired prefix change, paired raw change)+sum of annual candidate and baseline q low-survival diameter bounds. delta_q>Udelta is numerical work evidence, not strict confidence statement.",
+  "rules_sha256": "7c41773c66e2aa81c5997ed503a12c6632ba4e767a5bde178d682dec694f4ae3",
+  "baseline_design_sha256": "d7cfa1e6ea6a67b7bf0aa99553e069c41f8c2e97cfb32d34b4deaa0466fe4fbb",
+  "launch_sources": {
+    "q03_run_v001.py": "a57304bc1f5774d2c6b9f3f80e662c8ab3eef155c1f906df2e95120e7fa1c1aa",
+    "q03_job_v001.ps1": "e5a4950159844a48f8322c4a2e213be94e6185dfd039212b360d65c6fa60f02f",
+    "q03_delivery_v001.py": "649fbb6677ed491a08f4c0e05061e6f67898467eae5ad5800999808e40e2e55e",
+    "q03_verify_v001.py": "9ee6b537a755bdfd82f1a7573a80df9d6630e3ab83d499e38a89ba8705d3ab99"
+  }
+}

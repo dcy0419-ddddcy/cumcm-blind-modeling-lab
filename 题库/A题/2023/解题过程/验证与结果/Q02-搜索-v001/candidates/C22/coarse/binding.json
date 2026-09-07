@@ -1,0 +1,66 @@
+{
+  "design_key": "6a46590d1f8ca3c742c3ae3b34ae75b18c1dec26c52aeb5e436a5f7721a7f69e",
+  "name": "C22",
+  "n_mirrors": 3054,
+  "times": [
+    [
+      3,
+      9
+    ],
+    [
+      3,
+      12
+    ],
+    [
+      3,
+      15
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      6,
+      15
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      12,
+      9
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      12,
+      15
+    ]
+  ],
+  "B": 2,
+  "n": 32,
+  "levels": [
+    16,
+    32
+  ],
+  "namespace": 900,
+  "root_seed": 2026090505,
+  "rng": "numpy.PCG64 via SeedSequence; per stable position_key, standard time index, namespace, batch",
+  "code_sha": "48a540a822e4d5806eef661f6739e59ccffc4b540fedb425b3e67867caaf156d",
+  "fast_sha": "84195cbd2395e8bf6d09c7189a5b158acd1373db2836903f648bdce9aca98e09"
+}

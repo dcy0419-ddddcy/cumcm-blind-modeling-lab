@@ -1,0 +1,64 @@
+{
+  "changes": [
+    {
+      "file": "工作记录\\阶段记录\\Q03-分组搜索与独立确认-v001.md",
+      "changes": [
+        {
+          "before": "低样本q评分",
+          "after": "低样本q评分／(kW/m²)"
+        },
+        {
+          "before": "抽样零存活计数",
+          "after": "合并存活数为0组合数"
+        },
+        {
+          "before": "抽样零接收计数",
+          "after": "合并接收数为0组合数（含前列）"
+        },
+        {
+          "before": "较精q点",
+          "after": "较精q点／(kW/m²)"
+        },
+        {
+          "before": "与基线q差",
+          "after": "与基线q差／(kW/m²)"
+        },
+        {
+          "before": "配对搜索SE |",
+          "after": "配对搜索SE／(kW/m²) |"
+        },
+        {
+          "before": "年单位面积影响量 |",
+          "after": "年单位面积影响量／(kW/m²) |"
+        }
+      ],
+      "before_sha256": "9a5e072d54abde7051c63d22960a42f7100421ecd6b22a4a5db6edc898c5bb0f",
+      "after_sha256": "2c000ccc8b519f8bbca7def5ad815f616365a2229f9b698199c5d728d8adfadf"
+    },
+    {
+      "file": "工作记录\\阶段记录\\Q03-第3问结果初稿-v001.md",
+      "changes": [
+        {
+          "before": "年单位面积影响量 |",
+          "after": "年单位面积影响量／(kW/m²) |"
+        },
+        {
+          "before": "| Pi1/Pi0 |",
+          "after": "| \\(\\Pi_1/\\Pi_0\\) |"
+        },
+        {
+          "before": "| Pi2/Pi1 |",
+          "after": "| \\(\\Pi_2/\\Pi_1\\) |"
+        },
+        {
+          "before": "| Pi2/Pi0 |",
+          "after": "| \\(\\Pi_2/\\Pi_0\\) |"
+        }
+      ],
+      "before_sha256": "bcb10257f2ce9db773599c45843301278b4456a0ca19b39ca6513ee0163d08de",
+      "after_sha256": "be26e22d06424d1df60cfc7b5bf472192d521ad9c3738882684c3031b34ab2f8"
+    }
+  ],
+  "reason": "non-exclusive raw zero counts mislabeled as potentially exclusive statuses; add units and render energy labels; no number changed",
+  "before_location": "工作记录\\诊断结果\\Q03-实施-v001\\records\\计数口径与单位更正前"
+}

@@ -1,0 +1,241 @@
+{
+  "created_before_new_optical_outputs": "2026-09-05T11:27:10.965404+08:00",
+  "design": "D-C",
+  "n": 629,
+  "total_area_m2": 5032.0,
+  "reason_rules": [
+    {
+      "index": 133,
+      "mirror_id": 779623052975,
+      "position_key": "[\"ring2\",\"lower\",30]",
+      "reason": "largest_candidate_sum",
+      "score": -1.0
+    },
+    {
+      "index": 376,
+      "mirror_id": 921285332049,
+      "position_key": "[\"ring5\",\"upper\",66]",
+      "reason": "largest_outgoing",
+      "score": 0.0
+    },
+    {
+      "index": 582,
+      "mirror_id": 101057042654870,
+      "position_key": "[\"ring7\",\"lower\",91]",
+      "reason": "outer_boundary",
+      "score": 0.4620169244309409
+    },
+    {
+      "index": 36,
+      "mirror_id": 24672758531002,
+      "position_key": "[\"ring1\",\"lower\",3]",
+      "reason": "near_exclusion",
+      "score": 0.9999999999999716
+    },
+    {
+      "index": 216,
+      "mirror_id": 218012157784665,
+      "position_key": "[\"ring3\",\"lower\",35]",
+      "reason": "nearest_neighbor",
+      "score": 9.269261552988462
+    },
+    {
+      "index": 140,
+      "mirror_id": 33248960293874,
+      "position_key": "[\"ring3\",\"upper\",0]",
+      "reason": "sector_seam",
+      "score": 4.6346307764942765
+    }
+  ],
+  "combinations": [
+    {
+      "month": 12,
+      "hour": 9.0,
+      "index": 133,
+      "mirror_id": 779623052975,
+      "position_key": "[\"ring2\",\"lower\",30]",
+      "candidate_in": 1,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": true
+    },
+    {
+      "month": 12,
+      "hour": 9.0,
+      "index": 376,
+      "mirror_id": 921285332049,
+      "position_key": "[\"ring5\",\"upper\",66]",
+      "candidate_in": 0,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": false
+    },
+    {
+      "month": 12,
+      "hour": 9.0,
+      "index": 582,
+      "mirror_id": 101057042654870,
+      "position_key": "[\"ring7\",\"lower\",91]",
+      "candidate_in": 0,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": false
+    },
+    {
+      "month": 12,
+      "hour": 9.0,
+      "index": 36,
+      "mirror_id": 24672758531002,
+      "position_key": "[\"ring1\",\"lower\",3]",
+      "candidate_in": 1,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": true
+    },
+    {
+      "month": 12,
+      "hour": 9.0,
+      "index": 216,
+      "mirror_id": 218012157784665,
+      "position_key": "[\"ring3\",\"lower\",35]",
+      "candidate_in": 1,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": false
+    },
+    {
+      "month": 12,
+      "hour": 9.0,
+      "index": 140,
+      "mirror_id": 33248960293874,
+      "position_key": "[\"ring3\",\"upper\",0]",
+      "candidate_in": 1,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": false
+    },
+    {
+      "month": 3,
+      "hour": 12.0,
+      "index": 133,
+      "mirror_id": 779623052975,
+      "position_key": "[\"ring2\",\"lower\",30]",
+      "candidate_in": 0,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": true
+    },
+    {
+      "month": 3,
+      "hour": 12.0,
+      "index": 376,
+      "mirror_id": 921285332049,
+      "position_key": "[\"ring5\",\"upper\",66]",
+      "candidate_in": 0,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": true
+    },
+    {
+      "month": 3,
+      "hour": 12.0,
+      "index": 582,
+      "mirror_id": 101057042654870,
+      "position_key": "[\"ring7\",\"lower\",91]",
+      "candidate_in": 0,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": false
+    },
+    {
+      "month": 3,
+      "hour": 12.0,
+      "index": 36,
+      "mirror_id": 24672758531002,
+      "position_key": "[\"ring1\",\"lower\",3]",
+      "candidate_in": 0,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": false
+    },
+    {
+      "month": 3,
+      "hour": 12.0,
+      "index": 216,
+      "mirror_id": 218012157784665,
+      "position_key": "[\"ring3\",\"lower\",35]",
+      "candidate_in": 0,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": false
+    },
+    {
+      "month": 3,
+      "hour": 12.0,
+      "index": 140,
+      "mirror_id": 33248960293874,
+      "position_key": "[\"ring3\",\"upper\",0]",
+      "candidate_in": 0,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": false
+    },
+    {
+      "month": 6,
+      "hour": 15.0,
+      "index": 133,
+      "mirror_id": 779623052975,
+      "position_key": "[\"ring2\",\"lower\",30]",
+      "candidate_in": 0,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": true
+    },
+    {
+      "month": 6,
+      "hour": 15.0,
+      "index": 376,
+      "mirror_id": 921285332049,
+      "position_key": "[\"ring5\",\"upper\",66]",
+      "candidate_in": 0,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": true
+    },
+    {
+      "month": 6,
+      "hour": 15.0,
+      "index": 582,
+      "mirror_id": 101057042654870,
+      "position_key": "[\"ring7\",\"lower\",91]",
+      "candidate_in": 0,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": false
+    },
+    {
+      "month": 6,
+      "hour": 15.0,
+      "index": 36,
+      "mirror_id": 24672758531002,
+      "position_key": "[\"ring1\",\"lower\",3]",
+      "candidate_in": 0,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": false
+    },
+    {
+      "month": 6,
+      "hour": 15.0,
+      "index": 216,
+      "mirror_id": 218012157784665,
+      "position_key": "[\"ring3\",\"lower\",35]",
+      "candidate_in": 0,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": false
+    },
+    {
+      "month": 6,
+      "hour": 15.0,
+      "index": 140,
+      "mirror_id": 33248960293874,
+      "position_key": "[\"ring3\",\"upper\",0]",
+      "candidate_in": 0,
+      "candidate_out": 0,
+      "screen_vs_exhaustive": false
+    }
+  ],
+  "candidate_statistics": {
+    "incoming_min": 0,
+    "incoming_max": 1,
+    "outgoing_min": 0,
+    "outgoing_max": 0
+  },
+  "design_json_sha256": "15b0cd0915f5cd18b9365f0e97a83f24970f53902dcf7d35354d2cb743f6b3f4",
+  "config_sha256": "aecb12edf0e3ac5eba9f3d3079f0fca84601a9f230cd8e5131230c915c7d8f26",
+  "geometry_generation_and_60_domain_seconds": 26.562567899993155
+}

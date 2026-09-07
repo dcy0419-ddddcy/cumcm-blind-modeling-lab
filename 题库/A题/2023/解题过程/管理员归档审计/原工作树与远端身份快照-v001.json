@@ -1,0 +1,69 @@
+{
+  "captured_at": "2026-09-07T11:39:40.1155070+08:00",
+  "original_worktree": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛",
+  "branch": "main",
+  "head": "0094abe05b2daa5417ccc8c5cbcd2088d6a025f1",
+  "origin": "https://github.com/dcy0419-ddddcy/cumcm-blind-modeling-lab.git",
+  "remote_main": "0094abe05b2daa5417ccc8c5cbcd2088d6a025f1",
+  "local_origin_main": "0094abe05b2daa5417ccc8c5cbcd2088d6a025f1",
+  "remote_repo": {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "isPrivate": true,
+    "nameWithOwner": "dcy0419-ddddcy/cumcm-blind-modeling-lab",
+    "url": "https://github.com/dcy0419-ddddcy/cumcm-blind-modeling-lab",
+    "viewerPermission": "ADMIN"
+  },
+  "collaborators": [
+    {
+      "login": "monessss",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "pull": true,
+        "push": true,
+        "triage": true
+      }
+    },
+    {
+      "login": "dcy0419-ddddcy",
+      "permissions": {
+        "admin": true,
+        "maintain": true,
+        "pull": true,
+        "push": true,
+        "triage": true
+      }
+    }
+  ],
+  "status_short": [
+    " M AGENTS.md",
+    " M docs/实验流程.md",
+    " M docs/盲测隔离规则.md",
+    " M prompts/00-总控提示词.md",
+    " M prompts/03-逐问建模与求解提示词.md",
+    " M tools/export_blind_problem.ps1",
+    " M 模型方法库/README.md",
+    "?? prompts/第一步-材料审计与题目理解.md",
+    "?? 模型方法库/离线包-v001-管理员交付报告.md",
+    "?? 模型方法库/离线包-v001/"
+  ],
+  "not_included_in_archive_commit": [
+    " M AGENTS.md",
+    " M docs/实验流程.md",
+    " M docs/盲测隔离规则.md",
+    " M prompts/00-总控提示词.md",
+    " M prompts/03-逐问建模与求解提示词.md",
+    " M tools/export_blind_problem.ps1",
+    " M 模型方法库/README.md",
+    "?? prompts/第一步-材料审计与题目理解.md",
+    "?? 模型方法库/离线包-v001-管理员交付报告.md",
+    "?? 模型方法库/离线包-v001/"
+  ],
+  "notes": [
+    "Original dirty worktree was not modified, reset, cleaned, or staged.",
+    "Git fetch transport failed twice, but GitHub API remote main SHA matched local origin/main exactly.",
+    "Authentication token values are neither stored nor printed in this record."
+  ]
+}

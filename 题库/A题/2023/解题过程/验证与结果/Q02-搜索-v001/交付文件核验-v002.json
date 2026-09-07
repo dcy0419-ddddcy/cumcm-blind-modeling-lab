@@ -1,0 +1,314 @@
+{
+  "checks": [
+    {
+      "name": "status_precision_pass_but_rating_fail",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "rebuild1089",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "U_rebuild_7",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "saved_Q02-受控搜索与独立确认-v001.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "display_math_pair_Q02-受控搜索与独立确认-v001.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "saved_第2问-模型建立与求解-v001.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "display_math_pair_第2问-模型建立与求解-v001.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "saved_第2问-正文证据映射-v001.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "display_math_pair_第2问-正文证据映射-v001.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "saved_第2问-修订与排版记录-v001.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "display_math_pair_第2问-修订与排版记录-v001.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "saved_Q02-搜索运行与复现说明-v001.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "display_math_pair_Q02-搜索运行与复现说明-v001.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "saved_修订与失败记录-v001.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "display_math_pair_修订与失败记录-v001.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "saved_00-任务状态.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "display_math_pair_00-任务状态.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "document_links",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "table_headers",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "frozen_code_搜索与确认冻结配置-v001.json_q02_search_run_v001.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_code_搜索与确认冻结配置-v001.json_q02_search_engine_v001.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_code_搜索与确认冻结配置-v001.json_q02_fast_v002.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_code_搜索与确认冻结配置-v001.json_q02_compact_v001.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_code_搜索与确认冻结配置-v001.json_q02_search_summary_v002.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_code_搜索与确认冻结配置-v001.json_q02_search_common_v001.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_code_搜索与确认冻结配置-v002.json_q02_search_run_v002.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_code_搜索与确认冻结配置-v002.json_q02_search_engine_v002.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_code_搜索与确认冻结配置-v002.json_q02_fast_v002.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_code_搜索与确认冻结配置-v002.json_q02_compact_v001.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_code_搜索与确认冻结配置-v002.json_q02_search_summary_v002.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_code_搜索与确认冻结配置-v002.json_q02_search_common_v001.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_code_搜索与确认冻结配置-v002.json_q02_hex_bands_v001.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "accepted_input_unchanged_AGENTS.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "accepted_input_unchanged_工作记录/阶段记录/Q02-参数化与几何原型验证-v001.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "accepted_input_unchanged_工作记录/诊断代码/q02_eval_v003.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "accepted_input_unchanged_工作记录/诊断代码/q02_design_v002.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "accepted_input_unchanged_工作记录/诊断代码/q01_core_v003.py",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "accepted_input_unchanged_工作记录/诊断代码/Q02-设计与评价接口-v001.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "accepted_input_unchanged_工作记录/诊断结果/Q02-原型-v001/归档哈希清单-v002.json",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "no_official_result2",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "no_formal_Q2_result_draft",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all29_equations_transferred",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "paper_UNFINISHED_no_rating_claim",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "paper_source_tex_sha",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "pdf_all12_pages",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "page_numbers",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "visually_rechecked_or_identical_pages",
+      "passed": true,
+      "evidence": {
+        "identical_to_visually_checked_initial": [
+          "page-01.png",
+          "page-02.png",
+          "page-03.png",
+          "page-04.png",
+          "page-05.png",
+          "page-06.png",
+          "page-07.png",
+          "page-08.png",
+          "page-09.png",
+          "page-12.png"
+        ],
+        "rechecked_final_pages": [
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "name": "figure_source_and_hash",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "control_saved_记录索引.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "control_saved_方法库查阅记录.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "control_saved_决策记录.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "control_saved_06-更新记录.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "control_saved_归档清单.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "control_saved_经验.md",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "no_unfinished_part_files",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "computed_time_within_budget",
+      "passed": true,
+      "evidence": {
+        "seconds_before_finish": 3114.2841656000237,
+        "includes_failed_numerical_actions": true
+      }
+    }
+  ],
+  "all_pass": true,
+  "file_scope": "saved paths/hashes/metadata/MD-TeX-PDF; does not override numeric rating FAIL",
+  "failed": [],
+  "new_rays": 0,
+  "archive_by_admin": "UNCONFIRMED",
+  "user_acceptance": "PENDING_CURRENT_STAGE",
+  "file_count": 1387,
+  "archive_bytes": 1994567761
+}

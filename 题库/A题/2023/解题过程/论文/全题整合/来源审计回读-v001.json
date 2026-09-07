@@ -1,0 +1,43 @@
+{
+  "kind": "S03_RESULT_SOURCE_READBACK_V001",
+  "checks_in_saved_source": 39,
+  "all_saved_checks_pass": true,
+  "all_links_exist": true,
+  "link_count": 23,
+  "all_source_file_sha_matches": true,
+  "source_json_sha256": "4a160072eb1d4ee8772be10fd3ba5352f54cb98216fc592ea53f2a295aaafdfe",
+  "source_md_sha256": "594ef2b22c263f665a394c7d8e2033ea29f6fca088e720b691d1e2a88ff121e5",
+  "scope": "Readback, arithmetic/field comparison and hashing only; zero model imports and zero new rays",
+  "not_tested": "No optical rerun, no pair-distance recalculation, no PDF rendering in this subtask",
+  "implementation_failures": [
+    {
+      "stage": "script parse before data read",
+      "observation": "Unterminated f-string at line162; no output created.",
+      "repair": "Fixed quote terminator; pre-fix script preserved in 来源审计历史/s03_results_sources-v001-语法修正前.py."
+    },
+    {
+      "stage": "Q2_result_values audit",
+      "observation": "Exact list equality failed on saved independent reconstruction floating tails.",
+      "source_values": {
+        "point_delta": [
+          1.6653345369377348e-16,
+          -2.220446049250313e-16,
+          1.1102230246251565e-16,
+          -2.220446049250313e-16,
+          0.0,
+          -5.551115123125783e-17
+        ],
+        "U_delta": [
+          6.37781927964598e-17,
+          0.0,
+          -4.1949137306179773e-16,
+          1.144172105151109e-16,
+          -2.5049295970802632e-11,
+          -1.641549851778834e-16
+        ]
+      },
+      "repair": "Retained both old files unchanged; replaced byte-numeric identity assertion by explicitly recorded isclose atol1e-10/rtol2e-14; source authority remains original frozen confirmation summary. Pre-fix script preserved in 来源审计历史/s03_results_sources-v001-尾差核对前.py.",
+      "scientific_impact": "No displayed table value, rated verdict or estimator changed; Q2 power point identical."
+    }
+  ]
+}

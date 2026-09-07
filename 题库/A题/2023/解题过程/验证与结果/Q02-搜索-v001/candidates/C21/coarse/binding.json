@@ -1,0 +1,66 @@
+{
+  "design_key": "4f31dd00e06d71db4587245ef741a9e68a741849a86a85be2b873c72a70fdbf2",
+  "name": "C21",
+  "n_mirrors": 3342,
+  "times": [
+    [
+      3,
+      9
+    ],
+    [
+      3,
+      12
+    ],
+    [
+      3,
+      15
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      6,
+      15
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      12,
+      9
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      12,
+      15
+    ]
+  ],
+  "B": 2,
+  "n": 32,
+  "levels": [
+    16,
+    32
+  ],
+  "namespace": 900,
+  "root_seed": 2026090505,
+  "rng": "numpy.PCG64 via SeedSequence; per stable position_key, standard time index, namespace, batch",
+  "code_sha": "48a540a822e4d5806eef661f6739e59ccffc4b540fedb425b3e67867caaf156d",
+  "fast_sha": "84195cbd2395e8bf6d09c7189a5b158acd1373db2836903f648bdce9aca98e09"
+}

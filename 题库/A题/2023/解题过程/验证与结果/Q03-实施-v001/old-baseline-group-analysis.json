@@ -1,0 +1,43 @@
+{
+  "rows": [
+    {
+      "group": 0,
+      "n": 497,
+      "q_old": 0.5711601593514036,
+      "P_old_kw": 12553.29068301797
+    },
+    {
+      "group": 1,
+      "n": 497,
+      "q_old": 0.48923390886284185,
+      "P_old_kw": 10752.667827739453
+    },
+    {
+      "group": 2,
+      "n": 497,
+      "q_old": 0.4793239392132313,
+      "P_old_kw": 10534.86074222299
+    },
+    {
+      "group": 3,
+      "n": 497,
+      "q_old": 0.41905033554588905,
+      "P_old_kw": 9210.132371448006
+    },
+    {
+      "group": 4,
+      "n": 582,
+      "q_old": 0.403182035253956,
+      "P_old_kw": 10376.895616438518
+    },
+    {
+      "group": 5,
+      "n": 411,
+      "q_old": 0.3702762430331366,
+      "P_old_kw": 6729.936415746016
+    }
+  ],
+  "use": "USED_SEARCH_EVIDENCE_NOT_NEW_INDEPENDENT_CONFIRMATION",
+  "source": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\A-P8C3\\工作记录\\诊断结果\\Q02-修复-v001\\frozen\\confirmation",
+  "old_summary_sha256": "1aff91072732fa7f536f679e71ba6fcd85f566866c9bdc1298e724640e846c1b"
+}
