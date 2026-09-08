@@ -1,0 +1,2618 @@
+{
+  "source_sha256": "094da760e1aed5577546f5b64f28cd7346d88f8900563162f05522aff188d11b",
+  "design_file": "工作记录\\诊断结果\\Q04\\q04_design_output_v001.json",
+  "verification_scope": "Independent formulas and raster checks; no candidate regeneration or optimization.",
+  "checks": {
+    "node_reconstruction": {
+      "passed": true,
+      "max_abs_error_m": 5.684341886080802e-14
+    },
+    "coordinate_units": {
+      "passed": true,
+      "x_range_m": [
+        0.0,
+        7408.0
+      ],
+      "y_range_m": [
+        0.0,
+        9260.0
+      ],
+      "grid_spacing_m": [
+        37.040000000000035,
+        37.040000000000035
+      ]
+    },
+    "source_finite_and_positive": {
+      "passed": true,
+      "nan_count": 0,
+      "nonpositive_count": 0
+    },
+    "artificial_flat_plane_and_q2_degeneracy": {
+      "passed": true,
+      "random_seed": 20230910,
+      "ray_plane_max_abs_error_m": 5.684341886080802e-14,
+      "q2_seabed_width_degeneracy_max_abs_error_m": 2.2737367544323206e-13,
+      "flat_width_m": 381.05117766515286,
+      "flat_expected_m": 381.05117766515286,
+      "flat_abs_error_m": 0.0
+    },
+    "line_identity_order_and_clipping": {
+      "passed": true,
+      "line_count": 86,
+      "unique_line_count": 86,
+      "ordered_by_cross_coordinate": true,
+      "bounds_valid": true
+    },
+    "independent_raster_coverage": {
+      "passed": true,
+      "results": {
+        "bilinear_10m": {
+          "missing_area_m2": 0.0,
+          "missing_percent": 0.0,
+          "missing_cells": 0,
+          "cell_area_by_block_m2": [
+            99.97300944669365,
+            99.97300944669365
+          ]
+        },
+        "bilinear_5m": {
+          "missing_area_m2": 0.0,
+          "missing_percent": 0.0,
+          "missing_cells": 0,
+          "cell_area_by_block_m2": [
+            24.993252361673413,
+            24.993252361673413
+          ]
+        },
+        "tri_main_10m": {
+          "missing_area_m2": 0.0,
+          "missing_percent": 0.0,
+          "missing_cells": 0,
+          "cell_area_by_block_m2": [
+            99.97300944669365,
+            99.97300944669365
+          ]
+        },
+        "tri_anti_10m": {
+          "missing_area_m2": 0.0,
+          "missing_percent": 0.0,
+          "missing_cells": 0,
+          "cell_area_by_block_m2": [
+            99.97300944669365,
+            99.97300944669365
+          ]
+        }
+      }
+    },
+    "independent_over20_counting": {
+      "passed": true,
+      "results": {
+        "bilinear_10m": {
+          "pair_counted_length_m": 131292.1943319838,
+          "reference_length_m": 131292.1943319838,
+          "absolute_difference_m": 0.0
+        },
+        "bilinear_5m": {
+          "pair_counted_length_m": 131287.19973009446,
+          "reference_length_m": 131287.19973009446,
+          "absolute_difference_m": 0.0
+        },
+        "tri_main_5m": {
+          "pair_counted_length_m": 131272.20107962214,
+          "reference_length_m": 131272.20107962214,
+          "absolute_difference_m": 0.0
+        },
+        "tri_anti_5m": {
+          "pair_counted_length_m": 131277.20512820513,
+          "reference_length_m": 131277.20512820513,
+          "absolute_difference_m": 0.0
+        }
+      },
+      "definition": "Each ordered adjacent pair is counted only over its shared assigned block; pair lengths are additive."
+    },
+    "total_length_recalculation": {
+      "passed": true,
+      "recalculated_total_m": 473186.0,
+      "reported_total_m": 473186.0
+    },
+    "selected_vs_baseline": {
+      "passed": true,
+      "baseline": {
+        "name": "uniform-vertical-baseline",
+        "line_count": 48,
+        "representation": "bilinear",
+        "step_m": 20.0,
+        "missing_area_m2": 6269096.165802835,
+        "missing_percent": 9.138879930462826,
+        "over20_pair_counted_length_m": 248820.0,
+        "total_length_m": 444480.0
+      },
+      "selected": {
+        "name": "mixed-two-direction-blocks",
+        "line_count": 86,
+        "representation": "bilinear",
+        "step_m": 20.0,
+        "missing_area_m2": 0.0,
+        "missing_percent": 0.0,
+        "over20_pair_counted_length_m": 131312.00062738176,
+        "total_length_m": 473186.0
+      }
+    },
+    "representation_and_resolution_sensitivity": {
+      "passed": true,
+      "reported_final_evaluations": {
+        "bilinear_10m": {
+          "representation": "bilinear",
+          "step_m": 10.0,
+          "missing_area_m2": 0.0,
+          "missing_percent": 0.0,
+          "over20_pair_counted_length_m": 131292.1943319838,
+          "total_length_m": 473186.0,
+          "pair_metrics": [
+            {
+              "previous": "BSV-L001",
+              "current": "BSV-L002",
+              "min_eta": 0.02000572684051938,
+              "max_eta": 0.3482789264231638,
+              "over20_length_m": 1170.0
+            },
+            {
+              "previous": "BSV-L002",
+              "current": "BSV-L003",
+              "min_eta": 0.019999999999999924,
+              "max_eta": 0.3567602141735351,
+              "over20_length_m": 1220.0
+            },
+            {
+              "previous": "BSV-L003",
+              "current": "BSV-L004",
+              "min_eta": 0.019999999999999307,
+              "max_eta": 0.3645985317438728,
+              "over20_length_m": 1270.0
+            },
+            {
+              "previous": "BSV-L004",
+              "current": "BSV-L005",
+              "min_eta": 0.01999999999999995,
+              "max_eta": 0.3719404432002403,
+              "over20_length_m": 1320.0
+            },
+            {
+              "previous": "BSV-L005",
+              "current": "BSV-L006",
+              "min_eta": 0.01999518082074889,
+              "max_eta": 0.3780485813756928,
+              "over20_length_m": 1360.0
+            },
+            {
+              "previous": "BSV-L006",
+              "current": "BSV-L007",
+              "min_eta": 0.019999268901276138,
+              "max_eta": 0.3835232564644308,
+              "over20_length_m": 1400.0
+            },
+            {
+              "previous": "BSV-L007",
+              "current": "BSV-L008",
+              "min_eta": 0.020005495079604026,
+              "max_eta": 0.388524652231181,
+              "over20_length_m": 1430.0
+            },
+            {
+              "previous": "BSV-L008",
+              "current": "BSV-L009",
+              "min_eta": 0.02000000000000048,
+              "max_eta": 0.3927006284092839,
+              "over20_length_m": 1450.0
+            },
+            {
+              "previous": "BSV-L009",
+              "current": "BSV-L010",
+              "min_eta": 0.020034691987087013,
+              "max_eta": 0.3957655570800293,
+              "over20_length_m": 1470.0
+            },
+            {
+              "previous": "BSV-L010",
+              "current": "BSV-L011",
+              "min_eta": 0.020000000000001624,
+              "max_eta": 0.39811253791216894,
+              "over20_length_m": 1490.0
+            },
+            {
+              "previous": "BSV-L011",
+              "current": "BSV-L012",
+              "min_eta": 0.020000000000001274,
+              "max_eta": 0.40009904837015847,
+              "over20_length_m": 1500.0
+            },
+            {
+              "previous": "BSV-L012",
+              "current": "BSV-L013",
+              "min_eta": 0.020000000000000295,
+              "max_eta": 0.4011947466069777,
+              "over20_length_m": 1500.0
+            },
+            {
+              "previous": "BSV-L013",
+              "current": "BSV-L014",
+              "min_eta": 0.020000000000001215,
+              "max_eta": 0.401834558918511,
+              "over20_length_m": 1510.0
+            },
+            {
+              "previous": "BSV-L014",
+              "current": "BSV-L015",
+              "min_eta": 0.020000000000002918,
+              "max_eta": 0.4013355159069997,
+              "over20_length_m": 1500.0
+            },
+            {
+              "previous": "BSV-L015",
+              "current": "BSV-L016",
+              "min_eta": 0.019999999999997707,
+              "max_eta": 0.4003796257068478,
+              "over20_length_m": 1500.0
+            },
+            {
+              "previous": "BSV-L016",
+              "current": "BSV-L017",
+              "min_eta": 0.019999999999997194,
+              "max_eta": 0.3985868232616307,
+              "over20_length_m": 1490.0
+            },
+            {
+              "previous": "BSV-L017",
+              "current": "BSV-L018",
+              "min_eta": 0.020035277313199106,
+              "max_eta": 0.3963393756166308,
+              "over20_length_m": 1470.0
+            },
+            {
+              "previous": "BSV-L018",
+              "current": "BSV-L019",
+              "min_eta": 0.020000000000000837,
+              "max_eta": 0.3934956251694609,
+              "over20_length_m": 1460.0
+            },
+            {
+              "previous": "BSV-L019",
+              "current": "BSV-L020",
+              "min_eta": 0.02000384907919891,
+              "max_eta": 0.38936983437251654,
+              "over20_length_m": 1430.0
+            },
+            {
+              "previous": "BSV-L020",
+              "current": "BSV-L021",
+              "min_eta": 0.020000000000002214,
+              "max_eta": 0.3844309678902445,
+              "over20_length_m": 1400.0
+            },
+            {
+              "previous": "BSV-L021",
+              "current": "BSV-L022",
+              "min_eta": 0.02000000000000475,
+              "max_eta": 0.37924560476965957,
+              "over20_length_m": 1370.0
+            },
+            {
+              "previous": "BSV-L022",
+              "current": "BSV-L023",
+              "min_eta": 0.019999999999997905,
+              "max_eta": 0.3732080039562022,
+              "over20_length_m": 1330.0
+            },
+            {
+              "previous": "BSV-L023",
+              "current": "BSV-L024",
+              "min_eta": 0.020000000000002183,
+              "max_eta": 0.3659922713244417,
+              "over20_length_m": 1280.0
+            },
+            {
+              "previous": "BSV-L024",
+              "current": "BSV-L025",
+              "min_eta": 0.02000000000000185,
+              "max_eta": 0.3583629361069154,
+              "over20_length_m": 1230.0
+            },
+            {
+              "previous": "BSV-L025",
+              "current": "BSV-L026",
+              "min_eta": 0.019999999999998422,
+              "max_eta": 0.3496875243744433,
+              "over20_length_m": 1180.0
+            },
+            {
+              "previous": "BSV-L026",
+              "current": "BSV-L027",
+              "min_eta": 0.02002658728393408,
+              "max_eta": 0.34066633748229647,
+              "over20_length_m": 1110.0
+            },
+            {
+              "previous": "BSV-L027",
+              "current": "BSV-L028",
+              "min_eta": 0.019967123928679407,
+              "max_eta": 0.3305727167783325,
+              "over20_length_m": 1040.0
+            },
+            {
+              "previous": "BSV-L028",
+              "current": "BSV-L029",
+              "min_eta": 0.020018606526734376,
+              "max_eta": 0.31918131565389346,
+              "over20_length_m": 970.0
+            },
+            {
+              "previous": "BSV-L029",
+              "current": "BSV-L030",
+              "min_eta": 0.020000000000002818,
+              "max_eta": 0.3076654083593099,
+              "over20_length_m": 880.0
+            },
+            {
+              "previous": "BSV-L030",
+              "current": "BSV-L031",
+              "min_eta": 0.019989569887163643,
+              "max_eta": 0.29533181439163514,
+              "over20_length_m": 790.0
+            },
+            {
+              "previous": "BSV-L031",
+              "current": "BSV-L032",
+              "min_eta": 0.019999999999998897,
+              "max_eta": 0.281306288540002,
+              "over20_length_m": 690.0
+            },
+            {
+              "previous": "BSV-L032",
+              "current": "BSV-L033",
+              "min_eta": 0.02004127439329176,
+              "max_eta": 0.26776355678295183,
+              "over20_length_m": 580.0
+            },
+            {
+              "previous": "BSV-L033",
+              "current": "BSV-L034",
+              "min_eta": 0.020000000000000562,
+              "max_eta": 0.25208325314844393,
+              "over20_length_m": 460.0
+            },
+            {
+              "previous": "BSV-L034",
+              "current": "BSV-L035",
+              "min_eta": 0.01999363179618041,
+              "max_eta": 0.2360429015847192,
+              "over20_length_m": 330.0
+            },
+            {
+              "previous": "BSV-L035",
+              "current": "BSV-L036",
+              "min_eta": 0.019996675953807597,
+              "max_eta": 0.21990940590956246,
+              "over20_length_m": 190.0
+            },
+            {
+              "previous": "BSV-L036",
+              "current": "BSV-L037",
+              "min_eta": 0.02001046458476932,
+              "max_eta": 0.20263359391098357,
+              "over20_length_m": 30.0
+            },
+            {
+              "previous": "BSV-L037",
+              "current": "BSV-L038",
+              "min_eta": 0.019999999999999758,
+              "max_eta": 0.18466838490863635,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L038",
+              "current": "BSV-L039",
+              "min_eta": 0.020003743314032676,
+              "max_eta": 0.1667807887481337,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L039",
+              "current": "BSV-L040",
+              "min_eta": 0.02000308017750168,
+              "max_eta": 0.14809960948143822,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L040",
+              "current": "BSV-L041",
+              "min_eta": 0.01995284353858714,
+              "max_eta": 0.14159021093172183,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L041",
+              "current": "BSV-L042",
+              "min_eta": 0.01999645551657217,
+              "max_eta": 0.1524984623405375,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L042",
+              "current": "BSV-L043",
+              "min_eta": 0.01996992510783121,
+              "max_eta": 0.16367537609339922,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L043",
+              "current": "BSV-L044",
+              "min_eta": 0.02001010247487182,
+              "max_eta": 0.17646607009284826,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L044",
+              "current": "BSV-L045",
+              "min_eta": 0.020014494768205084,
+              "max_eta": 0.19041637863261426,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L045",
+              "current": "BSV-L046",
+              "min_eta": 0.020006967663062637,
+              "max_eta": 0.20649948305364363,
+              "over20_length_m": 80.0
+            },
+            {
+              "previous": "BSV-L046",
+              "current": "BSV-L047",
+              "min_eta": 0.019988026582458043,
+              "max_eta": 0.2239092772026743,
+              "over20_length_m": 280.0
+            },
+            {
+              "previous": "BSV-L047",
+              "current": "BSV-L048",
+              "min_eta": 0.019963642022496796,
+              "max_eta": 0.24400934345812078,
+              "over20_length_m": 520.0
+            },
+            {
+              "previous": "BSV-L048",
+              "current": "BSV-L049",
+              "min_eta": 0.020000865045477722,
+              "max_eta": 0.26495096335990254,
+              "over20_length_m": 780.0
+            },
+            {
+              "previous": "BSV-L049",
+              "current": "BSV-L050",
+              "min_eta": 0.020000855571657213,
+              "max_eta": 0.28906766193772937,
+              "over20_length_m": 1090.0
+            },
+            {
+              "previous": "BSV-L050",
+              "current": "BSV-L051",
+              "min_eta": 0.020092992275524395,
+              "max_eta": 0.31201650425472643,
+              "over20_length_m": 1390.0
+            },
+            {
+              "previous": "BSV-L051",
+              "current": "BSV-L052",
+              "min_eta": 0.02015817785576705,
+              "max_eta": 0.3339748330191435,
+              "over20_length_m": 1670.0
+            },
+            {
+              "previous": "BSV-L052",
+              "current": "BSV-L053",
+              "min_eta": 0.020254045358909827,
+              "max_eta": 0.3548973672387059,
+              "over20_length_m": 1930.0
+            },
+            {
+              "previous": "BSV-L053",
+              "current": "BSV-L054",
+              "min_eta": 0.0202521629632496,
+              "max_eta": 0.37407651242747586,
+              "over20_length_m": 2170.0
+            },
+            {
+              "previous": "BSV-L054",
+              "current": "BSV-L055",
+              "min_eta": 0.020379066482176657,
+              "max_eta": 0.39283356058855584,
+              "over20_length_m": 2390.0
+            },
+            {
+              "previous": "BSV-L055",
+              "current": "BSV-L056",
+              "min_eta": 0.02038136487770583,
+              "max_eta": 0.41017363564106957,
+              "over20_length_m": 2580.0
+            },
+            {
+              "previous": "BSV-L056",
+              "current": "BSV-L057",
+              "min_eta": 0.020478928602455763,
+              "max_eta": 0.426518088788099,
+              "over20_length_m": 2750.0
+            },
+            {
+              "previous": "BSV-L057",
+              "current": "BSV-L058",
+              "min_eta": 0.020539243323545238,
+              "max_eta": 0.44203048003003376,
+              "over20_length_m": 2890.0
+            },
+            {
+              "previous": "BSV-L058",
+              "current": "BSV-L059",
+              "min_eta": 0.020602307148370812,
+              "max_eta": 0.45732783340301786,
+              "over20_length_m": 3020.0
+            },
+            {
+              "previous": "BNH-L001",
+              "current": "BNH-L002",
+              "min_eta": 0.019980364713480223,
+              "max_eta": 0.6940883946380857,
+              "over20_length_m": 4448.798920377868
+            },
+            {
+              "previous": "BNH-L002",
+              "current": "BNH-L003",
+              "min_eta": 0.019994422756641993,
+              "max_eta": 0.6818206238502796,
+              "over20_length_m": 4388.8151147098515
+            },
+            {
+              "previous": "BNH-L003",
+              "current": "BNH-L004",
+              "min_eta": 0.020017929587168307,
+              "max_eta": 0.6689387467290236,
+              "over20_length_m": 4328.831309041835
+            },
+            {
+              "previous": "BNH-L004",
+              "current": "BNH-L005",
+              "min_eta": 0.0199780081448431,
+              "max_eta": 0.6550158946775171,
+              "over20_length_m": 4258.85020242915
+            },
+            {
+              "previous": "BNH-L005",
+              "current": "BNH-L006",
+              "min_eta": 0.020015907557966985,
+              "max_eta": 0.6401489116645734,
+              "over20_length_m": 4178.871794871795
+            },
+            {
+              "previous": "BNH-L006",
+              "current": "BNH-L007",
+              "min_eta": 0.019999999999999164,
+              "max_eta": 0.6244690899282259,
+              "over20_length_m": 4098.89338731444
+            },
+            {
+              "previous": "BNH-L007",
+              "current": "BNH-L008",
+              "min_eta": 0.01999999999999459,
+              "max_eta": 0.6071602571480598,
+              "over20_length_m": 4008.917678812416
+            },
+            {
+              "previous": "BNH-L008",
+              "current": "BNH-L009",
+              "min_eta": 0.019999999999995795,
+              "max_eta": 0.5886989767775502,
+              "over20_length_m": 3908.944669365722
+            },
+            {
+              "previous": "BNH-L009",
+              "current": "BNH-L010",
+              "min_eta": 0.0200000000000088,
+              "max_eta": 0.5686549022898555,
+              "over20_length_m": 3798.974358974359
+            },
+            {
+              "previous": "BNH-L010",
+              "current": "BNH-L011",
+              "min_eta": 0.019992180248435253,
+              "max_eta": 0.5474703645427004,
+              "over20_length_m": 3679.0067476383265
+            },
+            {
+              "previous": "BNH-L011",
+              "current": "BNH-L012",
+              "min_eta": 0.019992478757461744,
+              "max_eta": 0.5244678719991045,
+              "over20_length_m": 3539.0445344129557
+            },
+            {
+              "previous": "BNH-L012",
+              "current": "BNH-L013",
+              "min_eta": 0.019999999999996288,
+              "max_eta": 0.49926946160770735,
+              "over20_length_m": 3389.085020242915
+            },
+            {
+              "previous": "BNH-L013",
+              "current": "BNH-L014",
+              "min_eta": 0.020008524556952983,
+              "max_eta": 0.47193269349506517,
+              "over20_length_m": 3209.1336032388663
+            },
+            {
+              "previous": "BNH-L014",
+              "current": "BNH-L015",
+              "min_eta": 0.019999999999995015,
+              "max_eta": 0.44266721661114555,
+              "over20_length_m": 2999.1902834008097
+            },
+            {
+              "previous": "BNH-L015",
+              "current": "BNH-L016",
+              "min_eta": 0.02000000000000366,
+              "max_eta": 0.4105235646794434,
+              "over20_length_m": 2749.2577597840755
+            },
+            {
+              "previous": "BNH-L016",
+              "current": "BNH-L017",
+              "min_eta": 0.02001145641279749,
+              "max_eta": 0.3757182647132007,
+              "over20_length_m": 2459.336032388664
+            },
+            {
+              "previous": "BNH-L017",
+              "current": "BNH-L018",
+              "min_eta": 0.01998366919463129,
+              "max_eta": 0.33727544782332036,
+              "over20_length_m": 2089.4358974358975
+            },
+            {
+              "previous": "BNH-L018",
+              "current": "BNH-L019",
+              "min_eta": 0.02001341480707312,
+              "max_eta": 0.295996827314662,
+              "over20_length_m": 1609.5654520917678
+            },
+            {
+              "previous": "BNH-L019",
+              "current": "BNH-L020",
+              "min_eta": 0.019999999999997308,
+              "max_eta": 0.2501190389556829,
+              "over20_length_m": 969.7381916329285
+            },
+            {
+              "previous": "BNH-L020",
+              "current": "BNH-L021",
+              "min_eta": 0.01999999999999595,
+              "max_eta": 0.2004928923799068,
+              "over20_length_m": 19.994601889338732
+            },
+            {
+              "previous": "BNH-L021",
+              "current": "BNH-L022",
+              "min_eta": 0.019999999999997443,
+              "max_eta": 0.1455940527546182,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L022",
+              "current": "BNH-L023",
+              "min_eta": 0.019999999999993367,
+              "max_eta": 0.08514306981402463,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L023",
+              "current": "BNH-L024",
+              "min_eta": 0.020001806238651557,
+              "max_eta": 0.021398582763254823,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L024",
+              "current": "BNH-L025",
+              "min_eta": 0.020137670167077047,
+              "max_eta": 0.08909882070212005,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L025",
+              "current": "BNH-L026",
+              "min_eta": 0.020217802613412366,
+              "max_eta": 0.14945834679464864,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L026",
+              "current": "BNH-L027",
+              "min_eta": 0.020355781489275623,
+              "max_eta": 0.2032837885441606,
+              "over20_length_m": 1819.5087719298247
+            }
+          ]
+        },
+        "bilinear_5m": {
+          "representation": "bilinear",
+          "step_m": 5.0,
+          "missing_area_m2": 0.0,
+          "missing_percent": 0.0,
+          "over20_pair_counted_length_m": 131287.19973009446,
+          "total_length_m": 473186.0,
+          "pair_metrics": [
+            {
+              "previous": "BSV-L001",
+              "current": "BSV-L002",
+              "min_eta": 0.01999229440953382,
+              "max_eta": 0.3485871037037062,
+              "over20_length_m": 1165.0
+            },
+            {
+              "previous": "BSV-L002",
+              "current": "BSV-L003",
+              "min_eta": 0.01999999999999992,
+              "max_eta": 0.3570665026062558,
+              "over20_length_m": 1225.0
+            },
+            {
+              "previous": "BSV-L003",
+              "current": "BSV-L004",
+              "min_eta": 0.019999999999999307,
+              "max_eta": 0.36491310380152775,
+              "over20_length_m": 1275.0
+            },
+            {
+              "previous": "BSV-L004",
+              "current": "BSV-L005",
+              "min_eta": 0.01999999999999995,
+              "max_eta": 0.3722557662505617,
+              "over20_length_m": 1320.0
+            },
+            {
+              "previous": "BSV-L005",
+              "current": "BSV-L006",
+              "min_eta": 0.019985633140458443,
+              "max_eta": 0.3783623801496332,
+              "over20_length_m": 1360.0
+            },
+            {
+              "previous": "BSV-L006",
+              "current": "BSV-L007",
+              "min_eta": 0.019999634462245307,
+              "max_eta": 0.38383573139249505,
+              "over20_length_m": 1395.0
+            },
+            {
+              "previous": "BSV-L007",
+              "current": "BSV-L008",
+              "min_eta": 0.019984471003594163,
+              "max_eta": 0.38882901257881375,
+              "over20_length_m": 1425.0
+            },
+            {
+              "previous": "BSV-L008",
+              "current": "BSV-L009",
+              "min_eta": 0.02000000000000048,
+              "max_eta": 0.39304663403889634,
+              "over20_length_m": 1450.0
+            },
+            {
+              "previous": "BSV-L009",
+              "current": "BSV-L010",
+              "min_eta": 0.020017345328997974,
+              "max_eta": 0.3960793033746123,
+              "over20_length_m": 1470.0
+            },
+            {
+              "previous": "BSV-L010",
+              "current": "BSV-L011",
+              "min_eta": 0.020000000000001624,
+              "max_eta": 0.3984061443648394,
+              "over20_length_m": 1490.0
+            },
+            {
+              "previous": "BSV-L011",
+              "current": "BSV-L012",
+              "min_eta": 0.020000000000001274,
+              "max_eta": 0.40040722305779786,
+              "over20_length_m": 1500.0
+            },
+            {
+              "previous": "BSV-L012",
+              "current": "BSV-L013",
+              "min_eta": 0.020000000000000295,
+              "max_eta": 0.40150267494373454,
+              "over20_length_m": 1505.0
+            },
+            {
+              "previous": "BSV-L013",
+              "current": "BSV-L014",
+              "min_eta": 0.020000000000001215,
+              "max_eta": 0.4021424378636675,
+              "over20_length_m": 1510.0
+            },
+            {
+              "previous": "BSV-L014",
+              "current": "BSV-L015",
+              "min_eta": 0.020000000000002918,
+              "max_eta": 0.40164353142620035,
+              "over20_length_m": 1505.0
+            },
+            {
+              "previous": "BSV-L015",
+              "current": "BSV-L016",
+              "min_eta": 0.019999999999997707,
+              "max_eta": 0.40068796368881787,
+              "over20_length_m": 1500.0
+            },
+            {
+              "previous": "BSV-L016",
+              "current": "BSV-L017",
+              "min_eta": 0.01999999999999726,
+              "max_eta": 0.398884932671688,
+              "over20_length_m": 1490.0
+            },
+            {
+              "previous": "BSV-L017",
+              "current": "BSV-L018",
+              "min_eta": 0.020017637834165592,
+              "max_eta": 0.39665360643931774,
+              "over20_length_m": 1475.0
+            },
+            {
+              "previous": "BSV-L018",
+              "current": "BSV-L019",
+              "min_eta": 0.020000000000000837,
+              "max_eta": 0.3938463513423473,
+              "over20_length_m": 1455.0
+            },
+            {
+              "previous": "BSV-L019",
+              "current": "BSV-L020",
+              "min_eta": 0.019983665200072928,
+              "max_eta": 0.3896674334564386,
+              "over20_length_m": 1430.0
+            },
+            {
+              "previous": "BSV-L020",
+              "current": "BSV-L021",
+              "min_eta": 0.020000000000002214,
+              "max_eta": 0.3847439682891725,
+              "over20_length_m": 1400.0
+            },
+            {
+              "previous": "BSV-L021",
+              "current": "BSV-L022",
+              "min_eta": 0.020000000000001624,
+              "max_eta": 0.3795602915604431,
+              "over20_length_m": 1365.0
+            },
+            {
+              "previous": "BSV-L022",
+              "current": "BSV-L023",
+              "min_eta": 0.019999999999997905,
+              "max_eta": 0.37352416074999545,
+              "over20_length_m": 1330.0
+            },
+            {
+              "previous": "BSV-L023",
+              "current": "BSV-L024",
+              "min_eta": 0.020000000000002183,
+              "max_eta": 0.366300488935625,
+              "over20_length_m": 1285.0
+            },
+            {
+              "previous": "BSV-L024",
+              "current": "BSV-L025",
+              "min_eta": 0.02000000000000185,
+              "max_eta": 0.35867035986926715,
+              "over20_length_m": 1235.0
+            },
+            {
+              "previous": "BSV-L025",
+              "current": "BSV-L026",
+              "min_eta": 0.019999999999998422,
+              "max_eta": 0.3499969507107595,
+              "over20_length_m": 1180.0
+            },
+            {
+              "previous": "BSV-L026",
+              "current": "BSV-L027",
+              "min_eta": 0.019993675451986943,
+              "max_eta": 0.3409779760319746,
+              "over20_length_m": 1115.0
+            },
+            {
+              "previous": "BSV-L027",
+              "current": "BSV-L028",
+              "min_eta": 0.0199814883330327,
+              "max_eta": 0.33089905094917355,
+              "over20_length_m": 1045.0
+            },
+            {
+              "previous": "BSV-L028",
+              "current": "BSV-L029",
+              "min_eta": 0.0200047629781738,
+              "max_eta": 0.3194709427363332,
+              "over20_length_m": 970.0
+            },
+            {
+              "previous": "BSV-L029",
+              "current": "BSV-L030",
+              "min_eta": 0.020000000000002818,
+              "max_eta": 0.30797084076608255,
+              "over20_length_m": 885.0
+            },
+            {
+              "previous": "BSV-L030",
+              "current": "BSV-L031",
+              "min_eta": 0.019974175591667403,
+              "max_eta": 0.29565292904350804,
+              "over20_length_m": 795.0
+            },
+            {
+              "previous": "BSV-L031",
+              "current": "BSV-L032",
+              "min_eta": 0.019999999999998897,
+              "max_eta": 0.28159015414412264,
+              "over20_length_m": 690.0
+            },
+            {
+              "previous": "BSV-L032",
+              "current": "BSV-L033",
+              "min_eta": 0.020003298031440055,
+              "max_eta": 0.2680761300783021,
+              "over20_length_m": 585.0
+            },
+            {
+              "previous": "BSV-L033",
+              "current": "BSV-L034",
+              "min_eta": 0.020000000000000562,
+              "max_eta": 0.2523666985797664,
+              "over20_length_m": 460.0
+            },
+            {
+              "previous": "BSV-L034",
+              "current": "BSV-L035",
+              "min_eta": 0.019988595677974227,
+              "max_eta": 0.23630295053565248,
+              "over20_length_m": 330.0
+            },
+            {
+              "previous": "BSV-L035",
+              "current": "BSV-L036",
+              "min_eta": 0.019998337288008823,
+              "max_eta": 0.22018582645790902,
+              "over20_length_m": 185.0
+            },
+            {
+              "previous": "BSV-L036",
+              "current": "BSV-L037",
+              "min_eta": 0.020001474355605876,
+              "max_eta": 0.20291637250764444,
+              "over20_length_m": 30.0
+            },
+            {
+              "previous": "BSV-L037",
+              "current": "BSV-L038",
+              "min_eta": 0.02000000000000371,
+              "max_eta": 0.18492063148642407,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L038",
+              "current": "BSV-L039",
+              "min_eta": 0.019993990159500586,
+              "max_eta": 0.16700590914847452,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L039",
+              "current": "BSV-L040",
+              "min_eta": 0.02000016800886559,
+              "max_eta": 0.1483458745983323,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L040",
+              "current": "BSV-L041",
+              "min_eta": 0.019972179336237583,
+              "max_eta": 0.1417967474508781,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L041",
+              "current": "BSV-L042",
+              "min_eta": 0.019997469539377512,
+              "max_eta": 0.15273632409089022,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L042",
+              "current": "BSV-L043",
+              "min_eta": 0.01997596500617067,
+              "max_eta": 0.16390331009570433,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L043",
+              "current": "BSV-L044",
+              "min_eta": 0.019997125170557108,
+              "max_eta": 0.1766924909522257,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L044",
+              "current": "BSV-L045",
+              "min_eta": 0.020003051515004207,
+              "max_eta": 0.19061985935559791,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L045",
+              "current": "BSV-L046",
+              "min_eta": 0.019990008701905138,
+              "max_eta": 0.20671900594924855,
+              "over20_length_m": 80.0
+            },
+            {
+              "previous": "BSV-L046",
+              "current": "BSV-L047",
+              "min_eta": 0.01998639803455016,
+              "max_eta": 0.22412652380367926,
+              "over20_length_m": 280.0
+            },
+            {
+              "previous": "BSV-L047",
+              "current": "BSV-L048",
+              "min_eta": 0.01998182054945196,
+              "max_eta": 0.2442398990303023,
+              "over20_length_m": 515.0
+            },
+            {
+              "previous": "BSV-L048",
+              "current": "BSV-L049",
+              "min_eta": 0.01998919204240494,
+              "max_eta": 0.2651460330602222,
+              "over20_length_m": 785.0
+            },
+            {
+              "previous": "BSV-L049",
+              "current": "BSV-L050",
+              "min_eta": 0.020000427799003163,
+              "max_eta": 0.28928855986502394,
+              "over20_length_m": 1085.0
+            },
+            {
+              "previous": "BSV-L050",
+              "current": "BSV-L051",
+              "min_eta": 0.02004649708306221,
+              "max_eta": 0.31221892681231506,
+              "over20_length_m": 1390.0
+            },
+            {
+              "previous": "BSV-L051",
+              "current": "BSV-L052",
+              "min_eta": 0.020079093243669813,
+              "max_eta": 0.3341720998862935,
+              "over20_length_m": 1670.0
+            },
+            {
+              "previous": "BSV-L052",
+              "current": "BSV-L053",
+              "min_eta": 0.020127032979783004,
+              "max_eta": 0.3550747355724476,
+              "over20_length_m": 1935.0
+            },
+            {
+              "previous": "BSV-L053",
+              "current": "BSV-L054",
+              "min_eta": 0.020126098949012773,
+              "max_eta": 0.37428031350680463,
+              "over20_length_m": 2170.0
+            },
+            {
+              "previous": "BSV-L054",
+              "current": "BSV-L055",
+              "min_eta": 0.020189560355594712,
+              "max_eta": 0.3930169481296868,
+              "over20_length_m": 2385.0
+            },
+            {
+              "previous": "BSV-L055",
+              "current": "BSV-L056",
+              "min_eta": 0.020190720510226603,
+              "max_eta": 0.41033877720766376,
+              "over20_length_m": 2575.0
+            },
+            {
+              "previous": "BSV-L056",
+              "current": "BSV-L057",
+              "min_eta": 0.02023951743327836,
+              "max_eta": 0.4266983007571648,
+              "over20_length_m": 2745.0
+            },
+            {
+              "previous": "BSV-L057",
+              "current": "BSV-L058",
+              "min_eta": 0.020269687930756966,
+              "max_eta": 0.4421916506699756,
+              "over20_length_m": 2890.0
+            },
+            {
+              "previous": "BSV-L058",
+              "current": "BSV-L059",
+              "min_eta": 0.02030123814564437,
+              "max_eta": 0.4575160268211893,
+              "over20_length_m": 3020.0
+            },
+            {
+              "previous": "BNH-L001",
+              "current": "BNH-L002",
+              "min_eta": 0.019980364713480223,
+              "max_eta": 0.6942611480447071,
+              "over20_length_m": 4448.798920377868
+            },
+            {
+              "previous": "BNH-L002",
+              "current": "BNH-L003",
+              "min_eta": 0.019994422756641993,
+              "max_eta": 0.6819792912185505,
+              "over20_length_m": 4388.8151147098515
+            },
+            {
+              "previous": "BNH-L003",
+              "current": "BNH-L004",
+              "min_eta": 0.01999999999999488,
+              "max_eta": 0.6691031217641986,
+              "over20_length_m": 4323.8326585695
+            },
+            {
+              "previous": "BNH-L004",
+              "current": "BNH-L005",
+              "min_eta": 0.0199780081448431,
+              "max_eta": 0.655181650740692,
+              "over20_length_m": 4253.8515519568155
+            },
+            {
+              "previous": "BNH-L005",
+              "current": "BNH-L006",
+              "min_eta": 0.020000000000001,
+              "max_eta": 0.6403169638733534,
+              "over20_length_m": 4178.871794871795
+            },
+            {
+              "previous": "BNH-L006",
+              "current": "BNH-L007",
+              "min_eta": 0.019999999999999164,
+              "max_eta": 0.6246579099804284,
+              "over20_length_m": 4098.89338731444
+            },
+            {
+              "previous": "BNH-L007",
+              "current": "BNH-L008",
+              "min_eta": 0.01999999999999459,
+              "max_eta": 0.6073188739091564,
+              "over20_length_m": 4008.917678812416
+            },
+            {
+              "previous": "BNH-L008",
+              "current": "BNH-L009",
+              "min_eta": 0.019999999999995795,
+              "max_eta": 0.5888747262260817,
+              "over20_length_m": 3908.944669365722
+            },
+            {
+              "previous": "BNH-L009",
+              "current": "BNH-L010",
+              "min_eta": 0.02000000000000255,
+              "max_eta": 0.568816769890412,
+              "over20_length_m": 3798.974358974359
+            },
+            {
+              "previous": "BNH-L010",
+              "current": "BNH-L011",
+              "min_eta": 0.019992180248435253,
+              "max_eta": 0.5476515035390601,
+              "over20_length_m": 3679.0067476383265
+            },
+            {
+              "previous": "BNH-L011",
+              "current": "BNH-L012",
+              "min_eta": 0.019992478757467735,
+              "max_eta": 0.5246810785544113,
+              "over20_length_m": 3544.0431848852904
+            },
+            {
+              "previous": "BNH-L012",
+              "current": "BNH-L013",
+              "min_eta": 0.01999999999999617,
+              "max_eta": 0.49943503290987284,
+              "over20_length_m": 3384.0863697705804
+            },
+            {
+              "previous": "BNH-L013",
+              "current": "BNH-L014",
+              "min_eta": 0.02000000000000359,
+              "max_eta": 0.47209526606463675,
+              "over20_length_m": 3209.1336032388663
+            },
+            {
+              "previous": "BNH-L014",
+              "current": "BNH-L015",
+              "min_eta": 0.019999999999995015,
+              "max_eta": 0.4428609029781162,
+              "over20_length_m": 2999.1902834008097
+            },
+            {
+              "previous": "BNH-L015",
+              "current": "BNH-L016",
+              "min_eta": 0.02000000000000366,
+              "max_eta": 0.4106957057260783,
+              "over20_length_m": 2749.2577597840755
+            },
+            {
+              "previous": "BNH-L016",
+              "current": "BNH-L017",
+              "min_eta": 0.020000000000004438,
+              "max_eta": 0.37588562757292177,
+              "over20_length_m": 2454.3373819163294
+            },
+            {
+              "previous": "BNH-L017",
+              "current": "BNH-L018",
+              "min_eta": 0.01998366919463129,
+              "max_eta": 0.3374321607532795,
+              "over20_length_m": 2089.4358974358975
+            },
+            {
+              "previous": "BNH-L018",
+              "current": "BNH-L019",
+              "min_eta": 0.01999999999999944,
+              "max_eta": 0.2961280004945887,
+              "over20_length_m": 1614.5641025641025
+            },
+            {
+              "previous": "BNH-L019",
+              "current": "BNH-L020",
+              "min_eta": 0.019999999999997308,
+              "max_eta": 0.25025043998599816,
+              "over20_length_m": 964.7395411605938
+            },
+            {
+              "previous": "BNH-L020",
+              "current": "BNH-L021",
+              "min_eta": 0.01999999999999595,
+              "max_eta": 0.20060301771492178,
+              "over20_length_m": 14.995951417004049
+            },
+            {
+              "previous": "BNH-L021",
+              "current": "BNH-L022",
+              "min_eta": 0.019999999999997443,
+              "max_eta": 0.14569145250931825,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L022",
+              "current": "BNH-L023",
+              "min_eta": 0.019999999999993367,
+              "max_eta": 0.08518989290305294,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L023",
+              "current": "BNH-L024",
+              "min_eta": 0.019999096956782744,
+              "max_eta": 0.021398582763254823,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L024",
+              "current": "BNH-L025",
+              "min_eta": 0.020068834920349176,
+              "max_eta": 0.08909882070212005,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L025",
+              "current": "BNH-L026",
+              "min_eta": 0.020108910412605416,
+              "max_eta": 0.14945834679464864,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L026",
+              "current": "BNH-L027",
+              "min_eta": 0.020177912803258275,
+              "max_eta": 0.2032837885441606,
+              "over20_length_m": 1819.5087719298247
+            }
+          ]
+        },
+        "tri_main_5m": {
+          "representation": "tri_main",
+          "step_m": 5.0,
+          "missing_area_m2": 0.0,
+          "missing_percent": 0.0,
+          "over20_pair_counted_length_m": 131272.20107962214,
+          "total_length_m": 473186.0,
+          "pair_metrics": [
+            {
+              "previous": "BSV-L001",
+              "current": "BSV-L002",
+              "min_eta": 0.019988318574208495,
+              "max_eta": 0.34858710370370605,
+              "over20_length_m": 1165.0
+            },
+            {
+              "previous": "BSV-L002",
+              "current": "BSV-L003",
+              "min_eta": 0.019999999999999928,
+              "max_eta": 0.35706650260625583,
+              "over20_length_m": 1225.0
+            },
+            {
+              "previous": "BSV-L003",
+              "current": "BSV-L004",
+              "min_eta": 0.019999999999999307,
+              "max_eta": 0.3649131038015275,
+              "over20_length_m": 1270.0
+            },
+            {
+              "previous": "BSV-L004",
+              "current": "BSV-L005",
+              "min_eta": 0.01999999999999995,
+              "max_eta": 0.37225576625056184,
+              "over20_length_m": 1320.0
+            },
+            {
+              "previous": "BSV-L005",
+              "current": "BSV-L006",
+              "min_eta": 0.019967443201316878,
+              "max_eta": 0.3783623801496335,
+              "over20_length_m": 1360.0
+            },
+            {
+              "previous": "BSV-L006",
+              "current": "BSV-L007",
+              "min_eta": 0.020002476538987665,
+              "max_eta": 0.38383573139249505,
+              "over20_length_m": 1395.0
+            },
+            {
+              "previous": "BSV-L007",
+              "current": "BSV-L008",
+              "min_eta": 0.019984471003594163,
+              "max_eta": 0.3888222608665174,
+              "over20_length_m": 1425.0
+            },
+            {
+              "previous": "BSV-L008",
+              "current": "BSV-L009",
+              "min_eta": 0.02000000000000048,
+              "max_eta": 0.39307235839208415,
+              "over20_length_m": 1450.0
+            },
+            {
+              "previous": "BSV-L009",
+              "current": "BSV-L010",
+              "min_eta": 0.019876128682595622,
+              "max_eta": 0.39607142503337933,
+              "over20_length_m": 1470.0
+            },
+            {
+              "previous": "BSV-L010",
+              "current": "BSV-L011",
+              "min_eta": 0.020000000000001624,
+              "max_eta": 0.3983891020314862,
+              "over20_length_m": 1490.0
+            },
+            {
+              "previous": "BSV-L011",
+              "current": "BSV-L012",
+              "min_eta": 0.019934475095481817,
+              "max_eta": 0.40040722305779786,
+              "over20_length_m": 1500.0
+            },
+            {
+              "previous": "BSV-L012",
+              "current": "BSV-L013",
+              "min_eta": 0.01986150641618109,
+              "max_eta": 0.40150267494373454,
+              "over20_length_m": 1505.0
+            },
+            {
+              "previous": "BSV-L013",
+              "current": "BSV-L014",
+              "min_eta": 0.020000000000001215,
+              "max_eta": 0.4021424378636675,
+              "over20_length_m": 1510.0
+            },
+            {
+              "previous": "BSV-L014",
+              "current": "BSV-L015",
+              "min_eta": 0.019783340543997423,
+              "max_eta": 0.40164353142620035,
+              "over20_length_m": 1505.0
+            },
+            {
+              "previous": "BSV-L015",
+              "current": "BSV-L016",
+              "min_eta": 0.01988971317980158,
+              "max_eta": 0.40068796368881787,
+              "over20_length_m": 1500.0
+            },
+            {
+              "previous": "BSV-L016",
+              "current": "BSV-L017",
+              "min_eta": 0.01999413809791121,
+              "max_eta": 0.39887421400295375,
+              "over20_length_m": 1490.0
+            },
+            {
+              "previous": "BSV-L017",
+              "current": "BSV-L018",
+              "min_eta": 0.019886406527389624,
+              "max_eta": 0.3966582797829985,
+              "over20_length_m": 1475.0
+            },
+            {
+              "previous": "BSV-L018",
+              "current": "BSV-L019",
+              "min_eta": 0.020000000000000837,
+              "max_eta": 0.39387640138595886,
+              "over20_length_m": 1455.0
+            },
+            {
+              "previous": "BSV-L019",
+              "current": "BSV-L020",
+              "min_eta": 0.019983665200072928,
+              "max_eta": 0.389651131357163,
+              "over20_length_m": 1430.0
+            },
+            {
+              "previous": "BSV-L020",
+              "current": "BSV-L021",
+              "min_eta": 0.01979528727386329,
+              "max_eta": 0.3847439682891725,
+              "over20_length_m": 1400.0
+            },
+            {
+              "previous": "BSV-L021",
+              "current": "BSV-L022",
+              "min_eta": 0.019780184404609262,
+              "max_eta": 0.3795602915604431,
+              "over20_length_m": 1365.0
+            },
+            {
+              "previous": "BSV-L022",
+              "current": "BSV-L023",
+              "min_eta": 0.019999999999997905,
+              "max_eta": 0.37352416074999545,
+              "over20_length_m": 1330.0
+            },
+            {
+              "previous": "BSV-L023",
+              "current": "BSV-L024",
+              "min_eta": 0.020000000000002183,
+              "max_eta": 0.366300488935625,
+              "over20_length_m": 1285.0
+            },
+            {
+              "previous": "BSV-L024",
+              "current": "BSV-L025",
+              "min_eta": 0.02000000000000185,
+              "max_eta": 0.35867035986926715,
+              "over20_length_m": 1235.0
+            },
+            {
+              "previous": "BSV-L025",
+              "current": "BSV-L026",
+              "min_eta": 0.019786300917974505,
+              "max_eta": 0.3499969507107595,
+              "over20_length_m": 1175.0
+            },
+            {
+              "previous": "BSV-L026",
+              "current": "BSV-L027",
+              "min_eta": 0.0199658691481634,
+              "max_eta": 0.3409779760319746,
+              "over20_length_m": 1115.0
+            },
+            {
+              "previous": "BSV-L027",
+              "current": "BSV-L028",
+              "min_eta": 0.019943733796235583,
+              "max_eta": 0.3309114260112666,
+              "over20_length_m": 1045.0
+            },
+            {
+              "previous": "BSV-L028",
+              "current": "BSV-L029",
+              "min_eta": 0.019994463378043652,
+              "max_eta": 0.3194538615574222,
+              "over20_length_m": 970.0
+            },
+            {
+              "previous": "BSV-L029",
+              "current": "BSV-L030",
+              "min_eta": 0.01974089046623247,
+              "max_eta": 0.30797084076608255,
+              "over20_length_m": 885.0
+            },
+            {
+              "previous": "BSV-L030",
+              "current": "BSV-L031",
+              "min_eta": 0.01996426902934215,
+              "max_eta": 0.2956664673445907,
+              "over20_length_m": 795.0
+            },
+            {
+              "previous": "BSV-L031",
+              "current": "BSV-L032",
+              "min_eta": 0.019957604195088085,
+              "max_eta": 0.28157329638543077,
+              "over20_length_m": 690.0
+            },
+            {
+              "previous": "BSV-L032",
+              "current": "BSV-L033",
+              "min_eta": 0.0199859817691748,
+              "max_eta": 0.2680901621735823,
+              "over20_length_m": 585.0
+            },
+            {
+              "previous": "BSV-L033",
+              "current": "BSV-L034",
+              "min_eta": 0.01977254382708396,
+              "max_eta": 0.25235849801583393,
+              "over20_length_m": 460.0
+            },
+            {
+              "previous": "BSV-L034",
+              "current": "BSV-L035",
+              "min_eta": 0.019988595677974227,
+              "max_eta": 0.23628318816226093,
+              "over20_length_m": 330.0
+            },
+            {
+              "previous": "BSV-L035",
+              "current": "BSV-L036",
+              "min_eta": 0.01993979890598302,
+              "max_eta": 0.22018582645790902,
+              "over20_length_m": 185.0
+            },
+            {
+              "previous": "BSV-L036",
+              "current": "BSV-L037",
+              "min_eta": 0.01990475005301159,
+              "max_eta": 0.20293015368065667,
+              "over20_length_m": 30.0
+            },
+            {
+              "previous": "BSV-L037",
+              "current": "BSV-L038",
+              "min_eta": 0.019999635744733797,
+              "max_eta": 0.18491679044822598,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L038",
+              "current": "BSV-L039",
+              "min_eta": 0.01990609065878869,
+              "max_eta": 0.16698830860708624,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L039",
+              "current": "BSV-L040",
+              "min_eta": 0.019734629830234086,
+              "max_eta": 0.14835525495467106,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L040",
+              "current": "BSV-L041",
+              "min_eta": 0.019922691481622696,
+              "max_eta": 0.1417755252191973,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L041",
+              "current": "BSV-L042",
+              "min_eta": 0.019753270504436458,
+              "max_eta": 0.15274889804866518,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L042",
+              "current": "BSV-L043",
+              "min_eta": 0.019962264426037532,
+              "max_eta": 0.16390331009570433,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L043",
+              "current": "BSV-L044",
+              "min_eta": 0.019977733803798456,
+              "max_eta": 0.1766924909522257,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L044",
+              "current": "BSV-L045",
+              "min_eta": 0.019992787805521994,
+              "max_eta": 0.19059878691269247,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L045",
+              "current": "BSV-L046",
+              "min_eta": 0.019934770449781904,
+              "max_eta": 0.20671420484207892,
+              "over20_length_m": 80.0
+            },
+            {
+              "previous": "BSV-L046",
+              "current": "BSV-L047",
+              "min_eta": 0.019968984475275998,
+              "max_eta": 0.2241223813353586,
+              "over20_length_m": 280.0
+            },
+            {
+              "previous": "BSV-L047",
+              "current": "BSV-L048",
+              "min_eta": 0.01989070892882963,
+              "max_eta": 0.24425441370894538,
+              "over20_length_m": 515.0
+            },
+            {
+              "previous": "BSV-L048",
+              "current": "BSV-L049",
+              "min_eta": 0.01992684031940232,
+              "max_eta": 0.26512805520862087,
+              "over20_length_m": 785.0
+            },
+            {
+              "previous": "BSV-L049",
+              "current": "BSV-L050",
+              "min_eta": 0.019805603277447167,
+              "max_eta": 0.2893039134235045,
+              "over20_length_m": 1085.0
+            },
+            {
+              "previous": "BSV-L050",
+              "current": "BSV-L051",
+              "min_eta": 0.020037869594278505,
+              "max_eta": 0.31221892681231506,
+              "over20_length_m": 1390.0
+            },
+            {
+              "previous": "BSV-L051",
+              "current": "BSV-L052",
+              "min_eta": 0.020072026719277547,
+              "max_eta": 0.33417209988629065,
+              "over20_length_m": 1670.0
+            },
+            {
+              "previous": "BSV-L052",
+              "current": "BSV-L053",
+              "min_eta": 0.020107329743434082,
+              "max_eta": 0.3550596592270907,
+              "over20_length_m": 1935.0
+            },
+            {
+              "previous": "BSV-L053",
+              "current": "BSV-L054",
+              "min_eta": 0.020138411193073805,
+              "max_eta": 0.3742967527557301,
+              "over20_length_m": 2170.0
+            },
+            {
+              "previous": "BSV-L054",
+              "current": "BSV-L055",
+              "min_eta": 0.020169508758676218,
+              "max_eta": 0.3930169481296868,
+              "over20_length_m": 2385.0
+            },
+            {
+              "previous": "BSV-L055",
+              "current": "BSV-L056",
+              "min_eta": 0.020204093964762394,
+              "max_eta": 0.41032295428508286,
+              "over20_length_m": 2575.0
+            },
+            {
+              "previous": "BSV-L056",
+              "current": "BSV-L057",
+              "min_eta": 0.02023317132119854,
+              "max_eta": 0.4266992057809502,
+              "over20_length_m": 2745.0
+            },
+            {
+              "previous": "BSV-L057",
+              "current": "BSV-L058",
+              "min_eta": 0.020263608493954484,
+              "max_eta": 0.4421769766610151,
+              "over20_length_m": 2890.0
+            },
+            {
+              "previous": "BSV-L058",
+              "current": "BSV-L059",
+              "min_eta": 0.020297715368886776,
+              "max_eta": 0.4575320966282399,
+              "over20_length_m": 3020.0
+            },
+            {
+              "previous": "BNH-L001",
+              "current": "BNH-L002",
+              "min_eta": 0.01997054752909398,
+              "max_eta": 0.6942755482230801,
+              "over20_length_m": 4448.798920377868
+            },
+            {
+              "previous": "BNH-L002",
+              "current": "BNH-L003",
+              "min_eta": 0.01976575620784633,
+              "max_eta": 0.6819778117821982,
+              "over20_length_m": 4388.8151147098515
+            },
+            {
+              "previous": "BNH-L003",
+              "current": "BNH-L004",
+              "min_eta": 0.019973685567027222,
+              "max_eta": 0.6691042099531506,
+              "over20_length_m": 4323.8326585695
+            },
+            {
+              "previous": "BNH-L004",
+              "current": "BNH-L005",
+              "min_eta": 0.019967012730493432,
+              "max_eta": 0.6551808164736334,
+              "over20_length_m": 4253.8515519568155
+            },
+            {
+              "previous": "BNH-L005",
+              "current": "BNH-L006",
+              "min_eta": 0.019922334676956505,
+              "max_eta": 0.6403150630041227,
+              "over20_length_m": 4178.871794871795
+            },
+            {
+              "previous": "BNH-L006",
+              "current": "BNH-L007",
+              "min_eta": 0.019999999999999164,
+              "max_eta": 0.6246733733157471,
+              "over20_length_m": 4098.89338731444
+            },
+            {
+              "previous": "BNH-L007",
+              "current": "BNH-L008",
+              "min_eta": 0.01999999999999459,
+              "max_eta": 0.6073006385081946,
+              "over20_length_m": 4008.917678812416
+            },
+            {
+              "previous": "BNH-L008",
+              "current": "BNH-L009",
+              "min_eta": 0.019999999999995795,
+              "max_eta": 0.5888735654460744,
+              "over20_length_m": 3913.9433198380566
+            },
+            {
+              "previous": "BNH-L009",
+              "current": "BNH-L010",
+              "min_eta": 0.0200000000000088,
+              "max_eta": 0.5688012051621227,
+              "over20_length_m": 3798.974358974359
+            },
+            {
+              "previous": "BNH-L010",
+              "current": "BNH-L011",
+              "min_eta": 0.019992180248435253,
+              "max_eta": 0.5476515035390601,
+              "over20_length_m": 3679.0067476383265
+            },
+            {
+              "previous": "BNH-L011",
+              "current": "BNH-L012",
+              "min_eta": 0.019992478757461744,
+              "max_eta": 0.5247100525163432,
+              "over20_length_m": 3539.0445344129557
+            },
+            {
+              "previous": "BNH-L012",
+              "current": "BNH-L013",
+              "min_eta": 0.019999999999996288,
+              "max_eta": 0.4994171352259016,
+              "over20_length_m": 3384.0863697705804
+            },
+            {
+              "previous": "BNH-L013",
+              "current": "BNH-L014",
+              "min_eta": 0.01990620197707847,
+              "max_eta": 0.4720794223638985,
+              "over20_length_m": 3209.1336032388663
+            },
+            {
+              "previous": "BNH-L014",
+              "current": "BNH-L015",
+              "min_eta": 0.019999999999995015,
+              "max_eta": 0.4428748232754436,
+              "over20_length_m": 2999.1902834008097
+            },
+            {
+              "previous": "BNH-L015",
+              "current": "BNH-L016",
+              "min_eta": 0.019859564771392224,
+              "max_eta": 0.4106947849417292,
+              "over20_length_m": 2749.2577597840755
+            },
+            {
+              "previous": "BNH-L016",
+              "current": "BNH-L017",
+              "min_eta": 0.019927716806596357,
+              "max_eta": 0.37588539261641,
+              "over20_length_m": 2454.3373819163294
+            },
+            {
+              "previous": "BNH-L017",
+              "current": "BNH-L018",
+              "min_eta": 0.01990969177456065,
+              "max_eta": 0.33743179740782864,
+              "over20_length_m": 2089.4358974358975
+            },
+            {
+              "previous": "BNH-L018",
+              "current": "BNH-L019",
+              "min_eta": 0.019973786686134164,
+              "max_eta": 0.2961121955700799,
+              "over20_length_m": 1614.5641025641025
+            },
+            {
+              "previous": "BNH-L019",
+              "current": "BNH-L020",
+              "min_eta": 0.019972006200368538,
+              "max_eta": 0.25025043998599816,
+              "over20_length_m": 964.7395411605938
+            },
+            {
+              "previous": "BNH-L020",
+              "current": "BNH-L021",
+              "min_eta": 0.01999999999999595,
+              "max_eta": 0.20060301771492178,
+              "over20_length_m": 14.995951417004049
+            },
+            {
+              "previous": "BNH-L021",
+              "current": "BNH-L022",
+              "min_eta": 0.019999999999997443,
+              "max_eta": 0.1457048501180973,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L022",
+              "current": "BNH-L023",
+              "min_eta": 0.019999999999993367,
+              "max_eta": 0.08518468864737784,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L023",
+              "current": "BNH-L024",
+              "min_eta": 0.01997739374631291,
+              "max_eta": 0.02140914530561385,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L024",
+              "current": "BNH-L025",
+              "min_eta": 0.020047919802523073,
+              "max_eta": 0.08914295979523185,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L025",
+              "current": "BNH-L026",
+              "min_eta": 0.020078068346741033,
+              "max_eta": 0.14945834679464864,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L026",
+              "current": "BNH-L027",
+              "min_eta": 0.020158244244150445,
+              "max_eta": 0.203512416459012,
+              "over20_length_m": 1814.51012145749
+            }
+          ]
+        },
+        "tri_anti_5m": {
+          "representation": "tri_anti",
+          "step_m": 5.0,
+          "missing_area_m2": 0.006570533932972467,
+          "missing_percent": 9.578305884031253e-09,
+          "over20_pair_counted_length_m": 131277.20512820513,
+          "total_length_m": 473186.0,
+          "pair_metrics": [
+            {
+              "previous": "BSV-L001",
+              "current": "BSV-L002",
+              "min_eta": 0.019954137125283378,
+              "max_eta": 0.34858710370370605,
+              "over20_length_m": 1165.0
+            },
+            {
+              "previous": "BSV-L002",
+              "current": "BSV-L003",
+              "min_eta": 0.019999999999999928,
+              "max_eta": 0.35706650260625583,
+              "over20_length_m": 1225.0
+            },
+            {
+              "previous": "BSV-L003",
+              "current": "BSV-L004",
+              "min_eta": 0.019999999999999307,
+              "max_eta": 0.3649131038015275,
+              "over20_length_m": 1275.0
+            },
+            {
+              "previous": "BSV-L004",
+              "current": "BSV-L005",
+              "min_eta": 0.01999999999999995,
+              "max_eta": 0.37225576625056184,
+              "over20_length_m": 1320.0
+            },
+            {
+              "previous": "BSV-L005",
+              "current": "BSV-L006",
+              "min_eta": 0.019977013462698666,
+              "max_eta": 0.3783623801496335,
+              "over20_length_m": 1360.0
+            },
+            {
+              "previous": "BSV-L006",
+              "current": "BSV-L007",
+              "min_eta": 0.01979367549414824,
+              "max_eta": 0.38383573139249505,
+              "over20_length_m": 1395.0
+            },
+            {
+              "previous": "BSV-L007",
+              "current": "BSV-L008",
+              "min_eta": 0.019984471003594163,
+              "max_eta": 0.3888120579087445,
+              "over20_length_m": 1425.0
+            },
+            {
+              "previous": "BSV-L008",
+              "current": "BSV-L009",
+              "min_eta": 0.02000000000000048,
+              "max_eta": 0.3930804339187477,
+              "over20_length_m": 1450.0
+            },
+            {
+              "previous": "BSV-L009",
+              "current": "BSV-L010",
+              "min_eta": 0.01984925717197755,
+              "max_eta": 0.3960837891181024,
+              "over20_length_m": 1470.0
+            },
+            {
+              "previous": "BSV-L010",
+              "current": "BSV-L011",
+              "min_eta": 0.020000000000001624,
+              "max_eta": 0.3983911681242119,
+              "over20_length_m": 1490.0
+            },
+            {
+              "previous": "BSV-L011",
+              "current": "BSV-L012",
+              "min_eta": 0.01991518737962686,
+              "max_eta": 0.40040722305779786,
+              "over20_length_m": 1500.0
+            },
+            {
+              "previous": "BSV-L012",
+              "current": "BSV-L013",
+              "min_eta": 0.01984213212711561,
+              "max_eta": 0.40150267494373454,
+              "over20_length_m": 1505.0
+            },
+            {
+              "previous": "BSV-L013",
+              "current": "BSV-L014",
+              "min_eta": 0.020000000000001215,
+              "max_eta": 0.4021424378636675,
+              "over20_length_m": 1510.0
+            },
+            {
+              "previous": "BSV-L014",
+              "current": "BSV-L015",
+              "min_eta": 0.0198035504535464,
+              "max_eta": 0.40164353142620035,
+              "over20_length_m": 1505.0
+            },
+            {
+              "previous": "BSV-L015",
+              "current": "BSV-L016",
+              "min_eta": 0.01987627671395786,
+              "max_eta": 0.40068796368881787,
+              "over20_length_m": 1500.0
+            },
+            {
+              "previous": "BSV-L016",
+              "current": "BSV-L017",
+              "min_eta": 0.019947317111909123,
+              "max_eta": 0.398863955665789,
+              "over20_length_m": 1490.0
+            },
+            {
+              "previous": "BSV-L017",
+              "current": "BSV-L018",
+              "min_eta": 0.019880232762101276,
+              "max_eta": 0.39664590397425986,
+              "over20_length_m": 1475.0
+            },
+            {
+              "previous": "BSV-L018",
+              "current": "BSV-L019",
+              "min_eta": 0.020000000000000837,
+              "max_eta": 0.39388441922765444,
+              "over20_length_m": 1455.0
+            },
+            {
+              "previous": "BSV-L019",
+              "current": "BSV-L020",
+              "min_eta": 0.019983665200072928,
+              "max_eta": 0.3896534084822118,
+              "over20_length_m": 1430.0
+            },
+            {
+              "previous": "BSV-L020",
+              "current": "BSV-L021",
+              "min_eta": 0.020000000000002214,
+              "max_eta": 0.3847439682891725,
+              "over20_length_m": 1400.0
+            },
+            {
+              "previous": "BSV-L021",
+              "current": "BSV-L022",
+              "min_eta": 0.02000000000000475,
+              "max_eta": 0.3795602915604431,
+              "over20_length_m": 1370.0
+            },
+            {
+              "previous": "BSV-L022",
+              "current": "BSV-L023",
+              "min_eta": 0.019999999999997905,
+              "max_eta": 0.37352416074999545,
+              "over20_length_m": 1330.0
+            },
+            {
+              "previous": "BSV-L023",
+              "current": "BSV-L024",
+              "min_eta": 0.020000000000002183,
+              "max_eta": 0.366300488935625,
+              "over20_length_m": 1280.0
+            },
+            {
+              "previous": "BSV-L024",
+              "current": "BSV-L025",
+              "min_eta": 0.02000000000000185,
+              "max_eta": 0.35867035986926715,
+              "over20_length_m": 1235.0
+            },
+            {
+              "previous": "BSV-L025",
+              "current": "BSV-L026",
+              "min_eta": 0.019999999999998422,
+              "max_eta": 0.3499969507107595,
+              "over20_length_m": 1180.0
+            },
+            {
+              "previous": "BSV-L026",
+              "current": "BSV-L027",
+              "min_eta": 0.01996261261452164,
+              "max_eta": 0.3409779760319746,
+              "over20_length_m": 1115.0
+            },
+            {
+              "previous": "BSV-L027",
+              "current": "BSV-L028",
+              "min_eta": 0.019965050762527314,
+              "max_eta": 0.3309211332835571,
+              "over20_length_m": 1045.0
+            },
+            {
+              "previous": "BSV-L028",
+              "current": "BSV-L029",
+              "min_eta": 0.020004762978173853,
+              "max_eta": 0.3194574223758793,
+              "over20_length_m": 970.0
+            },
+            {
+              "previous": "BSV-L029",
+              "current": "BSV-L030",
+              "min_eta": 0.019837442432568644,
+              "max_eta": 0.30797084076608255,
+              "over20_length_m": 885.0
+            },
+            {
+              "previous": "BSV-L030",
+              "current": "BSV-L031",
+              "min_eta": 0.01996446602903583,
+              "max_eta": 0.29567587984290633,
+              "over20_length_m": 795.0
+            },
+            {
+              "previous": "BSV-L031",
+              "current": "BSV-L032",
+              "min_eta": 0.019999999999998897,
+              "max_eta": 0.2815774743568193,
+              "over20_length_m": 695.0
+            },
+            {
+              "previous": "BSV-L032",
+              "current": "BSV-L033",
+              "min_eta": 0.0199859817691748,
+              "max_eta": 0.26809934209852343,
+              "over20_length_m": 585.0
+            },
+            {
+              "previous": "BSV-L033",
+              "current": "BSV-L034",
+              "min_eta": 0.020000000000000562,
+              "max_eta": 0.2523721608728998,
+              "over20_length_m": 460.0
+            },
+            {
+              "previous": "BSV-L034",
+              "current": "BSV-L035",
+              "min_eta": 0.019988595677974227,
+              "max_eta": 0.2362880266613299,
+              "over20_length_m": 330.0
+            },
+            {
+              "previous": "BSV-L035",
+              "current": "BSV-L036",
+              "min_eta": 0.019836166850200208,
+              "max_eta": 0.22018582645790902,
+              "over20_length_m": 185.0
+            },
+            {
+              "previous": "BSV-L036",
+              "current": "BSV-L037",
+              "min_eta": 0.019995936758317137,
+              "max_eta": 0.20293875435556374,
+              "over20_length_m": 30.0
+            },
+            {
+              "previous": "BSV-L037",
+              "current": "BSV-L038",
+              "min_eta": 0.02000000000000371,
+              "max_eta": 0.18493070814875526,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L038",
+              "current": "BSV-L039",
+              "min_eta": 0.019989230479402906,
+              "max_eta": 0.16699399211194613,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L039",
+              "current": "BSV-L040",
+              "min_eta": 0.020005106800641503,
+              "max_eta": 0.1483633196450086,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L040",
+              "current": "BSV-L041",
+              "min_eta": 0.01992289269282858,
+              "max_eta": 0.14178326698033922,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L041",
+              "current": "BSV-L042",
+              "min_eta": 0.019754037840721547,
+              "max_eta": 0.1527544204727679,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L042",
+              "current": "BSV-L043",
+              "min_eta": 0.019966877311273036,
+              "max_eta": 0.16390331009570433,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L043",
+              "current": "BSV-L044",
+              "min_eta": 0.019988716454903542,
+              "max_eta": 0.1766924909522257,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L044",
+              "current": "BSV-L045",
+              "min_eta": 0.019781517087945562,
+              "max_eta": 0.19060477745598253,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BSV-L045",
+              "current": "BSV-L046",
+              "min_eta": 0.01998895590221444,
+              "max_eta": 0.2067234703686886,
+              "over20_length_m": 80.0
+            },
+            {
+              "previous": "BSV-L046",
+              "current": "BSV-L047",
+              "min_eta": 0.01979932896580678,
+              "max_eta": 0.22413081992717332,
+              "over20_length_m": 280.0
+            },
+            {
+              "previous": "BSV-L047",
+              "current": "BSV-L048",
+              "min_eta": 0.019959362624158403,
+              "max_eta": 0.24425724929948325,
+              "over20_length_m": 515.0
+            },
+            {
+              "previous": "BSV-L048",
+              "current": "BSV-L049",
+              "min_eta": 0.01998786200044813,
+              "max_eta": 0.26513249817460866,
+              "over20_length_m": 785.0
+            },
+            {
+              "previous": "BSV-L049",
+              "current": "BSV-L050",
+              "min_eta": 0.019985768554923275,
+              "max_eta": 0.2893059774636467,
+              "over20_length_m": 1090.0
+            },
+            {
+              "previous": "BSV-L050",
+              "current": "BSV-L051",
+              "min_eta": 0.02004871480720459,
+              "max_eta": 0.31221892681231506,
+              "over20_length_m": 1390.0
+            },
+            {
+              "previous": "BSV-L051",
+              "current": "BSV-L052",
+              "min_eta": 0.020082335991697158,
+              "max_eta": 0.33417209988629065,
+              "over20_length_m": 1670.0
+            },
+            {
+              "previous": "BSV-L052",
+              "current": "BSV-L053",
+              "min_eta": 0.020112257219233348,
+              "max_eta": 0.3552831217772196,
+              "over20_length_m": 1935.0
+            },
+            {
+              "previous": "BSV-L053",
+              "current": "BSV-L054",
+              "min_eta": 0.020142983522705306,
+              "max_eta": 0.37405322134270186,
+              "over20_length_m": 2170.0
+            },
+            {
+              "previous": "BSV-L054",
+              "current": "BSV-L055",
+              "min_eta": 0.020173912478684507,
+              "max_eta": 0.3930169481296868,
+              "over20_length_m": 2385.0
+            },
+            {
+              "previous": "BSV-L055",
+              "current": "BSV-L056",
+              "min_eta": 0.02020812583970515,
+              "max_eta": 0.4103253732916518,
+              "over20_length_m": 2575.0
+            },
+            {
+              "previous": "BSV-L056",
+              "current": "BSV-L057",
+              "min_eta": 0.02024082431632979,
+              "max_eta": 0.4267019372315602,
+              "over20_length_m": 2745.0
+            },
+            {
+              "previous": "BSV-L057",
+              "current": "BSV-L058",
+              "min_eta": 0.020270744741991118,
+              "max_eta": 0.44218137893629356,
+              "over20_length_m": 2890.0
+            },
+            {
+              "previous": "BSV-L058",
+              "current": "BSV-L059",
+              "min_eta": 0.02030434102745342,
+              "max_eta": 0.45753456813662274,
+              "over20_length_m": 3020.0
+            },
+            {
+              "previous": "BNH-L001",
+              "current": "BNH-L002",
+              "min_eta": 0.01997054752909398,
+              "max_eta": 0.6942786804277782,
+              "over20_length_m": 4448.798920377868
+            },
+            {
+              "previous": "BNH-L002",
+              "current": "BNH-L003",
+              "min_eta": 0.019756106527747504,
+              "max_eta": 0.6819797837983204,
+              "over20_length_m": 4388.8151147098515
+            },
+            {
+              "previous": "BNH-L003",
+              "current": "BNH-L004",
+              "min_eta": 0.01996427331256222,
+              "max_eta": 0.6688622153274317,
+              "over20_length_m": 4323.8326585695
+            },
+            {
+              "previous": "BNH-L004",
+              "current": "BNH-L005",
+              "min_eta": 0.019967012730493432,
+              "max_eta": 0.6554214104251792,
+              "over20_length_m": 4253.8515519568155
+            },
+            {
+              "previous": "BNH-L005",
+              "current": "BNH-L006",
+              "min_eta": 0.019913390431685836,
+              "max_eta": 0.6403173985179216,
+              "over20_length_m": 4178.871794871795
+            },
+            {
+              "previous": "BNH-L006",
+              "current": "BNH-L007",
+              "min_eta": 0.019999999999999164,
+              "max_eta": 0.6246792275454341,
+              "over20_length_m": 4093.8947368421054
+            },
+            {
+              "previous": "BNH-L007",
+              "current": "BNH-L008",
+              "min_eta": 0.01999999999999459,
+              "max_eta": 0.6073024774643893,
+              "over20_length_m": 4008.917678812416
+            },
+            {
+              "previous": "BNH-L008",
+              "current": "BNH-L009",
+              "min_eta": 0.019999999999995795,
+              "max_eta": 0.5888763710325476,
+              "over20_length_m": 3908.944669365722
+            },
+            {
+              "previous": "BNH-L009",
+              "current": "BNH-L010",
+              "min_eta": 0.0200000000000088,
+              "max_eta": 0.5688006523766802,
+              "over20_length_m": 3798.974358974359
+            },
+            {
+              "previous": "BNH-L010",
+              "current": "BNH-L011",
+              "min_eta": 0.019992180248435253,
+              "max_eta": 0.5476515035390601,
+              "over20_length_m": 3679.0067476383265
+            },
+            {
+              "previous": "BNH-L011",
+              "current": "BNH-L012",
+              "min_eta": 0.019992478757461744,
+              "max_eta": 0.524717402102936,
+              "over20_length_m": 3539.0445344129557
+            },
+            {
+              "previous": "BNH-L012",
+              "current": "BNH-L013",
+              "min_eta": 0.019999999999996288,
+              "max_eta": 0.49942073919569574,
+              "over20_length_m": 3384.0863697705804
+            },
+            {
+              "previous": "BNH-L013",
+              "current": "BNH-L014",
+              "min_eta": 0.01989915299937516,
+              "max_eta": 0.47207955786156985,
+              "over20_length_m": 3204.1349527665316
+            },
+            {
+              "previous": "BNH-L014",
+              "current": "BNH-L015",
+              "min_eta": 0.019999999999995015,
+              "max_eta": 0.4428787111144762,
+              "over20_length_m": 2999.1902834008097
+            },
+            {
+              "previous": "BNH-L015",
+              "current": "BNH-L016",
+              "min_eta": 0.019852970230648245,
+              "max_eta": 0.41069937631613945,
+              "over20_length_m": 2749.2577597840755
+            },
+            {
+              "previous": "BNH-L016",
+              "current": "BNH-L017",
+              "min_eta": 0.01993406228761132,
+              "max_eta": 0.3758903586521863,
+              "over20_length_m": 2454.3373819163294
+            },
+            {
+              "previous": "BNH-L017",
+              "current": "BNH-L018",
+              "min_eta": 0.019915807825240397,
+              "max_eta": 0.3374371821983451,
+              "over20_length_m": 2084.4372469635628
+            },
+            {
+              "previous": "BNH-L018",
+              "current": "BNH-L019",
+              "min_eta": 0.019967908592643323,
+              "max_eta": 0.29611382301270023,
+              "over20_length_m": 1609.5654520917678
+            },
+            {
+              "previous": "BNH-L019",
+              "current": "BNH-L020",
+              "min_eta": 0.019977650111586986,
+              "max_eta": 0.25025043998599816,
+              "over20_length_m": 969.7381916329285
+            },
+            {
+              "previous": "BNH-L020",
+              "current": "BNH-L021",
+              "min_eta": 0.01999999999999595,
+              "max_eta": 0.20060301771492178,
+              "over20_length_m": 14.995951417004049
+            },
+            {
+              "previous": "BNH-L021",
+              "current": "BNH-L022",
+              "min_eta": 0.019999999999997443,
+              "max_eta": 0.14570936993293773,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L022",
+              "current": "BNH-L023",
+              "min_eta": 0.019999999999993367,
+              "max_eta": 0.08519303918379974,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L023",
+              "current": "BNH-L024",
+              "min_eta": 0.019800329912568946,
+              "max_eta": 0.021413903058973307,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L024",
+              "current": "BNH-L025",
+              "min_eta": 0.020061862714309573,
+              "max_eta": 0.08913844659552796,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L025",
+              "current": "BNH-L026",
+              "min_eta": 0.020111403814007306,
+              "max_eta": 0.14945834679464864,
+              "over20_length_m": 0.0
+            },
+            {
+              "previous": "BNH-L026",
+              "current": "BNH-L027",
+              "min_eta": 0.02016300726739676,
+              "max_eta": 0.20328658967062757,
+              "over20_length_m": 1819.5087719298247
+            }
+          ]
+        }
+      },
+      "independent_raster_results": {
+        "bilinear_10m": {
+          "missing_area_m2": 0.0,
+          "missing_percent": 0.0,
+          "missing_cells": 0,
+          "cell_area_by_block_m2": [
+            99.97300944669365,
+            99.97300944669365
+          ]
+        },
+        "bilinear_5m": {
+          "missing_area_m2": 0.0,
+          "missing_percent": 0.0,
+          "missing_cells": 0,
+          "cell_area_by_block_m2": [
+            24.993252361673413,
+            24.993252361673413
+          ]
+        },
+        "tri_main_10m": {
+          "missing_area_m2": 0.0,
+          "missing_percent": 0.0,
+          "missing_cells": 0,
+          "cell_area_by_block_m2": [
+            99.97300944669365,
+            99.97300944669365
+          ]
+        },
+        "tri_anti_10m": {
+          "missing_area_m2": 0.0,
+          "missing_percent": 0.0,
+          "missing_cells": 0,
+          "cell_area_by_block_m2": [
+            99.97300944669365,
+            99.97300944669365
+          ]
+        }
+      }
+    },
+    "source_shape_and_boundary": {
+      "passed": true,
+      "shape": [
+        251,
+        201
+      ],
+      "expected_shape": [
+        251,
+        201
+      ]
+    },
+    "evidence_files": {
+      "passed": true,
+      "files": [
+        {
+          "path": "工作记录\\诊断结果\\Q04\\第4问地形图-v001.png",
+          "bytes": 93256
+        },
+        {
+          "path": "工作记录\\诊断结果\\Q04\\第4问坡度坡向图-v001.png",
+          "bytes": 313102
+        },
+        {
+          "path": "工作记录\\诊断结果\\Q04\\第4问最终测线布局-v001.png",
+          "bytes": 99393
+        },
+        {
+          "path": "工作记录\\诊断结果\\Q04\\第4问候选指标比较-v001.png",
+          "bytes": 180433
+        },
+        {
+          "path": "工作记录\\诊断结果\\Q04\\第4问覆盖与漏测图-v001.png",
+          "bytes": 66763
+        },
+        {
+          "path": "工作记录\\诊断结果\\Q04\\第4问过度重叠位置-v001.png",
+          "bytes": 103575
+        }
+      ]
+    }
+  },
+  "all_passed": true
+}

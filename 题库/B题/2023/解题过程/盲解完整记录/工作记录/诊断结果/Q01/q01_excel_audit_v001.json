@@ -1,0 +1,299 @@
+{
+  "schema_version": "q01-excel-audit-v001",
+  "generated_at": "2026-09-08T01:37:18.274Z",
+  "source": {
+    "path": "附件/附件01.xlsx",
+    "sha256_before": "fd69fe4c87aedef8c93628a2994a143a7dd48a89568d0855df6497b6e9e4fa44",
+    "sha256_after": "fd69fe4c87aedef8c93628a2994a143a7dd48a89568d0855df6497b6e9e4fa44",
+    "unchanged": true
+  },
+  "outputs": {
+    "versioned": {
+      "path": "工作记录/结果/Q01/result1-v001.xlsx",
+      "sha256": "d4bc09871a05c3dfff4567f9bb4dc08cedbebf4aa5c53b4f93e438ec3283866f"
+    },
+    "submission": {
+      "path": "result1.xlsx",
+      "sha256": "d4bc09871a05c3dfff4567f9bb4dc08cedbebf4aa5c53b4f93e438ec3283866f"
+    },
+    "byte_identical": true
+  },
+  "template_before": {
+    "sheetName": "Sheet1",
+    "values": [
+      [
+        "测线距中心点处的距离/m",
+        -800,
+        -600,
+        -400,
+        -200,
+        0,
+        200,
+        400,
+        600,
+        800
+      ],
+      [
+        "海水深度/m",
+        null,
+        null,
+        null,
+        null,
+        70,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "覆盖宽度/m",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "与前一条测线的重叠率/%",
+        "——",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "formulas": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  "readback": {
+    "sheetName": "Sheet1",
+    "values": [
+      [
+        "测线距中心点处的距离/m",
+        -800,
+        -600,
+        -400,
+        -200,
+        0,
+        200,
+        400,
+        600,
+        800
+      ],
+      [
+        "海水深度/m",
+        90.95,
+        85.71,
+        80.47,
+        75.24,
+        70,
+        64.76,
+        59.53,
+        54.29,
+        49.05
+      ],
+      [
+        "覆盖宽度/m",
+        315.81,
+        297.63,
+        279.44,
+        261.26,
+        243.07,
+        224.88,
+        206.7,
+        188.51,
+        170.33
+      ],
+      [
+        "与前一条测线的重叠率/%",
+        "——",
+        33.64,
+        29.59,
+        25,
+        19.78,
+        13.78,
+        6.81,
+        -1.39,
+        -11.17
+      ]
+    ],
+    "formulas": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  "checks": {
+    "nine_positions_present": true,
+    "center_depth_correct": true,
+    "first_overlap_non_numeric_dash": true,
+    "remaining_eight_overlap_values_present": true,
+    "numeric_result_cells_are_numbers": true,
+    "values_match_formal_table": true,
+    "formulas_absent": true,
+    "formula_error_count": 0,
+    "output_files_byte_identical": true,
+    "source_template_unchanged": true
+  },
+  "artifact_tool_inspection": {
+    "recordCount": 1,
+    "truncated": false,
+    "metadata": {
+      "revision": "ccx8g3",
+      "target": {
+        "id": "wb/84a0tz",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "table",
+        "tokens": [
+          "table"
+        ]
+      },
+      "include": {
+        "requested": "values,formulas",
+        "tokens": [
+          "values",
+          "formulas"
+        ]
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  },
+  "formula_error_scan": {
+    "artifact_tool_result": {
+      "recordCount": 1,
+      "truncated": false,
+      "metadata": {
+        "revision": "xazny5",
+        "target": {
+          "id": "wb/cs13yl",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "match",
+          "tokens": [
+            "match"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    "direct_readback_error_cells": [],
+    "interpretation": "artifact-tool 的 inspect 返回记录数含元数据包装；正式错误数按 A1:J4 读回值与公式逐格匹配错误标记确定。"
+  },
+  "preview": "工作记录/诊断结果/Q01/result1-生成后预览-v001.png",
+  "all_passed": true
+}

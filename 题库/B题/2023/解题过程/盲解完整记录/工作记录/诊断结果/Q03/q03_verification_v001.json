@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "independent_ray_endpoints": true,
+    "whole_rectangle_covered": true,
+    "west_boundary_covered": true,
+    "east_boundary_covered": true,
+    "overlap_previous_between_10_and_20_percent": true,
+    "no_negative_overlap_or_gap": true,
+    "current_denominator_sensitivity_still_feasible": true,
+    "row_length_sum_matches": true,
+    "directions_and_units": true,
+    "all_depths_positive": true,
+    "target_perturbation_line_count_stable": true
+  },
+  "all_passed": true,
+  "metrics": {
+    "maximum_endpoint_error_m": 4.547473508864641e-13,
+    "union_x_length_m": 7408.0,
+    "maximum_gap_m": 0.0,
+    "missing_area_m2": 0.0,
+    "min_overlap_previous": 0.10009999999999691,
+    "max_overlap_previous": 0.10010000000000942,
+    "min_overlap_current": 0.10857878812412312,
+    "max_overlap_current": 0.10857878812413667,
+    "total_length_from_rows_m": 125936.0,
+    "target_line_counts": {
+      "0.1": 34,
+      "0.1001": 34,
+      "0.101": 34,
+      "0.105": 35,
+      "0.15": 36,
+      "0.2": 39
+    }
+  },
+  "optimality_statement": "minimum line count in the ordered north-south contour-parallel recurrence class; finite direction screening does not prove global optimality over all straight or curved designs",
+  "random_seed": "not applicable"
+}

@@ -1,0 +1,299 @@
+{
+  "schema_version": "q01-verification-v001",
+  "generated_at": "2026-09-08T09:38:33+08:00",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "dependencies": [
+      "Python standard library"
+    ],
+    "randomness": "不涉及随机过程；随机种子不适用"
+  },
+  "checks": {
+    "analytic_vs_independent_ray_line": {
+      "passed": true,
+      "tolerances": {
+        "absolute_length_m": 1e-10,
+        "absolute_percentage_point": 1e-10,
+        "relative": 1e-12
+      },
+      "max_absolute_length_difference_m": 1.1368683772161603e-13,
+      "max_absolute_overlap_rate_difference_percentage_point": 6.394884621840902e-14,
+      "max_relative_difference": 1.9770721691587575e-14,
+      "per_field": {
+        "depth_m": {
+          "max_absolute_difference": 0.0,
+          "max_relative_difference": 0.0
+        },
+        "left_endpoint_q_m": {
+          "max_absolute_difference": 5.684341886080802e-14,
+          "max_relative_difference": 1.9460239149910412e-16
+        },
+        "right_endpoint_q_m": {
+          "max_absolute_difference": 1.1368683772161603e-13,
+          "max_relative_difference": 2.4496645940120074e-16
+        },
+        "downhill_width_m": {
+          "max_absolute_difference": 5.684341886080802e-14,
+          "max_relative_difference": 3.9461147811199247e-16
+        },
+        "uphill_width_m": {
+          "max_absolute_difference": 1.1368683772161603e-13,
+          "max_relative_difference": 1.2634476089993845e-15
+        },
+        "coverage_width_m": {
+          "max_absolute_difference": 1.1368683772161603e-13,
+          "max_relative_difference": 6.674614896779072e-16
+        },
+        "signed_overlap_with_previous_m": {
+          "max_absolute_difference": 1.1368683772161603e-13,
+          "max_relative_difference": 1.9770721691587575e-14
+        },
+        "overlap_rate_previous_pct": {
+          "max_absolute_difference": 6.394884621840902e-14,
+          "max_relative_difference": 1.947512166900823e-14
+        }
+      }
+    },
+    "flat_limit": {
+      "passed": true,
+      "generic_parameters": {
+        "opening_deg": 100.0,
+        "depth_m": 80.0,
+        "spacing_m": 60.0
+      },
+      "expected": {
+        "side_width_m": 95.3402874075368,
+        "coverage_width_m": 190.6805748150736,
+        "overlap_rate_pct": 68.533763830852
+      },
+      "absolute_errors": {
+        "left_right_symmetry_m": 0.0,
+        "coverage_width_m": 2.842170943040401e-14,
+        "overlap_rate_percentage_point": 0.0
+      }
+    },
+    "slope_flip": {
+      "passed": true,
+      "max_depth_mirror_error_m": 0.0,
+      "max_left_right_exchange_error_m": 0.0,
+      "max_total_width_mirror_error_m": 0.0,
+      "max_endpoint_mirror_error_m": 0.0
+    },
+    "interval_boundaries": {
+      "passed": true,
+      "cases": {
+        "separated": {
+          "passed": true,
+          "previous": [
+            0.0,
+            2.0
+          ],
+          "current": [
+            3.0,
+            5.0
+          ],
+          "expected_signed_actual_gap": [
+            -1.0,
+            0.0,
+            1.0
+          ],
+          "actual_signed_actual_gap": [
+            -1.0,
+            0.0,
+            1.0
+          ]
+        },
+        "touching": {
+          "passed": true,
+          "previous": [
+            0.0,
+            2.0
+          ],
+          "current": [
+            2.0,
+            5.0
+          ],
+          "expected_signed_actual_gap": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "actual_signed_actual_gap": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "partial_overlap": {
+          "passed": true,
+          "previous": [
+            0.0,
+            3.0
+          ],
+          "current": [
+            2.0,
+            5.0
+          ],
+          "expected_signed_actual_gap": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "actual_signed_actual_gap": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        "containment": {
+          "passed": true,
+          "previous": [
+            0.0,
+            5.0
+          ],
+          "current": [
+            1.0,
+            3.0
+          ],
+          "expected_signed_actual_gap": [
+            2.0,
+            2.0,
+            0.0
+          ],
+          "actual_signed_actual_gap": [
+            2.0,
+            2.0,
+            0.0
+          ]
+        },
+        "unequal_width": {
+          "passed": true,
+          "previous": [
+            -2.0,
+            3.0
+          ],
+          "current": [
+            1.0,
+            5.0
+          ],
+          "expected_signed_actual_gap": [
+            2.0,
+            2.0,
+            0.0
+          ],
+          "actual_signed_actual_gap": [
+            2.0,
+            2.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "applicability_units_and_trends": {
+      "passed": true,
+      "finite": true,
+      "positive_depth": true,
+      "ordered_intervals": true,
+      "depth_decreases_toward_uphill": true,
+      "coverage_width_decreases_with_depth": true,
+      "downhill_side_wider_than_uphill_side": true,
+      "signed_overlap_actual_overlap_gap_consistent": true,
+      "ray_line_denominators_safe": true,
+      "all_intersections_on_forward_rays": true,
+      "minimum_forward_ray_parameter_m": 49.05126274465046,
+      "denominators": {
+        "downhill_cos_beta_plus_alpha": 0.47715876025960857,
+        "uphill_cos_beta_minus_alpha": 0.5224985647159489
+      },
+      "unit_audit": {
+        "input_lengths": "m",
+        "internal_angles": "rad after one explicit degrees-to-radians conversion",
+        "overlap_rate": "dimensionless; multiplied by 100 only at output interface",
+        "nautical_miles_used": false
+      }
+    }
+  },
+  "sensitivity": {
+    "formal_denominator": "previous strip width",
+    "alternative_denominator": "current strip width",
+    "rows": [
+      {
+        "position_x_m": -600.0,
+        "signed_overlap_m": 106.23947504248918,
+        "formal_previous_pct": 33.63995928120338,
+        "alternative_current_pct": 35.695442597272425,
+        "alternative_mean_pct": 34.637233014136356,
+        "current_minus_previous_percentage_point": 2.0554833160690436,
+        "leakage_classification_unchanged": true
+      },
+      {
+        "position_x_m": -400.0,
+        "signed_overlap_m": 88.05370733474342,
+        "formal_previous_pct": 29.58519942222332,
+        "alternative_current_pct": 31.510571997094747,
+        "alternative_mean_pct": 30.517547607152522,
+        "current_minus_previous_percentage_point": 1.925372574871428,
+        "leakage_classification_unchanged": true
+      },
+      {
+        "position_x_m": -200.0,
+        "signed_overlap_m": 69.86793962699744,
+        "formal_previous_pct": 25.002680847220766,
+        "alternative_current_pct": 26.74309217615542,
+        "alternative_mean_pct": 25.843618115286755,
+        "current_minus_previous_percentage_point": 1.7404113289346554,
+        "leakage_classification_unchanged": true
+      },
+      {
+        "position_x_m": 0.0,
+        "signed_overlap_m": 51.68217191925157,
+        "formal_previous_pct": 19.78219330467257,
+        "alternative_current_pct": 21.262236054223003,
+        "alternative_mean_pct": 20.49552985796638,
+        "current_minus_previous_percentage_point": 1.4800427495504316,
+        "leakage_classification_unchanged": true
+      },
+      {
+        "position_x_m": 200.0,
+        "signed_overlap_m": 33.49640421150568,
+        "formal_previous_pct": 13.780544177312448,
+        "alternative_current_pct": 14.894937506832001,
+        "alternative_mean_pct": 14.316086933925941,
+        "current_minus_previous_percentage_point": 1.1143933295195527,
+        "leakage_classification_unchanged": true
+      },
+      {
+        "position_x_m": 400.0,
+        "signed_overlap_m": 15.310636503759781,
+        "formal_previous_pct": 6.808222532584244,
+        "alternative_current_pct": 7.407223591972279,
+        "alternative_mean_pct": 7.0951029072017295,
+        "current_minus_previous_percentage_point": 0.5990010593880353,
+        "leakage_classification_unchanged": true
+      },
+      {
+        "position_x_m": 600.0,
+        "signed_overlap_m": -2.8751312039860295,
+        "formal_previous_pct": -1.3909767682716008,
+        "alternative_current_pct": -1.52516372896797,
+        "alternative_mean_pct": -1.4549829247343324,
+        "current_minus_previous_percentage_point": -0.13418696069636926,
+        "leakage_classification_unchanged": true
+      },
+      {
+        "position_x_m": 800.0,
+        "signed_overlap_m": -21.06089891173201,
+        "formal_previous_pct": -11.172122884375588,
+        "alternative_current_pct": -12.364966115077056,
+        "alternative_mean_pct": -11.738318268838905,
+        "current_minus_previous_percentage_point": -1.1928432307014685,
+        "leakage_classification_unchanged": true
+      }
+    ],
+    "max_absolute_difference_percentage_point": 2.0554833160690436,
+    "geometry_unchanged": true,
+    "leakage_classification_unchanged_all_rows": true
+  },
+  "all_passed": true
+}

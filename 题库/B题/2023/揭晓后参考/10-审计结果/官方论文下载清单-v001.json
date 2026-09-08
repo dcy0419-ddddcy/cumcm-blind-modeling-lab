@@ -1,0 +1,1391 @@
+{
+  "schema_version": "official-paper-image-download-v001",
+  "generated_at": "2026-09-08T21:26:19+08:00",
+  "source": "中国大学生在线 2023高教社杯全国大学生数学建模竞赛论文展示",
+  "preservation_note": "PDF is a local page-order compilation of the downloaded official JPEG pages; image content was not edited.",
+  "papers": [
+    {
+      "id": "P01-B477",
+      "display_id": "B477",
+      "official_page_url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2023qgdxssxjmjslwzs_2023btlw/231104/1865120.shtml",
+      "page_count": 50,
+      "pdf_relative_path": "02-原始论文/P01-B477/P01-B477-官方页图合订-v001.pdf",
+      "pdf_size_bytes": 3753532,
+      "pdf_sha256": "b3a5bbdc2de83b16c46f212bbb4f1a3fa495590a16a8651ac1b8ece983006fdb",
+      "pages": [
+        {
+          "page": 1,
+          "image_id": 8439973,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439973.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-001-8439973.jpg",
+          "size_bytes": 252187,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "8125f32fd0c0caa14e95a340ff455e0b4504d161f43cd8df92d1653c66d5e4e7"
+        },
+        {
+          "page": 2,
+          "image_id": 8439974,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439974.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-002-8439974.jpg",
+          "size_bytes": 212066,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "e4cb9b05e0e2216675bd5ff43d16f891c18bf95f56195852b0751c9c1a7d99e4"
+        },
+        {
+          "page": 3,
+          "image_id": 8439975,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439975.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-003-8439975.jpg",
+          "size_bytes": 193052,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "9e1268a27f20b9e20112167a7cc4cc77183163d9580696c7b98452cde2039edc"
+        },
+        {
+          "page": 4,
+          "image_id": 8439976,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439976.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-004-8439976.jpg",
+          "size_bytes": 121215,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "11089509c6eb3b1e958b198537bf71b3566d896b72fe490fc39812e8e32abc38"
+        },
+        {
+          "page": 5,
+          "image_id": 8439977,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439977.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-005-8439977.jpg",
+          "size_bytes": 138734,
+          "width_px": 700,
+          "height_px": 992,
+          "sha256": "61a5231400d742e32fa65920a3d2b1336396bb06e621b9f433c688d93579ccf8"
+        },
+        {
+          "page": 6,
+          "image_id": 8439978,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439978.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-006-8439978.jpg",
+          "size_bytes": 119341,
+          "width_px": 700,
+          "height_px": 990,
+          "sha256": "8e4fd650be765f3288cf6156f916fe2796e21043c183069e2530eb4826e5f3da"
+        },
+        {
+          "page": 7,
+          "image_id": 8439979,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439979.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-007-8439979.jpg",
+          "size_bytes": 149795,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "b26ad3e1e377d7050565bf6d8fc97b0254f433f7ddd3277ee2a9b01578be56ce"
+        },
+        {
+          "page": 8,
+          "image_id": 8439980,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439980.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-008-8439980.jpg",
+          "size_bytes": 141767,
+          "width_px": 700,
+          "height_px": 986,
+          "sha256": "44ec189fad2bee1348efe4640f77a48a0dcf4556d4291b01db0cd913c95029ff"
+        },
+        {
+          "page": 9,
+          "image_id": 8439981,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439981.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-009-8439981.jpg",
+          "size_bytes": 188988,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "bc756c02e876ca12071ed40a8b5e0bf106e9245d5a6115052affab9804643470"
+        },
+        {
+          "page": 10,
+          "image_id": 8439982,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439982.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-010-8439982.jpg",
+          "size_bytes": 180553,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "afd9628940c4ffb3ea17242c6e448af32cca68357cc1145b69284ceacad95546"
+        },
+        {
+          "page": 11,
+          "image_id": 8439983,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439983.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-011-8439983.jpg",
+          "size_bytes": 124945,
+          "width_px": 700,
+          "height_px": 992,
+          "sha256": "7c41f7bcb8c77c26719b722d125c6cd780d4de6c2f772041b71b809439cf9be8"
+        },
+        {
+          "page": 12,
+          "image_id": 8439984,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439984.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-012-8439984.jpg",
+          "size_bytes": 162504,
+          "width_px": 700,
+          "height_px": 986,
+          "sha256": "c99bb36b13e980fbe0a851675b0a2254222f8f34eb5ce4db43258d3d4a4185ab"
+        },
+        {
+          "page": 13,
+          "image_id": 8439985,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439985.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-013-8439985.jpg",
+          "size_bytes": 177567,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "6d2744e9745795689023947e6e392e9e9daad5671eccbca5db66de3ebd582c5b"
+        },
+        {
+          "page": 14,
+          "image_id": 8439986,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439986.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-014-8439986.jpg",
+          "size_bytes": 161533,
+          "width_px": 700,
+          "height_px": 990,
+          "sha256": "ea5e6d63fc22b94f72afa34fafbf73e4ca6c44071ff9bd13e35718ee1fa8fcf6"
+        },
+        {
+          "page": 15,
+          "image_id": 8439987,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439987.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-015-8439987.jpg",
+          "size_bytes": 180820,
+          "width_px": 700,
+          "height_px": 1106,
+          "sha256": "152455a3d385e891daf0bac67a1b6cd8a2bb92e56060028cfb8c4dec2f827f78"
+        },
+        {
+          "page": 16,
+          "image_id": 8439988,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439988.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-016-8439988.jpg",
+          "size_bytes": 182197,
+          "width_px": 700,
+          "height_px": 900,
+          "sha256": "894183f10b67f2bb18609bfb163c2284715aa304180baf5e0a2c1c3b3549fc2f"
+        },
+        {
+          "page": 17,
+          "image_id": 8439989,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439989.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-017-8439989.jpg",
+          "size_bytes": 128180,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "fcab86c8e9f2aa53d9d253029fd307eaebbfdf25952d16ac8467a1b4f3ede95d"
+        },
+        {
+          "page": 18,
+          "image_id": 8439990,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439990.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-018-8439990.jpg",
+          "size_bytes": 163692,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "86283166680df9501f9be59b445b81951ea5237d856de93e497e8f608d3a0007"
+        },
+        {
+          "page": 19,
+          "image_id": 8439991,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439991.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-019-8439991.jpg",
+          "size_bytes": 155104,
+          "width_px": 700,
+          "height_px": 990,
+          "sha256": "675e280261a8a4d71fb0d9a1a154f7c7bab6cc3d0f7608d31295e9bdae9fef7d"
+        },
+        {
+          "page": 20,
+          "image_id": 8439992,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439992.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-020-8439992.jpg",
+          "size_bytes": 169982,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "a24c27edab6478b049a28c03564a8a2099771511da5fc1ff3f0c1a523a7dea53"
+        },
+        {
+          "page": 21,
+          "image_id": 8439993,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439993.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-021-8439993.jpg",
+          "size_bytes": 121113,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "6dbcd00a142ea82afbfe717278311e568d19f9a6432d80a2ce08b524094741e4"
+        },
+        {
+          "page": 22,
+          "image_id": 8439994,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439994.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-022-8439994.jpg",
+          "size_bytes": 168375,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "5ae0e9e5b48267d776f58b4cc37465c41c15a39c10f46b3e5f9a00d4ba744340"
+        },
+        {
+          "page": 23,
+          "image_id": 8439995,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439995.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-023-8439995.jpg",
+          "size_bytes": 154122,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "d353f98787ad932bda742e5fe0df614d56ac1a4bd087f1bb263eda1b9be67a92"
+        },
+        {
+          "page": 24,
+          "image_id": 8439996,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439996.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-024-8439996.jpg",
+          "size_bytes": 145485,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "c38b28bac2ca3f2662634381ee67a8b9c8b256f15506c51becadbe3f1278d074"
+        },
+        {
+          "page": 25,
+          "image_id": 8439997,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439997.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-025-8439997.jpg",
+          "size_bytes": 147870,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "8f4f36c8d9ec14e9a5abfa1501b371145bbca354a1a34e1c44ccc7cf2ac01522"
+        },
+        {
+          "page": 26,
+          "image_id": 8439998,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439998.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-026-8439998.jpg",
+          "size_bytes": 165909,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "ecfae90a84f2b2adee5e468fb440014f6827274c0be0dbec9f055b215054a7da"
+        },
+        {
+          "page": 27,
+          "image_id": 8439999,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439999.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-027-8439999.jpg",
+          "size_bytes": 157019,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "a040f1c8023ebdce3992580b26b9e3378a539111c8373f6c4b11416091ce15d3"
+        },
+        {
+          "page": 28,
+          "image_id": 8440000,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440000.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-028-8440000.jpg",
+          "size_bytes": 150614,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "553b6c93ae28671fe6bcac43b34388dd4042fbeea50f59dfba06e8608b97145e"
+        },
+        {
+          "page": 29,
+          "image_id": 8440001,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440001.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-029-8440001.jpg",
+          "size_bytes": 163654,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "7c97380e965b0b342b78e12cc5da52a780e97a2543efd7b5d4a5bd080aa97053"
+        },
+        {
+          "page": 30,
+          "image_id": 8440002,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440002.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-030-8440002.jpg",
+          "size_bytes": 161499,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "445eb575c80383b89b556e02bb71fcbaead7b28f45809cc1f1af1e432a28098a"
+        },
+        {
+          "page": 31,
+          "image_id": 8440003,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440003.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-031-8440003.jpg",
+          "size_bytes": 155507,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "eb200f6497e9129c2385aa52108415ef75f5443e684d92d51d9e992cd7706192"
+        },
+        {
+          "page": 32,
+          "image_id": 8440004,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440004.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-032-8440004.jpg",
+          "size_bytes": 184875,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "6f89af3b3e2d06cd279d9c6474f4ad61ac7fa551f1f75ac9e6e12f0cbd52746d"
+        },
+        {
+          "page": 33,
+          "image_id": 8440005,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440005.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-033-8440005.jpg",
+          "size_bytes": 172282,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "84b898aa22b40592f2e6157e02895c30703d89ceb5ff190f611312dc42750d7f"
+        },
+        {
+          "page": 34,
+          "image_id": 8440006,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440006.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-034-8440006.jpg",
+          "size_bytes": 159398,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "211399d360695b45aa844966dab637fa891228961c5202d6c9f5e05d1ef5d313"
+        },
+        {
+          "page": 35,
+          "image_id": 8440007,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440007.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-035-8440007.jpg",
+          "size_bytes": 151345,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "c55314ee16314911e2491c0445518ce92281c1593eb9304e0be21223058a6692"
+        },
+        {
+          "page": 36,
+          "image_id": 8440008,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440008.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-036-8440008.jpg",
+          "size_bytes": 149167,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "eee269b56497c50c2e925309319b6d4f73e11b1c46510c46b64471b9602dc30f"
+        },
+        {
+          "page": 37,
+          "image_id": 8440009,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440009.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-037-8440009.jpg",
+          "size_bytes": 169615,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "d9cc9c7502244e7f476bf34ec90b4f03ce43bbef4f25df2c3e51d6b945dc15fa"
+        },
+        {
+          "page": 38,
+          "image_id": 8440010,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440010.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-038-8440010.jpg",
+          "size_bytes": 169121,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "e5f708dfaea6f70590510cd7ed2604a51eda9fbd1fe57e21f211630d3ef0d3dd"
+        },
+        {
+          "page": 39,
+          "image_id": 8440011,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440011.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-039-8440011.jpg",
+          "size_bytes": 150902,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "6a0ae08e591741ec6914332e7276e242edf7758accd3c5960bc44d993e0db098"
+        },
+        {
+          "page": 40,
+          "image_id": 8440012,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440012.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-040-8440012.jpg",
+          "size_bytes": 144348,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "c1d957558c8a6a3899e3832e0a05c754f7cc0e755cea9654699fb098c5d7a86b"
+        },
+        {
+          "page": 41,
+          "image_id": 8440013,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440013.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-041-8440013.jpg",
+          "size_bytes": 154117,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "f10264de6cfd9d7c1f61563915dcc19e7182eb913f1608018e32a263f9524b94"
+        },
+        {
+          "page": 42,
+          "image_id": 8440014,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440014.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-042-8440014.jpg",
+          "size_bytes": 159390,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "54d3d774516f99e7e285d07d6fe6eddb25998881e23184708b5bc8fce2c9a6f1"
+        },
+        {
+          "page": 43,
+          "image_id": 8440015,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440015.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-043-8440015.jpg",
+          "size_bytes": 145569,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "291ae31cd5a5c4934a9e6d6698c84d1d376b3acb921e01bdd935a24e5a422c8d"
+        },
+        {
+          "page": 44,
+          "image_id": 8440016,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440016.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-044-8440016.jpg",
+          "size_bytes": 150625,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "d365bb55a737d121705dd7c3bab297928faa8ee71964597ecbb8141f2579e133"
+        },
+        {
+          "page": 45,
+          "image_id": 8440017,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440017.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-045-8440017.jpg",
+          "size_bytes": 154318,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "08094deb947d74a56ae607faae3d26b0d4d1cda1027e9698383d781d58462aa5"
+        },
+        {
+          "page": 46,
+          "image_id": 8440018,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440018.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-046-8440018.jpg",
+          "size_bytes": 193018,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "7d3f5d475d2a39f8dd98853a5534b5c5b32bda932174bc7ef74da42a24950a27"
+        },
+        {
+          "page": 47,
+          "image_id": 8440019,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440019.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-047-8440019.jpg",
+          "size_bytes": 153803,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "7d9c089317445e8cb4c7c75d13e73f0318358b20590c50c5dbc82cf60942693e"
+        },
+        {
+          "page": 48,
+          "image_id": 8440020,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440020.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-048-8440020.jpg",
+          "size_bytes": 161779,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "7e5379d7779af1ba509e6a60b0760898ce96634a3192121bf56fb0d9de11bb6a"
+        },
+        {
+          "page": 49,
+          "image_id": 8440021,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440021.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-049-8440021.jpg",
+          "size_bytes": 185967,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "15c53cdbb592aaa6bb7345f73db7b9868a4d1032b46b0ff41db67aa0cbd7488c"
+        },
+        {
+          "page": 50,
+          "image_id": 8440022,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8440022.jpg",
+          "relative_path": "02-原始论文/P01-B477/官方页图/page-050-8440022.jpg",
+          "size_bytes": 116994,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "9a8a1691f09182bb36261354489e40c1c99c5814ae93d04d29dc27fcf9bb7ab2"
+        }
+      ]
+    },
+    {
+      "id": "P02-B311",
+      "display_id": "B311",
+      "official_page_url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2023qgdxssxjmjslwzs_2023btlw/231104/1865118.shtml",
+      "page_count": 34,
+      "pdf_relative_path": "02-原始论文/P02-B311/P02-B311-官方页图合订-v001.pdf",
+      "pdf_size_bytes": 2506206,
+      "pdf_sha256": "7ec7a0c3bfe3d59a711f5b988319858711bd68e8199a4ae33f81590aa0c39496",
+      "pages": [
+        {
+          "page": 1,
+          "image_id": 8439939,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439939.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-001-8439939.jpg",
+          "size_bytes": 226519,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "ce532042f88687f43f091f7b51631b06a67594df0c1ded1ce4c4502f9a890726"
+        },
+        {
+          "page": 2,
+          "image_id": 8439940,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439940.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-002-8439940.jpg",
+          "size_bytes": 270206,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "2ade4bdecb943252df02b48b7c4dd3fcd764c1d0840870230a0146845b521544"
+        },
+        {
+          "page": 3,
+          "image_id": 8439941,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439941.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-003-8439941.jpg",
+          "size_bytes": 276316,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "363648f140ca52db06714d7c6daf5f09279722a4b6c420a873570be8c3c83adb"
+        },
+        {
+          "page": 4,
+          "image_id": 8439942,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439942.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-004-8439942.jpg",
+          "size_bytes": 146515,
+          "width_px": 700,
+          "height_px": 990,
+          "sha256": "49c5b16c91e9762cbc87f8a775fbc0cdba0a70682f82fc0ae6ee221730df39fb"
+        },
+        {
+          "page": 5,
+          "image_id": 8439943,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439943.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-005-8439943.jpg",
+          "size_bytes": 128469,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "27ac50619454f1ac08bfbb7b6a23db6b6977ca25ec376872b1cd5943b814543f"
+        },
+        {
+          "page": 6,
+          "image_id": 8439944,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439944.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-006-8439944.jpg",
+          "size_bytes": 171170,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "818e558586a38cea72a493efd0250a394f4fff8a5c78d68e2a14d25d354bc0da"
+        },
+        {
+          "page": 7,
+          "image_id": 8439945,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439945.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-007-8439945.jpg",
+          "size_bytes": 158186,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "6502b00807bac7e7e536b5720834a58076d2da956a47d81b632fe80190af1ea0"
+        },
+        {
+          "page": 8,
+          "image_id": 8439946,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439946.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-008-8439946.jpg",
+          "size_bytes": 142383,
+          "width_px": 700,
+          "height_px": 990,
+          "sha256": "db1b33413c80f36173d4b25b08a39d0825ef72921f371651b7945245278c5e67"
+        },
+        {
+          "page": 9,
+          "image_id": 8439947,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439947.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-009-8439947.jpg",
+          "size_bytes": 222425,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "d15cb8ecc3020e6f4b5d4b459b7b7a7d83ec24edd05fb8bc91416b67923d743d"
+        },
+        {
+          "page": 10,
+          "image_id": 8439948,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439948.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-010-8439948.jpg",
+          "size_bytes": 179613,
+          "width_px": 700,
+          "height_px": 990,
+          "sha256": "196df3bef1b2845f3eda1dc3d9bbdec94f3d10e8fe5228e4b5cf9e876a9ffb59"
+        },
+        {
+          "page": 11,
+          "image_id": 8439949,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439949.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-011-8439949.jpg",
+          "size_bytes": 76480,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "0be663c76e988ed577afc7069e71ecf26a7970e8ef6aed380b09c2ec05db57e1"
+        },
+        {
+          "page": 12,
+          "image_id": 8439950,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439950.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-012-8439950.jpg",
+          "size_bytes": 71914,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "e38b0baa453b35ab0dec091730dbf0b641d62fb77911037c2d742cef0b8781de"
+        },
+        {
+          "page": 13,
+          "image_id": 8439951,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439951.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-013-8439951.jpg",
+          "size_bytes": 172764,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "f1288c369e1687737865f3affb420fc204c12da9dedfecb085300cbcc9ef3927"
+        },
+        {
+          "page": 14,
+          "image_id": 8439952,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439952.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-014-8439952.jpg",
+          "size_bytes": 174414,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "a3c9961429b072c7f007848fadc5681b91023ee2b9d83da8c323040c10c79c21"
+        },
+        {
+          "page": 15,
+          "image_id": 8439953,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439953.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-015-8439953.jpg",
+          "size_bytes": 195243,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "b6e68251e049c43796161805302ea88befe4d6be2376bb59aa9b248f6ac03c02"
+        },
+        {
+          "page": 16,
+          "image_id": 8439954,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439954.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-016-8439954.jpg",
+          "size_bytes": 113944,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "98f9876688ed7d25fdb5c7f3270792b70b44ca4a054f17e32bceda558a304195"
+        },
+        {
+          "page": 17,
+          "image_id": 8439955,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439955.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-017-8439955.jpg",
+          "size_bytes": 209177,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "85357c438f5e863b2228313ac5c6768c9eed4b377a5552ceb551883526c0378c"
+        },
+        {
+          "page": 18,
+          "image_id": 8439956,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439956.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-018-8439956.jpg",
+          "size_bytes": 115775,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "71b4b4df31c63911f467c3f47bc72008a179df394c0d882c971ac898f927f102"
+        },
+        {
+          "page": 19,
+          "image_id": 8439957,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439957.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-019-8439957.jpg",
+          "size_bytes": 134617,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "d48a98c4a030b0485186eeda6046cbf7c1dbdcee5c6400e6110a87905ef40985"
+        },
+        {
+          "page": 20,
+          "image_id": 8439958,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439958.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-020-8439958.jpg",
+          "size_bytes": 152789,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "547f36d76b08dfdfb6cecac23a7cdc99063b688f115e2bbd2d47a43b2e86e9b0"
+        },
+        {
+          "page": 21,
+          "image_id": 8439959,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439959.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-021-8439959.jpg",
+          "size_bytes": 165888,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "d19bf15700e58a8fff65f0d417b271d454120ad9fc0ef073fca8c19f6cdde38a"
+        },
+        {
+          "page": 22,
+          "image_id": 8439960,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439960.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-022-8439960.jpg",
+          "size_bytes": 137867,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "2f16f7bf23d873fb88eb11deb7f2af61589603d90904958c35e34d44b1af0da9"
+        },
+        {
+          "page": 23,
+          "image_id": 8439961,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439961.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-023-8439961.jpg",
+          "size_bytes": 133978,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "59111b471fbbe08b84b8d2198085a6623b408301351702e93376493bbf89214e"
+        },
+        {
+          "page": 24,
+          "image_id": 8439962,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439962.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-024-8439962.jpg",
+          "size_bytes": 123445,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "79e34b536405de9649c108d27106da5ec9b975f374f460973a3cc7c519a085d8"
+        },
+        {
+          "page": 25,
+          "image_id": 8439963,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439963.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-025-8439963.jpg",
+          "size_bytes": 125396,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "3292b677b29a15f4d24a4533f4612f8bb1552acb3bad4e4da92d5d57d4a5b9cf"
+        },
+        {
+          "page": 26,
+          "image_id": 8439964,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439964.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-026-8439964.jpg",
+          "size_bytes": 132237,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "52df84a5ae7d15d3db52c8d3328b3c2bbf5af72ef28c43a2d3ceec5cc1d3df9b"
+        },
+        {
+          "page": 27,
+          "image_id": 8439965,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439965.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-027-8439965.jpg",
+          "size_bytes": 122909,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "443e589724811a837546d44f8c588241a20f4c4f742d7b1a1ba183b5b00f40e5"
+        },
+        {
+          "page": 28,
+          "image_id": 8439966,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439966.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-028-8439966.jpg",
+          "size_bytes": 132142,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "3153ed9efde968b70067add2cd9ee4013e60c37ded36993ba9bfc33b6383baf8"
+        },
+        {
+          "page": 29,
+          "image_id": 8439967,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439967.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-029-8439967.jpg",
+          "size_bytes": 126516,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "4f1edf5f7b19eb5218416293053f823051bcd00c3cfb1e972d826f60d0a44327"
+        },
+        {
+          "page": 30,
+          "image_id": 8439968,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439968.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-030-8439968.jpg",
+          "size_bytes": 123599,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "3d09fbf4072762b76174b6b188babeb70227e75965eadd0a50114393b1e2c648"
+        },
+        {
+          "page": 31,
+          "image_id": 8439969,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439969.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-031-8439969.jpg",
+          "size_bytes": 120077,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "fc70c483eda661644ee0b0a5e9fcaf04b43d419856b59fa60ddefa28128d6d1a"
+        },
+        {
+          "page": 32,
+          "image_id": 8439970,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439970.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-032-8439970.jpg",
+          "size_bytes": 105337,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "c1625e0661f446f58f76447bf88c0d7618d70b3c9a022ce1eda78dc898671a5e"
+        },
+        {
+          "page": 33,
+          "image_id": 8439971,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439971.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-033-8439971.jpg",
+          "size_bytes": 112996,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "8fc9929362d01bfb3d2d3d77ec35b471af595382fad16813def7932cb8e523e1"
+        },
+        {
+          "page": 34,
+          "image_id": 8439972,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439972.jpg",
+          "relative_path": "02-原始论文/P02-B311/官方页图/page-034-8439972.jpg",
+          "size_bytes": 41894,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "97857342008831afd8045802c3a6c56ad3f58d4ceeea8effc0a0197a54ea286c"
+        }
+      ]
+    },
+    {
+      "id": "P03-B226",
+      "display_id": "B226",
+      "official_page_url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2023qgdxssxjmjslwzs_2023btlw/231104/1865116.shtml",
+      "page_count": 51,
+      "pdf_relative_path": "02-原始论文/P03-B226/P03-B226-官方页图合订-v001.pdf",
+      "pdf_size_bytes": 4450834,
+      "pdf_sha256": "904951c76fc029b4e439038efef65a42ecfcf26e3a6c528663a4ca31b9f27615",
+      "pages": [
+        {
+          "page": 1,
+          "image_id": 8439888,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439888.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-001-8439888.jpg",
+          "size_bytes": 263173,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "451a6ed7702390dace386b39060b4264899d1a791de7dee171cde0a05cfe5fe2"
+        },
+        {
+          "page": 2,
+          "image_id": 8439889,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439889.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-002-8439889.jpg",
+          "size_bytes": 262245,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "db14362b101eb43bd6843b1e991344b59ef55c9a931e00fb75427d33996e2688"
+        },
+        {
+          "page": 3,
+          "image_id": 8439890,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439890.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-003-8439890.jpg",
+          "size_bytes": 205545,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "6c23cb9318baa7a65478683b2ce7f5e84bcc68caf6e67d8c8ec5c84694df856e"
+        },
+        {
+          "page": 4,
+          "image_id": 8439891,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439891.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-004-8439891.jpg",
+          "size_bytes": 174225,
+          "width_px": 700,
+          "height_px": 990,
+          "sha256": "578c2e027c9cd1b2d3ef2d081158655fb7ed6bd5a7b4b750a0d1db0fcd050fdb"
+        },
+        {
+          "page": 5,
+          "image_id": 8439892,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439892.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-005-8439892.jpg",
+          "size_bytes": 172142,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "71792956b5d0b1093e7bfb8463f2851bdb3386484f110f5d3ab77fbe239cf966"
+        },
+        {
+          "page": 6,
+          "image_id": 8439893,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439893.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-006-8439893.jpg",
+          "size_bytes": 205775,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "42dcb5f065dff8fcb1df732248fcfdf48a7a2762ed86bee4eb24c3eb3ecb94a1"
+        },
+        {
+          "page": 7,
+          "image_id": 8439894,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439894.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-007-8439894.jpg",
+          "size_bytes": 167150,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "7882de62f55ba3f2f2940f82ae7433f3d2b9232ef5577a8ebd5f784cd5679b44"
+        },
+        {
+          "page": 8,
+          "image_id": 8439895,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439895.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-008-8439895.jpg",
+          "size_bytes": 218330,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "51aee2cfb9b6a307a5a08794da583bff6fd625b0341750160db131b0e3f38500"
+        },
+        {
+          "page": 9,
+          "image_id": 8439896,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439896.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-009-8439896.jpg",
+          "size_bytes": 242039,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "67093e1806d248b5790b9e9a7e5f2cb836378553f5882430c50cf89e4428cd5e"
+        },
+        {
+          "page": 10,
+          "image_id": 8439897,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439897.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-010-8439897.jpg",
+          "size_bytes": 166524,
+          "width_px": 700,
+          "height_px": 990,
+          "sha256": "95911d8574777c91f0cf5473f034637842e758c55b198fc9749e441268766df7"
+        },
+        {
+          "page": 11,
+          "image_id": 8439898,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439898.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-011-8439898.jpg",
+          "size_bytes": 172636,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "1ee532943d3fd24f33b540dcb275f03092c98cbbeedfa507ee48966c7dd578fa"
+        },
+        {
+          "page": 12,
+          "image_id": 8439899,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439899.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-012-8439899.jpg",
+          "size_bytes": 172090,
+          "width_px": 700,
+          "height_px": 977,
+          "sha256": "f31e45ff323c47078eb1e1bd82b771ad925659042ca141317481b220e4899589"
+        },
+        {
+          "page": 13,
+          "image_id": 8439900,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439900.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-013-8439900.jpg",
+          "size_bytes": 160229,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "2be1f4877840e0a2212efdffd724091f75652e8b154059542400c0362c9d37c8"
+        },
+        {
+          "page": 14,
+          "image_id": 8439901,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439901.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-014-8439901.jpg",
+          "size_bytes": 250137,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "04ba93f81de6da17a5f34fcc42d5519605b41c2a3f8a259586df60f3799facca"
+        },
+        {
+          "page": 15,
+          "image_id": 8439902,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439902.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-015-8439902.jpg",
+          "size_bytes": 321298,
+          "width_px": 700,
+          "height_px": 1080,
+          "sha256": "4b2ee307c5f11f8e6fc28649bdd01516607ef35eacd492efb13147e197eba2c8"
+        },
+        {
+          "page": 16,
+          "image_id": 8439903,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439903.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-016-8439903.jpg",
+          "size_bytes": 179680,
+          "width_px": 700,
+          "height_px": 995,
+          "sha256": "73fd7b4e52227566a93393810cccde8e02a0d1861e44208ccc87daf82a09b45f"
+        },
+        {
+          "page": 17,
+          "image_id": 8439904,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439904.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-017-8439904.jpg",
+          "size_bytes": 194821,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "89bc37bb1a74e5f0c403f44d7426b3f3ebc481bdf52d5fb0db64f0e653828eab"
+        },
+        {
+          "page": 18,
+          "image_id": 8439905,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439905.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-018-8439905.jpg",
+          "size_bytes": 172092,
+          "width_px": 700,
+          "height_px": 990,
+          "sha256": "e04cc1870a1fefca8e6a4874dbe5e1ada3110bfabff423f9c327c40a2066f1bf"
+        },
+        {
+          "page": 19,
+          "image_id": 8439906,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439906.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-019-8439906.jpg",
+          "size_bytes": 200795,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "658498421294a022e6c552ce6eb7083c1e9566bda4e24cc3e6acedf8b5dc1396"
+        },
+        {
+          "page": 20,
+          "image_id": 8439907,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439907.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-020-8439907.jpg",
+          "size_bytes": 239096,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "9f55ad7be4f2b8353d96b2551f179bab784f927d75ddd56a29021251733ee5e2"
+        },
+        {
+          "page": 21,
+          "image_id": 8439908,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439908.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-021-8439908.jpg",
+          "size_bytes": 202630,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "22aa666427f627bc957080adf1ad3d2df5fc707032b0f63297f972f02bc942d0"
+        },
+        {
+          "page": 22,
+          "image_id": 8439909,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439909.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-022-8439909.jpg",
+          "size_bytes": 247342,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "a522223c1082a5d722a1c2a637f5b512c4af0f18dc5d849eccfa57c9325ecb71"
+        },
+        {
+          "page": 23,
+          "image_id": 8439910,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439910.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-023-8439910.jpg",
+          "size_bytes": 229216,
+          "width_px": 700,
+          "height_px": 1010,
+          "sha256": "fbe136ade2f0ace81590ff73a60bedf01afa0a832275121f73d112142998c083"
+        },
+        {
+          "page": 24,
+          "image_id": 8439911,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439911.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-024-8439911.jpg",
+          "size_bytes": 226169,
+          "width_px": 700,
+          "height_px": 1012,
+          "sha256": "9cab60cfd874cd91d56351955f4994c8a58b6fe4e79f47eb330477e79c65d841"
+        },
+        {
+          "page": 25,
+          "image_id": 8439912,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439912.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-025-8439912.jpg",
+          "size_bytes": 244833,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "bd0c024466cea9e5133eaf89087a856bb1881338f81995ae070eda6a16516a2d"
+        },
+        {
+          "page": 26,
+          "image_id": 8439913,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439913.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-026-8439913.jpg",
+          "size_bytes": 199733,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "b65f1df62fe42fb230b7a041f92189eb34c0c08b18b1be9513c4ad7726431dbf"
+        },
+        {
+          "page": 27,
+          "image_id": 8439914,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439914.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-027-8439914.jpg",
+          "size_bytes": 122023,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "c7ac4cda9f518262d1f0cbf969ca793213e1f684978146cc215e9b37bd113e5c"
+        },
+        {
+          "page": 28,
+          "image_id": 8439915,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439915.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-028-8439915.jpg",
+          "size_bytes": 140844,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "b5fe3d15592ec4252238eaa93af788af61ed1d912ca793df7e4fbc08c8ce1f74"
+        },
+        {
+          "page": 29,
+          "image_id": 8439916,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439916.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-029-8439916.jpg",
+          "size_bytes": 158312,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "ac33a925e0308376d2b1fa1dd09c00d80ecbde5f52e26e83c20114924e4a3aef"
+        },
+        {
+          "page": 30,
+          "image_id": 8439917,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439917.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-030-8439917.jpg",
+          "size_bytes": 127641,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "49297db8ae4f4b5199c7d5721f2bded5fc55712aee74e121c7d3ad9106c4bea7"
+        },
+        {
+          "page": 31,
+          "image_id": 8439918,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439918.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-031-8439918.jpg",
+          "size_bytes": 128846,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "34f26ad7e14862b791ee7b1f28b0061338feb1b02118c2ff2fff1e384a9b4baf"
+        },
+        {
+          "page": 32,
+          "image_id": 8439919,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439919.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-032-8439919.jpg",
+          "size_bytes": 163760,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "d168e94c0daa1c0c0c1aa9f99575e93d54f6847b9b19f80ff1958c2a8b7987b7"
+        },
+        {
+          "page": 33,
+          "image_id": 8439920,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439920.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-033-8439920.jpg",
+          "size_bytes": 138851,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "4a8fbee4b368f0eb02ae17acbb32f92a180675ef329cace89e3ffc76a3431a0e"
+        },
+        {
+          "page": 34,
+          "image_id": 8439921,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439921.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-034-8439921.jpg",
+          "size_bytes": 124077,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "53f1a213d5251c5b03826ebdf4e5e550c89f27c8472df973a5c4bb250650819a"
+        },
+        {
+          "page": 35,
+          "image_id": 8439922,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439922.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-035-8439922.jpg",
+          "size_bytes": 111934,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "19452912a0cc8c7dcdc61ea42e3bcecbf449b796867f48e7b5f5b58e6a39063a"
+        },
+        {
+          "page": 36,
+          "image_id": 8439923,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439923.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-036-8439923.jpg",
+          "size_bytes": 134774,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "f7d472688fe575fd1f793a388e06990998ceaee87d575ed1774ea2560b581c88"
+        },
+        {
+          "page": 37,
+          "image_id": 8439924,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439924.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-037-8439924.jpg",
+          "size_bytes": 119373,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "3f0a4ea18dcec610b9d835dc905fe69940aa5337b1375b808fa90f076ebb4acc"
+        },
+        {
+          "page": 38,
+          "image_id": 8439925,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439925.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-038-8439925.jpg",
+          "size_bytes": 112089,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "44033cbb694815e4e4e0e8c128c8a61ee7855196e3e3ac64753d9fde71652ad9"
+        },
+        {
+          "page": 39,
+          "image_id": 8439926,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439926.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-039-8439926.jpg",
+          "size_bytes": 128769,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "7302fcf2cf7c9d8d4e08c5f172c87c9b6cb752766f6bc7b97592275868f88af2"
+        },
+        {
+          "page": 40,
+          "image_id": 8439927,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439927.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-040-8439927.jpg",
+          "size_bytes": 121691,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "082fb1f4bbff1f3c57631e8a46cb1f3ea4f705ed9a2652e44ba3872305f3e510"
+        },
+        {
+          "page": 41,
+          "image_id": 8439928,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439928.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-041-8439928.jpg",
+          "size_bytes": 111311,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "9e8594b28119ae65c34006177d361deedad2eabb2ccea185daf2388233029561"
+        },
+        {
+          "page": 42,
+          "image_id": 8439929,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439929.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-042-8439929.jpg",
+          "size_bytes": 178203,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "1266f073fa9425c7b3287dace803c192219fabd90e03d3952c2534b8e2750bdc"
+        },
+        {
+          "page": 43,
+          "image_id": 8439930,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439930.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-043-8439930.jpg",
+          "size_bytes": 117550,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "37be6f0153005fce84dc787f5eae682213c110a0ccab49ee3226accfe3061c9a"
+        },
+        {
+          "page": 44,
+          "image_id": 8439931,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439931.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-044-8439931.jpg",
+          "size_bytes": 124221,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "adf4da6fd64bd7b136947d108f7564d8d77aea04e62dd3dc4394f101e8642e24"
+        },
+        {
+          "page": 45,
+          "image_id": 8439932,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439932.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-045-8439932.jpg",
+          "size_bytes": 120031,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "916b291a210e3ae1825f05d78fbb4f89e625532ff02ae358b10b91f5d1a9e45f"
+        },
+        {
+          "page": 46,
+          "image_id": 8439933,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439933.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-046-8439933.jpg",
+          "size_bytes": 151023,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "574f8b3e7b1a84c4eb66503094f08d3430927a3e3fb6a6aa37373c665ce51ea3"
+        },
+        {
+          "page": 47,
+          "image_id": 8439934,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439934.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-047-8439934.jpg",
+          "size_bytes": 120885,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "70e979a1ed41e9ab1ff7c43768eb652b984dc51dcf1457f2865fc504881aa8e7"
+        },
+        {
+          "page": 48,
+          "image_id": 8439935,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439935.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-048-8439935.jpg",
+          "size_bytes": 118489,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "df65d9895984b697b998600e67564eb949f8e319fbb61300be22f63bbe553ceb"
+        },
+        {
+          "page": 49,
+          "image_id": 8439936,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439936.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-049-8439936.jpg",
+          "size_bytes": 143605,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "7951151cbfc7f9532d6d3ffb56955b755a2c143f1c506775901f272e16d46255"
+        },
+        {
+          "page": 50,
+          "image_id": 8439937,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439937.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-050-8439937.jpg",
+          "size_bytes": 140853,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "40c78892ae8da816c6b4f0501d6fccbe07bad9da5a31d76be7e9c5638167c2d3"
+        },
+        {
+          "page": 51,
+          "image_id": 8439938,
+          "url": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/8439938.jpg",
+          "relative_path": "02-原始论文/P03-B226/官方页图/page-051-8439938.jpg",
+          "size_bytes": 145721,
+          "width_px": 700,
+          "height_px": 989,
+          "sha256": "ea1c8afbb3d0ca1e57b3674c8b0bb4b5a583139dbc705204946e0db7d4f5c6cc"
+        }
+      ]
+    }
+  ]
+}

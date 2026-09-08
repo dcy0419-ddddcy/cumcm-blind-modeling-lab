@@ -1,0 +1,396 @@
+{
+  "schema_version": "blind-solution-freeze-verification-v001",
+  "freeze_time_local": "2026-09-08T21:16:47.9162964+08:00",
+  "verification_time_local": "2026-09-08T22:31:53.9695383+08:00",
+  "manifest_path": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛\\题库\\B题\\2023\\揭晓后参考\\00-盲解冻结\\盲解文件清单-v001.json",
+  "core_file_count": 55,
+  "matched_count": 55,
+  "all_core_hashes_matched": true,
+  "comparisons": [
+    {
+      "relative_path": "工作记录/代码/Q01/运行说明-v001.md",
+      "expected_sha256": "170a4c7c383ee45f12ad022ea5b4b5cc3c3a6cbfb6b34390cddd921b3a6a4596",
+      "actual_sha256": "170a4c7c383ee45f12ad022ea5b4b5cc3c3a6cbfb6b34390cddd921b3a6a4596",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q01/q01_generate_result_v001.mjs",
+      "expected_sha256": "dd9b652ea29141ce8133c56a8e5a3b4994a1acc971849c1544ab312ff41f6a09",
+      "actual_sha256": "dd9b652ea29141ce8133c56a8e5a3b4994a1acc971849c1544ab312ff41f6a09",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q01/q01_model_v001.py",
+      "expected_sha256": "3992be96d1338e120441f938570232e6ca56bc39b2d17c0ffa98dbc5b11ed765",
+      "actual_sha256": "3992be96d1338e120441f938570232e6ca56bc39b2d17c0ffa98dbc5b11ed765",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q01/q01_symbol_revision_v002.py",
+      "expected_sha256": "53953fe4ee827936d9327125f5e1a8122715bd3aeaa0a466009b34bb94d4fa5b",
+      "actual_sha256": "53953fe4ee827936d9327125f5e1a8122715bd3aeaa0a466009b34bb94d4fa5b",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q01/q01_verify_v001.py",
+      "expected_sha256": "1573bc69a180ec6f610c2590d74851eb0431e864792ca00675dfbfb3711431b7",
+      "actual_sha256": "1573bc69a180ec6f610c2590d74851eb0431e864792ca00675dfbfb3711431b7",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q02/q02_generate_result_v001.mjs",
+      "expected_sha256": "f4b466d038df9966aa3c0a81ec0d60722b32b393ca66f9196f1a77c3246d5cdf",
+      "actual_sha256": "f4b466d038df9966aa3c0a81ec0d60722b32b393ca66f9196f1a77c3246d5cdf",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q02/q02_model_v001.py",
+      "expected_sha256": "b76e620bbf4dd76c83bd1e0305089b1b942e224367c2143793e5041bb46d227b",
+      "actual_sha256": "b76e620bbf4dd76c83bd1e0305089b1b942e224367c2143793e5041bb46d227b",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q02/q02_verify_v001.py",
+      "expected_sha256": "edda7b9ec75af58f840c844e68366bc40e10ad253b79e84edc5a75383a0a4693",
+      "actual_sha256": "edda7b9ec75af58f840c844e68366bc40e10ad253b79e84edc5a75383a0a4693",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q03/q03_design_v001.py",
+      "expected_sha256": "8e11ca721bc364c390d4a4683fef19f0eb8a2b133cd3f6baf39176f17b6f811a",
+      "actual_sha256": "8e11ca721bc364c390d4a4683fef19f0eb8a2b133cd3f6baf39176f17b6f811a",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q03/q03_generate_workbook_v001.mjs",
+      "expected_sha256": "5ac8d008a281f745c31e4617e0b980079649d303d859cff8e5f2e14b0b6fb00a",
+      "actual_sha256": "5ac8d008a281f745c31e4617e0b980079649d303d859cff8e5f2e14b0b6fb00a",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q03/q03_verify_v001.py",
+      "expected_sha256": "6e95587c0492ad9e81c28128f49980d81a27f108768d4feb9b08fb0195534ba1",
+      "actual_sha256": "6e95587c0492ad9e81c28128f49980d81a27f108768d4feb9b08fb0195534ba1",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q04/q04_design_v001.py",
+      "expected_sha256": "7bc124a3978f03a05bf5a913489b834da49f915075a50b981558ef05ad661a3c",
+      "actual_sha256": "7bc124a3978f03a05bf5a913489b834da49f915075a50b981558ef05ad661a3c",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q04/q04_extract_source_v001.mjs",
+      "expected_sha256": "7b0e80d99efc817420436e45d3797a670323ccffb339c46816da134a551f3c86",
+      "actual_sha256": "7b0e80d99efc817420436e45d3797a670323ccffb339c46816da134a551f3c86",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q04/q04_generate_workbook_v001.mjs",
+      "expected_sha256": "9989ef07a8d800708f26af5f214d666f68b5f37610543697a2ef5a059b5aeb5e",
+      "actual_sha256": "9989ef07a8d800708f26af5f214d666f68b5f37610543697a2ef5a059b5aeb5e",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q04/q04_terrain_v001.py",
+      "expected_sha256": "4e8791c0540641563d29197267434c737ec93ec193703537eebcfce8d9b44c61",
+      "actual_sha256": "4e8791c0540641563d29197267434c737ec93ec193703537eebcfce8d9b44c61",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/代码/Q04/q04_verify_v001.py",
+      "expected_sha256": "898537d7e4af15d802cb62a03fb3e8ec3fd930d02f8ba40eaf8d5f5143255814",
+      "actual_sha256": "898537d7e4af15d802cb62a03fb3e8ec3fd930d02f8ba40eaf8d5f5143255814",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/阶段记录/Q01-第1问结果-v001.md",
+      "expected_sha256": "5503e8eb88213b45379e2a00fcc3f10dcbba404951f8e17add707047f6735427",
+      "actual_sha256": "5503e8eb88213b45379e2a00fcc3f10dcbba404951f8e17add707047f6735427",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/阶段记录/Q02-第2问结果-v001.md",
+      "expected_sha256": "1dcdd4392b58eb19e049951ed19b3d2f74c9d66eac37327c7925a53ce5198fba",
+      "actual_sha256": "1dcdd4392b58eb19e049951ed19b3d2f74c9d66eac37327c7925a53ce5198fba",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/阶段记录/Q03-第3问结果-v001.md",
+      "expected_sha256": "85a85df1e0c3eff4815442223ad7e483622cad0dcbebaf0ca4bca433bbe091ae",
+      "actual_sha256": "85a85df1e0c3eff4815442223ad7e483622cad0dcbebaf0ca4bca433bbe091ae",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/阶段记录/Q04-第4问结果-v001.md",
+      "expected_sha256": "10bd60fcacecd7b5e6d35211944e24fbf30eed17dd4e3c937ba894a3b37c048f",
+      "actual_sha256": "10bd60fcacecd7b5e6d35211944e24fbf30eed17dd4e3c937ba894a3b37c048f",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/结果/Q01/result1-v001.xlsx",
+      "expected_sha256": "d4bc09871a05c3dfff4567f9bb4dc08cedbebf4aa5c53b4f93e438ec3283866f",
+      "actual_sha256": "d4bc09871a05c3dfff4567f9bb4dc08cedbebf4aa5c53b4f93e438ec3283866f",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/结果/Q02/result2-v001.xlsx",
+      "expected_sha256": "cdeb6e57a465bbd91a27dcfffec1d43566f9c3ce71a316de8dae0f1b3ac6b79d",
+      "actual_sha256": "cdeb6e57a465bbd91a27dcfffec1d43566f9c3ce71a316de8dae0f1b3ac6b79d",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/结果/Q03/第3问测线设计-v001.xlsx",
+      "expected_sha256": "0350ff67f50586dccecf9b4f44d0af58aff5c9bfda4e225adaf3fa6a02e73ad1",
+      "actual_sha256": "0350ff67f50586dccecf9b4f44d0af58aff5c9bfda4e225adaf3fa6a02e73ad1",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/结果/Q04/第4问测线设计-v001.xlsx",
+      "expected_sha256": "f9ba6e846928f15f89eef6cda3334922fd11cb9d6654a8fc995c117a7e85336e",
+      "actual_sha256": "f9ba6e846928f15f89eef6cda3334922fd11cb9d6654a8fc995c117a7e85336e",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/论文/第1问-模型建立与求解-v002.md",
+      "expected_sha256": "802a4aecbb874bcbc1b11ee113d8fdc32118ebd543751b1daff851073158ab45",
+      "actual_sha256": "802a4aecbb874bcbc1b11ee113d8fdc32118ebd543751b1daff851073158ab45",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/论文/第1问-正文证据映射-v002.md",
+      "expected_sha256": "6ead31183012d492b225453b3c6de9c93859eb4ba2f8ac80dc2649715a4c2cfb",
+      "actual_sha256": "6ead31183012d492b225453b3c6de9c93859eb4ba2f8ac80dc2649715a4c2cfb",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/论文/第2问-模型建立与求解-v001.md",
+      "expected_sha256": "f214eb66b16360dd97b666a076cd0a4a4e92ed06cf7ad71e87b24d9fc1e64b9d",
+      "actual_sha256": "f214eb66b16360dd97b666a076cd0a4a4e92ed06cf7ad71e87b24d9fc1e64b9d",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/论文/第2问-正文证据映射-v001.md",
+      "expected_sha256": "e356dfa457fed2f5a94624cbebfebf6ba230c9da57a7a00b0a7728e494b202cd",
+      "actual_sha256": "e356dfa457fed2f5a94624cbebfebf6ba230c9da57a7a00b0a7728e494b202cd",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/论文/第3问-模型建立与求解-v001.md",
+      "expected_sha256": "5aff9c5c809e484199b58b61f0d5bc9fd0cf3c36dcd76cee1948c0ce4e403c05",
+      "actual_sha256": "5aff9c5c809e484199b58b61f0d5bc9fd0cf3c36dcd76cee1948c0ce4e403c05",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/论文/第3问-正文证据映射-v001.md",
+      "expected_sha256": "405c7f33738f6d2867a879e5183c8ec2758b135ccd5d51f5d88f72f9cbbf111e",
+      "actual_sha256": "405c7f33738f6d2867a879e5183c8ec2758b135ccd5d51f5d88f72f9cbbf111e",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/论文/第4问-模型建立与求解-v001.md",
+      "expected_sha256": "85c7f9ec1d6de159b787bb919377b6b42d328fbedfc2ced3c4fd855e5c0b8b8b",
+      "actual_sha256": "85c7f9ec1d6de159b787bb919377b6b42d328fbedfc2ced3c4fd855e5c0b8b8b",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/论文/第4问-正文证据映射-v001.md",
+      "expected_sha256": "19b0f8a5f1be906e6916b04700cbaeedd92fd3656f30a02ccb772deb00b18d96",
+      "actual_sha256": "19b0f8a5f1be906e6916b04700cbaeedd92fd3656f30a02ccb772deb00b18d96",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/论文/全题整合/结果与来源表-v001.md",
+      "expected_sha256": "6d495aa0d26a00609a93de87023f0611a6f3e947d355a6cb5dbbcbac16e896b2",
+      "actual_sha256": "6d495aa0d26a00609a93de87023f0611a6f3e947d355a6cb5dbbcbac16e896b2",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/论文/全题整合/完整论文-v001.md",
+      "expected_sha256": "30120b0839d15b06ff82a5c7f1ad94804e0fecc19ff71a4d9d862d4241ccbf02",
+      "actual_sha256": "30120b0839d15b06ff82a5c7f1ad94804e0fecc19ff71a4d9d862d4241ccbf02",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/论文/全题整合/完整论文-v001.pdf",
+      "expected_sha256": "4ae8d0f9fcc4aa051bf8cd203285eb1465b4dcc829afb64e6729b3b2aab196f7",
+      "actual_sha256": "4ae8d0f9fcc4aa051bf8cd203285eb1465b4dcc829afb64e6729b3b2aab196f7",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/论文/全题整合/完整论文-v001.tex",
+      "expected_sha256": "b96342027ca9db5f69f6673e4c423cdfe8b6295dd5a093495d299a5295d7a3be",
+      "actual_sha256": "b96342027ca9db5f69f6673e4c423cdfe8b6295dd5a093495d299a5295d7a3be",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/论文/全题整合/正文证据映射-v001.md",
+      "expected_sha256": "90b912abcc4bd656160ae8a71f3f3ff8a36bebaa22a867bac5e41957d7fe523b",
+      "actual_sha256": "90b912abcc4bd656160ae8a71f3f3ff8a36bebaa22a867bac5e41957d7fe523b",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/论文PDF核验-v001.json",
+      "expected_sha256": "8e2286c1435fd11cae4d2c3021ac3fffea6c88008eb1f57d8a35f02a9fca38ec",
+      "actual_sha256": "8e2286c1435fd11cae4d2c3021ac3fffea6c88008eb1f57d8a35f02a9fca38ec",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q01/q01_excel_audit_v001.json",
+      "expected_sha256": "a105c134faec9f81bb6f92296ea965256e6a75ac5f891167735e21f9ed1e533d",
+      "actual_sha256": "a105c134faec9f81bb6f92296ea965256e6a75ac5f891167735e21f9ed1e533d",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q01/q01_model_output_v001.json",
+      "expected_sha256": "cc0cb20a6ed2258322bbedd7638ee11a56e7661c11b7577af72584fde9cf4472",
+      "actual_sha256": "cc0cb20a6ed2258322bbedd7638ee11a56e7661c11b7577af72584fde9cf4472",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q01/q01_symbol_equivalence_v002.json",
+      "expected_sha256": "ae2915050ea3ef31791cb97483459d8f055892cf82858fe0f4829fdf34691cf9",
+      "actual_sha256": "ae2915050ea3ef31791cb97483459d8f055892cf82858fe0f4829fdf34691cf9",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q01/q01_verification_v001.json",
+      "expected_sha256": "056208f7eb11b4aa09e176bf89c49f27e524a83a27f4348a4fcc7ce2caf92785",
+      "actual_sha256": "056208f7eb11b4aa09e176bf89c49f27e524a83a27f4348a4fcc7ce2caf92785",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q02/q02_excel_audit_v001.json",
+      "expected_sha256": "ad43ad4b1fb2afe1292ffd4db9ce7c5b8ec198326461fa820390f974ae0f4445",
+      "actual_sha256": "ad43ad4b1fb2afe1292ffd4db9ce7c5b8ec198326461fa820390f974ae0f4445",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q02/q02_model_output_v001.json",
+      "expected_sha256": "b0e545f71054893a53cb17d1d1dcce2386e2e2af04006f52f547f1d4bd30281a",
+      "actual_sha256": "b0e545f71054893a53cb17d1d1dcce2386e2e2af04006f52f547f1d4bd30281a",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q02/q02_verification_v001.json",
+      "expected_sha256": "1f48d22d725eb0d67ca5275953a69b5e63521e6f05b83a23de4968c5c3a62c54",
+      "actual_sha256": "1f48d22d725eb0d67ca5275953a69b5e63521e6f05b83a23de4968c5c3a62c54",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q03/q03_design_output_v001.json",
+      "expected_sha256": "1c46c612d680082d68a58543c796cd76d082cc7df231ad486f04b72b44ae872c",
+      "actual_sha256": "1c46c612d680082d68a58543c796cd76d082cc7df231ad486f04b72b44ae872c",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q03/q03_excel_audit_v001.json",
+      "expected_sha256": "ae5aee54879e9c537adae9b80c6a2ff91deb7a0d72fdaecb07395ee462155e01",
+      "actual_sha256": "ae5aee54879e9c537adae9b80c6a2ff91deb7a0d72fdaecb07395ee462155e01",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q03/q03_verification_v001.json",
+      "expected_sha256": "e7068f70283de42a78c6bee0668888abdeaae80b723ec79684888d165d5b6a92",
+      "actual_sha256": "e7068f70283de42a78c6bee0668888abdeaae80b723ec79684888d165d5b6a92",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q04/q04_design_output_v001.json",
+      "expected_sha256": "b7b219b39c19dca5fb68fafd5b31d4b309041a377f8b7494b39af9449d600dc8",
+      "actual_sha256": "b7b219b39c19dca5fb68fafd5b31d4b309041a377f8b7494b39af9449d600dc8",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q04/q04_excel_audit_v001.json",
+      "expected_sha256": "ab62625e1de0c312b32f3a2dfce98f7bc98cc0e960dabf23739e88187d565629",
+      "actual_sha256": "ab62625e1de0c312b32f3a2dfce98f7bc98cc0e960dabf23739e88187d565629",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q04/q04_source_grid_v001.json",
+      "expected_sha256": "822c03dc9b9fecdaf7bd894e15de4a04e1db22c3d6b7642666e7f7e71a04aa1d",
+      "actual_sha256": "822c03dc9b9fecdaf7bd894e15de4a04e1db22c3d6b7642666e7f7e71a04aa1d",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q04/q04_terrain_model_v001.json",
+      "expected_sha256": "f481e0870a01d51fae2dddbd9e7416d80659311f3147868ed8b97b106dd32d09",
+      "actual_sha256": "f481e0870a01d51fae2dddbd9e7416d80659311f3147868ed8b97b106dd32d09",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "工作记录/诊断结果/Q04/q04_verification_v001.json",
+      "expected_sha256": "231c755d3244b1c1403bfb42aba636fd6cde91e23ef8122356805a6d12de0cf6",
+      "actual_sha256": "231c755d3244b1c1403bfb42aba636fd6cde91e23ef8122356805a6d12de0cf6",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "result1.xlsx",
+      "expected_sha256": "d4bc09871a05c3dfff4567f9bb4dc08cedbebf4aa5c53b4f93e438ec3283866f",
+      "actual_sha256": "d4bc09871a05c3dfff4567f9bb4dc08cedbebf4aa5c53b4f93e438ec3283866f",
+      "exists": true,
+      "matched": true
+    },
+    {
+      "relative_path": "result2.xlsx",
+      "expected_sha256": "cdeb6e57a465bbd91a27dcfffec1d43566f9c3ce71a316de8dae0f1b3ac6b79d",
+      "actual_sha256": "cdeb6e57a465bbd91a27dcfffec1d43566f9c3ce71a316de8dae0f1b3ac6b79d",
+      "exists": true,
+      "matched": true
+    }
+  ]
+}

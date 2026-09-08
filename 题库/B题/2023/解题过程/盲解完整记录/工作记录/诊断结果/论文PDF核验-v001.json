@@ -1,0 +1,39 @@
+{
+  "artifact": "工作记录/论文/全题整合/完整论文-v001.pdf",
+  "sha256": "4ae8d0f9fcc4aa051bf8cd203285eb1465b4dcc829afb64e6729b3b2aab196f7",
+  "page_count": 13,
+  "page_size": "A4, 595.28 x 841.89 pt",
+  "compile_route": {
+    "latexmk_attempt": "failed before compilation because the local MiKTeX installation has no Perl script engine",
+    "offline_fallback": "direct XeLaTeX",
+    "xelatex_successful_passes": 3,
+    "final_log": "工作记录/论文/全题整合/完整论文-v001.log"
+  },
+  "log_checks": {
+    "unresolved_references": 0,
+    "missing_images": 0,
+    "overfull_boxes": 0,
+    "underfull_boxes": 0,
+    "multiply_defined_labels": 0
+  },
+  "render": {
+    "tool": "pdftoppm",
+    "dpi": 130,
+    "directory": "工作记录/诊断结果/论文PDF逐页检查-v001-final",
+    "rendered_pages": 13
+  },
+  "visual_checks": {
+    "pages_actually_viewed": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "blank_pages": 0,
+    "garbled_text_pages": 0,
+    "cropped_or_overlapping_pages": 0,
+    "page_number_anomalies": 0,
+    "missing_or_unrendered_content": 0,
+    "tables_readable": true,
+    "figures_and_captions_readable": true,
+    "abstract_and_conclusion_numbers_match_sources": true,
+    "all_passed": true
+  },
+  "revision_note": "An initial 13-page rendering showed the page-12 footer too close to the final list item. Bottom margin, foot skip, and table row spacing were adjusted; the PDF was recompiled and all 13 final pages were rendered and viewed again.",
+  "all_passed": true
+}

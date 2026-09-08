@@ -1,0 +1,82 @@
+{
+  "sheets": [
+    "摘要",
+    "测线设计",
+    "候选比较",
+    "精度验证"
+  ],
+  "line_count": 86,
+  "header_count": 18,
+  "key_first_line": [
+    1,
+    "BSV-L001",
+    "BSV",
+    "vertical",
+    "south-to-north",
+    90,
+    40.07965568714378,
+    40.07965568714378,
+    0,
+    40.07965568714378,
+    4630,
+    4630,
+    0,
+    7408,
+    0,
+    4630,
+    24.183587172315633,
+    0.33320058005050496
+  ],
+  "key_last_line": [
+    86,
+    "BNH-L027",
+    "BNH",
+    "horizontal",
+    "west-to-east",
+    0,
+    9148.054594562203,
+    0,
+    9148.054594562203,
+    7408,
+    9148.054594562203,
+    7408,
+    4630,
+    9260,
+    0,
+    7408,
+    79.91041780944242,
+    0.6765329529221218
+  ],
+  "candidate_count": 9,
+  "verification_check_count": 12,
+  "formula_error_count": 0,
+  "all_passed": true,
+  "inspection": {
+    "recordCount": 9,
+    "truncated": false,
+    "metadata": {
+      "revision": "18zimy",
+      "target": {
+        "id": "wb/kev5rq",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "workbook,sheet,region,formula",
+        "tokens": [
+          "workbook",
+          "sheet",
+          "region",
+          "formula"
+        ]
+      },
+      "include": {
+        "tokens": []
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  }
+}

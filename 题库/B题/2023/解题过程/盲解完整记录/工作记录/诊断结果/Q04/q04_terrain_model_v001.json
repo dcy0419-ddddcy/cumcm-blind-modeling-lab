@@ -1,0 +1,35 @@
+{
+  "source_sha256": "094da760e1aed5577546f5b64f28cd7346d88f8900563162f05522aff188d11b",
+  "shape": [
+    251,
+    201
+  ],
+  "x_range_nmi": [
+    0.0,
+    4.0
+  ],
+  "y_range_nmi": [
+    0.0,
+    5.0
+  ],
+  "dx_m": 37.040000000000035,
+  "dy_m": 37.040000000000035,
+  "depth_min_m": 20.0,
+  "depth_max_m": 197.2,
+  "depth_mean_m": 62.53868466432777,
+  "bilinear_node_reconstruction_max_error_m": 5.684341886080802e-14,
+  "slope_deg": {
+    "min": 0.0,
+    "median": 0.6189141729108174,
+    "p95": 2.2200231811196574,
+    "max": 3.371878590644658
+  },
+  "mean_elevation_gradient": [
+    -0.010299447793002145,
+    -0.0006629564182049826
+  ],
+  "mean_uphill_azimuth_deg_from_east": -176.31705742509672,
+  "bilinear_vs_tri_main_max_depth_difference_m": 0.004444444444487772,
+  "bilinear_vs_tri_anti_max_depth_difference_m": 0.00444444444445935,
+  "triangulation_max_depth_difference_m": 0.006666666666689025
+}

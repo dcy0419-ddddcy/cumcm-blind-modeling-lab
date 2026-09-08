@@ -1,0 +1,3 @@
+# Preserve frozen blind-solution artifacts byte-for-byte.
+# Historical files may intentionally end with more than one newline.
+* -text whitespace=-blank-at-eof,cr-at-eol

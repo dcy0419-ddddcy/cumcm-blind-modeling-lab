@@ -1,0 +1,323 @@
+{
+  "q1": {
+    "ours": {
+      "positions_m": [
+        -800.0,
+        -600.0,
+        -400.0,
+        -200.0,
+        0.0,
+        200.0,
+        400.0,
+        600.0,
+        800.0
+      ],
+      "depth_m": [
+        90.95,
+        85.71,
+        80.47,
+        75.24,
+        70.0,
+        64.76,
+        59.53,
+        54.29,
+        49.05
+      ],
+      "coverage_width_m": [
+        315.81,
+        297.63,
+        279.44,
+        261.26,
+        243.07,
+        224.88,
+        206.7,
+        188.51,
+        170.33
+      ],
+      "previous_denominator_overlap_pct": [
+        33.64,
+        29.59,
+        25.0,
+        19.78,
+        13.78,
+        6.81,
+        -1.39,
+        -11.17
+      ]
+    },
+    "papers": {
+      "P01-B477": {
+        "overlap_pct": [
+          35.7,
+          31.5,
+          26.7,
+          21.3,
+          14.9,
+          7.4,
+          -1.5,
+          -12.4
+        ],
+        "basis": "current-strip denominator; displayed as proportions in a row mislabeled percent"
+      },
+      "P02-B311": {
+        "overlap_pct": [
+          34.71,
+          30.59,
+          25.91,
+          20.56,
+          14.37,
+          7.14,
+          -1.42,
+          -11.73
+        ],
+        "basis": "sum of the facing half-swaths AC+EF"
+      },
+      "P03-B226": {
+        "overlap_pct": [
+          35.7,
+          31.51,
+          26.74,
+          21.26,
+          14.89,
+          7.41,
+          -1.53,
+          -12.36
+        ],
+        "basis": "current-strip denominator"
+      },
+      "P04-张泽宇等": {
+        "overlap_pct": [
+          35.6954,
+          31.5106,
+          26.7431,
+          21.2622,
+          14.8949,
+          7.4072,
+          -1.5252,
+          -12.365
+        ],
+        "basis": "current-strip denominator"
+      },
+      "P05-史鸿宇等": {
+        "overlap_pct": [
+          29.59,
+          25.0,
+          19.78,
+          13.78,
+          6.81,
+          -1.39,
+          -11.17,
+          -23.04
+        ],
+        "basis": "table is shifted/misaligned relative to its own geometry and prose"
+      }
+    },
+    "all_five_depths_and_widths_match_to_display_precision": true,
+    "leak_positions_ours_m": [
+      600,
+      800
+    ],
+    "gap_m_ours": {
+      "600": 2.875,
+      "800": 21.061
+    }
+  },
+  "q2": {
+    "ours_2dp": [
+      [
+        415.69,
+        466.09,
+        516.49,
+        566.89,
+        617.29,
+        667.69,
+        718.09,
+        768.48
+      ],
+      [
+        416.19,
+        451.87,
+        487.55,
+        523.23,
+        558.91,
+        594.59,
+        630.27,
+        665.95
+      ],
+      [
+        416.69,
+        416.69,
+        416.69,
+        416.69,
+        416.69,
+        416.69,
+        416.69,
+        416.69
+      ],
+      [
+        416.19,
+        380.51,
+        344.83,
+        309.15,
+        273.47,
+        237.79,
+        202.11,
+        166.43
+      ],
+      [
+        415.69,
+        365.29,
+        314.89,
+        264.5,
+        214.1,
+        163.7,
+        113.3,
+        62.9
+      ],
+      [
+        416.19,
+        380.51,
+        344.83,
+        309.15,
+        273.47,
+        237.79,
+        202.11,
+        166.43
+      ],
+      [
+        416.69,
+        416.69,
+        416.69,
+        416.69,
+        416.69,
+        416.69,
+        416.69,
+        416.69
+      ],
+      [
+        416.19,
+        451.87,
+        487.55,
+        523.23,
+        558.91,
+        594.59,
+        630.27,
+        665.95
+      ]
+    ],
+    "comparisons": {
+      "P01-B477": {
+        "max_absolute_difference_m": 50.0,
+        "max_relative_difference": 0.30042660578020786,
+        "mean_absolute_difference_m": 1.5625,
+        "cells_over_0_01_m": 2,
+        "cells_over_0_1_m": 2,
+        "largest_difference_at": {
+          "beta_deg": 135,
+          "distance_nmi": 2.1,
+          "ours_m": 166.43,
+          "paper_m": 116.43,
+          "signed_difference_m": -50.0
+        },
+        "row_mirror_detected": false,
+        "column_mirror_detected": false,
+        "semantic_alignment": "Same row/column orientation after checking beta definition, distance direction, and units."
+      },
+      "P02-B311": {
+        "max_absolute_difference_m": 0.0,
+        "max_relative_difference": 0.0,
+        "mean_absolute_difference_m": 0.0,
+        "cells_over_0_01_m": 0,
+        "cells_over_0_1_m": 0,
+        "largest_difference_at": {
+          "beta_deg": 0,
+          "distance_nmi": 0.0,
+          "ours_m": 415.69,
+          "paper_m": 415.69,
+          "signed_difference_m": 0.0
+        },
+        "row_mirror_detected": false,
+        "column_mirror_detected": false,
+        "semantic_alignment": "Same row/column orientation after checking beta definition, distance direction, and units."
+      },
+      "P03-B226": {
+        "max_absolute_difference_m": 0.0,
+        "max_relative_difference": 0.0,
+        "mean_absolute_difference_m": 0.0,
+        "cells_over_0_01_m": 0,
+        "cells_over_0_1_m": 0,
+        "largest_difference_at": {
+          "beta_deg": 0,
+          "distance_nmi": 0.0,
+          "ours_m": 415.69,
+          "paper_m": 415.69,
+          "signed_difference_m": 0.0
+        },
+        "row_mirror_detected": false,
+        "column_mirror_detected": false,
+        "semantic_alignment": "Same row/column orientation after checking beta definition, distance direction, and units."
+      },
+      "P04-张泽宇等": {
+        "max_absolute_difference_m": 0.0,
+        "max_relative_difference": 0.0,
+        "mean_absolute_difference_m": 0.0,
+        "cells_over_0_01_m": 0,
+        "cells_over_0_1_m": 0,
+        "largest_difference_at": {
+          "beta_deg": 0,
+          "distance_nmi": 0.0,
+          "ours_m": 415.69,
+          "paper_m": 415.69,
+          "signed_difference_m": 0.0
+        },
+        "row_mirror_detected": false,
+        "column_mirror_detected": false,
+        "semantic_alignment": "Same row/column orientation after checking beta definition, distance direction, and units."
+      },
+      "P05-史鸿宇等": {
+        "max_absolute_difference_m": 0.0799999999999983,
+        "max_relative_difference": 0.00127186009538948,
+        "mean_absolute_difference_m": 0.011875000000000746,
+        "cells_over_0_01_m": 20,
+        "cells_over_0_1_m": 0,
+        "largest_difference_at": {
+          "beta_deg": 180,
+          "distance_nmi": 2.1,
+          "ours_m": 62.9,
+          "paper_m": 62.98,
+          "signed_difference_m": 0.0799999999999983
+        },
+        "row_mirror_detected": false,
+        "column_mirror_detected": false,
+        "semantic_alignment": "Same row/column orientation after checking beta definition, distance direction, and units."
+      }
+    },
+    "direction_model_checked": "D=D0+d*tan(alpha)*cos(beta); effective cross-slope=tan(alpha)*sin(beta); four official/author sources agree to display precision except two isolated P01 cells."
+  },
+  "q3": {
+    "line_count": 34,
+    "total_length_m": 125936.0,
+    "previous_denominator_range_pct": [
+      10.00999999999969,
+      10.010000000000941
+    ],
+    "current_denominator_range_pct": [
+      10.857878812412313,
+      10.857878812413666
+    ],
+    "symmetric_mean_denominator_range_pct": [
+      10.416714404877391,
+      10.41671440487869
+    ],
+    "all_three_conventions_within_10_to_20_percent": true,
+    "independent_sources_with_34_lines_125936m": [
+      "P02-B311",
+      "P03-B226",
+      "P04-张泽宇等"
+    ]
+  },
+  "runtime": {
+    "random_seed": "not applicable",
+    "numpy_version": "2.5.1"
+  }
+}

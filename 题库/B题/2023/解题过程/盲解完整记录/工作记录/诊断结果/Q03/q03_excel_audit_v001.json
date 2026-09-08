@@ -1,0 +1,79 @@
+{
+  "sheets": [
+    "摘要",
+    "测线设计",
+    "候选比较"
+  ],
+  "line_count": 34,
+  "header_count": 18,
+  "key_first_line": [
+    "L01",
+    1,
+    "south-to-north",
+    90,
+    -3345.4782073578917,
+    -1852,
+    -3345.4782073578917,
+    1852,
+    3704,
+    -1.8064137188757514,
+    197.60442994929787,
+    null,
+    686.1679951925131,
+    null,
+    null,
+    null,
+    -3704,
+    -3018.0671374420112
+  ],
+  "key_last_line": [
+    "L34",
+    34,
+    "south-to-north",
+    90,
+    3684.945534287744,
+    -1852,
+    3684.945534287744,
+    1852,
+    3704,
+    1.9897114116024537,
+    13.506305252415501,
+    43.68862771350723,
+    46.89972992956672,
+    5.092315839101502,
+    10.010000000000636,
+    10.85787881241334,
+    3660.44049271398,
+    3707.3241512774466
+  ],
+  "formula_error_count": 0,
+  "all_passed": true,
+  "inspection": {
+    "recordCount": 7,
+    "truncated": false,
+    "metadata": {
+      "revision": "va83y2",
+      "target": {
+        "id": "wb/ogoe9s",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "workbook,sheet,region,formula",
+        "tokens": [
+          "workbook",
+          "sheet",
+          "region",
+          "formula"
+        ]
+      },
+      "include": {
+        "tokens": []
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  }
+}

@@ -1,0 +1,859 @@
+{
+  "audit_scope": "Read-only reevaluation of the frozen Q4 line coordinates; no candidate generation, optimization, or write to the blind workspace.",
+  "blind_design_path": "C:\\Users\\admin\\OneDrive\\Desktop\\26国赛-单题盲解区\\B-M9R2\\工作记录\\诊断结果\\Q04\\q04_design_output_v001.json",
+  "blind_design_sha256": "b7b219b39c19dca5fb68fafd5b31d4b309041a377f8b7494b39af9449d600dc8",
+  "opening_angle_deg": 120.0,
+  "opening_angle_status": "User-approved blind-phase assumption; not a Q4 statement fact.",
+  "line_count": 86,
+  "line_count_by_block": {
+    "south-vertical": 59,
+    "north-horizontal": 27
+  },
+  "total_inside_length_m_recomputed": 473186.0,
+  "resolution_and_offset_slice_union_cases": [
+    {
+      "block": "south-vertical",
+      "axis": "vertical",
+      "representation": "bilinear",
+      "nominal_step_m": 2.5,
+      "offset_fraction": 0.0,
+      "slice_count_including_endpoints_and_source_nodes": 1977,
+      "max_missing_cross_width_m": 0.0,
+      "worst_along_coordinate_m": 0.0,
+      "slices_with_positive_missing_width": 0,
+      "trapezoid_missing_area_m2": 0.0,
+      "max_internal_gap_m": 0.0,
+      "max_left_boundary_gap_m": 0.0,
+      "max_right_boundary_gap_m": 0.0,
+      "minimum_left_overreach_m": 2.842170943040401e-14,
+      "minimum_right_overreach_m": 49.52529256559137,
+      "continuous_claim": false,
+      "interpretation": "Dense one-dimensional slices with exact interval unions on each slice; this is stronger than a cell-center raster but is not a formal continuous-domain certificate."
+    },
+    {
+      "block": "north-horizontal",
+      "axis": "horizontal",
+      "representation": "bilinear",
+      "nominal_step_m": 2.5,
+      "offset_fraction": 0.0,
+      "slice_count_including_endpoints_and_source_nodes": 3163,
+      "max_missing_cross_width_m": 0.0,
+      "worst_along_coordinate_m": 0.0,
+      "slices_with_positive_missing_width": 0,
+      "trapezoid_missing_area_m2": 0.0,
+      "max_internal_gap_m": 0.0,
+      "max_left_boundary_gap_m": 0.0,
+      "max_right_boundary_gap_m": 0.0,
+      "minimum_left_overreach_m": 0.0,
+      "minimum_right_overreach_m": 0.9918874461000087,
+      "continuous_claim": false,
+      "interpretation": "Dense one-dimensional slices with exact interval unions on each slice; this is stronger than a cell-center raster but is not a formal continuous-domain certificate."
+    },
+    {
+      "block": "south-vertical",
+      "axis": "vertical",
+      "representation": "bilinear",
+      "nominal_step_m": 2.5,
+      "offset_fraction": 0.5,
+      "slice_count_including_endpoints_and_source_nodes": 1978,
+      "max_missing_cross_width_m": 0.0,
+      "worst_along_coordinate_m": 0.0,
+      "slices_with_positive_missing_width": 0,
+      "trapezoid_missing_area_m2": 0.0,
+      "max_internal_gap_m": 0.0,
+      "max_left_boundary_gap_m": 0.0,
+      "max_right_boundary_gap_m": 0.0,
+      "minimum_left_overreach_m": 2.1316282072803006e-14,
+      "minimum_right_overreach_m": 49.52529256559137,
+      "continuous_claim": false,
+      "interpretation": "Dense one-dimensional slices with exact interval unions on each slice; this is stronger than a cell-center raster but is not a formal continuous-domain certificate."
+    },
+    {
+      "block": "north-horizontal",
+      "axis": "horizontal",
+      "representation": "bilinear",
+      "nominal_step_m": 2.5,
+      "offset_fraction": 0.5,
+      "slice_count_including_endpoints_and_source_nodes": 3164,
+      "max_missing_cross_width_m": 0.0,
+      "worst_along_coordinate_m": 0.0,
+      "slices_with_positive_missing_width": 0,
+      "trapezoid_missing_area_m2": 0.0,
+      "max_internal_gap_m": 0.0,
+      "max_left_boundary_gap_m": 0.0,
+      "max_right_boundary_gap_m": 0.0,
+      "minimum_left_overreach_m": 0.0,
+      "minimum_right_overreach_m": 0.9918874461000087,
+      "continuous_claim": false,
+      "interpretation": "Dense one-dimensional slices with exact interval unions on each slice; this is stronger than a cell-center raster but is not a formal continuous-domain certificate."
+    },
+    {
+      "block": "south-vertical",
+      "axis": "vertical",
+      "representation": "bilinear",
+      "nominal_step_m": 1.0,
+      "offset_fraction": 0.5,
+      "slice_count_including_endpoints_and_source_nodes": 4756,
+      "max_missing_cross_width_m": 0.0,
+      "worst_along_coordinate_m": 0.0,
+      "slices_with_positive_missing_width": 0,
+      "trapezoid_missing_area_m2": 0.0,
+      "max_internal_gap_m": 0.0,
+      "max_left_boundary_gap_m": 0.0,
+      "max_right_boundary_gap_m": 0.0,
+      "minimum_left_overreach_m": 2.1316282072803006e-14,
+      "minimum_right_overreach_m": 49.52529256559137,
+      "continuous_claim": false,
+      "interpretation": "Dense one-dimensional slices with exact interval unions on each slice; this is stronger than a cell-center raster but is not a formal continuous-domain certificate."
+    },
+    {
+      "block": "north-horizontal",
+      "axis": "horizontal",
+      "representation": "bilinear",
+      "nominal_step_m": 1.0,
+      "offset_fraction": 0.5,
+      "slice_count_including_endpoints_and_source_nodes": 7609,
+      "max_missing_cross_width_m": 0.0,
+      "worst_along_coordinate_m": 0.0,
+      "slices_with_positive_missing_width": 0,
+      "trapezoid_missing_area_m2": 0.0,
+      "max_internal_gap_m": 0.0,
+      "max_left_boundary_gap_m": 0.0,
+      "max_right_boundary_gap_m": 0.0,
+      "minimum_left_overreach_m": 0.0,
+      "minimum_right_overreach_m": 0.9918874461000087,
+      "continuous_claim": false,
+      "interpretation": "Dense one-dimensional slices with exact interval unions on each slice; this is stronger than a cell-center raster but is not a formal continuous-domain certificate."
+    },
+    {
+      "block": "south-vertical",
+      "axis": "vertical",
+      "representation": "tri_main",
+      "nominal_step_m": 2.5,
+      "offset_fraction": 0.5,
+      "slice_count_including_endpoints_and_source_nodes": 1978,
+      "max_missing_cross_width_m": 0.0,
+      "worst_along_coordinate_m": 0.0,
+      "slices_with_positive_missing_width": 0,
+      "trapezoid_missing_area_m2": 0.0,
+      "max_internal_gap_m": 0.0,
+      "max_left_boundary_gap_m": 0.0,
+      "max_right_boundary_gap_m": 0.0,
+      "minimum_left_overreach_m": 3.552713678800501e-14,
+      "minimum_right_overreach_m": 49.52529256559137,
+      "continuous_claim": false,
+      "interpretation": "Dense one-dimensional slices with exact interval unions on each slice; this is stronger than a cell-center raster but is not a formal continuous-domain certificate."
+    },
+    {
+      "block": "north-horizontal",
+      "axis": "horizontal",
+      "representation": "tri_main",
+      "nominal_step_m": 2.5,
+      "offset_fraction": 0.5,
+      "slice_count_including_endpoints_and_source_nodes": 3164,
+      "max_missing_cross_width_m": 0.0,
+      "worst_along_coordinate_m": 0.0,
+      "slices_with_positive_missing_width": 0,
+      "trapezoid_missing_area_m2": 0.0,
+      "max_internal_gap_m": 0.0,
+      "max_left_boundary_gap_m": 0.0,
+      "max_right_boundary_gap_m": 0.0,
+      "minimum_left_overreach_m": 0.0,
+      "minimum_right_overreach_m": 0.9918874460981897,
+      "continuous_claim": false,
+      "interpretation": "Dense one-dimensional slices with exact interval unions on each slice; this is stronger than a cell-center raster but is not a formal continuous-domain certificate."
+    },
+    {
+      "block": "south-vertical",
+      "axis": "vertical",
+      "representation": "tri_anti",
+      "nominal_step_m": 2.5,
+      "offset_fraction": 0.5,
+      "slice_count_including_endpoints_and_source_nodes": 1978,
+      "max_missing_cross_width_m": 0.000723231432857574,
+      "worst_along_coordinate_m": 1183.75,
+      "slices_with_positive_missing_width": 1,
+      "trapezoid_missing_area_m2": 0.0014573113372080017,
+      "max_internal_gap_m": 0.0,
+      "max_left_boundary_gap_m": 0.0007232314330352096,
+      "max_right_boundary_gap_m": 0.0,
+      "minimum_left_overreach_m": -0.0007232314330352096,
+      "minimum_right_overreach_m": 49.52529256559137,
+      "continuous_claim": false,
+      "interpretation": "Dense one-dimensional slices with exact interval unions on each slice; this is stronger than a cell-center raster but is not a formal continuous-domain certificate."
+    },
+    {
+      "block": "north-horizontal",
+      "axis": "horizontal",
+      "representation": "tri_anti",
+      "nominal_step_m": 2.5,
+      "offset_fraction": 0.5,
+      "slice_count_including_endpoints_and_source_nodes": 3164,
+      "max_missing_cross_width_m": 0.0,
+      "worst_along_coordinate_m": 0.0,
+      "slices_with_positive_missing_width": 0,
+      "trapezoid_missing_area_m2": 0.0,
+      "max_internal_gap_m": 0.0,
+      "max_left_boundary_gap_m": 0.0,
+      "max_right_boundary_gap_m": 0.0,
+      "minimum_left_overreach_m": 0.0,
+      "minimum_right_overreach_m": 0.9918874460981897,
+      "continuous_claim": false,
+      "interpretation": "Dense one-dimensional slices with exact interval unions on each slice; this is stronger than a cell-center raster but is not a formal continuous-domain certificate."
+    }
+  ],
+  "all_bilinear_dense_slices_without_detected_gap": true,
+  "all_triangular_2_5m_dense_slices_without_detected_gap": false,
+  "interface_band": {
+    "seam_y_m": 4630.0,
+    "band_m": [
+      4510.0,
+      4750.0
+    ],
+    "sample_count": 408969,
+    "missing_sample_count": 0,
+    "minimum_coverage_multiplicity": 1,
+    "maximum_coverage_multiplicity": 4,
+    "estimated_repeated_coverage_area_m2": 934855.0,
+    "seam_row_missing_sample_count": 0,
+    "seam_row_minimum_multiplicity": 2,
+    "model_scope": "Plan-view local cross-track footprints; south vertical-line footprints stop at their declared endpoints, while north horizontal-line footprints cross the interface physically. No along-track cone end-cap extension is modeled."
+  },
+  "high_slope_nodes": {
+    "node_count_at_or_above_95th_percentile": 2525,
+    "slope_95th_percentile_deg": 2.2200231811196574,
+    "maximum_node_slope_deg": 3.371878590644658,
+    "uncovered_high_slope_node_count": 0,
+    "minimum_high_slope_node_coverage_multiplicity": 1,
+    "maximum_slope_node_xy_m": [
+      7408.0,
+      0.0
+    ],
+    "maximum_slope_node_coverage_multiplicity": 1
+  },
+  "over20_statistics": {
+    "by_block": [
+      {
+        "block": "south-vertical",
+        "representation": "bilinear",
+        "nominal_step_m": 1.0,
+        "slice_count": 4756,
+        "pair_counted_over20_length_m": 65347.0,
+        "physical_current_line_segments_deduplicated_m": 65347.0,
+        "area_where_an_adjacent_pair_exceeds_20_percent_m2": 3925421.4657254806,
+        "pair_rows": [
+          {
+            "previous": "BSV-L001",
+            "current": "BSV-L002",
+            "min_eta": 0.01998831857420832,
+            "max_eta": 0.348894989562743,
+            "over20_length_m_trapezoid": 1166.0
+          },
+          {
+            "previous": "BSV-L002",
+            "current": "BSV-L003",
+            "min_eta": 0.01999999999999992,
+            "max_eta": 0.35737249938297894,
+            "over20_length_m_trapezoid": 1223.0
+          },
+          {
+            "previous": "BSV-L003",
+            "current": "BSV-L004",
+            "min_eta": 0.019999999999998932,
+            "max_eta": 0.36522737434968183,
+            "over20_length_m_trapezoid": 1273.0
+          },
+          {
+            "previous": "BSV-L004",
+            "current": "BSV-L005",
+            "min_eta": 0.01999999999999995,
+            "max_eta": 0.3725707727193829,
+            "over20_length_m_trapezoid": 1319.0
+          },
+          {
+            "previous": "BSV-L005",
+            "current": "BSV-L006",
+            "min_eta": 0.019977013462698666,
+            "max_eta": 0.3786758623159894,
+            "over20_length_m_trapezoid": 1361.0
+          },
+          {
+            "previous": "BSV-L006",
+            "current": "BSV-L007",
+            "min_eta": 0.01999898228524073,
+            "max_eta": 0.38414788959053014,
+            "over20_length_m_trapezoid": 1395.0
+          },
+          {
+            "previous": "BSV-L007",
+            "current": "BSV-L008",
+            "min_eta": 0.019981116607571785,
+            "max_eta": 0.38913304756547645,
+            "over20_length_m_trapezoid": 1426.0
+          },
+          {
+            "previous": "BSV-L008",
+            "current": "BSV-L009",
+            "min_eta": 0.02000000000000048,
+            "max_eta": 0.39339230830268607,
+            "over20_length_m_trapezoid": 1452.0
+          },
+          {
+            "previous": "BSV-L009",
+            "current": "BSV-L010",
+            "min_eta": 0.019999444971417157,
+            "max_eta": 0.3963927267239218,
+            "over20_length_m_trapezoid": 1470.0
+          },
+          {
+            "previous": "BSV-L010",
+            "current": "BSV-L011",
+            "min_eta": 0.020000000000001624,
+            "max_eta": 0.39869942878479375,
+            "over20_length_m_trapezoid": 1488.0
+          },
+          {
+            "previous": "BSV-L011",
+            "current": "BSV-L012",
+            "min_eta": 0.020000000000001274,
+            "max_eta": 0.4007150811601133,
+            "over20_length_m_trapezoid": 1498.0
+          },
+          {
+            "previous": "BSV-L012",
+            "current": "BSV-L013",
+            "min_eta": 0.020000000000000295,
+            "max_eta": 0.4018102866228063,
+            "over20_length_m_trapezoid": 1503.0
+          },
+          {
+            "previous": "BSV-L013",
+            "current": "BSV-L014",
+            "min_eta": 0.020000000000001215,
+            "max_eta": 0.4024500000379938,
+            "over20_length_m_trapezoid": 1509.0
+          },
+          {
+            "previous": "BSV-L014",
+            "current": "BSV-L015",
+            "min_eta": 0.020000000000002918,
+            "max_eta": 0.4019512300340523,
+            "over20_length_m_trapezoid": 1504.0
+          },
+          {
+            "previous": "BSV-L015",
+            "current": "BSV-L016",
+            "min_eta": 0.019999999999997707,
+            "max_eta": 0.4009959846020296,
+            "over20_length_m_trapezoid": 1500.0
+          },
+          {
+            "previous": "BSV-L016",
+            "current": "BSV-L017",
+            "min_eta": 0.019999999999997194,
+            "max_eta": 0.39918272038021957,
+            "over20_length_m_trapezoid": 1491.0
+          },
+          {
+            "previous": "BSV-L017",
+            "current": "BSV-L018",
+            "min_eta": 0.019999435616464084,
+            "max_eta": 0.3969675100207511,
+            "over20_length_m_trapezoid": 1474.0
+          },
+          {
+            "previous": "BSV-L018",
+            "current": "BSV-L019",
+            "min_eta": 0.020000000000000837,
+            "max_eta": 0.39419674766426666,
+            "over20_length_m_trapezoid": 1457.0
+          },
+          {
+            "previous": "BSV-L019",
+            "current": "BSV-L020",
+            "min_eta": 0.01998013688328706,
+            "max_eta": 0.38996470309462933,
+            "over20_length_m_trapezoid": 1432.0
+          },
+          {
+            "previous": "BSV-L020",
+            "current": "BSV-L021",
+            "min_eta": 0.020000000000002214,
+            "max_eta": 0.38505665030503217,
+            "over20_length_m_trapezoid": 1401.0
+          },
+          {
+            "previous": "BSV-L021",
+            "current": "BSV-L022",
+            "min_eta": 0.020000000000001624,
+            "max_eta": 0.37987465945666377,
+            "over20_length_m_trapezoid": 1366.0
+          },
+          {
+            "previous": "BSV-L022",
+            "current": "BSV-L023",
+            "min_eta": 0.019999999999997905,
+            "max_eta": 0.37383999864471823,
+            "over20_length_m_trapezoid": 1328.0
+          },
+          {
+            "previous": "BSV-L023",
+            "current": "BSV-L024",
+            "min_eta": 0.020000000000002183,
+            "max_eta": 0.3666083971962619,
+            "over20_length_m_trapezoid": 1283.0
+          },
+          {
+            "previous": "BSV-L024",
+            "current": "BSV-L025",
+            "min_eta": 0.02000000000000185,
+            "max_eta": 0.35897748907821264,
+            "over20_length_m_trapezoid": 1234.0
+          },
+          {
+            "previous": "BSV-L025",
+            "current": "BSV-L026",
+            "min_eta": 0.019999999999998422,
+            "max_eta": 0.35030608252039985,
+            "over20_length_m_trapezoid": 1178.0
+          },
+          {
+            "previous": "BSV-L026",
+            "current": "BSV-L027",
+            "min_eta": 0.019990642064789014,
+            "max_eta": 0.3412893200215654,
+            "over20_length_m_trapezoid": 1115.0
+          },
+          {
+            "previous": "BSV-L027",
+            "current": "BSV-L028",
+            "min_eta": 0.019965050762530114,
+            "max_eta": 0.3312250945276322,
+            "over20_length_m_trapezoid": 1044.0
+          },
+          {
+            "previous": "BSV-L028",
+            "current": "BSV-L029",
+            "min_eta": 0.019994463378043597,
+            "max_eta": 0.3197602905862223,
+            "over20_length_m_trapezoid": 968.0
+          },
+          {
+            "previous": "BSV-L029",
+            "current": "BSV-L030",
+            "min_eta": 0.020000000000002818,
+            "max_eta": 0.3082760037111759,
+            "over20_length_m_trapezoid": 884.0
+          },
+          {
+            "previous": "BSV-L030",
+            "current": "BSV-L031",
+            "min_eta": 0.01996446602903583,
+            "max_eta": 0.29597377778190503,
+            "over20_length_m_trapezoid": 794.0
+          },
+          {
+            "previous": "BSV-L031",
+            "current": "BSV-L032",
+            "min_eta": 0.019999999999998897,
+            "max_eta": 0.2818737644298564,
+            "over20_length_m_trapezoid": 692.0
+          },
+          {
+            "previous": "BSV-L032",
+            "current": "BSV-L033",
+            "min_eta": 0.0199859817691748,
+            "max_eta": 0.26838846208789047,
+            "over20_length_m_trapezoid": 583.0
+          },
+          {
+            "previous": "BSV-L033",
+            "current": "BSV-L034",
+            "min_eta": 0.020000000000000562,
+            "max_eta": 0.25264991856445806,
+            "over20_length_m_trapezoid": 460.0
+          },
+          {
+            "previous": "BSV-L034",
+            "current": "BSV-L035",
+            "min_eta": 0.01998540237250741,
+            "max_eta": 0.23656279948349823,
+            "over20_length_m_trapezoid": 332.0
+          },
+          {
+            "previous": "BSV-L035",
+            "current": "BSV-L036",
+            "min_eta": 0.019995905562712506,
+            "max_eta": 0.22046205112226994,
+            "over20_length_m_trapezoid": 186.0
+          },
+          {
+            "previous": "BSV-L036",
+            "current": "BSV-L037",
+            "min_eta": 0.019995936758317137,
+            "max_eta": 0.2031989652596173,
+            "over20_length_m_trapezoid": 28.0
+          },
+          {
+            "previous": "BSV-L037",
+            "current": "BSV-L038",
+            "min_eta": 0.02000000000000371,
+            "max_eta": 0.1851727173290826,
+            "over20_length_m_trapezoid": 0.0
+          },
+          {
+            "previous": "BSV-L038",
+            "current": "BSV-L039",
+            "min_eta": 0.019989230479402906,
+            "max_eta": 0.1672308875229204,
+            "over20_length_m_trapezoid": 0.0
+          },
+          {
+            "previous": "BSV-L039",
+            "current": "BSV-L040",
+            "min_eta": 0.01999790903320675,
+            "max_eta": 0.14859201182995405,
+            "over20_length_m_trapezoid": 0.0
+          },
+          {
+            "previous": "BSV-L040",
+            "current": "BSV-L041",
+            "min_eta": 0.01994836708197004,
+            "max_eta": 0.14200317123409426,
+            "over20_length_m_trapezoid": 0.0
+          },
+          {
+            "previous": "BSV-L041",
+            "current": "BSV-L042",
+            "min_eta": 0.019995709613764564,
+            "max_eta": 0.15297407659306664,
+            "over20_length_m_trapezoid": 0.0
+          },
+          {
+            "previous": "BSV-L042",
+            "current": "BSV-L043",
+            "min_eta": 0.01996231356362002,
+            "max_eta": 0.1641311272034176,
+            "over20_length_m_trapezoid": 0.0
+          },
+          {
+            "previous": "BSV-L043",
+            "current": "BSV-L044",
+            "min_eta": 0.019988716454903542,
+            "max_eta": 0.17691879070996872,
+            "over20_length_m_trapezoid": 0.0
+          },
+          {
+            "previous": "BSV-L044",
+            "current": "BSV-L045",
+            "min_eta": 0.01999605842740908,
+            "max_eta": 0.19082322602541232,
+            "over20_length_m_trapezoid": 0.0
+          },
+          {
+            "previous": "BSV-L045",
+            "current": "BSV-L046",
+            "min_eta": 0.019988787694954675,
+            "max_eta": 0.20693841632560453,
+            "over20_length_m_trapezoid": 81.0
+          },
+          {
+            "previous": "BSV-L046",
+            "current": "BSV-L047",
+            "min_eta": 0.019983334474668317,
+            "max_eta": 0.2243436553388874,
+            "over20_length_m_trapezoid": 281.0
+          },
+          {
+            "previous": "BSV-L047",
+            "current": "BSV-L048",
+            "min_eta": 0.019959279313459748,
+            "max_eta": 0.24447034017092134,
+            "over20_length_m_trapezoid": 516.0
+          },
+          {
+            "previous": "BSV-L048",
+            "current": "BSV-L049",
+            "min_eta": 0.019987978095017064,
+            "max_eta": 0.26534098913828513,
+            "over20_length_m_trapezoid": 783.0
+          },
+          {
+            "previous": "BSV-L049",
+            "current": "BSV-L050",
+            "min_eta": 0.019999999999998373,
+            "max_eta": 0.2895093454355623,
+            "over20_length_m_trapezoid": 1085.0
+          },
+          {
+            "previous": "BSV-L050",
+            "current": "BSV-L051",
+            "min_eta": 0.01999999999999888,
+            "max_eta": 0.31242123893718937,
+            "over20_length_m_trapezoid": 1388.0
+          },
+          {
+            "previous": "BSV-L051",
+            "current": "BSV-L052",
+            "min_eta": 0.020000000000000656,
+            "max_eta": 0.33436925585336563,
+            "over20_length_m_trapezoid": 1671.0
+          },
+          {
+            "previous": "BSV-L052",
+            "current": "BSV-L053",
+            "min_eta": 0.020000000000002016,
+            "max_eta": 0.355251997307398,
+            "over20_length_m_trapezoid": 1934.0
+          },
+          {
+            "previous": "BSV-L053",
+            "current": "BSV-L054",
+            "min_eta": 0.019999999999998828,
+            "max_eta": 0.37448400790468944,
+            "over20_length_m_trapezoid": 2170.0
+          },
+          {
+            "previous": "BSV-L054",
+            "current": "BSV-L055",
+            "min_eta": 0.01999999999999765,
+            "max_eta": 0.3932002326708056,
+            "over20_length_m_trapezoid": 2387.0
+          },
+          {
+            "previous": "BSV-L055",
+            "current": "BSV-L056",
+            "min_eta": 0.02000000000000182,
+            "max_eta": 0.41050381773823147,
+            "over20_length_m_trapezoid": 2577.0
+          },
+          {
+            "previous": "BSV-L056",
+            "current": "BSV-L057",
+            "min_eta": 0.019999999999998422,
+            "max_eta": 0.4268784103015692,
+            "over20_length_m_trapezoid": 2745.0
+          },
+          {
+            "previous": "BSV-L057",
+            "current": "BSV-L058",
+            "min_eta": 0.02000000000000051,
+            "max_eta": 0.4423527224015111,
+            "over20_length_m_trapezoid": 2890.0
+          },
+          {
+            "previous": "BSV-L058",
+            "current": "BSV-L059",
+            "min_eta": 0.020000000000002526,
+            "max_eta": 0.4577041200980272,
+            "over20_length_m_trapezoid": 3022.0
+          }
+        ],
+        "note": "The area metric is not a length and is not directly comparable with papers that report a line-length statistic."
+      },
+      {
+        "block": "north-horizontal",
+        "representation": "bilinear",
+        "nominal_step_m": 1.0,
+        "slice_count": 7609,
+        "pair_counted_over20_length_m": 65937.0,
+        "physical_current_line_segments_deduplicated_m": 65937.0,
+        "area_where_an_adjacent_pair_exceeds_20_percent_m2": 5954550.69045039,
+        "pair_rows": [
+          {
+            "previous": "BNH-L001",
+            "current": "BNH-L002",
+            "min_eta": 0.01997054752909398,
+            "max_eta": 0.6944337339487913,
+            "over20_length_m_trapezoid": 4447.0
+          },
+          {
+            "previous": "BNH-L002",
+            "current": "BNH-L003",
+            "min_eta": 0.01999163480685927,
+            "max_eta": 0.6821377905096657,
+            "over20_length_m_trapezoid": 4387.0
+          },
+          {
+            "previous": "BNH-L003",
+            "current": "BNH-L004",
+            "min_eta": 0.01999552059440995,
+            "max_eta": 0.6692673267869095,
+            "over20_length_m_trapezoid": 4326.0
+          },
+          {
+            "previous": "BNH-L004",
+            "current": "BNH-L005",
+            "min_eta": 0.019967012730493432,
+            "max_eta": 0.6553472372518419,
+            "over20_length_m_trapezoid": 4256.0
+          },
+          {
+            "previous": "BNH-L005",
+            "current": "BNH-L006",
+            "min_eta": 0.01999673805817186,
+            "max_eta": 0.6404848487083743,
+            "over20_length_m_trapezoid": 4179.0
+          },
+          {
+            "previous": "BNH-L006",
+            "current": "BNH-L007",
+            "min_eta": 0.019999999999999164,
+            "max_eta": 0.6248465660416688,
+            "over20_length_m_trapezoid": 4097.0
+          },
+          {
+            "previous": "BNH-L007",
+            "current": "BNH-L008",
+            "min_eta": 0.01999999999999459,
+            "max_eta": 0.6074773243116682,
+            "over20_length_m_trapezoid": 4010.0
+          },
+          {
+            "previous": "BNH-L008",
+            "current": "BNH-L009",
+            "min_eta": 0.019999999999995795,
+            "max_eta": 0.5890503145931828,
+            "over20_length_m_trapezoid": 3911.0
+          },
+          {
+            "previous": "BNH-L009",
+            "current": "BNH-L010",
+            "min_eta": 0.02000000000000255,
+            "max_eta": 0.5689784802577108,
+            "over20_length_m_trapezoid": 3801.0
+          },
+          {
+            "previous": "BNH-L010",
+            "current": "BNH-L011",
+            "min_eta": 0.019988270372653993,
+            "max_eta": 0.5478324888397683,
+            "over20_length_m_trapezoid": 3679.0
+          },
+          {
+            "previous": "BNH-L011",
+            "current": "BNH-L012",
+            "min_eta": 0.019988718049288284,
+            "max_eta": 0.5248941393424527,
+            "over20_length_m_trapezoid": 3542.0
+          },
+          {
+            "previous": "BNH-L012",
+            "current": "BNH-L013",
+            "min_eta": 0.01999999999999617,
+            "max_eta": 0.4996004623557351,
+            "over20_length_m_trapezoid": 3386.0
+          },
+          {
+            "previous": "BNH-L013",
+            "current": "BNH-L014",
+            "min_eta": 0.019998806658659135,
+            "max_eta": 0.4722577065510438,
+            "over20_length_m_trapezoid": 3209.0
+          },
+          {
+            "previous": "BNH-L014",
+            "current": "BNH-L015",
+            "min_eta": 0.019999999999995015,
+            "max_eta": 0.44305446765840023,
+            "over20_length_m_trapezoid": 3001.0
+          },
+          {
+            "previous": "BNH-L015",
+            "current": "BNH-L016",
+            "min_eta": 0.02000000000000366,
+            "max_eta": 0.41086773554959266,
+            "over20_length_m_trapezoid": 2751.0
+          },
+          {
+            "previous": "BNH-L016",
+            "current": "BNH-L017",
+            "min_eta": 0.019998396173093878,
+            "max_eta": 0.3760528927262085,
+            "over20_length_m_trapezoid": 2455.0
+          },
+          {
+            "previous": "BNH-L017",
+            "current": "BNH-L018",
+            "min_eta": 0.019982829733587355,
+            "max_eta": 0.33758878979652485,
+            "over20_length_m_trapezoid": 2087.0
+          },
+          {
+            "previous": "BNH-L018",
+            "current": "BNH-L019",
+            "min_eta": 0.019998121993173464,
+            "max_eta": 0.296259105784094,
+            "over20_length_m_trapezoid": 1612.0
+          },
+          {
+            "previous": "BNH-L019",
+            "current": "BNH-L020",
+            "min_eta": 0.019999999999997308,
+            "max_eta": 0.25038178737846317,
+            "over20_length_m_trapezoid": 967.0
+          },
+          {
+            "previous": "BNH-L020",
+            "current": "BNH-L021",
+            "min_eta": 0.01999999999999595,
+            "max_eta": 0.20071310662484024,
+            "over20_length_m_trapezoid": 16.0
+          },
+          {
+            "previous": "BNH-L021",
+            "current": "BNH-L022",
+            "min_eta": 0.019999999999997443,
+            "max_eta": 0.14578883141539478,
+            "over20_length_m_trapezoid": 0.0
+          },
+          {
+            "previous": "BNH-L022",
+            "current": "BNH-L023",
+            "min_eta": 0.019999999999993367,
+            "max_eta": 0.08523670904131375,
+            "over20_length_m_trapezoid": 0.0
+          },
+          {
+            "previous": "BNH-L023",
+            "current": "BNH-L024",
+            "min_eta": 0.019998934414386767,
+            "max_eta": 0.021398582763254823,
+            "over20_length_m_trapezoid": 0.0
+          },
+          {
+            "previous": "BNH-L024",
+            "current": "BNH-L025",
+            "min_eta": 0.019999999999999702,
+            "max_eta": 0.08909882070212005,
+            "over20_length_m_trapezoid": 0.0
+          },
+          {
+            "previous": "BNH-L025",
+            "current": "BNH-L026",
+            "min_eta": 0.019999999999999695,
+            "max_eta": 0.14945834679464864,
+            "over20_length_m_trapezoid": 0.0
+          },
+          {
+            "previous": "BNH-L026",
+            "current": "BNH-L027",
+            "min_eta": 0.020000000000000625,
+            "max_eta": 0.20328407026241285,
+            "over20_length_m_trapezoid": 1818.0
+          }
+        ],
+        "note": "The area metric is not a length and is not directly comparable with papers that report a line-length statistic."
+      }
+    ],
+    "pair_counted_total_m": 131284.0,
+    "physical_line_segment_deduplicated_total_m": 131284.0,
+    "adjacent_pair_over20_area_total_m2": 9879972.15617587
+  },
+  "claim_limit": "No sampled gap was found only if the reported checks pass. This does not prove strict zero missing area on the continuous seabed, because the footprint model is a local tangent approximation and the test remains finite-resolution.",
+  "runtime": {
+    "random_seed": "not applicable; deterministic evaluation",
+    "numpy_version": "2.5.1",
+    "command": "python 冻结方案高分辨率复核-v001.py"
+  }
+}

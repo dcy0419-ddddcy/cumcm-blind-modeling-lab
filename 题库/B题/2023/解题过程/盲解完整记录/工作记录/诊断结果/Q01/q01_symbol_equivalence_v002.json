@@ -1,0 +1,16 @@
+{
+  "revision": "Q01 notation-only beta-to-gamma",
+  "beta_markers_replaced": 21,
+  "plain_eta_markers_fixed": 1,
+  "paper_normalized_text_equal": true,
+  "numeric_field_comparisons": 70,
+  "max_absolute_difference": 0.0,
+  "all_numeric_equal": true,
+  "result1_root_sha256": "d4bc09871a05c3dfff4567f9bb4dc08cedbebf4aa5c53b4f93e438ec3283866f",
+  "result1_versioned_sha256": "d4bc09871a05c3dfff4567f9bb4dc08cedbebf4aa5c53b4f93e438ec3283866f",
+  "result1_files_byte_equal": true,
+  "paper_v001_sha256": "262b6462f676c8070c6fa5a65bbfe1969d5c7191bab23515d8cf59152a02a6db",
+  "paper_v002_sha256": "802a4aecbb874bcbc1b11ee113d8fdc32118ebd543751b1daff851073158ab45",
+  "mapping_v001_sha256": "de2594193194bcf3bdfa0657736731b1a73a5b7fc23c2bdc9253b171a80ea6bd",
+  "mapping_v002_sha256": "6ead31183012d492b225453b3c6de9c93859eb4ba2f8ac80dc2649715a4c2cfb"
+}

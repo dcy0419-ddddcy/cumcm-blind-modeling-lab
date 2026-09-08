@@ -1,0 +1,2 @@
+# Preserve reviewed source files while accepting historical blank lines at EOF.
+* whitespace=-blank-at-eof
