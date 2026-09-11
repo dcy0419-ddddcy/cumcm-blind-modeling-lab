@@ -1,0 +1,332 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-05T10:03:44.8548676Z",
+  "research_scope": "CUMCM official website, official attachment domain, and the paper-display channel explicitly designated by the official website",
+  "source_policy": {
+    "official_primary_site": "https://www.mcm.edu.cn/",
+    "official_attachment_prefix": "https://www.mcm.edu.cn/upload_cn/",
+    "designated_paper_display_site": "https://dxs.moe.gov.cn/zx/hd/sxjm/sxjmlw/",
+    "designated_asset_prefix": "https://univs-news-1256833609.file.myqcloud.com/123/upload/resources/image/",
+    "provenance_note": "The CUMCM official results page links its historical paper display to the Ministry of Education's China College Student Online channel; the CUMCM home page identifies that site as a cooperation website.",
+    "aggregator_sources_used": false
+  },
+  "status": {
+    "2024_A_showcase_found": true,
+    "2024_A_showcase_count": 5,
+    "2024_B_showcase_found": true,
+    "2024_B_showcase_count": 3,
+    "showcase_official_pdf_status": "not_found",
+    "showcase_official_format": "page_images_only",
+    "2024_separate_AI_rule_status": "not_found",
+    "2024_separate_AI_rule_note": "No separate nationwide CUMCM AI/generative-AI rule was located in the official 2024 registration/rules packet, the 2024 paper-format file, the 2024 problem archive, or the official 2024 notice/rules listings searched. This is an evidence-limited not_found finding, not permission to ignore the 2024 independence, anti-plagiarism, citation, truthfulness, or local contest-area rules.",
+    "2026_current_AI_rule_status": "found",
+    "2026_current_AI_rule_effective_date": "2026-09-01"
+  },
+  "hash_conventions": {
+    "file_hash": "SHA-256 of exact downloaded bytes",
+    "image_set_sha256": "SHA-256 of the UTF-8 string formed by concatenating per-page lowercase SHA-256 hex digests in ascending page order, separated by LF",
+    "full_page_manifests": [
+      "05_官方范例对比/官方来源元数据/A题_逐页来源清单.json",
+      "05_官方范例对比/官方来源元数据/B题_逐页来源清单.json"
+    ]
+  },
+  "official_downloads": [
+    {
+      "id": "cumcm2024_problem_archive",
+      "title": "CUMCM2024Problems.zip",
+      "publication_date": "2024-09-05",
+      "source_page": "https://www.mcm.edu.cn/html_cn/node/a0c1fb5c31d43551f08cd8ad16870444.html",
+      "source_url": "https://www.mcm.edu.cn/upload_cn/node/725/pmkWxf8H9cfe9984c1a1a5b1263e5dd3b5596ed5.zip",
+      "local_path": "D:\\2024\\reference_official\\2024_problems.zip",
+      "media_type": "application/zip",
+      "bytes": 105537539,
+      "sha256": "38d9effcede947354f9e9a9c2b4fc68947d83a77c2ff75737e9a662888158726"
+    },
+    {
+      "id": "cumcm2024_problem_A",
+      "title": "2024 A题：板凳龙",
+      "source_archive_id": "cumcm2024_problem_archive",
+      "archive_member_order": 1,
+      "local_path": "D:\\2024\\reference_official\\2024_problem_A.pdf",
+      "media_type": "application/pdf",
+      "page_count": 3,
+      "bytes": 758066,
+      "sha256": "7ece8c6d2b876781e5219091c38980e1321ffd1d56604cbe36cd867edb7a1933"
+    },
+    {
+      "id": "cumcm2024_problem_B",
+      "title": "2024 B题：生产过程中的决策问题",
+      "source_archive_id": "cumcm2024_problem_archive",
+      "archive_member_order": 2,
+      "local_path": "D:\\2024\\reference_official\\2024_problem_B.pdf",
+      "media_type": "application/pdf",
+      "page_count": 2,
+      "bytes": 636910,
+      "sha256": "f54529dd15d729b046e248ea41033b4f66ef68333be2bee912b0c54eafd227ab"
+    },
+    {
+      "id": "cumcm2024_notice_and_rules",
+      "title": "“2024高教社杯全国大学生数学建模竞赛”报名第一次通知及所附规则材料",
+      "publication_date": "2024-04-09",
+      "document_date": "2024-04-08",
+      "source_page": "https://www.mcm.edu.cn/html_cn/node/2506eb88a1fc2ac28491aaa8eab303b8.html",
+      "source_url": "https://www.mcm.edu.cn/upload_cn/node/713/hExkn1Qpfa6b636e253be48501b50ad4fd67d457.pdf",
+      "local_path": "D:\\2024\\reference_official\\2024_notice_and_rules.pdf",
+      "media_type": "application/pdf",
+      "page_count": 10,
+      "bytes": 519331,
+      "sha256": "1c392aeb4e73af67dae62ae030f95e2090d77049dbe4b66474057ece77871938",
+      "contained_materials": [
+        "2024 registration notice",
+        "CUMCM Charter (2023 revision)",
+        "CUMCM Participation Rules (2019 revision)",
+        "contest-area evaluation rules",
+        "2024 registration and submission instructions"
+      ]
+    },
+    {
+      "id": "cumcm2024_paper_format",
+      "title": "全国大学生数学建模竞赛论文格式规范（2024年修订稿）",
+      "source_archive_id": "cumcm2024_problem_archive",
+      "archive_member": "CUMCM2024Problems/format2024.doc",
+      "local_path": "D:\\2024\\reference_official\\format2024.doc",
+      "media_type": "application/msword",
+      "word_page_count": 4,
+      "bytes": 69120,
+      "sha256": "ec699bbe89e25cad16ca907b305c6cc76112ec04083cfe56ca65fd7a26fbaafe"
+    },
+    {
+      "id": "cumcm2024_organizer_summary",
+      "title": "CUMCM通讯2024年第2期（总第64期）",
+      "publication_date": "2024-12-12",
+      "source_page": "https://www.mcm.edu.cn/html_cn/node/e41515ad4a3c2a4f1279d9a7fe14ab9d.html",
+      "source_url": "https://www.mcm.edu.cn/upload_cn/node/737/umzPR8ao5966f24c43832bac0e6b73b01df1c93c.pdf",
+      "local_path": "D:\\2024\\reference_official\\2024_organizer_summary.pdf",
+      "media_type": "application/pdf",
+      "page_count": 32,
+      "bytes": 2944100,
+      "sha256": "0c4c5372ba2b90203c74b471b632114f5ea24ae26736a148d12ca426aae1c005"
+    },
+    {
+      "id": "cumcm2026_participation_rules",
+      "title": "全国大学生数学建模竞赛参赛规则（2026年修订稿）",
+      "publication_date": "2026-03-03",
+      "effective_date": "2026-03-01",
+      "source_page": "https://www.mcm.edu.cn/html_cn/node/9d8e511fe7a1447b35f53a82c908e2e0.html",
+      "source_url": "https://www.mcm.edu.cn/upload_cn/node/774/FlQt6kJV6f5d5b4603e06c3c60acf89b72d7f298.pdf",
+      "local_path": "D:\\2024\\reference_official\\2026_participation_rules.pdf",
+      "media_type": "application/pdf",
+      "page_count": 1,
+      "bytes": 123600,
+      "sha256": "46d3837906bfd7049eb04c40cfc8b8436912d7edae98462ba064abfa381a8d3a"
+    },
+    {
+      "id": "cumcm2026_paper_format_rules",
+      "title": "全国大学生数学建模竞赛论文格式规范（2026年修订稿）",
+      "publication_date": "2026-03-03",
+      "source_page": "https://www.mcm.edu.cn/html_cn/node/4cd596519c9eb9fbd866398f6df0caa3.html",
+      "source_url": "https://www.mcm.edu.cn/upload_cn/node/775/cQMeL0YY905244c8bd4b9af832f1699446d8385e.pdf",
+      "local_path": "D:\\2024\\reference_official\\2026_paper_format_rules.pdf",
+      "media_type": "application/pdf",
+      "page_count": 2,
+      "bytes": 168354,
+      "sha256": "cece4bb3a900a0435160032b98ea26e03b0f2d7eca58424b0d023e26085aed26"
+    },
+    {
+      "id": "cumcm2026_AI_rules",
+      "title": "全国大学生数学建模竞赛人工智能工具使用规定（2026年试行）",
+      "publication_date": "2026-08-03",
+      "effective_date": "2026-09-01",
+      "source_page": "https://www.mcm.edu.cn/html_cn/node/fef94648f2836ab6cc81586f4c38512b.html",
+      "source_url": "https://www.mcm.edu.cn/upload_cn/node/785/Glps6mBh6563c55c45300fede72ddbf6eb33d3a8.pdf",
+      "local_path": "D:\\2024\\reference_official\\2026_ai_rules.pdf",
+      "media_type": "application/pdf",
+      "page_count": 1,
+      "bytes": 97121,
+      "sha256": "4cf6f30cdd37d6ef2cdb3439c5dba4d9f207c12d6aafe24419e81f3c69acf59a"
+    }
+  ],
+  "paper_showcase": {
+    "official_referral_page": "https://www.mcm.edu.cn/html_cn/block/018500ec1a6bd8c7e9997133def2b590.html",
+    "index_url": "https://dxs.moe.gov.cn/zx/hd/sxjm/sxjmlw/2024qgdxssxjmjslwzs/",
+    "publisher": "全国大学生数学建模竞赛组委会",
+    "publication_date": "2024-11-04",
+    "award_level_caveat": "The official pages label these items as '论文展示' and do not state an award grade on the article pages. Do not infer a specific prize level from inclusion alone.",
+    "official_pdf_caveat": "The official display exposes page images (mostly JPG; A242 also contains four PNG pages). No PDF download link was present in the article HTML; no locally assembled PDF is represented as official.",
+    "page_corpus_summary": {
+      "A_paper_pages": 272,
+      "B_paper_pages": 135,
+      "paper_pages_total": 407,
+      "A_commentary_pages": 10,
+      "B_commentary_pages": 72,
+      "all_reviewed_page_images_total": 489,
+      "canonical_page_manifests": [
+        "05_官方范例对比/官方来源元数据/A题_逐页来源清单.json",
+        "05_官方范例对比/官方来源元数据/B题_逐页来源清单.json"
+      ],
+      "capture_note": "Counts, bytes and image-set hashes below use the page captures actually reviewed for the comparisons. This corrects an earlier JPG-only A242 capture and an alternate truncated-byte capture of A053 page 45."
+    },
+    "papers": [
+      {
+        "problem": "A",
+        "code": "A163",
+        "paper_title": "基于几何模型的板凳龙运动路径问题",
+        "article_url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024atlw/241104/1977935.shtml",
+        "local_directory": "D:\\2024\\reference_official\\papers\\A\\A163",
+        "page_count": 45,
+        "total_image_bytes": 5185236,
+        "image_set_sha256": "d6d3103fa710b920218b72254c4236f8f32a2e91635eb1738cd3b552c2af3033",
+        "article_html_sha256": "5da663422aeab3a34026f17822bd8d83cde127387ebdbe822b6874adbd45b4da",
+        "representative_modeling_points": [
+          "Builds a polar-coordinate equal-pitch-spiral motion model and recursively determines successive handle positions from fixed inter-handle distances.",
+          "Uses geometric velocity transfer along adjacent handles, explicit collision geometry, refined search for pitch/turning conditions, a two-tangent-arc S-turn, and a speed-cap search."
+        ],
+        "representative_writing_points": [
+          "The one-page abstract follows problem-model-method-output order for all five questions.",
+          "The body begins with dimensioned reconstruction diagrams, making the geometry auditable before equations are introduced."
+        ],
+        "evidence_pages": [1, 2]
+      },
+      {
+        "problem": "A",
+        "code": "A242",
+        "paper_title": "基于动态搜索的“板凳龙”运动状态及路线研究",
+        "article_url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024atlw/241104/1977939.shtml",
+        "local_directory": "D:\\2024\\reference_official\\papers\\A\\A242",
+        "page_count": 58,
+        "total_image_bytes": 7776050,
+        "image_set_sha256": "bdd5339b279ccd9b78cd6aafba1f3a03352b3845f023058e1c22d998b7ebb71b",
+        "article_html_sha256": "92023a9b9a970f1e9c38432eb25488ec5e55f5394957188ea97a272282a74472",
+        "representative_modeling_points": [
+          "Combines differential equations, bisection and cosine-law recursion for position/speed propagation.",
+          "Uses segment-distance collision tests, adaptive coarse-to-fine search, single-objective pitch optimization, a two-arc 2:1 turn, and ternary search for the admissible head speed."
+        ],
+        "representative_writing_points": [
+          "The abstract names algorithms and reports high-precision headline values, then points to result workbooks and numbered tables.",
+          "The paper separates the problem restatement from later analysis and keeps a one-question/one-method thread."
+        ],
+        "evidence_pages": [1, 2]
+      },
+      {
+        "problem": "A",
+        "code": "A178",
+        "paper_title": null,
+        "article_url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024atlw/241104/1977937.shtml",
+        "local_directory": "D:\\2024\\reference_official\\papers\\A\\A178",
+        "page_count": 48,
+        "total_image_bytes": 5756832,
+        "image_set_sha256": "a15d757ec842d70fb01d7b2b213c5a6f07ac6ef9f8fb961183b0df061c2b7d5f",
+        "article_html_sha256": "93e388d288565aed33f4f2249b3e7df5e6071ab28bc2dbf181abf71a3b4511e7",
+        "representative_modeling_points": [
+          "Uses spiral differential equations, recursive handle geometry and numerical integration for motion states.",
+          "Approximates collision geometry, applies point-in-triangle/minimum-distance tests, binary/refined search, tangent arcs, and a speed-envelope search."
+        ],
+        "representative_writing_points": [
+          "The abstract reports numerical outputs and stated tolerances question by question.",
+          "The body moves from restatement directly into per-question analysis; the first displayed page does not show a paper title, so none is invented here."
+        ],
+        "evidence_pages": [1, 2]
+      },
+      {
+        "problem": "A",
+        "code": "A016",
+        "paper_title": "基于几何模型的舞龙队位置和速度分析",
+        "article_url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024atlw/241104/1977931.shtml",
+        "local_directory": "D:\\2024\\reference_official\\papers\\A\\A016",
+        "page_count": 59,
+        "total_image_bytes": 5867353,
+        "image_set_sha256": "8e00e6f6b29ee614763ea3f486e6d107977aa05ec9458285f7adf465616982f1",
+        "article_html_sha256": "e8ce7589eafe245422e11e8a01eaf099a9a4a057b56d1481c2eeb5730fcb3d32",
+        "representative_modeling_points": [
+          "Derives position and velocity from the equal-pitch spiral and fixed-distance handle geometry.",
+          "Uses polygon collision detection, step-size refinement for pitch, matrix-based piecewise turn propagation, and speed scaling from a computed velocity matrix."
+        ],
+        "representative_writing_points": [
+          "Each abstract paragraph states the model, numerical procedure and file/table destination.",
+          "The paper defines all five tasks in a compact restatement before modeling."
+        ],
+        "evidence_pages": [1, 2]
+      },
+      {
+        "problem": "A",
+        "code": "A053",
+        "paper_title": "基于目标优化的板凳龙形态调节",
+        "article_url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024atlw/241104/1977933.shtml",
+        "local_directory": "D:\\2024\\reference_official\\papers\\A\\A053",
+        "page_count": 62,
+        "total_image_bytes": 7819275,
+        "image_set_sha256": "f913123cf891d6b17ed10552912d22c21fd196a8f7c37a111166982ac2295fe5",
+        "article_html_sha256": "37165be7e2ec2200a576943698d9dc1561d2d0fb6177de7b6bf8337c1a65255c",
+        "representative_modeling_points": [
+          "Uses discretized spiral motion and inter-handle geometry with result/sensitivity analysis.",
+          "Applies the separating-axis theorem for rectangle overlap, stepwise pitch optimization, constrained turn-length optimization, piecewise path states, and particle-swarm speed optimization."
+        ],
+        "representative_writing_points": [
+          "The abstract distinguishes modeling, optimization and validation/sensitivity components.",
+          "The body makes assumptions explicit immediately after the restatement."
+        ],
+        "evidence_pages": [1, 2]
+      },
+      {
+        "problem": "B",
+        "code": "B159",
+        "paper_title": "生产过程中的决策优化设计",
+        "article_url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024btlw/241104/1977943.shtml",
+        "local_directory": "D:\\2024\\reference_official\\papers\\B\\B159",
+        "page_count": 37,
+        "total_image_bytes": 4263623,
+        "image_set_sha256": "c8aa0ed0324969265db31c80e1d2b067e08205d68dac148dcffd3e5b6373c563",
+        "article_html_sha256": "4826260c26d9f5c86d1fb94129cdae3c3b8ad123378ca9927679de850a6bf873",
+        "representative_modeling_points": [
+          "Frames sampling as paired hypothesis tests with power/error constraints and sample-size minimization.",
+          "Uses expected-profit accounting, a state-decision dynamic program with backward recursion/memoization, and Bayesian beta updating for uncertain defect rates."
+        ],
+        "representative_writing_points": [
+          "The abstract gives a clean progression from single-stage testing to multistage decisions and uncertainty analysis.",
+          "It states the optimization criterion and headline expected-profit results, not only method names."
+        ],
+        "evidence_pages": [1, 2]
+      },
+      {
+        "problem": "B",
+        "code": "B195",
+        "paper_title": "基于多阶段模拟仿真的生产决策问题",
+        "article_url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024btlw/241104/1977945.shtml",
+        "local_directory": "D:\\2024\\reference_official\\papers\\B\\B195",
+        "page_count": 70,
+        "total_image_bytes": 8831750,
+        "image_set_sha256": "6014bd4a722cd48b0bf8741940a0dcaed185d78fff8ed0e3a66b7dfcf5df6abe",
+        "article_html_sha256": "02c69dd736742035d3f5e5d0ce25f6f93079cf3f0dfbcf0cf6cefa2e6ff888e5",
+        "representative_modeling_points": [
+          "Uses simulated sampling to select acceptance/rejection plans under the two confidence requirements.",
+          "Parameterizes multistage process decisions, optimizes expected profit across binary strategy vectors, expands to 16 decisions, and adds Bayesian/Monte-Carlo uncertainty analysis."
+        ],
+        "representative_writing_points": [
+          "The abstract prints decision-vector conventions and representative strategy/profit outputs, which improves reproducibility.",
+          "The body preserves the original four-question hierarchy with numbered subquestions."
+        ],
+        "evidence_pages": [1, 2]
+      },
+      {
+        "problem": "B",
+        "code": "B196",
+        "paper_title": "基于蚁群算法与遗传算法优化的蒙特卡洛模拟在生产决策优化中的应用研究",
+        "article_url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024btlw/241104/1977950.shtml",
+        "local_directory": "D:\\2024\\reference_official\\papers\\B\\B196",
+        "page_count": 28,
+        "total_image_bytes": 3737617,
+        "image_set_sha256": "9ff479e326f17000d69d26007e3d764db219f71fd7e77727297904e87e90abf3",
+        "article_html_sha256": "f4d0d16361305ec2ed4163c2d64db4dd6b935ac659654aca556b3b4e7857fc1c",
+        "representative_modeling_points": [
+          "Uses binomial modeling, the de Moivre-Laplace approximation and hypothesis testing for sampling plans.",
+          "Combines Monte Carlo decision trees with ant-colony search, genetic optimization for the extended process, and 3-sigma/confidence-interval robustness analysis."
+        ],
+        "representative_writing_points": [
+          "The title communicates the computational pipeline and the abstract maps one principal method to each question.",
+          "It reports sample sizes, explicit action choices and stress-test conclusions, making the decision output easy to audit."
+        ],
+        "evidence_pages": [1, 2]
+      }
+    ]
+  }
+}

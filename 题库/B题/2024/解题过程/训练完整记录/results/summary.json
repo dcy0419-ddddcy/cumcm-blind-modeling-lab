@@ -1,0 +1,280 @@
+{
+  "provenance": {
+    "problem": "2024 CUMCM B - production process decisions",
+    "solution_mode": "independent; original statement only",
+    "generated_by": "solve_b.py"
+  },
+  "q1": {
+    "configuration": {
+      "p0": 0.1,
+      "p_low": 0.05,
+      "p_high": 0.15,
+      "alpha_reject": 0.05,
+      "alpha_accept": 0.1,
+      "max_n": 2000
+    },
+    "selected_boundaries": {
+      "8": {
+        "accept_max": null,
+        "reject_min": 8
+      },
+      "43": {
+        "accept_max": 0,
+        "reject_min": 12
+      },
+      "50": {
+        "accept_max": 0,
+        "reject_min": 13
+      },
+      "100": {
+        "accept_max": 4,
+        "reject_min": 19
+      },
+      "200": {
+        "accept_max": 11,
+        "reject_min": 32
+      },
+      "500": {
+        "accept_max": 33,
+        "reject_min": 69
+      },
+      "1000": {
+        "accept_max": 69,
+        "reject_min": 131
+      },
+      "2000": {
+        "accept_max": 141,
+        "reject_min": 254
+      }
+    },
+    "operating_characteristics": [
+      {
+        "true_defect_rate": 0.02,
+        "accept_probability": 0.9999999997164742,
+        "reject_probability": 2.8352407292037253e-10,
+        "unresolved_probability_at_max_n": 2.210163530341478e-38,
+        "truncated_expected_sample_size": 59.61102218527426
+      },
+      {
+        "true_defect_rate": 0.05,
+        "accept_probability": 0.9999912104008277,
+        "reject_probability": 5.71991772292554e-06,
+        "unresolved_probability_at_max_n": 3.069681444032205e-06,
+        "truncated_expected_sample_size": 139.53151897037193
+      },
+      {
+        "true_defect_rate": 0.08,
+        "accept_probability": 0.48430251239939603,
+        "reject_probability": 0.0020148960033266206,
+        "unresolved_probability_at_max_n": 0.5136825915973258,
+        "truncated_expected_sample_size": 1186.554333468373
+      },
+      {
+        "true_defect_rate": 0.1,
+        "accept_probability": 0.09719365522784651,
+        "reject_probability": 0.043124247510898606,
+        "unresolved_probability_at_max_n": 0.8596820972613025,
+        "truncated_expected_sample_size": 1743.9668289645026
+      },
+      {
+        "true_defect_rate": 0.12,
+        "accept_probability": 0.0220214217001998,
+        "reject_probability": 0.4938492747544177,
+        "unresolved_probability_at_max_n": 0.4841293035453842,
+        "truncated_expected_sample_size": 1252.3445267974803
+      },
+      {
+        "true_defect_rate": 0.15,
+        "accept_probability": 0.0028427344201627878,
+        "reject_probability": 0.9968345843435404,
+        "unresolved_probability_at_max_n": 0.0003226812362877315,
+        "truncated_expected_sample_size": 255.57264356362134
+      },
+      {
+        "true_defect_rate": 0.2,
+        "accept_probability": 0.00012027447729065933,
+        "reject_probability": 0.9998797255227131,
+        "unresolved_probability_at_max_n": 2.9968170515816826e-19,
+        "truncated_expected_sample_size": 89.22505578810885
+      },
+      {
+        "true_defect_rate": 0.3,
+        "accept_probability": 2.487611097553208e-07,
+        "reject_probability": 0.9999997512388885,
+        "unresolved_probability_at_max_n": 2.0096580943819468e-76,
+        "truncated_expected_sample_size": 38.832657822405906
+      }
+    ]
+  },
+  "q2": [
+    {
+      "case": 1,
+      "optimal_policies": [
+        "1101"
+      ],
+      "selected_policy_for_display": "1101",
+      "expected_fulfillment_cost": 37.888888888888886,
+      "expected_profit": 18.111111111111114,
+      "pass_probability_per_assembly": 0.9
+    },
+    {
+      "case": 2,
+      "optimal_policies": [
+        "1101"
+      ],
+      "selected_policy_for_display": "1101",
+      "expected_fulfillment_cost": 44.0,
+      "expected_profit": 12.0,
+      "pass_probability_per_assembly": 0.8
+    },
+    {
+      "case": 3,
+      "optimal_policies": [
+        "1101",
+        "1111"
+      ],
+      "selected_policy_for_display": "1101",
+      "expected_fulfillment_cost": 40.55555555555556,
+      "expected_profit": 15.444444444444443,
+      "pass_probability_per_assembly": 0.9
+    },
+    {
+      "case": 4,
+      "optimal_policies": [
+        "1111"
+      ],
+      "selected_policy_for_display": "1111",
+      "expected_fulfillment_cost": 41.25,
+      "expected_profit": 14.75,
+      "pass_probability_per_assembly": 0.8
+    },
+    {
+      "case": 5,
+      "optimal_policies": [
+        "0100"
+      ],
+      "selected_policy_for_display": "0100",
+      "expected_fulfillment_cost": 44.01234567901234,
+      "expected_profit": 11.987654320987659,
+      "pass_probability_per_assembly": 0.81
+    },
+    {
+      "case": 6,
+      "optimal_policies": [
+        "0000"
+      ],
+      "selected_policy_for_display": "0000",
+      "expected_fulfillment_cost": 34.3213296398892,
+      "expected_profit": 21.6786703601108,
+      "pass_probability_per_assembly": 0.8573749999999999
+    }
+  ],
+  "q3": {
+    "feasible_policy_count": 6012,
+    "best_policy": {
+      "inspect_components": "11111111",
+      "inspect_semis": "111",
+      "dismantle_semis": "111",
+      "inspect_final": 0,
+      "dismantle_final": 1,
+      "expected_fulfillment_cost": 139.77777777777777,
+      "expected_profit": 60.22222222222223,
+      "pass_probability_per_final_assembly": 0.9
+    }
+  },
+  "q4": {
+    "data_status": "The statement gives no raw sample sizes/counts. Numerical uncertainty results are explicitly illustrative records with n=100 and x=n*listed_rate, not claimed observations.",
+    "prior": "independent Jeffreys Beta(0.5, 0.5)",
+    "q2_selected": [
+      {
+        "case": 1,
+        "sample_size_each_rate": 100,
+        "draw_count": 20000,
+        "selected_policy": "1101",
+        "posterior_mean_cost": 38.165851818891134,
+        "posterior_mean_cost_mc_se": 0.007523166763403348,
+        "posterior_mean_profit": 17.834148181108866,
+        "posterior_cost_q025": 36.343347028282125,
+        "posterior_cost_q975": 40.502212136186,
+        "probability_ex_post_optimal": 0.9319
+      },
+      {
+        "case": 2,
+        "sample_size_each_rate": 100,
+        "draw_count": 20000,
+        "selected_policy": "1101",
+        "posterior_mean_cost": 44.364478116481905,
+        "posterior_mean_cost_mc_se": 0.012613618404439812,
+        "posterior_mean_profit": 11.635521883518095,
+        "posterior_cost_q025": 41.22198596242993,
+        "posterior_cost_q975": 48.17452911284244,
+        "probability_ex_post_optimal": 1.0
+      },
+      {
+        "case": 3,
+        "sample_size_each_rate": 100,
+        "draw_count": 20000,
+        "selected_policy": "1111",
+        "posterior_mean_cost": 40.809722665994016,
+        "posterior_mean_cost_mc_se": 0.007074143499985281,
+        "posterior_mean_profit": 15.190277334005984,
+        "posterior_cost_q025": 39.0763534749402,
+        "posterior_cost_q975": 42.996342769760474,
+        "probability_ex_post_optimal": 0.51215
+      },
+      {
+        "case": 4,
+        "sample_size_each_rate": 100,
+        "draw_count": 20000,
+        "selected_policy": "1111",
+        "posterior_mean_cost": 41.53969167496932,
+        "posterior_mean_cost_mc_se": 0.010597057495872279,
+        "posterior_mean_profit": 14.460308325030681,
+        "posterior_cost_q025": 38.87480924674946,
+        "posterior_cost_q975": 44.73099530218536,
+        "probability_ex_post_optimal": 1.0
+      },
+      {
+        "case": 5,
+        "sample_size_each_rate": 100,
+        "draw_count": 20000,
+        "selected_policy": "0100",
+        "posterior_mean_cost": 44.81696813006821,
+        "posterior_mean_cost_mc_se": 0.021772244965436616,
+        "posterior_mean_profit": 11.183031869931789,
+        "posterior_cost_q025": 39.55064286987994,
+        "posterior_cost_q975": 51.679951681427106,
+        "probability_ex_post_optimal": 0.5442
+      },
+      {
+        "case": 6,
+        "sample_size_each_rate": 100,
+        "draw_count": 20000,
+        "selected_policy": "0000",
+        "posterior_mean_cost": 35.046221997631264,
+        "posterior_mean_cost_mc_se": 0.01336858577647603,
+        "posterior_mean_profit": 20.953778002368736,
+        "posterior_cost_q025": 31.896879974875652,
+        "posterior_cost_q975": 39.23718332630833,
+        "probability_ex_post_optimal": 0.62145
+      }
+    ],
+    "q3_selected": {
+      "rank": 1,
+      "inspect_components": "11111111",
+      "inspect_semis": "111",
+      "dismantle_semis": "111",
+      "inspect_final": 0,
+      "dismantle_final": 1,
+      "sample_size_each_rate": 100,
+      "draw_count": 5000,
+      "posterior_mean_cost": 140.97108329833316,
+      "posterior_mean_cost_mc_se": 0.0392642662442823,
+      "posterior_mean_profit": 59.028916701666844,
+      "posterior_cost_q025": 136.1549124627485,
+      "posterior_cost_q975": 147.0777472038959,
+      "probability_ex_post_optimal": 0.918,
+      "feasible_policy_count": 6012
+    }
+  }
+}
