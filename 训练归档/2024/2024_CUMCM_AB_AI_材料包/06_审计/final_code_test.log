@@ -1,0 +1,16 @@
+Historical in-place code test (superseded for portability)
+Executed at: 2026-09-05T18:00:31.7385410+08:00
+Python: D:\Anaconda\python.exe
+
+A result: PASS, 5 tests.
+B result: PASS, 6 tests.
+
+Limitation discovered during final audit: the frozen A test file retained its original
+`work_independent.A` import. The in-place run could resolve that external workspace,
+so it did not by itself prove that a moved package was self-contained. The frozen
+test was not edited because doing so would break the independence hash.
+
+Authoritative final test: see `portable_reproduction_test.log`. The package-root
+`reproduce_pack.py` supplies an in-memory compatibility namespace, verifies all 45
+frozen A/B hashes, runs the same 5+6 tests without external project imports, and was
+also executed successfully from a copied directory named `renamed_pack`.

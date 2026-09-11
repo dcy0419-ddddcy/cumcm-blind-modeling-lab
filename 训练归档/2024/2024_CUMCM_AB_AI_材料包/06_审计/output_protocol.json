@@ -1,0 +1,1597 @@
+{
+  "schema_version": "1.0.0",
+  "record_id": "cumcm-2024-ab-retrospective-pack-001",
+  "record_purpose": "milestone",
+  "synthetic_example": false,
+  "generated_at": "2026-09-05T20:08:54+08:00",
+  "competition": {
+    "name": "2024 全国大学生数学建模竞赛 A/B 题独立复盘",
+    "year": 2024,
+    "problem_ids": [
+      "A",
+      "B"
+    ],
+    "timezone": "Asia/Shanghai",
+    "team_id": "RETROSPECTIVE-TRAINING-NOT-A-SUBMISSION",
+    "rules_status": "partially_verified"
+  },
+  "phase": "submission_audit",
+  "gates": [
+    {
+      "id": "G0",
+      "name": "当届规则与权限",
+      "status": "in_progress",
+      "checked_at": "2026-09-05T20:08:54+08:00",
+      "evidence_artifact_ids": [
+        "artifact-ai-disclosure"
+      ],
+      "blocking_reasons": [
+        "2024 单独全国性 AI 规则未检索到；任何未来比赛必须用当届原文替换 2026 快照后才可放行。"
+      ],
+      "approved_by": null
+    },
+    {
+      "id": "G1",
+      "name": "题面与输入冻结",
+      "status": "pass",
+      "checked_at": "2026-09-05T20:08:54+08:00",
+      "evidence_artifact_ids": [
+        "artifact-freeze-manifest",
+        "artifact-independence-log"
+      ],
+      "blocking_reasons": [],
+      "approved_by": null
+    },
+    {
+      "id": "G2",
+      "name": "模型可识别与基线",
+      "status": "fail",
+      "checked_at": "2026-09-05T20:08:54+08:00",
+      "evidence_artifact_ids": [
+        "artifact-a-report",
+        "artifact-b-report",
+        "artifact-b-comparison"
+      ],
+      "blocking_reasons": [
+        "B2 冻结模型未覆盖拆解后的自适应动作，因此不能通过完整状态空间与全局最优基线；该失败已保留为训练诊断。"
+      ],
+      "approved_by": null
+    },
+    {
+      "id": "G3",
+      "name": "实现可复现",
+      "status": "in_progress",
+      "checked_at": "2026-09-05T20:08:54+08:00",
+      "evidence_artifact_ids": [
+        "artifact-a-code",
+        "artifact-b-code",
+        "artifact-reproduce-runner",
+        "artifact-reproduce-log"
+      ],
+      "blocking_reasons": [
+        "包移机后可只读核验冻结哈希与 11 项测试，但尚未在当前包路径从原始输入单命令完整重生成全部大体量结果；冻结结果不得被就地覆盖。"
+      ],
+      "approved_by": null
+    },
+    {
+      "id": "G4",
+      "name": "验证与压力测试",
+      "status": "fail",
+      "checked_at": "2026-09-05T20:08:54+08:00",
+      "evidence_artifact_ids": [
+        "artifact-reproduce-log",
+        "artifact-b-comparison",
+        "artifact-document-qa"
+      ],
+      "blocking_reasons": [
+        "A/B 实现测试与文档检查通过，但 critical 的 B2 完整动作空间验证失败；不得把受限四位枚举解释为官方语义下全局最优。"
+      ],
+      "approved_by": null
+    },
+    {
+      "id": "G5",
+      "name": "独立论文与提交候选",
+      "status": "fail",
+      "checked_at": "2026-09-05T20:08:54+08:00",
+      "evidence_artifact_ids": [
+        "artifact-a-report",
+        "artifact-b-report",
+        "artifact-a-result1",
+        "artifact-a-result2",
+        "artifact-a-result4"
+      ],
+      "blocking_reasons": [
+        "A 题候选通过现有检查；B 题冻结论文含已被赛后反例推翻的完整动作空间最优主张，只能作为带勘误的训练档案，不能直接提交。"
+      ],
+      "approved_by": null
+    },
+    {
+      "id": "G6",
+      "name": "独立成果冻结",
+      "status": "pass",
+      "checked_at": "2026-09-05T09:45:58.5520005Z",
+      "evidence_artifact_ids": [
+        "artifact-freeze-manifest",
+        "artifact-independence-log"
+      ],
+      "blocking_reasons": [],
+      "approved_by": null
+    },
+    {
+      "id": "G7",
+      "name": "冻结后官方案例核验",
+      "status": "pass",
+      "checked_at": "2026-09-05T17:53:00+08:00",
+      "evidence_artifact_ids": [
+        "artifact-a-comparison",
+        "artifact-b-comparison",
+        "artifact-official-source-total",
+        "artifact-official-source-a-pages",
+        "artifact-official-source-b-pages"
+      ],
+      "blocking_reasons": [],
+      "approved_by": null
+    },
+    {
+      "id": "G8",
+      "name": "经验提炼与材料包重组",
+      "status": "pass",
+      "checked_at": "2026-09-05T20:08:54+08:00",
+      "evidence_artifact_ids": [
+        "artifact-playbook",
+        "artifact-master-prompt",
+        "artifact-output-schema",
+        "artifact-training-plan"
+      ],
+      "blocking_reasons": [],
+      "approved_by": null
+    },
+    {
+      "id": "G9",
+      "name": "最终提交审计",
+      "status": "in_progress",
+      "checked_at": null,
+      "evidence_artifact_ids": [
+        "artifact-ai-disclosure",
+        "artifact-document-qa"
+      ],
+      "blocking_reasons": [
+        "本包尚未由真实参赛队员逐项复核并签字，且未来当届规则尚不可核验；不得直接冒充正式提交材料。"
+      ],
+      "approved_by": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-problem-a",
+      "category": "problem_statement",
+      "title": "2024 CUMCM A 题题面",
+      "official_status": "official_verified",
+      "location": {
+        "local_path": "00_原始材料/2024年_A题_板凳龙.pdf",
+        "url": null
+      },
+      "accessed_at": "2026-09-05T09:45:58.5520005Z",
+      "sha256": "7ece8c6d2b876781e5219091c38980e1321ffd1d56604cbe36cd867edb7a1933",
+      "allowed_phase": "independent",
+      "citation_locator": "全文与附件说明",
+      "notes": "独立求解阶段已使用题面、附件与空白模板；accessed_at 记为冻结时刻这一最晚可证上界，不冒充精确首次打开时间。"
+    },
+    {
+      "id": "source-problem-b",
+      "category": "problem_statement",
+      "title": "2024 CUMCM B 题题面",
+      "official_status": "official_verified",
+      "location": {
+        "local_path": "00_原始材料/2024年_B题_生产过程中的决策问题.pdf",
+        "url": null
+      },
+      "accessed_at": "2026-09-05T09:45:58.5520005Z",
+      "sha256": "f54529dd15d729b046e248ea41033b4f66ef68333be2bee912b0c54eafd227ab",
+      "allowed_phase": "independent",
+      "citation_locator": "全文与表格",
+      "notes": "独立求解阶段已使用题面；accessed_at 记为冻结时刻这一最晚可证上界，不冒充精确首次打开时间。问题 4 未提供具体抽检样本量与次品数。"
+    },
+    {
+      "id": "source-rule-2024",
+      "category": "official_rule",
+      "title": "2024 通知与参赛规则快照",
+      "official_status": "official_verified",
+      "location": {
+        "local_path": "00_原始材料/官方规则快照/2024_通知与规则.pdf",
+        "url": null
+      },
+      "accessed_at": "2026-09-05T20:08:54+08:00",
+      "sha256": "1c392aeb4e73af67dae62ae030f95e2090d77049dbe4b66474057ece77871938",
+      "allowed_phase": "all",
+      "citation_locator": "全文",
+      "notes": "未在本次检索中找到 2024 年单独全国性生成式 AI 工具规则。"
+    },
+    {
+      "id": "source-rule-2026-ai",
+      "category": "official_rule",
+      "title": "2026 AI 工具使用规定快照",
+      "official_status": "official_verified",
+      "location": {
+        "local_path": "00_原始材料/官方规则快照/2026_AI工具使用规定.pdf",
+        "url": null
+      },
+      "accessed_at": "2026-09-05T20:08:54+08:00",
+      "sha256": "4cf6f30cdd37d6ef2cdb3439c5dba4d9f207c12d6aafe24419e81f3c69acf59a",
+      "allowed_phase": "post_freeze_only",
+      "citation_locator": "全文",
+      "notes": "仅作为当前规则快照与未来比赛核验模板，不能替代未来当届原文。"
+    },
+    {
+      "id": "source-rule-2026-entry",
+      "category": "official_rule",
+      "title": "2026 参赛规则快照",
+      "official_status": "official_verified",
+      "location": {
+        "local_path": "00_原始材料/官方规则快照/2026_参赛规则.pdf",
+        "url": null
+      },
+      "accessed_at": "2026-09-05T20:08:54+08:00",
+      "sha256": "46d3837906bfd7049eb04c40cfc8b8436912d7edae98462ba064abfa381a8d3a",
+      "allowed_phase": "post_freeze_only",
+      "citation_locator": "全文",
+      "notes": "仅作为当前规则快照。"
+    },
+    {
+      "id": "source-official-a",
+      "category": "external_official_case",
+      "title": "2024 A 题官方专家讲评与展示入口",
+      "official_status": "official_verified",
+      "location": {
+        "local_path": null,
+        "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmstjp_2024sxjmstjp/241202/1982935.shtml"
+      },
+      "accessed_at": "2026-09-05T17:53:00+08:00",
+      "sha256": null,
+      "allowed_phase": "post_freeze_only",
+      "citation_locator": "官方展示入口及其逐页资源；逐页 URL 与哈希见官方来源元数据目录",
+      "notes": "独立成果冻结后访问；只用于核验与方法反思。"
+    },
+    {
+      "id": "source-official-b",
+      "category": "external_official_case",
+      "title": "2024 B 题官方专家讲评与展示入口",
+      "official_status": "official_verified",
+      "location": {
+        "local_path": null,
+        "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmstjp_2024sxjmstjp/241127/1980968.shtml"
+      },
+      "accessed_at": "2026-09-05T17:53:00+08:00",
+      "sha256": null,
+      "allowed_phase": "post_freeze_only",
+      "citation_locator": "官方展示入口及其逐页资源；逐页 URL 与哈希见官方来源元数据目录",
+      "notes": "独立成果冻结后访问；只用于核验与方法反思。"
+    },
+    {
+      "id": "source-official-listing",
+      "category": "external_official_case",
+      "title": "2024 全国大学生数学建模竞赛论文展示总页",
+      "official_status": "official_verified",
+      "location": {
+        "local_path": null,
+        "url": "https://dxs.moe.gov.cn/zx/hd/sxjm/sxjmlw/2024qgdxssxjmjslwzs/"
+      },
+      "accessed_at": "2026-09-05T17:53:00+08:00",
+      "sha256": null,
+      "allowed_phase": "post_freeze_only",
+      "citation_locator": "官方展示入口及其逐页资源；逐页 URL 与哈希见官方来源元数据目录",
+      "notes": "官方展示页提示未经许可请勿转载，因此包内不再分发展示论文页图、OCR 或拼接 PDF。"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "assumption-a-fixed-tangency",
+      "question_ids": [
+        "A4"
+      ],
+      "kind": "interpretation",
+      "statement": "调头曲线两端连接点与切向方向按题面给定约束固定。",
+      "status": "accepted_by_team",
+      "rationale": "固定端点和切向后，两圆弧半径与圆心角由几何条件唯一确定。",
+      "impact": "2:1 半径分配不能再通过移动切点缩短；若允许移动切点则是另一个问题。",
+      "source_ids": [
+        "source-problem-a"
+      ],
+      "alternatives": [
+        "将切点作为变量，并明确新的可行域后重新优化。"
+      ],
+      "sensitivity_validation_ids": [
+        "validation-a-tests"
+      ],
+      "owner": "team-modeler"
+    },
+    {
+      "id": "assumption-b-q2-restricted-actions",
+      "question_ids": [
+        "B2"
+      ],
+      "kind": "scope",
+      "statement": "仅用四位首次决策编码即可覆盖问题 2 在完整题意下的全部返工动作空间。",
+      "status": "rejected",
+      "rationale": "冻结程序没有表达拆解后的自适应检测与重装动作；赛后官方讲评语义表明返工阶段允许重新选择动作。",
+      "impact": "情形 1、3、5 的冻结策略并非官方语义下全局最优；情形 2、4、6 一致。",
+      "source_ids": [
+        "source-problem-b",
+        "source-official-b"
+      ],
+      "alternatives": [
+        "使用首次动作、拆解决策、返工状态动作组成的信息状态 MDP 或吸收链。"
+      ],
+      "sensitivity_validation_ids": [
+        "validation-b-q2-scope"
+      ],
+      "owner": "team-modeler"
+    },
+    {
+      "id": "assumption-b-q4-missing-samples",
+      "question_ids": [
+        "B4"
+      ],
+      "kind": "unresolved",
+      "statement": "题面没有给出各节点真实抽检记录 (n,x)。",
+      "status": "needs_evidence",
+      "rationale": "无法从缺失观测唯一计算后验或最优策略。",
+      "impact": "m=100 仅能作为清楚标注的演示情景，不能冒充实测数据。",
+      "source_ids": [
+        "source-problem-b"
+      ],
+      "alternatives": [
+        "取得真实 (n,x) 后逐节点替换并重跑。"
+      ],
+      "sensitivity_validation_ids": [
+        "validation-b-tests"
+      ],
+      "owner": "team-data-reviewer"
+    }
+  ],
+  "data_lineage": [
+    {
+      "id": "node-problem-a",
+      "kind": "raw_input",
+      "name": "A 题题面",
+      "path": "00_原始材料/2024年_A题_板凳龙.pdf",
+      "sha256": "7ece8c6d2b876781e5219091c38980e1321ffd1d56604cbe36cd867edb7a1933",
+      "source_ids": [
+        "source-problem-a"
+      ],
+      "parent_node_ids": [],
+      "transformation": "原样保存并哈希。",
+      "generated_by_run_ids": [],
+      "schema_or_shape": "PDF",
+      "units": {},
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "node-problem-b",
+      "kind": "raw_input",
+      "name": "B 题题面",
+      "path": "00_原始材料/2024年_B题_生产过程中的决策问题.pdf",
+      "sha256": "f54529dd15d729b046e248ea41033b4f66ef68333be2bee912b0c54eafd227ab",
+      "source_ids": [
+        "source-problem-b"
+      ],
+      "parent_node_ids": [],
+      "transformation": "原样保存并哈希。",
+      "generated_by_run_ids": [],
+      "schema_or_shape": "PDF",
+      "units": {},
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "node-a-summary",
+      "kind": "result_data",
+      "name": "A 题机器摘要",
+      "path": "03_A题_独立成果/computed/summary.json",
+      "sha256": "7cbef189ab083e857bedd7196fa2af0998a0d8717416b342bc212c5055d6abcf",
+      "source_ids": [
+        "source-problem-a"
+      ],
+      "parent_node_ids": [
+        "node-problem-a"
+      ],
+      "transformation": "由 run_all.py 调用几何与碰撞求解器生成。",
+      "generated_by_run_ids": [],
+      "schema_or_shape": "JSON object with Q1-Q5 summaries",
+      "units": {
+        "length": "m",
+        "time": "s",
+        "speed": "m/s"
+      },
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "node-a-result1",
+      "kind": "submission_file",
+      "name": "A 题问题 1 表格",
+      "path": "03_A题_独立成果/outputs/result1.xlsx",
+      "sha256": "6a972c28a7ade863549bfff6536b8f51ba344d67cc2096a0864f76a6b2dd2ad4",
+      "source_ids": [
+        "source-problem-a"
+      ],
+      "parent_node_ids": [
+        "node-a-summary"
+      ],
+      "transformation": "从同一次求解结果写入官方空白模板副本。",
+      "generated_by_run_ids": [],
+      "schema_or_shape": "XLSX; 2 worksheets",
+      "units": {
+        "position": "m",
+        "speed": "m/s"
+      },
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "node-a-result2",
+      "kind": "submission_file",
+      "name": "A 题问题 2 表格",
+      "path": "03_A题_独立成果/outputs/result2.xlsx",
+      "sha256": "9409f88479e6ed07cfc46ae9906669657940d72feee801418938513f8208780d",
+      "source_ids": [
+        "source-problem-a"
+      ],
+      "parent_node_ids": [
+        "node-a-summary"
+      ],
+      "transformation": "从同一次求解结果写入官方空白模板副本。",
+      "generated_by_run_ids": [],
+      "schema_or_shape": "XLSX; 1 worksheet",
+      "units": {
+        "position": "m",
+        "speed": "m/s"
+      },
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "node-b-summary",
+      "kind": "result_data",
+      "name": "B 题机器摘要",
+      "path": "04_B题_独立成果/results/summary.json",
+      "sha256": "ec6e0831322728d0eb119c1b68ef4de5cc0a7dca54ae2cae9722195a6f64d48a",
+      "source_ids": [
+        "source-problem-b"
+      ],
+      "parent_node_ids": [
+        "node-problem-b"
+      ],
+      "transformation": "由 solve_b.py 枚举与解析更新生成。",
+      "generated_by_run_ids": [],
+      "schema_or_shape": "JSON object with Q1-Q4 summaries",
+      "units": {
+        "cost": "元/件",
+        "profit": "元/件"
+      },
+      "confidentiality": "team_private"
+    }
+  ],
+  "models": [
+    {
+      "id": "model-a-geometry",
+      "question_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "name": "等弧长链条运动、矩形 SAT 碰撞与全区间安全优化",
+      "purpose": "计算板凳龙位置速度、首次碰撞、最小螺距、调头曲线与最大入速。",
+      "assumption_ids": [
+        "assumption-a-fixed-tangency"
+      ],
+      "input_node_ids": [
+        "node-problem-a"
+      ],
+      "decision_variables": [
+        "螺距",
+        "入速",
+        "碰撞时刻",
+        "弧长参数"
+      ],
+      "state_variables": [
+        "各把手在曲线上的弧长、坐标与速度"
+      ],
+      "objective": "在几何与速度约束下求首次事件、最小可行螺距和最大安全入速。",
+      "constraints": [
+        "刚性板长与孔距",
+        "非相邻矩形不得相交",
+        "全时段速度不超过 2 m/s",
+        "调头两圆弧半径比 2:1"
+      ],
+      "equations_or_algorithm": "弧长反演、链式等距根求解、分离轴定理、外层扫描与内层有界精化、速度投影递推。",
+      "solution_method": "解析关系、单调根求解、符号安全裕度与网格加密交叉验证。",
+      "alternative_model_ids": [],
+      "identifiability": "identified_under_assumptions",
+      "limitations": [
+        "若允许移动调头切点，问题 4 的可行域会改变。",
+        "最小间隙图和全局构型图仍可进一步丰富。"
+      ]
+    },
+    {
+      "id": "model-b-decision",
+      "question_ids": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "name": "随时有效序贯检验与装配树期望成本决策",
+      "purpose": "控制验收错误风险，并计算检测、返工、拆解与替换策略。",
+      "assumption_ids": [
+        "assumption-b-q2-restricted-actions",
+        "assumption-b-q4-missing-samples"
+      ],
+      "input_node_ids": [
+        "node-problem-b"
+      ],
+      "decision_variables": [
+        "检测动作",
+        "拆解决策",
+        "返工阶段动作",
+        "停止时刻"
+      ],
+      "state_variables": [
+        "累计次品数",
+        "零件/半成品质量保证状态",
+        "装配树节点状态"
+      ],
+      "objective": "在错误风险和物理流程约束下最小化期望成本并最大化期望利润。",
+      "constraints": [
+        "拒收风险 0.05",
+        "接收风险 0.10",
+        "成本更新方程守恒",
+        "吸收性与不可无限复用坏件"
+      ],
+      "equations_or_algorithm": "双向似然比超鞅边界、更新方程、策略穷举、Jeffreys 后验传播。",
+      "solution_method": "小策略空间完全枚举、单元测试、边界与后验抽样检查。",
+      "alternative_model_ids": [],
+      "identifiability": "partially_identified",
+      "limitations": [
+        "问题 2 冻结程序没有覆盖拆解后的自适应动作。",
+        "问题 4 缺少真实样本记录。",
+        "问题 3 的全局最优只在声明的平稳策略类内成立。"
+      ]
+    }
+  ],
+  "code_runs": [
+    {
+      "id": "run-portable-verification-final",
+      "purpose": "在最终材料包根目录只读核验 45 个 A/B 冻结文件哈希、执行 A/B 共 11 项测试并检查 7 个必需成品。",
+      "entrypoint": "reproduce_pack.py",
+      "command": "D:/Anaconda/python.exe -B reproduce_pack.py",
+      "working_directory": ".",
+      "config_path": null,
+      "environment": {
+        "os": "Windows",
+        "language": "Python",
+        "language_version": "3.13.5",
+        "dependency_lock_path": "03_A题_独立成果/requirements.txt",
+        "hardware_notes": "CPU-only verification; exact processor model was not required or recorded."
+      },
+      "random_seed": null,
+      "started_at": "2026-09-05T19:44:25.0116757+08:00",
+      "finished_at": "2026-09-05T19:44:26.5493664+08:00",
+      "duration_seconds": 1.534236,
+      "exit_code": 0,
+      "status": "success",
+      "input_node_ids": [
+        "node-a-summary",
+        "node-b-summary"
+      ],
+      "output_node_ids": [],
+      "stdout_path": "06_审计/portable_reproduction_test.log",
+      "stderr_path": null
+    }
+  ],
+  "results": [
+    {
+      "id": "result-a-q1",
+      "question_id": "A1",
+      "name": "0--300 秒全把手位置速度表",
+      "status": "final",
+      "value": {
+        "workbook_time_grid": {
+          "start_seconds": 0,
+          "end_seconds": 300,
+          "step_seconds": 1,
+          "count": 301
+        },
+        "paper_report_times_seconds": [
+          0,
+          60,
+          120,
+          180,
+          240,
+          300
+        ],
+        "handle_count": 224,
+        "workbook": "03_A题_独立成果/outputs/result1.xlsx"
+      },
+      "unit": "m and m/s",
+      "internal_precision": "301 workbook time points at 1-second intervals; 6 paper report times",
+      "display_precision": "301 workbook time points at 1-second intervals; 6 paper report times",
+      "source_run_ids": [],
+      "source_node_ids": [
+        "node-a-summary",
+        "node-a-result1"
+      ],
+      "model_ids": [
+        "model-a-geometry"
+      ],
+      "assumption_ids": [],
+      "uncertainty": null,
+      "interpretation": "等弧长反演与相邻把手定距根求解生成两张工作表；工作簿含 0--300 秒逐秒结果，论文只抽取 6 个时点展示，数值均由同一求解链生成而非手抄。"
+    },
+    {
+      "id": "result-a-q2",
+      "question_id": "A2",
+      "name": "首次碰撞时刻",
+      "status": "final",
+      "value": {
+        "time": 412.473837682,
+        "pair": [
+          "龙头板",
+          "第8节龙身板"
+        ]
+      },
+      "unit": "s",
+      "internal_precision": "12 significant digits",
+      "display_precision": "12 significant digits",
+      "source_run_ids": [],
+      "source_node_ids": [
+        "node-a-summary",
+        "node-a-result2"
+      ],
+      "model_ids": [
+        "model-a-geometry"
+      ],
+      "assumption_ids": [],
+      "uncertainty": null,
+      "interpretation": "全部非相邻矩形对上求最小符号安全裕度，并在首个过零区间精化。"
+    },
+    {
+      "id": "result-a-q3",
+      "question_id": "A3",
+      "name": "最小螺距",
+      "status": "final",
+      "value": {
+        "pitch": 0.450337393,
+        "limiting_radius": 4.57260323,
+        "pair": [
+          0,
+          19
+        ]
+      },
+      "unit": "m",
+      "internal_precision": "9 decimal places",
+      "display_precision": "9 decimal places",
+      "source_run_ids": [],
+      "source_node_ids": [
+        "node-a-summary"
+      ],
+      "model_ids": [
+        "model-a-geometry"
+      ],
+      "assumption_ids": [],
+      "uncertainty": null,
+      "interpretation": "按完整盘入过程的最小安全裕度定义，不只检验 4.5 m 边界终点。"
+    },
+    {
+      "id": "result-a-q4",
+      "question_id": "A4",
+      "name": "调头曲线参数",
+      "status": "final",
+      "value": {
+        "radii": [
+          3.005417668,
+          1.502708834
+        ],
+        "common_angle": 3.021486842,
+        "length": 13.621244907
+      },
+      "unit": "m and rad",
+      "internal_precision": "9 decimal places",
+      "display_precision": "9 decimal places",
+      "source_run_ids": [],
+      "source_node_ids": [
+        "node-a-summary"
+      ],
+      "model_ids": [
+        "model-a-geometry"
+      ],
+      "assumption_ids": [
+        "assumption-a-fixed-tangency"
+      ],
+      "uncertainty": null,
+      "interpretation": "固定连接点与切向后参数唯一，不能通过重新分配半径缩短。"
+    },
+    {
+      "id": "result-a-q5",
+      "question_id": "A5",
+      "name": "最大安全入速",
+      "status": "final",
+      "value": {
+        "speed": 1.2462663581575,
+        "amplification": 1.6047933789666,
+        "limiting_handles": "3-7"
+      },
+      "unit": "m/s",
+      "internal_precision": "13 significant digits",
+      "display_precision": "13 significant digits",
+      "source_run_ids": [],
+      "source_node_ids": [
+        "node-a-summary"
+      ],
+      "model_ids": [
+        "model-a-geometry"
+      ],
+      "assumption_ids": [],
+      "uncertainty": null,
+      "interpretation": "覆盖完全过弯弧长区间，并对多个局部峰值候选精化。"
+    },
+    {
+      "id": "result-b-q1",
+      "question_id": "B1",
+      "name": "序贯验收边界",
+      "status": "final",
+      "value": {
+        "pL": 0.05,
+        "p0": 0.1,
+        "pH": 0.15,
+        "risk_reject": 0.05,
+        "risk_accept": 0.1,
+        "Nmax": 2000,
+        "n100_accept_max_x": 4,
+        "n100_reject_min_x": 19
+      },
+      "unit": "samples and counts",
+      "internal_precision": "exact integer boundaries for stated parameters",
+      "display_precision": "exact integer boundaries for stated parameters",
+      "source_run_ids": [],
+      "source_node_ids": [
+        "node-b-summary"
+      ],
+      "model_ids": [
+        "model-b-decision"
+      ],
+      "assumption_ids": [],
+      "uncertainty": null,
+      "interpretation": "没有给定固定备择效应量和功效时不存在唯一固定最小样本量；8 与 43 是极端路径最早停止时刻，不是固定样本量。"
+    },
+    {
+      "id": "result-b-q2",
+      "question_id": "B2",
+      "name": "六情形四位受限策略类最优结果",
+      "status": "final",
+      "value": {
+        "restricted_codes": [
+          "1101",
+          "1101",
+          "1101/1111",
+          "1111",
+          "0100",
+          "0000"
+        ]
+      },
+      "unit": "strategy codes",
+      "internal_precision": "exact enumeration in restricted four-bit space",
+      "display_precision": "exact enumeration in restricted four-bit space",
+      "source_run_ids": [],
+      "source_node_ids": [
+        "node-b-summary"
+      ],
+      "model_ids": [
+        "model-b-decision"
+      ],
+      "assumption_ids": [
+        "assumption-b-q2-restricted-actions"
+      ],
+      "uncertainty": null,
+      "interpretation": "这些数值是冻结程序在其四位首次决策策略空间内的真实穷举结果；结论只在这个受限作用域内成立。"
+    },
+    {
+      "id": "result-b-q2-global",
+      "question_id": "B2",
+      "name": "完整返工动作空间下全局最优主张",
+      "status": "invalidated",
+      "value": {
+        "mismatching_cases": [
+          1,
+          3,
+          5
+        ],
+        "matching_cases": [
+          2,
+          4,
+          6
+        ]
+      },
+      "unit": "claim status",
+      "internal_precision": "exact case-by-case post-freeze comparison",
+      "display_precision": "exact case-by-case post-freeze comparison",
+      "source_run_ids": [],
+      "source_node_ids": [
+        "node-b-summary"
+      ],
+      "model_ids": [
+        "model-b-decision"
+      ],
+      "assumption_ids": [
+        "assumption-b-q2-restricted-actions"
+      ],
+      "uncertainty": null,
+      "interpretation": "冻结稿把受限四位策略误扩张为完整题意下最优；官方专家语义中的返工后动作给出反例，因此该全局主张失效。"
+    },
+    {
+      "id": "result-b-q3",
+      "question_id": "B3",
+      "name": "装配树最优平稳策略",
+      "status": "final",
+      "value": {
+        "code": "11111111/111/111/01",
+        "expected_cost": 139.77778,
+        "expected_profit": 60.22222,
+        "feasible_policies": 6012
+      },
+      "unit": "yuan per finished product",
+      "internal_precision": "5 decimal places",
+      "display_precision": "5 decimal places",
+      "source_run_ids": [],
+      "source_node_ids": [
+        "node-b-summary"
+      ],
+      "model_ids": [
+        "model-b-decision"
+      ],
+      "assumption_ids": [],
+      "uncertainty": null,
+      "interpretation": "在明示的 6012 个物理可行平稳策略类内全枚举，与官方专家讲评精确一致。"
+    },
+    {
+      "id": "result-b-q4",
+      "question_id": "B4",
+      "name": "后验稳健策略",
+      "status": "unavailable",
+      "value": null,
+      "unit": "not_applicable",
+      "internal_precision": "not computed from real samples",
+      "display_precision": "not computed from real samples",
+      "source_run_ids": [],
+      "source_node_ids": [
+        "node-b-summary"
+      ],
+      "model_ids": [
+        "model-b-decision"
+      ],
+      "assumption_ids": [
+        "assumption-b-q4-missing-samples"
+      ],
+      "uncertainty": null,
+      "interpretation": "仅提供 Jeffreys 后验公式与 m=100 标注演示；真实结论必须在取得 (n,x) 后重跑。"
+    }
+  ],
+  "validations": [
+    {
+      "id": "validation-a-tests",
+      "category": "reproducibility",
+      "severity": "critical",
+      "description": "A 题冻结哈希与单元测试。",
+      "method": "从最终材料包及复制改名目录运行 reproduce_pack.py；在内存兼容命名空间中执行冻结的 5 个 pytest 风格测试函数。",
+      "expected": "45 个 A/B 冻结文件哈希一致且 A 的 5 项测试通过",
+      "actual": "PASS；45/45 冻结哈希一致，A tests 5/5",
+      "tolerance": null,
+      "status": "pass",
+      "executed_at": "2026-09-05T19:44:26.5493664+08:00",
+      "result_ids": [
+        "result-a-q1",
+        "result-a-q2",
+        "result-a-q3",
+        "result-a-q4",
+        "result-a-q5"
+      ],
+      "model_ids": [
+        "model-a-geometry"
+      ],
+      "evidence_artifact_ids": [
+        "artifact-a-code",
+        "artifact-a-result1",
+        "artifact-a-result2",
+        "artifact-reproduce-runner",
+        "artifact-reproduce-log"
+      ],
+      "notes": "executed_at 取最终协议关联运行的完成时刻；命令与记录见 portable_reproduction_test.log，未覆盖冻结结果。"
+    },
+    {
+      "id": "validation-b-tests",
+      "category": "reproducibility",
+      "severity": "critical",
+      "description": "B 题冻结哈希与单元测试。",
+      "method": "从最终材料包及复制改名目录运行 reproduce_pack.py，以 unittest 执行冻结的 6 项测试。",
+      "expected": "45 个 A/B 冻结文件哈希一致且 B 的 6 项测试通过",
+      "actual": "PASS；45/45 冻结哈希一致，B tests 6/6",
+      "tolerance": null,
+      "status": "pass",
+      "executed_at": "2026-09-05T19:44:26.5493664+08:00",
+      "result_ids": [
+        "result-b-q1",
+        "result-b-q2",
+        "result-b-q3",
+        "result-b-q4"
+      ],
+      "model_ids": [
+        "model-b-decision"
+      ],
+      "evidence_artifact_ids": [
+        "artifact-b-code",
+        "artifact-reproduce-runner",
+        "artifact-reproduce-log"
+      ],
+      "notes": "executed_at 取最终协议关联运行的完成时刻；测试证明实现符合冻结模型，不证明未编码动作的全局最优。"
+    },
+    {
+      "id": "validation-workbooks",
+      "category": "template",
+      "severity": "major",
+      "description": "三个 A 题工作簿的结构与可见范围。",
+      "method": "使用 Spreadsheet Artifact Tool 重开并渲染首/中/末范围，扫描公式错误。",
+      "expected": "3 个工作簿均可打开，15 个关键范围清晰，无公式错误",
+      "actual": "PASS；formula errors = 0",
+      "tolerance": null,
+      "status": "pass",
+      "executed_at": "2026-09-05T17:56:17.6085296+08:00",
+      "result_ids": [],
+      "model_ids": [
+        "model-a-geometry"
+      ],
+      "evidence_artifact_ids": [
+        "artifact-a-result1",
+        "artifact-a-result2",
+        "artifact-a-result4"
+      ],
+      "notes": "executed_at 取最终工作簿 QA 日志写入时刻；详细日志见 final_workbook_qa.log。"
+    },
+    {
+      "id": "validation-freeze",
+      "category": "originality",
+      "severity": "critical",
+      "description": "独立成果冻结先于官方案例访问。",
+      "method": "核对原始只读冻结快照的 59 个文件哈希、最终包 A/B 目录的 45 个映射哈希和访问时间线。",
+      "expected": "原始快照 59/59、最终包 A/B 45/45 一致，参考访问时间晚于冻结时间",
+      "actual": "PASS；freeze manifest SHA-256 fd1ce561a1de674cb9780fb51c3964013d7a8b99beed9a99ba48b4dfd809642a",
+      "tolerance": null,
+      "status": "pass",
+      "executed_at": "2026-09-05T19:44:26.5493664+08:00",
+      "result_ids": [],
+      "model_ids": [
+        "model-a-geometry",
+        "model-b-decision"
+      ],
+      "evidence_artifact_ids": [
+        "artifact-freeze-manifest",
+        "artifact-independence-log",
+        "artifact-reproduce-log"
+      ],
+      "notes": "executed_at 取最终 45/45 便携映射复核完成时刻；冻结事件本身为 2026-09-05T09:45:58.5520005Z。原始快照 59/59 未变，最终包只承诺 A/B 冻结目录 45/45；两个 starter 说明文件在冻结后演进，不属于 A/B 答案回写。过早启动的官方下载在读取前被中断并隔离。"
+    },
+    {
+      "id": "validation-b-q2-scope",
+      "category": "optimization",
+      "severity": "critical",
+      "description": "用官方专家语义回测 B2 冻结策略作用域。",
+      "method": "冻结后把官方讲评六情形与独立成本方程逐项对照。",
+      "expected": "若动作语义完整，六情形应一致或明确解释差异",
+      "actual": "情形 1、3、5 不一致，根因是拆解后动作未编码；情形 2、4、6 一致",
+      "tolerance": null,
+      "status": "warning",
+      "executed_at": "2026-09-05T18:06:11+08:00",
+      "result_ids": [
+        "result-b-q2",
+        "result-b-q2-global"
+      ],
+      "model_ids": [
+        "model-b-decision"
+      ],
+      "evidence_artifact_ids": [
+        "artifact-b-comparison"
+      ],
+      "notes": "executed_at 取 B 诊断评分记录的评估时刻；这是被保留的训练诊断，不回写冻结稿。"
+    },
+    {
+      "id": "validation-official-sources",
+      "category": "writing_traceability",
+      "severity": "major",
+      "description": "官方案例来源、页数与版权边界。",
+      "method": "交叉核对官方文章 HTML、逐页 URL、字节数、SHA-256、页码连续性和总清单集合哈希。",
+      "expected": "A/B 8 篇展示论文的逐页记录一致，且不把自制拼接件冒充官方 PDF",
+      "actual": "PASS；A 论文 272 页、B 论文 135 页，共 407 页；A/B 讲评 10/72 页",
+      "tolerance": null,
+      "status": "pass",
+      "executed_at": "2026-09-05T19:29:30.1690804+08:00",
+      "result_ids": [],
+      "model_ids": [],
+      "evidence_artifact_ids": [
+        "artifact-official-source-note",
+        "artifact-official-source-total",
+        "artifact-official-source-a-pages",
+        "artifact-official-source-b-pages"
+      ],
+      "notes": "executed_at 取修正页数/双捕获口径后的元数据审计记录时刻；A242 的 4 个 PNG 页面计入 58 页，A053 以实际用于对照的逐页清单版本为准；原页图不随包分发。"
+    },
+    {
+      "id": "validation-documents",
+      "category": "template",
+      "severity": "major",
+      "description": "三份 DOCX/PDF 的结构、公式和版式。",
+      "method": "DOCX XML 审计、PDF 解析、A4 检查、Poppler 渲染与逐页视觉复核。",
+      "expected": "无残留 LaTeX/乱码/截断，全部页面可读",
+      "actual": "PASS；A 11 页、B 11 页、手册 7 页",
+      "tolerance": null,
+      "status": "pass",
+      "executed_at": "2026-09-05T20:00:15.180006+08:00",
+      "result_ids": [],
+      "model_ids": [],
+      "evidence_artifact_ids": [
+        "artifact-document-qa",
+        "artifact-a-pdf",
+        "artifact-b-pdf",
+        "artifact-handbook-pdf"
+      ],
+      "notes": "executed_at 取最终文档 QA 记录写入时刻；canonical render_docx.py 因环境缺 LibreOffice 不能运行，改用 Word COM 导出和 Poppler 独立渲染验证。"
+    }
+  ],
+  "ai_compliance": {
+    "rules_verification": {
+      "status": "partially_verified",
+      "official_source_ids": [
+        "source-rule-2024",
+        "source-rule-2026-ai",
+        "source-rule-2026-entry"
+      ],
+      "verified_at": "2026-09-05T20:08:54+08:00",
+      "verified_by": "Codex-assisted retrospective; human sign-off pending",
+      "ai_use_allowed": null,
+      "internet_use_allowed": null,
+      "disclosure_required": null,
+      "summary": "2024 通知与一般规则已保存，但本次未检索到 2024 单独全国性生成式 AI 规定；2026 快照允许 AI 辅助且要求核心工作由队员主导、逐项人工审查和披露，但它不能替代未来当届规则。",
+      "unresolved_items": [
+        "2024 年是否存在另行发布且本次未检索到的 AI/联网细则",
+        "未来比赛当届 AI、联网、外部协作、支撑材料和披露要求"
+      ]
+    },
+    "allowed_uses": [
+      "在当届规则明确允许的范围内辅助构思、编程、校对和结构化记录。",
+      "队员对模型、数值、代码、引用和最终表述逐项复核。"
+    ],
+    "prohibited_uses": [
+      "照抄、拼接、近义改写官方展示论文或他人答案。",
+      "伪造样本、运行日志、收敛图、灵敏度、引用或人工签字。",
+      "规则未核验时擅自联网、上传赛题附件或使用受限外部服务。",
+      "未经人工核验直接提交 AI 生成的核心结论。"
+    ],
+    "usage_log_path": "06_审计/ai_usage_log.jsonl",
+    "external_services": [
+      {
+        "id": "service-codex",
+        "service": "OpenAI Codex desktop",
+        "model_or_version": "Codex desktop environment; exact backend model/build not independently verifiable",
+        "used_at": "2026-09-05T20:08:54+08:00",
+        "purpose": "独立建模、代码实现、文档生成、赛后官方来源检索与材料包重组。",
+        "input_categories": [
+          "公开赛题",
+          "空白模板",
+          "本地代码与计算结果",
+          "冻结后官方展示材料"
+        ],
+        "output_artifact_ids": [
+          "artifact-a-report",
+          "artifact-b-report",
+          "artifact-a-code",
+          "artifact-b-code",
+          "artifact-playbook",
+          "artifact-master-prompt"
+        ],
+        "human_review": "pending",
+        "rule_basis_source_ids": [
+          "source-rule-2026-ai"
+        ]
+      }
+    ],
+    "disclosure_artifact_id": "artifact-ai-disclosure",
+    "human_final_review": "pending"
+  },
+  "originality": {
+    "independent_freeze": true,
+    "freeze_id": "CUMCM-2024-AB-INDEPENDENT-V1",
+    "frozen_at": "2026-09-05T09:45:58.5520005Z",
+    "freeze_manifest_artifact_id": "artifact-freeze-manifest",
+    "reference_access_started_at": "2026-09-05T17:53:00+08:00",
+    "independent_stage_declaration": "A/B 题先仅凭题面、附件与空白模板独立求解并冻结；官方展示材料在冻结后才进入核验与反思阶段。",
+    "no_fabrication_declaration": "缺失数据一律标注 unavailable 或 synthetic example；B4 的 m=100 已明确为演示，不冒充观测。",
+    "no_plagiarism_declaration": "官方展示材料只用于冻结后的方法核验和差异诊断，不复制页面、OCR、公式推导、代码或表述到独立稿。",
+    "reference_influences": [
+      {
+        "source_id": "source-official-a",
+        "affected_artifact_ids": [
+          "artifact-a-comparison",
+          "artifact-playbook",
+          "artifact-handbook-docx",
+          "artifact-handbook-pdf"
+        ],
+        "influence_type": "validation_idea",
+        "description": "用于交叉核验 A 题关键数值、边界语义和可视化改进方向；没有回写冻结稿。",
+        "independently_rederived": false,
+        "validation_ids": [
+          "validation-freeze"
+        ]
+      },
+      {
+        "source_id": "source-official-b",
+        "affected_artifact_ids": [
+          "artifact-b-comparison",
+          "artifact-playbook",
+          "artifact-handbook-docx",
+          "artifact-handbook-pdf"
+        ],
+        "influence_type": "method_category",
+        "description": "揭示拆解后动作的状态语义缺口，并用于形成状态—信息—动作检查法；没有改写冻结稿结果。",
+        "independently_rederived": false,
+        "validation_ids": [
+          "validation-b-q2-scope",
+          "validation-freeze"
+        ]
+      }
+    ],
+    "signed_by": []
+  },
+  "artifacts": [
+    {
+      "id": "artifact-freeze-manifest",
+      "path": "06_审计/freeze_manifest.json",
+      "type": "freeze_manifest",
+      "sha256": "fd1ce561a1de674cb9780fb51c3964013d7a8b99beed9a99ba48b4dfd809642a",
+      "description": "独立成果冻结清单与逐文件哈希。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-independence-log",
+      "path": "06_审计/independence_log.md",
+      "type": "validation_report",
+      "sha256": "05e028474c879444cbff355ad2363668f4c4574852177dd7aab49244bb7a77dc",
+      "description": "独立阶段与参考资料隔离记录。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-a-report",
+      "path": "03_A题_独立成果/report_A.md",
+      "type": "paper",
+      "sha256": "701db2ce1de21117074194f521c5cd09877adfb455944df890c5968a6218be41",
+      "description": "A 题冻结独立论文源稿。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [
+        "result-a-q1",
+        "result-a-q2",
+        "result-a-q3",
+        "result-a-q4",
+        "result-a-q5"
+      ],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-a-code",
+      "path": "03_A题_独立成果/src/bench_dragon.py",
+      "type": "source_code",
+      "sha256": "d28088abcbcb68259f9c4b8ae71c4fd7ca456a990b57b2ff348808b9b9db5062",
+      "description": "A 题几何、碰撞、搜索与速度传播实现。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-a-result1",
+      "path": "03_A题_独立成果/outputs/result1.xlsx",
+      "type": "submission_table",
+      "sha256": "6a972c28a7ade863549bfff6536b8f51ba344d67cc2096a0864f76a6b2dd2ad4",
+      "description": "A 题问题 1 表格。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [
+        "result-a-q1"
+      ],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-a-result2",
+      "path": "03_A题_独立成果/outputs/result2.xlsx",
+      "type": "submission_table",
+      "sha256": "9409f88479e6ed07cfc46ae9906669657940d72feee801418938513f8208780d",
+      "description": "A 题问题 2 表格。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [
+        "result-a-q2"
+      ],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-a-result4",
+      "path": "03_A题_独立成果/outputs/result4.xlsx",
+      "type": "submission_table",
+      "sha256": "de2d2fe46a7195d68c3e04c79b603339e136c42c1e8efaf63ef03fa3d7a451ec",
+      "description": "A 题问题 4 表格。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [
+        "result-a-q4"
+      ],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-b-report",
+      "path": "04_B题_独立成果/report_B_independent.md",
+      "type": "paper",
+      "sha256": "a265e2c858aaf8bef3a2f78d275fb875e1d11cf947b9e355f8864fb03addd823",
+      "description": "B 题冻结独立论文源稿；问题 2 的策略空间局限在赛后对照中明确标注。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [
+        "result-b-q1",
+        "result-b-q2",
+        "result-b-q2-global",
+        "result-b-q3",
+        "result-b-q4"
+      ],
+      "required_for_submission": false,
+      "validation_status": "warning",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-b-code",
+      "path": "04_B题_独立成果/src/solve_b.py",
+      "type": "source_code",
+      "sha256": "ec332c0c73aa0a745cc6d0201e1cc27092de6a6d935d3b94cde5d33ab1390aa1",
+      "description": "B 题序贯检验、成本更新、枚举和后验演示实现。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "warning",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-a-comparison",
+      "path": "05_官方范例对比/A题_独立稿与官方展示对比.md",
+      "type": "comparison_report",
+      "sha256": "62adfa78ba03187ba8935e8cbdf33287d90fa978fe928494d77318ca9915154a",
+      "description": "A 题独立稿与官方展示材料的赛后对照。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-b-comparison",
+      "path": "05_官方范例对比/B题_独立稿与官方展示对比.md",
+      "type": "comparison_report",
+      "sha256": "662064aa02a3d63a7b8e206df400c402b8eb9a2a00cb6d47237d92273746fa6c",
+      "description": "B 题独立稿与官方展示材料的赛后对照及作用域缺口披露。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "warning",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-playbook",
+      "path": "05_官方范例对比/comparison_and_playbook.md",
+      "type": "comparison_report",
+      "sha256": "c3c465d503c4b6bea99ec4582b301333370b29787e02d1639252b8816974320d",
+      "description": "建模、写作、编程和 72 小时流程的综合手册。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-official-source-note",
+      "path": "05_官方范例对比/官方来源元数据/官方来源说明.md",
+      "type": "other",
+      "sha256": "5d58e1773a54708e31f9e8ca9225d7659ee547904b68309959a54a287826d5d9",
+      "description": "官方渠道、页面性质、规则日期、版权边界和页数口径说明。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-official-source-total",
+      "path": "05_官方范例对比/官方来源元数据/官方来源总清单.json",
+      "type": "input_manifest",
+      "sha256": "018f0ba0da9b7f157ed27a767d0c771228d6577fb67dd62e02ab6292e7762d09",
+      "description": "8 篇展示论文与规则文件的官方 URL、哈希及 407 页论文图像口径。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-official-source-a-pages",
+      "path": "05_官方范例对比/官方来源元数据/A题_逐页来源清单.json",
+      "type": "input_manifest",
+      "sha256": "de2548e4504829059c5c47b10f91a2167af0decd0392fddeb5fef307afd766b5",
+      "description": "A 题 5 篇展示论文和专家讲评的 282 张逐页来源元数据。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-official-source-b-pages",
+      "path": "05_官方范例对比/官方来源元数据/B题_逐页来源清单.json",
+      "type": "input_manifest",
+      "sha256": "3d0b5a21555f0d94dc0a4d0879b8e7dbe1d0ad2aeff096098b4e274e8a9e9c29",
+      "description": "B 题 3 篇展示论文和专家讲评的 207 张逐页来源元数据。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-master-prompt",
+      "path": "02_比赛启动/MASTER_PROMPT.md",
+      "type": "prompt",
+      "sha256": "e95ba40838ec4467bcf48da56806e47cb2ec9cd8994c4a0344c3b3c3c78b9bc7",
+      "description": "下次比赛的规则优先、证据驱动启动主提示词。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-output-schema",
+      "path": "02_比赛启动/output_protocol.schema.json",
+      "type": "other",
+      "sha256": "4b5e39a63ef553f0425a6d49bd691c90df2fdc7f23fdb7db772b0182c54462b9",
+      "description": "机器可读输出协议 JSON Schema 2020-12。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-training-plan",
+      "path": "02_比赛启动/training_plan.json",
+      "type": "configuration",
+      "sha256": "3b9d8f7f46951a09bec862e80c89a3816333ee4f17900151ee87b4aebd6a0341",
+      "description": "八周量化训练计划。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-ai-disclosure",
+      "path": "06_审计/AI工具使用详情_本次复盘.md",
+      "type": "ai_disclosure",
+      "sha256": "58e7954365f463d8722210102a768eaaa1eb959e2be7ec49b752e360ab2a3a9a",
+      "description": "本次复盘的 AI 使用详情草稿；仍待人工逐项确认。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "warning",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-ai-log",
+      "path": "06_审计/ai_usage_log.jsonl",
+      "type": "ai_disclosure",
+      "sha256": "9316821838f0a194b1491751876c0c230ae721db6efdaaacf2f8d9549ac62379",
+      "description": "机器可读 AI 使用日志。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "warning",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-reproduce-runner",
+      "path": "reproduce_pack.py",
+      "type": "source_code",
+      "sha256": "d7fa96e00c731f2021b6dc3424a708fe26b7eb6fabd5e313d101c9e0e34a5dc0",
+      "description": "可在移动或改名后的材料包中只读核验冻结哈希并运行 A/B 测试。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-reproduce-guide",
+      "path": "PORTABLE_REPRODUCTION.md",
+      "type": "other",
+      "sha256": "8f39b2a94cea5f7d6a906306dd82971ed5fab1b97f0a5a1eed2f7c23269822ec",
+      "description": "可移植复现命令、依赖、边界和冻结文件兼容说明。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-reproduce-log",
+      "path": "06_审计/portable_reproduction_test.log",
+      "type": "validation_report",
+      "sha256": "05363e70f97cf869f2a5683b3284d440d5f23842e9272cdcb141e76da7914fe6",
+      "description": "原目录与复制改名目录中的可移植复现通过记录。",
+      "generated_by_run_ids": [
+        "run-portable-verification-final"
+      ],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-document-qa",
+      "path": "06_审计/document_qa.md",
+      "type": "validation_report",
+      "sha256": "83b55a59a001a8f0ef305ea5d9a9cb03c3cea3c7a47ad49c99fd76eb1df45735",
+      "description": "三份 DOCX/PDF 的渲染、解析与逐页视觉检查记录。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-a-docx",
+      "path": "07_文档成品/2024_CUMCM_A题_独立论文.docx",
+      "type": "paper",
+      "sha256": "872267d8a98da73f869944fe641f8f8fb465e8265365e3d6ba73040cbb894641",
+      "description": "A 题可编辑论文成品。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [
+        "result-a-q1",
+        "result-a-q2",
+        "result-a-q3",
+        "result-a-q4",
+        "result-a-q5"
+      ],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-a-pdf",
+      "path": "07_文档成品/2024_CUMCM_A题_独立论文.pdf",
+      "type": "paper",
+      "sha256": "810dd060bba7cd27f7c5f092f94ac9978409f513c9aeb96a7245b41aff0fde0c",
+      "description": "A 题 PDF 论文成品。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [
+        "result-a-q1",
+        "result-a-q2",
+        "result-a-q3",
+        "result-a-q4",
+        "result-a-q5"
+      ],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-b-docx",
+      "path": "07_文档成品/2024_CUMCM_B题_独立论文.docx",
+      "type": "paper",
+      "sha256": "08526883e716bfdbb397780ae29e2739faf9afc6889979dc27768d6ee8ffe11e",
+      "description": "B 题可编辑论文成品。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [
+        "result-b-q1",
+        "result-b-q2",
+        "result-b-q2-global",
+        "result-b-q3",
+        "result-b-q4"
+      ],
+      "required_for_submission": false,
+      "validation_status": "warning",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-b-pdf",
+      "path": "07_文档成品/2024_CUMCM_B题_独立论文.pdf",
+      "type": "paper",
+      "sha256": "a5a1364aae98a1eb7622bc6b4c4588da8c3db25b67e4886b399276668e87eabe",
+      "description": "B 题 PDF 论文成品。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [
+        "result-b-q1",
+        "result-b-q2",
+        "result-b-q2-global",
+        "result-b-q3",
+        "result-b-q4"
+      ],
+      "required_for_submission": false,
+      "validation_status": "warning",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-handbook-docx",
+      "path": "07_文档成品/官方范例对比与下次比赛方法手册.docx",
+      "type": "comparison_report",
+      "sha256": "107b80dab7ef8c44d442c950abab4f621a3aba9327351bf38fb192a4c0be9bee",
+      "description": "赛后对照与下次比赛方法手册可编辑版。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-handbook-pdf",
+      "path": "07_文档成品/官方范例对比与下次比赛方法手册.pdf",
+      "type": "comparison_report",
+      "sha256": "2392f80091c8d6c242a7d7fb90073a9d3d6ae53e908717271ffe5ff5a250af57",
+      "description": "赛后对照与下次比赛方法手册 PDF。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "pass",
+      "confidentiality": "team_private"
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "issue-b-q2-scope",
+      "severity": "critical",
+      "description": "B2 冻结独立模型缺少拆解后的自适应动作，情形 1、3、5 不能作为官方语义下全局最优答案；历史稿保留用于训练，但不得复用于正式答案。",
+      "owner": "future-team-modeler",
+      "due_gate": "G2",
+      "status": "open",
+      "blocking": false
+    },
+    {
+      "id": "issue-rule-refresh",
+      "severity": "critical",
+      "description": "2024 单独 AI 规则未检索到，且 2026 快照不能替代未来当届规则；新比赛 G0 必须重新核验。",
+      "owner": "future-team-rule-reviewer",
+      "due_gate": "G0",
+      "status": "open",
+      "blocking": true
+    },
+    {
+      "id": "issue-human-review",
+      "severity": "critical",
+      "description": "本材料包仍待真实队员逐项审阅、签字并按当届规则裁剪后才能用于正式提交。",
+      "owner": "competition-team",
+      "due_gate": "G9",
+      "status": "open",
+      "blocking": true
+    }
+  ]
+}

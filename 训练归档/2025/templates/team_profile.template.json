@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "team_id": null,
+  "members": [
+    {
+      "member_id": "T1",
+      "name_for_internal_use": null,
+      "strengths": [],
+      "weaknesses": [],
+      "preferred_role": "MODELING",
+      "available_hours": null
+    },
+    {
+      "member_id": "T2",
+      "name_for_internal_use": null,
+      "strengths": [],
+      "weaknesses": [],
+      "preferred_role": "CODING",
+      "available_hours": null
+    },
+    {
+      "member_id": "T3",
+      "name_for_internal_use": null,
+      "strengths": [],
+      "weaknesses": [],
+      "preferred_role": "WRITING_AUDIT",
+      "available_hours": null
+    }
+  ],
+  "software": [],
+  "hardware": {
+    "operating_system": null,
+    "cpu": null,
+    "memory_gb": null,
+    "gpu": null
+  },
+  "allowed_tools_confirmed_from_current_rules": false,
+  "network_policy": null,
+  "document_environment": null,
+  "deadline_timezone": "Asia/Shanghai",
+  "notes": []
+}

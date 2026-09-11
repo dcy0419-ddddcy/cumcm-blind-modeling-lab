@@ -1,0 +1,766 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-09-05T20:08:55+08:00",
+  "package_root_name": "2024_CUMCM_AB_AI_材料包",
+  "hash_algorithm": "SHA-256",
+  "file_count": 107,
+  "total_size_bytes": 16485708,
+  "exclusions": [
+    "MANIFEST.json",
+    "checksums.sha256",
+    "external ZIP archive"
+  ],
+  "freeze_manifest_sha256": "fd1ce561a1de674cb9780fb51c3964013d7a8b99beed9a99ba48b4dfd809642a",
+  "freeze_manifest_expected_sha256": "fd1ce561a1de674cb9780fb51c3964013d7a8b99beed9a99ba48b4dfd809642a",
+  "files": [
+    {
+      "path": "00_原始材料/2024年_A题_板凳龙.pdf",
+      "size_bytes": 758066,
+      "sha256": "7ece8c6d2b876781e5219091c38980e1321ffd1d56604cbe36cd867edb7a1933",
+      "category": "inputs_and_rules",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "00_原始材料/2024年_B题_生产过程中的决策问题.pdf",
+      "size_bytes": 636910,
+      "sha256": "f54529dd15d729b046e248ea41033b4f66ef68333be2bee912b0c54eafd227ab",
+      "category": "inputs_and_rules",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "00_原始材料/A题空白模板/result1.xlsx",
+      "size_bytes": 517064,
+      "sha256": "72fe1bad957f0201278640fda5415a6c11a663f0651e0ce0670c5f1d1d92e631",
+      "category": "inputs_and_rules",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "00_原始材料/A题空白模板/result2.xlsx",
+      "size_bytes": 15292,
+      "sha256": "54b3260cea4a799448843b464a2f42f1c32f8f4b4e2001cdf271575c39f5e094",
+      "category": "inputs_and_rules",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "00_原始材料/A题空白模板/result4.xlsx",
+      "size_bytes": 346204,
+      "sha256": "401aa0934f47201a8594c16f571464cc875fe2cd7c4b40c73787b641a27b1a35",
+      "category": "inputs_and_rules",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "00_原始材料/官方规则快照/2024_论文格式规范.doc",
+      "size_bytes": 69120,
+      "sha256": "ec699bbe89e25cad16ca907b305c6cc76112ec04083cfe56ca65fd7a26fbaafe",
+      "category": "inputs_and_rules",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "00_原始材料/官方规则快照/2024_通知与规则.pdf",
+      "size_bytes": 519331,
+      "sha256": "1c392aeb4e73af67dae62ae030f95e2090d77049dbe4b66474057ece77871938",
+      "category": "inputs_and_rules",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "00_原始材料/官方规则快照/2026_AI工具使用规定.pdf",
+      "size_bytes": 97121,
+      "sha256": "4cf6f30cdd37d6ef2cdb3439c5dba4d9f207c12d6aafe24419e81f3c69acf59a",
+      "category": "inputs_and_rules",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "00_原始材料/官方规则快照/2026_参赛规则.pdf",
+      "size_bytes": 123600,
+      "sha256": "46d3837906bfd7049eb04c40cfc8b8436912d7edae98462ba064abfa381a8d3a",
+      "category": "inputs_and_rules",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "00_原始材料/官方规则快照/2026_论文格式规范.pdf",
+      "size_bytes": 168354,
+      "sha256": "cece4bb3a900a0435160032b98ea26e03b0f2d7eca58424b0d023e26085aed26",
+      "category": "inputs_and_rules",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "01_自包含知识库/ai_rules_and_ethics.md",
+      "size_bytes": 2673,
+      "sha256": "0dd6e59d4056b0427482877f0f23b6c14bc292c620cd1f1a6ee18e14c5a6e792",
+      "category": "knowledge_base",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "01_自包含知识库/competition_workflow.md",
+      "size_bytes": 2998,
+      "sha256": "01ea74f015a4c1ebca772b625108b9f3a628ae8dc9fa5a34d26cef4db8b98e65",
+      "category": "knowledge_base",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "01_自包含知识库/INDEX.md",
+      "size_bytes": 2466,
+      "sha256": "7754f851921d880b5918148dd264a901a9c094803012c10ce1304e8e9aa9874d",
+      "category": "knowledge_base",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "01_自包含知识库/modeling_playbook.md",
+      "size_bytes": 5370,
+      "sha256": "7607bb3cf98898570ba3791d907485128df33f270991914d9423e0b250d51067",
+      "category": "knowledge_base",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "01_自包含知识库/paper_writing_playbook.md",
+      "size_bytes": 2995,
+      "sha256": "6ffb037c68581eaeeeb2e340ef78043acc5ab9a0da43a2a4b5b3fd048ed410eb",
+      "category": "knowledge_base",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "01_自包含知识库/programming_playbook.md",
+      "size_bytes": 3549,
+      "sha256": "8ed0563e17f15600cd3c32d7a9ac29145cb4366d58d6f29200bb04a5a3851134",
+      "category": "knowledge_base",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "01_自包含知识库/validation_and_integrity.md",
+      "size_bytes": 2614,
+      "sha256": "122088a974302eb0fced567e4bc864ae4471670557f1dfc99d4e632efa9a265d",
+      "category": "knowledge_base",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "02_比赛启动/ai_usage_log.template.jsonl",
+      "size_bytes": 521,
+      "sha256": "d0037c286c7895c17f063b990713701f6b70d850fbe7880ddd1e201b5b933f86",
+      "category": "competition_start",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "02_比赛启动/AI工具使用详情_模板.md",
+      "size_bytes": 1533,
+      "sha256": "76fac48867e8c2aaf0c51e9de6418114a1b2e5267855acfe25b61672536f844a",
+      "category": "competition_start",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "02_比赛启动/MASTER_PROMPT.md",
+      "size_bytes": 15341,
+      "sha256": "e95ba40838ec4467bcf48da56806e47cb2ec9cd8994c4a0344c3b3c3c78b9bc7",
+      "category": "competition_start",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "02_比赛启动/output_protocol.example.json",
+      "size_bytes": 8053,
+      "sha256": "0ee7eb9a1c225915924af2e282364ff66bfe98393d72dd4261999554d72bb860",
+      "category": "competition_start",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "02_比赛启动/output_protocol.schema.json",
+      "size_bytes": 33188,
+      "sha256": "4b5e39a63ef553f0425a6d49bd691c90df2fdc7f23fdb7db772b0182c54462b9",
+      "category": "competition_start",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "02_比赛启动/README.md",
+      "size_bytes": 8890,
+      "sha256": "a66f990f863886ae74013b620858a1ca21fb31e251cb6f6197448a51804701dc",
+      "category": "competition_start",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "02_比赛启动/team_constraints.template.md",
+      "size_bytes": 538,
+      "sha256": "9babea6ada9bdeb434b4a60baa2f42cdcafb13dd09d9b0d87e5770df55e7c437",
+      "category": "competition_start",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "02_比赛启动/training_plan.json",
+      "size_bytes": 17479,
+      "sha256": "3b9d8f7f46951a09bec862e80c89a3816333ee4f17900151ee87b4aebd6a0341",
+      "category": "competition_start",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "02_比赛启动/training_plan.md",
+      "size_bytes": 11876,
+      "sha256": "3d14c1197b68fbbd1492960bf4c3f104b940472dfbde6c5fc02429ff0042de8f",
+      "category": "competition_start",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "02_比赛启动/UPLOAD_CHECKLIST.md",
+      "size_bytes": 12040,
+      "sha256": "4f874a626bf83933b08b555995296b4e0eb0615a310c90da70333f73d11be8d9",
+      "category": "competition_start",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "03_A题_独立成果/computed/question1_all_handles.csv",
+      "size_bytes": 4343358,
+      "sha256": "c3da2f5f88bc44a6d073dd846820c96ee329d187896a23ad3c3ba13f12bd6e6a",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/computed/question2_terminal.csv",
+      "size_bytes": 13725,
+      "sha256": "c0d5a73a581e4aa3acc0c5fe6f4fbd923130d7e31f6578491b2a559e257d44d1",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/computed/question4_all_handles.csv",
+      "size_bytes": 2901806,
+      "sha256": "0f167f9c8aba36ba3ab804a7906b1d7c787361256939da5788930748b7abf208",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/computed/refinement_checks.json",
+      "size_bytes": 1231,
+      "sha256": "15bfccf8c13f5ab727c9dc7c7096bd19fa06baa8ecde728ba0e76980ad4e7fb7",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/computed/summary.json",
+      "size_bytes": 16203,
+      "sha256": "7cbef189ab083e857bedd7196fa2af0998a0d8717416b342bc212c5055d6abcf",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/logs/pytest.xml",
+      "size_bytes": 861,
+      "sha256": "823aae71a61b8694dd28eaa106baa8bd042428646b4327d0d9542903267bd9a5",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/logs/refinement_checks.log",
+      "size_bytes": 1233,
+      "sha256": "7dacacaaea42abac95144c5ac9147469a98a483dcc4a4d11457aa1877b1a3fe2",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/logs/run_all.stderr.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/logs/run_all.stdout.log",
+      "size_bytes": 613,
+      "sha256": "8cfdf4677205ecd9bb69dee89525a466674b60395747d8f6a78dc6ebb33153a8",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/logs/visual_check.md",
+      "size_bytes": 645,
+      "sha256": "6cb9e251dc6e5e2be623e10fe6e43c96a16850c296b61f94e4d3810af352a069",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/logs/workbook_checks.log",
+      "size_bytes": 655,
+      "sha256": "8f1b13370d252df7e3b483e39958bcf2cfb8aff07a56c43288b55ab6b6679a46",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/outputs/result1.xlsx",
+      "size_bytes": 1437612,
+      "sha256": "6a972c28a7ade863549bfff6536b8f51ba344d67cc2096a0864f76a6b2dd2ad4",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/outputs/result2.xlsx",
+      "size_bytes": 12364,
+      "sha256": "9409f88479e6ed07cfc46ae9906669657940d72feee801418938513f8208780d",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/outputs/result4.xlsx",
+      "size_bytes": 1013458,
+      "sha256": "de2d2fe46a7195d68c3e04c79b603339e136c42c1e8efaf63ef03fa3d7a451ec",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/README.md",
+      "size_bytes": 2832,
+      "sha256": "a31bf1f3d8fc4db137aa0e046df4401f83a8280edc57a1e5cdcbe1f7d8fcfd5f",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/report_A.md",
+      "size_bytes": 21257,
+      "sha256": "701db2ce1de21117074194f521c5cd09877adfb455944df890c5968a6218be41",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/requirements.txt",
+      "size_bytes": 41,
+      "sha256": "cca6faba6deb16cf2a40e24f0487e5e51041595c87627dd2451a38f9d2b87c7f",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/run_all.py",
+      "size_bytes": 7599,
+      "sha256": "bb932ee768f636b3b28fa0fb3ebfbe4751822064d1863fe352e946c5750bba85",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/src/__init__.py",
+      "size_bytes": 62,
+      "sha256": "17017a82e77e21b0a4d943a3cab88ad2d7f4e7a6c7824870476edae4cc0eeb93",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/src/bench_dragon.py",
+      "size_bytes": 21918,
+      "sha256": "d28088abcbcb68259f9c4b8ae71c4fd7ca456a990b57b2ff348808b9b9db5062",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/tests/test_models.py",
+      "size_bytes": 3708,
+      "sha256": "158a8763970d24fef90c36e5cea2cbb4a20d0d1c3e52e2fea2a138f861ee4658",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/tooling/fill_templates.mjs",
+      "size_bytes": 5329,
+      "sha256": "6f4654f93ca7ce8329fcbdbca7a919d43ee6835fd72066c06be524b59f08aebe",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/tooling/inspect_templates.mjs",
+      "size_bytes": 1193,
+      "sha256": "0dddce041650a4844c0900e755fb6d411bd822ac7b4875e6bf83b072566aeb63",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/tooling/node.20260905-170252-729.log",
+      "size_bytes": 546,
+      "sha256": "4fd8668264095283dadb0f5b66f38be22d9867023776626a4e2733c276d363f0",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/tooling/node.20260905-173501-443.log",
+      "size_bytes": 546,
+      "sha256": "e9f2f0fab1e856358f00c71357cdb81cdc51846066161dd1aac6b1d989a4c731",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/tooling/node.20260905-173612-409.log",
+      "size_bytes": 546,
+      "sha256": "4be1d9bbd2c23aadea7a967630761c67a831419278f7d0b77ec1a2aa28fd0bda",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "03_A题_独立成果/tooling/verify_refinements.py",
+      "size_bytes": 2572,
+      "sha256": "aaae97cb03b638f22961fb8bf1e1877f2ddbd9d41cfb882c33b0ac9793501fa7",
+      "category": "independent_A",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/logs/run.log",
+      "size_bytes": 1459,
+      "sha256": "d863d1871af9c3eeb12e8df0e0d9b340c0acd964ba1be82c6497a01153370b7f",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/logs/test.log",
+      "size_bytes": 706,
+      "sha256": "f88337e515421a61dc8066cd9b4e2e870be123e6b87177a370bca36d519ac7b1",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/README.md",
+      "size_bytes": 4760,
+      "sha256": "9038c6b0079d4759c346da4fa73f385b98b563d24a7b95209339f9d49c036872",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/report_B_independent.md",
+      "size_bytes": 26282,
+      "sha256": "a265e2c858aaf8bef3a2f78d275fb875e1d11cf947b9e355f8864fb03addd823",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/requirements.txt",
+      "size_bytes": 12,
+      "sha256": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/results/q1_boundaries.csv",
+      "size_bytes": 5217,
+      "sha256": "3481fefed1c7db45b14862e5c0c48a682d85e52c6fe3a1511773cf2bc888bf94",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/results/q1_operating_characteristics.csv",
+      "size_bytes": 812,
+      "sha256": "7d0ecb510bcd7792ed1085d3fffc84b168cc6f48c9881c1581f83fdd42eb3bea",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/results/q2_all_policies.csv",
+      "size_bytes": 8010,
+      "sha256": "4f46348a1a1dd4200d15bd774fb358ae9c56b3ab24810e6a6f5939d79c94842a",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/results/q2_optimal_policies.csv",
+      "size_bytes": 587,
+      "sha256": "ffd90ebd4896f55942d123234f899e72ac1f5efe6e93964882ed932680cbe9da",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/results/q3_all_feasible_policies.csv",
+      "size_bytes": 957313,
+      "sha256": "2f9aa8b17c6710328d35574f72524b443fba0f75c2883a323b4b04121c58c2f3",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/results/q3_top20_policies.csv",
+      "size_bytes": 3085,
+      "sha256": "7d661f5686e91f1e9b435151925339d21e869329230798695fdc155d4e5708ac",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/results/q4_q2_posterior_all_policies.csv",
+      "size_bytes": 7918,
+      "sha256": "652f699ab7ce2f2ddf7a157cc7d38f20d6500f7b4d2f5550f2afd50f4af95f41",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/results/q4_q2_posterior_selected.csv",
+      "size_bytes": 908,
+      "sha256": "a150121c3dbf9397f001ce172fc482bdc24b3f51cc3fb89574c450d253b6fecb",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/results/q4_q3_posterior_top20.csv",
+      "size_bytes": 2914,
+      "sha256": "647bb739dfd205048bb88d46fa1aa1c5a01d92d08468194d22bff836a838c592",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/results/q4_sample_size_sensitivity.csv",
+      "size_bytes": 1400,
+      "sha256": "d36ba22dbaa4ecb2db1713da33df05f6c3d26901b31f7610f25fd3260c34d736",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/results/summary.json",
+      "size_bytes": 9092,
+      "sha256": "ec6e0831322728d0eb119c1b68ef4de5cc0a7dca54ae2cae9722195a6f64d48a",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/src/solve_b.py",
+      "size_bytes": 32131,
+      "sha256": "ec332c0c73aa0a745cc6d0201e1cc27092de6a6d935d3b94cde5d33ab1390aa1",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "04_B题_独立成果/tests/test_solver.py",
+      "size_bytes": 3546,
+      "sha256": "f0af4e70bf8054d43922de2a3e582e2c6ae470150f492fc6aca0a5b22a85fc6b",
+      "category": "independent_B",
+      "independent_frozen_original": true
+    },
+    {
+      "path": "05_官方范例对比/A题_独立稿与官方展示对比.md",
+      "size_bytes": 21310,
+      "sha256": "62adfa78ba03187ba8935e8cbdf33287d90fa978fe928494d77318ca9915154a",
+      "category": "post_freeze_comparison",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "05_官方范例对比/A题_诊断评分.json",
+      "size_bytes": 9673,
+      "sha256": "f20a4366542c25c892366cddd293c4d3de850e4f1323c7fea3a92c1b87fd4b3b",
+      "category": "post_freeze_comparison",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "05_官方范例对比/B题_独立稿与官方展示对比.md",
+      "size_bytes": 19261,
+      "sha256": "662064aa02a3d63a7b8e206df400c402b8eb9a2a00cb6d47237d92273746fa6c",
+      "category": "post_freeze_comparison",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "05_官方范例对比/B题_诊断评分.json",
+      "size_bytes": 12026,
+      "sha256": "d28a7676abd93de99dc1ec4070a100183e81b5e873f5b4ee9bccc41460fdaa29",
+      "category": "post_freeze_comparison",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "05_官方范例对比/comparison_and_playbook.md",
+      "size_bytes": 19068,
+      "sha256": "c3c465d503c4b6bea99ec4582b301333370b29787e02d1639252b8816974320d",
+      "category": "post_freeze_comparison",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "05_官方范例对比/官方来源元数据/A题_逐页来源清单.json",
+      "size_bytes": 214352,
+      "sha256": "de2548e4504829059c5c47b10f91a2167af0decd0392fddeb5fef307afd766b5",
+      "category": "post_freeze_comparison",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "05_官方范例对比/官方来源元数据/B题_逐页来源清单.json",
+      "size_bytes": 116050,
+      "sha256": "3d0b5a21555f0d94dc0a4d0879b8e7dbe1d0ad2aeff096098b4e274e8a9e9c29",
+      "category": "post_freeze_comparison",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "05_官方范例对比/官方来源元数据/README.md",
+      "size_bytes": 650,
+      "sha256": "6a05b4445b2e42698d44a307fc9058c675d74e64adb29f48ee1a4b91ed9518e6",
+      "category": "post_freeze_comparison",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "05_官方范例对比/官方来源元数据/官方来源总清单.json",
+      "size_bytes": 19216,
+      "sha256": "018f0ba0da9b7f157ed27a767d0c771228d6577fb67dd62e02ab6292e7762d09",
+      "category": "post_freeze_comparison",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "05_官方范例对比/官方来源元数据/官方来源说明.md",
+      "size_bytes": 9485,
+      "sha256": "5d58e1773a54708e31f9e8ca9225d7659ee547904b68309959a54a287826d5d9",
+      "category": "post_freeze_comparison",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "06_审计/ai_usage_log.jsonl",
+      "size_bytes": 5295,
+      "sha256": "9316821838f0a194b1491751876c0c230ae721db6efdaaacf2f8d9549ac62379",
+      "category": "audit",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "06_审计/AI工具使用详情_本次复盘.md",
+      "size_bytes": 3575,
+      "sha256": "58e7954365f463d8722210102a768eaaa1eb959e2be7ec49b752e360ab2a3a9a",
+      "category": "audit",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "06_审计/audit_pre_reference.md",
+      "size_bytes": 27954,
+      "sha256": "ddf56cd4d94e6bc863335f4fa8ff38cba143dd8a6f19e89ec844693994e2c2df",
+      "category": "audit",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "06_审计/audit_tools/audit_core.py",
+      "size_bytes": 8697,
+      "sha256": "e8338a945f9da4ef51a950fa0c919972130359b9773ca9d4f0ef229cf7490457",
+      "category": "audit",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "06_审计/document_qa.md",
+      "size_bytes": 3206,
+      "sha256": "83b55a59a001a8f0ef305ea5d9a9cb03c3cea3c7a47ad49c99fd76eb1df45735",
+      "category": "audit",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "06_审计/docx_build_audit.json",
+      "size_bytes": 1110,
+      "sha256": "45b7dbb548f5e0f508c098c074d2653369bd1d61476a1084f72cbb2827fd19cf",
+      "category": "audit",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "06_审计/final_code_test.log",
+      "size_bytes": 838,
+      "sha256": "c67c437f35162c778cad6a6623f0ec00483baa9ee213bcafb09af7a9934d137c",
+      "category": "audit",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "06_审计/final_workbook_qa.log",
+      "size_bytes": 15347,
+      "sha256": "3637f3d4b38a3b040cc1e4a87d5ee69c0e8ae491072ef8cbc95884eafd0653df",
+      "category": "audit",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "06_审计/freeze_manifest.json",
+      "size_bytes": 15020,
+      "sha256": "fd1ce561a1de674cb9780fb51c3964013d7a8b99beed9a99ba48b4dfd809642a",
+      "category": "audit",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "06_审计/independence_log.md",
+      "size_bytes": 1761,
+      "sha256": "05e028474c879444cbff355ad2363668f4c4574852177dd7aab49244bb7a77dc",
+      "category": "audit",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "06_审计/output_protocol.json",
+      "size_bytes": 59395,
+      "sha256": "297fe0eb300a45f5bf61480ba7c1641ef11ea8f7c5e67c77adf6c1d7fea53acb",
+      "category": "audit",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "06_审计/output_protocol_validation.log",
+      "size_bytes": 187,
+      "sha256": "a12572e382cf7752649312fa4b93ccfc582e7ba42e6e6c3c25608af2758db556",
+      "category": "audit",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "06_审计/portable_reproduction_test.log",
+      "size_bytes": 1123,
+      "sha256": "05363e70f97cf869f2a5683b3284d440d5f23842e9272cdcb141e76da7914fe6",
+      "category": "audit",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "06_审计/qa_final_workbooks.mjs",
+      "size_bytes": 2804,
+      "sha256": "09d6dc844ec0688efaf21bcdac40c6971b7bb387dd30f51ab21968fc3818426e",
+      "category": "audit",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "07_文档成品/2024_CUMCM_A题_独立论文.docx",
+      "size_bytes": 46680,
+      "sha256": "872267d8a98da73f869944fe641f8f8fb465e8265365e3d6ba73040cbb894641",
+      "category": "documents",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "07_文档成品/2024_CUMCM_A题_独立论文.pdf",
+      "size_bytes": 563681,
+      "sha256": "810dd060bba7cd27f7c5f092f94ac9978409f513c9aeb96a7245b41aff0fde0c",
+      "category": "documents",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "07_文档成品/2024_CUMCM_B题_独立论文.docx",
+      "size_bytes": 47044,
+      "sha256": "08526883e716bfdbb397780ae29e2739faf9afc6889979dc27768d6ee8ffe11e",
+      "category": "documents",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "07_文档成品/2024_CUMCM_B题_独立论文.pdf",
+      "size_bytes": 541393,
+      "sha256": "a5a1364aae98a1eb7622bc6b4c4588da8c3db25b67e4886b399276668e87eabe",
+      "category": "documents",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "07_文档成品/官方范例对比与下次比赛方法手册.docx",
+      "size_bytes": 40780,
+      "sha256": "107b80dab7ef8c44d442c950abab4f621a3aba9327351bf38fb192a4c0be9bee",
+      "category": "documents",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "07_文档成品/官方范例对比与下次比赛方法手册.pdf",
+      "size_bytes": 380464,
+      "sha256": "2392f80091c8d6c242a7d7fb90073a9d3d6ae53e908717271ffe5ff5a250af57",
+      "category": "documents",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "MATERIALS_CHECKLIST.md",
+      "size_bytes": 1962,
+      "sha256": "dc620dc5969f5aa244bdd153a06408bc2689e5d0499c0ede7aa64badbf5671e8",
+      "category": "package_root",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "PORTABLE_REPRODUCTION.md",
+      "size_bytes": 1689,
+      "sha256": "8f39b2a94cea5f7d6a906306dd82971ed5fab1b97f0a5a1eed2f7c23269822ec",
+      "category": "package_root",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3736,
+      "sha256": "189af2f969b071e4f68914690b901d150543629d910bbaf50de614a5342dc3cc",
+      "category": "package_root",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "reproduce_pack.py",
+      "size_bytes": 7014,
+      "sha256": "d7fa96e00c731f2021b6dc3424a708fe26b7eb6fabd5e313d101c9e0e34a5dc0",
+      "category": "package_root",
+      "independent_frozen_original": false
+    },
+    {
+      "path": "upload_profiles.json",
+      "size_bytes": 2611,
+      "sha256": "4f07c654056abb01548541bd2c1dcdc9507959d1fb8a7f2d6ee37a96d3b76e29",
+      "category": "package_root",
+      "independent_frozen_original": false
+    }
+  ]
+}

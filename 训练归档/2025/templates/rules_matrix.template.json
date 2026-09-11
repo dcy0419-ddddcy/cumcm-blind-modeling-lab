@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "contest_year": null,
+  "verified_by_human": false,
+  "rules": [
+    {
+      "rule_id": "RULE-AI-001",
+      "source_file_or_url": null,
+      "page": null,
+      "official": true,
+      "summary": null,
+      "allowed": [],
+      "forbidden": [],
+      "disclosure_required": null,
+      "human_interpretation_required": true,
+      "status": "MISSING"
+    }
+  ]
+}

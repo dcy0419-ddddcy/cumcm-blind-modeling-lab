@@ -1,0 +1,6 @@
+STATUS=PASS
+SCHEMA=02_比赛启动/output_protocol.schema.json
+INSTANCE=06_审计/output_protocol.json
+DRAFT=2020-12
+AI_USAGE_JSONL_RECORDS=6
+VALIDATED_AT=2026-09-05T20:08:55+08:00

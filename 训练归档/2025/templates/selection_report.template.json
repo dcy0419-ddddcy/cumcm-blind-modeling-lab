@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "time_limit_minutes": 120,
+  "candidates": [
+    {
+      "problem_id": null,
+      "archetypes": [],
+      "hard_failures": [],
+      "prototype": {
+        "completed": false,
+        "run_ids": [],
+        "verified_items": []
+      },
+      "score": {
+        "statement_certainty": 0,
+        "minimum_viable_prototype": 0,
+        "strict_evaluator_or_generator": 0,
+        "validation_chain": 0,
+        "full_question_coverage": 0,
+        "compute_fit": 0,
+        "explainability": 0,
+        "team_fit": 0,
+        "total": 0
+      },
+      "catastrophic_risks": [],
+      "estimated_hours": null
+    }
+  ],
+  "recommendation": null,
+  "decision_margin": null,
+  "fallback_problem": null,
+  "human_confirmed": false
+}

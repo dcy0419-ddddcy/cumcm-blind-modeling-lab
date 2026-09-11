@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0.0",
+  "record_id": "protocol-example-001",
+  "record_purpose": "training_example",
+  "synthetic_example": true,
+  "generated_at": "2026-09-05T17:27:37+08:00",
+  "competition": {
+    "name": "协议格式演练（非真实参赛记录）",
+    "year": 2026,
+    "problem_ids": [
+      "DEMO-1"
+    ],
+    "timezone": "Asia/Shanghai",
+    "team_id": "DEMO-NOT-A-SUBMISSION",
+    "rules_status": "unverified"
+  },
+  "phase": "rules_verification",
+  "gates": [
+    {
+      "id": "G0",
+      "name": "规则与权限",
+      "status": "in_progress",
+      "checked_at": null,
+      "evidence_artifact_ids": [],
+      "blocking_reasons": [
+        "这是格式示例，未提供任何真实比赛的当届官方规则。"
+      ],
+      "approved_by": null
+    },
+    {
+      "id": "G1",
+      "name": "输入冻结与题意契约",
+      "status": "not_started",
+      "checked_at": null,
+      "evidence_artifact_ids": [],
+      "blocking_reasons": [
+        "G0 尚未通过。"
+      ],
+      "approved_by": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-master-prompt",
+      "category": "self_generated",
+      "title": "数学建模竞赛启动主提示词",
+      "official_status": "not_applicable",
+      "location": {
+        "local_path": "package_draft/starter/MASTER_PROMPT.md",
+        "url": null
+      },
+      "accessed_at": "2026-09-05T17:27:37+08:00",
+      "sha256": "7508824d65f960082b41da3b37d0dda7b29976ba8b8842513af4aaff39f4c3b1",
+      "allowed_phase": "all",
+      "citation_locator": "全文；本文件是流程说明，不是比赛事实来源",
+      "notes": "实际比赛中必须另外登记题面、附件和当届官方规则。"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "assumption-rules-unresolved",
+      "question_ids": [
+        "DEMO-1"
+      ],
+      "kind": "unresolved",
+      "statement": "本示例没有可用于判断 AI 与联网权限的当届官方规则。",
+      "status": "needs_evidence",
+      "rationale": "示例刻意不把往届规则或常识冒充当届规则。",
+      "impact": "不得进入外部检索、答案比较或真实提交阶段。",
+      "source_ids": [
+        "source-master-prompt"
+      ],
+      "alternatives": [
+        "上传当届主办方规则原文件并记录哈希与定位。"
+      ],
+      "sensitivity_validation_ids": [],
+      "owner": "team-rule-reviewer"
+    }
+  ],
+  "data_lineage": [
+    {
+      "id": "node-demo-placeholder",
+      "kind": "parameter_set",
+      "name": "格式演示占位参数",
+      "path": null,
+      "sha256": null,
+      "source_ids": [
+        "source-master-prompt"
+      ],
+      "parent_node_ids": [],
+      "transformation": "没有计算；仅说明缺失材料时应保留空缺而不是编造数值。",
+      "generated_by_run_ids": [],
+      "schema_or_shape": "无真实字段；不得复制到参赛结果",
+      "units": {},
+      "confidentiality": "public"
+    }
+  ],
+  "models": [
+    {
+      "id": "model-demo-unresolved",
+      "question_ids": [
+        "DEMO-1"
+      ],
+      "name": "待定义模型",
+      "purpose": "演示信息不足时如何显式记录不可识别状态。",
+      "assumption_ids": [
+        "assumption-rules-unresolved"
+      ],
+      "input_node_ids": [
+        "node-demo-placeholder"
+      ],
+      "decision_variables": [],
+      "state_variables": [],
+      "objective": "待真实题面定义，当前不进行优化。",
+      "constraints": [
+        "不得把示例占位内容解释为比赛数据。"
+      ],
+      "equations_or_algorithm": "未建立；等待题面与附件。",
+      "solution_method": "不运行。",
+      "alternative_model_ids": [],
+      "identifiability": "not_identified",
+      "limitations": [
+        "无真实题面、数据和当届规则。"
+      ]
+    }
+  ],
+  "code_runs": [],
+  "results": [
+    {
+      "id": "result-demo-unavailable",
+      "question_id": "DEMO-1",
+      "name": "真实比赛结论",
+      "status": "unavailable",
+      "value": null,
+      "unit": "not_applicable",
+      "internal_precision": "未计算",
+      "display_precision": "未计算",
+      "source_run_ids": [],
+      "source_node_ids": [
+        "node-demo-placeholder"
+      ],
+      "model_ids": [
+        "model-demo-unresolved"
+      ],
+      "assumption_ids": [
+        "assumption-rules-unresolved"
+      ],
+      "uncertainty": null,
+      "interpretation": "这不是数值结果；它示范在证据不足时返回 unavailable。"
+    }
+  ],
+  "validations": [
+    {
+      "id": "validation-demo-rule-check",
+      "category": "ai_compliance",
+      "severity": "critical",
+      "description": "核验当届官方 AI 与联网规则。",
+      "method": "读取主办方正式文件并保存原文定位、访问时间和哈希。",
+      "expected": "至少一项当届官方来源且规则状态为 verified。",
+      "actual": "未提供官方来源。",
+      "tolerance": null,
+      "status": "not_run",
+      "executed_at": null,
+      "result_ids": [
+        "result-demo-unavailable"
+      ],
+      "model_ids": [
+        "model-demo-unresolved"
+      ],
+      "evidence_artifact_ids": [],
+      "notes": "在实际比赛记录中，完成核验后才能改为 pass。"
+    }
+  ],
+  "ai_compliance": {
+    "rules_verification": {
+      "status": "unverified",
+      "official_source_ids": [],
+      "verified_at": null,
+      "verified_by": null,
+      "ai_use_allowed": null,
+      "internet_use_allowed": null,
+      "disclosure_required": null,
+      "summary": "格式示例不推定任何赛事允许使用 AI 或联网。",
+      "unresolved_items": [
+        "AI 是否允许以及允许到什么范围",
+        "是否需要披露提示词、模型或生成内容",
+        "比赛期间是否允许联网和上传附件"
+      ]
+    },
+    "allowed_uses": [
+      "仅演示协议字段，不处理真实赛题。"
+    ],
+    "prohibited_uses": [
+      "在规则未核验时检索答案类材料。",
+      "把本示例中的 null 或说明文本替换成编造数据。"
+    ],
+    "usage_log_path": null,
+    "external_services": [],
+    "disclosure_artifact_id": null,
+    "human_final_review": "pending"
+  },
+  "originality": {
+    "independent_freeze": false,
+    "freeze_id": null,
+    "frozen_at": null,
+    "freeze_manifest_artifact_id": null,
+    "reference_access_started_at": null,
+    "independent_stage_declaration": "本文件只是协议格式示例，不声明已独立解决任何赛题。",
+    "no_fabrication_declaration": "示例未填入任何冒充观测或计算结果的数值；真实记录不得复制占位内容。",
+    "no_plagiarism_declaration": "示例未使用或改写任何比赛范文；真实参考影响须逐项登记。",
+    "reference_influences": [],
+    "signed_by": []
+  },
+  "artifacts": [
+    {
+      "id": "artifact-master-prompt",
+      "path": "package_draft/starter/MASTER_PROMPT.md",
+      "type": "prompt",
+      "sha256": "7508824d65f960082b41da3b37d0dda7b29976ba8b8842513af4aaff39f4c3b1",
+      "description": "通用比赛启动与闸门说明。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "not_run",
+      "confidentiality": "team_private"
+    },
+    {
+      "id": "artifact-output-schema",
+      "path": "package_draft/starter/output_protocol.schema.json",
+      "type": "other",
+      "sha256": "4b5e39a63ef553f0425a6d49bd691c90df2fdc7f23fdb7db772b0182c54462b9",
+      "description": "输出协议 JSON Schema 2020-12。",
+      "generated_by_run_ids": [],
+      "source_result_ids": [],
+      "required_for_submission": false,
+      "validation_status": "not_run",
+      "confidentiality": "team_private"
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "issue-demo-missing-rules",
+      "severity": "critical",
+      "description": "缺少真实赛事当届官方规则，G0 不能通过。",
+      "owner": "team-rule-reviewer",
+      "due_gate": "G0",
+      "status": "open",
+      "blocking": true
+    }
+  ]
+}

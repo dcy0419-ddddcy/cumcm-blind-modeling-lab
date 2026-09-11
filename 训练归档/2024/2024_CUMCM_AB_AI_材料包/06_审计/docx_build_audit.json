@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "documents": [
+    {
+      "path": "07_文档成品/2024_CUMCM_A题_独立论文.docx",
+      "size_bytes": 46680,
+      "paragraph_count": 189,
+      "table_count": 6,
+      "section_count": 1,
+      "media_files": 0,
+      "raw_latex_token_hits": {},
+      "title": "板凳龙盘入调头与速度控制模型",
+      "pandoc_stderr": ""
+    },
+    {
+      "path": "07_文档成品/2024_CUMCM_B题_独立论文.docx",
+      "size_bytes": 47044,
+      "paragraph_count": 147,
+      "table_count": 6,
+      "section_count": 1,
+      "media_files": 0,
+      "raw_latex_token_hits": {},
+      "title": "生产过程中的抽样验收与多层装配决策模型",
+      "pandoc_stderr": ""
+    },
+    {
+      "path": "07_文档成品/官方范例对比与下次比赛方法手册.docx",
+      "size_bytes": 40780,
+      "paragraph_count": 104,
+      "table_count": 4,
+      "section_count": 1,
+      "media_files": 0,
+      "raw_latex_token_hits": {},
+      "title": "官方范例对比与下次比赛方法手册",
+      "pandoc_stderr": ""
+    }
+  ]
+}
