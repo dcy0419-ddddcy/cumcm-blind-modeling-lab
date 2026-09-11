@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0.0",
+  "case_id": "CUMCM-2025-A",
+  "title": "烟幕干扰弹的投放策略",
+  "source_status": "independent_solution_then_official_benchmark",
+  "independent_before_official_review": true,
+  "use_stage": "S3_5_BENCHMARK_UNLOCK_OR_LATER",
+  "problem_archetypes": [
+    "three_dimensional_kinematics",
+    "computational_geometry",
+    "continuous_event_duration",
+    "mixed_discrete_continuous_optimization",
+    "multi_agent_assignment"
+  ],
+  "independent_solution": {
+    "core_model": [
+      "三维导弹、无人机、烟幕弹与下沉云团运动学",
+      "对目标圆柱边界采样点逐点执行线段—球相交检查",
+      "以每个目标有效遮蔽时间区间并集长度为目标",
+      "差分进化、局部扰动和高精度时间/边界复核"
+    ],
+    "results": [
+      {"question_id": "Q1", "value": 1.392, "unit": "s", "notes": "有效区间约 8.057–9.449 s"},
+      {"question_id": "Q2", "value": 4.509, "unit": "s"},
+      {"question_id": "Q3", "value": 7.481, "unit": "s"},
+      {"question_id": "Q4", "value": 9.442, "unit": "s"},
+      {"question_id": "Q5", "value": 21.9005, "unit": "s"}
+    ],
+    "strengths": [
+      "遮蔽判据比只检查目标中心或轴线更严格",
+      "使用区间并而不是单弹时长直接相加",
+      "最终方案经过约束和更细时间步长复核"
+    ],
+    "limitations": [
+      "目标边界采样缺少充分的几何归约证明和系统收敛表",
+      "连续事件边界仍主要依赖固定时间网格",
+      "Q4 直接高维搜索，几何先验和可达域缩域不足",
+      "Q5 任务分配主要来自已有子方案组合，缺少显式指派模型"
+    ]
+  },
+  "official_benchmark": {
+    "sources": [
+      {
+        "id": "A196",
+        "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2025qgdxssxjmjslwzs_2025atlw/251101/2022729.shtml"
+      },
+      {
+        "id": "A_COMMENTARY",
+        "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmstjp_2025sxjmstjp/251201/2025724.shtml"
+      }
+    ],
+    "methods_observed": [
+      "将圆柱完全遮蔽检查归约到上下底面圆周离散点，并给出点数误差依据",
+      "通过二次方程和线段参数范围实现严格线段—球相交判定",
+      "粗搜索定位有效时窗后用二分法求连续边界",
+      "用理想遮蔽点和可达性几何缩小高维搜索域",
+      "先构造能力矩阵和无人机—目标指派，再做连续参数优化",
+      "使用第二种优化算法独立复核"
+    ],
+    "reported_results_for_comparison_only": [
+      {"question_id": "Q1", "value": 1.391643, "unit": "s"},
+      {"question_id": "Q2", "value": 4.5873, "unit": "s"},
+      {"question_id": "Q3", "value": 6.93586, "unit": "s"},
+      {"question_id": "Q4_main", "value": 11.125936, "unit": "s"},
+      {"question_id": "Q4_cross_check", "value": 11.645260, "unit": "s"},
+      {"question_id": "Q5", "value": 21.07770, "unit": "s"}
+    ]
+  },
+  "comparison_conclusions": [
+    "Q1 的接近说明基础运动学与严格遮蔽口径基本一致",
+    "Q4 是独立方案最需要改进的部分，优先采用几何走廊和可达域缩域",
+    "不同论文的数值只有经过同一个严格评价器重算后才能公平比较",
+    "优化算法的名称不是主要差距，几何结构、连续事件和验证链更重要"
+  ],
+  "transferable_patterns": [
+    "连续布尔事件改写为带符号裕度",
+    "先证明边界检查集合，再做采样收敛",
+    "粗网格定位加连续求根",
+    "区间并作为持续时间目标",
+    "可达域/走廊/任务指派后再连续优化",
+    "统一严格评价器和第二算法复核"
+  ],
+  "never_transfer_directly": [
+    "2025 坐标、速度、时间、半径和弹药约束",
+    "2025 最优参数或数值结果",
+    "官方论文措辞、图表和代码",
+    "A 题字母与题型之间的固定映射"
+  ],
+  "training_regression_tests": [
+    "直线交球但有限线段不交球",
+    "目标轴线被遮蔽但边界未完全遮蔽",
+    "相接、重叠、包含和空区间的并长度",
+    "时间容差和边界点数加密收敛",
+    "多个随机种子可行率和结果分布",
+    "主算法与第二算法经同一评价器复算"
+  ]
+}

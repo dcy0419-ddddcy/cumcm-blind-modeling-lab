@@ -1,0 +1,40 @@
+Portable reproduction test
+Executed: 2026-09-05 Asia/Shanghai
+Python executable: D:\Anaconda\python.exe
+Python: 3.13.5
+NumPy: 2.3.4
+SciPy: 1.16.3
+
+Entry point:
+python -B reproduce_pack.py
+
+Run 1 — original package directory:
+- freeze integrity: PASS, 45/45 packaged A/B files match freeze_manifest.json
+- A tests: PASS, 5/5
+- B tests: PASS, 6/6
+- required artifacts: PASS, 7/7
+- overall: PASS
+
+Run 2 — copied and renamed directory:
+D:\2024\qa\portable_reproduction_renamed_20260905\renamed_pack
+- package root observed by script: renamed_pack
+- freeze integrity: PASS, 45/45
+- A tests: PASS, 5/5
+- B tests: PASS, 6/6
+- required artifacts: PASS, 7/7
+- overall: PASS
+
+The verification is read-only. `PYTHONDONTWRITEBYTECODE=1` and
+`sys.dont_write_bytecode=True` prevent cache writes. Frozen results were not
+regenerated or overwritten.
+
+Final protocol-linked run:
+- started: 2026-09-05T19:44:25.0116757+08:00
+- finished: 2026-09-05T19:44:26.5493664+08:00
+- duration_seconds: 1.534236
+- exit_code: 0
+- freeze integrity: PASS, 45/45
+- A tests: PASS, 5/5
+- B tests: PASS, 6/6
+- required artifacts: PASS, 7/7
+- overall: PASS

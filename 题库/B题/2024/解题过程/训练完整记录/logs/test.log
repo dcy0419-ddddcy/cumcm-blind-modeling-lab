@@ -1,0 +1,11 @@
+test_generated_summary_exists (test_solver.OutputTests.test_generated_summary_exists) ... ok
+test_boundary_error_control_at_horizon (test_solver.Question1Tests.test_boundary_error_control_at_horizon) ... ok
+test_key_boundaries (test_solver.Question1Tests.test_key_boundaries) ... ok
+test_optimal_policies_and_costs (test_solver.Question2Tests.test_optimal_policies_and_costs) ... ok
+test_unsafe_reuse_is_infeasible (test_solver.Question2Tests.test_unsafe_reuse_is_infeasible) ... ok
+test_feasible_policy_count_and_optimum (test_solver.Question3Tests.test_feasible_policy_count_and_optimum) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.202s
+
+OK

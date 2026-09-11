@@ -1,0 +1,1527 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.invalid/math-modeling/output_protocol.schema.json",
+  "title": "数学建模竞赛可审计输出协议",
+  "description": "将来源、假设、数据血缘、模型、运行、结果、验证、AI 合规、原创性和产物关联起来的自包含协议。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_id",
+    "record_purpose",
+    "synthetic_example",
+    "generated_at",
+    "competition",
+    "phase",
+    "gates",
+    "sources",
+    "assumptions",
+    "data_lineage",
+    "models",
+    "code_runs",
+    "results",
+    "validations",
+    "ai_compliance",
+    "originality",
+    "artifacts",
+    "open_issues"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "record_id": {
+      "$ref": "#/$defs/id"
+    },
+    "record_purpose": {
+      "enum": [
+        "milestone",
+        "submission_candidate",
+        "final_submission",
+        "training_example"
+      ]
+    },
+    "synthetic_example": {
+      "type": "boolean",
+      "description": "仅格式示例为 true；真实比赛记录必须为 false。"
+    },
+    "generated_at": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "competition": {
+      "$ref": "#/$defs/competition"
+    },
+    "phase": {
+      "enum": [
+        "rules_verification",
+        "input_freeze",
+        "independent_modeling",
+        "independent_implementation",
+        "independent_validation",
+        "independent_frozen",
+        "official_reference_review",
+        "comparison_and_improvement",
+        "submission_audit",
+        "complete"
+      ]
+    },
+    "gates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/gate"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/assumption"
+      }
+    },
+    "data_lineage": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/lineage_node"
+      }
+    },
+    "models": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/model"
+      }
+    },
+    "code_runs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/code_run"
+      }
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/result"
+      }
+    },
+    "validations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/validation"
+      }
+    },
+    "ai_compliance": {
+      "$ref": "#/$defs/ai_compliance"
+    },
+    "originality": {
+      "$ref": "#/$defs/originality"
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifact"
+      }
+    },
+    "open_issues": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/open_issue"
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9_.:-]{1,127}$"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "path": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?![A-Za-z]:\\\\)(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$",
+      "description": "相对项目根目录、使用正斜杠且不得包含 ..。"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "status": {
+      "enum": [
+        "pass",
+        "fail",
+        "warning",
+        "not_run",
+        "not_applicable"
+      ]
+    },
+    "competition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "year",
+        "problem_ids",
+        "timezone",
+        "team_id",
+        "rules_status"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "year": {
+          "type": "integer",
+          "minimum": 1900,
+          "maximum": 2200
+        },
+        "problem_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "timezone": {
+          "type": "string",
+          "minLength": 1
+        },
+        "team_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rules_status": {
+          "enum": [
+            "unverified",
+            "partially_verified",
+            "verified"
+          ]
+        }
+      }
+    },
+    "gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "status",
+        "checked_at",
+        "evidence_artifact_ids",
+        "blocking_reasons",
+        "approved_by"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^G[0-9]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "pass",
+            "fail",
+            "blocked",
+            "in_progress",
+            "not_started"
+          ]
+        },
+        "checked_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "evidence_artifact_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "blocking_reasons": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "approved_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "category",
+        "title",
+        "official_status",
+        "location",
+        "accessed_at",
+        "sha256",
+        "allowed_phase",
+        "citation_locator",
+        "notes"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "category": {
+          "enum": [
+            "problem_statement",
+            "official_data",
+            "official_template",
+            "official_rule",
+            "self_generated",
+            "external_official_case",
+            "external_other"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "official_status": {
+          "enum": [
+            "official_verified",
+            "official_unverified",
+            "not_official",
+            "not_applicable"
+          ]
+        },
+        "location": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "local_path",
+            "url"
+          ],
+          "properties": {
+            "local_path": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/path"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "url": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "uri"
+            }
+          },
+          "anyOf": [
+            {
+              "properties": {
+                "local_path": {
+                  "type": "string"
+                }
+              }
+            },
+            {
+              "properties": {
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
+          ]
+        },
+        "accessed_at": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "sha256": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/sha256"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "allowed_phase": {
+          "enum": [
+            "independent",
+            "post_freeze_only",
+            "all"
+          ]
+        },
+        "citation_locator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "assumption": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "question_ids",
+        "kind",
+        "statement",
+        "status",
+        "rationale",
+        "impact",
+        "source_ids",
+        "alternatives",
+        "sensitivity_validation_ids",
+        "owner"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "question_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "kind": {
+          "enum": [
+            "interpretation",
+            "statistical",
+            "physical",
+            "algorithmic",
+            "scenario_parameter",
+            "scope",
+            "unresolved"
+          ]
+        },
+        "statement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "proposed",
+            "accepted_by_team",
+            "rejected",
+            "needs_evidence"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "impact": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "alternatives": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "sensitivity_validation_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "owner": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "lineage_node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "name",
+        "path",
+        "sha256",
+        "source_ids",
+        "parent_node_ids",
+        "transformation",
+        "generated_by_run_ids",
+        "schema_or_shape",
+        "units",
+        "confidentiality"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "kind": {
+          "enum": [
+            "raw_input",
+            "derived_data",
+            "parameter_set",
+            "intermediate",
+            "result_data",
+            "table",
+            "figure",
+            "submission_file"
+          ]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "path": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/path"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sha256": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/sha256"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "parent_node_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "transformation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "generated_by_run_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "schema_or_shape": {
+          "type": "string",
+          "minLength": 1
+        },
+        "units": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "confidentiality": {
+          "enum": [
+            "public",
+            "competition_restricted",
+            "team_private",
+            "personal_data"
+          ]
+        }
+      }
+    },
+    "model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "question_ids",
+        "name",
+        "purpose",
+        "assumption_ids",
+        "input_node_ids",
+        "decision_variables",
+        "state_variables",
+        "objective",
+        "constraints",
+        "equations_or_algorithm",
+        "solution_method",
+        "alternative_model_ids",
+        "identifiability",
+        "limitations"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "question_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assumption_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "input_node_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "decision_variables": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "state_variables": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "objective": {
+          "type": "string",
+          "minLength": 1
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "equations_or_algorithm": {
+          "type": "string",
+          "minLength": 1
+        },
+        "solution_method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "alternative_model_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "identifiability": {
+          "enum": [
+            "identified",
+            "identified_under_assumptions",
+            "partially_identified",
+            "not_identified"
+          ]
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "environment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "os",
+        "language",
+        "language_version",
+        "dependency_lock_path",
+        "hardware_notes"
+      ],
+      "properties": {
+        "os": {
+          "type": "string",
+          "minLength": 1
+        },
+        "language": {
+          "type": "string",
+          "minLength": 1
+        },
+        "language_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dependency_lock_path": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/path"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "hardware_notes": {
+          "type": "string"
+        }
+      }
+    },
+    "code_run": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "purpose",
+        "entrypoint",
+        "command",
+        "working_directory",
+        "config_path",
+        "environment",
+        "random_seed",
+        "started_at",
+        "finished_at",
+        "duration_seconds",
+        "exit_code",
+        "status",
+        "input_node_ids",
+        "output_node_ids",
+        "stdout_path",
+        "stderr_path"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entrypoint": {
+          "$ref": "#/$defs/path"
+        },
+        "command": {
+          "type": "string",
+          "minLength": 1
+        },
+        "working_directory": {
+          "$ref": "#/$defs/path"
+        },
+        "config_path": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/path"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "environment": {
+          "$ref": "#/$defs/environment"
+        },
+        "random_seed": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "started_at": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "finished_at": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "duration_seconds": {
+          "type": "number",
+          "minimum": 0
+        },
+        "exit_code": {
+          "type": "integer"
+        },
+        "status": {
+          "enum": [
+            "success",
+            "failed",
+            "partial",
+            "cancelled"
+          ]
+        },
+        "input_node_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "output_node_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "stdout_path": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/path"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "stderr_path": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/path"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "uncertainty": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method",
+        "level",
+        "lower",
+        "upper",
+        "unit",
+        "notes"
+      ],
+      "properties": {
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "level": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "lower": {},
+        "upper": {},
+        "unit": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "question_id",
+        "name",
+        "status",
+        "value",
+        "unit",
+        "internal_precision",
+        "display_precision",
+        "source_run_ids",
+        "source_node_ids",
+        "model_ids",
+        "assumption_ids",
+        "uncertainty",
+        "interpretation"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "question_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "final",
+            "provisional",
+            "unavailable",
+            "invalidated"
+          ]
+        },
+        "value": {},
+        "unit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "internal_precision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "display_precision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_run_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "source_node_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "model_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "assumption_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "uncertainty": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/uncertainty"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "interpretation": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "category",
+        "severity",
+        "description",
+        "method",
+        "expected",
+        "actual",
+        "tolerance",
+        "status",
+        "executed_at",
+        "result_ids",
+        "model_ids",
+        "evidence_artifact_ids",
+        "notes"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "category": {
+          "enum": [
+            "input",
+            "unit",
+            "index",
+            "boundary",
+            "invariant",
+            "residual",
+            "convergence",
+            "sensitivity",
+            "independent_recalculation",
+            "statistical",
+            "optimization",
+            "template",
+            "reproducibility",
+            "writing_traceability",
+            "ai_compliance",
+            "originality"
+          ]
+        },
+        "severity": {
+          "enum": [
+            "critical",
+            "major",
+            "minor"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "expected": {},
+        "actual": {},
+        "tolerance": {
+          "type": [
+            "string",
+            "number",
+            "null"
+          ]
+        },
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "executed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "result_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "model_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "evidence_artifact_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "rules_verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "official_source_ids",
+        "verified_at",
+        "verified_by",
+        "ai_use_allowed",
+        "internet_use_allowed",
+        "disclosure_required",
+        "summary",
+        "unresolved_items"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "unverified",
+            "partially_verified",
+            "verified"
+          ]
+        },
+        "official_source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "verified_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "verified_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ai_use_allowed": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "internet_use_allowed": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "disclosure_required": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unresolved_items": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "external_service": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "service",
+        "model_or_version",
+        "used_at",
+        "purpose",
+        "input_categories",
+        "output_artifact_ids",
+        "human_review",
+        "rule_basis_source_ids"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "service": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model_or_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "used_at": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 1
+        },
+        "input_categories": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "output_artifact_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "human_review": {
+          "enum": [
+            "pending",
+            "reviewed_accepted",
+            "reviewed_modified",
+            "reviewed_rejected"
+          ]
+        },
+        "rule_basis_source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        }
+      }
+    },
+    "ai_compliance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rules_verification",
+        "allowed_uses",
+        "prohibited_uses",
+        "usage_log_path",
+        "external_services",
+        "disclosure_artifact_id",
+        "human_final_review"
+      ],
+      "properties": {
+        "rules_verification": {
+          "$ref": "#/$defs/rules_verification"
+        },
+        "allowed_uses": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "prohibited_uses": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "usage_log_path": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/path"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "external_services": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/external_service"
+          }
+        },
+        "disclosure_artifact_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "human_final_review": {
+          "enum": [
+            "pending",
+            "completed",
+            "not_required"
+          ]
+        }
+      }
+    },
+    "reference_influence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "affected_artifact_ids",
+        "influence_type",
+        "description",
+        "independently_rederived",
+        "validation_ids"
+      ],
+      "properties": {
+        "source_id": {
+          "$ref": "#/$defs/id"
+        },
+        "affected_artifact_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "influence_type": {
+          "enum": [
+            "method_category",
+            "validation_idea",
+            "writing_structure",
+            "implementation_pattern",
+            "none"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "independently_rederived": {
+          "type": "boolean"
+        },
+        "validation_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        }
+      }
+    },
+    "originality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "independent_freeze",
+        "freeze_id",
+        "frozen_at",
+        "freeze_manifest_artifact_id",
+        "reference_access_started_at",
+        "independent_stage_declaration",
+        "no_fabrication_declaration",
+        "no_plagiarism_declaration",
+        "reference_influences",
+        "signed_by"
+      ],
+      "properties": {
+        "independent_freeze": {
+          "type": "boolean"
+        },
+        "freeze_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "frozen_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "freeze_manifest_artifact_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "reference_access_started_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "independent_stage_declaration": {
+          "type": "string",
+          "minLength": 1
+        },
+        "no_fabrication_declaration": {
+          "type": "string",
+          "minLength": 1
+        },
+        "no_plagiarism_declaration": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reference_influences": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/reference_influence"
+          }
+        },
+        "signed_by": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "path",
+        "type",
+        "sha256",
+        "description",
+        "generated_by_run_ids",
+        "source_result_ids",
+        "required_for_submission",
+        "validation_status",
+        "confidentiality"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "path": {
+          "$ref": "#/$defs/path"
+        },
+        "type": {
+          "enum": [
+            "rule_snapshot",
+            "input_manifest",
+            "assumption_register",
+            "source_code",
+            "configuration",
+            "test_report",
+            "validation_report",
+            "raw_result",
+            "submission_table",
+            "figure",
+            "paper",
+            "ai_disclosure",
+            "freeze_manifest",
+            "comparison_report",
+            "prompt",
+            "other"
+          ]
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "generated_by_run_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "source_result_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "required_for_submission": {
+          "type": "boolean"
+        },
+        "validation_status": {
+          "$ref": "#/$defs/status"
+        },
+        "confidentiality": {
+          "enum": [
+            "public",
+            "competition_restricted",
+            "team_private",
+            "personal_data"
+          ]
+        }
+      }
+    },
+    "open_issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "severity",
+        "description",
+        "owner",
+        "due_gate",
+        "status",
+        "blocking"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "severity": {
+          "enum": [
+            "critical",
+            "major",
+            "minor"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "owner": {
+          "type": "string",
+          "minLength": 1
+        },
+        "due_gate": {
+          "type": "string",
+          "pattern": "^G[0-9]+$"
+        },
+        "status": {
+          "enum": [
+            "open",
+            "resolved",
+            "accepted_risk"
+          ]
+        },
+        "blocking": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

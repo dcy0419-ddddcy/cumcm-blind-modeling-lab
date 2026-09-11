@@ -1,0 +1,3 @@
+# Preserve archived training-kit payloads byte-for-byte so their bundled
+# SHA-256 manifests remain valid across Windows and Unix checkouts.
+** -text

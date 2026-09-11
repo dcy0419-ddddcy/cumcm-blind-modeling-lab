@@ -1,0 +1,97 @@
+﻿case,policy,inspect_component_1,inspect_component_2,inspect_final,dismantle_defective_final,feasible,reason,pass_probability_per_assembly,expected_fulfillment_cost,expected_profit
+1,0000,0,0,0,0,True,,0.7290000000000001,40.639231824417,15.360768175582997
+1,0001,0,0,0,1,False,persistent defective unscreened component may be reused forever,0.7290000000000001,inf,-inf
+1,0010,0,0,1,0,True,,0.7290000000000001,42.52400548696844,13.475994513031559
+1,0011,0,0,1,1,False,persistent defective unscreened component may be reused forever,0.7290000000000001,inf,-inf
+1,0100,0,1,0,0,True,,0.81,42.559670781893,13.440329218107003
+1,0101,0,1,0,1,False,persistent defective unscreened component may be reused forever,0.81,inf,-inf
+1,0110,0,1,1,0,True,,0.81,44.855967078189295,11.144032921810705
+1,0111,0,1,1,1,False,persistent defective unscreened component may be reused forever,0.81,inf,-inf
+1,1000,1,0,0,0,True,,0.81,39.267489711934154,16.732510288065846
+1,1001,1,0,0,1,False,persistent defective unscreened component may be reused forever,0.81,inf,-inf
+1,1010,1,0,1,0,True,,0.81,41.563786008230444,14.436213991769556
+1,1011,1,0,1,1,False,persistent defective unscreened component may be reused forever,0.81,inf,-inf
+1,1100,1,1,0,0,True,,0.9,40.666666666666664,15.333333333333336
+1,1101,1,1,0,1,True,,0.9,37.888888888888886,18.111111111111114
+1,1110,1,1,1,0,True,,0.9,43.333333333333336,12.666666666666664
+1,1111,1,1,1,1,True,,0.9,40.55555555555556,15.444444444444443
+2,0000,0,0,0,0,True,,0.5120000000000001,60.40624999999998,-4.406249999999979
+2,0001,0,0,0,1,False,persistent defective unscreened component may be reused forever,0.5120000000000001,inf,-inf
+2,0010,0,0,1,0,True,,0.5120000000000001,60.546874999999986,-4.546874999999986
+2,0011,0,0,1,1,False,persistent defective unscreened component may be reused forever,0.5120000000000001,inf,-inf
+2,0100,0,1,0,0,True,,0.6400000000000001,60.015624999999986,-4.015624999999986
+2,0101,0,1,0,1,False,persistent defective unscreened component may be reused forever,0.6400000000000001,inf,-inf
+2,0110,0,1,1,0,True,,0.6400000000000001,61.328124999999986,-5.328124999999986
+2,0111,0,1,1,1,False,persistent defective unscreened component may be reused forever,0.6400000000000001,inf,-inf
+2,1000,1,0,0,0,True,,0.6400000000000001,52.593749999999986,3.406250000000014
+2,1001,1,0,0,1,False,persistent defective unscreened component may be reused forever,0.6400000000000001,inf,-inf
+2,1010,1,0,1,0,True,,0.6400000000000001,53.90624999999999,2.093750000000007
+2,1011,1,0,1,1,False,persistent defective unscreened component may be reused forever,0.6400000000000001,inf,-inf
+2,1100,1,1,0,0,True,,0.8,51.1875,4.8125
+2,1101,1,1,0,1,True,,0.8,44.0,12.0
+2,1110,1,1,1,0,True,,0.8,53.4375,2.5625
+2,1111,1,1,1,1,True,,0.8,46.25,9.75
+3,0000,0,0,0,0,True,,0.7290000000000001,49.56104252400547,6.438957475994528
+3,0001,0,0,0,1,False,persistent defective unscreened component may be reused forever,0.7290000000000001,inf,-inf
+3,0010,0,0,1,0,True,,0.7290000000000001,42.52400548696844,13.475994513031559
+3,0011,0,0,1,1,False,persistent defective unscreened component may be reused forever,0.7290000000000001,inf,-inf
+3,0100,0,1,0,0,True,,0.81,48.189300411522616,7.810699588477384
+3,0101,0,1,0,1,False,persistent defective unscreened component may be reused forever,0.81,inf,-inf
+3,0110,0,1,1,0,True,,0.81,44.855967078189295,11.144032921810705
+3,0111,0,1,1,1,False,persistent defective unscreened component may be reused forever,0.81,inf,-inf
+3,1000,1,0,0,0,True,,0.81,44.89711934156377,11.102880658436227
+3,1001,1,0,0,1,False,persistent defective unscreened component may be reused forever,0.81,inf,-inf
+3,1010,1,0,1,0,True,,0.81,41.563786008230444,14.436213991769556
+3,1011,1,0,1,1,False,persistent defective unscreened component may be reused forever,0.81,inf,-inf
+3,1100,1,1,0,0,True,,0.9,43.333333333333336,12.666666666666664
+3,1101,1,1,0,1,True,,0.9,40.55555555555556,15.444444444444443
+3,1110,1,1,1,0,True,,0.9,43.333333333333336,12.666666666666664
+3,1111,1,1,1,1,True,,0.9,40.55555555555556,15.444444444444443
+4,0000,0,0,0,0,True,,0.5120000000000001,83.28124999999999,-27.281249999999986
+4,0001,0,0,0,1,False,persistent defective unscreened component may be reused forever,0.5120000000000001,inf,-inf
+4,0010,0,0,1,0,True,,0.5120000000000001,58.593749999999986,-2.593749999999986
+4,0011,0,0,1,1,False,persistent defective unscreened component may be reused forever,0.5120000000000001,inf,-inf
+4,0100,0,1,0,0,True,,0.6400000000000001,69.60937499999999,-13.609374999999986
+4,0101,0,1,0,1,False,persistent defective unscreened component may be reused forever,0.6400000000000001,inf,-inf
+4,0110,0,1,1,0,True,,0.6400000000000001,55.859374999999986,0.1406250000000142
+4,0111,0,1,1,1,False,persistent defective unscreened component may be reused forever,0.6400000000000001,inf,-inf
+4,1000,1,0,0,0,True,,0.6400000000000001,64.14062499999999,-8.140624999999986
+4,1001,1,0,0,1,False,persistent defective unscreened component may be reused forever,0.6400000000000001,inf,-inf
+4,1010,1,0,1,0,True,,0.6400000000000001,50.39062499999999,5.609375000000007
+4,1011,1,0,1,1,False,persistent defective unscreened component may be reused forever,0.6400000000000001,inf,-inf
+4,1100,1,1,0,0,True,,0.8,52.5,3.5
+4,1101,1,1,0,1,True,,0.8,46.25,9.75
+4,1110,1,1,1,0,True,,0.8,47.5,8.5
+4,1111,1,1,1,1,True,,0.8,41.25,14.75
+5,0000,0,0,0,0,True,,0.6480000000000001,48.64197530864197,7.3580246913580325
+5,0001,0,0,0,1,False,persistent defective unscreened component may be reused forever,0.6480000000000001,inf,-inf
+5,0010,0,0,1,0,True,,0.6480000000000001,46.29629629629628,9.703703703703717
+5,0011,0,0,1,1,False,persistent defective unscreened component may be reused forever,0.6480000000000001,inf,-inf
+5,0100,0,1,0,0,True,,0.81,44.01234567901234,11.987654320987659
+5,0101,0,1,0,1,False,persistent defective unscreened component may be reused forever,0.81,inf,-inf
+5,0110,0,1,1,0,True,,0.81,44.1358024691358,11.864197530864203
+5,0111,0,1,1,1,False,persistent defective unscreened component may be reused forever,0.81,inf,-inf
+5,1000,1,0,0,0,True,,0.7200000000000001,55.740740740740726,0.25925925925927373
+5,1001,1,0,0,1,False,persistent defective unscreened component may be reused forever,0.7200000000000001,inf,-inf
+5,1010,1,0,1,0,True,,0.7200000000000001,54.62962962962962,1.370370370370381
+5,1011,1,0,1,1,False,persistent defective unscreened component may be reused forever,0.7200000000000001,inf,-inf
+5,1100,1,1,0,0,True,,0.9,48.981481481481474,7.018518518518526
+5,1101,1,1,0,1,True,,0.9,45.416666666666664,10.583333333333336
+5,1110,1,1,1,0,True,,0.9,50.09259259259259,5.907407407407412
+5,1111,1,1,1,1,True,,0.9,46.52777777777777,9.472222222222229
+6,0000,0,0,0,0,True,,0.8573749999999999,34.3213296398892,21.6786703601108
+6,0001,0,0,0,1,False,persistent defective unscreened component may be reused forever,0.8573749999999999,inf,-inf
+6,0010,0,0,1,0,True,,0.8573749999999999,36.156874179909614,19.843125820090386
+6,0011,0,0,1,1,False,persistent defective unscreened component may be reused forever,0.8573749999999999,inf,-inf
+6,0100,0,1,0,0,True,,0.9025,36.65403119988337,19.34596880011663
+6,0101,0,1,0,1,False,persistent defective unscreened component may be reused forever,0.9025,inf,-inf
+6,0110,0,1,1,0,True,,0.9025,38.89779851290276,17.10220148709724
+6,0111,0,1,1,1,False,persistent defective unscreened component may be reused forever,0.9025,inf,-inf
+6,1000,1,0,0,0,True,,0.9025,34.671234873888324,21.328765126111676
+6,1001,1,0,0,1,False,persistent defective unscreened component may be reused forever,0.9025,inf,-inf
+6,1010,1,0,1,0,True,,0.9025,36.915002186907714,19.084997813092286
+6,1011,1,0,1,1,False,persistent defective unscreened component may be reused forever,0.9025,inf,-inf
+6,1100,1,1,0,0,True,,0.95,36.7590027700831,19.2409972299169
+6,1101,1,1,0,1,True,,0.95,37.368421052631575,18.631578947368425
+6,1110,1,1,1,0,True,,0.95,39.390581717451525,16.609418282548475
+6,1111,1,1,1,1,True,,0.95,40.0,16.0

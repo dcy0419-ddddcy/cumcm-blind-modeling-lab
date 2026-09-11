@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0.0",
+  "case_id": "CUMCM-2025-B",
+  "title": "碳化硅外延层厚度的确定",
+  "source_status": "independent_solution_then_two_official_benchmarks",
+  "independent_before_official_review": true,
+  "use_stage": "S3_5_BENCHMARK_UNLOCK_OR_LATER",
+  "problem_archetypes": [
+    "signal_processing",
+    "spectral_parameter_estimation",
+    "physical_inverse_problem",
+    "multi_dataset_joint_fitting",
+    "model_selection"
+  ],
+  "independent_solution": {
+    "core_model": [
+      "考虑折射率色散和入射角的波数域峰序回归",
+      "两个入射角分别估计并比较一致性",
+      "用四谐波模型、AIC 和二/一次谐波幅值比诊断多光束影响"
+    ],
+    "results": [
+      {"material": "SiC", "angle_deg": 10, "thickness_um": 7.6965, "ci95_um": [7.6349, 7.7582], "r2": 0.999883},
+      {"material": "SiC", "angle_deg": 15, "thickness_um": 7.7106, "ci95_um": [7.5927, 7.8285], "r2": 0.999635},
+      {"material": "SiC", "combined_thickness_um": 7.7036},
+      {"material": "Si", "angle_deg": 10, "thickness_um": 3.4388, "ci95_um": [3.4056, 3.4721], "r2": 0.999878},
+      {"material": "Si", "angle_deg": 15, "thickness_um": 3.3966, "ci95_um": [3.3622, 3.4310], "r2": 0.999867},
+      {"material": "Si", "combined_thickness_um": 3.4177}
+    ],
+    "strengths": [
+      "峰序回归使用多个峰而不是单一相邻峰",
+      "显式考虑色散和入射角",
+      "报告置信区间和跨角度一致性",
+      "用信息准则和谐波幅值提供多光束数据证据"
+    ],
+    "limitations": [
+      "折射率为固定经验色散，未建模掺杂、吸收和复折射率",
+      "未完整拟合 Fresnel/Airy 全反射率曲线",
+      "数据重采样、自动选带、残差频谱和合成回检不足",
+      "高 R² 不能排除整体折射率造成的系统厚度偏差"
+    ]
+  },
+  "official_benchmarks": [
+    {
+      "id": "B060",
+      "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2025qgdxssxjmjslwzs_2025btlw/251101/2022733.shtml",
+      "methods_observed": [
+        "Drude 自由载流子加 Lorentz 声子构造掺杂相关复折射率",
+        "Fresnel s/p 系数和双界面反射",
+        "周期极值直接法与全曲线高斯—牛顿反演互检",
+        "样条、异常剔除、逆方差加权和统计区间",
+        "Airy/多次反射模型和多光束显著性物理量",
+        "遗传算法或多参数拟合完成多光束校正"
+      ],
+      "reported_results_for_comparison_only": {
+        "SiC_direct_um": 7.544,
+        "SiC_multibeam_corrected_um": 7.455,
+        "Si_combined_um": 3.432
+      }
+    },
+    {
+      "id": "B157",
+      "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2025qgdxssxjmjslwzs_2025btlw/251107/2023197.shtml",
+      "methods_observed": [
+        "非等间隔波数重采样",
+        "Reststrahlen 异常区处理、AsLS、Hampel 与 Savitzky–Golay",
+        "滑窗 FFT 同时使用主频稳定性和 SNR 自动选带",
+        "FFT 初值加 Cauchy 色散的双角度鲁棒联合拟合",
+        "波数刻度和入射角微偏差作为校准变量",
+        "分段色散、残差直方图、Q-Q、残差频谱、频段稳健性、协方差与合成回检",
+        "Airy 多光束模型与界面反射率物理判断"
+      ],
+      "reported_results_for_comparison_only": {
+        "SiC_um": 7.604,
+        "Si_multibeam_um": 3.814
+      }
+    }
+  ],
+  "comparison_conclusions": [
+    "两篇优秀论文数值并不完全一致，说明不存在可机械套用的唯一范例值",
+    "独立 SiC 结果与展示论文差异提示折射率、吸收、频段和多光束会造成系统偏差",
+    "独立 Si 结果接近 B060 但远离 B157，接近某篇论文不能代替模型诊断",
+    "最佳流程是快速初值、物理全谱反演和系统残差审计三者组合"
+  ],
+  "transferable_patterns": [
+    "FFT 前检查等间隔采样",
+    "预处理保存前后图与参数",
+    "滑窗 SNR 和主频稳定性选带",
+    "FFT 与峰序/极值双初值互检",
+    "共享物理参数的多数据集联合拟合",
+    "Fresnel 简单模型与 Airy 复杂模型嵌套比较",
+    "残差频谱、频段稳健性、参数可辨识性和合成回检"
+  ],
+  "never_transfer_directly": [
+    "2025 附件的频段、折射率参数和厚度",
+    "2025 的滤波窗口、峰值阈值和初值",
+    "官方论文措辞、图表和代码",
+    "B 题字母与题型之间的固定映射"
+  ],
+  "model_adoption_rule": "复杂物理模型只有在残差、信息准则和物理条件共同支持时采用；否则回退可解释的简单模型。",
+  "training_regression_tests": [
+    "非等间隔采样直接 FFT 的失败案例",
+    "已知厚度合成光谱的恢复误差",
+    "不同频段和预处理参数下的厚度稳定性",
+    "单角度与联合拟合的一致性",
+    "残差是否仍有主干涉频率",
+    "折射率/厚度相关性与参数可辨识性"
+  ]
+}

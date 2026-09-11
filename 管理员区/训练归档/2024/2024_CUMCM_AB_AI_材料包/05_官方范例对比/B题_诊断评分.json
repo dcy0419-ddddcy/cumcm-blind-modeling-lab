@@ -1,0 +1,302 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "post_reference_diagnostic_rubric",
+  "evaluated_artifact": {
+    "path": "D:/2024/frozen_independent_v1/independent/B/report_B_independent.md",
+    "packaged_path": "../04_B题_独立成果/report_B_independent.md",
+    "sha256": "a265e2c858aaf8bef3a2f78d275fb875e1d11cf947b9e355f8864fb03addd823",
+    "frozen_before_reference_review": true,
+    "modified_by_review": false
+  },
+  "evaluation_timestamp_local": "2026-09-05T18:06:11+08:00",
+  "score_scale": {
+    "minimum": 0,
+    "maximum": 5,
+    "interpretation": {
+      "0": "缺失或不可用",
+      "1": "严重错误",
+      "2": "主要缺陷",
+      "3": "基本可用但有实质限制",
+      "4": "强，存在明确改进项",
+      "5": "在声明范围内完整且可审计"
+    },
+    "warning": "本评分仅用于训练诊断，不等同于全国赛评奖分数。"
+  },
+  "overall": {
+    "weighted_score_out_of_100": 84.0,
+    "verdict": "独立稿在统计风险、问题3精确求解、问题4诚信和可复现性上很强；问题2未覆盖拆解后改变检测动作，是必须显式披露的主要作用域缺陷。"
+  },
+  "criteria": [
+    {
+      "id": "Q1_STATISTICAL_DESIGN",
+      "name": "问题1抽样统计设计",
+      "weight_percent": 14,
+      "score_out_of_5": 4.2,
+      "weighted_points": 11.76,
+      "strengths": [
+        "双向随时有效似然比规则显式控制错误概率",
+        "精确路径递推核验概率守恒、边界风险与截断平均样本量",
+        "明确区分极端路径最早停止时刻与固定样本量",
+        "坦率说明题目未给效应量时不存在唯一最少样本数"
+      ],
+      "gaps": [
+        "Nmax=2000时允许未决，缺少企业可执行的截尾终局规则",
+        "未同时提供专家讲评可比的固定(109,16)基准",
+        "pL、pH与Nmax的联合灵敏度尚未展示"
+      ],
+      "next_action": "实现截尾序贯方案，并并列报告固定(109,16)基准、OC、ASN与最坏样本量。"
+    },
+    {
+      "id": "Q2_PROCESS_SEMANTICS",
+      "name": "问题2流程语义与最优策略",
+      "weight_percent": 22,
+      "score_out_of_5": 2.8,
+      "weighted_points": 12.32,
+      "strengths": [
+        "最终合格订单口径清楚，售价、调换损失和替换生产成本不混淆",
+        "正确识别同一未检坏件无限复用造成非吸收与无穷期望成本",
+        "情形2、4、6与专家讲评表7一致"
+      ],
+      "gaps": [
+        "四位策略没有拆解后零件检测与重装成品检测动作",
+        "把所有含未检零件的拆解策略判为不可行，遗漏先不检、拆后检的可行策略",
+        "情形1、3、5的最优策略及成本利润因此与专家讲评不一致",
+        "现有单元测试只验证受限模型内部一致性，不能发现策略空间缺失"
+      ],
+      "next_action": "扩为首次三位、拆解决策、返工三位或信息状态MDP；加入专家表7六行回归测试。"
+    },
+    {
+      "id": "Q3_MULTISTAGE_OPTIMIZATION",
+      "name": "问题3多工序优化",
+      "weight_percent": 16,
+      "score_out_of_5": 4.8,
+      "weighted_points": 15.36,
+      "strengths": [
+        "最优编码11111111/111/111/01与专家讲评第二口径一致",
+        "成本139.7778和利润60.2222与专家讲评139.78/60.22一致",
+        "枚举6012个声明为可行的平稳策略，并输出完整排序",
+        "策略计数和最优值有自动化测试"
+      ],
+      "gaps": [
+        "全局最优只对声明的平稳策略类成立，未覆盖全部返工阶段自适应动作"
+      ],
+      "next_action": "保留结果，给全局性加作用域限定；用完整16位基准空间和状态MDP交叉核验。"
+    },
+    {
+      "id": "Q4_UNCERTAINTY",
+      "name": "问题4抽样不确定性处理",
+      "weight_percent": 14,
+      "score_out_of_5": 4.6,
+      "weighted_points": 12.88,
+      "strengths": [
+        "明确指出缺少原始(n,x)时不存在唯一数值区间",
+        "n=100情景被显式标为演示而非实测",
+        "使用Jeffreys后验传播、成本区间、逐次最优比例和蒙特卡洛标准误",
+        "提供样本量敏感性且固定随机种子"
+      ],
+      "gaps": [
+        "未并列给出专家讲评采用的单侧上置信限最坏情景",
+        "先验超参数敏感性弱于样本量敏感性展示",
+        "受问题2策略空间限制影响，问题2后验决策也继承该限制"
+      ],
+      "next_action": "增加精确单侧上界、CVaR/高分位成本及Beta先验敏感性；仅在真实(n,x)可用时数值化。"
+    },
+    {
+      "id": "PROGRAMMING_REPRODUCIBILITY",
+      "name": "编程与可复现性",
+      "weight_percent": 14,
+      "score_out_of_5": 4.8,
+      "weighted_points": 13.44,
+      "strengths": [
+        "单一Python入口、requirements、README与日志齐全",
+        "问题1和问题2/3优先精确计算，问题4才使用蒙特卡洛",
+        "固定种子并输出CSV/JSON中间结果",
+        "对小离散策略空间采用穷举而非不必要的启发式搜索"
+      ],
+      "gaps": [
+        "数据结构没有表达返工阶段的信息状态和动作",
+        "尚缺解析式与离散事件模拟的双实现互证"
+      ],
+      "next_action": "实现可达状态图、吸收链求解器和独立模拟器，三者对同一策略做数值一致性测试。"
+    },
+    {
+      "id": "VALIDATION",
+      "name": "验证与审计",
+      "weight_percent": 8,
+      "score_out_of_5": 4.5,
+      "weighted_points": 7.2,
+      "strengths": [
+        "6项单元测试覆盖关键统计边界、不可行循环、策略计数和输出存在性",
+        "完整候选表可审计而非只报告最优行",
+        "概率路径守恒和蒙特卡洛误差均有量化"
+      ],
+      "gaps": [
+        "缺少外部语义基准回归测试",
+        "缺少摘要、主表、结论和JSON的策略一致性测试"
+      ],
+      "next_action": "把专家讲评表7与问题3 139.78/60.22做只读golden tests，并增加文本-JSON一致性检查。"
+    },
+    {
+      "id": "WRITING",
+      "name": "论文写作",
+      "weight_percent": 8,
+      "score_out_of_5": 4.4,
+      "weighted_points": 7.04,
+      "strengths": [
+        "摘要有方法、关键假设、策略和数值",
+        "重要口径、物理假设、证明与局限均显式写出",
+        "策略编码紧邻中文解释，结果表清晰",
+        "源码和大结果表与正文分离"
+      ],
+      "gaps": [
+        "缺少返工信息状态图，使四位策略作用域不易被读者及时发现",
+        "问题2模型限制应在摘要和结果表中更醒目标注"
+      ],
+      "next_action": "增加状态图和作用域警示框；自动核对摘要、表格、结论、JSON。"
+    },
+    {
+      "id": "INTEGRITY_AND_PROCESS",
+      "name": "数据诚信与独立流程",
+      "weight_percent": 4,
+      "score_out_of_5": 5.0,
+      "weighted_points": 4.0,
+      "strengths": [
+        "独立稿在查阅官方展示资料前冻结并计算哈希",
+        "缺失数据没有伪造，演示情景标签明确",
+        "外部对照不回写冻结稿"
+      ],
+      "gaps": [],
+      "next_action": "继续保留冻结清单、来源哈希与后参考勘误；比赛时先核对当届AI规则。"
+    }
+  ],
+  "critical_findings": [
+    {
+      "id": "B-Q2-ADAPTIVE-REWORK",
+      "severity": "major",
+      "status": "confirmed_against_official_expert_commentary",
+      "finding": "冻结稿没有把拆解后检测回收零件/重装成品作为独立动作。",
+      "impact": "情形1、3、5的冻结最优策略分别比专家讲评少约0.461、1.095、0.977元利润/最终合格件。",
+      "affected_claims": [
+        "问题2六情形最优策略",
+        "问题2问题4后验最优策略",
+        "关于所有含未检零件拆解策略均不可行的表述"
+      ],
+      "safe_resolution": "不修改冻结稿；另建勘误并在新求解器中扩展策略状态。"
+    },
+    {
+      "id": "B-Q1-TRUNCATION",
+      "severity": "moderate",
+      "status": "methodologically_valid_but_operationally_incomplete",
+      "finding": "普通/随时有效顺序规则不能单独给出确定的最少样本量；冻结稿在上限仍允许未决。",
+      "impact": "企业到达Nmax时缺少唯一终局操作。",
+      "safe_resolution": "补充截尾规则与固定(109,16)基准，不把不同设计点下的样本量直接排序。"
+    },
+    {
+      "id": "B-Q3-MATCH",
+      "severity": "strength",
+      "status": "exact_match_within_rounding",
+      "finding": "冻结稿问题3策略和第二口径成本利润与专家讲评一致。",
+      "impact": "核心多工序结果获得独立外部核验。",
+      "safe_resolution": "保留并限定为声明策略类内的全局最优。"
+    },
+    {
+      "id": "B-Q4-DATA-GAP",
+      "severity": "strength",
+      "status": "integrity_positive",
+      "finding": "冻结稿没有在缺少(n,x)时伪造唯一置信区间。",
+      "impact": "避免把点估计精度当成已知。",
+      "safe_resolution": "保留参数化接口，并增加官方风格的单侧最坏情景分支。"
+    }
+  ],
+  "expert_table7_crosscheck": [
+    {
+      "case": 1,
+      "expert_policy_initial_rework": "NNN/YYN",
+      "expert_cost": 37.428,
+      "expert_profit": 18.572,
+      "independent_policy": "1101",
+      "independent_cost": 37.8889,
+      "independent_profit": 18.1111,
+      "match": false
+    },
+    {
+      "case": 2,
+      "expert_policy_initial_rework": "YYN/NNN",
+      "expert_cost": 44.0,
+      "expert_profit": 12.0,
+      "independent_policy": "1101",
+      "independent_cost": 44.0,
+      "independent_profit": 12.0,
+      "match": true
+    },
+    {
+      "case": 3,
+      "expert_policy_initial_rework": "NNY/YYY",
+      "expert_cost": 39.461,
+      "expert_profit": 16.539,
+      "independent_policy": "1101 or 1111",
+      "independent_cost": 40.5556,
+      "independent_profit": 15.4444,
+      "match": false
+    },
+    {
+      "case": 4,
+      "expert_policy_initial_rework": "YYY/NNY",
+      "expert_cost": 41.25,
+      "expert_profit": 14.75,
+      "independent_policy": "1111",
+      "independent_cost": 41.25,
+      "independent_profit": 14.75,
+      "match": true
+    },
+    {
+      "case": 5,
+      "expert_policy_initial_rework": "NYN/YNN",
+      "expert_cost": 43.035,
+      "expert_profit": 12.965,
+      "independent_policy": "0100",
+      "independent_cost": 44.0123,
+      "independent_profit": 11.9877,
+      "match": false
+    },
+    {
+      "case": 6,
+      "expert_policy_initial_rework": "NNN/no dismantling",
+      "expert_cost": 34.321,
+      "expert_profit": 21.679,
+      "independent_policy": "0000",
+      "independent_cost": 34.3213,
+      "independent_profit": 21.6787,
+      "match": true
+    }
+  ],
+  "reference_priority": [
+    {
+      "rank": 1,
+      "id": "B_commentary",
+      "role": "题意与口径裁决",
+      "url": "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmstjp_2024sxjmstjp/241127/1980968.shtml"
+    },
+    {
+      "rank": 2,
+      "ids": [
+        "B159",
+        "B195",
+        "B196"
+      ],
+      "role": "多样建模与写作样例，不视为标准答案",
+      "urls": [
+        "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024btlw/241104/1977943.shtml",
+        "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024btlw/241104/1977945.shtml",
+        "https://dxs.moe.gov.cn/zx/a/hd_sxjm_sxjmlw_2024qgdxssxjmjslwzs_2024btlw/241104/1977950.shtml"
+      ]
+    }
+  ],
+  "source_inventory": "官方来源元数据/B题_逐页来源清单.json",
+  "non_negotiable_rules": [
+    "禁止照抄范文文字、图表、代码或独特表达",
+    "禁止伪造样本量、次品数、实验或仿真结果",
+    "禁止忽略当届官方AI使用、引用和工具规则",
+    "官方展示论文之间冲突时，不投票；优先题意、专家讲评和可复现实证"
+  ]
+}

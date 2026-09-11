@@ -1,0 +1,15 @@
+2026-09-05 17:19:44,791 | INFO | Python=3.12.14; NumPy=2.3.5; platform=Windows-11-10.0.26200-SP0
+2026-09-05 17:19:44,791 | INFO | Q1: computing exact boundaries and path probabilities to N=2000
+2026-09-05 17:19:46,212 | INFO | Q1 boundary examples: n=43 accept x<=0; n=100 accept x<=4, reject x>=19
+2026-09-05 17:19:46,212 | INFO | Q2: enumerating all 16 policies for each of 6 cases
+2026-09-05 17:19:46,212 | INFO | Q2 case 1: policy=1101, cost=37.888889, profit=18.111111
+2026-09-05 17:19:46,212 | INFO | Q2 case 2: policy=1101, cost=44.000000, profit=12.000000
+2026-09-05 17:19:46,212 | INFO | Q2 case 3: policy=1101/1111, cost=40.555556, profit=15.444444
+2026-09-05 17:19:46,212 | INFO | Q2 case 4: policy=1111, cost=41.250000, profit=14.750000
+2026-09-05 17:19:46,212 | INFO | Q2 case 5: policy=0100, cost=44.012346, profit=11.987654
+2026-09-05 17:19:46,212 | INFO | Q2 case 6: policy=0000, cost=34.321330, profit=21.678670
+2026-09-05 17:19:46,213 | INFO | Q3: enumerating all feasible stationary tree policies
+2026-09-05 17:19:46,301 | INFO | Q3: feasible=6012, best=11111111/111/111/01, cost=139.777778, profit=60.222222
+2026-09-05 17:19:46,302 | INFO | Q4: posterior propagation under labelled n=100 illustrative records
+2026-09-05 17:19:47,128 | INFO | Q4 Q3: selected=11111111/111/111/01, posterior mean cost=140.971083
+2026-09-05 17:19:48,530 | INFO | All result files generated successfully under D:\2024\work_independent\B\results

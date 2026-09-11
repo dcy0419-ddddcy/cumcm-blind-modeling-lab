@@ -1,0 +1,5 @@
+question 1 complete
+question 2 complete 412.47383768211444 (0, 8)
+question 3 complete 0.4503373930271521 (0, 19)
+question 4 complete 13.62124490682112
+question 5 complete {'maximum_speed_amplification': 1.604793378966608, 'maximum_head_speed_mps': 1.2462663581575104, 'peak_head_path_coordinate_m_at_unit_speed': 14.479969602038587, 'limiting_handle_index': 6, 'scan_scope': 'complete passage, conservative interval', 'full_scan_interval_head_s_m': [-4.0, 417.7812449068211], 'start_all_handles_before_first_arc': True, 'stop_rear_handle_after_second_arc': True, 'rear_handle_s_at_stop_m': 48.2369838299538}

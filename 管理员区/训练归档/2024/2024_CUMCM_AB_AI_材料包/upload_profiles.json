@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "generated_for": "下一次数学建模竞赛的分阶段上传",
+  "global_rule": "先核验当届官方 AI、联网、资料和附件上传规则；任何配置都不构成永久许可。",
+  "profiles": [
+    {
+      "id": "training_rehearsal_full",
+      "purpose": "赛前训练和复盘",
+      "include": [
+        "README.md",
+        "MATERIALS_CHECKLIST.md",
+        "PORTABLE_REPRODUCTION.md",
+        "reproduce_pack.py",
+        "upload_profiles.json",
+        "MANIFEST.json",
+        "checksums.sha256",
+        "01_自包含知识库/**",
+        "02_比赛启动/**",
+        "03_A题_独立成果/**",
+        "04_B题_独立成果/**",
+        "05_官方范例对比/**",
+        "06_审计/**",
+        "07_文档成品/**"
+      ],
+      "exclude": [
+        "00_原始材料/**"
+      ],
+      "notes": "原题和空白模板仅在需要复现实验时另行加入；官方范例原文未再分发。"
+    },
+    {
+      "id": "competition_start_minimal",
+      "purpose": "新比赛开始后的通用方法启动",
+      "include": [
+        "01_自包含知识库/**",
+        "02_比赛启动/MASTER_PROMPT.md",
+        "02_比赛启动/output_protocol.schema.json",
+        "02_比赛启动/output_protocol.example.json",
+        "02_比赛启动/UPLOAD_CHECKLIST.md",
+        "02_比赛启动/AI工具使用详情_模板.md",
+        "02_比赛启动/ai_usage_log.template.jsonl",
+        "02_比赛启动/team_constraints.template.md"
+      ],
+      "add_at_runtime": [
+        "当届官网规则与 AI 条款",
+        "新题面、全部附件和空白提交模板",
+        "队伍约束与分工"
+      ],
+      "exclude": [
+        "03_A题_独立成果/**",
+        "04_B题_独立成果/**",
+        "05_官方范例对比/**",
+        "07_文档成品/**"
+      ],
+      "notes": "这是最稳妥的赛时首批上传配置，避免答案类材料影响独立求解。"
+    },
+    {
+      "id": "post_freeze_reference_review",
+      "purpose": "新比赛独立成果已冻结后的合法参考比较",
+      "include": [
+        "01_自包含知识库/**",
+        "02_比赛启动/**"
+      ],
+      "add_at_runtime": [
+        "新比赛独立冻结版",
+        "经当届规则允许且来源已核验的官方案例"
+      ],
+      "preconditions": [
+        "G0 规则核验通过",
+        "G6 独立冻结通过",
+        "队员明确授权进入参考比较",
+        "当届规则允许相应检索和上传"
+      ],
+      "notes": "参考材料不得写回冻结目录；启发必须重新推导、实现和验证。"
+    }
+  ]
+}

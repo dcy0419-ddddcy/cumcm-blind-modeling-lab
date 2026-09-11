@@ -1,0 +1,498 @@
+{
+  "plan_version": "1.0.0",
+  "title": "八周数学建模全流程训练计划",
+  "duration_weeks": 8,
+  "target_focused_person_hours": {
+    "minimum": 92,
+    "maximum": 116,
+    "unit": "focused_person_hour",
+    "derivation": "八个周目标区间逐周相加；不是获奖所需时长估计。"
+  },
+  "planned_volume": {
+    "full_problem_runs": 7,
+    "micro_drills": 17
+  },
+  "calibration_policy": {
+    "baseline_week": 1,
+    "adjustable_after_baseline": [
+      "weekly_hour_range",
+      "writing_speed_ratio_range",
+      "branch_coverage_reference_range"
+    ],
+    "not_adjustable_downward": [
+      "critical_issue_gate",
+      "clean_reproduction_success_definition",
+      "final_critical_requirement_coverage",
+      "no_fabrication_no_plagiarism_ai_rule_checks"
+    ],
+    "change_record_required": true,
+    "note": "目标是训练管理阈值，不代表统计上精确的获奖预测。"
+  },
+  "metric_definitions": {
+    "focused_person_hour": "有开始结束时间、任务和产物路径的专注人时；并行两人一小时计两人时，等待程序和无记录浏览不计。",
+    "full_problem_run": "同一题完成题意契约、主模型、可运行代码、核心结果、验证报告和不少于六页核心稿。",
+    "micro_drill": "45至120分钟的单技能训练，保留输入、产物和复盘；只改格式不重复计数。",
+    "clean_reproduction": "在新输出目录用单一入口从原始输入生成必需产物，无手工改中间文件；退出码为零；确定性字段哈希一致，随机字段在预登记统计容差内。",
+    "clean_reproduction_rate": "successful_clean_reproductions / planned_clean_reproductions；优先保存整数分子分母，百分比只是派生值。",
+    "critical_requirement_coverage": "validated_critical_requirements / identified_critical_requirements；证据必须是测试、解析证明、人工双核或模板检查且路径存在。",
+    "branch_coverage": "覆盖工具对本队代码测得的执行分支比例；第三方、生成和纯展示代码可排除但必须列清单。不支持测量时记录 not_measured。",
+    "writing_baseline_B": "第一周两次45分钟限时写作的核验后保留中文字符数除以专注小时；公式源码、表格和参考文献不计。",
+    "writing_speed_ratio": "current_verified_chinese_characters_per_hour / writing_baseline_B。",
+    "factual_rework_rate": "因事实、公式、单位、来源或数表错误而删除或实质改写的字符 / 初稿字符。",
+    "prior_action_closure_rate": "本周关闭的到期复盘动作 / 本周到期复盘动作；没有到期动作时记 not_applicable。"
+  },
+  "gate_policy": {
+    "advance_only_on_pass": true,
+    "remediation_hours": {
+      "minimum": 2,
+      "maximum": 4
+    },
+    "critical_open_max": 0,
+    "unassigned_open_issues_max": 0,
+    "prior_due_action_closure_percent_min": 80,
+    "regression_item_added_per_week_min": 1,
+    "overload_trigger": "连续两周超过周最高工时仍未通过时，缩小题量并分析拆分；不降低质量与诚信闸门。"
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "theme": "工具链、规则核验、输入契约与基线",
+      "focused_person_hours": {
+        "minimum": 8,
+        "maximum": 10
+      },
+      "problem_volume": {
+        "full_problem_runs": 0,
+        "micro_drills": 3
+      },
+      "clean_reproduction": {
+        "planned_attempts": 2,
+        "minimum_passes": 1,
+        "derived_rate_percent": 50,
+        "consecutive_required": false
+      },
+      "test_coverage": {
+        "critical_requirement_percent_min": 60,
+        "branch_coverage_reference_percent": null,
+        "branch_coverage_policy": "measure_baseline"
+      },
+      "writing": {
+        "baseline_sessions": 2,
+        "session_minutes": 45,
+        "speed_ratio_to_week1_B": {
+          "minimum": 1,
+          "maximum": 1
+        },
+        "rework_constraint": "record_baseline"
+      },
+      "required_tasks": [
+        "只用历史题面、数据和空白模板演练规则状态提取；未知条款标记 unverified。",
+        "建立输入哈希、符号表、假设表、单入口和最小测试框架。",
+        "完成单位索引审计、手算黄金样例、模板尺寸与数值类型三个微型题。",
+        "将至少一个失败固化为回归测试。"
+      ],
+      "review_gate": {
+        "prior_due_action_closure_percent_min": null,
+        "critical_open_max": 0,
+        "unassigned_open_issues_max": 0,
+        "regression_items_added_min": 1,
+        "extra_conditions": [
+          "两次写作基线均保留初稿与次日核验版本。",
+          "三个微型题都有输入与证据路径。"
+        ]
+      }
+    },
+    {
+      "week": 2,
+      "theme": "数据血缘、索引单位与解析小模型",
+      "focused_person_hours": {
+        "minimum": 10,
+        "maximum": 12
+      },
+      "problem_volume": {
+        "full_problem_runs": 1,
+        "micro_drills": 2
+      },
+      "clean_reproduction": {
+        "planned_attempts": 3,
+        "minimum_passes": 2,
+        "derived_rate_percent": 66.7,
+        "consecutive_required": false
+      },
+      "test_coverage": {
+        "critical_requirement_percent_min": 70,
+        "branch_coverage_reference_percent": {
+          "minimum": 50,
+          "maximum": 65
+        },
+        "branch_coverage_policy": "reference_not_standalone_gate"
+      },
+      "writing": {
+        "baseline_sessions": 0,
+        "session_minutes": null,
+        "speed_ratio_to_week1_B": {
+          "minimum": 0.9,
+          "maximum": 1.1
+        },
+        "rework_constraint": "investigate_if_above_week1_baseline"
+      },
+      "required_tasks": [
+        "完成原始输入到图表的全链路数据血缘。",
+        "为每个常量记录来源定位、单位、类型与范围。",
+        "用手算、解析式或小规模穷举复核至少两个核心结果。",
+        "至少一张论文表由结构化结果自动生成。"
+      ],
+      "review_gate": {
+        "prior_due_action_closure_percent_min": 80,
+        "critical_open_max": 0,
+        "unassigned_open_issues_max": 0,
+        "regression_items_added_min": 1,
+        "extra_conditions": [
+          "完整题六项交付齐全。",
+          "零值、极端值、缺失值和索引端点均有测试。"
+        ]
+      }
+    },
+    {
+      "week": 3,
+      "theme": "连续模型、求根、误差与收敛",
+      "focused_person_hours": {
+        "minimum": 10,
+        "maximum": 13
+      },
+      "problem_volume": {
+        "full_problem_runs": 1,
+        "micro_drills": 2
+      },
+      "clean_reproduction": {
+        "planned_attempts": 4,
+        "minimum_passes": 3,
+        "derived_rate_percent": 75,
+        "consecutive_required": false
+      },
+      "test_coverage": {
+        "critical_requirement_percent_min": 80,
+        "branch_coverage_reference_percent": {
+          "minimum": 55,
+          "maximum": 70
+        },
+        "branch_coverage_policy": "reference_not_standalone_gate"
+      },
+      "writing": {
+        "baseline_sessions": 0,
+        "session_minutes": null,
+        "speed_ratio_to_week1_B": {
+          "minimum": 1,
+          "maximum": 1.15
+        },
+        "rework_constraint": "not_materially_worse_than_week1_without_root_cause"
+      },
+      "required_tasks": [
+        "训练有括区间求根、连续事件首次发生和求解残差。",
+        "至少用三档步长或容差生成结论变化表。",
+        "用不同实现或高精度差分复算一个核心轨迹或导数。",
+        "微型题覆盖根分支跳跃及边界接触或端点根。"
+      ],
+      "review_gate": {
+        "prior_due_action_closure_percent_min": 80,
+        "critical_open_max": 0,
+        "unassigned_open_issues_max": 0,
+        "regression_items_added_min": 1,
+        "extra_conditions": [
+          "独立复算证据存在。",
+          "非有限数未被静默替换。"
+        ]
+      }
+    },
+    {
+      "week": 4,
+      "theme": "优化、穷举基线与可行性证书",
+      "focused_person_hours": {
+        "minimum": 11,
+        "maximum": 14
+      },
+      "problem_volume": {
+        "full_problem_runs": 1,
+        "micro_drills": 2
+      },
+      "clean_reproduction": {
+        "planned_attempts": 5,
+        "minimum_passes": 4,
+        "derived_rate_percent": 80,
+        "consecutive_required": false
+      },
+      "test_coverage": {
+        "critical_requirement_percent_min": 85,
+        "branch_coverage_reference_percent": {
+          "minimum": 60,
+          "maximum": 75
+        },
+        "branch_coverage_policy": "reference_not_standalone_gate"
+      },
+      "writing": {
+        "baseline_sessions": 0,
+        "session_minutes": null,
+        "speed_ratio_to_week1_B": {
+          "minimum": 1.05,
+          "maximum": 1.2
+        },
+        "rework_constraint": "not_materially_worse_than_week1_without_root_cause"
+      },
+      "required_tasks": [
+        "明确优化搜索空间、可行性判定与停止准则。",
+        "缩小实例全枚举并与主算法比较。",
+        "报告上下界、约束余量、次优差距或邻域反证中的适用项。",
+        "微型题覆盖非单调可行域扫描与不可行证书。"
+      ],
+      "review_gate": {
+        "prior_due_action_closure_percent_min": 80,
+        "critical_open_max": 0,
+        "unassigned_open_issues_max": 0,
+        "regression_items_added_min": 1,
+        "extra_conditions": [
+          "小实例中主算法与穷举一致。",
+          "至少一个最优性用语经过证据审计。"
+        ]
+      }
+    },
+    {
+      "week": 5,
+      "theme": "概率、仿真、状态模型与不确定性",
+      "focused_person_hours": {
+        "minimum": 12,
+        "maximum": 15
+      },
+      "problem_volume": {
+        "full_problem_runs": 1,
+        "micro_drills": 2
+      },
+      "clean_reproduction": {
+        "planned_attempts": 5,
+        "minimum_passes": 4,
+        "derived_rate_percent": 80,
+        "consecutive_required": false
+      },
+      "test_coverage": {
+        "critical_requirement_percent_min": 90,
+        "branch_coverage_reference_percent": {
+          "minimum": 65,
+          "maximum": 80
+        },
+        "branch_coverage_policy": "reference_not_standalone_gate"
+      },
+      "writing": {
+        "baseline_sessions": 0,
+        "session_minutes": null,
+        "speed_ratio_to_week1_B": {
+          "minimum": 1.1,
+          "maximum": 1.25
+        },
+        "rework_constraint": "not_materially_worse_than_week1_without_root_cause"
+      },
+      "required_tasks": [
+        "区分条件概率、无条件概率、固定样本与序贯查看。",
+        "为随机模型建立可解析退化基线。",
+        "用解析或线性方程与 Monte Carlo 双算一个核心期望。",
+        "微型题覆盖非吸收状态与种子或样本量稳定性。"
+      ],
+      "review_gate": {
+        "prior_due_action_closure_percent_min": 80,
+        "critical_open_max": 0,
+        "unassigned_open_issues_max": 0,
+        "regression_items_added_min": 1,
+        "extra_conditions": [
+          "仿真重复数和统计容差在运行前登记。",
+          "解析与仿真差异满足预定判据或保留故障解释。"
+        ]
+      }
+    },
+    {
+      "week": 6,
+      "theme": "结果同源、图表、论文工程与模板审计",
+      "focused_person_hours": {
+        "minimum": 12,
+        "maximum": 16
+      },
+      "problem_volume": {
+        "full_problem_runs": 1,
+        "micro_drills": 2
+      },
+      "clean_reproduction": {
+        "planned_attempts": 6,
+        "minimum_passes": 5,
+        "derived_rate_percent": 83.3,
+        "consecutive_required": false
+      },
+      "test_coverage": {
+        "critical_requirement_percent_min": 95,
+        "branch_coverage_reference_percent": {
+          "minimum": 70,
+          "maximum": 85
+        },
+        "branch_coverage_policy": "reference_not_standalone_gate"
+      },
+      "writing": {
+        "baseline_sessions": 0,
+        "session_minutes": null,
+        "speed_ratio_to_week1_B": {
+          "minimum": 1.15,
+          "maximum": 1.35
+        },
+        "rework_constraint": "not_above_week1_baseline"
+      },
+      "required_tasks": [
+        "同一结果对象生成论文表、图和提交模板。",
+        "注入一个人工中间值变更并确认审计会失败。",
+        "训练摘要、假设、算法、验证与局限五个模块。",
+        "微型题完成六页压缩及失败案例入正文。"
+      ],
+      "review_gate": {
+        "prior_due_action_closure_percent_min": 80,
+        "critical_open_max": 0,
+        "unassigned_open_issues_max": 0,
+        "regression_items_added_min": 1,
+        "extra_conditions": [
+          "论文抽查值与结构化结果一致。",
+          "模板自动校验通过。",
+          "在新目录完成一次从零复现。"
+        ]
+      }
+    },
+    {
+      "week": 7,
+      "theme": "双题筛选、团队交接与压力演练",
+      "focused_person_hours": {
+        "minimum": 14,
+        "maximum": 18
+      },
+      "problem_volume": {
+        "full_problem_runs": 1,
+        "micro_drills": 3
+      },
+      "clean_reproduction": {
+        "planned_attempts": 6,
+        "minimum_passes": 5,
+        "derived_rate_percent": 83.3,
+        "consecutive_required": false
+      },
+      "test_coverage": {
+        "critical_requirement_percent_min": 100,
+        "branch_coverage_reference_percent": {
+          "minimum": 75,
+          "maximum": 90
+        },
+        "branch_coverage_policy": "reference_not_standalone_gate"
+      },
+      "writing": {
+        "baseline_sessions": 0,
+        "session_minutes": null,
+        "speed_ratio_to_week1_B": {
+          "minimum": 1.2,
+          "maximum": 1.4
+        },
+        "rework_constraint": "not_above_week1_baseline"
+      },
+      "required_tasks": [
+        "90分钟内按统一量表评估两题并保留弃题理由。",
+        "完成所选题并让每名队员执行他人的入口命令。",
+        "微型题覆盖异常接管、结果答辩与引用或 AI 日志补全。",
+        "模拟冻结前混入参考材料并验证隔离拦截。"
+      ],
+      "review_gate": {
+        "prior_due_action_closure_percent_min": 80,
+        "critical_open_max": 0,
+        "unassigned_open_issues_max": 0,
+        "regression_items_added_min": 1,
+        "extra_conditions": [
+          "所有关键模块至少有两人能解释和运行。",
+          "无未分配的 major 问题。",
+          "选题评分、交接耗时和失败点已记录。"
+        ]
+      }
+    },
+    {
+      "week": 8,
+      "theme": "48小时全流程模拟、冻结与提交审计",
+      "focused_person_hours": {
+        "minimum": 15,
+        "maximum": 18
+      },
+      "problem_volume": {
+        "full_problem_runs": 1,
+        "micro_drills": 1
+      },
+      "clean_reproduction": {
+        "planned_attempts": 3,
+        "minimum_passes": 3,
+        "derived_rate_percent": 100,
+        "consecutive_required": true
+      },
+      "test_coverage": {
+        "critical_requirement_percent_min": 100,
+        "branch_coverage_reference_percent": {
+          "minimum": 80,
+          "maximum": 100
+        },
+        "branch_coverage_policy": "minimum_or_document_every_exclusion_with_alternative_evidence"
+      },
+      "writing": {
+        "baseline_sessions": 0,
+        "session_minutes": null,
+        "speed_ratio_to_week1_B": {
+          "minimum": 1.25,
+          "maximum": 1.5
+        },
+        "rework_constraint": "not_above_week1_baseline",
+        "speed_exception_status": "quality_pass_speed_warning"
+      },
+      "required_tasks": [
+        "在48小时墙钟内用全新历史题完成15至18专注人时模拟。",
+        "冻结前保持答案隔离并执行G0至G6。",
+        "仅在冻结后且来源合规时做官方案例盲对比练习。",
+        "连续三次干净复现并执行 schema 和上传清单。"
+      ],
+      "review_gate": {
+        "prior_due_action_closure_percent_min": 80,
+        "critical_open_max": 0,
+        "major_open_max": 0,
+        "unassigned_open_issues_max": 0,
+        "regression_items_added_min": 1,
+        "extra_conditions": [
+          "冻结包、哈希、协议 JSON、AI 使用日志和上传清单齐全。",
+          "所有 minor 问题都有提交影响判断。",
+          "速度未达标但质量和时限通过时只记 warning，不删减验证。"
+        ]
+      }
+    }
+  ],
+  "actuals_file_contract": {
+    "recommended_path": "training/training_actuals.json",
+    "do_not_overwrite_plan": true,
+    "required_weekly_fields": [
+      "focused_person_hours_actual",
+      "full_problem_runs_accepted",
+      "micro_drills_accepted",
+      "clean_reproduction_passes",
+      "clean_reproduction_attempts",
+      "validated_critical_requirements",
+      "identified_critical_requirements",
+      "branch_coverage_percent_or_not_measured",
+      "verified_chinese_characters_per_hour",
+      "writing_speed_ratio_to_B",
+      "factual_rework_rate_percent",
+      "critical_open",
+      "major_open",
+      "minor_open",
+      "prior_actions_closed",
+      "prior_actions_due",
+      "regression_test_path",
+      "gate_status",
+      "evidence_paths"
+    ],
+    "allowed_gate_status": [
+      "pass",
+      "remediate",
+      "quality_pass_speed_warning"
+    ]
+  }
+}

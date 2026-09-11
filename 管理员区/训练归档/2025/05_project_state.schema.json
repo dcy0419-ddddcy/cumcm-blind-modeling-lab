@@ -1,0 +1,452 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/cumcm/project_state.schema.json",
+  "title": "CUMCM AI Collaboration Project State",
+  "description": "数学建模竞赛中由人类队员与 AI 共同维护的可追溯状态。未知值使用 null，不得猜测。",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "contest",
+    "stage",
+    "compliance",
+    "inputs",
+    "tasks",
+    "assumptions",
+    "models",
+    "runs",
+    "results",
+    "validations",
+    "decisions",
+    "risks",
+    "artifacts",
+    "attestation",
+    "updated_at"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "contest": {
+      "type": "object",
+      "required": [
+        "name",
+        "year",
+        "timezone",
+        "deadline",
+        "selected_problem",
+        "human_confirmed"
+      ],
+      "properties": {
+        "name": {"type": ["string", "null"]},
+        "year": {"type": ["integer", "null"]},
+        "timezone": {"type": ["string", "null"]},
+        "deadline": {"type": ["string", "null"], "format": "date-time"},
+        "selected_problem": {"type": ["string", "null"]},
+        "fallback_problem": {"type": ["string", "null"]},
+        "human_confirmed": {"type": "boolean"}
+      },
+      "additionalProperties": true
+    },
+    "stage": {
+      "type": "object",
+      "required": ["id", "status", "started_at"],
+      "properties": {
+        "id": {
+          "enum": [
+            "S0_INTAKE",
+            "S1_PROBLEM_AUDIT",
+            "S2_SELECTION",
+            "S3_MODEL_V1",
+            "S3_5_BENCHMARK_UNLOCK",
+            "S4_IMPLEMENT",
+            "S5_VALIDATE",
+            "S6_RESULT_FREEZE",
+            "S7_PAPER",
+            "S8_BLIND_AUDIT",
+            "COMPLETE"
+          ]
+        },
+        "status": {
+          "enum": ["READY", "IN_PROGRESS", "NEEDS_INPUT", "BLOCKED", "PASS", "FAIL"]
+        },
+        "started_at": {"type": ["string", "null"], "format": "date-time"},
+        "completed_at": {"type": ["string", "null"], "format": "date-time"},
+        "gate_evidence_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "compliance": {
+      "type": "object",
+      "required": [
+        "rules_received",
+        "ai_policy_confirmed",
+        "human_review_required",
+        "status",
+        "rules"
+      ],
+      "properties": {
+        "rules_received": {"type": "boolean"},
+        "ai_policy_confirmed": {"type": "boolean"},
+        "human_review_required": {"type": "boolean"},
+        "status": {"enum": ["CONFIRMED", "AMBIGUOUS", "MISSING", "BLOCKED"]},
+        "rules": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["rule_id", "source_id", "summary", "status"],
+            "properties": {
+              "rule_id": {"type": "string"},
+              "source_id": {"type": ["string", "null"]},
+              "page": {"type": ["integer", "null"], "minimum": 1},
+              "summary": {"type": "string"},
+              "allowed": {"type": "array", "items": {"type": "string"}},
+              "forbidden": {"type": "array", "items": {"type": "string"}},
+              "disclosure_required": {"type": ["boolean", "null"]},
+              "status": {"enum": ["CONFIRMED", "AMBIGUOUS", "MISSING"]}
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["file_id", "path", "kind", "read_status", "sha256"],
+        "properties": {
+          "file_id": {"type": "string"},
+          "path": {"type": "string"},
+          "kind": {
+            "enum": [
+              "RULE",
+              "PROBLEM",
+              "ATTACHMENT",
+              "TEMPLATE",
+              "LITERATURE",
+              "HISTORICAL_CASE",
+              "CODE",
+              "OTHER"
+            ]
+          },
+          "bytes": {"type": ["integer", "null"], "minimum": 0},
+          "sha256": {
+            "type": ["string", "null"],
+            "pattern": "^[A-Fa-f0-9]{64}$"
+          },
+          "read_status": {"enum": ["OK", "PARTIAL", "FAILED", "NOT_OPENED"]},
+          "source_priority": {"type": ["integer", "null"], "minimum": 1, "maximum": 6},
+          "notes": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "question_id",
+          "required_output",
+          "inputs",
+          "hard_constraints",
+          "units",
+          "status"
+        ],
+        "properties": {
+          "question_id": {"type": "string"},
+          "required_output": {"type": "array", "items": {"type": "string"}},
+          "inputs": {"type": "array", "items": {"type": "string"}},
+          "hard_constraints": {"type": "array", "items": {"type": "string"}},
+          "implicit_constraints": {"type": "array", "items": {"type": "string"}},
+          "units": {"type": "array", "items": {"type": "string"}},
+          "depends_on": {"type": "array", "items": {"type": "string"}},
+          "acceptance_evidence": {"type": "array", "items": {"type": "string"}},
+          "status": {"enum": ["NOT_STARTED", "BASELINE", "SOLVED", "VALIDATED", "FROZEN"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["assumption_id", "text", "source_type", "impact", "status"],
+        "properties": {
+          "assumption_id": {"type": "string"},
+          "text": {"type": "string"},
+          "source_type": {
+            "enum": [
+              "GIVEN",
+              "DATA",
+              "LITERATURE",
+              "TEAM_ASSUMPTION",
+              "DERIVED",
+              "HUMAN_CONFIRMED",
+              "UNVERIFIED"
+            ]
+          },
+          "source_id": {"type": ["string", "null"]},
+          "impact": {"type": "string"},
+          "test": {"type": ["string", "null"]},
+          "status": {"enum": ["PROPOSED", "ACCEPTED", "REJECTED", "UNVERIFIED"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "models": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "model_id",
+          "question_ids",
+          "role",
+          "variables",
+          "equations",
+          "constraints",
+          "solver",
+          "status"
+        ],
+        "properties": {
+          "model_id": {"type": "string"},
+          "question_ids": {"type": "array", "items": {"type": "string"}},
+          "role": {"enum": ["BASELINE", "MAIN", "ENHANCED", "CROSS_CHECK", "REJECTED"]},
+          "variables": {"type": "array", "items": {"type": "string"}},
+          "equations": {"type": "array", "items": {"type": "string"}},
+          "constraints": {"type": "array", "items": {"type": "string"}},
+          "solver": {"type": ["string", "null"]},
+          "adoption_evidence_ids": {"type": "array", "items": {"type": "string"}},
+          "failure_triggers": {"type": "array", "items": {"type": "string"}},
+          "status": {"enum": ["PROPOSED", "IMPLEMENTED", "VALIDATED", "ADOPTED", "REJECTED"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "runs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "run_id",
+          "script",
+          "input_hashes",
+          "config",
+          "status",
+          "outputs"
+        ],
+        "properties": {
+          "run_id": {"type": "string"},
+          "timestamp": {"type": ["string", "null"], "format": "date-time"},
+          "script": {"type": "string"},
+          "code_hash": {
+            "type": ["string", "null"],
+            "pattern": "^[A-Fa-f0-9]{64}$"
+          },
+          "input_hashes": {
+            "type": "array",
+            "items": {
+              "type": ["string", "null"],
+              "pattern": "^[A-Fa-f0-9]{64}$"
+            }
+          },
+          "config": {"type": "object"},
+          "random_seed": {"type": ["integer", "null"]},
+          "elapsed_seconds": {"type": ["number", "null"], "minimum": 0},
+          "status": {"enum": ["PASS", "FAIL", "PARTIAL", "RUNNING"]},
+          "outputs": {"type": "array", "items": {"type": "string"}},
+          "warnings": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "result_id",
+          "question_id",
+          "name",
+          "value_full_precision",
+          "unit",
+          "paper_display",
+          "method_id",
+          "run_id",
+          "constraint_audit",
+          "validation_ids",
+          "claim_strength"
+        ],
+        "properties": {
+          "result_id": {"type": "string"},
+          "question_id": {"type": "string"},
+          "name": {"type": "string"},
+          "value_full_precision": {
+            "type": ["number", "string", "array", "object", "null"]
+          },
+          "unit": {"type": ["string", "null"]},
+          "paper_display": {"type": ["string", "null"]},
+          "method_id": {"type": "string"},
+          "run_id": {"type": "string"},
+          "uncertainty": {
+            "type": ["object", "null"],
+            "properties": {
+              "type": {"type": ["string", "null"]},
+              "lower": {"type": ["number", "null"]},
+              "upper": {"type": ["number", "null"]}
+            },
+            "additionalProperties": true
+          },
+          "constraint_audit": {"enum": ["PASS", "FAIL", "NOT_APPLICABLE"]},
+          "validation_ids": {"type": "array", "items": {"type": "string"}},
+          "claim_strength": {"enum": ["SUPPORTED", "TENTATIVE", "REJECTED"]},
+          "frozen": {"type": "boolean"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "validations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["validation_id", "type", "target_ids", "status", "evidence"],
+        "properties": {
+          "validation_id": {"type": "string"},
+          "type": {
+            "enum": [
+              "UNIT",
+              "DIMENSION",
+              "BOUNDARY",
+              "COUNTEREXAMPLE",
+              "CONVERGENCE",
+              "CROSS_METHOD",
+              "MULTI_SEED",
+              "RESIDUAL",
+              "SENSITIVITY",
+              "UNCERTAINTY",
+              "SYNTHETIC_RECOVERY",
+              "REPRODUCTION",
+              "VISUAL_LAYOUT",
+              "COMPLIANCE"
+            ]
+          },
+          "target_ids": {"type": "array", "items": {"type": "string"}},
+          "status": {"enum": ["PASS", "FAIL", "INCONCLUSIVE"]},
+          "metric": {"type": ["string", "null"]},
+          "threshold": {"type": ["string", "null"]},
+          "evidence": {"type": "array", "items": {"type": "string"}},
+          "impact": {"type": ["string", "null"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["decision_id", "text", "reason", "human_confirmed"],
+        "properties": {
+          "decision_id": {"type": "string"},
+          "text": {"type": "string"},
+          "reason": {"type": "string"},
+          "evidence_ids": {"type": "array", "items": {"type": "string"}},
+          "alternatives": {"type": "array", "items": {"type": "string"}},
+          "human_confirmed": {"type": "boolean"},
+          "timestamp": {"type": ["string", "null"], "format": "date-time"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["risk_id", "severity", "description", "status"],
+        "properties": {
+          "risk_id": {"type": "string"},
+          "severity": {"enum": ["P0", "P1", "P2"]},
+          "description": {"type": "string"},
+          "evidence": {"type": "array", "items": {"type": "string"}},
+          "mitigation": {"type": ["string", "null"]},
+          "owner": {"type": ["string", "null"]},
+          "status": {"enum": ["OPEN", "MITIGATED", "ACCEPTED", "CLOSED"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["artifact_id", "path", "kind", "status"],
+        "properties": {
+          "artifact_id": {"type": "string"},
+          "path": {"type": "string"},
+          "kind": {
+            "enum": [
+              "CODE",
+              "CONFIG",
+              "DATA",
+              "RESULT",
+              "FIGURE",
+              "TABLE",
+              "PAPER",
+              "SUBMISSION",
+              "AUDIT",
+              "LOG"
+            ]
+          },
+          "sha256": {
+            "type": ["string", "null"],
+            "pattern": "^[A-Fa-f0-9]{64}$"
+          },
+          "status": {"enum": ["DRAFT", "VALIDATED", "FROZEN", "SUBMITTED"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "next_actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["action_id", "text", "priority", "owner"],
+        "properties": {
+          "action_id": {"type": "string"},
+          "text": {"type": "string"},
+          "priority": {"enum": ["P0", "P1", "P2"]},
+          "owner": {"type": ["string", "null"]},
+          "due_at": {"type": ["string", "null"], "format": "date-time"},
+          "blocking": {"type": "boolean"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "attestation": {
+      "type": "object",
+      "required": [
+        "fabricated_data",
+        "unverified_citation_count",
+        "unsupported_execution_claim_count",
+        "historical_values_used_in_current_results"
+      ],
+      "properties": {
+        "fabricated_data": {"const": false},
+        "unverified_citation_count": {"type": "integer", "minimum": 0},
+        "unsupported_execution_claim_count": {"type": "integer", "minimum": 0},
+        "historical_values_used_in_current_results": {"const": false}
+      },
+      "additionalProperties": false
+    },
+    "updated_at": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

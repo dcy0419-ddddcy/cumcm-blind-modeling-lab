@@ -1,0 +1,62 @@
+{
+  "question2_scan_0_5_s": [
+    412.47383768211444,
+    [
+      0,
+      8
+    ],
+    -4.884981308350689e-15
+  ],
+  "question2_scan_1_0_s": [
+    412.473837682114,
+    [
+      0,
+      8
+    ],
+    8.215650382226158e-15
+  ],
+  "question3_radial_step_0_02_m": [
+    -1.6209256159527285e-14,
+    4.57260322577051,
+    [
+      0,
+      19
+    ]
+  ],
+  "question5_local_step_0_25_m": {
+    "local_grid_step_m": 0.25,
+    "local_interval_head_s_m": [
+      13.0,
+      16.0
+    ],
+    "grid_peak": 1.6038357577666364,
+    "refined_head_s_m": 14.479969518135324,
+    "refined_amplification": 1.6047933789665916,
+    "head_speed_limit_mps": 1.246266358157523,
+    "co_limiting_handle_indices_within_1e-8": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "question5_local_step_0_125_m": {
+    "local_grid_step_m": 0.125,
+    "local_interval_head_s_m": [
+      13.0,
+      16.0
+    ],
+    "grid_peak": 1.6038357577666364,
+    "refined_head_s_m": 14.479969703949928,
+    "refined_amplification": 1.6047933789665823,
+    "head_speed_limit_mps": 1.2462663581575304,
+    "co_limiting_handle_indices_within_1e-8": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

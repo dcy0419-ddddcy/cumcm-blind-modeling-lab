@@ -1,0 +1,6 @@
+2026-09-05 workbook export verification
+result1.xlsx: reopened successfully; formula-error scan matched 0 entries; inspected 位置!A1:H12 and 速度!A1:H12.
+result2.xlsx: reopened successfully; formula-error scan matched 0 entries; inspected Sheet1!A1:D12 and Sheet1!A217:D225.
+result4.xlsx: reopened successfully; formula-error scan matched 0 entries; inspected 位置!A1:H12 and 速度!A1:H12.
+All five worksheet previews were rendered at scale 2 and reviewed; see visual_check.md and tmp/filled_previews/.
+XLSX ZIP integrity: result1.xlsx=None, result2.xlsx=None, result4.xlsx=None (Python ZipFile.testzip returns None when no corrupt member exists).

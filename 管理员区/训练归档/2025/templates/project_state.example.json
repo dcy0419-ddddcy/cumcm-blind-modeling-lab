@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "contest": {
+    "name": null,
+    "year": null,
+    "timezone": "Asia/Shanghai",
+    "deadline": null,
+    "selected_problem": null,
+    "fallback_problem": null,
+    "human_confirmed": false
+  },
+  "stage": {
+    "id": "S0_INTAKE",
+    "status": "NEEDS_INPUT",
+    "started_at": null,
+    "completed_at": null,
+    "gate_evidence_ids": []
+  },
+  "compliance": {
+    "rules_received": false,
+    "ai_policy_confirmed": false,
+    "human_review_required": true,
+    "status": "MISSING",
+    "rules": []
+  },
+  "inputs": [],
+  "tasks": [],
+  "assumptions": [],
+  "models": [],
+  "runs": [],
+  "results": [],
+  "validations": [],
+  "decisions": [],
+  "risks": [
+    {
+      "risk_id": "P0-RULES",
+      "severity": "P0",
+      "description": "当届竞赛规则与 AI 使用政策尚未上传并人工确认",
+      "evidence": [],
+      "mitigation": "上传官方规则并由队员核查",
+      "owner": null,
+      "status": "OPEN"
+    }
+  ],
+  "artifacts": [],
+  "next_actions": [
+    {
+      "action_id": "A-001",
+      "text": "上传当届规则、题面、附件和提交模板",
+      "priority": "P0",
+      "owner": null,
+      "due_at": null,
+      "blocking": true
+    }
+  ],
+  "attestation": {
+    "fabricated_data": false,
+    "unverified_citation_count": 0,
+    "unsupported_execution_claim_count": 0,
+    "historical_values_used_in_current_results": false
+  },
+  "updated_at": null
+}
